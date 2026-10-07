@@ -1,0 +1,245 @@
+{
+  "checked_utc": "2026-10-07T07:30:31.254016+00:00",
+  "attempt_count": 24,
+  "reviews": [
+    {
+      "id": "sustainability.html",
+      "requested_url": "https://www.mdpi.com/2071-1050/18/17/8967",
+      "http_status": 0,
+      "original_validation": "pending_manual_inspection",
+      "validation": "no_parent_verified_file"
+    },
+    {
+      "id": "systems_user_url.html",
+      "requested_url": "https://www.mdpi.com/2079-8954/14/7/734",
+      "http_status": 0,
+      "original_validation": "pending_manual_inspection",
+      "validation": "no_parent_verified_file"
+    },
+    {
+      "id": "systems_literal_crossref.json",
+      "requested_url": "https://api.crossref.org/works/10.3390/systems14070734",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 16514,
+      "sha256": "bde988acd3d09c0263b8bbd3d0ad26dc4a551e74d0507dacc2719738b0167ca8",
+      "hash_match": true,
+      "bytes_match": true,
+      "validation": "frozen_body_hash_only_semantic_scope_in_neighbors_record"
+    },
+    {
+      "id": "sustainability_crossref.json",
+      "requested_url": "https://api.crossref.org/works/10.3390/su18178967",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 26050,
+      "sha256": "3cb46c3802c14bee98a0dd8588adf65b7f3bd3a7a31f1b88a1062d950db623d0",
+      "hash_match": true,
+      "bytes_match": true,
+      "validation": "frozen_body_hash_only_semantic_scope_in_neighbors_record"
+    },
+    {
+      "id": "sustainability.xml",
+      "requested_url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-18-08967/article_deploy/sustainability-18-08967.xml",
+      "http_status": 0,
+      "original_validation": "pending_manual_inspection",
+      "validation": "no_parent_verified_file"
+    },
+    {
+      "id": "procurement_abs_v1.html",
+      "requested_url": "https://arxiv.org/abs/2607.23426v1",
+      "http_status": 0,
+      "original_validation": "pending_manual_inspection",
+      "validation": "no_parent_verified_file"
+    },
+    {
+      "id": "procurement_v1.html",
+      "requested_url": "https://arxiv.org/html/2607.23426v1",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 1599831,
+      "sha256": "5c7f48da7fc4a87747e454c8568e9e75fa1ca4f09d1b3bd4254e32f9c7a79f28",
+      "hash_match": true,
+      "bytes_match": true,
+      "validation": "frozen_body_hash_only_semantic_scope_in_neighbors_record"
+    },
+    {
+      "id": "macro_abs_latest.html",
+      "requested_url": "https://arxiv.org/abs/2402.04828",
+      "http_status": 0,
+      "original_validation": "pending_manual_inspection",
+      "validation": "no_parent_verified_file"
+    },
+    {
+      "id": "macro_v3.html",
+      "requested_url": "https://arxiv.org/html/2402.04828v3",
+      "http_status": 0,
+      "original_validation": "pending_manual_inspection",
+      "validation": "no_parent_verified_file"
+    },
+    {
+      "id": "sustainability_requests.html",
+      "requested_url": "https://www.mdpi.com/2071-1050/18/17/8967",
+      "http_status": 403,
+      "original_validation": "pending_manual_inspection",
+      "validation": "no_parent_verified_file"
+    },
+    {
+      "id": "sustainability_requests.xml",
+      "requested_url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-18-08967/article_deploy/sustainability-18-08967.xml",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 318872,
+      "sha256": "2e7d07885a8e4216b6425d314941018f18569a0280f19b8e283123aae114c35d",
+      "hash_match": true,
+      "bytes_match": true,
+      "actual_title": "Is China’s National Carbon-Allowance Price Predictable? An Interpretable Machine Learning and Volatility Analysis Around the 2025 Market Expansion",
+      "actual_doi": "10.3390/su18178967",
+      "validation": "article_metadata_and_body_present",
+      "body_section_count": 7
+    },
+    {
+      "id": "systems_requests.html",
+      "requested_url": "https://www.mdpi.com/2079-8954/14/7/734",
+      "http_status": 403,
+      "original_validation": "pending_manual_inspection",
+      "validation": "no_parent_verified_file"
+    },
+    {
+      "id": "systems_requests.xml",
+      "requested_url": "https://mdpi-res.com/d_attachment/systems/systems-14-00734/article_deploy/systems-14-00734.xml",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 379235,
+      "sha256": "1c8635f76732a9b0e069d4e7a4d648ca590dd805726f669b0d04b88050bde6cd",
+      "hash_match": true,
+      "bytes_match": true,
+      "actual_title": "IQTN: An Interpretable Quantile Temporal Network for Systems-Oriented Tail-Risk Forecasting and Early Warning in Carbon Allowance Market",
+      "actual_doi": "10.3390/systems14070734",
+      "validation": "article_metadata_and_body_present",
+      "body_section_count": 4
+    },
+    {
+      "id": "macro_abs_requests.html",
+      "requested_url": "https://arxiv.org/abs/2402.04828",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 44278,
+      "sha256": "96a9f700caa5cd6914f3040354176bc184d6a25c05d47109996789c191550187",
+      "hash_match": true,
+      "bytes_match": true,
+      "validation": "frozen_body_hash_only_semantic_scope_in_neighbors_record"
+    },
+    {
+      "id": "macro_v3_requests.html",
+      "requested_url": "https://arxiv.org/html/2402.04828v3",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 1614435,
+      "sha256": "3f150ee322b10248eccd23f73c68eeabb9e02d715c8b1a6d8b8742ae68021f7e",
+      "hash_match": true,
+      "bytes_match": true,
+      "validation": "frozen_body_hash_only_semantic_scope_in_neighbors_record"
+    },
+    {
+      "id": "procurement_abs_requests.html",
+      "requested_url": "https://arxiv.org/abs/2607.23426v1",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 41935,
+      "sha256": "34368033993265fcfcb7b437cb3e623b9c04424e9e68d11bd76e403bdf1c506e",
+      "hash_match": true,
+      "bytes_match": true,
+      "validation": "frozen_body_hash_only_semantic_scope_in_neighbors_record"
+    },
+    {
+      "id": "leakage.xml",
+      "requested_url": "https://mdpi-res.com/d_attachment/energies/energies-17-04358/article_deploy/energies-17-04358.xml",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 196174,
+      "sha256": "1731eacc49d10732ca4557dcaf8e3e0f24c5e202dbfbf027e68d31f88116cc28",
+      "hash_match": true,
+      "bytes_match": true,
+      "actual_title": "Carbon Price Forecasting Using Optimized Sliding Window Empirical Wavelet Transform and Gated Recurrent Unit Network to Mitigate Data Leakage",
+      "actual_doi": "10.3390/en17174358",
+      "validation": "article_metadata_and_body_present",
+      "body_section_count": 4
+    },
+    {
+      "id": "fusion_crossref.json",
+      "requested_url": "https://api.crossref.org/works/10.1016/j.sftr.2026.101847",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 31478,
+      "sha256": "3b3739b3c8c255dcf5b40d30fc4d71b5070ec7bbeaa2ae480bf19afd130e6264",
+      "hash_match": true,
+      "bytes_match": true,
+      "validation": "frozen_body_hash_only_semantic_scope_in_neighbors_record"
+    },
+    {
+      "id": "fusion_publisher.xml",
+      "requested_url": "https://api.elsevier.com/content/article/doi/10.1016/j.sftr.2026.101847",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 1990,
+      "sha256": "037b404890ebb6f5ee9269f66fbf03d74fc02f6e837b25b4d1d292045fadc2b9",
+      "hash_match": true,
+      "bytes_match": true,
+      "validation": "frozen_body_hash_only_semantic_scope_in_neighbors_record"
+    },
+    {
+      "id": "fusion.html",
+      "requested_url": "https://www.sciencedirect.com/science/article/pii/S2666188826002042",
+      "http_status": 403,
+      "original_validation": "pending_manual_inspection",
+      "validation": "no_parent_verified_file"
+    },
+    {
+      "id": "liao_publisher.xml",
+      "requested_url": "https://journals.plos.org/plosone/article/file",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 127335,
+      "sha256": "53ae1c24ea093b134b9b8ab88d1e83344c1fd25427f844d7d2a0b4d0f229d0f0",
+      "hash_match": true,
+      "bytes_match": true,
+      "actual_title": "A study on factors influencing the national carbon emission trading price in China",
+      "actual_doi": "10.1371/journal.pone.0333788",
+      "validation": "article_metadata_and_body_present",
+      "body_section_count": 3
+    },
+    {
+      "id": "fusion_public_abstract.xml",
+      "requested_url": "https://api.elsevier.com/content/article/pii/S2666188826002042",
+      "http_status": 401,
+      "original_validation": "pending_manual_inspection",
+      "validation": "no_parent_verified_file"
+    },
+    {
+      "id": "procurement_v1.pdf",
+      "requested_url": "https://arxiv.org/pdf/2607.23426v1",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 7776445,
+      "sha256": "0ba1a6b4caf6d74ad7b63fe1f9641bab66d0f9dfae55c1509035e102dc9b63c5",
+      "hash_match": true,
+      "bytes_match": true,
+      "validation": "pdf_magic_only_parent_did_not_read_every_page"
+    },
+    {
+      "id": "macro_v3.pdf",
+      "requested_url": "https://arxiv.org/pdf/2402.04828v3",
+      "http_status": 200,
+      "original_validation": "pending_manual_inspection",
+      "bytes": 879028,
+      "sha256": "606d646258a4a7e49cd2d8df37f2c1c5e16499000484db7366c0abf9ec409df0",
+      "hash_match": true,
+      "bytes_match": true,
+      "validation": "pdf_magic_only_parent_did_not_read_every_page"
+    }
+  ],
+  "does_not_promote_http_success_to_fulltext_reading": true,
+  "original_receipts_preserved_local_only": true,
+  "temporary_redirect_urls_not_copied": true
+}

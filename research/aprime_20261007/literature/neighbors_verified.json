@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "verification_date": "2026-10-07",
+  "mode": "local_cached_primary_sources_only",
+  "network_search_this_completion": false,
+  "model_training": false,
+  "author_code_execution": false,
+  "counts": {
+    "records": 7,
+    "required": 4,
+    "additional": 3,
+    "F": 6,
+    "I": 1
+  },
+  "citation_ledger": "citation_ledger.json",
+  "citation_numbering": "继承现有18条id→URL，不reset、不重编号",
+  "comparison_boundary": "全国年度配额品种的日频价格；综合价＋年度品种价差；与同信息集/同样本的直接品种预测比较。年度是品种年份，不是年度平均价、一年预测期限或年度排放。",
+  "evidence_levels": {
+    "F": "取得全文并定向阅读关键章节，不等于逐页通读、原数据审计或预测复现",
+    "I": "仅身份元数据；未读摘要和实验全文"
+  },
+  "global_conclusion": "已读范围未发现完整同题，不证明创新成立；身份受限文献保持未知；本次不是系统综述，不证明现有文献不存在同题。",
+  "performance_policy": "所有样本规模/设置是作者报告；作者成绩不可信，不用于本轮判断，不执行作者程序",
+  "redistribution_policy": "不公开private_evidence、全文、访问收据、临时签名redirectURL或日频面板；仅稳定来源、阅读定位、短证据和自己的概括",
+  "records": [
+    {
+      "key": "sustainability_8967",
+      "role": "required",
+      "identifier": "10.3390/su18178967",
+      "title": "Is China’s National Carbon-Allowance Price Predictable? An Interpretable Machine Learning and Volatility Analysis Around the 2025 Market Expansion",
+      "citation_ids": [
+        5,
+        4
+      ],
+      "evidence_level": "F",
+      "read_scope": [
+        "XML front与摘要",
+        "§3.1–3.3",
+        "§4.1–4.6",
+        "§5.7、§6.8–6.9",
+        "表16–17直接解析原始XML核对"
+      ],
+      "dates": {
+        "first_online": "2026-09-01",
+        "issue_month": "2026-09"
+      },
+      "conflicts": [],
+      "target": "全国CEA日收盘；先预测下一交易日对数收益再还原价格，不是逐年度配额品种联合点预测。",
+      "sample": "作者称2021-07-16至2026-07-06、1203价格观察；删除82零价vendor行；共同952外部预测目标。删除规则不认证本项目官方成交状态。",
+      "protocol": "初始250观察、每60日重估的共同扩展外窗与三分扩展内窗；训练折内预处理；RW等基准。发布时间×首次公开/最终历史值二维对照。表17是既有日预测聚合周/月，不是新训练的直接周/月模型。",
+      "overlap": "全国CEA、共同样本、嵌套扩展验证、RW和发布时间/首次值分离已经覆盖，不能单独称为新意。",
+      "difference": "已读目标与方法未发现逐年度配额代码价格、综合价＋年度品种价差结构，以及同信息集直接品种预测的完整对照；不据此证明有效贡献。",
+      "unknown": "Wind原件、删除行、作者预测成绩未复现；首次公开重建不是全部后续修订档案；发电代理21/28日滞后是可得性假设，不是完整认证。",
+      "sources": [
+        {
+          "citation_id": 5,
+          "url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-18-08967/article_deploy/sustainability-18-08967.xml"
+        },
+        {
+          "citation_id": 4,
+          "url": "https://api.crossref.org/works/10.3390/su18178967"
+        }
+      ],
+      "local_sources": [
+        {
+          "path": "private_evidence/sustainability_requests.xml",
+          "sha256": "2e7d07885a8e4216b6425d314941018f18569a0280f19b8e283123aae114c35d",
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/sustainability_requests.xml.reading.txt",
+          "sha256": null,
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/sustainability_crossref.json",
+          "sha256": null,
+          "redistribution": "private_only"
+        }
+      ],
+      "short_evidence": {
+        "quote": "This separates timing from value-vintage effects.",
+        "anchor": "§4.1，reading.txt第48行",
+        "citation_id": 5
+      },
+      "comparison_conclusion": "已读范围未发现完整同题，不证明创新成立"
+    },
+    {
+      "key": "systems_iqtn",
+      "role": "required",
+      "identifier": "10.3390/systems14070734",
+      "title": "IQTN: An Interpretable Quantile Temporal Network for Systems-Oriented Tail-Risk Forecasting and Early Warning in Carbon Allowance Market",
+      "citation_ids": [
+        10,
+        3
+      ],
+      "evidence_level": "F",
+      "read_scope": [
+        "XML front与摘要",
+        "§2.4–2.10",
+        "§2.13–2.16标题/定位",
+        "§3.1描述"
+      ],
+      "dates": {
+        "first_online": "2026-06-24",
+        "issue_month": "2026-07",
+        "crossref_created": "2026-07-07T15:02:56Z",
+        "frozen_xml_check_date": "2026-10-07",
+        "first_publication_version_equivalence": "not_certified"
+      },
+      "conflicts": [
+        {
+          "type": "date_type_difference",
+          "detail": "online、collection与Crossref created分别保留，created不是首发日期。"
+        },
+        {
+          "type": "frozen_version_uncertainty",
+          "detail": "本轮核对2026-10-07本地冻结XML及SHA-256；不保证其等于首次出版版。未取得可用/notes版本证据，不采用任何具体PDF/XML/HTML更新时间，也不推断内容改动。"
+        }
+      ],
+      "target": "全国CEA未来1/5/10交易日负对数收益损失的上尾分位数、VaR/CVaR和预警，不是年度品种价格点预测。",
+      "sample": "作者训练2021-07-16至2024-12-31、验证2025-01-01至2025-06-30、测试2025-07-01至2026-01-30；保留无官方成交但公布收盘的交易日，周末假日不插值。",
+      "protocol": "20交易日输入；训练期标准化；完整h日标签必须留在对应分区；验证pinball loss选模型。特征门控归一化的是predictor权重，不是年度配额编制或交易权重。",
+      "overlap": "全国CEA、时序验证、流动性及无成交报价日处理、多期限风险预测已有。",
+      "difference": "已读对象是损失上尾风险分布；未发现年度配额品种目标和综合价差分解；门控不能解释为年度配额权重。",
+      "unknown": "未认证全报价面板、官方品种代码、原数据及作者成绩；causal卷积不等于政策因果识别；冻结XML不保证首次版。",
+      "sources": [
+        {
+          "citation_id": 10,
+          "url": "https://mdpi-res.com/d_attachment/systems/systems-14-00734/article_deploy/systems-14-00734.xml"
+        },
+        {
+          "citation_id": 3,
+          "url": "https://api.crossref.org/works/10.3390/systems14070734"
+        }
+      ],
+      "local_sources": [
+        {
+          "path": "private_evidence/systems_requests.xml",
+          "sha256": "1c8635f76732a9b0e069d4e7a4d648ca590dd805726f669b0d04b88050bde6cd",
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/systems_requests.xml.reading.txt",
+          "sha256": null,
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/systems_literal_crossref.json",
+          "sha256": null,
+          "redistribution": "private_only"
+        }
+      ],
+      "short_evidence": {
+        "quote": "The forecasting target is future carbon market loss rather than future carbon price.",
+        "anchor": "§2.5，reading.txt第50行",
+        "citation_id": 10
+      },
+      "comparison_conclusion": "已读范围未发现完整同题，不证明创新成立"
+    },
+    {
+      "key": "procurement_2607",
+      "role": "required",
+      "identifier": "2607.23426v1",
+      "title": "Do Carbon Price Forecasts Improve Compliance Procurement? Evidence from European Union Allowances",
+      "citation_ids": [
+        7,
+        6,
+        17
+      ],
+      "evidence_level": "F",
+      "read_scope": [
+        "官方abs原始HTML citation元数据与submission history",
+        "HTML §2.1–2.4、§3.1–3.4",
+        "摘要/采购目标与附录A定位",
+        "PDF仅前部封面及版本边栏"
+      ],
+      "dates": {
+        "checked_version": "v1",
+        "submission_utc": "2026-07-26T02:54:26Z",
+        "pdf_cover_date": "2026-07-28",
+        "html_display_date": "2026-08-24",
+        "latest_claim_scope": "只核对本地v1及官方v1页面，不宣称全部在线后续版本已穷尽"
+      },
+      "conflicts": [
+        {
+          "type": "unresolved_date_conflict",
+          "detail": "v1提交2026-07-26；PDF封面2026-07-28；HTML正文2026-08-24，分别保留，不自行裁定为同一日期，不保证三份正文逐字一致。"
+        }
+      ],
+      "target": "滚动最近12月交割ICE EUA期货连续日收盘水平，直接联合预测1–5交易日路径，另作模拟履约采购；不是EUA现货、单固定到期合约或中国年度配额品种。",
+      "sample": "作者原始价格2019-01-02起；burn-in后1721交易日，2019-04-25至2025-12-31；173测试观察产生169完整五日期源。",
+      "protocol": "17:00 London截止及实际发布可得性；较晚美国收盘次期进入。验证后冻结Transformer/GRU权重、校准、期限来源与发布规则；测试仅更新已可得状态；共同期源基准含RW。",
+      "overlap": "实时信息边界、验证冻结、直接多期限预测、共同RW与履约采购用途已出现。",
+      "difference": "EUA期货连续合约与全国年度配额品种对象不同；已读范围未发现全国综合价＋年度品种价差/直接品种比较完整同题。",
+      "unknown": "日期冲突保留；作者预测和采购成绩、冲击/容量/成本假设及价格档案未独立复核。",
+      "sources": [
+        {
+          "citation_id": 7,
+          "url": "https://arxiv.org/html/2607.23426v1"
+        },
+        {
+          "citation_id": 6,
+          "url": "https://arxiv.org/abs/2607.23426v1"
+        },
+        {
+          "citation_id": 17,
+          "url": "https://arxiv.org/pdf/2607.23426v1"
+        }
+      ],
+      "local_sources": [
+        {
+          "path": "private_evidence/procurement_v1.html",
+          "sha256": "5c7f48da7fc4a87747e454c8568e9e75fa1ca4f09d1b3bd4254e32f9c7a79f28",
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/procurement_v1.html.reading.txt",
+          "sha256": null,
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/procurement_abs_requests.html",
+          "sha256": null,
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/procurement_v1.pdf",
+          "sha256": "0ba1a6b4caf6d74ad7b63fe1f9641bab66d0f9dfae55c1509035e102dc9b63c5",
+          "redistribution": "private_only"
+        }
+      ],
+      "short_evidence": {
+        "quote": "not an EUA spot price or a single fixed-expiry contract.",
+        "anchor": "§2.1，reading.txt第24行",
+        "citation_id": 7
+      },
+      "comparison_conclusion": "已读范围未发现完整同题，不证明创新成立"
+    },
+    {
+      "key": "macro_2402",
+      "role": "required",
+      "identifier": "2402.04828v3",
+      "title": "Forecasting the Price of Carbon with Macroeconomic and Financial variables",
+      "citation_ids": [
+        9,
+        8,
+        18
+      ],
+      "evidence_level": "F",
+      "read_scope": [
+        "无版本官方abs原始HTML citation元数据与v1–v3 submission history",
+        "HTML摘要、§1、§3.1–3.3、§4.5、§5.3",
+        "补充S.4.2、S.4.6相关定位",
+        "PDF仅前部封面与v3边栏"
+      ],
+      "dates": {
+        "first_submission_utc": "2024-02-07T13:24:49Z",
+        "v2_submission_utc": "2024-02-20T16:01:25Z",
+        "latest_in_cached_official_page": "v3",
+        "v3_submission_utc": "2026-10-03T08:56:33Z",
+        "pdf_cover_month": "2026-09",
+        "html_cover_month": "2026-09",
+        "latest_claim_scope": "本地冻结无版本abs列到v3且PDF边栏确认；本轮未重访在线页面"
+      },
+      "conflicts": [
+        {
+          "type": "date_type_difference",
+          "detail": "v1首发2024-02-07、v3提交2026-10-03与封面2026-09分别保留；封面不替代版本日期。HTML标题为Supplementary Material，但正文含主文与补充。未另读关联期刊DOI全文。"
+        }
+      ],
+      "target": "ICE一个月期EUA期货日价月均、HICP平减实际价，月频点/方向/密度预测1–12个月；另预测年度核验排放插值的月频序列。",
+      "sample": "作者称2012-06至2023-09、136月；扩展窗初估至2017-12；共同评价2018-12至2023-09。",
+      "protocol": "BVAR/BFAVAR、随机波动与20宏观/能源/金融/天气预测变量，因子递归抽取。年度排放Chow–Lin插值；§4.5及补充讨论前视并做剔除敏感性。",
+      "overlap": "宏观/金融因子、RW、扩展窗、长预测期限和排放规划用途已出现。",
+      "difference": "一年预测期限或年度排放不是全国年度配额品种；已读范围未发现综合价差/直接品种比较完整同题。",
+      "unknown": "剔除插值排放的作者结果不是完整实时认证；各宏观/HICP/排放观察的首次发布时间、历史首次值及后续修订路径未核实；作者成绩未复现。",
+      "sources": [
+        {
+          "citation_id": 9,
+          "url": "https://arxiv.org/html/2402.04828v3"
+        },
+        {
+          "citation_id": 8,
+          "url": "https://arxiv.org/abs/2402.04828"
+        },
+        {
+          "citation_id": 18,
+          "url": "https://arxiv.org/pdf/2402.04828v3"
+        }
+      ],
+      "local_sources": [
+        {
+          "path": "private_evidence/macro_v3_requests.html",
+          "sha256": "3f150ee322b10248eccd23f73c68eeabb9e02d715c8b1a6d8b8742ae68021f7e",
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/macro_v3_requests.html.reading.txt",
+          "sha256": null,
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/macro_abs_requests.html",
+          "sha256": null,
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/macro_v3.pdf",
+          "sha256": "606d646258a4a7e49cd2d8df37f2c1c5e16499000484db7366c0abf9ec409df0",
+          "redistribution": "private_only"
+        }
+      ],
+      "short_evidence": {
+        "quote": "the interpolation process induces a look-ahead bias",
+        "anchor": "§4.5，reading.txt第97行",
+        "citation_id": 9
+      },
+      "comparison_conclusion": "已读范围未发现完整同题，不证明创新成立"
+    },
+    {
+      "key": "leakage_swewt",
+      "role": "additional",
+      "identifier": "10.3390/en17174358",
+      "title": "Carbon Price Forecasting Using Optimized Sliding Window Empirical Wavelet Transform and Gated Recurrent Unit Network to Mitigate Data Leakage",
+      "citation_ids": [
+        11
+      ],
+      "evidence_level": "F",
+      "read_scope": [
+        "XML front与摘要",
+        "§2.2、2.6、3.1–3.2、3.4.2"
+      ],
+      "dates": {
+        "first_online": "2024-08-31",
+        "issue_month": "2024-09"
+      },
+      "conflicts": [],
+      "target": "广东GDEA日收盘；SWEWT历史窗口分解与GRU预测。",
+      "sample": "作者称2014-03-11至2023-03-10、1972交易日；按时间7:1:2划分。",
+      "protocol": "训练集min–max；历史窗口分解；验证TPE；比较整样本、train+valid、train以及各区间滑窗四种泄漏情形。",
+      "overlap": "历史分解、防全样本泄漏已研究，不能单独作为新意。",
+      "difference": "试点单序列，不是全国年度品种/综合结构；已读范围未发现完整同题。",
+      "unknown": "leakage-free是作者方法表述，非本轮全管线审计；原数据、调参和作者成绩未复现。",
+      "sources": [
+        {
+          "citation_id": 11,
+          "url": "https://mdpi-res.com/d_attachment/energies/energies-17-04358/article_deploy/energies-17-04358.xml"
+        }
+      ],
+      "local_sources": [
+        {
+          "path": "private_evidence/leakage.xml",
+          "sha256": "1731eacc49d10732ca4557dcaf8e3e0f24c5e202dbfbf027e68d31f88116cc28",
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/leakage.xml.reading.txt",
+          "sha256": null,
+          "redistribution": "private_only"
+        }
+      ],
+      "short_evidence": {
+        "quote": "Because the decomposition process solely involves historical values",
+        "anchor": "§2.2，reading.txt第34行",
+        "citation_id": 11
+      },
+      "comparison_conclusion": "已读范围未发现完整同题，不证明创新成立"
+    },
+    {
+      "key": "liao_factors",
+      "role": "additional",
+      "identifier": "10.1371/journal.pone.0333788",
+      "title": "A study on factors influencing the national carbon emission trading price in China",
+      "citation_ids": [
+        15
+      ],
+      "evidence_level": "F",
+      "read_scope": [
+        "XML front与摘要",
+        "§2.1–2.3定位，重点§2.2/表1",
+        "§3.1、§3.3"
+      ],
+      "dates": {
+        "first_online": "2025-10-07",
+        "issue_year": "2025"
+      },
+      "conflicts": [],
+      "target": "全国CEA日均成交价（非日收盘）；VEC长期关系、脉冲响应及方差分解。",
+      "sample": "作者称2021-07-16至2024-08-31、760组，剔除非交易日；CEA来自CSMAR、EUA来自Wind、排放来自Carbon Monitor。",
+      "protocol": "对数处理与协整/VEC/IRF/方差分解；已读方法没有给出嵌套共同样本RW预测竞赛。",
+      "overlap": "全国价格和电力/能源/宏观/交易量因素已研究。",
+      "difference": "日均成交价不能无说明替换综合收盘或年度品种报价；归因/动态关系不是年度品种样本外预测。",
+      "unknown": "§2.2 explanatory variable措辞有歧义，§3.1明确CEA dependent variable；首次可得历史、原数据、因果性与作者数值未认证。",
+      "sources": [
+        {
+          "citation_id": 15,
+          "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0333788&type=manuscript"
+        }
+      ],
+      "local_sources": [
+        {
+          "path": "private_evidence/liao_publisher.xml",
+          "sha256": "53ae1c24ea093b134b9b8ab88d1e83344c1fd25427f844d7d2a0b4d0f229d0f0",
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/liao_publisher.xml.reading.txt",
+          "sha256": null,
+          "redistribution": "private_only"
+        }
+      ],
+      "short_evidence": {
+        "quote": "The average daily trading price",
+        "anchor": "§2.2，reading.txt第51行",
+        "citation_id": 15
+      },
+      "comparison_conclusion": "已读范围未发现完整同题，不证明创新成立"
+    },
+    {
+      "key": "fusion_identity",
+      "role": "additional",
+      "identifier": "10.1016/j.sftr.2026.101847",
+      "title": "Hybrid forecasting of carbon emission price in China based on multimodal data feature fusion and multiscale decomposition strategy",
+      "citation_ids": [
+        12,
+        13
+      ],
+      "evidence_level": "I",
+      "read_scope": [
+        "Crossref DOI/title/publication字段",
+        "Elsevier XML coredata身份与cover字段；没有摘要/body"
+      ],
+      "dates": {
+        "issue_month": "2026-06",
+        "publisher_cover_date": "2026-06-30",
+        "first_online": null,
+        "crossref_created": "2026-04-07T09:02:46Z",
+        "license_vor_start": "2026-04-04",
+        "date_warning": "Crossref created、license start和月末coverDate不认证首次在线发表日。"
+      },
+      "conflicts": [],
+      "target": "未知：题名提及中国碳价、多模态融合及多尺度分解，具体市场、指标、年度品种与期限未读。",
+      "sample": "未知。",
+      "protocol": "未知：没有取得摘要及实验全文。",
+      "overlap": "仅题名层面的融合/多尺度方向接近，不能推导其实际设计。",
+      "difference": "未知；受限材料不能排除此文已包含完整同题。",
+      "unknown": "样本、品种代码、时点、泄漏控制、比较基准及作者成绩全未知。API XML元素名含full-text不代表实际有全文。",
+      "sources": [
+        {
+          "citation_id": 12,
+          "url": "https://api.crossref.org/works/10.1016/j.sftr.2026.101847"
+        },
+        {
+          "citation_id": 13,
+          "url": "https://api.elsevier.com/content/article/doi/10.1016/j.sftr.2026.101847?httpAccept=text/xml"
+        }
+      ],
+      "local_sources": [
+        {
+          "path": "private_evidence/fusion_crossref.json",
+          "sha256": "3b3739b3c8c255dcf5b40d30fc4d71b5070ec7bbeaa2ae480bf19afd130e6264",
+          "redistribution": "private_only"
+        },
+        {
+          "path": "private_evidence/fusion_publisher.xml",
+          "sha256": "037b404890ebb6f5ee9269f66fbf03d74fc02f6e837b25b4d1d292045fadc2b9",
+          "redistribution": "private_only"
+        }
+      ],
+      "short_evidence": {
+        "quote": "doi:10.1016/j.sftr.2026.101847",
+        "anchor": "Elsevier XML coredata/dc:identifier",
+        "citation_id": 13
+      },
+      "comparison_conclusion": "身份核验不足，完整同题状态未知，不能排除"
+    }
+  ]
+}

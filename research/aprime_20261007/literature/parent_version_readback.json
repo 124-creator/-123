@@ -1,0 +1,66 @@
+{
+  "checked_utc": "2026-10-07T07:35:35.548778+00:00",
+  "records": [
+    {
+      "file": "macro_abs_requests.html",
+      "sha256": "96a9f700caa5cd6914f3040354176bc184d6a25c05d47109996789c191550187",
+      "submission_history_text": "Submission history From: Elisabetta Mirto [ view email ] [v1] Wed, 7 Feb 2024 13:24:49 UTC (228 KB) [v2] Tue, 20 Feb 2024 16:01:25 UTC (228 KB) [v3] Sat, 3 Oct 2026 08:56:33 UTC (538 KB)"
+    },
+    {
+      "file": "procurement_abs_requests.html",
+      "sha256": "34368033993265fcfcb7b437cb3e623b9c04424e9e68d11bd76e403bdf1c506e",
+      "submission_history_text": "Submission history From: Difang Huang [ view email ] [v1] Sun, 26 Jul 2026 02:54:26 UTC (6,240 KB)"
+    },
+    {
+      "file": "sustainability_requests.xml",
+      "sha256": "2e7d07885a8e4216b6425d314941018f18569a0280f19b8e283123aae114c35d",
+      "publisher_dates": [
+        {
+          "attrs": {
+            "pub-type": "epub"
+          },
+          "date_components": {
+            "day": "01",
+            "month": "09",
+            "year": "2026"
+          }
+        },
+        {
+          "attrs": {
+            "pub-type": "collection"
+          },
+          "date_components": {
+            "month": "09",
+            "year": "2026"
+          }
+        }
+      ]
+    },
+    {
+      "file": "systems_requests.xml",
+      "sha256": "1c8635f76732a9b0e069d4e7a4d648ca590dd805726f669b0d04b88050bde6cd",
+      "publisher_dates": [
+        {
+          "attrs": {
+            "pub-type": "epub"
+          },
+          "date_components": {
+            "day": "24",
+            "month": "06",
+            "year": "2026"
+          }
+        },
+        {
+          "attrs": {
+            "pub-type": "collection"
+          },
+          "date_components": {
+            "month": "07",
+            "year": "2026"
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "frozen primary metadata readback; no inference about unrecorded subsequent changes"
+}

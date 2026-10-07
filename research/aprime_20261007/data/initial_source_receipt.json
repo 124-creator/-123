@@ -1,0 +1,120 @@
+{
+  "executed_utc": "2026-10-07T06:56:03.068497+00:00",
+  "scope": "22 selected inputs only, not original-project full-directory final audit",
+  "source_count": 22,
+  "inputs": [
+    {
+      "path": "data/local_only/cea_composite_live.json",
+      "sha256": "42806966ff22ba1601e055d086027696946b2a523bc441669ed676d0a919a4b2",
+      "bytes": 69240
+    },
+    {
+      "path": "data/local_only/cea_19_20_live.json",
+      "sha256": "4fe62285a1358e88f3637f2d1b5adbfd593e48230858a37077b911c9d5e6c2cf",
+      "bytes": 65969
+    },
+    {
+      "path": "data/local_only/cea_vintage_CEA21.json",
+      "sha256": "56259e781c426ab12d4cec25340f9189c0ae0f2daafdb318ca46f70dd8fe24ad",
+      "bytes": 38405
+    },
+    {
+      "path": "data/local_only/cea_vintage_CEA22.json",
+      "sha256": "8836482d1b6b25e7578d8accd26e80d1eb55e6f60e134320ad070f275bf4736b",
+      "bytes": 39425
+    },
+    {
+      "path": "data/local_only/cea_vintage_CEA23.json",
+      "sha256": "07c28efd3d97c23fba1cc67681647306787e38a9f4ebd392907ca351d274139f",
+      "bytes": 24800
+    },
+    {
+      "path": "data/local_only/cea_vintage_CEA24.json",
+      "sha256": "129a7bc3db7e28a92530b8f4a2bd562abac14f1b4d78c28e1a3495a50797a8e5",
+      "bytes": 18220
+    },
+    {
+      "path": "data/local_only/cea_vintage_CEA25.json",
+      "sha256": "ae198ae94a240b5366f06a79c41de8e54135850db097c671ac308d3a90f98eb4",
+      "bytes": 9965
+    },
+    {
+      "path": "data/local_only/gdea_api_page1.json",
+      "sha256": "c2c2a5fc37687702a35f9d2c851db4b792d37f49577eaba96594a1715e368d30",
+      "bytes": 396080
+    },
+    {
+      "path": "data/local_only/gdea_api_page2.json",
+      "sha256": "a9248b65fcb40de8c4b8bd6e99b8f66182c96e26f3c6ca98799ec82079ba5c09",
+      "bytes": 390154
+    },
+    {
+      "path": "data/local_only/gdea_api_page3.json",
+      "sha256": "b66be4d28dbf3b7c7b9c2702a1399659fa4c68ba2a30a3049adb84266ae9ba40",
+      "bytes": 325272
+    },
+    {
+      "path": "data/local_only/hbea_same_day_snapshot_reused.zip",
+      "sha256": "ad5a96a0839b86df748562e7beb30f1f28800c90a7d869f9c4461a23f76135e7",
+      "bytes": 1646150
+    },
+    {
+      "path": "data/raw/eia/RBRTEd.xls",
+      "sha256": "bf3da33d21e30b387cc543bb1d6690d123ffd9b196f37cabd8624e9f9c08ecd1",
+      "bytes": 452096
+    },
+    {
+      "path": "data/raw/eia/RWTCd.xls",
+      "sha256": "60b717dd40815cb5e482ddcf115662a028cefd47d9f495e67d110eae00f7e421",
+      "bytes": 471040
+    },
+    {
+      "path": "data/raw/eia/RNGWHHDd.xls",
+      "sha256": "8e1a3202a31c4b4d98be1341d0a6e8478c7c1d2c71ab9353e602bce8f4d8cfd7",
+      "bytes": 294912
+    },
+    {
+      "path": "data/raw/policy_uncertainty/China_Mainland_Paper_EPU.xlsx",
+      "sha256": "48796e91014bec671fcc4ae1751dc7b2a5b0491b68c0d2cec0018e2f0685882f",
+      "bytes": 48887
+    },
+    {
+      "path": "data/raw/author_wang_2020/data.xlsx",
+      "sha256": "6467ef254c1d04e9afd01de664e77be050a389d9551150ca3176a9db9decb266",
+      "bytes": 89700
+    },
+    {
+      "path": "data/parsed/brent_eia_daily.csv",
+      "sha256": "b8559fe1f84ed5d257bd4e3a4acdb86fad2d3a424bfafbfefa4ceab791317908",
+      "bytes": 263773
+    },
+    {
+      "path": "data/parsed/wti_eia_daily.csv",
+      "sha256": "0e0235d46a2268de8301a129d4591fa97c3591b91700461bf2cb00a5abf0a18c",
+      "bytes": 275430
+    },
+    {
+      "path": "data/parsed/henryhub_eia_daily.csv",
+      "sha256": "6d2ef25475f8e07450ec515b06fd874b370942cdc2e5c5c9632af424ffb247fe",
+      "bytes": 187467
+    },
+    {
+      "path": "data/parsed/china_mainland_epu.csv",
+      "sha256": "50f477089f02a6cf487cf80b694f49699e96772ec6d43b399f4bfcc36c497e42",
+      "bytes": 36939
+    },
+    {
+      "path": "data/parsed/china_mainland_tpu.csv",
+      "sha256": "f09df7fcf8c4dfc7549ea001ec7382ee98df83097da9136ea3e90b268a9e483e",
+      "bytes": 14499
+    },
+    {
+      "path": "data/parsed/author_wang_eu_futures.csv",
+      "sha256": "4b39bcb8be0676e805173bd235c6b9e2964b1737e8fc29126df7a5dbce461a26",
+      "bytes": 35419
+    }
+  ],
+  "all_matched_frozen_manifests": true,
+  "model_training_ran": false,
+  "old_model_results_read": false
+}

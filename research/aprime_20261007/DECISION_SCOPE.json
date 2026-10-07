@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-10-07",
+  "scope_record_type": "Historical local research gate. Its commit/push restriction describes the earlier local-only phase, not the later public handoff authorization in SCOPE.md and PUBLICATION_NOTES.json.",
+  "later_publication_scope": "Whitelisted public handoff is authorized; model training remains unauthorized. Publishing this historical gate does not certify novelty or journal eligibility.",
+  "status": "conditional_candidate_not_locked",
+  "candidate_target": "CEA22 historical vintage-specific negotiated-listing daily closing quote",
+  "candidate_comparison_period": {
+    "from_inclusive": "2023-08-28",
+    "until_exclusive": "2026-01-05"
+  },
+  "candidate_auxiliary_target": "CEA21 on common forecast origins",
+  "current_2026_CEA25_composite_target_gap": "excluded by single-positive-weight identity; not an innovation candidate",
+  "current_scope_allows_carbon_model_training": false,
+  "current_scope_allows_commit_or_push": false,
+  "price_is_last_trade_or_executable_quote": false,
+  "historical_first_release_archive_certified": false,
+  "official_exchange_calendar_independently_certified": false,
+  "institutionally_recognized_CAS3_journal_confirmed": false,
+  "formal_learning_algorithm_and_protocol_frozen": false,
+  "main_loss_and_horizon": "MAE and h=5 are proposals/availability diagnostics, not frozen experimental choices",
+  "inspection_disclosure": "Target choice and availability diagnostics use the full frozen historical snapshot. This is exploratory retrospective research design, not a claim that the historical evaluation window has never been viewed or that future outcomes were unknown to the researchers.",
+  "permitted_inference": "Descriptive feasibility and algebraic conditions only; no predictive gain, procurement savings, trade-state authenticity or policy causality is established.",
+  "next_gate_before_training": [
+    "Certify exchange trading calendar; preserve absent quote dates and the two composite gaps.",
+    "Declare snapshot-based retrospective evaluation separately from fully versioned real-time evidence.",
+    "Freeze economic target, inputs, common origins, learning losses, overall capacity/search budgets and meaningful-gain criterion without selecting on forecast performance.",
+    "Verify that the narrowed claim differs from the read nearest-neighbor problems; novelty remains unconfirmed.",
+    "Supply the institution's recognized CAS edition/category and SCIE/SSCI eligibility requirements."
+  ],
+  "stop_conditions": [
+    "Only RW(C)+unchanged_basis or a common fixed linear operator is proposed as a novel mapping.",
+    "The proposed target is contemporaneous CEA25 versus composite after 2026-01-05.",
+    "The forecast target, admissible histories/calendar or sufficient evaluation precision cannot be defended.",
+    "Any apparent gain disappears after prespecified fair information/sample/capacity comparison with adequate precision.",
+    "The narrowed problem has already been fully covered by a verified nearest neighbor."
+  ]
+}

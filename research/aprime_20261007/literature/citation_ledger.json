@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.mdpi.com/2071-1050/18/17/8967",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "url": "https://www.mdpi.com/2079-8954/14/7/734",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "url": "https://api.crossref.org/works/10.3390/systems14070734",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "IQTN: An Interpretable Quantile Temporal Network",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://api.crossref.org/works/10.3390/su18178967",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "National Carbon-Allowance Price Predictable?",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-18-08967/article_deploy/sustainability-18-08967.xml",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "This separates timing from value-vintage effects.",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://arxiv.org/abs/2607.23426v1",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "Sun, 26 Jul 2026 02:54:26 UTC",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://arxiv.org/html/2607.23426v1",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "not an EUA spot price or a single fixed-expiry contract.",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://arxiv.org/abs/2402.04828",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "Sat, 3 Oct 2026 08:56:33 UTC",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://arxiv.org/html/2402.04828v3",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "the interpolation process induces a look-ahead bias",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://mdpi-res.com/d_attachment/systems/systems-14-00734/article_deploy/systems-14-00734.xml",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "The forecasting target is future carbon market loss rather than future carbon price.",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://mdpi-res.com/d_attachment/energies/energies-17-04358/article_deploy/energies-17-04358.xml",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "Because the decomposition process solely involves historical values",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://api.crossref.org/works/10.1016/j.sftr.2026.101847",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "Hybrid forecasting of carbon emission price in China",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://api.elsevier.com/content/article/doi/10.1016/j.sftr.2026.101847?httpAccept=text/xml",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "Hybrid forecasting of carbon emission price in China",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666188826002042",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 15,
+      "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0333788&type=manuscript",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "The average daily trading price",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://api.elsevier.com/content/article/pii/S2666188826002042?view=META_ABS&httpAccept=text/xml",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 17,
+      "url": "https://arxiv.org/pdf/2607.23426v1",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "July 28, 2026",
+          "added": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "url": "https://arxiv.org/pdf/2402.04828v3",
+      "title": "",
+      "accessed": "2026-10-07",
+      "quotes": [
+        {
+          "text": "Luca Rossini September 2026",
+          "added": "2026-10-07"
+        }
+      ]
+    }
+  ]
+}

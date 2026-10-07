@@ -1,0 +1,22 @@
+{
+  "executed_utc": "2026-10-07T07:09:36.897289+00:00",
+  "data_tests_normal": {
+    "run": 6,
+    "passed": 6
+  },
+  "data_tests_optimized": {
+    "run": 6,
+    "passed": 6
+  },
+  "audit_executed_in_optimized_interpreter": true,
+  "aggregate_payload_equal_except_execution_timestamp": true,
+  "csv_bytes_equal": {
+    "target_scope_statistics.csv": true,
+    "forecast_availability.csv": true
+  },
+  "regime_reconstruction_total": 1262,
+  "reconstruction_differences_gt_one_cent": 0,
+  "target_scope_records": 49,
+  "availability_records": 84,
+  "model_training_ran": false
+}

@@ -1,0 +1,203 @@
+{
+  "edition": "public_review_handoff_20261007",
+  "created_utc": "2026-10-07T09:58:21.617160+00:00",
+  "authorization": "User explicitly requested pushing this round before supplying the Pro review prompt.",
+  "historical_receipts_are_not_current_push_receipts": true,
+  "original_local_files_modified": false,
+  "quote_panel_or_third_party_fulltexts_published": false,
+  "automatic_citation_validation": "blocked_not_authorized; not retried or bypassed",
+  "historical_textbook_citation_scope": "Past citation OK entries in design/algebra_receipt.json concern the FPP3 textbook source only; they do not validate the seven-paper neighbor report or its blocked strict citation gate.",
+  "historical_textbook_access_process": {
+    "status": "not_revalidated_not_approved",
+    "observed_record": "The historical algebra receipt records an extractor network-address safety block followed by a native curl fetch.",
+    "limitation": "The publication preserves this unresolved history but neither repeats nor retroactively approves the access route; citation OK does not establish process compliance."
+  },
+  "independent_review_process_incident": {
+    "review_id": "deleg_f012c68e",
+    "accepted_as_passed": false,
+    "finding": "The reviewing child reported executing a same-purpose static scan through execute_code after its terminal scan had been denied. Its process approval is invalid; no passed review is claimed.",
+    "material_logic_errors_reported": [],
+    "citation_gate_retried": false,
+    "parent_retry_of_denied_scan": false
+  },
+  "fresh_review_authorization": {
+    "user_response": "授权重新执行合规的只读发布核查",
+    "scope": "Prospective read-only publication-safety review only; not a retroactive approval of the prior process violation and not permission to rerun the blocked literature citation validation.",
+    "on_new_denial": "Stop immediately; no fallback execution through another tool."
+  },
+  "changes": [
+    "Local interpreter/user paths are redacted; portable instructions use python.",
+    "The workbook was renamed target_feasibility.xlsx without changing its bytes.",
+    "Only parent_results_normal aggregate results are copied; duplicate v2/-O outputs remain local.",
+    "market_rules.json incoming count context is corrected to 569 vintage quote dates versus 568 common composite dates, using the existing independent aggregate audit.",
+    "FINAL_VALIDATION.json and DECISION_SCOPE.json describe the earlier local research gate, not this later publication authorization.",
+    "Past receipt hashes identify past local editions; metadata/publication_manifest.json identifies current public bytes.",
+    "Standalone historical-scope notes were added to DECISION_SCOPE.json, the algebra and institution reports, and the algebra receipt; prior factual records are preserved.",
+    "The historical textbook access route is explicitly not revalidated or approved; the Pro prompt repeats this boundary."
+  ],
+  "private_evidence_notice": "private_evidence/ and _evidence/ paths in metadata refer to local-only bodies, not files available in this repository.",
+  "copied_artifacts": [
+    {
+      "local_source_member": "00_研究核验结论.md",
+      "public_path": "FINDINGS.md",
+      "original_member_sha256": "8cf8ac029c3d11ffed82a3145843fc5732a4a5a9d4adf0f3502715f98980de58",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "DECISION_SCOPE.json",
+      "public_path": "DECISION_SCOPE.json",
+      "original_member_sha256": "6235e701ff05a7b32089d0a065fc03d8923b9dbf3111be1f78dee02e527df5ee",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "FINAL_VALIDATION.json",
+      "public_path": "FINAL_VALIDATION.json",
+      "original_member_sha256": "2f44e019f431816ab259bda5ce93825febd4516ec4d4df2989517493742ce6ba",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "data/DATA_TARGET_FEASIBILITY.md",
+      "public_path": "data/DATA_TARGET_FEASIBILITY.md",
+      "original_member_sha256": "409c33f6aa8cf75a0d3bf73f160815fe3a403f183e70b6f75b403f67207a2073",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "data/audit_target_feasibility.py",
+      "public_path": "data/audit_target_feasibility.py",
+      "original_member_sha256": "2cceb8c899560b5d01fccd143c6b57320964179e931f951349f6a5ce887ff2e1",
+      "public_edition_transformed": false
+    },
+    {
+      "local_source_member": "data/test_target_feasibility.py",
+      "public_path": "data/test_target_feasibility.py",
+      "original_member_sha256": "f1f44a246a995e30ee2f4048b7eb575c1d51e677920fdf1f0c476be50d644a5b",
+      "public_edition_transformed": false
+    },
+    {
+      "local_source_member": "data/data_validation_receipt.json",
+      "public_path": "data/data_validation_receipt.json",
+      "original_member_sha256": "d897306993bc10b7f852225e5c65645259aaf72ef71344ee9397bc1dd28bb660",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "data/initial_source_receipt.json",
+      "public_path": "data/initial_source_receipt.json",
+      "original_member_sha256": "dc11c438b36536d266d477b7f25eedb0b8dc7ea1cc4a9506f829c4e50facbfdd",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "data/parent_results_normal/target_feasibility.json",
+      "public_path": "data/parent_results_normal/target_feasibility.json",
+      "original_member_sha256": "c6791a399f79d9bdcb385e51aee09da084dd0881e24a21b488dd82ccde796811",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "data/parent_results_normal/target_scope_statistics.csv",
+      "public_path": "data/parent_results_normal/target_scope_statistics.csv",
+      "original_member_sha256": "6634b37d699ffa7c4a32ed5851a7372726fe07c9c20f86606c42ef086935527e",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "data/parent_results_normal/forecast_availability.csv",
+      "public_path": "data/parent_results_normal/forecast_availability.csv",
+      "original_member_sha256": "d9efd0962f0975de7c09e2ebeaf7a7650643c98d12ae39874cbac809f82e8b07",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "data/workbook_spec.json",
+      "public_path": "data/workbook_spec.json",
+      "original_member_sha256": "d73f93900e6898727c8f498afcd6b4d4562e547b002f12e424f6859ceaa89798",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "design/EQUIVALENCE_AND_DESIGN.md",
+      "public_path": "design/EQUIVALENCE_AND_DESIGN.md",
+      "original_member_sha256": "d89b4187760e287ad7fb6908f4cabbf372eba565d7df2277a00f4fb4e05b565d",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "design/algebra_checks.py",
+      "public_path": "design/algebra_checks.py",
+      "original_member_sha256": "0186fbd25764ebc91b144c22c0fbfdc877991cc27035a88f401f681321c32d5f",
+      "public_edition_transformed": false
+    },
+    {
+      "local_source_member": "design/test_algebra_checks.py",
+      "public_path": "design/test_algebra_checks.py",
+      "original_member_sha256": "0ba0615211a868c6e70beb9d63ff14ed9fc26bd81dec0ee0e9535f7d5642673c",
+      "public_edition_transformed": false
+    },
+    {
+      "local_source_member": "design/algebra_receipt.json",
+      "public_path": "design/algebra_receipt.json",
+      "original_member_sha256": "3fa72682c77a71dbb13dbb34fb4ee79f8050c7704384ad495d53a7cf79be1a0e",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "institution/MARKET_CONTRACT.md",
+      "public_path": "institution/MARKET_CONTRACT.md",
+      "original_member_sha256": "35e0a922a7aa7e071af3052fc519442123aa4caa47a24c3d132dea83b25f3268",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "institution/market_rules.json",
+      "public_path": "institution/market_rules.json",
+      "original_member_sha256": "318a0b285a7a6450d55a88f653cc365c447281ff4b9109abe8d3b62b05d2b88e",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "institution/journal_gate_update.json",
+      "public_path": "institution/journal_gate_update.json",
+      "original_member_sha256": "c683a3675777f65dfb18ad25911075a1ca833d1920853e596d73fccb4713288c",
+      "public_edition_transformed": false
+    },
+    {
+      "local_source_member": "literature/NEIGHBOR_COMPARISON.md",
+      "public_path": "literature/NEIGHBOR_COMPARISON.md",
+      "original_member_sha256": "159a9fdbcdd3ae112fdc6d6ce94597c18e6ea72844f71e3e9cce8f0b9626fdba",
+      "public_edition_transformed": false
+    },
+    {
+      "local_source_member": "literature/neighbors_verified.json",
+      "public_path": "literature/neighbors_verified.json",
+      "original_member_sha256": "4ae520aef524217471abe013ef0287cb9dc7b9531f62c42c81b72accfcad8522",
+      "public_edition_transformed": false
+    },
+    {
+      "local_source_member": "literature/citation_ledger.json",
+      "public_path": "literature/citation_ledger.json",
+      "original_member_sha256": "a4229851b80be66643062f0b443367868ba6a4442981bc6cdcd23fdd55e9daa1",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "literature/access_review_parent.json",
+      "public_path": "literature/access_review_parent.json",
+      "original_member_sha256": "796d686d00a82df577ae861e3abf1c5917f80ac3c4fafd308c8c0fe3c99d4fc7",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "literature/parent_version_readback.json",
+      "public_path": "literature/parent_version_readback.json",
+      "original_member_sha256": "5e10c442fe00420cc7812932ef003b534c77d280502ec2c2a39c7e2f13456453",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "parent_test_runs.json",
+      "public_path": "parent_test_runs.json",
+      "original_member_sha256": "3b6984705dc1fb67177f69f3e2eda798d4d1d23a4b3244d3b87f4ebce6b28cb7",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "parent_original_integrity.json",
+      "public_path": "parent_original_integrity.json",
+      "original_member_sha256": "dc81f5e3cde003ca244bda84357c93648c8e2d7c8306b6f93efa137e856a6c0d",
+      "public_edition_transformed": true
+    },
+    {
+      "local_source_member": "年度目标与共同起点_20261007.xlsx",
+      "public_path": "target_feasibility.xlsx",
+      "original_member_sha256": "158a943acc22327db68817d5e77fb06b379ef204ac0e933b3100c5d6f0600f25",
+      "public_edition_transformed": false
+    }
+  ]
+}

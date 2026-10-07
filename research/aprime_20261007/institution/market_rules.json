@@ -1,0 +1,1308 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-07",
+  "language": "zh-CN",
+  "scope": "中国全国碳排放权交易市场；非上海地方碳市场",
+  "old_experiment_scores_used": false,
+  "complete_panels_publishable": false,
+  "evidence_access_is_not_republication_permission": true,
+  "regimes": [
+    {
+      "effective_from": "2021-07-16",
+      "effective_to": "2023-08-27",
+      "weights": {
+        "CEA": "1"
+      },
+      "scheme": "仅2019—2020；2023方案回述此阶段",
+      "launch_dates_evidence_separate": true,
+      "evidence_keys": [
+        "price_channel",
+        "market_started"
+      ],
+      "weight_sum": "1"
+    },
+    {
+      "effective_from": "2023-08-28",
+      "effective_to": "2024-10-27",
+      "weights": {
+        "CEA": "1/3",
+        "CEA21": "1/3",
+        "CEA22": "1/3"
+      },
+      "evidence_keys": [
+        "launch21_22",
+        "weight23"
+      ],
+      "weight_sum": "1"
+    },
+    {
+      "effective_from": "2024-10-28",
+      "effective_to": "2025-04-28",
+      "weights": {
+        "CEA": "1/4",
+        "CEA21": "1/4",
+        "CEA22": "1/4",
+        "CEA23": "1/4"
+      },
+      "evidence_keys": [
+        "launch23",
+        "weight24version"
+      ],
+      "weight_sum": "1"
+    },
+    {
+      "effective_from": "2025-04-29",
+      "effective_to": "2026-01-04",
+      "weights": {
+        "CEA": "1/5",
+        "CEA21": "1/5",
+        "CEA22": "1/5",
+        "CEA23": "1/5",
+        "CEA24": "1/5"
+      },
+      "evidence_keys": [
+        "launch24",
+        "weight25"
+      ],
+      "weight_sum": "1"
+    },
+    {
+      "effective_from": "2026-01-05",
+      "effective_to": null,
+      "verified_as_of": "2026-10-07",
+      "weights": {
+        "CEA": "0",
+        "CEA21": "0",
+        "CEA22": "0",
+        "CEA23": "0",
+        "CEA24": "0",
+        "CEA25": "1"
+      },
+      "evidence_keys": [
+        "launch25",
+        "weight26",
+        "weight26_old"
+      ],
+      "note": "旧年度仍列行情样本但价格权重为0；不是六等权，不证明旧年度暂停交易",
+      "weight_sum": "1"
+    }
+  ],
+  "products": [
+    {
+      "json_subject": "comcea",
+      "cn_label": "综合行情",
+      "vintage_years": null,
+      "role": "官方编制价格，不是独立年度可交付交易合约",
+      "evidence_keys": [
+        "code_comcea",
+        "price_channel"
+      ]
+    },
+    {
+      "json_subject": "CEA",
+      "cn_label": "碳排放配额19-20",
+      "vintage_years": [
+        2019,
+        2020
+      ],
+      "role": "当前JSON的旧年度配额；正文CEA亦可作配额统称，按上下文区分",
+      "evidence_keys": [
+        "renameCEA",
+        "code_CEA"
+      ]
+    },
+    {
+      "json_subject": "CEA21",
+      "cn_label": "碳排放配额21",
+      "vintage_years": [
+        2021
+      ],
+      "listed_from": "2023-08-28",
+      "evidence_keys": [
+        "launch21_22",
+        "code_CEA"
+      ]
+    },
+    {
+      "json_subject": "CEA22",
+      "cn_label": "碳排放配额22",
+      "vintage_years": [
+        2022
+      ],
+      "listed_from": "2023-08-28",
+      "evidence_keys": [
+        "launch21_22",
+        "code_CEA"
+      ]
+    },
+    {
+      "json_subject": "CEA23",
+      "cn_label": "碳排放配额23",
+      "vintage_years": [
+        2023
+      ],
+      "listed_from": "2024-10-28",
+      "evidence_keys": [
+        "launch23",
+        "code_CEA"
+      ]
+    },
+    {
+      "json_subject": "CEA24",
+      "cn_label": "碳排放配额24",
+      "vintage_years": [
+        2024
+      ],
+      "listed_from": "2025-04-29",
+      "evidence_keys": [
+        "launch24",
+        "code_CEA"
+      ]
+    },
+    {
+      "json_subject": "CEA25",
+      "cn_label": "碳排放配额25",
+      "vintage_years": [
+        2025
+      ],
+      "listed_from": "2026-01-05",
+      "evidence_keys": [
+        "launch25",
+        "code_CEA"
+      ]
+    }
+  ],
+  "historical_json_contract": {
+    "endpoints_base": "https://overview.cneeex.com/zhhq/jsonData/",
+    "row_layout": "[日期, 开盘, 收盘, 最低, 最高, 报告挂牌成交数量]",
+    "row_width": 6,
+    "not_six_price_fields": true,
+    "fields": [
+      {
+        "index_0_based": 0,
+        "name": "quote_date",
+        "cn": "报价日期",
+        "raw_type": "ISO日期字符串 YYYY-MM-DD",
+        "unit": null,
+        "meaning": "日行情日期，不是采集时刻；页面有一行不等于有成交",
+        "evidence_keys": [
+          "column_shift"
+        ]
+      },
+      {
+        "index_0_based": 1,
+        "name": "open_price",
+        "cn": "开盘价",
+        "raw_type": "十进制数值字符串",
+        "unit": "元/吨二氧化碳当量",
+        "meaning": "年度品种：当日挂牌首笔价；无挂牌成交按规则延续前收；综合：任意年度首笔挂牌达成时按生效权重计算",
+        "evidence_keys": [
+          "vintage_carry",
+          "composite_open_carry",
+          "units",
+          "vintage_open"
+        ]
+      },
+      {
+        "index_0_based": 2,
+        "name": "close_price",
+        "cn": "收盘价",
+        "raw_type": "十进制数值字符串",
+        "unit": "元/吨二氧化碳当量",
+        "meaning": "年度品种：当日所有挂牌成交数量加权平均；无挂牌成交前收延续；综合：年度收盘的制度权重合成",
+        "not_equivalent_to": [
+          "大宗交易均价",
+          "全市场全部方式成交均价",
+          "最后一笔成交价",
+          "下一笔可成交价格"
+        ],
+        "evidence_keys": [
+          "vintage_close",
+          "vintage_carry",
+          "composite_close"
+        ]
+      },
+      {
+        "index_0_based": 3,
+        "name": "low_price_raw",
+        "cn": "最低价原始栏",
+        "raw_type": "十进制数值字符串",
+        "unit": "元/吨二氧化碳当量",
+        "meaning": "历史JSON最低价栏；综合最高/最低遵循其编制定义，不直接用年度各自日极值加权；量为字符串0时前端显示--.--，原始0.00保留为占位状态",
+        "evidence_keys": [
+          "low_high_sentinel",
+          "quantity_label",
+          "composite_low"
+        ]
+      },
+      {
+        "index_0_based": 4,
+        "name": "high_price_raw",
+        "cn": "最高价原始栏",
+        "raw_type": "十进制数值字符串",
+        "unit": "元/吨二氧化碳当量",
+        "meaning": "历史JSON最高价栏；和最低价相同占位处理",
+        "evidence_keys": [
+          "low_high_sentinel",
+          "quantity_label",
+          "composite_high"
+        ]
+      },
+      {
+        "index_0_based": 5,
+        "name": "reported_listing_quantity",
+        "cn": "报告挂牌成交数量",
+        "raw_type": "数量数值字符串；原文保留",
+        "unit": "吨二氧化碳当量",
+        "meaning": "历史K线前端挂牌成交量，不是全部方式总成交量；综合量是报告市场挂牌量，非正权重目标的活跃状态",
+        "zero_means": "该端点该栏报告0，不能单凭此栏证明所有交易渠道或全部经济交易不存在",
+        "missing_means": "null/缺列/--必须保留缺失，不转数值0",
+        "evidence_keys": [
+          "column_shift",
+          "quantity_label",
+          "daily_listing",
+          "daily_block"
+        ]
+      }
+    ],
+    "current_subject_array_url": "https://overview.cneeex.com/zhhq/jsonData/subject.json",
+    "current_subjects": [
+      "CEA",
+      "CEA21",
+      "CEA22",
+      "CEA23",
+      "CEA24",
+      "CEA25",
+      "comcea"
+    ],
+    "live_snapshot_through": "2026-09-30",
+    "publication_time_and_historical_first_availability_verified": false,
+    "legacy_endpoint_warning": {
+      "url": "https://overview.cneeex.com/sshqt/jsonData/hiskline.json",
+      "last_quote_date": "2023-08-29",
+      "note": "sshqt旧路径仍HTTP200但终止2023；不能与当前zhhq同名文件混用"
+    },
+    "initial_new_vintage_reference_price_rule_verified": false
+  },
+  "pricing_channel": {
+    "underlying_channel": "挂牌协议交易",
+    "underlying_daily_close": "当日挂牌成交数量加权平均价；无该渠道成交时沿用前收",
+    "composite_close": "sum(active_regime_weight * vintage_listing_close)",
+    "not_block_vwap": true,
+    "not_all_channel_vwap": true,
+    "not_last_trade_price": true,
+    "not_guaranteed_executable_price": true,
+    "all_rows_trade_status_authenticated": false,
+    "evidence_keys": [
+      "price_channel",
+      "vintage_close",
+      "vintage_carry",
+      "composite_close"
+    ]
+  },
+  "carry_and_compliance": {
+    "power_2023_2024": {
+      "signed_on": "2024-10-15",
+      "source_notice_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/t20241021_1089750.html",
+      "source_pdf_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "pdf_pages_1_based": [
+        7,
+        8,
+        15,
+        16,
+        17,
+        18
+      ],
+      "use_earlier_vintages_allowed": true,
+      "borrow_later_vintages_allowed": false,
+      "CEA24_for_2023_or_earlier_allowed": false,
+      "2023_compliance_deadline": "2024-12-31",
+      "2024_compliance_deadline": "2025-12-31",
+      "evidence_keys": [
+        "old_eligible",
+        "no_borrow",
+        "no_2024_prior"
+      ]
+    },
+    "transition_2019_2024_to_2025": {
+      "old_vintages": [
+        "CEA",
+        "CEA21",
+        "CEA22",
+        "CEA23",
+        "CEA24"
+      ],
+      "unconverted_for_2025_and_later_compliance_allowed": false,
+      "ordinary_application_deadline": "2026-06-10",
+      "ordinary_window_status_on_2026_10_07": "已结束；不得写成未来计划",
+      "power_base_tonnes": 10000,
+      "net_sales_window": [
+        "2024-01-01",
+        "2025-12-31"
+      ],
+      "net_sales_definition": "上述2019—2024年度卖出总量减买入总量，负值取0",
+      "multiplier": "1.5",
+      "max_conversion_formula": "min(H_2025, floor(B + 1.5 * max(net_sales_2024_2025,0)))",
+      "H_2025_definition": "2025-12-31 23:59注登系统显示的2019—2024持仓，含交易可用、登记可用、司法冻结；扣除已提交履约/自愿注销等尚未审核通过的数量",
+      "eligibility": "需按规定在2024-12-31前完成2023履约且2025-12-31前完成2024履约；司法冻结解冻后补申请例外保留",
+      "submit_requirements": [
+        "收到结转通知书",
+        "待结转配额先由交易持仓划至登记持仓",
+        "单次不超可用量、累计不超最大量",
+        "提出申请后冻结至回收",
+        "回收等量发放CEA25；不把未处理申请算成可交易CEA25"
+      ],
+      "original_processing_schedule": [
+        "2026-03-27前处理截至2026-03-20申请",
+        "2026-06-26前处理2026-03-21至2026-06-10申请；五个工作日内等量发放"
+      ],
+      "supplement": "2026-01-02落款、2026-01-04网页通知：2026-01-05 23:59前申请可在2026-01-06提前处理，故原批次不是唯一实际安排",
+      "judicial_exception": "法院裁定解冻后可补交申请；未发现普通主体的普遍延期凭据",
+      "trading_suspension_of_all_old_vintages_verified": false,
+      "evidence_keys": [
+        "no_unconverted",
+        "carry_window",
+        "base",
+        "multiplier",
+        "application_freeze",
+        "judicial_exception",
+        "early_processing",
+        "holding_cap",
+        "net_sale_window",
+        "floor_max",
+        "eligibility_submission",
+        "equal_conversion"
+      ]
+    },
+    "steel_cement_aluminium_2024_2025": {
+      "signed_on": "2025-11-16",
+      "issued_on": "2025-11-17",
+      "source_notice_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202511/t20251118_1134175.html",
+      "source_pdf_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202511/W020251118634892868994.pdf",
+      "pdf_pages_1_based": [
+        8,
+        9,
+        10
+      ],
+      "base_tonnes_per_new_industry": 100000,
+      "multi_industry_base": "各所纳入行业基础结转量之和；不能统一套1万吨",
+      "other_conversion_rules": "参照2024发电方案",
+      "CEA2024_allocation_route": "2024核定配额发至省级主管部门登记账户直接用于清缴，不发至企业登记账户",
+      "cross_industry_origin_allowed": true,
+      "unconverted_2019_2024_for_2025_and_later_compliance_allowed": false,
+      "CEA25_later_use": "可按照有关规定用于后续年度清缴；不是任何未来年度永久无条件适用",
+      "evidence_keys": [
+        "metal_base",
+        "metal_noconvert",
+        "metal_2024_delivery",
+        "cross_industry"
+      ]
+    },
+    "2025_compliance": {
+      "source_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk06/202602/t20260209_1143900.html",
+      "signed_on": "2026-01-27",
+      "metadata_generated_on": "2026-02-09",
+      "deadline": "2026-12-31",
+      "scope": [
+        "发电",
+        "钢铁",
+        "水泥",
+        "铝冶炼"
+      ],
+      "actual_all_entities_completed_by_deadline_verified": false,
+      "evidence_keys": [
+        "2025_deadline"
+      ]
+    },
+    "latest_allocation_checked": {
+      "source_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202609/t20260903_1165029.html",
+      "pdf_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202609/W020260903551498752549.pdf",
+      "signed_on": "2026-09-01",
+      "issued_on": "2026-09-02",
+      "scope": "2025/2026发电及2026新增三行业；2025新增三行业仍按2024/2025方案",
+      "first_available_historical_vintage_verified": false,
+      "evidence_keys": [
+        "latest2026scope"
+      ]
+    },
+    "power_2021_2022": {
+      "source_notice_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202303/t20230315_1019707.html",
+      "signed_on": "2023-03-13",
+      "issued_on": "2023-03-15",
+      "compliance_deadline": "2023-12-31",
+      "official_use_and_trade_explanation_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk13/202311/t20231106_1055186.html",
+      "reply_displayed_and_signed_date": "2023-08-01",
+      "URL_path_date_warning": "2023-11-06不是页内发布/落款日期",
+      "all_2019_2022_can_use_for_2021_2022_compliance_and_trade": true,
+      "borrowing_exception": "缺口率至少10%、经营困难等条件主体可申请预支2023部分预分配配额，上限年度缺口50%；只可本单位该年度履约，不交易/抵押，2023核定清缴等量抵扣",
+      "evidence_keys": [
+        "historic2019_2022_use",
+        "historic2021_2022_deadline",
+        "historic_borrow_exception"
+      ]
+    }
+  },
+  "economic_questions": [
+    {
+      "id": "E1",
+      "question": "官方综合报价对某一合规年度挂牌收盘价能否提供额外预测信息？",
+      "status": "有条件成立，未证明预测收益",
+      "continue_if": [
+        "目标年度/使用目的明确",
+        "共同预测起点、相同信息集与目标匹配随机游走",
+        "正权重制度分段，组件和综合对齐",
+        "样本与非重复变化数达到预先定义门槛"
+      ],
+      "stop_if": [
+        "仅在2026研究CEA25与综合的同期价差：制度下恒为0",
+        "只重构官方权重公式",
+        "只把C+B改写当方法创新"
+      ],
+      "scope": "预测报价，不等于可执行成交成本"
+    },
+    {
+      "id": "E2",
+      "question": "报价更新与挂牌无刷新规则是否影响预测评估？",
+      "status": "制度动机成立；交易状态需按渠道及正权重组件认证",
+      "continue_if": [
+        "报告数量、缺失、占位、年度组件成交状态分离",
+        "共同日历预测期限、状态于预测起点可得",
+        "零收益不当无成交标签"
+      ],
+      "stop_if": [
+        "综合挂牌总量被当CEA25活跃量",
+        "只有全渠道混合数量却声称识别挂牌刷新",
+        "想由金额除数量恢复综合收盘或潜在有效价格"
+      ]
+    },
+    {
+      "id": "E3",
+      "question": "结转约束是否影响持仓、年度价差和交易时机？",
+      "status": "经济机制有制度依据；无企业材料不得声称实际响应",
+      "continue_if": [
+        "企业行业、缺口、年度持仓、净卖出和申请资格可观测或显式情景假设",
+        "年份用途及交易渠道与可用量匹配"
+      ],
+      "stop_if": [
+        "推断所有企业都关心最新年度",
+        "以日收盘代替企业可执行买卖价格",
+        "没有企业需求仍宣称真实采购节约"
+      ]
+    },
+    {
+      "id": "E4",
+      "question": "制度修改是否因果改变价格或流动性？",
+      "status": "目前只能描述，因果门未通过",
+      "continue_if": [
+        "明确识别假设与估计对象",
+        "处理预期和提前行为",
+        "控制同期履约截止、新年度上市、供给及扩围变化",
+        "有效对照/反事实、共同趋势或其他设计假设可辩护"
+      ],
+      "stop_if": [
+        "仅前后对比/注意力/SHAP/预测误差变化",
+        "只凭生效日期把混合政策变化称外生冲击"
+      ]
+    },
+    {
+      "id": "E5",
+      "question": "年度配额预测能否改进真实合规采购？",
+      "status": "未成立；可以限定为不证明真实节约的场景模拟",
+      "continue_if": [
+        "企业应清缴量、可用年度持仓、转换处理日期",
+        "可执行买卖报价/深度/成交时间、数量约束",
+        "交易及其他费用、预算与风险偏好",
+        "独立样本外成本基准"
+      ],
+      "stop_if": [
+        "只有收盘及历史挂牌数量",
+        "无可成交性和主体需求材料"
+      ]
+    }
+  ],
+  "evidence": {
+    "price_channel": {
+      "source_id": 1,
+      "url": "https://overview.cneeex.com/c/2023-08-25/494452.shtml",
+      "short_original": "Py为各年度碳排放配额挂牌协议交易的价格。",
+      "scope": "全国综合价格；不是所有交易方式均价",
+      "dates": {
+        "signed": "2023-08-24",
+        "page_published": "2023-08-25",
+        "effective_from": "2023-08-28"
+      },
+      "locator": "编制方案（三）",
+      "access_scope": "verified_primary_body"
+    },
+    "weight23": {
+      "source_id": 1,
+      "url": "https://overview.cneeex.com/c/2023-08-25/494452.shtml",
+      "short_original": "均为三分之一。",
+      "scope": "19-20、21、22价格权重",
+      "dates": {
+        "signed": "2023-08-24",
+        "page_published": "2023-08-25",
+        "effective_from": "2023-08-28"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "launch21_22": {
+      "source_id": 31,
+      "url": "https://overview.cneeex.com/c/2023-08-25/494451.shtml",
+      "short_original": "2023年8月28日起正式上线",
+      "scope": "CEA21/CEA22上市；原品种改名19-20",
+      "dates": {
+        "signed": "2023-08-24",
+        "page_published": "2023-08-25",
+        "effective_from": "2023-08-28"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "renameCEA": {
+      "source_id": 31,
+      "url": "https://overview.cneeex.com/c/2023-08-25/494451.shtml",
+      "short_original": "原“碳排放配额”名称调整为“碳排放配额19-20”",
+      "scope": "CEA旧品种识别",
+      "dates": {
+        "page_published": "2023-08-25",
+        "effective_from": "2023-08-28"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "launch23": {
+      "source_id": 2,
+      "url": "https://overview.cneeex.com/c/2024-10-25/495718.shtml",
+      "short_original": "2024年10月28日（周一）起正式上线",
+      "scope": "CEA23=2023年度；CEA24该日尚未上市",
+      "dates": {
+        "signed": "2024-10-25",
+        "page_published": "2024-10-25",
+        "effective_from": "2024-10-28"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "weight24version": {
+      "source_id": 2,
+      "url": "https://overview.cneeex.com/c/2024-10-25/495718.shtml",
+      "short_original": "价格权重均为四分之一。",
+      "scope": "CEA23上市后的四品种",
+      "dates": {
+        "page_published": "2024-10-25",
+        "effective_from": "2024-10-28"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "launch24": {
+      "source_id": 3,
+      "url": "https://overview.cneeex.com/c/2025-04-28/496173.shtml",
+      "short_original": "2025年4月29日（周二）起正式上线",
+      "scope": "CEA24=2024年度",
+      "dates": {
+        "signed": "2025-04-25",
+        "page_published": "2025-04-28",
+        "effective_from": "2025-04-29"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "weight25": {
+      "source_id": 3,
+      "url": "https://overview.cneeex.com/c/2025-04-28/496173.shtml",
+      "short_original": "各年度配额价格权重均为五分之一。",
+      "scope": "19-20、21、22、23、24",
+      "dates": {
+        "signed": "2025-04-25",
+        "page_published": "2025-04-28",
+        "effective_from": "2025-04-29"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "launch25": {
+      "source_id": 4,
+      "url": "https://overview.cneeex.com/c/2025-12-29/496985.shtml",
+      "short_original": "2026年1月5日（周一）起正式上线",
+      "scope": "CEA25=2025年度；不是2025年已上市",
+      "dates": {
+        "signed": "2025-12-29",
+        "page_published": "2025-12-29",
+        "effective_from": "2026-01-05"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "weight26": {
+      "source_id": 4,
+      "url": "https://overview.cneeex.com/c/2025-12-29/496985.shtml",
+      "short_original": "“碳排放配额25”的价格权重设为1",
+      "scope": "CEA25=1；其余五品种0，非六等权",
+      "dates": {
+        "signed": "2025-12-29",
+        "page_published": "2025-12-29",
+        "effective_from": "2026-01-05"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "weight26_old": {
+      "source_id": 4,
+      "url": "https://overview.cneeex.com/c/2025-12-29/496985.shtml",
+      "short_original": "价格权重均设为0。",
+      "scope": "19-20、21、22、23、24；仍列样本不等于价格有权重",
+      "dates": {
+        "page_published": "2025-12-29",
+        "effective_from": "2026-01-05"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "composite_close": {
+      "source_id": 4,
+      "url": "https://overview.cneeex.com/c/2025-12-29/496985.shtml",
+      "short_original": "综合价格行情收盘价为当日各年度碳排放配额收盘价的综合价格。",
+      "scope": "2026版；2023/2024版相同定义",
+      "dates": {
+        "page_published": "2025-12-29",
+        "effective_from": "2026-01-05"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "vintage_close": {
+      "source_id": 5,
+      "url": "https://overview.cneeex.com/c/2021-06-22/491198.shtml",
+      "short_original": "收盘价为当日挂牌协议交易所有成交的加权平均价。",
+      "scope": "交易公告挂牌协议小节；不是大宗均价，也不是最后一笔",
+      "dates": {
+        "signed": "2021-06-22",
+        "page_published": "2021-06-22"
+      },
+      "locator": "二（一）挂牌协议交易",
+      "access_scope": "verified_primary_body"
+    },
+    "vintage_carry": {
+      "source_id": 5,
+      "url": "https://overview.cneeex.com/c/2021-06-22/491198.shtml",
+      "short_original": "当日无成交的，以上一个交易日的收盘价为当日收盘价。",
+      "scope": "同属挂牌协议价格定义；不把大宗成交当作挂牌成交",
+      "dates": {
+        "signed": "2021-06-22",
+        "page_published": "2021-06-22"
+      },
+      "locator": "二（一）挂牌协议交易",
+      "access_scope": "verified_primary_body"
+    },
+    "composite_open_carry": {
+      "source_id": 4,
+      "url": "https://overview.cneeex.com/c/2025-12-29/496985.shtml",
+      "short_original": "以上一个交易日综合价格行情的收盘价为当日开盘价。",
+      "scope": "2026版所有年度均无成交时；不等同全部交易渠道无成交",
+      "dates": {
+        "effective_from": "2026-01-05"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "listing_size": {
+      "source_id": 5,
+      "url": "https://overview.cneeex.com/c/2021-06-22/491198.shtml",
+      "short_original": "挂牌协议交易单笔买卖最大申报数量应当小于10万吨二氧化碳当量。",
+      "scope": "全国交易挂牌渠道",
+      "dates": {
+        "page_published": "2021-06-22"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "block_size": {
+      "source_id": 5,
+      "url": "https://overview.cneeex.com/c/2021-06-22/491198.shtml",
+      "short_original": "大宗协议交易单笔买卖最小申报数量应当不小于10万吨二氧化碳当量。",
+      "scope": "全国大宗渠道",
+      "dates": {
+        "page_published": "2021-06-22"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "listing_band": {
+      "source_id": 5,
+      "url": "https://overview.cneeex.com/c/2021-06-22/491198.shtml",
+      "short_original": "±10%之间确定。",
+      "scope": "挂牌价格以前一个交易日收盘为参考",
+      "dates": {
+        "page_published": "2021-06-22"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "block_band": {
+      "source_id": 5,
+      "url": "https://overview.cneeex.com/c/2021-06-22/491198.shtml",
+      "short_original": "±30％之间确定。",
+      "scope": "大宗价格以前一个交易日收盘为参考",
+      "dates": {
+        "page_published": "2021-06-22"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "units": {
+      "source_id": 38,
+      "url": "https://overview.cneeex.com/c/2022-06-29/491306.shtml",
+      "short_original": "申报价格的最小变动计量为0.01元人民币。",
+      "scope": "全国配额计价每吨二氧化碳当量；研究价格不是可成交挂单",
+      "dates": {
+        "page_published": "2022-06-29"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "code_CEA": {
+      "source_id": 55,
+      "url": "https://overview.cneeex.com/zhhq/js/kdatatool.min.js?v=1.0.6",
+      "short_original": "\"CEA\"==e?\"碳排放配额19-20\":\"碳排放配额\"+e.substring(3)",
+      "scope": "当前公开前端代码；仅该JSON品种路径中的CEA",
+      "dates": {
+        "retrieved_on": "2026-10-07",
+        "code_version": "1.0.6"
+      },
+      "locator": "showSubject",
+      "access_scope": "verified_primary_body"
+    },
+    "code_comcea": {
+      "source_id": 55,
+      "url": "https://overview.cneeex.com/zhhq/js/kdatatool.min.js?v=1.0.6",
+      "short_original": "KDT_COMCEA=\"comcea\"",
+      "scope": "综合行情内部代号；不是年度配额",
+      "dates": {
+        "retrieved_on": "2026-10-07",
+        "code_version": "1.0.6"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "column_shift": {
+      "source_id": 55,
+      "url": "https://overview.cneeex.com/zhhq/js/kdatatool.min.js?v=1.0.6",
+      "short_original": "this.hisPData.volumes.push([t,e[t][4],e[t][1]>e[t][0]?1:-1])",
+      "scope": "去掉日期后第5列为报告挂牌数量；原JSON第6列",
+      "dates": {
+        "retrieved_on": "2026-10-07",
+        "code_version": "1.0.6"
+      },
+      "locator": "splitHisData",
+      "access_scope": "verified_primary_body"
+    },
+    "quantity_label": {
+      "source_id": 56,
+      "url": "https://overview.cneeex.com/zhhq/js/eklinepage.min.js?v=1.0.8",
+      "short_original": "挂牌成交量: ",
+      "scope": "历史K线量柱/提示；不能替代所有方式总量",
+      "dates": {
+        "retrieved_on": "2026-10-07",
+        "code_version": "1.0.8"
+      },
+      "locator": "hisTooltipFormatter",
+      "access_scope": "verified_primary_body"
+    },
+    "low_high_sentinel": {
+      "source_id": 56,
+      "url": "https://overview.cneeex.com/zhhq/js/eklinepage.min.js?v=1.0.8",
+      "short_original": "最&#12288;高: --.--<br/>",
+      "scope": "报告挂牌量字符串0时高低不显示，原JSON0.00不能当作0元价格",
+      "dates": {
+        "retrieved_on": "2026-10-07",
+        "code_version": "1.0.8"
+      },
+      "locator": "hisTooltipFormatter",
+      "access_scope": "verified_primary_body"
+    },
+    "daily_listing": {
+      "source_id": 42,
+      "url": "https://overview.cneeex.com/c/2026-08-07/498119.shtml",
+      "short_original": "今日挂牌协议交易成交量51,057吨",
+      "scope": "仅2026-08-07字段范围锚点；不是全面逐日核对",
+      "dates": {
+        "page_published": "2026-08-07",
+        "observation_date": "2026-08-07"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "daily_block": {
+      "source_id": 42,
+      "url": "https://overview.cneeex.com/c/2026-08-07/498119.shtml",
+      "short_original": "大宗协议交易成交量925,000吨",
+      "scope": "2026-08-07总量976057与K线51057不同",
+      "dates": {
+        "page_published": "2026-08-07",
+        "observation_date": "2026-08-07"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "old_eligible": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "可使用本年度及其之前年度配额履约",
+      "scope": "发电行业2023、2024履约；非所有时期无限替代",
+      "dates": {
+        "signed": "2024-10-15",
+        "issued": "2024-10-16",
+        "metadata_generated": "2024-10-16"
+      },
+      "locator": "PDF第7页（文内第14页），七",
+      "access_scope": "verified_primary_body"
+    },
+    "no_borrow": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "2023、2024 年度不可预支后续年度配额",
+      "scope": "发电行业2023、2024年度",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第7页",
+      "access_scope": "verified_primary_body"
+    },
+    "no_2024_prior": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "2024 年度配额不可用于2023 年度及以前年度的配额清缴。",
+      "scope": "发电行业；2024配额不能反向自由替代",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第8页（文内第15页）",
+      "access_scope": "verified_primary_body"
+    },
+    "no_unconverted": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "未结转配额不再用于 2025 年度及后续年度履约。",
+      "scope": "发电行业2019—2024配额；限制清缴用途，不直接等于停止交易",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第7页",
+      "access_scope": "verified_primary_body"
+    },
+    "carry_window": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "2026 年6 月10 日",
+      "scope": "通知书发放日至该日普通结转申请窗；截至2026-10-07已过",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第15—17页（文内第22—24页）",
+      "access_scope": "verified_primary_body"
+    },
+    "base": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "重点排放单位基础可结转量为 10000tCO2",
+      "scope": "发电行业基数，不能应用全部行业",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第16页",
+      "access_scope": "verified_primary_body"
+    },
+    "multiplier": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "结转倍率设为 1.5",
+      "scope": "净卖出统计2024-01-01至2025-12-31、负值取0；总额受期末持仓和下取整约束",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第16页",
+      "access_scope": "verified_primary_body"
+    },
+    "application_freeze": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "配额自提交结转申请后开始冻结",
+      "scope": "待结转配额；先交易持仓划至登记持仓，再提出申请",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第17页",
+      "access_scope": "verified_primary_body"
+    },
+    "judicial_exception": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "补交配额结转申请",
+      "scope": "司法冻结导致无法及时结转，法院解冻后的补申请例外",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第18页",
+      "access_scope": "verified_primary_body"
+    },
+    "early_processing": {
+      "source_id": 16,
+      "url": "https://overview.cneeex.com/c/2026-01-04/497013.shtml",
+      "short_original": "2026年1月6日对以上配额结转申请进行处理",
+      "scope": "Jan5 23:59前申请提前处理；非只有原Mar/Jun批次",
+      "dates": {
+        "signed": "2026-01-02",
+        "page_published": "2026-01-04"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "metal_base": {
+      "source_id": 61,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202511/W020251118634892868994.pdf",
+      "short_original": "基础结转量设定为10万吨",
+      "scope": "钢铁、水泥、铝冶炼；多行业基数求和，其余参照发电规则",
+      "dates": {
+        "signed": "2025-11-16",
+        "issued": "2025-11-17",
+        "metadata_generated": "2025-11-17"
+      },
+      "locator": "PDF第10页（文内第12页），六",
+      "access_scope": "verified_primary_body"
+    },
+    "metal_noconvert": {
+      "source_id": 61,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202511/W020251118634892868994.pdf",
+      "short_original": "未结转配额不再用于2025 年度及后续年度配额清缴。",
+      "scope": "新增三行业2019—2024配额；2025配额后续用途依有关规定",
+      "dates": {
+        "signed": "2025-11-16"
+      },
+      "locator": "PDF第10页",
+      "access_scope": "verified_primary_body"
+    },
+    "metal_2024_delivery": {
+      "source_id": 61,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202511/W020251118634892868994.pdf",
+      "short_original": "不发放至重点排放单位登记账户",
+      "scope": "三行业2024核定配额直发省主管部门账户清缴；非企业自由交易盈余",
+      "dates": {
+        "signed": "2025-11-16"
+      },
+      "locator": "PDF第8页（文内第10页）",
+      "access_scope": "verified_primary_body"
+    },
+    "cross_industry": {
+      "source_id": 61,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202511/W020251118634892868994.pdf",
+      "short_original": "可使用来自本行业或者其他行业",
+      "scope": "三行业清缴服务；非跨年度无限替代",
+      "dates": {
+        "signed": "2025-11-16"
+      },
+      "locator": "PDF第9—10页",
+      "access_scope": "verified_primary_body"
+    },
+    "2025_deadline": {
+      "source_id": 64,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk06/202602/t20260209_1143900.html",
+      "short_original": "2026年12月31日前",
+      "scope": "四行业2025年度清缴截止；核验日尚未到期",
+      "dates": {
+        "signed": "2026-01-27",
+        "metadata_generated": "2026-02-09"
+      },
+      "locator": "三（三）",
+      "access_scope": "verified_primary_body"
+    },
+    "latest2026scope": {
+      "source_id": 20,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202609/W020260903551498752549.pdf",
+      "short_original": "2025 年度钢铁、水泥、铝冶炼行业配额分配按照",
+      "scope": "2026新方案仍引用2024/2025新增行业方案",
+      "dates": {
+        "signed": "2026-09-01",
+        "issued": "2026-09-02",
+        "metadata_generated": "2026-09-02"
+      },
+      "locator": "PDF第2页",
+      "access_scope": "verified_primary_body"
+    },
+    "law_use": {
+      "source_id": 62,
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202402/t20240205_1065850.shtml",
+      "short_original": "其购买的碳排放配额可以用于清缴。",
+      "scope": "2024-05-01生效条例一般权利；年度方案约束可用年份",
+      "dates": {
+        "signed": "2024-01-25",
+        "page_published": "2024-02-05",
+        "effective_from": "2024-05-01"
+      },
+      "locator": "第十四条",
+      "access_scope": "verified_primary_body"
+    },
+    "springer_hybrid": {
+      "source_id": 11,
+      "url": "https://link.springer.com/journal/10614",
+      "short_original": "Publishing model:\nHybrid",
+      "scope": "官网現行标示；学校资格/分区未知",
+      "dates": {
+        "retrieved_on": "2026-10-07"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "springer_index": {
+      "source_id": 11,
+      "url": "https://link.springer.com/journal/10614",
+      "short_original": "Science Citation Index Expanded (SCIE)\nSocial Science Citation Index",
+      "scope": "官网索引清单；非学校资格证明",
+      "dates": {
+        "retrieved_on": "2026-10-07"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "springer_subscription": {
+      "source_id": 12,
+      "url": "https://link.springer.com/journal/10614/how-to-publish-with-us",
+      "short_original": "subscription publishing model (no APC charges\napply)",
+      "scope": "订阅路线；不是零总费用",
+      "dates": {
+        "retrieved_on": "2026-10-07"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "market_started": {
+      "source_id": 7,
+      "url": "https://www.mee.gov.cn/ywdt/zbft/202410/t20241021_1089827.shtml",
+      "short_original": "2021年7月16日正式启动交易",
+      "scope": "全国市场原始开市；非年度品种上市日",
+      "dates": {
+        "page_published": "2024-10-21",
+        "effective_from": "2021-07-16"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "vintage_open": {
+      "source_id": 5,
+      "url": "https://overview.cneeex.com/c/2021-06-22/491198.shtml",
+      "short_original": "开盘价为当日挂牌协议交易第一笔成交价。",
+      "scope": "年度品种挂牌价格",
+      "dates": {
+        "signed": "2021-06-22",
+        "page_published": "2021-06-22"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "composite_high": {
+      "source_id": 4,
+      "url": "https://overview.cneeex.com/c/2025-12-29/496985.shtml",
+      "short_original": "综合价格行情最高价为综合价格行情开盘价、最新价、收盘价的最大值。",
+      "scope": "2026综合high；2024方案同文，不用年度日最高价相加",
+      "dates": {
+        "effective_from": "2026-01-05"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "composite_low": {
+      "source_id": 4,
+      "url": "https://overview.cneeex.com/c/2025-12-29/496985.shtml",
+      "short_original": "综合价格行情最低价为综合价格行情开盘价、最新价、收盘价的最小值。",
+      "scope": "2026综合low；2023版未单独表述high/low",
+      "dates": {
+        "effective_from": "2026-01-05"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    },
+    "historic2019_2022_use": {
+      "source_id": 70,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk13/202311/t20231106_1055186.html",
+      "short_original": "持有的2019—2022年度配额均可用于2021、2022年度清缴履约，也可用于交易。",
+      "scope": "生态环境部对年份标签提案的官方答复；明确2023年该履约周期使用/交易用途",
+      "dates": {
+        "page_displayed_date": "2023-08-01",
+        "signed": "2023-08-01",
+        "url_path_date_not_publication_proof": "2023-11-06"
+      },
+      "locator": "二、关于赋予碳配额年份标签",
+      "access_scope": "verified_primary_body"
+    },
+    "historic2021_2022_deadline": {
+      "source_id": 69,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202303/t20230315_1019707.html",
+      "short_original": "2023年12月31日前足额清缴2021、2022年度配额",
+      "scope": "2021/2022共同年度截止；非都已完成的证明",
+      "dates": {
+        "signed": "2023-03-13",
+        "issued": "2023-03-15",
+        "metadata_generated": "2023-03-15"
+      },
+      "locator": "三（三）",
+      "access_scope": "verified_primary_body"
+    },
+    "historic_borrow_exception": {
+      "source_id": 69,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202303/t20230315_1019707.html",
+      "short_original": "预支配额仅可用于当年度本单位的配额履约，不可用于交易、抵押等其他用途",
+      "scope": "2021/2022特定困难缺口单位可依条件预支2023；不能把2023/2024禁止预支规则跨期倒套",
+      "dates": {
+        "signed": "2023-03-13"
+      },
+      "locator": "二（一）配额预支",
+      "access_scope": "verified_primary_body"
+    },
+    "holding_cap": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "可结转量不高于重点排放单位 2025 年期末持仓量",
+      "scope": "发电结转上限；非无限可交易量",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第16页",
+      "access_scope": "verified_primary_body"
+    },
+    "net_sale_window": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "2024 年1 月1 日至2025 年12 月31 日",
+      "scope": "结转净卖出计算窗；不使用未来信息预测过去",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第16页",
+      "access_scope": "verified_primary_body"
+    },
+    "floor_max": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "最大可结转量计算结果向下取整",
+      "scope": "结转计算",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第16页",
+      "access_scope": "verified_primary_body"
+    },
+    "eligibility_submission": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "未按规定于 2025 年 12 月 31 日前完成 2024 年度履约",
+      "scope": "2023或2024未按期履约主体不得申请；禁止用语跨PDF16/17页，完整句在原PDF可查",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第16—17页",
+      "access_scope": "verified_primary_body"
+    },
+    "equal_conversion": {
+      "source_id": 8,
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "short_original": "与结转回收量等量的2025 年度配额",
+      "scope": "回收后等量发新年度，非旧新双份",
+      "dates": {
+        "signed": "2024-10-15"
+      },
+      "locator": "PDF第18页",
+      "access_scope": "verified_primary_body"
+    },
+    "old2026_anchor": {
+      "source_id": 67,
+      "url": "https://overview.cneeex.com/c/2026-02-13/497385.shtml",
+      "short_original": "今日挂牌协议交易成交量20,000吨",
+      "scope": "2026-02-13市场挂牌锚点；非全渠道逐笔认证",
+      "dates": {
+        "page_published": "2026-02-13",
+        "observation_date": "2026-02-13"
+      },
+      "locator": null,
+      "access_scope": "verified_primary_body"
+    }
+  },
+  "descriptive_anchors": {
+    "2026-08-07": {
+      "historical_json_reported_listing_qty": 51057,
+      "official_daily_listing_qty": 51057,
+      "official_daily_block_qty": 925000,
+      "official_daily_total_qty": 976057,
+      "matching_close": "98.54",
+      "scope": "只验证该日期的字段锚点，非全日历无差异证明",
+      "source_ids": [
+        42,
+        52,
+        54
+      ]
+    },
+    "2026-02-13": {
+      "composite_close": "78.70",
+      "composite_reported_listing_qty": 20000,
+      "CEA25_reported_listing_qty": 0,
+      "old_vintage_reported_listing_qty_sum": 20000,
+      "daily_listing_amount_yuan": "1620000.00",
+      "note": "综合量正而正权重CEA25量0；金额/数量=81.00≠综合收盘78.70，不等同可成交目标价",
+      "source_ids": [
+        67,
+        52,
+        54,
+        53,
+        57,
+        58,
+        59,
+        60
+      ],
+      "amount_div_quantity_calculated": "81.00"
+    }
+  },
+  "unverified_or_not_identified": [
+    "所有年度每个零报告量行的全渠道成交状态",
+    "首次上市且无挂牌成交时的初始参考价正式单独规则",
+    "完整逐笔成交/订单簿与可执行性",
+    "官方历史首次可得版本",
+    "未结转旧配额全品种停止交易的明文",
+    "企业共同关注年度与实际结转行为",
+    "制度改变的因果效应"
+  ],
+  "historical_CEA22_economic_scope": {
+    "2023": "CEA22可用于2021/2022年度履约并交易；截止2023-12-31",
+    "2024_2025": "作为旧于2023/2024的年度配额，可用于发电企业2023年度（2024年底截止）、2024年度（2025年底截止）履约；亦可在合法交易条件下持有/出售",
+    "2026": "若未按规定结转，不可直接用于2025及后续年度履约；可结转主体/数量/窗口/冻结有约束，不证明全部旧CEA22失效、停止交易或违法",
+    "study_target": "历史年度挂牌收盘预测和制度分段报价信息问题有真实制度用途；不表述为今天仍可无限期持有自由替代的采购合约",
+    "why_old_quotes_nearly_flat": {
+      "mechanical": "无挂牌成交的年度收盘按规则延续前收；低挂牌刷新能与报价平坦并存",
+      "economic_hypothesis": "旧年度2025以后清缴用途受结转限制、普通申请期已过可能改变需求和交易激励；未识别该机制对本样本贡献",
+      "not_proved": [
+        "仅由父代理正值计数证明无任何成交",
+        "每个企业都关注CEA25",
+        "全部旧品种已停止交易",
+        "企业违法或全部配额失效",
+        "唯一原因是结转政策"
+      ]
+    },
+    "provided_parent_counts_status": "父代理来信的冻结原件统计仅作为其独立描述证据；本子代理未读取/逐日复验该面板，不能把报告数字正值日称已认证成交日",
+    "parent_count_context": {
+      "stage_2026_quote_days_reported": 181,
+      "CEA25_price_changes_reported": 163,
+      "CEA25_composite_common_dates_reported": 180,
+      "historical_CEA22_quote_days_reported": 569,
+      "historical_CEA22_field5_positive_reported": 405,
+      "historical_CEA21_field5_positive_reported": 262,
+      "historical_CEA22_common_composite_quote_days_reported": 568,
+      "public_edition_count_note": "Corrected from earlier incoming context using data/parent_results_normal/target_feasibility.json; quote days and common-composite dates are distinct."
+    },
+    "evidence_keys": [
+      "historic2019_2022_use",
+      "old_eligible",
+      "no_unconverted",
+      "vintage_carry"
+    ]
+  }
+}

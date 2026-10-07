@@ -1,0 +1,68 @@
+{
+  "checked_utc": "2026-10-07T08:45:06.482703+00:00",
+  "overall_acceptance_complete": false,
+  "all_requested_materials_written": true,
+  "automated_citation_validation": {
+    "status": "blocked_not_authorized",
+    "child_tool_result": "User denied this command",
+    "parent_permission_question": "timed_out_no_authorization",
+    "retried_or_bypassed_after_denial": false,
+    "false_success_prose_corrected": true
+  },
+  "normal_unit_tests_passed": 36,
+  "optimized_unit_tests_passed": 36,
+  "algebra_cli_runs": [
+    {
+      "flags": "",
+      "checks_passed": 12,
+      "total_checks": 12
+    },
+    {
+      "flags": "-O",
+      "checks_passed": 12,
+      "total_checks": 12
+    }
+  ],
+  "national_sources_reaudited": 7,
+  "target_scope_records": 49,
+  "availability_records": 84,
+  "union_quote_dates": 1264,
+  "reconstructed_composite_dates": 1262,
+  "reconstruction_differences_gt_one_cent": 0,
+  "normal_and_optimized_audit_payloads_match": true,
+  "csv_bytes_match": true,
+  "workbook": {
+    "sheet_count": 5,
+    "cells_verified": 1870,
+    "spec_matched": true
+  },
+  "selected_original_inputs_unchanged": 22,
+  "institution_evidence_files_matched": 70,
+  "institution_short_originals_matched": 60,
+  "neighbor_record_count": 7,
+  "neighbor_evidence_levels": {
+    "records": 7,
+    "required": 4,
+    "additional": 3,
+    "F": 6,
+    "I": 1
+  },
+  "git_head_observed": "aac8cb16b698cfd10d5bd5d9c5d9cd4abf492655",
+  "git_tracked_worktree_clean_observed": true,
+  "models_trained": false,
+  "old_experiment_scores_used": false,
+  "authors_code_executed": false,
+  "originals_modified": false,
+  "git_committed_or_pushed": false,
+  "CAS3_institutional_journal_gate_confirmed": false,
+  "full_panel_republication_permitted_or_performed": false,
+  "limitations": [
+    "Availability uses observed quote-date union, not an independently certified exchange calendar.",
+    "Full historical first-release/revision archive is not certified.",
+    "Exploratory target choice inspected the frozen historical snapshot.",
+    "No forecast skill, policy causality or actual procurement savings established.",
+    "Sources generation and automatic strict citation validation remain blocked; this receipt does not certify them.",
+    "Historical child receipts may contain prior document hashes; current release manifest is authoritative."
+  ],
+  "scope": "This A-prime local delivery only; prior phase-2 full directory acceptance remains pending."
+}

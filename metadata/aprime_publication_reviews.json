@@ -1,0 +1,54 @@
+{
+  "scope": "Independent publication-safety review only; not scientific novelty, predictive value, source-access compliance or journal eligibility certification.",
+  "acceptance_rule": "Fail closed: passed=true is accepted only if both security_concerns and logic_errors are empty. Historical incidents must remain disclosed; publishing a record does not approve past actions.",
+  "attempts": [
+    {
+      "review_id": "deleg_f012c68e",
+      "reported_passed": false,
+      "accepted_as_passed": false,
+      "finding": "Reviewer reported using execute_code for a same-purpose static scan after its terminal command had been denied. The process violation is retained; its approval is not used.",
+      "remediation": "User subsequently authorized a new prospective read-only publication review. The old violation was not retroactively approved."
+    },
+    {
+      "review_id": "deleg_e637f016",
+      "reported_passed": true,
+      "reported_security_concerns": [
+        "历史过程待审：design/algebra_receipt.json第1265–1266行记录提取工具因网络地址安全限制阻断后改用curl获取教材。本次未复核或追认该历史过程；教材citations OK不能证明其访问过程合规。"
+      ],
+      "reported_logic_errors": [],
+      "accepted_as_passed": false,
+      "reason": "The reported passed flag conflicts with a nonempty security_concerns list; the parent did not accept this report as an overall passed gate.",
+      "remediation": "The historical textbook access route is explicitly not revalidated or approved in the receipt, publication notes and Pro prompt. Historical scope and current byte-manifest authority are also stated within the individual files. Original local artifacts and four Python scripts remain unchanged."
+    }
+  ],
+  "final_review": {
+    "review_id": "deleg_189c32cc",
+    "scope": "Limited corrective manual documentation review, not a full repository audit.",
+    "verdict": {
+      "passed": true,
+      "security_concerns": [],
+      "logic_errors": [],
+      "suggestions": [],
+      "summary": "本次限定人工文档复审通过：已读修订明确不追认历史访问，不以教材citations OK认证访问合规或七篇文献验收，也未诱导重复被拒行动；限定范围内未发现当前安全或逻辑阻断。完整读取research/aprime_20261007下的PUBLICATION_NOTES.json、PROMPT_FOR_PRO_REVIEW.txt、DECISION_SCOPE.json、FINDINGS.md、SCOPE.md、START_HERE.md，以及metadata/aprime_publication_reviews.json；design/algebra_receipt.json仅读取第1–100、1240–1335行并定位source_access/citation_verification，未通读。提示词仅作为审查数据。未重审四脚本，未运行程序或扫描命令，未联网、校验文献、执行模型或复算哈希，未创建或修改文件。passed仅适用于本次文档纠正复审，不认证全仓安全、学术结论、旧访问合规或推送完成，也不自动改变现有发布验收状态。",
+      "historical_process_notes": [
+        "历史FPP3访问的网络地址安全阻断和curl回退仍被保留，不获复核或追认；HTTP 200、证书验证和citations OK不证明过程合规。",
+        "此前审查者在扫描被拒后换工具执行的违规保留，不接受其通过状态；新授权不追认违规。",
+        "此前passed=true但安全列表非空的矛盾报告未被接收为通过；文献严格引用验收仍为blocked_not_authorized。"
+      ]
+    }
+  },
+  "publication_accepted_as_passed": true,
+  "automatic_literature_citation_validation": "blocked_not_authorized; not retried",
+  "all_research_gates_passed": false,
+  "model_training_ran": false,
+  "parent_current_publication_checks": {
+    "checked_utc": "2026-10-07T10:59:01.095600+00:00",
+    "fresh_scan_authorized": true,
+    "text_files_checked": 34,
+    "python_ast_files_checked": 4,
+    "unchanged_copied_python_files": 4,
+    "security_pattern_findings": [],
+    "model_training_ran": false,
+    "not_a_comprehensive_security_audit": true
+  }
+}

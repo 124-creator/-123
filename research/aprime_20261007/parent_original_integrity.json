@@ -1,0 +1,30 @@
+{
+  "executed_utc": "2026-10-07T07:28:39.991978+00:00",
+  "matched_count": 22,
+  "matched_paths": [
+    "data/local_only/cea_composite_live.json",
+    "data/local_only/cea_19_20_live.json",
+    "data/local_only/cea_vintage_CEA21.json",
+    "data/local_only/cea_vintage_CEA22.json",
+    "data/local_only/cea_vintage_CEA23.json",
+    "data/local_only/cea_vintage_CEA24.json",
+    "data/local_only/cea_vintage_CEA25.json",
+    "data/local_only/gdea_api_page1.json",
+    "data/local_only/gdea_api_page2.json",
+    "data/local_only/gdea_api_page3.json",
+    "data/local_only/hbea_same_day_snapshot_reused.zip",
+    "data/raw/eia/RBRTEd.xls",
+    "data/raw/eia/RWTCd.xls",
+    "data/raw/eia/RNGWHHDd.xls",
+    "data/raw/policy_uncertainty/China_Mainland_Paper_EPU.xlsx",
+    "data/raw/author_wang_2020/data.xlsx",
+    "data/parsed/brent_eia_daily.csv",
+    "data/parsed/wti_eia_daily.csv",
+    "data/parsed/henryhub_eia_daily.csv",
+    "data/parsed/china_mainland_epu.csv",
+    "data/parsed/china_mainland_tpu.csv",
+    "data/parsed/author_wang_eu_futures.csv"
+  ],
+  "originals_unchanged": true,
+  "authenticity_is_not_proven_by_hash": true
+}

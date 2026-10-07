@@ -1,6 +1,8 @@
 # Original exchange snapshots remain local until republication permission is confirmed.
 data/local_only/
 local_verification/
+**/private_evidence/
+**/_evidence/
 __pycache__/
 *.pyc
 .venv/

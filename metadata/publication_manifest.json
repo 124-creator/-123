@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "snapshot_date": "2026-10-07",
-  "listed_files": 47,
+  "listed_files": 80,
   "manifest_itself_excluded_to_avoid_recursive_hash": true,
   "legacy_experiment_results_published": false,
   "model_training_ran": false,
@@ -15,8 +15,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 342,
-      "sha256": "772ce25e422ec5f9021816852b3b31ea24cfe8bde96c4ce2d0f95738011bcf41"
+      "bytes": 377,
+      "sha256": "1881a588c4eb375a8140909fc396530d817da756eb2765dd47759c71e23efcb9"
     },
     {
       "path": "AGENTS.md",
@@ -35,8 +35,8 @@
     },
     {
       "path": "START_HERE_6PRO.md",
-      "bytes": 2480,
-      "sha256": "bdec61cc2ba077af2723d713da2d3d56e5abcca326d9fc753752468835b690cb"
+      "bytes": 3240,
+      "sha256": "09d93a5f7a821456ee3df45c005b314fed5349fdca1b6120e763d0e55c811a67"
     },
     {
       "path": "data/parsed/author_wang_eu_futures.csv",
@@ -92,6 +92,11 @@
       "path": "data/raw/policy_uncertainty/China_Mainland_Paper_EPU.xlsx",
       "bytes": 48887,
       "sha256": "48796e91014bec671fcc4ae1751dc7b2a5b0491b68c0d2cec0018e2f0685882f"
+    },
+    {
+      "path": "metadata/aprime_publication_reviews.json",
+      "bytes": 4025,
+      "sha256": "2cf648a05d34912c0d3abe1593fc9126cc92ddaead781798057b93c3a8a60f86"
     },
     {
       "path": "metadata/audit_results.json",
@@ -169,6 +174,166 @@
       "sha256": "570bdade5e3413d2f629dcf31bdf1941480989bece1ed47aba90287da1a92c0a"
     },
     {
+      "path": "research/aprime_20261007/DECISION_SCOPE.json",
+      "bytes": 3048,
+      "sha256": "d1c1c30324cf7bdd2d70d3e244f0393a12daae2cf94125f5638be8ecd46e116f"
+    },
+    {
+      "path": "research/aprime_20261007/FINAL_VALIDATION.json",
+      "bytes": 2453,
+      "sha256": "0a5331fb992fa717a5bad2d879107bf99b71157fe44d4b5dbe5dce7f6e17f771"
+    },
+    {
+      "path": "research/aprime_20261007/FINDINGS.md",
+      "bytes": 9144,
+      "sha256": "b79a7a85932b1b750ed11301c68eb0f210e2aea362c951f2d8b9796c439d1d03"
+    },
+    {
+      "path": "research/aprime_20261007/PROMPT_FOR_PRO_REVIEW.txt",
+      "bytes": 7921,
+      "sha256": "5f8a1f1c47a5ba3a6852aa38fc78b29b8535fbe5cd7631c90ca009f469d593e9"
+    },
+    {
+      "path": "research/aprime_20261007/PUBLICATION_CHECKS.json",
+      "bytes": 19431,
+      "sha256": "7379a213ffebc4d9654f2634f791bc37f51b947bb3cd168adb932747c2538c4b"
+    },
+    {
+      "path": "research/aprime_20261007/PUBLICATION_NOTES.json",
+      "bytes": 10592,
+      "sha256": "9d6341e699824cb52c03841085784621c694e3e3c34fa774571baa9d61e65df1"
+    },
+    {
+      "path": "research/aprime_20261007/SCOPE.md",
+      "bytes": 1497,
+      "sha256": "bda2001b6d25581320e3b6d8ea5a96c67002c05d5ae0533c5c715a040a066224"
+    },
+    {
+      "path": "research/aprime_20261007/START_HERE.md",
+      "bytes": 3012,
+      "sha256": "4e2ec23b111c161b0dcccd4d1204c5e408ba4264f3ead0247381bc6033862a4e"
+    },
+    {
+      "path": "research/aprime_20261007/data/DATA_TARGET_FEASIBILITY.md",
+      "bytes": 6159,
+      "sha256": "3f41a298ca1933cbb1f06c7b1a43572995e0bd50d8912548727ba146498286a3"
+    },
+    {
+      "path": "research/aprime_20261007/data/audit_target_feasibility.py",
+      "bytes": 15746,
+      "sha256": "2cceb8c899560b5d01fccd143c6b57320964179e931f951349f6a5ce887ff2e1"
+    },
+    {
+      "path": "research/aprime_20261007/data/data_validation_receipt.json",
+      "bytes": 577,
+      "sha256": "a2f87ec2c3d9516b8796eb0cf5975ef54d17e0d6498119affed64b709b0bf654"
+    },
+    {
+      "path": "research/aprime_20261007/data/initial_source_receipt.json",
+      "bytes": 4072,
+      "sha256": "f7f58ceae181f6ffff76c9c701b0298f6fe075858fc12c5ef5766dc1defc374f"
+    },
+    {
+      "path": "research/aprime_20261007/data/parent_results_normal/forecast_availability.csv",
+      "bytes": 9477,
+      "sha256": "af1f16eb54b963b7144ac29b7b25e484fda00b8c0d8b8f57ab3ded91720435d8"
+    },
+    {
+      "path": "research/aprime_20261007/data/parent_results_normal/target_feasibility.json",
+      "bytes": 148798,
+      "sha256": "6138fe687ded406bd6e8e7f4c06aa4a0df957d2b44634d882880ea480b44dc9f"
+    },
+    {
+      "path": "research/aprime_20261007/data/parent_results_normal/target_scope_statistics.csv",
+      "bytes": 5721,
+      "sha256": "545db84c51b68940a1aa9b97d8e3891a1a57968612b0603f2e7ce59222b3c830"
+    },
+    {
+      "path": "research/aprime_20261007/data/test_target_feasibility.py",
+      "bytes": 7809,
+      "sha256": "f1f44a246a995e30ee2f4048b7eb575c1d51e677920fdf1f0c476be50d644a5b"
+    },
+    {
+      "path": "research/aprime_20261007/data/workbook_spec.json",
+      "bytes": 44964,
+      "sha256": "796a235be1bf1c98a225005ab27a74c273984a5b28982ba97401385b92ce52e2"
+    },
+    {
+      "path": "research/aprime_20261007/design/EQUIVALENCE_AND_DESIGN.md",
+      "bytes": 22475,
+      "sha256": "898821f75eb2967233adf444a533790bd0362f8235d50ec1c0497c996195a8f5"
+    },
+    {
+      "path": "research/aprime_20261007/design/algebra_checks.py",
+      "bytes": 11452,
+      "sha256": "0186fbd25764ebc91b144c22c0fbfdc877991cc27035a88f401f681321c32d5f"
+    },
+    {
+      "path": "research/aprime_20261007/design/algebra_receipt.json",
+      "bytes": 260604,
+      "sha256": "68f323bde45b80fa126238b2eb672d6b2a7c2ec3a9736957b15c802326dd1345"
+    },
+    {
+      "path": "research/aprime_20261007/design/test_algebra_checks.py",
+      "bytes": 13461,
+      "sha256": "0ba0615211a868c6e70beb9d63ff14ed9fc26bd81dec0ee0e9535f7d5642673c"
+    },
+    {
+      "path": "research/aprime_20261007/institution/MARKET_CONTRACT.md",
+      "bytes": 16726,
+      "sha256": "57144c5edc69fff776f3f7e8a133c37c547421ba62514db2cc914c3cd2672159"
+    },
+    {
+      "path": "research/aprime_20261007/institution/journal_gate_update.json",
+      "bytes": 7724,
+      "sha256": "c683a3675777f65dfb18ad25911075a1ca833d1920853e596d73fccb4713288c"
+    },
+    {
+      "path": "research/aprime_20261007/institution/market_rules.json",
+      "bytes": 48407,
+      "sha256": "dee3323e7782cffa0b3c709441c8c61c94f28365eb8ccf5a5e10e1bc7d45e372"
+    },
+    {
+      "path": "research/aprime_20261007/literature/NEIGHBOR_COMPARISON.md",
+      "bytes": 15309,
+      "sha256": "159a9fdbcdd3ae112fdc6d6ce94597c18e6ea72844f71e3e9cce8f0b9626fdba"
+    },
+    {
+      "path": "research/aprime_20261007/literature/access_review_parent.json",
+      "bytes": 9998,
+      "sha256": "bd8cfb5b5650dac6b719cc0c8c84cb0f5a21b171b98927937c972a4eef0867e9"
+    },
+    {
+      "path": "research/aprime_20261007/literature/citation_ledger.json",
+      "bytes": 4900,
+      "sha256": "7f34a47714b28e1ada654c6ece2c7fcebef9ab6bb7fc0261ce02cb92904d34be"
+    },
+    {
+      "path": "research/aprime_20261007/literature/neighbors_verified.json",
+      "bytes": 21802,
+      "sha256": "4ae520aef524217471abe013ef0287cb9dc7b9531f62c42c81b72accfcad8522"
+    },
+    {
+      "path": "research/aprime_20261007/literature/parent_version_readback.json",
+      "bytes": 1949,
+      "sha256": "7d9b3f1739dc67b3bf4f6a315dc26c6f8d9155ea76dcc7a4a058eb368b1f1a82"
+    },
+    {
+      "path": "research/aprime_20261007/parent_original_integrity.json",
+      "bytes": 1138,
+      "sha256": "412e27791092076f081259857345e05c94bdf1b6ae464cf4068a9b1ad7464c04"
+    },
+    {
+      "path": "research/aprime_20261007/parent_test_runs.json",
+      "bytes": 14639,
+      "sha256": "70e93a1af70504bf55cb521d707e46e0dcdbf76e991905f42381ca445bd2a7e6"
+    },
+    {
+      "path": "research/aprime_20261007/target_feasibility.xlsx",
+      "bytes": 17460,
+      "sha256": "158a943acc22327db68817d5e77fb06b379ef204ac0e933b3100c5d6f0600f25"
+    },
+    {
       "path": "research/author_quote_checks.json",
       "bytes": 1864,
       "sha256": "f01ef27bce66c5fc7f1510914220e90f8879ac2ac2b264b00aad4439cb281a92"
@@ -243,5 +408,12 @@
       "bytes": 3249,
       "sha256": "3bceeeaa3639fdf51d4435cd730fffed8bf34fa7fe0ab52d24d6e3cc57dfc5c0"
     }
-  ]
+  ],
+  "current_review_entry": "research/aprime_20261007/START_HERE.md",
+  "current_review_prompt": "research/aprime_20261007/PROMPT_FOR_PRO_REVIEW.txt",
+  "review_round": 2,
+  "assistant_invoked_sixpro": false,
+  "user_supplied_first_pro_review": true,
+  "automatic_aprime_literature_citation_validation": "blocked_not_authorized",
+  "all_research_gates_passed": false
 }

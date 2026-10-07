@@ -1,0 +1,203 @@
+{
+  "checked_utc": "2026-10-07T10:05:41.852293+00:00",
+  "scope": "Publication-edition unit and algebra checks plus workbook comparison and preservation of selected original inputs. No carbon prediction model fitted.",
+  "runs": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_run": 11,
+      "output": "test_2026_target_is_cea25_not_old_vintage_average (test_audit.CompositeRulesTest.test_2026_target_is_cea25_not_old_vintage_average) ... ok\ntest_earlier_effective_dates_use_their_own_constituents (test_audit.CompositeRulesTest.test_earlier_effective_dates_use_their_own_constituents) ... ok\ntest_missing_quantity_is_not_changed_to_zero (test_audit.CompositeRulesTest.test_missing_quantity_is_not_changed_to_zero) ... ok\ntest_optimized_export_rejects_invalid_dates_before_writing (test_audit.CompositeRulesTest.test_optimized_export_rejects_invalid_dates_before_writing) ... ok\ntest_optimized_local_checks_reject_corrupt_snapshot_copies (test_audit.CompositeRulesTest.test_optimized_local_checks_reject_corrupt_snapshot_copies) ... ok\ntest_optimized_pipeline_rejects_corrupt_original_before_export (test_audit.CompositeRulesTest.test_optimized_pipeline_rejects_corrupt_original_before_export) ... ok\ntest_pipeline_reads_real_raw_files_without_legacy_results (test_audit.CompositeRulesTest.test_pipeline_reads_real_raw_files_without_legacy_results) ... ok\ntest_real_local_exchange_snapshots_are_reconstructed_without_old_scores (test_audit.CompositeRulesTest.test_real_local_exchange_snapshots_are_reconstructed_without_old_scores) ... ok\ntest_transport_keeps_actual_original_workbook_bytes (test_download.DownloadTest.test_transport_keeps_actual_original_workbook_bytes) ... ok\ntest_actual_originals_and_parsed_files_reject_byte_tampering (test_integrity.IntegrityTest.test_actual_originals_and_parsed_files_reject_byte_tampering) ... ok\ntest_matching_checksums_cannot_hide_conflicting_manifest_lengths (test_integrity.IntegrityTest.test_matching_checksums_cannot_hide_conflicting_manifest_lengths) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 16.144s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research/aprime_20261007/data",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_run": 6,
+      "output": "test_command_exports_only_aggregate_counts_from_verified_inputs (test_target_feasibility.AuditCommandTests.test_command_exports_only_aggregate_counts_from_verified_inputs) ... ok\ntest_endpoint_variation_is_diagnostic_not_a_selection_filter (test_target_feasibility.ForecastAvailabilityTests.test_endpoint_variation_is_diagnostic_not_a_selection_filter) ... ok\ntest_keeps_calendar_horizons_and_exposes_history_gaps (test_target_feasibility.ForecastAvailabilityTests.test_keeps_calendar_horizons_and_exposes_history_gaps) ... ok\ntest_reads_close_and_preserves_unknown_quantity (test_target_feasibility.QuoteParsingTests.test_reads_close_and_preserves_unknown_quantity) ... ok\ntest_rejects_length_conflict_even_with_matching_hash (test_target_feasibility.QuoteParsingTests.test_rejects_length_conflict_even_with_matching_hash) ... ok\ntest_missing_calendar_date_breaks_change_and_flat_run (test_target_feasibility.ScopeStatisticsTests.test_missing_calendar_date_breaks_change_and_flat_run) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.215s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research/aprime_20261007/design",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_run": 30,
+      "output": "test_cli_emits_scoped_report_in_both_interpreter_modes (test_algebra_checks.AlgebraChecks.test_cli_emits_scoped_report_in_both_interpreter_modes) ... ok\ntest_common_unpenalized_intercept_ridge_is_additive (test_algebra_checks.AlgebraChecks.test_common_unpenalized_intercept_ridge_is_additive) ... ok\ntest_covariance_controls_composite_error_variance (test_algebra_checks.AlgebraChecks.test_covariance_controls_composite_error_variance) ... ok\ntest_different_fixed_operators_need_not_be_equivalent (test_algebra_checks.AlgebraChecks.test_different_fixed_operators_need_not_be_equivalent) ... ok\ntest_error_variance_rejects_impossible_covariance (test_algebra_checks.AlgebraChecks.test_error_variance_rejects_impossible_covariance) ... ok\ntest_error_variance_rejects_negative_marginal_variance (test_algebra_checks.AlgebraChecks.test_error_variance_rejects_negative_marginal_variance) ... ok\ntest_exact_domain_rejects_float_bool_string (test_algebra_checks.AlgebraChecks.test_exact_domain_rejects_float_bool_string) ... ok\ntest_gap_rejects_unaligned_shapes (test_algebra_checks.AlgebraChecks.test_gap_rejects_unaligned_shapes) ... ok\ntest_interval_bounds_must_be_ordered (test_algebra_checks.AlgebraChecks.test_interval_bounds_must_be_ordered) ... ok\ntest_interval_law_rejects_malformed_atom (test_algebra_checks.AlgebraChecks.test_interval_law_rejects_malformed_atom) ... ok\ntest_interval_law_rejects_negative_mass (test_algebra_checks.AlgebraChecks.test_interval_law_rejects_negative_mass) ... ok\ntest_interval_law_requires_unit_total_mass (test_algebra_checks.AlgebraChecks.test_interval_law_requires_unit_total_mass) ... ok\ntest_linear_rejects_empty_operator (test_algebra_checks.AlgebraChecks.test_linear_rejects_empty_operator) ... ok\ntest_linear_rejects_ragged_operator (test_algebra_checks.AlgebraChecks.test_linear_rejects_ragged_operator) ... ok\ntest_linear_rejects_vector_dimension_mismatch (test_algebra_checks.AlgebraChecks.test_linear_rejects_vector_dimension_mismatch) ... ok\ntest_marginal_endpoints_do_not_preserve_joint_coverage (test_algebra_checks.AlgebraChecks.test_marginal_endpoints_do_not_preserve_joint_coverage) ... ok\ntest_mean_additivity_does_not_imply_median_additivity (test_algebra_checks.AlgebraChecks.test_mean_additivity_does_not_imply_median_additivity) ... ok\ntest_nonadditive_postprocessing_breaks_equivalence (test_algebra_checks.AlgebraChecks.test_nonadditive_postprocessing_breaks_equivalence) ... ok\ntest_point_functional_requires_valid_quantile_level (test_algebra_checks.AlgebraChecks.test_point_functional_requires_valid_quantile_level) ... ok\ntest_price_decomposition_reconstructs_exactly (test_algebra_checks.AlgebraChecks.test_price_decomposition_reconstructs_exactly) ... ok\ntest_report_contains_only_scoped_algebra_results (test_algebra_checks.AlgebraChecks.test_report_contains_only_scoped_algebra_results) ... ok\ntest_report_exposes_mean_vs_median_counterexample (test_algebra_checks.AlgebraChecks.test_report_exposes_mean_vs_median_counterexample) ... ok\ntest_ridge_rejects_negative_lambda (test_algebra_checks.AlgebraChecks.test_ridge_rejects_negative_lambda) ... ok\ntest_ridge_rejects_negative_penalty (test_algebra_checks.AlgebraChecks.test_ridge_rejects_negative_penalty) ... ok\ntest_ridge_rejects_penalty_dimension_mismatch (test_algebra_checks.AlgebraChecks.test_ridge_rejects_penalty_dimension_mismatch) ... ok\ntest_rw_plus_constant_basis_is_annual_rw (test_algebra_checks.AlgebraChecks.test_rw_plus_constant_basis_is_annual_rw) ... ok\ntest_same_fixed_operator_is_additive (test_algebra_checks.AlgebraChecks.test_same_fixed_operator_is_additive) ... ok\ntest_same_lambda_ridge_operator_is_exactly_additive (test_algebra_checks.AlgebraChecks.test_same_lambda_ridge_operator_is_exactly_additive) ... ok\ntest_singular_design_is_explicit_value_error (test_algebra_checks.AlgebraChecks.test_singular_design_is_explicit_value_error) ... ok\ntest_zero_lambda_is_exact_ols_operator (test_algebra_checks.AlgebraChecks.test_zero_lambda_is_exact_ols_operator) ... ok\n\n----------------------------------------------------------------------\nRan 30 tests in 0.193s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "research/aprime_20261007/design/algebra_checks.py"
+      ],
+      "exit_code": 0,
+      "check_count": 12,
+      "report": {
+        "scope": "pure_algebra_no_price_data_no_training",
+        "all_passed": true,
+        "not_evidence_of_predictive_gain": true,
+        "checks": {
+          "decomposition": true,
+          "rw_identity": true,
+          "fixed_operator": true,
+          "ols_same_design_fitted": true,
+          "ridge_same_lambda_fitted": true,
+          "common_xstar_forecast": true,
+          "different_operator_counterexample": true,
+          "postprocess_counterexample": true,
+          "covariance_effect": true,
+          "interval_counterexample": true,
+          "conditional_mean_additivity": true,
+          "median_nonadditivity": true
+        },
+        "interval_counterexample": {
+          "marginal_c": "19/20",
+          "marginal_b": "19/20",
+          "joint_rectangle": "9/10",
+          "sum_endpoints": "9/10"
+        },
+        "point_functional_fixture": {
+          "mean_c": "2/5",
+          "quantile_c": "0",
+          "mean_b": "2/5",
+          "quantile_b": "0",
+          "mean_p": "4/5",
+          "quantile_p": "1"
+        },
+        "limitations": [
+          "Finite rational witnesses validate code; the general proof is in the design document.",
+          "Equivalence requires the same fixed operator, aligned inputs and common prediction row.",
+          "No fitted carbon prices, empirical coverage, model ranking or forecast skill is reported."
+        ]
+      }
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_run": 11,
+      "output": "test_2026_target_is_cea25_not_old_vintage_average (test_audit.CompositeRulesTest.test_2026_target_is_cea25_not_old_vintage_average) ... ok\ntest_earlier_effective_dates_use_their_own_constituents (test_audit.CompositeRulesTest.test_earlier_effective_dates_use_their_own_constituents) ... ok\ntest_missing_quantity_is_not_changed_to_zero (test_audit.CompositeRulesTest.test_missing_quantity_is_not_changed_to_zero) ... ok\ntest_optimized_export_rejects_invalid_dates_before_writing (test_audit.CompositeRulesTest.test_optimized_export_rejects_invalid_dates_before_writing) ... ok\ntest_optimized_local_checks_reject_corrupt_snapshot_copies (test_audit.CompositeRulesTest.test_optimized_local_checks_reject_corrupt_snapshot_copies) ... ok\ntest_optimized_pipeline_rejects_corrupt_original_before_export (test_audit.CompositeRulesTest.test_optimized_pipeline_rejects_corrupt_original_before_export) ... ok\ntest_pipeline_reads_real_raw_files_without_legacy_results (test_audit.CompositeRulesTest.test_pipeline_reads_real_raw_files_without_legacy_results) ... ok\ntest_real_local_exchange_snapshots_are_reconstructed_without_old_scores (test_audit.CompositeRulesTest.test_real_local_exchange_snapshots_are_reconstructed_without_old_scores) ... ok\ntest_transport_keeps_actual_original_workbook_bytes (test_download.DownloadTest.test_transport_keeps_actual_original_workbook_bytes) ... ok\ntest_actual_originals_and_parsed_files_reject_byte_tampering (test_integrity.IntegrityTest.test_actual_originals_and_parsed_files_reject_byte_tampering) ... ok\ntest_matching_checksums_cannot_hide_conflicting_manifest_lengths (test_integrity.IntegrityTest.test_matching_checksums_cannot_hide_conflicting_manifest_lengths) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 11.002s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research/aprime_20261007/data",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_run": 6,
+      "output": "test_command_exports_only_aggregate_counts_from_verified_inputs (test_target_feasibility.AuditCommandTests.test_command_exports_only_aggregate_counts_from_verified_inputs) ... ok\ntest_endpoint_variation_is_diagnostic_not_a_selection_filter (test_target_feasibility.ForecastAvailabilityTests.test_endpoint_variation_is_diagnostic_not_a_selection_filter) ... ok\ntest_keeps_calendar_horizons_and_exposes_history_gaps (test_target_feasibility.ForecastAvailabilityTests.test_keeps_calendar_horizons_and_exposes_history_gaps) ... ok\ntest_reads_close_and_preserves_unknown_quantity (test_target_feasibility.QuoteParsingTests.test_reads_close_and_preserves_unknown_quantity) ... ok\ntest_rejects_length_conflict_even_with_matching_hash (test_target_feasibility.QuoteParsingTests.test_rejects_length_conflict_even_with_matching_hash) ... ok\ntest_missing_calendar_date_breaks_change_and_flat_run (test_target_feasibility.ScopeStatisticsTests.test_missing_calendar_date_breaks_change_and_flat_run) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.159s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research/aprime_20261007/design",
+        "-v"
+      ],
+      "exit_code": 0,
+      "tests_run": 30,
+      "output": "test_cli_emits_scoped_report_in_both_interpreter_modes (test_algebra_checks.AlgebraChecks.test_cli_emits_scoped_report_in_both_interpreter_modes) ... ok\ntest_common_unpenalized_intercept_ridge_is_additive (test_algebra_checks.AlgebraChecks.test_common_unpenalized_intercept_ridge_is_additive) ... ok\ntest_covariance_controls_composite_error_variance (test_algebra_checks.AlgebraChecks.test_covariance_controls_composite_error_variance) ... ok\ntest_different_fixed_operators_need_not_be_equivalent (test_algebra_checks.AlgebraChecks.test_different_fixed_operators_need_not_be_equivalent) ... ok\ntest_error_variance_rejects_impossible_covariance (test_algebra_checks.AlgebraChecks.test_error_variance_rejects_impossible_covariance) ... ok\ntest_error_variance_rejects_negative_marginal_variance (test_algebra_checks.AlgebraChecks.test_error_variance_rejects_negative_marginal_variance) ... ok\ntest_exact_domain_rejects_float_bool_string (test_algebra_checks.AlgebraChecks.test_exact_domain_rejects_float_bool_string) ... ok\ntest_gap_rejects_unaligned_shapes (test_algebra_checks.AlgebraChecks.test_gap_rejects_unaligned_shapes) ... ok\ntest_interval_bounds_must_be_ordered (test_algebra_checks.AlgebraChecks.test_interval_bounds_must_be_ordered) ... ok\ntest_interval_law_rejects_malformed_atom (test_algebra_checks.AlgebraChecks.test_interval_law_rejects_malformed_atom) ... ok\ntest_interval_law_rejects_negative_mass (test_algebra_checks.AlgebraChecks.test_interval_law_rejects_negative_mass) ... ok\ntest_interval_law_requires_unit_total_mass (test_algebra_checks.AlgebraChecks.test_interval_law_requires_unit_total_mass) ... ok\ntest_linear_rejects_empty_operator (test_algebra_checks.AlgebraChecks.test_linear_rejects_empty_operator) ... ok\ntest_linear_rejects_ragged_operator (test_algebra_checks.AlgebraChecks.test_linear_rejects_ragged_operator) ... ok\ntest_linear_rejects_vector_dimension_mismatch (test_algebra_checks.AlgebraChecks.test_linear_rejects_vector_dimension_mismatch) ... ok\ntest_marginal_endpoints_do_not_preserve_joint_coverage (test_algebra_checks.AlgebraChecks.test_marginal_endpoints_do_not_preserve_joint_coverage) ... ok\ntest_mean_additivity_does_not_imply_median_additivity (test_algebra_checks.AlgebraChecks.test_mean_additivity_does_not_imply_median_additivity) ... ok\ntest_nonadditive_postprocessing_breaks_equivalence (test_algebra_checks.AlgebraChecks.test_nonadditive_postprocessing_breaks_equivalence) ... ok\ntest_point_functional_requires_valid_quantile_level (test_algebra_checks.AlgebraChecks.test_point_functional_requires_valid_quantile_level) ... ok\ntest_price_decomposition_reconstructs_exactly (test_algebra_checks.AlgebraChecks.test_price_decomposition_reconstructs_exactly) ... ok\ntest_report_contains_only_scoped_algebra_results (test_algebra_checks.AlgebraChecks.test_report_contains_only_scoped_algebra_results) ... ok\ntest_report_exposes_mean_vs_median_counterexample (test_algebra_checks.AlgebraChecks.test_report_exposes_mean_vs_median_counterexample) ... ok\ntest_ridge_rejects_negative_lambda (test_algebra_checks.AlgebraChecks.test_ridge_rejects_negative_lambda) ... ok\ntest_ridge_rejects_negative_penalty (test_algebra_checks.AlgebraChecks.test_ridge_rejects_negative_penalty) ... ok\ntest_ridge_rejects_penalty_dimension_mismatch (test_algebra_checks.AlgebraChecks.test_ridge_rejects_penalty_dimension_mismatch) ... ok\ntest_rw_plus_constant_basis_is_annual_rw (test_algebra_checks.AlgebraChecks.test_rw_plus_constant_basis_is_annual_rw) ... ok\ntest_same_fixed_operator_is_additive (test_algebra_checks.AlgebraChecks.test_same_fixed_operator_is_additive) ... ok\ntest_same_lambda_ridge_operator_is_exactly_additive (test_algebra_checks.AlgebraChecks.test_same_lambda_ridge_operator_is_exactly_additive) ... ok\ntest_singular_design_is_explicit_value_error (test_algebra_checks.AlgebraChecks.test_singular_design_is_explicit_value_error) ... ok\ntest_zero_lambda_is_exact_ols_operator (test_algebra_checks.AlgebraChecks.test_zero_lambda_is_exact_ols_operator) ... ok\n\n----------------------------------------------------------------------\nRan 30 tests in 0.162s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "research/aprime_20261007/design/algebra_checks.py"
+      ],
+      "exit_code": 0,
+      "check_count": 12,
+      "report": {
+        "scope": "pure_algebra_no_price_data_no_training",
+        "all_passed": true,
+        "not_evidence_of_predictive_gain": true,
+        "checks": {
+          "decomposition": true,
+          "rw_identity": true,
+          "fixed_operator": true,
+          "ols_same_design_fitted": true,
+          "ridge_same_lambda_fitted": true,
+          "common_xstar_forecast": true,
+          "different_operator_counterexample": true,
+          "postprocess_counterexample": true,
+          "covariance_effect": true,
+          "interval_counterexample": true,
+          "conditional_mean_additivity": true,
+          "median_nonadditivity": true
+        },
+        "interval_counterexample": {
+          "marginal_c": "19/20",
+          "marginal_b": "19/20",
+          "joint_rectangle": "9/10",
+          "sum_endpoints": "9/10"
+        },
+        "point_functional_fixture": {
+          "mean_c": "2/5",
+          "quantile_c": "0",
+          "mean_b": "2/5",
+          "quantile_b": "0",
+          "mean_p": "4/5",
+          "quantile_p": "1"
+        },
+        "limitations": [
+          "Finite rational witnesses validate code; the general proof is in the design document.",
+          "Equivalence requires the same fixed operator, aligned inputs and common prediction row.",
+          "No fitted carbon prices, empirical coverage, model ranking or forecast skill is reported."
+        ]
+      }
+    }
+  ],
+  "workbook": {
+    "sheets_checked": 5,
+    "cells_checked": 1870,
+    "matched": true
+  },
+  "selected_input_files_unchanged": 22,
+  "automatic_citation_validation": "blocked_not_authorized; this run did not retry it",
+  "all_executed_checks_passed": true,
+  "all_research_gates_passed": false
+}

@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-10-07",
+  "read_only_check": true,
+  "scope": "三个原候选，仅更新证据门，不推荐已合格三区刊",
+  "journal_count": 3,
+  "all_conditions_confirmed_count": 0,
+  "CAS_vs_JCR": "CAS三区不是JCR Q3；学校分区版本与大类/小类仍未知",
+  "CAS_official_individual_records_obtained": false,
+  "CAS_official_platform_access": {
+    "url": "https://www.fenqubiao.com/",
+    "status": "连接失败，未获得单刊记录",
+    "credentials_used": false
+  },
+  "records": [
+    {
+      "cas_zone3_verified": false,
+      "cas_partition_edition": null,
+      "cas_major_category": null,
+      "cas_minor_category": null,
+      "institution_accepted_edition": null,
+      "institution_SCIE_SSCI_policy": null,
+      "institution_eligibility_verified": false,
+      "full_current_charge_schedule_verified": false,
+      "any_fee_amount_reported": false,
+      "acceptance_or_zero_total_fee_promised": false,
+      "journal": "Journal of Forecasting",
+      "publisher": "Wiley",
+      "publication_route": "订阅，可选OA（仅现时官方检索索引支持）",
+      "non_OA_route_verified_live_body": false,
+      "non_OA_route_official_index_supported": true,
+      "SCIE_mark_verified": null,
+      "SSCI_mark_verified_live_body": false,
+      "SSCI_mark_official_index_supported": true,
+      "official_indexing_marker": "Social Sciences Citation Index (Clarivate Analytics)",
+      "Clarivate_live_MJL_record_verified": false,
+      "evidence": [
+        {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1099131x/homepage/forauthors.html",
+          "short_original": "This journal is a Subscription journal that offers an open access option.",
+          "retrieved_on": "2026-10-07",
+          "access_scope": "official_url_search_index_only",
+          "live_body_http_status": 403,
+          "crawl_date": null,
+          "current_live_body_independently_verified": false
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/page/journal/1099131x/homepage/productinformation.html",
+          "short_original": "Social Sciences Citation Index (Clarivate Analytics)",
+          "retrieved_on": "2026-10-07",
+          "access_scope": "official_url_search_index_only",
+          "live_body_http_status": 403,
+          "crawl_date": null,
+          "current_live_body_independently_verified": false
+        }
+      ],
+      "blocked_urls": [
+        "https://onlinelibrary.wiley.com/page/journal/1099131x/homepage/productinformation.html",
+        "https://onlinelibrary.wiley.com/page/journal/1099131x/homepage/forauthors.html"
+      ],
+      "unknowns": [
+        "现行全文作者条款",
+        "学校是否承认SSCI",
+        "官方单刊CAS分区",
+        "完整费用条款"
+      ]
+    },
+    {
+      "cas_zone3_verified": false,
+      "cas_partition_edition": null,
+      "cas_major_category": null,
+      "cas_minor_category": null,
+      "institution_accepted_edition": null,
+      "institution_SCIE_SSCI_policy": null,
+      "institution_eligibility_verified": false,
+      "full_current_charge_schedule_verified": false,
+      "any_fee_amount_reported": false,
+      "acceptance_or_zero_total_fee_promised": false,
+      "journal": "Computational Economics",
+      "publisher": "Springer Nature",
+      "publication_route": "Hybrid，官网可选订阅/非OA",
+      "non_OA_route_verified_live_body": true,
+      "SCIE_mark_verified": true,
+      "SSCI_mark_verified_live_body": true,
+      "official_indexing_markers": [
+        "Science Citation Index Expanded (SCIE)",
+        "Social Science Citation Index"
+      ],
+      "Clarivate_live_MJL_record_verified": false,
+      "evidence": [
+        {
+          "source_id": 11,
+          "url": "https://link.springer.com/journal/10614",
+          "short_original": "Publishing model:\nHybrid",
+          "scope": "官网現行标示；学校资格/分区未知",
+          "dates": {
+            "retrieved_on": "2026-10-07"
+          },
+          "locator": null,
+          "access_scope": "verified_primary_body"
+        },
+        {
+          "source_id": 11,
+          "url": "https://link.springer.com/journal/10614",
+          "short_original": "Science Citation Index Expanded (SCIE)\nSocial Science Citation Index",
+          "scope": "官网索引清单；非学校资格证明",
+          "dates": {
+            "retrieved_on": "2026-10-07"
+          },
+          "locator": null,
+          "access_scope": "verified_primary_body"
+        },
+        {
+          "source_id": 12,
+          "url": "https://link.springer.com/journal/10614/how-to-publish-with-us",
+          "short_original": "subscription publishing model (no APC charges\napply)",
+          "scope": "订阅路线；不是零总费用",
+          "dates": {
+            "retrieved_on": "2026-10-07"
+          },
+          "locator": null,
+          "access_scope": "verified_primary_body"
+        }
+      ],
+      "APC_policy": "订阅路线不收APC；其他费用未全面核验，不承诺零总费用",
+      "unknowns": [
+        "官方单刊CAS分区与学校版本",
+        "学校收录规则",
+        "其他费用"
+      ]
+    },
+    {
+      "cas_zone3_verified": false,
+      "cas_partition_edition": null,
+      "cas_major_category": null,
+      "cas_minor_category": null,
+      "institution_accepted_edition": null,
+      "institution_SCIE_SSCI_policy": null,
+      "institution_eligibility_verified": false,
+      "full_current_charge_schedule_verified": false,
+      "any_fee_amount_reported": false,
+      "acceptance_or_zero_total_fee_promised": false,
+      "journal": "Applied Economics",
+      "publisher": "Taylor & Francis",
+      "publication_route": "Hybrid/Open Select，可选OA（仅现时官方检索索引支持）",
+      "non_OA_route_verified_live_body": false,
+      "non_OA_route_official_index_supported": true,
+      "SCIE_mark_verified": null,
+      "SSCI_mark_verified_live_body": false,
+      "SSCI_mark_official_index_supported": true,
+      "official_indexing_marker": "Social Sciences Citation Index (SSCI)",
+      "Clarivate_live_MJL_record_verified": false,
+      "evidence": [
+        {
+          "url": "https://www.tandfonline.com/journals/raec20/about-this-journal",
+          "short_original": "Applied Economics is a hybrid open access journal",
+          "retrieved_on": "2026-10-07",
+          "access_scope": "official_url_search_index_only",
+          "live_body_http_status": 403,
+          "crawl_date": null,
+          "current_live_body_independently_verified": false
+        },
+        {
+          "url": "https://www.tandfonline.com/journals/raec20/about-this-journal",
+          "short_original": "Social Sciences Citation Index (SSCI)",
+          "retrieved_on": "2026-10-07",
+          "access_scope": "official_url_search_index_only",
+          "live_body_http_status": 403,
+          "crawl_date": null,
+          "current_live_body_independently_verified": false
+        }
+      ],
+      "blocked_urls": [
+        "https://www.tandfonline.com/journals/raec20/about-this-journal",
+        "https://www.tandfonline.com/action/journalInformation?journalCode=raec20&show=editorialBoard"
+      ],
+      "unknowns": [
+        "现行全文作者条款",
+        "学校是否承认SSCI",
+        "官方单刊CAS分区",
+        "完整费用条款"
+      ]
+    }
+  ],
+  "fees_rule": "不沿用旧筛选报告任何未再次核实金额；APC、投稿费、版面/彩图及其他收费分别核实",
+  "stop_or_continue": "没有任一期刊获准宣称满足CAS三区＋学校认可＋当下非OA全部门槛；须取得学校要求及合法授权官方单刊记录；不索取账号密码"
+}
