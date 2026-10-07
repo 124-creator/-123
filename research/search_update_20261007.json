@@ -1,0 +1,110 @@
+{
+  "checked_on": "2026-10-07",
+  "search_complete": false,
+  "corroborated_record_count": 4,
+  "unverified_lead_count": 4,
+  "records": [
+    {
+      "id": "U01",
+      "title": "Multi-step ahead carbon credit price forecasting using time series foundation models",
+      "doi": "10.1016/j.asoc.2026.115290",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1568494626007386",
+      "date_issue": null,
+      "date_first_online": null,
+      "summary": "出版商索引显示时序基础模型的多步长碳价比较，以及日/月频预测。模型数量、首发日期和实际资产定义仍待核。",
+      "novelty_warning": "仅引入时序基础模型或长步长不是空白；须查实际资产、预训练截止与评价日是否构成时间信息污染。",
+      "scope": "publisher_title_and_index_snippets; no full text retrieved",
+      "checked_on": "2026-10-07",
+      "sample_or_protocol_independently_verified": false,
+      "data_or_code_retrieved_in_this_update": false,
+      "priority_date_note": "Preserve first-online versus issue date; where first-online is unknown verify it before claiming priority as of the cutoff.",
+      "date_year_from_primary_index": 2026,
+      "doi_verification_status": "not separately crosschecked against publisher citation metadata in this update"
+    },
+    {
+      "id": "U05",
+      "title": "A novel interval prediction model based on LUBE and decomposition ensemble for carbon price forecasting and trading",
+      "doi": "10.1007/s44176-026-00067-4",
+      "source_url": "https://link.springer.com/article/10.1007/s44176-026-00067-4",
+      "date_issue": "2026-12",
+      "date_first_online": "2026-05-08",
+      "summary": "出版商全文明确VMD、MLP/Bi-GRU及QD-LUBE区间框架，市场包括湖北、广东和全国。",
+      "novelty_warning": "分解+深度区间+简单交易评估已有近邻；本次没有复算其收益或检查原数据。",
+      "scope": "live_publisher_browser; citation_meta, abstract and introduction inspected; no empirical reproduction",
+      "checked_on": "2026-10-07",
+      "sample_or_protocol_independently_verified": false,
+      "data_or_code_retrieved_in_this_update": false,
+      "priority_date_note": "Preserve first-online versus issue date; where first-online is unknown verify it before claiming priority as of the cutoff.",
+      "doi_verification_status": "matched_live_citation_doi",
+      "date_note": "Live citation_cover_date is December 2026 while citation_online_date and visible Published date are May 8, 2026; already online before cutoff."
+    },
+    {
+      "id": "U07",
+      "title": "EU ETS carbon price forecasting via VMGE-Net: a variational decomposition and channel-aware GRU framework",
+      "doi": "10.1038/s41598-026-68475-w",
+      "source_url": "https://www.nature.com/articles/s41598-026-68475-w",
+      "date_issue": null,
+      "date_first_online": "2026-09-23",
+      "summary": "出版商索引显示已接受的早期版本，使用VMD、GRU及通道注意力；摘要报告1994个EU ETS日度观察。",
+      "novelty_warning": "VMD+GRU+注意力结构亦有截至九月的新近邻；不得据摘要认定其时间协议、市场合约或绩效有效。",
+      "scope": "publisher_index_of_reference_pdf; matches existing R05 identity; no empirical reproduction",
+      "checked_on": "2026-10-07",
+      "sample_or_protocol_independently_verified": false,
+      "data_or_code_retrieved_in_this_update": false,
+      "priority_date_note": "Preserve first-online versus issue date; where first-online is unknown verify it before claiming priority as of the cutoff.",
+      "additional_source_url": "https://www.nature.com/articles/s41598-026-68475-w_reference.pdf"
+    },
+    {
+      "id": "U08",
+      "title": "RF-LSTM carbon price prediction based on CEEMDAN decomposition and multiscale entropy reconstruction",
+      "doi": "10.1038/s41598-026-35085-5",
+      "source_url": "https://www.nature.com/articles/s41598-026-35085-5",
+      "date_issue": "2026",
+      "date_first_online": "2026-01-14",
+      "summary": "出版商摘要和引言明确训练窗口滚动的CEEMDAN分解—预测及RF-LSTM组合，使用湖北与EU案例。",
+      "novelty_warning": "滚动分解本身不宜作首创；原生数据和逐预测起点的信息集仍须阅读全文核查。",
+      "scope": "live_publisher_browser; citation_meta, abstract and introduction inspected; no empirical reproduction",
+      "checked_on": "2026-10-07",
+      "sample_or_protocol_independently_verified": false,
+      "data_or_code_retrieved_in_this_update": false,
+      "priority_date_note": "Preserve first-online versus issue date; where first-online is unknown verify it before claiming priority as of the cutoff.",
+      "doi_verification_status": "matched_live_citation_doi"
+    }
+  ],
+  "unverified_leads": [
+    {
+      "id": "U02",
+      "title_lead": "Predictability and causal identification of carbon prices using interpretable variables: Evidence from China's Hubei carbon market",
+      "doi_lead": "10.1016/j.eneco.2026.109330",
+      "source_url_to_verify": "https://www.sciencedirect.com/science/article/abs/pii/S0140988326002094",
+      "status": "unverified lead, NOT established prior-art evidence",
+      "reason": "Public primary text/metadata was not recovered; browser hit content failure for U02/U06 and Crossref connectivity failed. No unsupported method/date/sample description retained."
+    },
+    {
+      "id": "U03",
+      "title_lead": "An interpretable asymmetric direct interval model for carbon price forecasting based on optimal multi-granularity modes extraction and high-dimensional causal discovery",
+      "doi_lead": "10.1016/j.asoc.2026.114623",
+      "source_url_to_verify": "https://www.sciencedirect.com/science/article/abs/pii/S1568494626000712",
+      "status": "unverified lead, NOT established prior-art evidence",
+      "reason": "Public primary text/metadata was not recovered; browser hit content failure for U02/U06 and Crossref connectivity failed. No unsupported method/date/sample description retained."
+    },
+    {
+      "id": "U04",
+      "title_lead": "A multiscale analysis of spillover effects and price forecasting in China's carbon market",
+      "doi_lead": "10.1016/j.energy.2026.140304",
+      "source_url_to_verify": "https://www.sciencedirect.com/science/article/pii/S036054422600407X",
+      "status": "unverified lead, NOT established prior-art evidence",
+      "reason": "Public primary text/metadata was not recovered; browser hit content failure for U02/U06 and Crossref connectivity failed. No unsupported method/date/sample description retained."
+    },
+    {
+      "id": "U06",
+      "title_lead": "Robust carbon price forecasting across frequencies and scales: A novel hybrid-attention multivariate information-fusion framework with interpretable attributions",
+      "doi_lead": "10.1016/j.eiar.2026.108405",
+      "source_url_to_verify": "https://www.sciencedirect.com/science/article/pii/S019592552600079X",
+      "status": "unverified lead, NOT established prior-art evidence",
+      "reason": "Public primary text/metadata was not recovered; browser hit content failure for U02/U06 and Crossref connectivity failed. No unsupported method/date/sample description retained."
+    }
+  ],
+  "use": "scope-tagged recent screening only; do not count unverified leads as confirmed papers or claim exhaustive novelty search",
+  "fetch_failures": "Direct extractor rejected publisher/Crossref URLs; normal browser recovered Springer/Nature U05/U08 but Elsevier returned content error and Crossref connections closed. No paywall/login circumvention and no fake success body counted."
+}

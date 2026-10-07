@@ -1,0 +1,395 @@
+{
+  "as_of": "2026-10-07",
+  "count": 10,
+  "scope": "availability and evidence records; no author code executed and no predictive metrics reproduced",
+  "papers": [
+    {
+      "paper": "R01",
+      "title": "SW-HyDEC: A structure-aware hybrid decomposition and ensemble learning framework for carbon price forecasting",
+      "doi": "10.1007/s00521-026-11982-8",
+      "date": {
+        "journal_first_online": "2026-04-13"
+      },
+      "publication_status": "journal article; publisher full text retrieved",
+      "data_url": [
+        "https://figshare.com/s/96cc7c22c3d33d61efc8",
+        "https://api.figshare.com/v2/articles/29348171",
+        "https://ndownloader.figshare.com/files/55458437",
+        "https://ndownloader.figshare.com/files/55458440",
+        "https://ndownloader.figshare.com/files/55458443"
+      ],
+      "code_url": [],
+      "license": {
+        "paper": "CC BY 4.0",
+        "data": "CC BY 4.0; official Figshare API version 3",
+        "code": "no code file in the linked dataset"
+      },
+      "sample": "实际文件：广东1614条，2015-11-26至2023-01-13；湖北1613条，2015-11-25至2023-01-13；深圳SZA-2016为806条，2016-09-01至2022-04-12。均不含表头。",
+      "frequency": "日交易记录（正文）",
+      "product": "实际文件明确GDEA、HBEA、SZA-2016；同时含Open/High/Low/Avg/Close、Volume、Amount及外生变量。EUA_Price仍未明确点位和合约。",
+      "reproduction_barriers": [
+        "share页及整包入口HTTP 202空响应，但已通过同一官方item API和三个单文件直链全部真实下载。",
+        "湖北ClosePrice有4条空值；三市场EUA_Price分别333、304、64条空值。下载成功不能等同数据无缺失或协议完整。",
+        "仓库仅3个工作簿，没有源码；插补、时间分割、外生变量可得性/许可和算法依赖仍要独立实现并核验。",
+        "深圳SZA-2016不能与深圳全品种均价或全国CEA合并；作者转载原价未与交易所逐行对比。",
+        "后续官方报价对比见research/author_quote_checks.json；作者表不应按全表已认证处理。第三方Wind输入的再发布权利仍需另核。"
+      ],
+      "evidence_scope": "出版商全文明确关联仓库；官方Figshare API v3给出文件、许可、名称；三个真实文件HTTP200、SHA256/MD5与API一致，全部工作表只读核查；不认证价格原生真实性或预测性能。",
+      "verified_source_urls": [
+        "https://link.springer.com/article/10.1007/s00521-026-11982-8",
+        "https://api.figshare.com/v2/articles/29348171"
+      ],
+      "data_access_class": "paper_linked_open_data_downloaded_no_code",
+      "paper_repository_link_verified": true,
+      "downloaded_data": true,
+      "reproduced": false,
+      "record_as_of": "2026-10-07",
+      "author_performance_not_independently_reproduced": true
+    },
+    {
+      "paper": "R02",
+      "title": "Carbon Price Forecasting Using Optimized Sliding Window Empirical Wavelet Transform and Gated Recurrent Unit Network to Mitigate Data Leakage",
+      "doi": "10.3390/en17174358",
+      "date": {
+        "journal_published": "2024-08-31"
+      },
+      "publication_status": "journal article; publisher JATS/XML full text retrieved",
+      "data_url": [],
+      "code_url": [],
+      "license": {
+        "paper": "CC BY 4.0",
+        "data": "没有独立下载包许可",
+        "code": "没有检出代码链接"
+      },
+      "sample": "广东GDEA：2014-03-11至2023-03-10，1972交易日；湖北、北京、天津为另外的验证市场。",
+      "frequency": "日收盘价",
+      "product": "广东碳排放配额GDEA（主样本）；另外三个试点的配额碳价。",
+      "reproduction_barriers": [
+        "可得性声明只有正文和联系通讯作者，不是公开原始数据下载。",
+        "没有检出原作者源码；逐窗口EWT、TPE搜索空间、时间分割和依赖版本需要自行依据正文实现并另外核查。",
+        "原价日期、零成交过滤和复现参数仍需对实际原始数据核对。"
+      ],
+      "evidence_scope": "本轮直接取得出版商XML全文；只核验字面可得性和文章样本声明，没有运行模型。",
+      "verified_source_urls": [
+        "https://mdpi-res.com/d_attachment/energies/energies-17-04358/article_deploy/energies-17-04358.xml"
+      ],
+      "data_access_class": "article_only_author_enquiry_no_public_package",
+      "paper_repository_link_verified": false,
+      "downloaded_data": false,
+      "reproduced": false,
+      "record_as_of": "2026-10-07",
+      "author_performance_not_independently_reproduced": true
+    },
+    {
+      "paper": "R03",
+      "title": "Forecasting the Price of Carbon with Macroeconomic and Financial variables",
+      "doi": "10.1016/j.jedc.2026.105435",
+      "date": {
+        "preprint_first_public": "2024-02-07",
+        "read_version": "2026-10-03 (arXiv v3)",
+        "journal_first_online": null,
+        "journal_cover": "2026-10"
+      },
+      "publication_status": "arXiv v3 public; related journal DOI on arXiv and publisher API confirmed",
+      "data_url": [
+        "https://www.eea.europa.eu/en/analysis/maps-and-charts/emissions-trading-viewer-1-dashboards",
+        "https://ec.europa.eu/eurostat/databrowser/view/env_ac_aigg_q__custom_21764548/default/table?lang=en"
+      ],
+      "code_url": [],
+      "license": {
+        "preprint": "arXiv non-exclusive distribution license; not a data/code license",
+        "data": "LSEG商业变量与官方公共数据各有各的条款；论文整包许可未知",
+        "code": "未找到该论文自己的整包或源码入口"
+      },
+      "sample": "价格及排放图为2005-03至2023-09，但正式预测样本明确为2012-06至2023-09，136个月；共同评价2018-12至2023-09。二者不得混为一个样本。",
+      "frequency": "月度；作者将年度核证排放插值为月度；1–12个月预测",
+      "product": "EU ETS实际/名义碳价；需要进一步核实底层合约定义与拼接。能源变量来自LSEG，核证排放及宏观量来自官方源。",
+      "reproduction_barriers": [
+        "论文仅列官方公共数据和LSEG来源，公共源网站不是作者原始建模表。",
+        "正文提到按请求获取的是额外稳健性结果及某些预测结果，不是全部训练数据可得性声明；不能误写为整包按请求提供。",
+        "MCMC代码参考Chan并经作者适配，引用别人代码不是公开本篇复现代码。",
+        "宏观修订历史、发布时间、年度排放时间分解和商业LSEG序列仍是重现障碍。"
+      ],
+      "evidence_scope": "直接取得arXiv v3全文、版本记录和出版社身份API；未获取论文数据包或训练代码。",
+      "verified_source_urls": [
+        "https://arxiv.org/html/2402.04828v3",
+        "https://arxiv.org/abs/2402.04828",
+        "https://api.elsevier.com/content/article/doi/10.1016/j.jedc.2026.105435?httpAccept=text/xml"
+      ],
+      "data_access_class": "public_source_sites_plus_commercial_inputs_no_paper_package",
+      "paper_repository_link_verified": false,
+      "downloaded_data": false,
+      "reproduced": false,
+      "record_as_of": "2026-10-07",
+      "author_performance_not_independently_reproduced": true
+    },
+    {
+      "paper": "R04",
+      "title": "Carbon Price Forecasting with Quantile Regression and Feature Selection",
+      "doi": "10.48550/arXiv.2305.03224",
+      "date": {
+        "preprint_first_public": "2023-05-05",
+        "read_version": "v1"
+      },
+      "publication_status": "preprint; no journal acceptance claimed",
+      "data_url": [],
+      "code_url": [],
+      "license": {
+        "preprint": "arXiv non-exclusive distribution license",
+        "data": "unknown",
+        "code": "unknown"
+      },
+      "sample": "EU：正文声称2009-03至2020-12、182样本，训练至2019-12，测试2020；广东：训练2017-01至2020-12共1082，测试2021-01至2021-08共162。",
+      "frequency": "EU按正文目标为相邻月收盘价对数变化；广东样本看似日交易记录但须用数据核实。",
+      "product": "EU ICE ECX EUA期货收益；广东试点配额，不能把试点直接称全国CEA。",
+      "reproduction_barriers": [
+        "未检出数据/代码可得性专节或原作者下载入口，不等于证明不存在。",
+        "正文EU月度2009-03至2020-12与182条声称不一致；广东段又出现与其样本不符的2009-03至2020-12描述，需要作者更正和数据核查。",
+        "44因素+18技术指标与广东24因素尚无可下载完整建模表。",
+        "所谓TeX下载实际返回PDF，已按照文件魔术核实，不能记为源码已取得。",
+        "按正文2009-03至2020-12每月一次计算为142个月，不是182；不擅自修正原文182，记录这一疑点。"
+      ],
+      "evidence_scope": "arXiv摘要和实际下载PDF，使用现有pdftotext只读提取；不安装包、不运行论文源码。",
+      "verified_source_urls": [
+        "https://arxiv.org/abs/2305.03224",
+        "https://arxiv.org/src/2305.03224v1"
+      ],
+      "data_access_class": "full_text_no_data_or_code_package_found",
+      "paper_repository_link_verified": false,
+      "downloaded_data": false,
+      "reproduced": false,
+      "record_as_of": "2026-10-07",
+      "author_performance_not_independently_reproduced": true
+    },
+    {
+      "paper": "R05",
+      "title": "EU ETS carbon price forecasting via VMGE-Net: a variational decomposition and channel-aware GRU framework",
+      "doi": "10.1038/s41598-026-68475-w",
+      "date": {
+        "journal_published": "2026-09-23"
+      },
+      "publication_status": "journal article; publisher abstract and metadata retrieved; full methods not visible",
+      "data_url": [],
+      "code_url": [],
+      "license": {
+        "paper": "CC BY-NC-ND 4.0",
+        "data": "unknown; article license does not establish data rights",
+        "code": "unknown"
+      },
+      "sample": "出版社摘要称2017-01-20至2026-03-18，1994日观察、25个变量。",
+      "frequency": "日",
+      "product": "EU ETS碳价；摘要没有足够信息确定现货/期货合约与点位。",
+      "reproduction_barriers": [
+        "数据与代码可得性段在本轮可访问页面中缺失，不能写成作者明确不公开。",
+        "PDF入口HTTP 200但文件魔术为HTML，发生回跳；没有取得PDF全文。",
+        "具体分解参数、外生因子来源、序列点位和环境版本未知。"
+      ],
+      "evidence_scope": "出版社摘要和日期/许可信息；未取得完整实验协议和可得性声明。",
+      "verified_source_urls": [
+        "https://www.nature.com/articles/s41598-026-68475-w"
+      ],
+      "data_access_class": "availability_unknown_abstract_only",
+      "paper_repository_link_verified": false,
+      "downloaded_data": false,
+      "reproduced": false,
+      "record_as_of": "2026-10-07",
+      "author_performance_not_independently_reproduced": true
+    },
+    {
+      "paper": "R06",
+      "title": "Comparative market dynamics using deep learning architectures for forecasting CO2 allowance prices across multiple jurisdictions",
+      "doi": "10.1007/s44163-026-01551-2",
+      "date": {
+        "journal_first_online": "2026-06-18",
+        "read_version_of_record": "2026-08-28 (publisher page); first online remains 2026-06-18"
+      },
+      "publication_status": "journal article; publisher full text retrieved",
+      "data_url": [],
+      "code_url": [],
+      "license": {
+        "paper": "CC BY-NC-ND 4.0 (publisher page)",
+        "data": "未公开，按请求提供；许可未知",
+        "code": "未知"
+      },
+      "sample": "七辖区EU、中国、澳大利亚、新西兰、韩国、California、RGGI；共同工作日样本2022-09-01至2025-08-31。",
+      "frequency": "日工作日",
+      "product": "作者统一称七辖区配额现货；供应商、产品代码、各市场真实交易点位须另外核实，不能仅凭该称谓保证可比。",
+      "reproduction_barriers": [
+        "按请求提供数据不等于已公开。",
+        "没有检出自己的代码或可直接下载的样本。",
+        "日历对齐、稀疏市场插补、调参与评价时段、各辖区资产定义仍需要精读和原始序列核验。"
+      ],
+      "evidence_scope": "直接出版商全文；可得性明确，但不证明真实公开下载或协议已审计。",
+      "verified_source_urls": [
+        "https://link.springer.com/article/10.1007/s44163-026-01551-2"
+      ],
+      "data_access_class": "on_request_not_public",
+      "paper_repository_link_verified": false,
+      "downloaded_data": false,
+      "reproduced": false,
+      "record_as_of": "2026-10-07",
+      "author_performance_not_independently_reproduced": true
+    },
+    {
+      "paper": "R07",
+      "title": "CarbonTimer: Overcoming data scarcity in carbon price forecasting with a large time series model",
+      "doi": "10.1016/j.jclepro.2026.149247",
+      "date": {
+        "journal_first_online": null,
+        "journal_cover": "2026-09-05"
+      },
+      "publication_status": "journal identity verified via publisher API/Crossref publisher metadata; full text inaccessible",
+      "data_url": [],
+      "code_url": [],
+      "license": {
+        "paper": "unknown full-text terms",
+        "data": "unknown",
+        "code": "unknown"
+      },
+      "sample": null,
+      "frequency": null,
+      "product": null,
+      "reproduction_barriers": [
+        "HTTP 403/WAF限制，未读取数据与代码可得性声明，不虚构按请求或无公开数据结论。",
+        "模型预训练版本、预训练时间及潜在目标序列交叉污染，必须在取得正文/作者包后检查。",
+        "不能以其他Timer仓库冒称本论文代码或数据。"
+      ],
+      "evidence_scope": "出版社身份API与出版商提交Crossref元数据；403页面是阻碍记录，不是论文正文。",
+      "verified_source_urls": [
+        "https://api.elsevier.com/content/article/PII:S0959652626017889?httpAccept=text/xml",
+        "https://api.crossref.org/works/10.1016/j.jclepro.2026.149247"
+      ],
+      "data_access_class": "availability_unknown_publisher_403",
+      "paper_repository_link_verified": false,
+      "downloaded_data": false,
+      "reproduced": false,
+      "record_as_of": "2026-10-07",
+      "author_performance_not_independently_reproduced": true
+    },
+    {
+      "paper": "R08",
+      "title": "Do Carbon Price Forecasts Improve Compliance Procurement? Evidence from European Union Allowances",
+      "doi": "10.48550/arXiv.2607.23426",
+      "date": {
+        "preprint_first_public": "2026-07-26",
+        "read_version": "v1"
+      },
+      "publication_status": "preprint; no journal acceptance claimed",
+      "data_url": [],
+      "code_url": [],
+      "license": {
+        "preprint": "arXiv non-exclusive distribution license",
+        "data": "Investing.com及其他输入源各自条款；无论文包许可",
+        "code": "unknown"
+      },
+      "sample": "原始序列2019-01-02开始；80条烧入后2019-04-25至2025-12-31共1721交易日；测试2025-05-01至2025-12-31。",
+      "frequency": "交易日，1–5交易日预测",
+      "product": "Investing.com提供最近12月到期合约滚动拼接的ICE Endex EUA futures报价，屏幕代码C、每手1000 EUA；不是现货也不是固定到期期货。",
+      "reproduction_barriers": [
+        "网站历史公开与论文提供完整数据包不同，没有找到原作者可直接下载的建模表及代码。",
+        "连续合约滚动规则、发布时间和17:00伦敦截止需逐变量验证；美国收盘数据顺延到下一起点。",
+        "采购容量、冲击、风险与需求场景都是模拟输入；不能把模拟写成企业实盘。"
+      ],
+      "evidence_scope": "直接arXiv v1全文及版本摘要；未下载作者样本、未运行预测与采购优化。",
+      "verified_source_urls": [
+        "https://arxiv.org/html/2607.23426v1",
+        "https://arxiv.org/abs/2607.23426v1"
+      ],
+      "data_access_class": "public_source_site_no_paper_package_found",
+      "paper_repository_link_verified": false,
+      "downloaded_data": false,
+      "reproduced": false,
+      "record_as_of": "2026-10-07",
+      "author_performance_not_independently_reproduced": true
+    },
+    {
+      "paper": "R09",
+      "title": "Carbon price forecasting with complex network and extreme learning machine",
+      "doi": "10.1016/j.physa.2019.122830",
+      "date": {
+        "journal_first_online": null,
+        "journal_cover": "2020-05",
+        "author_dataset_public": "2020-03-16"
+      },
+      "publication_status": "journal article identity verified; author deposited Mendeley data associated with exact title/DOI",
+      "data_url": [
+        "https://data.mendeley.com/datasets/v25wkdwgvm/1",
+        "https://data.mendeley.com/public-files/datasets/v25wkdwgvm/files/1eaf4fbe-1476-479e-9632-bc29ad66fa80/file_downloaded"
+      ],
+      "code_url": [],
+      "license": {
+        "data": "CC BY-NC 3.0",
+        "code": "没有代码文件",
+        "paper": "publisher text unavailable"
+      },
+      "sample": "实际文件2059观察，2010-12-13至2018-12-27；两张非空表是同样长的日期/价格表示，不能相加当4118独立样本。",
+      "frequency": "日观察（非完整日历）",
+      "product": "仓库作者称EU ETS碳期货；文件只提供日期与价格，没有明确EUA/EUAA、交易所、到期/连续规则或收盘/结算点位。",
+      "reproduction_barriers": [
+        "能够下载作者数据但没有模型代码，仍不能直接等同完整可复现。",
+        "仓库API明确关联该论文DOI，但本轮出版社全文403，尚未在论文正向核实仓库链接；严格口径归为作者存储库关联，不计为已确认论文正向提供数据。",
+        "CC BY-NC限制商业使用；不能用仓库作者身份替代交易所原价真实性认证。"
+      ],
+      "evidence_scope": "官方作者数据仓库页面/API与真实文件下载及所有3个工作表只读检查；论文仅身份/出版社API核实。",
+      "verified_source_urls": [
+        "https://data.mendeley.com/datasets/v25wkdwgvm/1",
+        "https://data.mendeley.com/api/datasets-v2/datasets/v25wkdwgvm?fields=articles.*&version=1",
+        "https://data.mendeley.com/public-api/datasets/v25wkdwgvm/files?folder_id=root&version=1&%24start=0&%24limit=1000",
+        "https://api.crossref.org/works/10.1016/j.physa.2019.122830",
+        "https://api.elsevier.com/content/article/PII:S0378437119316097?httpAccept=text/xml"
+      ],
+      "data_access_class": "author_repository_associated_data_downloaded_paper_forward_link_unverified",
+      "paper_repository_link_verified": false,
+      "repository_to_paper_link_verified": true,
+      "downloaded_data": true,
+      "reproduced": false,
+      "record_as_of": "2026-10-07",
+      "author_performance_not_independently_reproduced": true
+    },
+    {
+      "paper": "R10",
+      "title": "Gaps between market performance, government planning and social objectives: projections and comparisons of carbon price intervals",
+      "doi": "10.1057/s41599-025-05482-8",
+      "date": {
+        "journal_published": "2025-07-27",
+        "author_dataset_public": "2025-06-24"
+      },
+      "publication_status": "journal article; publisher full text and linked public data/code archive retrieved",
+      "data_url": [
+        "https://data.mendeley.com/datasets/nzsgz2h274/1",
+        "https://data.mendeley.com/public-files/datasets/nzsgz2h274/files/879d9bdd-dd2d-4749-986a-107afe05b8a3/file_downloaded"
+      ],
+      "code_url": [
+        "https://data.mendeley.com/public-files/datasets/nzsgz2h274/files/879d9bdd-dd2d-4749-986a-107afe05b8a3/file_downloaded"
+      ],
+      "license": {
+        "paper": "CC BY-NC-ND 4.0",
+        "data_and_deposited_code": "CC BY 4.0 per Mendeley package metadata; third-party internal code terms need separate review"
+      },
+      "sample": "论文市场表现样本湖北现货日收盘2018-08-02至2022-11-30，训练截至2022-08-30，测试2022-09-01至2022-11-30；下载市场Data.xlsx为945条数据、17列但没有日期列，尚未逐日对应论文划分。另有省级年度MAC、2022夜间灯光等异频数据。",
+      "frequency": "湖北日度预测；政府/月度情景和省级年度MAC是不同频率与目标。",
+      "product": "湖北碳配额现货价格及推导的政府规划价、社会MAC影子价；不能把三者全部当作交易所实际碳价。",
+      "reproduction_barriers": [
+        "已具备与论文正向关联的数据和源码归档，但未运行，不声称重现指标。",
+        "源码主要为MATLAB，含Python LightGBM模块，读取发现trainNetwork、arima/garch、lightgbm/numpy/pandas；依赖版本、工具箱许可与随机种子未构成经过测试的环境。",
+        "官方仓库许可CC BY4.0与论文BY-NC-ND4.0不同；内部含第三方优化与分解源码，需要检查各自版权，不把存储库许可自动覆盖它们。",
+        "原始市场表未提供日期列；已有分解结果不能代替严格逐起点重新分解的证据。",
+        "RAR所有文件可列出，抽取六个工作簿与code.zip成功，13个内层ZIP均CRC通过；整包流式读取遇目录项解压错误，未宣称整个RAR完整性全通过。"
+      ],
+      "evidence_scope": "出版商可得性段直接链接nzsgz2h274；仓库实际文件API和HTTP200归档；SHA256与平台声明一致；只读检查六个XLSX和13个ZIP包，不执行MATLAB/Python/notebook。",
+      "verified_source_urls": [
+        "https://www.nature.com/articles/s41599-025-05482-8",
+        "https://data.mendeley.com/datasets/nzsgz2h274/1",
+        "https://data.mendeley.com/public-api/datasets/nzsgz2h274/files?folder_id=root&version=1&%24start=0&%24limit=1000",
+        "https://data.mendeley.com/api/datasets-v2/datasets/nzsgz2h274?fields=articles.*&version=1"
+      ],
+      "data_access_class": "paper_linked_open_data_and_code_archive_downloaded",
+      "paper_repository_link_verified": true,
+      "downloaded_data": true,
+      "reproduced": false,
+      "record_as_of": "2026-10-07",
+      "author_performance_not_independently_reproduced": true,
+      "interpretation_note": "公开归档不等于严格无泄漏复现；945行17列的市场Data.xlsx缺日期列，预分解结果和政府/MAC模拟不当成原生收盘价。"
+    }
+  ]
+}

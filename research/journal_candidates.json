@@ -1,0 +1,43 @@
+{
+  "checked_on": "2026-10-07",
+  "selection_status": "screening candidates, NOT confirmed CAS-zone-3 target journals",
+  "confirmed_zone3_count": 0,
+  "cas_partition_source": "https://www.fenqubiao.com/?year=2022",
+  "cas_partition_source_scope": "historical official platform introduction, not current individual-journal partition records",
+  "other_partition_brands_are_not_substitutes": true,
+  "records": [
+    {
+      "journal": "Journal of Forecasting",
+      "official_url": "https://onlinelibrary.wiley.com/page/journal/1099131x/homepage/forauthors.html",
+      "publishing_route": "Subscription with optional open access",
+      "access_scope": "official author-guideline search index; live browser blocked by Cloudflare, full current guideline not inspected",
+      "cas_zone3_verified": false,
+      "cas_partition_year": null,
+      "institution_eligibility_verified": false,
+      "fees": "Full current charge schedule not independently verified; do not promise no charges",
+      "fit_assessment": "Conditional inference: consider only if contribution is a substantive forecast evaluation or methodology, not merely data discrepancy reporting"
+    },
+    {
+      "journal": "Computational Economics",
+      "official_url": "https://link.springer.com/journal/10614",
+      "publishing_route": "Hybrid",
+      "access_scope": "live official publisher home: Publishing model Hybrid and scope directly read",
+      "cas_zone3_verified": false,
+      "cas_partition_year": null,
+      "institution_eligibility_verified": false,
+      "fees": "Subscription author option and detailed fee conditions require current submission/publishing guidance; home alone does not establish all fees",
+      "fit_assessment": "Inference from official scope: economically meaningful computational/dynamic aggregation forecasting may fit better than algorithm swapping"
+    },
+    {
+      "journal": "Applied Economics",
+      "official_url": "https://tandfonline.com/journals/raec20/about-this-journal",
+      "publishing_route": "Hybrid, Open Select; gold OA optional",
+      "access_scope": "official about-journal search index; live browser blocked by Cloudflare, full current instructions not inspected",
+      "cas_zone3_verified": false,
+      "cas_partition_year": null,
+      "institution_eligibility_verified": false,
+      "fees": "Submission/page/color/other charges not independently verified",
+      "fit_assessment": "Conditional inference: needs an applied-economic question, not merely a carbon-series accuracy contest"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "confirmed_on": "2026-10-07",
+  "target_partition_system": "Chinese Academy of Sciences journal partition, not JCR Q3",
+  "target_zone": 3,
+  "publication_route": "traditional subscription/non-open-access, including hybrid journals only if subscription route remains available",
+  "closed_source_means_code_private": false,
+  "institution_accepted_partition_edition": "not yet provided; verify actual available official edition and institution requirements",
+  "cas_major_vs_minor_category": "not yet provided; report both and do not silently substitute one",
+  "scie_vs_ssci_eligibility": "institution rule not yet provided; verify before choosing economics journals",
+  "apc_note": "Do not equate subscription route with guaranteed zero total charges; independently check submission/page/color/other charges",
+  "sixpro_analysis_actually_executed": false,
+  "old_models_or_scores_can_support_choice": false,
+  "success_definition": "evidence-based main direction plus alternatives, data gates, falsifiable hypotheses, minimal experiment design and verified target journal conditions; no guarantee of acceptance"
+}

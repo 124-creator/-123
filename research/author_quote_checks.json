@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-10-07",
+  "scope": "independent author-price comparison diagnostics, not model reproduction; source files/rights separate",
+  "diagnostics": [
+    {
+      "market": "GDEA",
+      "author_field": "ClosePrice",
+      "official_field": "close",
+      "author_rows": 1614,
+      "date_overlap": 1612,
+      "missing_author_value_on_overlap": 0,
+      "numeric_matches_to_half_cent": 1587,
+      "numeric_disagreements": 25,
+      "unavailable_official_date": 2,
+      "scope": "numeric cross-check only; different price definitions may legitimately disagree"
+    },
+    {
+      "market": "GDEA",
+      "author_field": "AvgPrice",
+      "official_field": "close",
+      "author_rows": 1614,
+      "date_overlap": 1612,
+      "missing_author_value_on_overlap": 0,
+      "numeric_matches_to_half_cent": 1335,
+      "numeric_disagreements": 277,
+      "unavailable_official_date": 2,
+      "scope": "numeric cross-check only; different price definitions may legitimately disagree"
+    },
+    {
+      "market": "HBEA",
+      "author_field": "ClosePrice",
+      "official_field": "official_latest",
+      "author_rows": 1613,
+      "date_overlap": 1282,
+      "missing_author_value_on_overlap": 4,
+      "numeric_matches_to_half_cent": 1238,
+      "numeric_disagreements": 40,
+      "unavailable_official_date": 331,
+      "scope": "numeric cross-check only; different price definitions may legitimately disagree"
+    },
+    {
+      "market": "HBEA",
+      "author_field": "AvgPrice",
+      "official_field": "official_latest",
+      "author_rows": 1613,
+      "date_overlap": 1282,
+      "missing_author_value_on_overlap": 0,
+      "numeric_matches_to_half_cent": 432,
+      "numeric_disagreements": 850,
+      "unavailable_official_date": 331,
+      "scope": "numeric cross-check only; different price definitions may legitimately disagree"
+    }
+  ]
+}

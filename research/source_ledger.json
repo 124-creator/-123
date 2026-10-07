@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://afajof.org/issue/volume-40-issue-1",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "url": "https://api.crossref.org/works/10.1002/for.70024",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "url": "https://api.crossref.org/works/10.1016/j.engappai.2026.115440",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "url": "https://api.crossref.org/works/10.1016/j.frl.2024.106560",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "url": "https://api.crossref.org/works/10.1016/j.jclepro.2026.149247",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "url": "https://api.crossref.org/works/10.1016/j.physa.2019.122830",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "url": "https://api.crossref.org/works/10.1111/irfi.70099",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "url": "https://api.elsevier.com/content/article/PII:S0378437119316097?httpAccept=text/xml",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "url": "https://api.elsevier.com/content/article/PII:S0959652626017889?httpAccept=text/xml",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "url": "https://api.elsevier.com/content/article/doi/10.1016/j.jedc.2026.105435?httpAccept=text/xml",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "url": "https://api.figshare.com/v2/articles/29348171",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "url": "https://arxiv.org/abs/1903.04684",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "url": "https://arxiv.org/abs/2305.03224",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "url": "https://arxiv.org/abs/2402.04828",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 15,
+      "url": "https://arxiv.org/abs/2607.23426",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 16,
+      "url": "https://arxiv.org/abs/2607.23426v1",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 17,
+      "url": "https://arxiv.org/html/2402.04828v3",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 18,
+      "url": "https://arxiv.org/html/2602.03903v3",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 19,
+      "url": "https://arxiv.org/html/2607.23426v1",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 20,
+      "url": "https://arxiv.org/html/2608.17079v1",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 21,
+      "url": "https://arxiv.org/pdf/1905.07886v2",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 22,
+      "url": "https://arxiv.org/src/2305.03224v1",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 23,
+      "url": "https://data.mendeley.com/api/datasets-v2/datasets/nzsgz2h274?fields=articles.*&version=1",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 24,
+      "url": "https://data.mendeley.com/api/datasets-v2/datasets/v25wkdwgvm?fields=articles.*&version=1",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 25,
+      "url": "https://data.mendeley.com/datasets/nzsgz2h274/1",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 26,
+      "url": "https://data.mendeley.com/datasets/v25wkdwgvm/1",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 27,
+      "url": "https://data.mendeley.com/datasets/v9xpz8zb4h/1",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 28,
+      "url": "https://data.mendeley.com/public-api/datasets/nzsgz2h274/files?folder_id=root&version=1&%24start=0&%24limit=1000",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 29,
+      "url": "https://data.mendeley.com/public-api/datasets/v25wkdwgvm/files?folder_id=root&version=1&%24start=0&%24limit=1000",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 30,
+      "url": "https://econometricsociety.org/publications/quantitative-economics/2022/07/01/Uncertainty-measures-from-partially-rounded-probabilistic-forecast-surveys/supp/1634-7604-1-SP.pdf",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 31,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33736253&retmode=xml",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 32,
+      "url": "https://iris.univr.it/retrieve/5b378998-ad22-4188-8182-6c1c9ddedd5b/BandiPirinoReno2024_ss.pdf",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 33,
+      "url": "https://link.springer.com/article/10.1007/s00521-026-11982-8",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 34,
+      "url": "https://link.springer.com/article/10.1007/s44163-026-01551-2",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 35,
+      "url": "https://link.springer.com/article/10.1007/s44176-026-00067-4",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 36,
+      "url": "https://mdpi-res.com/d_attachment/energies/energies-17-04358/article_deploy/energies-17-04358.xml",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 37,
+      "url": "https://storre.stir.ac.uk/bitstream/1893/1704/1/SEDP-2009-22-Montagnoli-de-Vries.pdf",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 38,
+      "url": "https://www.brookings.edu/wp-content/uploads/2026/03/WP106_Bauer-et-al.pdf",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 39,
+      "url": "https://www.nature.com/articles/s41598-026-35085-5",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 40,
+      "url": "https://www.nature.com/articles/s41598-026-68475-w",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 41,
+      "url": "https://www.nature.com/articles/s41599-025-05482-8",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 42,
+      "url": "https://www.nber.org/papers/w2960",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 43,
+      "url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/22161953/Ibikunle_et_al._2015_Revised.pdf",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 44,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0140988326002094",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 45,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1568494626000712",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 46,
+      "url": "https://www.sciencedirect.com/science/article/pii/S019592552600079X",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 47,
+      "url": "https://www.sciencedirect.com/science/article/pii/S036054422600407X",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 48,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1568494626007386",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 49,
+      "url": "https://www.stat.cmu.edu/~ryantibs/papers/nexcp.pdf",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 50,
+      "url": "https://onlinelibrary.wiley.com/page/journal/1099131x/homepage/forauthors.html",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 51,
+      "url": "https://link.springer.com/journal/10614",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 52,
+      "url": "https://tandfonline.com/journals/raec20/about-this-journal",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 53,
+      "url": "https://www.fenqubiao.com/?year=2022",
+      "title": "",
+      "accessed": "2026-10-07"
+    }
+  ]
+}

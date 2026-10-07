@@ -1,0 +1,352 @@
+{
+  "as_of": "2026-10-07",
+  "count": 19,
+  "scope": "prior-art evidence with heterogeneous access depth; overlap with papers.json is intentional and not counted as independent papers",
+  "neighbors": [
+    {
+      "key": "frl_liquidity_2025",
+      "title": "The influence of market liquidity on the efficiency of China's pilot carbon markets",
+      "authors": "Qian Wang; Sitong Wu; Peng Huang; C. James Hueng",
+      "source_url": "https://api.crossref.org/works/10.1016/j.frl.2024.106560",
+      "doi": "10.1016/j.frl.2024.106560",
+      "publication_dates": {
+        "issue": "2025-02",
+        "first_online": null
+      },
+      "problem": "试点碳市场流动性与弱式有效性的关系。",
+      "method": "出版社搜索索引摘录与主代理提供内容一致：thin trading、成交量、深度；wild-bootstrap自动方差比检验；logit解释随机游走检验结果。",
+      "sample": "中国地方试点；本子代理确切起止日期及逐市场样本数仍未知。索引摘录涉及非交易日期缺失、零成交日期使用前日价格；主代理作者全文进一步确认thin trading/volume/depth与random walk效率已有研究。",
+      "overlap": "直接排除“首次研究碳价薄交易、零成交与随机游走”之类宽泛贡献。",
+      "difference": "拟题只问公开综合行情、年度配额权重版本和供应商零值误分是否改变样本外相对随机游走能力与分组覆盖结论；不把流动性回归再包装一次。",
+      "evidence_scope": "本子代理已读身份/出版社索引；2026-10-07主代理另读取作者上传全文并确认thin trading、volume、depth与random walk效率主题。全文核验是主代理提供的上下文，不冒充本子代理再次精读。",
+      "verification_limits": "本子代理身份短引不支持实验细节；主代理报告其已读取作者上传全文；本轮没有独立重算数据/作者指标。不能将作者的效率结论当作本项目已验证事实。"
+    },
+    {
+      "key": "carbon_thickness_2009",
+      "title": "Carbon trading thickness and market efficiency: A non-parametric test",
+      "authors": "Alberto Montagnoli; Frans P. de Vries",
+      "source_url": "https://storre.stir.ac.uk/bitstream/1893/1704/1/SEDP-2009-22-Montagnoli-de-Vries.pdf",
+      "doi": null,
+      "publication_dates": {
+        "working_paper": "2009-10-13",
+        "journal_version": null
+      },
+      "problem": "薄交易是否改变EU ETS有效性检验。",
+      "method": "Wright秩/符号方差比检验；按Miller等AR(1)方式调整非交易效应后再检验；多重检验。",
+      "sample": "BlueNext现货：2005-06-27至2007-12-28，627点；2008-02-26至2009-04-04，250点（按原文记载，不替作者修正日期）。",
+      "overlap": "“交易稀少会影响随机游走推断”早已有碳市场直接前例。",
+      "difference": "不是样本外预测/区间研究，也没有公开全国综合行情和供应商精度的版本审计。",
+      "evidence_scope": "作者机构工作论文全文",
+      "verification_limits": "工作论文与期刊版不合并日期或样本；原文标题表格有明显模板字样，不能把文献数据视为独立复核。"
+    },
+    {
+      "key": "ibikunle_2016",
+      "title": "Liquidity and market efficiency in the world's largest carbon market",
+      "authors": "Gbenga Ibikunle; Andros Gregoriou; Andreas G. F. Hoepner; Mark Rhodes",
+      "source_url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/22161953/Ibikunle_et_al._2015_Revised.pdf",
+      "doi": "10.1016/j.bar.2015.11.001",
+      "publication_dates": {
+        "accepted_manuscript_year": "2015",
+        "issue_year": "2016"
+      },
+      "problem": "流动性与日内短期收益可预测性。",
+      "method": "日内收益序列依赖及流动性/订单失衡指标；交易活跃度和买卖价差与随机游走基准关系。",
+      "sample": "ICE/ECX EUA期货逐笔屏幕成交，2008年1月至2011年4月；产品、到期月、时间戳、价格、方向、数量等完整字段。",
+      "overlap": "碳价可预测性、流动性及市场质量的关系不是新命题。",
+      "difference": "本任务没有其逐笔交易和订单信息；只能研究公开日频观测口径的预测稳健性，不能借用其微观结构识别结论。",
+      "evidence_scope": "作者机构接受稿全文",
+      "verification_limits": "价差变窄时可预测性下降是作者样本内报告，不构成所有碳市场的普遍因果规律。"
+    },
+    {
+      "key": "systematic_staleness_2024",
+      "title": "Systematic staleness",
+      "authors": "Federico M. Bandi; Davide Pirino; Roberto Renò",
+      "source_url": "https://iris.univr.it/retrieve/5b378998-ad22-4188-8182-6c1c9ddedd5b/BandiPirinoReno2024_ss.pdf",
+      "doi": "10.1016/j.jeconom.2023.105522",
+      "publication_dates": {
+        "first_online": "2023-10-16",
+        "issue": "2024-01"
+      },
+      "problem": "系统性/个体价格停滞的估计及结构流动性信息。",
+      "method": "跨资产小价格更新比例及高频/大横截面联合渐近；将staleness作为信息不对称交易结构模型矩条件。",
+      "sample": "250只NYSE股票，2006年1月至2014年12月逐笔成交；previous-tick插值形成10秒收益；2265个交易日。",
+      "overlap": "“利用陈旧价格提取流动性机制”已有成熟的一般金融方法。",
+      "difference": "公开综合价不是交易价；日频零收益不是其高频结构staleness估计量。这里必须只称观测更新状态，不称识别latent transaction/efficient price。",
+      "evidence_scope": "出版商正式全文的作者机构副本",
+      "verification_limits": "其引言特别说明低频零收益会混入波动、学习、信息不对称及执行成本，不能直接把零收益率当流动性识别。"
+    },
+    {
+      "key": "wu_qin_2021",
+      "title": "Assessing market efficiency and liquidity: Evidence from China's emissions trading scheme pilots",
+      "authors": "Ruirui Wu; Zhongfeng Qin",
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33736253&retmode=xml",
+      "doi": "10.1016/j.scitotenv.2020.144707",
+      "publication_dates": {
+        "issue": "2021-05-15",
+        "electronic_date": null
+      },
+      "problem": "时变市场效率及其与流动性的静态/动态关系。",
+      "method": "GARCH(1,1)-M＋Kalman时变参数、修正Amihud比率、固定效应面板、面板脉冲响应。",
+      "sample": "北京、广东、上海、深圳、湖北，2017年1月至2019年6月。",
+      "overlap": "中国试点、状态变化、效率—流动性联结早已有直接前例。",
+      "difference": "全国年度配额综合报价版本和供应商精度导致的样本外预测/覆盖差异，不是其核心设问。",
+      "evidence_scope": "作者摘要：NCBI PubMed XML；非全文",
+      "verification_limits": "未审计该文样本交易状态定义及面板识别假设，不能把脉冲响应文字自动称为已识别因果。"
+    },
+    {
+      "key": "eua_conformal_2025",
+      "title": "European Union Allowance price forecasting with Multidimensional Uncertainties: A TCN‐iTransformer Approach for Interval Estimation",
+      "authors": "Ran Wu; Mohammad Zoynul Abedin; Hongjun Zeng; Brian Lucey",
+      "source_url": "https://api.crossref.org/works/10.1002/for.70024",
+      "doi": "10.1002/for.70024",
+      "publication_dates": {
+        "first_online": "2025-09-21",
+        "issue": "2026-01"
+      },
+      "problem": "EUA点预测和区间预测的外部不确定性融合。",
+      "method": "TCN-iTransformer、外部不确定性指标、quantile regression＋conformal prediction；报告DM/OLS和SHAP。",
+      "sample": "EUA；本轮摘要未给出合约身份、起止日期、样本量、切分及校准窗口，均未知。",
+      "overlap": "“首次碳价格共形区间”被直接反证。",
+      "difference": "不以再加一个Transformer/液性分组校准当贡献；拟题以公开价格定义和样本版本审计为对象。",
+      "evidence_scope": "出版商提交的Crossref摘要；出版社页面403，未得全文",
+      "verification_limits": "只确认方法已存在；作者优越性能及SHAP重要性均未独立重算。"
+    },
+    {
+      "key": "otsubo_2026",
+      "title": "Intraday and Daily Price Discovery in Carbon Markets: EUA Futures Versus Carbon ETFs",
+      "authors": "Yoichi Otsubo",
+      "source_url": "https://api.crossref.org/works/10.1111/irfi.70099",
+      "doi": "10.1111/irfi.70099",
+      "publication_dates": {
+        "first_online": "2026-08-26",
+        "issue": "2026-09"
+      },
+      "problem": "不同碳金融报价场所、交易时段和噪声如何影响价格发现。",
+      "method": "小时EUA期货与KEUA ETF的state-space模型，将efficient-price innovations与transitory noise分开；日频拍卖/期货/ETF联动。",
+      "sample": "小时EUA futures/美国KEUA ETF，以及日频拍卖/期货/ETF；摘要未给确切起止日期和样本量。",
+      "overlap": "碳市场报价停滞、非同步交易和“有效价格”已经有专门价格发现研究。",
+      "difference": "研究中国公开综合行情的数据定义，不竞争跨场所有效价格估计；EEX拍卖不能替代二级现货/期货。",
+      "evidence_scope": "出版商Crossref摘要；出版社索引另提示多成分陈旧报价可能混杂，未得全文",
+      "verification_limits": "因果政策归属与effective price是该模型下的作者解释，不能用本地日频综合价复现。"
+    },
+    {
+      "key": "rwc_2026",
+      "title": "Taming Tail Risk in Financial Markets: Conformal Calibration for Nonstationary Portfolio VaR",
+      "authors": "Marc Schmitt",
+      "source_url": "https://arxiv.org/html/2602.03903v3",
+      "doi": "10.48550/arXiv.2602.03903",
+      "publication_dates": {
+        "first_public": "2026-02-03",
+        "version_read": "v3, 2026-08-03",
+        "peer_reviewed": false
+      },
+      "problem": "金融VaR在不同风险状态下的条件超越率稳定性。",
+      "method": "RWC：历史误差的时间衰减和状态相似度加权；TWC特例；任意数据驱动权重的覆盖误差界；ACI/DtACI/PID及区块bootstrap比较。",
+      "sample": "CRSP市值加权指数和16个美国股票组合，1990—2024；99%与97.5%单侧VaR。",
+      "overlap": "“状态加权金融共形校准”“压力组条件覆盖”不是新框架。",
+      "difference": "只把已存在校准器当对照；窄问题是观测定义/错标签是否改变诊断，而不是发明状态加权。",
+      "evidence_scope": "arXiv v3作者全文；预印本",
+      "verification_limits": "不可把有限状态的经验覆盖或平滑漂移下的界，写成任意流动性条件下分布无关有限样本保证。"
+    },
+    {
+      "key": "dracp_2026",
+      "title": "Dynamic Regime-Aware Conformal Calibration for Reliable Economic Forecast Intervals under Multiple Distribution Shifts",
+      "authors": "Bogdan Oancea",
+      "source_url": "https://arxiv.org/html/2608.17079v1",
+      "doi": "10.48550/arXiv.2608.17079",
+      "publication_dates": {
+        "first_public": "2026-08-17",
+        "version_read": "v1",
+        "peer_reviewed": false
+      },
+      "problem": "协变量漂移、概念漂移、局部异质性、隐含状态下的经济预测区间。",
+      "method": "密度比/局部kernel/概率状态权重＋在线显著性控制；条件尺度标准化；比较FACI/strongly-adaptive/PID并区分oracle权重有效性、估计误差界与controller保证。",
+      "sample": "48个真实序列：28个欧洲HICP、13个美国宏观/能源、7个日频金融；各序列样本长度不同；另有7种模拟情景。",
+      "overlap": "经济/能源/金融状态共形校准、漂移加权、条件尺度和在线控制均已有近邻。",
+      "difference": "本任务核心不是将以上模块重新拼接；需要明确“报价构造的已知制度状态”与一般未知波动状态不同。",
+      "evidence_scope": "arXiv v1作者全文；预印本",
+      "verification_limits": "作者明确其区间分数并非最佳；其覆盖/宽度数字不能作为新项目保证或评审接受证据。"
+    },
+    {
+      "key": "kath_ziel_2019",
+      "title": "Conformal Prediction Interval Estimations with an Application to Day-Ahead and Intraday Power Markets",
+      "authors": "Christopher Kath; Florian Ziel",
+      "source_url": "https://arxiv.org/pdf/1905.07886v2",
+      "doi": "10.48550/arXiv.1905.07886",
+      "publication_dates": {
+        "first_public": "2019-05-20",
+        "version_read": "v2, 2020-09-17",
+        "journal_date": null
+      },
+      "problem": "电力市场中共形区间的样本外可靠性。",
+      "method": "将CP包在多种点预测器外，与QRA等区间方法比较，研究不同市场条件。",
+      "sample": "Nord Pool日前2012—2013；德国EPEX日内2013—2016；GEFCom2014价格数据2011—2013。",
+      "overlap": "能源共形区间、changing market conditions及点模型无关校准早有先例。",
+      "difference": "中国碳公开综合价的观测和供应商零值，不是其估计对象；不能把能源首次搬到碳作为宽泛贡献。",
+      "evidence_scope": "作者arXiv v2全文",
+      "verification_limits": "预印本版本与后续期刊版本分开；没有重算其覆盖结果。"
+    },
+    {
+      "key": "barber_beyond_exchangeability",
+      "title": "Conformal Prediction Beyond Exchangeability",
+      "authors": "Rina Foygel Barber; Emmanuel J. Candès; Aaditya Ramdas; Ryan J. Tibshirani",
+      "source_url": "https://www.stat.cmu.edu/~ryantibs/papers/nexcp.pdf",
+      "doi": null,
+      "publication_dates": {
+        "primary_copy_date": null
+      },
+      "problem": "非交换数据与非对称拟合规则下的共形覆盖损失。",
+      "method": "加权分位数＋随机化；推导漂移导致的覆盖损失界；模拟及电力/选举实验。",
+      "sample": "ELEC2澳大利亚新南威尔士/维多利亚，1996—1999半小时观测；该实验响应是州际电量transfer，不是简单“电价预测”；另有选举。",
+      "overlap": "漂移加权和最近观测优先不是新方法。",
+      "difference": "可以借其漂移风险理论，但公开日频综合报价并不自动满足交换性或其界所需条件。",
+      "evidence_scope": "作者CMU论文全文",
+      "verification_limits": "未用日期猜正式发表时间；ELEC2的electricity data不能误写成所有实验都预测价格。"
+    },
+    {
+      "key": "lo_mackinlay_1989",
+      "title": "An Econometric Analysis of Nonsynchronous Trading",
+      "authors": "Andrew W. Lo; A. Craig MacKinlay",
+      "source_url": "https://www.nber.org/papers/w2960",
+      "doi": "10.3386/w2960",
+      "publication_dates": {
+        "working_paper": "1989-05",
+        "journal_year": "1990"
+      },
+      "problem": "非同步交易如何改变资产/组合收益的时间序列性质。",
+      "method": "随机删失抽样的非同步价格模型；显式方差、自相关、交叉自相关；非交易量级估计。",
+      "sample": "一般金融理论和常用股票回报数据库；网页摘要未给确切样本日期；39页旧PDF仅有扫描、未OCR，不能冒充全文已读。",
+      "overlap": "报价采样会制造某些自相关和随机游走拒绝是经典问题。",
+      "difference": "说明“观测可预测性≠可执行交易收益”；不推出所有碳价可预测性都由非交易产生。",
+      "evidence_scope": "NBER作者摘要与出版信息",
+      "verification_limits": "不是完整正文；其实际可解释份额及经验参数在本轮未知。"
+    },
+    {
+      "key": "glas_hartmann_2022",
+      "title": "Uncertainty measures from partially rounded probabilistic forecast surveys",
+      "authors": "Alexander Glas; Matthias Hartmann",
+      "source_url": "https://econometricsociety.org/publications/quantitative-economics/2022/07/01/Uncertainty-measures-from-partially-rounded-probabilistic-forecast-surveys/supp/1634-7604-1-SP.pdf",
+      "doi": "10.3982/QE1703",
+      "publication_dates": {
+        "journal_year": "2022"
+      },
+      "problem": "概率报告舍入与预测前后不确定性不匹配。",
+      "method": "利用报出的概率数字精度识别报告行为，提出可实时执行的二阶矩修正。",
+      "sample": "FED-SPF与ECB-SPF，1999Q1—2017Q4采集的概率预测，预测目标2000—2017；美国失业率预测窗口另受可用性限制。",
+      "overlap": "“舍入影响不确定性/校准诊断”在相邻预测文献中已经存在。",
+      "difference": "本文舍入的是主观概率，不是供应商万吨成交量；不能将其经验结果直接外推为碳价舍入已造成同样偏差。",
+      "evidence_scope": "经济计量学会正式全文",
+      "verification_limits": "本地尚只核验成交量零值，不是价格或概率输出的舍入；必须区分三个观测层次。"
+    },
+    {
+      "key": "gottlieb_kalay_1985",
+      "title": "Implications of the Discreteness of Observed Stock Prices",
+      "authors": "Gary Gottlieb; Avner Kalay",
+      "source_url": "https://afajof.org/issue/volume-40-issue-1/",
+      "doi": "10.1111/j.1540-6261.1985.tb04941.x",
+      "publication_dates": {
+        "issue": "1985-03"
+      },
+      "problem": "离散观察价格造成的收益矩估计偏差。",
+      "method": "对离散报价导致的方差及高阶矩偏差作理论修正；讨论beta/市场组合方差。",
+      "sample": "交易所股票报价按1/8单位离散；刊期目录中的作者摘要，非正文。",
+      "overlap": "价格离散化影响波动矩不是新发现。",
+      "difference": "这里已经确认的主要精度问题是成交量字段；若价格与官方完全匹配，不能声称供应商“价格舍入”制造了收益自相关。",
+      "evidence_scope": "美国金融学会刊期页作者摘要",
+      "verification_limits": "离散tick、供应商报表舍入、零值筛样是不同机制；不把true price模型当本任务已识别的latent价格。"
+    },
+    {
+      "key": "conditional_limits",
+      "title": "The limits of distribution-free conditional predictive inference",
+      "authors": "Rina Foygel Barber; Emmanuel J. Candès; Aaditya Ramdas; Ryan J. Tibshirani",
+      "source_url": "https://arxiv.org/abs/1903.04684",
+      "doi": "10.48550/arXiv.1903.04684",
+      "publication_dates": {
+        "first_public": "2019-03-12",
+        "version_read": "v2, 2020-04-15"
+      },
+      "problem": "边际覆盖与条件覆盖的可实现性边界。",
+      "method": "条件推断不可能性及条件覆盖的可实现放松。",
+      "sample": "理论论文；本轮读取作者摘要，不涉及碳市场样本。",
+      "overlap": "不能把某几个流动性状态的经验接近名义覆盖，写成任意条件下严格分布无关保证。",
+      "difference": "本项目应预先定义粗分组，报告覆盖估计和不确定性；只主张经验分组校准。",
+      "evidence_scope": "arXiv作者摘要",
+      "verification_limits": "未逐条核对该文所有定理假设；用其明确边界约束贡献表述，不扩张成无条件否定所有组条件CP。"
+    },
+    {
+      "key": "text_fusion_2026",
+      "title": "Scale-aware dynamic fusion of textual and numerical information for carbon price forecasting in Chinese emissions trading markets",
+      "authors": "Rui Liu; Chaoyong Qin",
+      "source_url": "https://api.crossref.org/works/10.1016/j.engappai.2026.115440",
+      "doi": "10.1016/j.engappai.2026.115440",
+      "publication_dates": {
+        "issue": "2026-10",
+        "first_online": null
+      },
+      "problem": "中国碳价的文本/数值融合预测。",
+      "method": "标题与出版社索引表明尺度感知动态融合新闻/政策和数值；具体网络、分解与评估方案未核验。",
+      "sample": "中国碳市场；本轮没有全文或作者摘要，确切市场、样本日期及规模未知。",
+      "overlap": "政策文本融合不宜作为备选方向的独立新意。",
+      "difference": "观测定义、错误版本、供应商量字段与相对随机游走/校准结论，是另一估计对象。",
+      "evidence_scope": "出版商Crossref身份元数据＋出版社索引；identity-only",
+      "verification_limits": "DOI中的2026和卷期2026-10不证明首次在线日期；不臆造实验、不复述优越指标。"
+    },
+    {
+      "key": "procurement_2026",
+      "title": "Do Carbon Price Forecasts Improve Compliance Procurement? Evidence from European Union Allowances",
+      "authors": "Muzi Chen; Difang Huang; Shouyang Wang; Xinghan Xia",
+      "source_url": "https://arxiv.org/abs/2607.23426",
+      "doi": "10.48550/arXiv.2607.23426",
+      "publication_dates": {
+        "first_public": "2026-07-26",
+        "version_read": "v1",
+        "peer_reviewed": false
+      },
+      "problem": "真实预测时点信息约束下EUA短期预测能否帮助模拟履约采购。",
+      "method": "1—5交易日前瞻、validation固定校准/选择，随机游走等14基准；含执行成本、冲击、容量、尾部风险和需求敏感性的采购模拟。",
+      "sample": "2019—2025日频EUA；采购是固定订单的模拟，非真实企业执行效果。",
+      "overlap": "“严格信息集＋相对随机游走＋履约价值”已有近期直接近邻。",
+      "difference": "没有真实需求、容量和执行价时不把采购效用作为本项目主贡献；“日历报价易预测”也不等于可执行盈利。",
+      "evidence_scope": "arXiv v1作者摘要",
+      "verification_limits": "本轮未核验正文的连续合约拼接、供应商、容量/冲击设定；作者RMSE和采购节省均不视为复核结论。"
+    },
+    {
+      "key": "bauer_policy_2026",
+      "title": "Carbon Pricing and Inflation Expectations",
+      "authors": "Michael D. Bauer; Diego R. Känzig; Glenn D. Rudebusch",
+      "source_url": "https://www.brookings.edu/wp-content/uploads/2026/03/WP106_Bauer-et-al.pdf",
+      "doi": null,
+      "publication_dates": {
+        "cover": "2026-04",
+        "web_page_publication": "2026-03-30",
+        "date_note": "网页日期与PDF封面月份分别保存，不用URL目录推断首发"
+      },
+      "problem": "碳政策惊讶如何影响能源、通胀及利率预期。",
+      "method": "围绕EU ETS监管新闻的高频/窄日事件窗口识别，使用碳期货、通胀互换及盈亏平衡通胀。",
+      "sample": "EU ETS政策事件集扩展至2024；欧洲与英国债券/衍生品期限结构；确切按资产可用性分样本未全核验。",
+      "overlap": "仅有政策日历或SHAP不能声称发现因果政策微观机制。",
+      "difference": "对观测定义作确定性重算可以归因于重算规则，但真实市场制度调整同时伴随经济变化，不能用简单前后差冒充其事件识别。",
+      "evidence_scope": "Brookings作者工作论文全文",
+      "verification_limits": "事件外生性和无同期混杂是条件，不是把任何日期dummy都当外生；本项目无该识别数据。"
+    },
+    {
+      "key": "regional_dispersion_repository_2026",
+      "title": "Data and code for “Regional carbon price dispersion and national market linkages in China”",
+      "authors": "Qing Lu（Mendeley登记的Contributor；不能据此推断论文完整作者表）",
+      "source_url": "https://data.mendeley.com/datasets/v9xpz8zb4h/1",
+      "doi": "10.17632/v9xpz8zb4h.1",
+      "publication_dates": {
+        "repository_publication": "2026-09-24",
+        "version": "1",
+        "manuscript_publication": null
+      },
+      "problem": "区域碳价离散度及全国—地方市场联动，不是价格预测。",
+      "method": "作者仓库描述包括固定市场集合离散度、时点和稳健性诊断、全国—区域联动检验、有限样本模拟；主分析不前填，前填只作为标注的方法诊断；缺失不视为零成交；维护产品/市场定义和来源文档。",
+      "sample": "CSMAR原始导出为2013-08-05至2024-12-06；授权延伸至2026-09-11。日/周价格面板、带日期的市场价格路径及独立上海收盘价稳健性数据不公开；本轮未核验逐市场样本数。",
+      "overlap": "直接反证把“跨市场口径统一、产品定义、缺失不作零、主分析不前填/前填只诊断”单独当作首次；它不是预测研究也足以否定这些步骤自身的原创性。",
+      "difference": "尚可检验的是全国年度配额公开综合行情的权重版本和量精度误标签，在固定日历与目标匹配RW下，对样本外相对预测和预设分组覆盖结论的影响；不把口径文档/前填诊断本身作为贡献。",
+      "evidence_scope": "Mendeley作者一手仓库描述已直接读取；没有下载或执行压缩包，未读论文全文，未验证其统计结果。",
+      "verification_limits": "公开的是代码、统计产物、图、来源/产品文档、可再分发控制变量和清单，不是底层CSMAR日/周价格面板；开放仓库和CC BY声明不解除第三方底层输入的许可限制。"
+    }
+  ]
+}

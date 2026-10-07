@@ -1,0 +1,357 @@
+{
+  "as_of": "2026-10-07",
+  "published_raw_original_count": 5,
+  "published_parsed_dataset_count": 6,
+  "published_datasets": [
+    {
+      "dataset": "brent_eia_daily",
+      "path": "data/parsed/brent_eia_daily.csv",
+      "rows": 9097,
+      "date_min": "1987-05-20",
+      "date_max": "2026-09-29",
+      "bytes": 263773,
+      "sha256": "b8559fe1f84ed5d257bd4e3a4acdb86fad2d3a424bfafbfefa4ceab791317908",
+      "source_original": "data/raw/eia/RBRTEd.xls",
+      "frequency": "daily",
+      "definition": "Europe Brent Spot Price FOB (Dollars per Barrel)",
+      "missing_price_rows": 0,
+      "nonpositive_price_rows_retained": 0,
+      "not_futures": true,
+      "first_release_vintages_verified": false,
+      "available_in_github": true,
+      "source_grade": "official_source_export_or_original_index_workbook"
+    },
+    {
+      "dataset": "wti_eia_daily",
+      "path": "data/parsed/wti_eia_daily.csv",
+      "rows": 9512,
+      "date_min": "1986-01-02",
+      "date_max": "2026-09-29",
+      "bytes": 275430,
+      "sha256": "0e0235d46a2268de8301a129d4591fa97c3591b91700461bf2cb00a5abf0a18c",
+      "source_original": "data/raw/eia/RWTCd.xls",
+      "frequency": "daily",
+      "definition": "Cushing, OK WTI Spot Price FOB (Dollars per Barrel)",
+      "missing_price_rows": 0,
+      "nonpositive_price_rows_retained": 1,
+      "not_futures": true,
+      "first_release_vintages_verified": false,
+      "available_in_github": true,
+      "source_grade": "official_source_export_or_original_index_workbook"
+    },
+    {
+      "dataset": "henryhub_eia_daily",
+      "path": "data/parsed/henryhub_eia_daily.csv",
+      "rows": 5698,
+      "date_min": "1997-01-07",
+      "date_max": "2026-09-29",
+      "bytes": 187467,
+      "sha256": "6d2ef25475f8e07450ec515b06fd874b370942cdc2e5c5c9632af424ffb247fe",
+      "source_original": "data/raw/eia/RNGWHHDd.xls",
+      "frequency": "daily",
+      "definition": "Henry Hub Natural Gas Spot Price (Dollars per Million Btu)",
+      "missing_price_rows": 1,
+      "nonpositive_price_rows_retained": 0,
+      "not_futures": true,
+      "first_release_vintages_verified": false,
+      "available_in_github": true,
+      "source_grade": "official_source_export_or_original_index_workbook"
+    },
+    {
+      "dataset": "china_mainland_epu",
+      "path": "data/parsed/china_mainland_epu.csv",
+      "rows": 923,
+      "date_min": "1949-10-01",
+      "date_max": "2026-08-01",
+      "bytes": 36939,
+      "sha256": "50f477089f02a6cf487cf80b694f49699e96772ec6d43b399f4bfcc36c497e42",
+      "source_original": "data/raw/policy_uncertainty/China_Mainland_Paper_EPU.xlsx",
+      "frequency": "monthly",
+      "date_definition": "month identifier, not publication time",
+      "same_month_daily_feature_available": false,
+      "first_release_times_verified": false,
+      "available_in_github": true,
+      "source_grade": "official_source_export_or_original_index_workbook"
+    },
+    {
+      "dataset": "china_mainland_tpu",
+      "path": "data/parsed/china_mainland_tpu.csv",
+      "rows": 320,
+      "date_min": "2000-01-01",
+      "date_max": "2026-08-01",
+      "bytes": 14499,
+      "sha256": "f09df7fcf8c4dfc7549ea001ec7382ee98df83097da9136ea3e90b268a9e483e",
+      "source_original": "data/raw/policy_uncertainty/China_Mainland_Paper_EPU.xlsx",
+      "frequency": "monthly",
+      "date_definition": "month identifier, not publication time",
+      "same_month_daily_feature_available": false,
+      "first_release_times_verified": false,
+      "available_in_github": true,
+      "source_grade": "official_source_export_or_original_index_workbook"
+    },
+    {
+      "dataset": "author_wang_eu_futures",
+      "path": "data/parsed/author_wang_eu_futures.csv",
+      "rows": 2059,
+      "date_min": "2010-12-13",
+      "date_max": "2018-12-27",
+      "bytes": 35419,
+      "sha256": "4b39bcb8be0676e805173bd235c6b9e2964b1737e8fc29126df7a5dbce461a26",
+      "source_original": "data/raw/author_wang_2020/data.xlsx",
+      "frequency": "author-described daily",
+      "source_grade": "author_published_market_prices_not_independently_authenticated",
+      "product_contract_roll_currency_unit_verified": false,
+      "license": "CC BY-NC 3.0",
+      "available_in_github": true
+    }
+  ],
+  "local_official_market_diagnostics": {
+    "cea": {
+      "series": [
+        {
+          "dataset": "composite",
+          "rows": 1262,
+          "date_min": "2021-07-16",
+          "date_max": "2026-09-30",
+          "reported_zero_quantity_rows": 26,
+          "status_certified_as_no_trade": false
+        },
+        {
+          "dataset": "CEA",
+          "rows": 1264,
+          "date_min": "2021-07-16",
+          "date_max": "2026-09-30",
+          "reported_zero_quantity_rows": 479,
+          "status_certified_as_no_trade": false
+        },
+        {
+          "dataset": "CEA21",
+          "rows": 750,
+          "date_min": "2023-08-28",
+          "date_max": "2026-09-30",
+          "reported_zero_quantity_rows": 488,
+          "status_certified_as_no_trade": false
+        },
+        {
+          "dataset": "CEA22",
+          "rows": 750,
+          "date_min": "2023-08-28",
+          "date_max": "2026-09-30",
+          "reported_zero_quantity_rows": 344,
+          "status_certified_as_no_trade": false
+        },
+        {
+          "dataset": "CEA23",
+          "rows": 471,
+          "date_min": "2024-10-28",
+          "date_max": "2026-09-30",
+          "reported_zero_quantity_rows": 214,
+          "status_certified_as_no_trade": false
+        },
+        {
+          "dataset": "CEA24",
+          "rows": 348,
+          "date_min": "2025-04-29",
+          "date_max": "2026-09-30",
+          "reported_zero_quantity_rows": 172,
+          "status_certified_as_no_trade": false
+        },
+        {
+          "dataset": "CEA25",
+          "rows": 181,
+          "date_min": "2026-01-05",
+          "date_max": "2026-09-30",
+          "reported_zero_quantity_rows": 15,
+          "status_certified_as_no_trade": false
+        }
+      ],
+      "composite_observations": 1262,
+      "regimes": [
+        {
+          "effective_from": "2021-07-16",
+          "days": 514,
+          "mismatch_days": 0,
+          "max_absolute_difference": "0"
+        },
+        {
+          "effective_from": "2023-08-28",
+          "days": 278,
+          "mismatch_days": 0,
+          "max_absolute_difference": "0.00333333333333333333333333"
+        },
+        {
+          "effective_from": "2024-10-28",
+          "days": 123,
+          "mismatch_days": 0,
+          "max_absolute_difference": "0.005"
+        },
+        {
+          "effective_from": "2025-04-29",
+          "days": 167,
+          "mismatch_days": 0,
+          "max_absolute_difference": "0.004"
+        },
+        {
+          "effective_from": "2026-01-05",
+          "days": 180,
+          "mismatch_days": 0,
+          "max_absolute_difference": "0"
+        }
+      ],
+      "unavailable_component_dates": [],
+      "composite_missing_dates_with_vintage_observations": [
+        "2023-08-30",
+        "2026-07-02"
+      ],
+      "cea25_period_days": 180,
+      "cea25_period_exact_matches": 180,
+      "comparison_tolerance_cny_per_tonne": "0.01",
+      "raw_daily_quotes_republished": false,
+      "quantity_zero_does_not_by_itself_establish_no_trade": true
+    },
+    "gdea": {
+      "rows": 2839,
+      "date_min": "2013-12-19",
+      "date_max": "2026-09-30",
+      "message_quantity_conflicts": 9,
+      "conflict_dates": [
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-17",
+        "2026-09-21",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-09-30"
+      ],
+      "missing_reported_quantity_rows": 5,
+      "missing_quantity_dates": [
+        "2025-10-24",
+        "2025-11-07",
+        "2025-11-10",
+        "2025-11-24",
+        "2025-11-25"
+      ],
+      "missing_quantity_filled_with_zero": false,
+      "quantity_field": "exchangeRate (table-defined quantity, not FX)",
+      "amount_field": "deal",
+      "status_certified": false,
+      "explanation": "Message and reported quantity conflict; individual daily notices still required. Backend user/audit fields are not republished."
+    },
+    "hbea": {
+      "rows": 2242,
+      "date_min": "2017-04-05",
+      "date_max": "2026-09-30",
+      "raw_pages": 225,
+      "identical_duplicate_rows": 3,
+      "reported_zero_quantity_rows": 18,
+      "missing_reported_quantity_rows": 3,
+      "missing_filled_with_zero": false,
+      "reported_quantity_column_zero_based": 6,
+      "latest_price_is_not_assumed_to_be_close": true,
+      "no_trade_status_certified": false,
+      "all_pages_newly_refetched_this_publication_step": false,
+      "scope": "Same-day original official HTML snapshots freshly reread; no stored audit outcomes used."
+    }
+  },
+  "local_snapshot_source_manifest": "metadata/local_exchange_sources.json",
+  "author_package_access": [
+    {
+      "paper": "R01",
+      "title": "SW-HyDEC: A structure-aware hybrid decomposition and ensemble learning framework for carbon price forecasting",
+      "data_urls": [
+        "https://figshare.com/s/96cc7c22c3d33d61efc8",
+        "https://api.figshare.com/v2/articles/29348171",
+        "https://ndownloader.figshare.com/files/55458437",
+        "https://ndownloader.figshare.com/files/55458440",
+        "https://ndownloader.figshare.com/files/55458443"
+      ],
+      "code_urls": [],
+      "license_record": {
+        "paper": "CC BY 4.0",
+        "data": "CC BY 4.0; official Figshare API version 3",
+        "code": "no code file in the linked dataset"
+      },
+      "available_in_this_github": false,
+      "use_limits": [
+        "share页及整包入口HTTP 202空响应，但已通过同一官方item API和三个单文件直链全部真实下载。",
+        "湖北ClosePrice有4条空值；三市场EUA_Price分别333、304、64条空值。下载成功不能等同数据无缺失或协议完整。",
+        "仓库仅3个工作簿，没有源码；插补、时间分割、外生变量可得性/许可和算法依赖仍要独立实现并核验。",
+        "深圳SZA-2016不能与深圳全品种均价或全国CEA合并；作者转载原价未与交易所逐行对比。",
+        "后续官方报价对比见research/author_quote_checks.json；作者表不应按全表已认证处理。第三方Wind输入的再发布权利仍需另核。"
+      ],
+      "role": "author reference, not exchange certification"
+    },
+    {
+      "paper": "R03",
+      "title": "Forecasting the Price of Carbon with Macroeconomic and Financial variables",
+      "data_urls": [
+        "https://www.eea.europa.eu/en/analysis/maps-and-charts/emissions-trading-viewer-1-dashboards",
+        "https://ec.europa.eu/eurostat/databrowser/view/env_ac_aigg_q__custom_21764548/default/table?lang=en"
+      ],
+      "code_urls": [],
+      "license_record": {
+        "preprint": "arXiv non-exclusive distribution license; not a data/code license",
+        "data": "LSEG商业变量与官方公共数据各有各的条款；论文整包许可未知",
+        "code": "未找到该论文自己的整包或源码入口"
+      },
+      "available_in_this_github": false,
+      "use_limits": [
+        "论文仅列官方公共数据和LSEG来源，公共源网站不是作者原始建模表。",
+        "正文提到按请求获取的是额外稳健性结果及某些预测结果，不是全部训练数据可得性声明；不能误写为整包按请求提供。",
+        "MCMC代码参考Chan并经作者适配，引用别人代码不是公开本篇复现代码。",
+        "宏观修订历史、发布时间、年度排放时间分解和商业LSEG序列仍是重现障碍。"
+      ],
+      "role": "author reference, not exchange certification"
+    },
+    {
+      "paper": "R09",
+      "title": "Carbon price forecasting with complex network and extreme learning machine",
+      "data_urls": [
+        "https://data.mendeley.com/datasets/v25wkdwgvm/1",
+        "https://data.mendeley.com/public-files/datasets/v25wkdwgvm/files/1eaf4fbe-1476-479e-9632-bc29ad66fa80/file_downloaded"
+      ],
+      "code_urls": [],
+      "license_record": {
+        "data": "CC BY-NC 3.0",
+        "code": "没有代码文件",
+        "paper": "publisher text unavailable"
+      },
+      "available_in_this_github": true,
+      "use_limits": [
+        "能够下载作者数据但没有模型代码，仍不能直接等同完整可复现。",
+        "仓库API明确关联该论文DOI，但本轮出版社全文403，尚未在论文正向核实仓库链接；严格口径归为作者存储库关联，不计为已确认论文正向提供数据。",
+        "CC BY-NC限制商业使用；不能用仓库作者身份替代交易所原价真实性认证。"
+      ],
+      "role": "author reference, not exchange certification"
+    },
+    {
+      "paper": "R10",
+      "title": "Gaps between market performance, government planning and social objectives: projections and comparisons of carbon price intervals",
+      "data_urls": [
+        "https://data.mendeley.com/datasets/nzsgz2h274/1",
+        "https://data.mendeley.com/public-files/datasets/nzsgz2h274/files/879d9bdd-dd2d-4749-986a-107afe05b8a3/file_downloaded"
+      ],
+      "code_urls": [
+        "https://data.mendeley.com/public-files/datasets/nzsgz2h274/files/879d9bdd-dd2d-4749-986a-107afe05b8a3/file_downloaded"
+      ],
+      "license_record": {
+        "paper": "CC BY-NC-ND 4.0",
+        "data_and_deposited_code": "CC BY 4.0 per Mendeley package metadata; third-party internal code terms need separate review"
+      },
+      "available_in_this_github": false,
+      "use_limits": [
+        "已具备与论文正向关联的数据和源码归档，但未运行，不声称重现指标。",
+        "源码主要为MATLAB，含Python LightGBM模块，读取发现trainNetwork、arima/garch、lightgbm/numpy/pandas；依赖版本、工具箱许可与随机种子未构成经过测试的环境。",
+        "官方仓库许可CC BY4.0与论文BY-NC-ND4.0不同；内部含第三方优化与分解源码，需要检查各自版权，不把存储库许可自动覆盖它们。",
+        "原始市场表未提供日期列；已有分解结果不能代替严格逐起点重新分解的证据。",
+        "RAR所有文件可列出，抽取六个工作簿与code.zip成功，13个内层ZIP均CRC通过；整包流式读取遇目录项解压错误，未宣称整个RAR完整性全通过。"
+      ],
+      "role": "author reference, not exchange certification"
+    }
+  ],
+  "legacy_training_results": "UNTRUSTED_NOT_INCLUDED",
+  "third_party_bulk_rights": "unresolved records are access pointers only; public deposit license is not presumed to clear all upstream vendor rights",
+  "public_core_carbon_dataset_limit": "Only the author-described Wang EU series is directly in data/parsed. Official CEA/GDEA/HBEA historical panels are not included; use acquisition pointers and independently verify acquired inputs before numerical analysis."
+}
