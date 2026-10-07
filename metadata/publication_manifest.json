@@ -155,8 +155,8 @@
     },
     {
       "path": "research/JOURNAL_SCREENING.md",
-      "bytes": 3227,
-      "sha256": "03ef871569a34c6c769177594a2f744fb8d2ad585b5828f8f8ba2851c4f9fd38"
+      "bytes": 4579,
+      "sha256": "7e1291202f5ba6de0b14df51da05229c0c1a7b7ca3fc9b9d1879d676ef51a3f5"
     },
     {
       "path": "research/PROMPT_FOR_6PRO.txt",
@@ -180,8 +180,8 @@
     },
     {
       "path": "research/journal_candidates.json",
-      "bytes": 2542,
-      "sha256": "2856a559b294a364af9ce5a887f9780d86d85a178286f5795165e87f25e31615"
+      "bytes": 4519,
+      "sha256": "e6fd4e0508bda489b92bb6867292825f807b2c648b23cac73b1bd8a1682fd4d9"
     },
     {
       "path": "research/literature_matrix.csv",
@@ -210,8 +210,8 @@
     },
     {
       "path": "research/source_ledger.json",
-      "bytes": 8700,
-      "sha256": "2644d8fd8d2c9e450619cb284e125481c94f6fdc2f151e671f71e1dda5991f40"
+      "bytes": 9387,
+      "sha256": "cceabafbeba0525216c22be3dc7c778ccb5500372e986a88d599fa97adee4c86"
     },
     {
       "path": "scripts/audit_snapshot.py",

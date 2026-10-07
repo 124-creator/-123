@@ -2,6 +2,8 @@
 
 用户目标已确认：中科院三区，非开放获取／传统订阅。以下只是筛选候选，不是已确认合格的三区期刊。本轮确认满足全部条件的期刊数为0：单刊官方分区与学校要求尚未取得。
 
+费用条款补充核查日期：2026-10-07。价格以实际投稿／录用时的出版商条款为准，以下不是零总费用承诺。
+
 ## 必须先确认的条件
 
 1. 学校认可的分区版本以及“大类三区”还是“小类三区”；记录年份、类别与来源。没有可靠当前版本就写未知，不能默认存在2026版。
@@ -24,13 +26,21 @@
 
 实际读取Springer官网首页，Publishing model为Hybrid；范围包括经济学的计算方法、计量、机器学习和动态系统优化。[51]
 
-中科院三区：未核实。学校资格：未核实。详细作者付费条款及具体订阅选项仍需核对。匹配度推断：动态配额聚合与有经济意义的预测协调可能比单纯换神经网络更匹配。
+官网出版说明明确提供订阅与OA两种选择，订阅路线不收APC。当前可选OA APC为US$3,390，按录用日期的费用确定，可能另加税；这不是用户所选订阅路线的必付APC。[54]
+
+中科院三区：未核实。学校资格：未核实。其他费用未全面核实，“无APC”不能等同于总费用为零。匹配度推断：动态配额聚合与有经济意义的预测协调可能比单纯换神经网络更匹配。
 
 ### Applied Economics
 
 官方期刊介绍的检索索引显示Hybrid/Open Select，gold OA可选；本轮直接浏览被安全验证挡住，未读到完整现行细则。[52]
 
-中科院三区：未核实。学校资格：未核实。额外费用：未核实。匹配度推断：须突出应用经济问题和稳健的证据，不把RMSE排序当经济机制。
+本轮直接检索到的官方期刊首页提示存在投稿费，并明确说明将Applied Economics Letters误投至本刊的投稿费不退；这不能推出所有投稿情形的退款规则。[57]
+
+辅助核查报告提供了“官方指南索引显示不退还的US$270投稿费”的线索。主流程再次检索未能独立确认这个金额或完整退款条款，指南正文直达也失败，因此仅作为待复核线索保留，不当成已确认的现行价格；实际提交前须查阅作者指南。[55][unverified]
+
+官方Open Select政策说明选择非OA无需OA APC，但不排除刊物的投稿费或其他收费。[56]
+
+中科院三区：未核实。学校资格：未核实。可选OA APC及其他费用未全面核实。匹配度推断：须突出应用经济问题和稳健的证据，不把RMSE排序当经济机制。
 
 ## 6pro的最终筛选规则
 
@@ -44,3 +54,7 @@
 [51] https://link.springer.com/journal/10614
 [52] https://tandfonline.com/journals/raec20/about-this-journal
 [53] https://www.fenqubiao.com/?year=2022
+[54] https://link.springer.com/journal/10614/how-to-publish-with-us
+[55] https://tandfonline.com/action/authorSubmission?journalCode=raec20&show=instructions
+[56] https://authorservices.taylorandfrancis.com/choose-open/publishing-open-access/open-select
+[57] https://www.tandfonline.com/journals/raec20

@@ -20,13 +20,20 @@
     {
       "journal": "Computational Economics",
       "official_url": "https://link.springer.com/journal/10614",
-      "publishing_route": "Hybrid",
+      "publishing_route": "Hybrid, with explicit subscription and open-access author options",
       "access_scope": "live official publisher home: Publishing model Hybrid and scope directly read",
       "cas_zone3_verified": false,
       "cas_partition_year": null,
       "institution_eligibility_verified": false,
-      "fees": "Subscription author option and detailed fee conditions require current submission/publishing guidance; home alone does not establish all fees",
-      "fit_assessment": "Inference from official scope: economically meaningful computational/dynamic aggregation forecasting may fit better than algorithm swapping"
+      "fees": "Publisher publishing page: subscription route has no APC; optional OA current USD 3390, determined at acceptance and potentially plus tax. Other charges not comprehensively verified.",
+      "fit_assessment": "Inference from official scope: economically meaningful computational/dynamic aggregation forecasting may fit better than algorithm swapping",
+      "fees_source_urls": [
+        "https://link.springer.com/journal/10614/how-to-publish-with-us"
+      ],
+      "fees_access_scope": "official publisher publishing-page text; publisher home independently read earlier; do not interpret no APC as zero total cost",
+      "subscription_apc_usd": 0,
+      "optional_oa_apc_usd_as_checked": 3390,
+      "other_author_charges_verified": false
     },
     {
       "journal": "Applied Economics",
@@ -36,8 +43,21 @@
       "cas_zone3_verified": false,
       "cas_partition_year": null,
       "institution_eligibility_verified": false,
-      "fees": "Submission/page/color/other charges not independently verified",
-      "fit_assessment": "Conditional inference: needs an applied-economic question, not merely a carbon-series accuracy contest"
+      "fees": "Official journal homepage independently confirms a submission-fee warning specifically for Applied Economics Letters mis-submitted to this journal. The completed subagent reported an official-index non-refundable USD 270 fee, but the parent could not independently confirm this amount or general refund terms: retain only as an unverified lead. Full current guideline was inaccessible. Open Select non-OA route does not incur an OA APC; other charges and optional OA price not comprehensively verified.",
+      "fit_assessment": "Conditional inference: needs an applied-economic question, not merely a carbon-series accuracy contest",
+      "fees_source_urls": [
+        "https://www.tandfonline.com/journals/raec20",
+        "https://tandfonline.com/action/authorSubmission?journalCode=raec20&show=instructions",
+        "https://authorservices.taylorandfrancis.com/choose-open/publishing-open-access/open-select/"
+      ],
+      "fees_access_scope": "parent directly retrieved official journal-homepage warning about mis-submitted Letters and official Open Select no-OA-APC policy; amount/general non-refundable term remain only an unverified subagent lead",
+      "submission_fee_usd_reported_unverified": 270,
+      "submission_fee_amount_parent_verified": false,
+      "general_submission_fee_refund_terms_parent_verified": false,
+      "submission_fee_requires_current_submission_reconfirmation": true,
+      "other_author_charges_verified": false
     }
-  ]
+  ],
+  "fees_supplement_checked_on": "2026-10-07",
+  "fees_supplement_note": "Publication routes and APC are distinct from submission/page/color/other charges; all CAS-zone-3 and institution-eligibility gates remain unresolved."
 }
