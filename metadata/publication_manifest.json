@@ -155,8 +155,8 @@
     },
     {
       "path": "research/JOURNAL_SCREENING.md",
-      "bytes": 4651,
-      "sha256": "da3244c136c46710fd8573e20f23ff5db5321cb3c447effc61ff7fc6c146d641"
+      "bytes": 4596,
+      "sha256": "8b1496531abd0179295b2aa639e9c6369e0bd9b81896b5e88772db90e7de1156"
     },
     {
       "path": "research/PROMPT_FOR_6PRO.txt",
@@ -180,8 +180,8 @@
     },
     {
       "path": "research/journal_candidates.json",
-      "bytes": 4564,
-      "sha256": "437bbad5f0b59111be60e3c4dd9fccf8138bbb9f76ec51ba7d779cc0ad08628b"
+      "bytes": 4591,
+      "sha256": "3a634c9a578471de91cfa1e1bf504b983ad9ac6c043d167fff3832a988f5fd1b"
     },
     {
       "path": "research/literature_matrix.csv",

@@ -43,14 +43,16 @@
       "cas_zone3_verified": false,
       "cas_partition_year": null,
       "institution_eligibility_verified": false,
-      "fees": "Official journal-homepage search index independently confirms a submission-fee warning specifically for Applied Economics Letters mis-submitted to this journal. The completed subagent reported an official-index non-refundable USD 270 fee, but the parent could not independently confirm this amount or general refund terms: retain only as an unverified lead. Full current guideline was inaccessible. Open Select non-OA route does not incur an OA APC; other charges and optional OA price not comprehensively verified.",
+      "fees": "The completed subagent reported an official-index non-refundable USD 270 submission fee, but subsequent parent requests to the official journal homepage and author guideline returned HTTP 403. The parent could not independently confirm the amount or refund terms: retain only as an unverified lead. The official Open Select author-services page independently confirms no OA APC when choosing non-OA; other charges and optional OA price were not comprehensively verified.",
       "fit_assessment": "Conditional inference: needs an applied-economic question, not merely a carbon-series accuracy contest",
       "fees_source_urls": [
         "https://www.tandfonline.com/journals/raec20",
         "https://tandfonline.com/action/authorSubmission?journalCode=raec20&show=instructions",
         "https://authorservices.taylorandfrancis.com/choose-open/publishing-open-access/open-select/"
       ],
-      "fees_access_scope": "parent independently retrieved official journal-homepage search-index warning about mis-submitted Letters and directly read official Open Select no-OA-APC policy; amount/general non-refundable term remain only an unverified subagent lead",
+      "fees_access_scope": "parent directly downloaded and read live official Open Select policy; parent official homepage and author-guideline requests returned HTTP 403; submission amount and refund term remain only an unverified subagent lead",
+      "parent_homepage_http_status": 403,
+      "parent_author_guideline_http_status": 403,
       "submission_fee_usd_reported_unverified": 270,
       "submission_fee_amount_parent_verified": false,
       "general_submission_fee_refund_terms_parent_verified": false,
