@@ -1,0 +1,29 @@
+{
+  "publication_scope": "licensed original files and freshly recomputed data checks only",
+  "snapshot_date": "2026-10-07",
+  "legacy_experiment_results": "UNTRUSTED_NOT_READ_NOT_UPLOADED",
+  "old_models_or_author_code_executed": false,
+  "model_training_ran": false,
+  "forecast_skill_or_coverage_evaluated": false,
+  "source_datasets_or_models_claimed_fully_reproduced": false,
+  "dataset_file_integrity_checks_passed": 11,
+  "unit_and_real_snapshot_tests_passed": 11,
+  "optimized_mode_tests_passed": 11,
+  "integrity_regressions_fixed": ["validation_is_not_disabled_by_python_optimization", "cross_manifest_length_conflicts_rejected"],
+  "test_environment": {
+    "python": "3.13.13",
+    "openpyxl": "3.1.5",
+    "xlrd": "2.0.2"
+  },
+  "source_download_cli_network_test": {
+    "source": "https://www.cneeex.com/zhhq/jsonData/hiskline.json",
+    "http_status": 200,
+    "bytes": 69240,
+    "sha256": "42806966ff22ba1601e055d086027696946b2a523bc441669ed676d0a919a4b2",
+    "snapshot_sha256_matches": true,
+    "old_snapshot_overwritten": false
+  },
+  "source_redistribution_uncertain": "exchange bulk quotes intentionally git-ignored; URLs, hashes and aggregates only",
+  "review_status": "independent_precommit_review_passed_after_integrity_fixes",
+  "receipt_scope": "precommit_local_execution_only; remote verification is recorded separately after push"
+}

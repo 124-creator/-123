@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-07",
+  "listed_files": 32,
+  "manifest_itself_excluded_to_avoid_recursive_hash": true,
+  "legacy_experiment_results_published": false,
+  "model_training_ran": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 342,
+      "sha256": "772ce25e422ec5f9021816852b3b31ea24cfe8bde96c4ce2d0f95738011bcf41"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 989,
+      "sha256": "7a5b7820a4b06acba1d3e54d917a882461da413d631f42e83586dcad9f9f81a3"
+    },
+    {
+      "path": "DATA_LICENSES.md",
+      "bytes": 2800,
+      "sha256": "b2210a072fb4569a36f273fad6dced0a094d089848bfebec17cbbfbc4d6d06d0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3958,
+      "sha256": "055722db1b1cdc28acd7e1b72d7a2e84715b1273006bccf453c1f5a14a8fb4ba"
+    },
+    {
+      "path": "data/parsed/author_wang_eu_futures.csv",
+      "bytes": 35419,
+      "sha256": "4b39bcb8be0676e805173bd235c6b9e2964b1737e8fc29126df7a5dbce461a26"
+    },
+    {
+      "path": "data/parsed/brent_eia_daily.csv",
+      "bytes": 263773,
+      "sha256": "b8559fe1f84ed5d257bd4e3a4acdb86fad2d3a424bfafbfefa4ceab791317908"
+    },
+    {
+      "path": "data/parsed/china_mainland_epu.csv",
+      "bytes": 36939,
+      "sha256": "50f477089f02a6cf487cf80b694f49699e96772ec6d43b399f4bfcc36c497e42"
+    },
+    {
+      "path": "data/parsed/china_mainland_tpu.csv",
+      "bytes": 14499,
+      "sha256": "f09df7fcf8c4dfc7549ea001ec7382ee98df83097da9136ea3e90b268a9e483e"
+    },
+    {
+      "path": "data/parsed/henryhub_eia_daily.csv",
+      "bytes": 187467,
+      "sha256": "6d2ef25475f8e07450ec515b06fd874b370942cdc2e5c5c9632af424ffb247fe"
+    },
+    {
+      "path": "data/parsed/wti_eia_daily.csv",
+      "bytes": 275430,
+      "sha256": "0e0235d46a2268de8301a129d4591fa97c3591b91700461bf2cb00a5abf0a18c"
+    },
+    {
+      "path": "data/raw/author_wang_2020/data.xlsx",
+      "bytes": 89700,
+      "sha256": "6467ef254c1d04e9afd01de664e77be050a389d9551150ca3176a9db9decb266"
+    },
+    {
+      "path": "data/raw/eia/RBRTEd.xls",
+      "bytes": 452096,
+      "sha256": "bf3da33d21e30b387cc543bb1d6690d123ffd9b196f37cabd8624e9f9c08ecd1"
+    },
+    {
+      "path": "data/raw/eia/RNGWHHDd.xls",
+      "bytes": 294912,
+      "sha256": "8e1a3202a31c4b4d98be1341d0a6e8478c7c1d2c71ab9353e602bce8f4d8cfd7"
+    },
+    {
+      "path": "data/raw/eia/RWTCd.xls",
+      "bytes": 471040,
+      "sha256": "60b717dd40815cb5e482ddcf115662a028cefd47d9f495e67d110eae00f7e421"
+    },
+    {
+      "path": "data/raw/policy_uncertainty/China_Mainland_Paper_EPU.xlsx",
+      "bytes": 48887,
+      "sha256": "48796e91014bec671fcc4ae1751dc7b2a5b0491b68c0d2cec0018e2f0685882f"
+    },
+    {
+      "path": "metadata/audit_results.json",
+      "bytes": 9439,
+      "sha256": "9b0822f2215311fc7ccc56ad94624c856682b184b1645d9451cceb790f125f0d"
+    },
+    {
+      "path": "metadata/independent_code_review.json",
+      "bytes": 1060,
+      "sha256": "fd2bfd969c3f683251943b7219f33de9c8f0db8d1cd333333994a74732a92626"
+    },
+    {
+      "path": "metadata/local_exchange_sources.json",
+      "bytes": 4514,
+      "sha256": "17e84ef45ce92575f2e45e9807b49541cc8bb2e420ccae6f2b5c733834368c21"
+    },
+    {
+      "path": "metadata/local_verification_receipt.json",
+      "bytes": 1364,
+      "sha256": "f308419bff75baa243eb5a920ae294b28d931bed00481d8b0c0e8511cee966c1"
+    },
+    {
+      "path": "metadata/parsed_manifest.json",
+      "bytes": 3670,
+      "sha256": "f1acbfc80c77675970291639098ed8b4ca7b2a9ff0a49a950e0f3b4f998e803a"
+    },
+    {
+      "path": "metadata/raw_manifest.json",
+      "bytes": 3315,
+      "sha256": "cb4c91455c82150902d8d823f92b34f8bf7bc166bb2904222d2ad115e3327d27"
+    },
+    {
+      "path": "metadata/source_ledger.json",
+      "bytes": 1124,
+      "sha256": "194571e68e80712a94a73dd5bbe7bde71fab5d9f95ed8ddfc532af8aeec1b968"
+    },
+    {
+      "path": "reports/INDEPENDENT_FINDINGS_20261007.md",
+      "bytes": 5645,
+      "sha256": "bbeb1ec92defdabf15f0b66d816f8a9319ec9c5ae544f7fd10568da6cd766d3e"
+    },
+    {
+      "path": "reports/RESEARCH_DIRECTION.md",
+      "bytes": 2841,
+      "sha256": "ed39b8d3e2b291ad838e2c038f4176f2fc257fa7bf03b4b0493010d6048d9934"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 90,
+      "sha256": "584c17664e7c0fea4877163e89ff33700f560a2a8c58dee8e81e2c7e8c2a894e"
+    },
+    {
+      "path": "scripts/audit_snapshot.py",
+      "bytes": 13258,
+      "sha256": "5bb452e867918d432c25733688356f05f2d29169723d74a399f1a9662f85941d"
+    },
+    {
+      "path": "scripts/fetch_exchange_sources.py",
+      "bytes": 4640,
+      "sha256": "065692eafb2fac92561288b972bc91a5f5ea30d0820cae9af696288895506c43"
+    },
+    {
+      "path": "scripts/verify_repository.py",
+      "bytes": 1778,
+      "sha256": "9ab4134dba7b48e21e6c2088fb7448e518f08da93ce8d31c4a71613c1b282d45"
+    },
+    {
+      "path": "tests/test_audit.py",
+      "bytes": 16355,
+      "sha256": "c041d4f713442d706d078efb50f9a216c677cb79fdd2ef47a6eb1d7209e810bf"
+    },
+    {
+      "path": "tests/test_download.py",
+      "bytes": 1051,
+      "sha256": "d937700bb945bd2ee6d1ce0e7af4a63f733fbd3e774dadb4f17dc977e5fd6f84"
+    },
+    {
+      "path": "tests/test_integrity.py",
+      "bytes": 3249,
+      "sha256": "3bceeeaa3639fdf51d4435cd730fffed8bf34fa7fe0ab52d24d6e3cc57dfc5c0"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-07",
+  "old_training_results_trusted": false,
+  "files": [
+    {
+      "path": "data/raw/eia/RBRTEd.xls",
+      "bytes": 452096,
+      "sha256": "bf3da33d21e30b387cc543bb1d6690d123ffd9b196f37cabd8624e9f9c08ecd1",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xls",
+      "final_url": "https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xls",
+      "retrieved_utc": "2026-10-07T02:26:26.254678+00:00",
+      "last_modified_not_first_release": "Wed, 30 Sep 2026 14:44:42 GMT",
+      "source_type": "official_original_export",
+      "rights": "EIA public domain; acknowledge source and publication/update date"
+    },
+    {
+      "path": "data/raw/eia/RWTCd.xls",
+      "bytes": 471040,
+      "sha256": "60b717dd40815cb5e482ddcf115662a028cefd47d9f495e67d110eae00f7e421",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/RWTCd.xls",
+      "final_url": "https://www.eia.gov/dnav/pet/hist_xls/RWTCd.xls",
+      "retrieved_utc": "2026-10-07T02:26:37.163369+00:00",
+      "last_modified_not_first_release": "Wed, 30 Sep 2026 14:44:39 GMT",
+      "source_type": "official_original_export",
+      "rights": "EIA public domain; acknowledge source and publication/update date"
+    },
+    {
+      "path": "data/raw/eia/RNGWHHDd.xls",
+      "bytes": 294912,
+      "sha256": "8e1a3202a31c4b4d98be1341d0a6e8478c7c1d2c71ab9353e602bce8f4d8cfd7",
+      "source_url": "https://www.eia.gov/dnav/ng/hist_xls/RNGWHHDd.xls",
+      "final_url": "https://www.eia.gov/dnav/ng/hist_xls/RNGWHHDd.xls",
+      "retrieved_utc": "2026-10-07T02:26:49.054292+00:00",
+      "last_modified_not_first_release": "Wed, 30 Sep 2026 13:40:39 GMT",
+      "source_type": "official_original_export",
+      "rights": "EIA public domain; acknowledge source and publication/update date"
+    },
+    {
+      "path": "data/raw/policy_uncertainty/China_Mainland_Paper_EPU.xlsx",
+      "bytes": 48887,
+      "sha256": "48796e91014bec671fcc4ae1751dc7b2a5b0491b68c0d2cec0018e2f0685882f",
+      "source_url": "https://www.policyuncertainty.com/media/China_Mainland_Paper_EPU.xlsx",
+      "final_url": "https://www.policyuncertainty.com/media/China_Mainland_Paper_EPU.xlsx",
+      "retrieved_utc": "2026-10-07T02:17:15.121309+00:00",
+      "last_modified_not_first_release": "Thu, 24 Sep 2026 20:09:50 GMT",
+      "source_type": "research_index_original_export",
+      "rights": "Workbook permits free use with attribution to authors, paper and policyuncertainty.com"
+    },
+    {
+      "path": "data/raw/author_wang_2020/data.xlsx",
+      "bytes": 89700,
+      "sha256": "6467ef254c1d04e9afd01de664e77be050a389d9551150ca3176a9db9decb266",
+      "source_url": "https://data.mendeley.com/datasets/v25wkdwgvm/1",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v25wkdwgvm/files/1eaf4fbe-1476-479e-9632-bc29ad66fa80/file_downloaded",
+      "source_type": "author_published_original_not_exchange_authenticated",
+      "retrieval_date_only": "2026-10-07",
+      "rights": "CC BY-NC 3.0; attribution required; non-commercial use only",
+      "attribution": "Wang, Minggang (2020), Data for: Carbon price forecasting with complex network and extreme learning machine, Mendeley Data, V1, DOI 10.17632/v25wkdwgvm.1",
+      "contract_roll_and_units_authenticated": false
+    }
+  ]
+}

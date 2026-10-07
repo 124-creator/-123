@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.eia.gov/about/copyrights_reuse.php",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "url": "https://www.policyuncertainty.com/media/China_Mainland_Paper_EPU.xlsx",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "url": "https://data.mendeley.com/datasets/v25wkdwgvm/1",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "url": "https://overview.cneeex.com/c/2023-08-25/494452.shtml",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "url": "https://overview.cneeex.com/c/2024-10-25/495718.shtml",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "url": "https://overview.cneeex.com/c/2025-04-28/496173.shtml",
+      "title": "",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "url": "https://overview.cneeex.com/c/2025-12-29/496985.shtml",
+      "title": "",
+      "accessed": "2026-10-07"
+    }
+  ]
+}
