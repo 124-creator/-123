@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-10",
+  "scope": "Finish interrupted v8 editorial delivery; no new market computation",
+  "reviewed_branch_head": "d4b6ba3899a653b54cc036e58debbb860f1011d1",
+  "branch": "eex-editorial-v8-20261010",
+  "finish_workflow_source_commit": "0eaeac33725374f83e46a06459fd57bcbf1906f3",
+  "reviewed_document_workflow_run": 38063279824,
+  "reviewed_artifact_id": 11673828486,
+  "reviewed_artifact_sha256": "f39edd04c6b7996632c0107e69bda8496ac089df67e5ffc2491046bb378b6bc3",
+  "reviewed_artifact_CRC_passed": true,
+  "documents": {
+    "MANUSCRIPT_EN_v8.docx": {
+      "sha256": "15180678628a21a511b6f2ff49c91b1eb5bd89168129b522585ad20cc2452ee6",
+      "git_blob": "8f955fac85cfe715f53d0f430563ded1c2fd1ac6",
+      "bytes": 763436
+    },
+    "ONLINE_RESOURCE_1_v8.docx": {
+      "sha256": "0b00a762b7b1b0ddf67d3711486c248a38a4005f4274b8366ff437e8591d66fe",
+      "git_blob": "39c8bbd8398d5760c2687f6714b77fcf60425a95",
+      "bytes": 29317
+    },
+    "TITLE_PAGE_v8.docx": {
+      "sha256": "7daf9d090939235805a0c88a8e135872717877050eb61e6aae6db82b5000c335",
+      "git_blob": "8634d4a47e25cf3ec41c15e0030d743322ebf5ff",
+      "bytes": 11797
+    },
+    "ESM_1.pdf": {
+      "sha256": "f9e97a30e50339f1b570e64f8375febe2487238e8d2b3ba5af9f616ce455fdd5",
+      "git_blob": "bae167ffc855584c934dd27e89317b77f50e3fa4",
+      "bytes": 280053
+    }
+  },
+  "structure_checks": {
+    "MANUSCRIPT_EN_v8.docx": {
+      "native_math_objects": 51,
+      "physical_table_objects": 8,
+      "drawings": 3
+    },
+    "ONLINE_RESOURCE_1_v8.docx": {
+      "native_math_objects": 58,
+      "physical_table_objects": 11,
+      "drawings": 0
+    },
+    "TITLE_PAGE_v8.docx": {
+      "native_math_objects": 0,
+      "physical_table_objects": 0,
+      "drawings": 0
+    }
+  },
+  "markdown_changes": {
+    "MANUSCRIPT_EN.md": {
+      "original_git_blob": "99d81e2ac7164f3f0263a3063fff261d2259c177",
+      "updated_git_blob": "de1e251d98219ae08bb1e66f25f2e19ab87466da",
+      "change": "Restore title only; following original bytes retained"
+    },
+    "ONLINE_RESOURCE_1.md": {
+      "original_git_blob": "18c6b519ac8db8261d534067b4228cabe905ab0c",
+      "updated_git_blob": "d196de48cd9b3e93502bb178e874729631d3c738",
+      "change": "Restore title only; following original bytes retained"
+    },
+    "TITLE_PAGE.md": {
+      "original_git_blob": "df4dbd0df6dc1a83db650d15535c1c0efd81ff53",
+      "updated_git_blob": "bba0503b49a59c5914ce95e2dcdb63d2fa48a2ae",
+      "change": "Restore title only; following original bytes retained"
+    }
+  },
+  "local_object_comparison_to_v7": {
+    "all_original_math_XML_equal": true,
+    "all_original_table_text_and_math_preserved": true,
+    "all_original_embedded_media_preserved": true,
+    "whole_word_inline_subscripts_preserved": true
+  },
+  "visual_review_record": {
+    "inspected_by": "assistant locally, separately from this script",
+    "docx_render_pages": {
+      "main": 15,
+      "supplement": 10,
+      "title_page": 1
+    },
+    "all_docx_render_pages_opened": true,
+    "remote_supplement_PDF_pages": 10,
+    "all_remote_supplement_PDF_pages_opened": true,
+    "observed_clipping_or_overlap": false,
+    "remote_PDF_pixel_identical_to_local_reconversion": false,
+    "Microsoft_Word_or_WPS_native_test": false
+  },
+  "abstract_words": 200,
+  "keywords": 6,
+  "main_numbered_tables": 5,
+  "main_figures": 3,
+  "SI_numbered_tables": 10,
+  "funding": "No financial support, user-confirmed",
+  "Wang_preceding_review": "User-confirmed; not reset to unknown",
+  "new_statistical_fits": 0,
+  "new_resamples": 0,
+  "new_market_descriptive_calculations": 0,
+  "E2_price_regressions": 0,
+  "E2_status": "No eligible per-auction reference acquired",
+  "journal_submitted": false,
+  "main_merged": false,
+  "CAS_qualification_certified": false,
+  "acceptance_probability_estimated": false,
+  "submission_ready": false,
+  "open_items": [
+    "actual author contributions",
+    "competing-interest declarations",
+    "final lawful data delivery",
+    "contribution judged by target journal"
+  ]
+}

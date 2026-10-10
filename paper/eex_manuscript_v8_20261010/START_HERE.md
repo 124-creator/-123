@@ -1,23 +1,27 @@
-# EEX论文v8：证据层级与编辑审阅版
+# EEX论文v8：优化完成与GitHub回读
 
-写作基线：v7，固定提交35d8c63fc57173f67eb0bd8bb570eb289188324f。日期2026-10-10。
-本轮只编辑，不下载新价格、不重新估计、不重抽样、不变更任何历史样本。
+v7→v8为编辑修订，不重新估计。当前稿件明确区分指标水平、条件关联、构成敏感性和2026年短时间轴证据。写作基线固定为35d8c63fc57173f67eb0bd8bb570eb289188324f。
+
+## 稿件
 
 - [英文正文Word](MANUSCRIPT_EN_v8.docx) / [在线正文](MANUSCRIPT_EN.md)
-- [补充Word](ONLINE_RESOURCE_1_v8.docx) / [期刊用补充PDF](ESM_1.pdf)
+- [补充材料Word](ONLINE_RESOURCE_1_v8.docx) / [期刊用补充PDF](ESM_1.pdf)
 - [独立题名页](TITLE_PAGE_v8.docx)
-- [修订与审稿风险](EDITORIAL_REVIEW_ZH.md)
-- [期刊要求与未完成项](JOURNAL_CHECK_V8.md)
-- [复建及数值来源](REPRODUCIBILITY.md)
-- [段落变更](support/TEXT_CHANGELOG.json) / [对象保护检查](support/DOCUMENT_QA_V8.json)
+- [编辑审查与修改](EDITORIAL_REVIEW_ZH.md)
+- [期刊要求检查](JOURNAL_CHECK_V8.md)
+- [实际发布与回读收据](PUBLICATION_RECEIPT.json)
+- [交付范围](DELIVERY_SCOPE.md) / [统计复现定位](REPRODUCIBILITY.md)
 
-主要改动：正文突出量级、水平和时期关系；加权残差相关的计算说明更精确；摘要不再突出短轴2026区间；新增SI表S10区分不同估计量和证据层级；明确精确2026原件未在包中，哈希不能代替归档；原表图和修复下标保留。
+## 改动与证据边界
 
-作者：Zhongfei Tian（第一／通讯）、Xiang Wang（第二）；单位Zhengzhou University of Aeronautics；通讯15517837680@163.com。无资金资助、王老师已审阅前稿，保持为已确认状态。
-尚未确认的利益冲突、实际贡献及完整数据交付安排不编造。工作期刊Empirical Economics；不保证CAS资格、全部零费用或录用。
+改写摘要与引言，明确加权残差相关的估计对象；新增SI表S10，将原主要Δβ97.5%、次要Δθ95%、加权Δθ97.5%、新时间诊断和未估计价格关系分开。原表图、系数、区间、公式和late/early整词下标保持。2026只支持短时间描述，不是冻结模型预测；E2缺数据不代表价格无效。
 
-这是编辑修订，不是新的实证研究，也没有提交期刊、发送邮件、合并main或修改旧版本。最终远端状态及文档哈希以PUBLICATION_RECEIPT.json为准。
+正文15页、3图、5张编号表；补充10页、10张编号表；独立题名页1页。主文与补充的原数学对象和表格数字已对v7核对，三份Word与已回下载的GitHub文件SHA-256相同。正文、补充、题名页逐页渲染核查，远端SI PDF另外检查10页。没有Microsoft Word/WPS本机实测，不作所有阅读器兼容保证。
 
+## 作者与状态
 
-## Repository and companion package
-The GitHub manuscript directory contains the reviewed manuscript, editable documents, figures, editorial plan, builder and QA receipts. The complete companion ZIP additionally carries copies of earlier frozen aggregate JSON and CSV outputs. They are not new estimates. Statistical reproduction uses the fixed research commits above; raw market workbooks are not republished here.
+田中斐 / Zhongfei Tian：第一及通讯作者；王翔 / Xiang Wang：第二作者。单位Zhengzhou University of Aeronautics；通讯15517837680@163.com。无资金资助、王老师已审阅前稿，均保留为用户已确认信息。
+
+实际贡献、利益冲突及最终数据交付安排尚需如实填写。工作期刊为Empirical Economics；格式检查不认证CAS资格、全部费用、创新或中稿率。没有发送邮件、提交期刊或合并main。
+
+下载包只包含此稿件目录，不重复发布原始拍卖数据或字体；更早冻结数值文件按REPRODUCIBILITY.md取用。本轮另修复在线Markdown导出漏题名的问题，未重新生成或改变已经检查的DOCX/PDF。

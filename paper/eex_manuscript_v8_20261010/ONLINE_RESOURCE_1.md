@@ -1,3 +1,5 @@
+# Online Resource 1
+
 ## Bid and award dispersion in European carbon auctions
 
 Conditional association and composition sensitivity
