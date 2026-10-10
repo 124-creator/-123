@@ -1,0 +1,37 @@
+{
+  "first_author": {
+    "name_zh": "田中斐",
+    "given_name": "Zhongfei",
+    "family_name": "Tian",
+    "display_name": "Zhongfei Tian",
+    "corresponding": true,
+    "email": "15517837680@163.com",
+    "email_source": "user supplied; delivery not tested"
+  },
+  "second_author": {
+    "name_zh": "王翔",
+    "given_name": "Xiang",
+    "family_name": "Wang",
+    "display_name": "Xiang Wang",
+    "corresponding": false,
+    "email_as_supplied": "shanghaimx1976@126.cam",
+    "email_status": "unverified; omitted from manuscript contact lines, never autocorrected"
+  },
+  "affiliation": {
+    "chinese": "郑州航空工业管理学院",
+    "english": "Zhengzhou University of Aeronautics",
+    "city": "Zhengzhou",
+    "province": "Henan",
+    "country": "China",
+    "department": null,
+    "source": "https://news.zua.edu.cn/info/1011/7381.htm; official charter Article 2; university English homepage"
+  },
+  "name_rendering": "standard Hanyu Pinyin in given-name/family-name order; not an ORCID or prior-publication identity check",
+  "first_name_resolution": "The complete name 田中斐 in the user-provided correspondence line resolves the short typographic opening.",
+  "gender_birth_dates_included": false,
+  "funding_confirmed": false,
+  "competing_interests_confirmed": false,
+  "actual_contributions_confirmed": false,
+  "all_author_approval_confirmed": false,
+  "journal_submitted": false
+}

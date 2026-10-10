@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "scope": "displayed numbers and table rows; not re-estimation or scientific certification",
+  "ledger_entries": 381,
+  "abstract_words": 200,
+  "keywords": 6,
+  "main_numbered_tables": 4,
+  "main_table_panels_as_word_objects": 6,
+  "main_figures": 3,
+  "supplement_numbered_tables": 6,
+  "supplement_table_panels_as_word_objects": 7,
+  "reused_descriptive_rows": 21,
+  "reused_descriptive_scalars": 126,
+  "new_descriptive_calculations": 0,
+  "new_fits": 0,
+  "new_resamples": 0,
+  "sample_table_arithmetic_checked": true,
+  "source_hashes": {
+    "frozen_sample_summary.json": "1aec3affd74e7e3601ab7533d0db6bdc79f1cd05b256b73c433afa93e80e505a",
+    "frozen_baseline_results.json": "7460fa27bb81837377d4af1d24afe341085df05487b93f93f4b83f11ee5bbe96",
+    "frozen_extension_results.json": "704ff4739116fcb1546bb3fba4e663b5b6d6bfd477ba2c675511e3e09dfb670c"
+  },
+  "new_group_significance_tests": 0,
+  "theta_period_intervals": "secondary exploratory 95%; not family-adjusted",
+  "beta_period_intervals": "original primary97.5%",
+  "original_frozen_sources_unchanged": true
+}

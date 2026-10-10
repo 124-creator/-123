@@ -1,0 +1,28 @@
+{
+  "scope": "reviewed author-info manuscript sources only; no raw data and no market estimation",
+  "source_files": 19,
+  "compressed_sha256": "aed71f309e96ef2b7143a501e67a9a96fee9c1485a249706aeb0ae187fa27919",
+  "files": {
+    "AGENTS.md": "b6cf012d4cf09e68492dce36a8d64e4157f49365ad243becda100d0ffd3ca000",
+    "AUTHOR_INFORMATION_AND_APPROVAL.md": "1113d6f31c4431b0e5e64f4c4877f2327a21e4e771760c6bb4096e49c3f72fd3",
+    "AUTHOR_METADATA.json": "8df0e97bfcd12a5b0f25d14af8183cb8bda85d6b67e05477ab32104246ca20b1",
+    "COVER_LETTER_DRAFT_EN.md": "6cf98e2606f2010b3008bb8d064894a1931af1036818abd6f31874f7b357be2e",
+    "MANUSCRIPT_EN.md": "3b933cc01ef2741a2d6c3a0b5612aec164a31d9eee8610a23b29b81b00f267d0",
+    "ONLINE_RESOURCE_1.md": "27bcee991acddd41d660fd3a3022625ae9854873aedf2272bf8da3e5ba9695b6",
+    "REVISION_LOG_ZH.md": "56f045ef3753bdbb54bc1a723b9af50c7cfff2ccb5a554f292f874a72907dcbd",
+    "SOURCE_LEDGER_V6.json": "aaa858a2f0035fcbce47013d8533b75c161bd6c88c191f29cef04a2c482813b2",
+    "TITLE_PAGE.md": "adbb01e0b4ead436ac78f937263d3e39eae0ee558f64a89006f587f7adea19a6",
+    "JOURNAL_REQUIREMENTS_CHECK_ZH.md": "dd31dd1f52ad9ac04eb3cedcc709c42266c3d6a71520cb694cdb3c6863df94b4",
+    "SUBMISSION_READINESS.json": "9e344dec24bbf08b8d1d664bf294a2e2d842ad31304fdf44b2d091267a212468",
+    "references.bib": "33da731d68d338341fdcdfcbc0cc17bf0a36003dab38e316f264ffe049a70c2d",
+    "requirements.txt": "185fd02358961e1c770df56d7836bea561aee776a6fbfe591dc9ad0b66897518",
+    "support/figure_data.json": "183960dc29636489887b6453a4d5e42db8520c80d7ad3cfd6afbdc52d485b795",
+    "support/REVISION_QA_V6.json": "55532ba19743496d8c91ff496910664a909368af59cb96c840d22bd2a7af941a",
+    "support/AUTHOR_JOURNAL_QA.json": "f1c18147df4587eef20f14b0b6934e71222ab3c906817c8f574074c02bff8767",
+    "support/FINAL_DOCUMENT_QA.json": "baf88f10e43436aced1d680b5135360bcb64a878212aec01a863f4b3c1e24ce8",
+    "tools/build_figures.py": "e34294cc9bb3fbebd5f05157c16331e76d1058ec32ff248611fded25fe737d91",
+    "tools/build_manuscript.py": "0f7139a175310c410cd042fccdbd7cd8b9e4df6588b16433fa8aca4a1855aabe"
+  },
+  "new_statistical_fits": 0,
+  "new_resamples": 0
+}

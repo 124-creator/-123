@@ -1,0 +1,27 @@
+{
+  "figures": 3,
+  "files": [
+    "figures/Fig1.png",
+    "figures/Fig1.svg",
+    "figures/Fig1.eps",
+    "figures/Fig2.png",
+    "figures/Fig2.svg",
+    "figures/Fig2.eps",
+    "figures/Fig3.png",
+    "figures/Fig3.svg",
+    "figures/Fig3.eps"
+  ],
+  "source_width_mm": 174,
+  "embedded_width_mm": 162.56,
+  "png_dpi": 1200,
+  "minimum_linewidth_pt": 0.8,
+  "font_size_pt_at_source": [
+    9,
+    10
+  ],
+  "font_embedding": "EPS Type42; SVG glyph outlines",
+  "colors": "matplotlib defaults, not a data dimension",
+  "new_fits": 0,
+  "new_statistics": 0,
+  "matplotlib_version": "3.10.8"
+}

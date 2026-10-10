@@ -1,0 +1,29 @@
+{
+  "scope": "remote document build only; no raw input audit or statistical fitting",
+  "source_commit": "e01331105c07eec9b8a5d5580d69c402880220e2",
+  "new_fits": 0,
+  "new_resamples": 0,
+  "files": {
+    "MANUSCRIPT_EN_v6.docx": {
+      "sha256": "231c49e22b1a6a996fa59ab0d2bd6bc7f6ca3738c1e0b6da215126086a79d7be",
+      "tables_including_panels": 6,
+      "figures": 3
+    },
+    "ONLINE_RESOURCE_1_v6.docx": {
+      "sha256": "2d61cf0f87df1c71bfb7236bc4c635696f41a40ed7e904915db77c9cdf8d4d07",
+      "tables_including_panels": 7,
+      "figures": 0
+    },
+    "TITLE_PAGE_v6.docx": {
+      "sha256": "3b17a660c9ff2db42c31a3aa27a7cfb05addc59a46d52683354ebeedf7378c35",
+      "tables_including_panels": 0,
+      "figures": 0
+    },
+    "ESM_1.pdf": {
+      "sha256": "70dd4903772c37ce23a44e5c10172d15d1e5c3e83a3ba7af8735d0832f1ed8a1"
+    }
+  },
+  "reviewed_source_hashes_passed": true,
+  "author_consent_certified": false,
+  "ready_to_submit": false
+}

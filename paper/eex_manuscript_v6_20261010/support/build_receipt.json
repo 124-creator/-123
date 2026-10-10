@@ -1,0 +1,20 @@
+[
+  {
+    "file": "MANUSCRIPT_EN_v6.docx",
+    "tables": 6,
+    "figures": 3,
+    "numbered_native_equations": 4
+  },
+  {
+    "file": "ONLINE_RESOURCE_1_v6.docx",
+    "tables": 7,
+    "figures": 0,
+    "numbered_native_equations": 4
+  },
+  {
+    "file": "TITLE_PAGE_v6.docx",
+    "tables": 0,
+    "figures": 0,
+    "numbered_native_equations": 0
+  }
+]

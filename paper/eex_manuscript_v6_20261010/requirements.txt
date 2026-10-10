@@ -1,0 +1,5 @@
+numpy
+python-docx
+lxml
+matplotlib
+# A separate system installation of pandoc is required for DOCX construction.

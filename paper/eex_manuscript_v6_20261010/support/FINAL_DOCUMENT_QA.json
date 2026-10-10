@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-10",
+  "scope": "local final document rendering and visual inspection, not research validation",
+  "converter": "LibreOffice headless, isolated writable configuration; canonical render_docx attempted but poppler rasterization timed out",
+  "rasterizer": "PyMuPDF sequential",
+  "pages": {
+    "MANUSCRIPT_EN_v6.docx": 13,
+    "ONLINE_RESOURCE_1_v6.docx": 7,
+    "TITLE_PAGE_v6.docx": 1
+  },
+  "every_page_visually_reviewed": true,
+  "observed_overflow_or_overlap": false,
+  "native_numbered_equations": {
+    "main": 4,
+    "SI": 4
+  },
+  "main_figures": 3,
+  "numbered_tables": {
+    "main": 4,
+    "SI": 6
+  },
+  "docx_sha256": {
+    "MANUSCRIPT_EN_v6.docx": "39d21308d2721504ded1f9beb07f9f88cc2c6f4d1aad4b4921a576ebb99e33c5",
+    "TITLE_PAGE_v6.docx": "545e830bccd66b740e893ada92633f108c7d00b0f3a6e8fe8e5b9a17f6502d82",
+    "ONLINE_RESOURCE_1_v6.docx": "8ca8739469b0d5c81759690e87b6f6c197ee7a2bc06ec0324137009e0d7e3960"
+  },
+  "ESM_1_pdf_sha256": "830b2a8399cf99a5eccc6522c22169fda68251d0c399ac85757c629ee1c8cd40"
+}

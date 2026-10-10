@@ -1,0 +1,125 @@
+{
+  "Fig1": {
+    "kind": "marginal_quantiles_not_confidence_intervals",
+    "rows": [
+      {
+        "label": "Bid ratio: 2020–2022",
+        "n": 643,
+        "point": 1.5201044873588954,
+        "low": 1.3450907429458971,
+        "high": 1.7124997318255926,
+        "source": "DESCRIPTIVE_STATISTICS[early,r_bid].median/q25/q75"
+      },
+      {
+        "label": "Bid ratio: 2023–2025",
+        "n": 638,
+        "point": 1.2550857699737188,
+        "low": 1.108495776346952,
+        "high": 1.4291841981145819,
+        "source": "DESCRIPTIVE_STATISTICS[late,r_bid].median/q25/q75"
+      },
+      {
+        "label": "Award ratio: 2020–2022",
+        "n": 643,
+        "point": 1.4431317192611572,
+        "low": 1.247311672546161,
+        "high": 1.629026137453872,
+        "source": "DESCRIPTIVE_STATISTICS[early,r_won].median/q25/q75"
+      },
+      {
+        "label": "Award ratio: 2023–2025",
+        "n": 638,
+        "point": 1.3560960916211393,
+        "low": 1.183966698154493,
+        "high": 1.5567511745726659,
+        "source": "DESCRIPTIVE_STATISTICS[late,r_won].median/q25/q75"
+      }
+    ]
+  },
+  "Fig2": {
+    "kind": "conditional_residual_correlation_exploratory_CI95",
+    "rows": [
+      {
+        "label": "A: Fixed effects",
+        "spec": "A",
+        "controls": "FE",
+        "point": 0.6243055724731661,
+        "low": 0.5595890421801466,
+        "high": 0.7067447265308548,
+        "draws": 499,
+        "source": "control_ladder[A,FE]; ladder_intervals.A_FE.theta_CI"
+      },
+      {
+        "label": "A: + volume, total bidders",
+        "spec": "A",
+        "controls": "size_participation",
+        "point": 0.6289321209073133,
+        "low": 0.5626041111567261,
+        "high": 0.7093697230296855,
+        "draws": 499,
+        "source": "control_ladder[A,size_participation]; ladder_intervals.A_size_participation.theta_CI"
+      },
+      {
+        "label": "A: Full controls",
+        "spec": "A",
+        "controls": "full",
+        "point": 0.6496300946706919,
+        "low": 0.5713641899419214,
+        "high": 0.7422173323309178,
+        "draws": 999,
+        "source": "control_ladder[A,full]; baseline intervals.A_L3.theta_percentile_95"
+      },
+      {
+        "label": "C: Fixed effects",
+        "spec": "C",
+        "controls": "FE",
+        "point": 0.6196882566330826,
+        "low": 0.5493587461290793,
+        "high": 0.7017329037823349,
+        "draws": 499,
+        "source": "control_ladder[C,FE]; ladder_intervals.C_FE.theta_CI"
+      },
+      {
+        "label": "C: + volume, total bidders",
+        "spec": "C",
+        "controls": "size_participation",
+        "point": 0.6238717409983576,
+        "low": 0.5521324045904282,
+        "high": 0.7044464477751858,
+        "draws": 499,
+        "source": "control_ladder[C,size_participation]; ladder_intervals.C_size_participation.theta_CI"
+      },
+      {
+        "label": "C: Full controls",
+        "spec": "C",
+        "controls": "full",
+        "point": 0.6486230066167087,
+        "low": 0.5660001981860003,
+        "high": 0.7401990109848688,
+        "draws": 999,
+        "source": "control_ladder[C,full]; baseline intervals.C_L3.theta_percentile_95"
+      }
+    ]
+  },
+  "Fig3": {
+    "kind": "secondary_delta_theta_exploratory_CI95_not_family_adjusted",
+    "rows": [
+      {
+        "label": "A: log-one-plus",
+        "spec": "A",
+        "point": 0.22969425208829686,
+        "low": 0.08745759024397616,
+        "high": 0.3681187316896896,
+        "source": "period_points[A,late].theta - early.theta; period_intervals.A.delta_theta_CI"
+      },
+      {
+        "label": "C: natural log",
+        "spec": "C",
+        "point": 0.23053365909468992,
+        "low": 0.08081287235622939,
+        "high": 0.37482523857352673,
+        "source": "period_points[C,late].theta - early.theta; period_intervals.C.delta_theta_CI"
+      }
+    ]
+  }
+}

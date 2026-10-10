@@ -1,0 +1,65 @@
+{
+  "sources": [
+    {
+      "id": "J1",
+      "title": "Empirical Economics — Submission guidelines",
+      "url": "https://link.springer.com/journal/181/submission-guidelines",
+      "access_date": "2026-10-10",
+      "level": "official HTML, targeted sections",
+      "sections": [
+        "Editorial procedure",
+        "Title Page",
+        "Classification code",
+        "Text",
+        "References",
+        "Tables",
+        "Artwork and Illustrations Guidelines",
+        "Supplementary Information",
+        "Authorship principles",
+        "Competing Interests",
+        "Research Data Policy and Data Availability Statements"
+      ],
+      "limits": "No submission portal opened; no signed licence or peer review occurred."
+    },
+    {
+      "id": "J2",
+      "title": "Empirical Economics — Aims and scope",
+      "url": "https://link.springer.com/journal/181/aims-and-scope",
+      "access_date": "2026-10-10",
+      "level": "official HTML scope text",
+      "limits": "Scope fit is not acceptance or CAS qualification."
+    },
+    {
+      "id": "J3",
+      "title": "Empirical Economics — How to publish with us",
+      "url": "https://link.springer.com/journal/181/how-to-publish-with-us",
+      "access_date": "2026-10-10",
+      "level": "official HTML publishing options and fees",
+      "facts": {
+        "subscription_available": true,
+        "subscription_APC": 0,
+        "optional_OA_APC_USD": 3590,
+        "optional_OA_rate_at_acceptance": true
+      },
+      "limits": "Submission fee and all other costs not fully verified."
+    },
+    {
+      "id": "U1",
+      "title": "郑州航空工业管理学院章程",
+      "url": "https://news.zua.edu.cn/info/1011/7381.htm",
+      "access_date": "2026-10-10",
+      "level": "official HTML, Article 2",
+      "use": "Official English university name only; not author identity or affiliation verification independent of user."
+    },
+    {
+      "id": "U2",
+      "title": "Zhengzhou University of Aeronautics — official English homepage",
+      "url": "https://english.zua.edu.cn/index.htm",
+      "access_date": "2026-10-10",
+      "level": "official HTML university heading and introduction",
+      "use": "University English name only"
+    }
+  ],
+  "prior_paper_reads": "Retained in the v5 benchmark/source records; not repeated or upgraded this turn.",
+  "coauthor_email_search": "Targeted official-domain searches returned no source confirming shanghaimx1976@126.cam; no inferred correction, no email sent."
+}

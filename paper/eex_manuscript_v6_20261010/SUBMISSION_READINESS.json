@@ -1,0 +1,23 @@
+{
+  "version": "v6",
+  "journal": "Empirical Economics",
+  "authors_and_correspondence_filled": true,
+  "unconfirmed_coauthor_email_not_silently_corrected": true,
+  "format_checks_passed": true,
+  "numerical_display_checks_passed": true,
+  "new_statistical_estimates": 0,
+  "new_descriptive_statistics": 0,
+  "ready_to_submit": false,
+  "pending": [
+    "study-specific funding and acknowledgments",
+    "both authors competing interests",
+    "actual contributions and all-author final approval",
+    "complete AI-use record approval",
+    "permitted final data-access/deposit arrangement",
+    "applicable historical CAS journal classification and full fee check",
+    "coauthor email suffix confirmation before entering submission system"
+  ],
+  "ORCID_optional_if_available": true,
+  "journal_acceptance_guarantee": false,
+  "journal_submission_performed": false
+}

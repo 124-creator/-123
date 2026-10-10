@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "scope": "author information, document structure and technical checklist; not acceptance, coauthor consent, licence or authentic email-delivery certification",
+  "date": "2026-10-10",
+  "documents": [
+    {
+      "file": "MANUSCRIPT_EN_v6.docx",
+      "sha256": "39d21308d2721504ded1f9beb07f9f88cc2c6f4d1aad4b4921a576ebb99e33c5",
+      "author_order_correct": true,
+      "corresponding_contact_present": true,
+      "unknown_coauthor_email_not_published_as_valid": true
+    },
+    {
+      "file": "ONLINE_RESOURCE_1_v6.docx",
+      "sha256": "8ca8739469b0d5c81759690e87b6f6c197ee7a2bc06ec0324137009e0d7e3960",
+      "author_order_correct": true,
+      "corresponding_contact_present": true,
+      "unknown_coauthor_email_not_published_as_valid": true
+    },
+    {
+      "file": "TITLE_PAGE_v6.docx",
+      "sha256": "545e830bccd66b740e893ada92633f108c7d00b0f3a6e8fe8e5b9a17f6502d82",
+      "author_order_correct": true,
+      "corresponding_contact_present": true,
+      "unknown_coauthor_email_not_published_as_valid": true
+    }
+  ],
+  "abstract_words": 200,
+  "keywords": 6,
+  "references": 12,
+  "displayed_author_order": [
+    "Zhongfei Tian",
+    "Xiang Wang"
+  ],
+  "corresponding_author": "Zhongfei Tian",
+  "corresponding_email_source": "current user message, not delivery tested",
+  "funding_confirmed": false,
+  "competing_interests_confirmed": false,
+  "actual_contributions_confirmed": false,
+  "coauthor_approval_obtained": false,
+  "data_permissions_confirmed": false,
+  "CAS_qualification_confirmed": false,
+  "submission_ready": false,
+  "new_fits": 0,
+  "new_resamples": 0,
+  "new_descriptive_computations": 0
+}
