@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-10-10T04:10:31.782677+00:00",
+  "status": "POST_RESULT_EXPLORATORY",
+  "prior_results_seen": true,
+  "not_preregistered": true,
+  "sample": "same 1281 all positive SD, 2020-2025 T3PA EU/DE/PL successful; no trimming",
+  "controls": [
+    "logR",
+    "logV",
+    "logN",
+    "logS"
+  ],
+  "FE": [
+    "venue",
+    "original calendar year-month"
+  ],
+  "checks": [
+    "original log1p point only",
+    "ordinary log ratio with fixed bootstrap",
+    "ordinary log SD residual comparison and implied-mean/implied-R algebra identity only"
+  ],
+  "reps": 999,
+  "seed": 20261010,
+  "block_months": 3,
+  "bootstrap": "noncircular contiguous calendar months; 72-month axis including empty months; joint venue rows; original FE labels; reestimate each draw; failures counted not redrawn",
+  "CI": "95% percentile numpy quantile linear",
+  "partial_R2": "(base_SSE-full_SSE)/base_SSE; base excludes x only",
+  "decision_rule": "Measurement association conditional GO if ordinary log beta positive and 95% interval lower endpoint positive; otherwise transformation dependence/HOLD. Overall research/publication HOLD until economic meaning and novelty certified; never causal/CV certification.",
+  "deadline_seconds": 1200,
+  "inputs": [
+    {
+      "id": "candidate",
+      "path": "local_only/definition/candidate_dispersion.csv",
+      "directory": "local_only/definition",
+      "bytes": 920127,
+      "sha256": "8440285e78373e84b07e52db50ae5d3ed548e232de42c67045420ee88692b101"
+    },
+    {
+      "id": "definition_manifest",
+      "path": "local_only/definition/OUTPUT_MANIFEST.json",
+      "directory": "local_only/definition",
+      "bytes": 3132,
+      "sha256": "da5e6b11366b774a26cfb5a8a2b6c78aedd6d0567f2b19ab21b7b2bba802b504"
+    },
+    {
+      "id": "old_protocol",
+      "path": "local_only/exploration/PROTOCOL.json",
+      "directory": "local_only/exploration",
+      "bytes": 3543,
+      "sha256": "688866675c9c7034900ea7d7c3ca6e45b8da17b754192c9233ae083a0f008839"
+    },
+    {
+      "id": "old_results",
+      "path": "local_only/exploration/MAIN_ESTIMATES.json",
+      "directory": "local_only/exploration",
+      "bytes": 6898,
+      "sha256": "efbec7cb38971fa2a1dbe2f96638846b82058f3dfe74eb1ab1c29aaefd6acc1f"
+    },
+    {
+      "id": "old_manifest",
+      "path": "local_only/exploration/OUTPUT_MANIFEST.json",
+      "directory": "local_only/exploration",
+      "bytes": 3551,
+      "sha256": "a192ac041e0bbd27c1cb9c9cf8c59111e93886fb6f247bb636a9b18515ddac1a"
+    }
+  ],
+  "prohibited": [
+    "network",
+    "publication",
+    "new data",
+    "additional scenarios",
+    "old script execution",
+    "ddof guessing"
+  ],
+  "publication_note": "Redacted export: input paths replaced by relative local_only placeholders; original source hashes unchanged. This exported protocol is not the original frozen protocol and is not preregistration. Source protocol SHA256 is recorded in PUBLICATION_RECEIPTS.json."
+}

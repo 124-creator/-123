@@ -1,0 +1,67 @@
+{
+  "schema": "byte-manifest-v1",
+  "self_excluded": "MANIFEST.json",
+  "file_count_excluding_self": 12,
+  "files": [
+    {
+      "path": "BOOTSTRAP.csv",
+      "bytes": 22741,
+      "sha256": "6cadd34c609995254b063aedc27d55b4aa1d41b4faf491bdebe0b6b916e93433"
+    },
+    {
+      "path": "DEFINITION_REPORT.md",
+      "bytes": 6973,
+      "sha256": "afed144d8d1d5132629e0f4a25aa14f40af0f4ec23a65574cb71aa4f69fe5b51"
+    },
+    {
+      "path": "FOLLOWUP_PROMPT.txt",
+      "bytes": 2090,
+      "sha256": "443f8c6c2c543ea6047349f23fbffabd889165ec85771194cce02c2c4af7f5bd"
+    },
+    {
+      "path": "INDEPENDENT_REVIEW_REPORT.md",
+      "bytes": 6505,
+      "sha256": "f42766b5c2bb71e9d5240d8230708f2fbfcfab23cf0801964c7b2d4e1d409920"
+    },
+    {
+      "path": "PROTOCOL.json",
+      "bytes": 2942,
+      "sha256": "a8c6cda944bbf11957075f0dbff25dabd2663cb23f222f48a84e660e05a1783a"
+    },
+    {
+      "path": "PUBLICATION_RECEIPTS.json",
+      "bytes": 3605,
+      "sha256": "5b9cb1d78619a5f636aa5f8d9893e2ca9f02df1b2728789e61542aeb7bf7b928"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2963,
+      "sha256": "03e59d96b741600191ad6938199429ddc549a9df1d65f04e5b1951c569244eba"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 3489,
+      "sha256": "c7ccf729b79d60e7f2104283e8d35bc6f126954514f46c5718fc427fee867167"
+    },
+    {
+      "path": "SCRIPT.py",
+      "bytes": 12553,
+      "sha256": "f9c4db064f350b9f997fa08d4e57b52177d98b42df146a5d48a72b3757c9d7a6"
+    },
+    {
+      "path": "TABLE.csv",
+      "bytes": 1119,
+      "sha256": "dbccbe7a1e57f444fb01328534156dbf1ad4b0035fe7e9d0b693e0098fca649d"
+    },
+    {
+      "path": "TRANSFORM_REPORT.md",
+      "bytes": 2903,
+      "sha256": "001c172f3bdf482a072b7d59705e4e1ce9fad5b8f48300585735171ee8bc0454"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 1235,
+      "sha256": "509b1cc7215a28b1cf8a995df9f0bc4cb5ffa5b5dfc8c3c24263c1ed88eaf0c7"
+    }
+  ]
+}

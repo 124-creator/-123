@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "input_unchanged": true,
+  "protocol_sha256": "66176f628d008b96cf30cfd9abc4b9cc7dfb60bd78cacb2b5fcd822b06cdb0c4",
+  "tests": [
+    {
+      "flags": [],
+      "exit_code": 0,
+      "stdout": "{\"synthetic_algebra\": true, \"OLS_FWL\": true, \"corruption_refused\": true, \"optimized\": false}"
+    },
+    {
+      "flags": [
+        "-O"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"synthetic_algebra\": true, \"OLS_FWL\": true, \"corruption_refused\": true, \"optimized\": true}"
+    }
+  ],
+  "bootstrap_accounting": true,
+  "original_point_reproduced": true,
+  "OLS_FWL_equivalence": true,
+  "algebra_verified": true,
+  "elapsed_seconds": 3.9586755000054836,
+  "python": "3.13.13 (main, May 10 2026, 19:31:06) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.3",
+  "executable": "[local interpreter path redacted]",
+  "network": false,
+  "installs": false,
+  "old_code_executed": false,
+  "limitations": "ordinary static boundary; no directory-object security certification",
+  "receipt_scope": "Historical execution receipt, with interpreter path redacted. Its protocol_sha256 refers to the original private-path protocol, not this sanitized export. Not an independent timestamp or global repository PASS."
+}

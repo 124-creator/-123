@@ -1,0 +1,112 @@
+{
+  "status": "COMPLETE",
+  "decision": "HOLD",
+  "scope": "post-result exploratory reported-field association; no causal/CV/population certification",
+  "sample_n": 1281,
+  "zero_sd_B": 0,
+  "zero_sd_W": 0,
+  "log1p": {
+    "beta": 0.8802314833922176,
+    "n": 1281,
+    "columns": 79,
+    "rank": 79,
+    "residual_df": 1202,
+    "condition_full_dummy_unscaled": 1989.3201727355056,
+    "residual_x_sd": 0.07238379892249329,
+    "SSE": 7.122078659596896,
+    "base_SSE": 12.322345997874411,
+    "incremental_SSE": 5.200267338277515,
+    "partial_R2": 0.42201925990185263,
+    "FWL_beta": 0.8802314833922187,
+    "CI_low": 0.749468029215356,
+    "CI_high": 1.0149162564734024,
+    "CI_provenance": "prior independent result; not rerun"
+  },
+  "ordinary_log_ratio": {
+    "beta": 0.8797263444555291,
+    "n": 1281,
+    "columns": 79,
+    "rank": 79,
+    "residual_df": 1202,
+    "condition_full_dummy_unscaled": 2005.9589223327102,
+    "residual_x_sd": 0.12507295358475745,
+    "SSE": 21.354092376282257,
+    "base_SSE": 36.862640305805286,
+    "incremental_SSE": 15.50854792952303,
+    "partial_R2": 0.42071180471249847,
+    "FWL_beta": 0.8797263444555283,
+    "CI_low": 0.7609312566800983,
+    "CI_high": 0.9978762406421822
+  },
+  "ordinary_log_SD_same_reported_controls": {
+    "beta": 0.8796200453599459,
+    "n": 1281,
+    "columns": 79,
+    "rank": 79,
+    "residual_df": 1202,
+    "condition_full_dummy_unscaled": 2589.5048005290855,
+    "residual_x_sd": 0.12506219069239274,
+    "SSE": 21.36053420629256,
+    "base_SSE": 36.86266615271129,
+    "incremental_SSE": 15.502131946418732,
+    "partial_R2": 0.4205374587447884,
+    "FWL_beta": 0.8796200453599342
+  },
+  "algebra_implied_ratio": {
+    "beta": 0.8797353572150715,
+    "n": 1281,
+    "columns": 79,
+    "rank": 79,
+    "residual_df": 1202,
+    "condition_full_dummy_unscaled": 2005.5496535293084,
+    "residual_x_sd": 0.12507506220126718,
+    "SSE": 21.354085072429303,
+    "base_SSE": 36.8634737076425,
+    "incremental_SSE": 15.509388635213195,
+    "partial_R2": 0.4207250992734796,
+    "FWL_beta": 0.8797353572150686
+  },
+  "algebra_implied_raw_SD": {
+    "beta": 0.8797353572150799,
+    "n": 1281,
+    "columns": 79,
+    "rank": 79,
+    "residual_df": 1202,
+    "condition_full_dummy_unscaled": 2588.7396852606616,
+    "residual_x_sd": 0.12507506220126707,
+    "SSE": 21.3540850724293,
+    "base_SSE": 36.863473707642484,
+    "incremental_SSE": 15.509388635213185,
+    "partial_R2": 0.42072509927347945,
+    "FWL_beta": 0.8797353572150705
+  },
+  "algebra": {
+    "beta_difference": -8.43769498715119e-15,
+    "max_abs_residual_difference": 5.709321904134868e-14,
+    "SSE_difference": 3.552713678800501e-15,
+    "label": "PURE_ALGEBRA_NOT_NEW_ECONOMIC_FINDING"
+  },
+  "rounding": {
+    "max_abs_log_muB_minus_log_BN": 4.336504041191347e-06,
+    "max_abs_log_muW_minus_log_VS": 6.019545462976339e-06,
+    "max_abs_log_R_minus_log_BV": 0.004128252929261722,
+    "reported_ratio_vs_raw_beta_difference": 0.00010629909558323991,
+    "reported_max_abs_residual_difference": 0.003944405990953803
+  },
+  "bootstrap": {
+    "attempted": 999,
+    "valid": 999,
+    "failed": 0,
+    "failures": [],
+    "seed": 20261010,
+    "block_months": 3,
+    "axis_months": 72,
+    "empty_months": 0,
+    "CI": [
+      0.7609312566800983,
+      0.9978762406421822
+    ],
+    "method": "noncircular moving 3-calendar-month blocks, joint platforms, original FE labels, each draw refit"
+  },
+  "transform_positive_association_survives": true
+}

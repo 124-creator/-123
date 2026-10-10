@@ -1,0 +1,96 @@
+{
+  "scope": "Public HOLD supplement; source byte identities checked locally. No raw auction rows, complete workbooks, papers or secrets published.",
+  "original_source_protocol_sha256": "66176f628d008b96cf30cfd9abc4b9cc7dfb60bd78cacb2b5fcd822b06cdb0c4",
+  "redactions": "Report publication headers added; absolute interpreter path and protocol input paths redacted. CSV exports UTF-8 without BOM and LF. Public hashes must not be confused with original source hashes.",
+  "original_sources": [
+    {
+      "public_name": "DEFINITION_REPORT.md",
+      "source_identity": {
+        "bytes": 6653,
+        "sha256": "8efd436fcef0a33b4b1e3cfcc9554cd1ddcdfd931ed3fdfd6f25b75476d31f82"
+      },
+      "original_not_included": false,
+      "identity_not_semantic_authentication": true
+    },
+    {
+      "public_name": "INDEPENDENT_REVIEW_REPORT.md",
+      "source_identity": {
+        "bytes": 6302,
+        "sha256": "3e33ca22ab5e10b0fa04a188338ebadf7b0103858d085bb26c750e206116de3d"
+      },
+      "original_not_included": false,
+      "identity_not_semantic_authentication": true
+    },
+    {
+      "public_name": "TRANSFORM_REPORT.md",
+      "source_identity": {
+        "bytes": 2925,
+        "sha256": "67aad76cb79cfc1cfffca0399340ee951ce27795534fda118c8bedbe9afff06e"
+      },
+      "original_not_included": false,
+      "identity_not_semantic_authentication": true
+    },
+    {
+      "public_name": "RESULTS.json",
+      "source_identity": {
+        "bytes": 3599,
+        "sha256": "ef0887690b59624bb98335a2a769639efa77fa3b518a037a668e400e4834461a"
+      },
+      "original_not_included": false,
+      "identity_not_semantic_authentication": true
+    },
+    {
+      "public_name": "TABLE.csv",
+      "source_identity": {
+        "bytes": 1128,
+        "sha256": "5c5f4f88d8c55d2d6ef61407c4958c7199cdb5b8ccb71f807b17cde36db6351b"
+      },
+      "original_not_included": false,
+      "identity_not_semantic_authentication": true
+    },
+    {
+      "public_name": "BOOTSTRAP.csv",
+      "source_identity": {
+        "bytes": 23741,
+        "sha256": "a8a5f3139bc0ca8dc9b3cd13120adda828ae752bc0ad6479e821d7f113a0eaf5"
+      },
+      "original_not_included": false,
+      "identity_not_semantic_authentication": true
+    },
+    {
+      "public_name": "SCRIPT.py",
+      "source_identity": {
+        "bytes": 12553,
+        "sha256": "f9c4db064f350b9f997fa08d4e57b52177d98b42df146a5d48a72b3757c9d7a6"
+      },
+      "original_not_included": false,
+      "identity_not_semantic_authentication": true
+    },
+    {
+      "public_name": "PROTOCOL.json",
+      "source_identity": {
+        "bytes": 3464,
+        "sha256": "66176f628d008b96cf30cfd9abc4b9cc7dfb60bd78cacb2b5fcd822b06cdb0c4"
+      },
+      "original_not_included": true,
+      "identity_not_semantic_authentication": true
+    },
+    {
+      "public_name": "VERIFICATION.json",
+      "source_identity": {
+        "bytes": 1120,
+        "sha256": "ac50eb874721b1bb8b96f266b76fe70570a15db19ab342ace539da1afae1028f"
+      },
+      "original_not_included": true,
+      "identity_not_semantic_authentication": true
+    }
+  ],
+  "full_data_redistribution_status": "not established; retained locally; no assertion that all source material is prohibited from redistribution",
+  "original_sample_data_identity": {
+    "bytes": 920127,
+    "sha256": "8440285e78373e84b07e52db50ae5d3ed548e232de42c67045420ee88692b101",
+    "rows": 1281,
+    "included": false
+  },
+  "tests_claim_scope": "VERIFICATION.json reports earlier real execution; publication additionally rechecks manifests, draw counts and summary CIs. No new model fits in this publication task."
+}

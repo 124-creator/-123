@@ -1,7 +1,7 @@
 {
   "schema": "byte-manifest-v1",
   "self_excluded": "MANIFEST.json",
-  "file_count_excluding_self": 9,
+  "file_count_excluding_self": 22,
   "files": [
     {
       "path": ".gitattributes",
@@ -17,6 +17,71 @@
       "path": "DATA_SUMMARY.json",
       "bytes": 26858,
       "sha256": "545258c7bd9b2c1aa0bb77e6bed7f35cc980141eb515f9033c4b60625d7b2bb9"
+    },
+    {
+      "path": "hold_supplement/BOOTSTRAP.csv",
+      "bytes": 22741,
+      "sha256": "6cadd34c609995254b063aedc27d55b4aa1d41b4faf491bdebe0b6b916e93433"
+    },
+    {
+      "path": "hold_supplement/DEFINITION_REPORT.md",
+      "bytes": 6973,
+      "sha256": "afed144d8d1d5132629e0f4a25aa14f40af0f4ec23a65574cb71aa4f69fe5b51"
+    },
+    {
+      "path": "hold_supplement/FOLLOWUP_PROMPT.txt",
+      "bytes": 2090,
+      "sha256": "443f8c6c2c543ea6047349f23fbffabd889165ec85771194cce02c2c4af7f5bd"
+    },
+    {
+      "path": "hold_supplement/INDEPENDENT_REVIEW_REPORT.md",
+      "bytes": 6505,
+      "sha256": "f42766b5c2bb71e9d5240d8230708f2fbfcfab23cf0801964c7b2d4e1d409920"
+    },
+    {
+      "path": "hold_supplement/MANIFEST.json",
+      "bytes": 1938,
+      "sha256": "0fed1a8b8867d29dc65a6e90e4200de970907d9bfc1675112d2ee51f65ad2f6a"
+    },
+    {
+      "path": "hold_supplement/PROTOCOL.json",
+      "bytes": 2942,
+      "sha256": "a8c6cda944bbf11957075f0dbff25dabd2663cb23f222f48a84e660e05a1783a"
+    },
+    {
+      "path": "hold_supplement/PUBLICATION_RECEIPTS.json",
+      "bytes": 3605,
+      "sha256": "5b9cb1d78619a5f636aa5f8d9893e2ca9f02df1b2728789e61542aeb7bf7b928"
+    },
+    {
+      "path": "hold_supplement/README.md",
+      "bytes": 2963,
+      "sha256": "03e59d96b741600191ad6938199429ddc549a9df1d65f04e5b1951c569244eba"
+    },
+    {
+      "path": "hold_supplement/RESULTS.json",
+      "bytes": 3489,
+      "sha256": "c7ccf729b79d60e7f2104283e8d35bc6f126954514f46c5718fc427fee867167"
+    },
+    {
+      "path": "hold_supplement/SCRIPT.py",
+      "bytes": 12553,
+      "sha256": "f9c4db064f350b9f997fa08d4e57b52177d98b42df146a5d48a72b3757c9d7a6"
+    },
+    {
+      "path": "hold_supplement/TABLE.csv",
+      "bytes": 1119,
+      "sha256": "dbccbe7a1e57f444fb01328534156dbf1ad4b0035fe7e9d0b693e0098fca649d"
+    },
+    {
+      "path": "hold_supplement/TRANSFORM_REPORT.md",
+      "bytes": 2903,
+      "sha256": "001c172f3bdf482a072b7d59705e4e1ce9fad5b8f48300585735171ee8bc0454"
+    },
+    {
+      "path": "hold_supplement/VERIFICATION.json",
+      "bytes": 1235,
+      "sha256": "509b1cc7215a28b1cf8a995df9f0bc4cb5ffa5b5dfc8c3c24263c1ed88eaf0c7"
     },
     {
       "path": "LITERATURE_SUMMARY.json",
@@ -45,8 +110,8 @@
     },
     {
       "path": "START_HERE.md",
-      "bytes": 1157,
-      "sha256": "bc49c75028eb7a393b354a678c17ab3d877d4ad26da9051476e7cdda269af434"
+      "bytes": 2086,
+      "sha256": "a366d111322d5391525259880c50f349f82f8277798422a4c8e7bbcc9ce9290c"
     }
   ]
 }
