@@ -1,0 +1,253 @@
+{
+  "revision": "v2",
+  "checked_on": "2026-10-10",
+  "results_base_commit": "d4b26f1bbd8c1d7c036259e48e119c9c12f6c9a9",
+  "source_documents_reproduced_in_repo": false,
+  "new_visits": [
+    {
+      "id": "J1",
+      "title": "Empirical Economics: Aims and scope",
+      "url": "https://link.springer.com/journal/181/aims-and-scope",
+      "doi": null,
+      "first_online": null,
+      "access_date": "2026-10-10",
+      "level": "official_body_full",
+      "read_scope": "Aims and scope body",
+      "manuscript_use": "Editorial fit, not CAS qualification",
+      "author_results_reproduced": false
+    },
+    {
+      "id": "J2",
+      "title": "Empirical Economics: Submission guidelines",
+      "url": "https://link.springer.com/journal/181/submission-guidelines",
+      "doi": null,
+      "first_online": null,
+      "access_date": "2026-10-10",
+      "level": "official_body_targeted",
+      "read_scope": "Title/abstract/keywords/JEL/text/references/artwork/SI/AI/data policy and declarations",
+      "manuscript_use": "Formatting and truthful author-review checklist; no claim all policies independently audited",
+      "author_results_reproduced": false
+    },
+    {
+      "id": "J3",
+      "title": "Empirical Economics: How to publish with us",
+      "url": "https://link.springer.com/journal/181/how-to-publish-with-us",
+      "doi": null,
+      "first_online": null,
+      "access_date": "2026-10-10",
+      "level": "official_body_targeted",
+      "read_scope": "Publishing options and fees",
+      "manuscript_use": "Subscription no APC; optional OA amount; other charges not comprehensively confirmed",
+      "author_results_reproduced": false
+    },
+    {
+      "id": "Meijer2025",
+      "title": "Handling multiple proxies",
+      "url": "https://link.springer.com/article/10.1007/s00181-025-02825-x",
+      "doi": "10.1007/s00181-025-02825-x",
+      "first_online": "2025-09-27",
+      "access_date": "2026-10-10",
+      "level": "full_text_available_targeted",
+      "read_scope": "Abstract, Section 1, Sections 2.1–2.2, Section 5 relevant passages",
+      "manuscript_use": "Distinguish observed indicators from an identified latent construct",
+      "author_results_reproduced": false
+    },
+    {
+      "id": "MillimetParmeter2025",
+      "title": "The impact of measurement error on trends in earnings inequality in the USA",
+      "url": "https://link.springer.com/article/10.1007/s00181-025-02783-4",
+      "doi": "10.1007/s00181-025-02783-4",
+      "first_online": "2025-06-27",
+      "access_date": "2026-10-10",
+      "level": "full_text_available_targeted",
+      "read_scope": "Abstract and introduction focused on measurement and trends",
+      "manuscript_use": "Target-journal comparison memo only; not direct EUA prior; not added to manuscript",
+      "author_results_reproduced": false
+    },
+    {
+      "id": "Nakanishi2025",
+      "title": "Urban environmental evaluation using an affiliated private value auction model",
+      "url": "https://link.springer.com/article/10.1007/s00181-024-02669-x",
+      "doi": "10.1007/s00181-024-02669-x",
+      "first_online": "2024-11-01",
+      "access_date": "2026-10-10",
+      "level": "publisher_abstract_metadata_only",
+      "read_scope": "Abstract, publication dates and data availability; subscription body not obtained",
+      "manuscript_use": "Target-journal comparison memo only; no transfer of structural identification claims",
+      "author_results_reproduced": false
+    },
+    {
+      "id": "Bosco2023",
+      "title": "Trade, equilibrium prices and rents in European auctions for emission allowances",
+      "url": "https://link.springer.com/article/10.1007/s10018-022-00344-y",
+      "doi": "10.1007/s10018-022-00344-y",
+      "first_online": "2022-05-31",
+      "access_date": "2026-10-10",
+      "level": "full_text_available_targeted",
+      "read_scope": "Abstract, introduction, mechanism and data/model discussion including 4.1",
+      "manuscript_use": "Direct auction comparison; no first-study claim",
+      "author_results_reproduced": false
+    },
+    {
+      "id": "Lahiri2003",
+      "title": "Resampling Methods for Dependent Data",
+      "url": "https://link.springer.com/book/10.1007/978-1-4757-3803-2",
+      "doi": "10.1007/978-1-4757-3803-2",
+      "first_online": null,
+      "access_date": "2026-10-10",
+      "level": "publisher_book_overview_and_contents",
+      "read_scope": "Book metadata, overview and contents; individual chapter proofs not read",
+      "manuscript_use": "Generic block-resampling reference only; no theorem validation of this application",
+      "author_results_reproduced": false
+    }
+  ],
+  "inherited_sources": [
+    {
+      "id": "Bosco2023",
+      "title": "Trade, equilibrium prices and rents in European auctions for emission allowances",
+      "authors": [
+        "Bruno Bosco"
+      ],
+      "doi": "10.1007/s10018-022-00344-y",
+      "year": 2023,
+      "first_online": "2022-05-31",
+      "url": "https://link.springer.com/article/10.1007/s10018-022-00344-y",
+      "level": "full_text_available_targeted_reading",
+      "read_scope": "Abstract, introduction, auction mechanism, data/model discussion and selected empirical passages; not whole-article close reading",
+      "supports": "Direct primary-auction comparison: price/return volatility, participation and cover ratio; not an assertion that quantity-dispersion association has never been studied",
+      "results_reproduced": false,
+      "access_date": "2026-10-10"
+    },
+    {
+      "id": "EEXFAQ",
+      "title": "Frequently Asked Questions: Emissions Auctions",
+      "authors": [
+        "European Energy Exchange"
+      ],
+      "year": null,
+      "url": "https://www.eex.com/en/faq",
+      "level": "official_HTML_targeted_sections",
+      "read_scope": "Emissions auction design, allocation ordering, partial marginal execution and participation on own/client account",
+      "supports": "Current explanatory design and participant distinction only; no certification of historical SD population or ddof",
+      "access_date": "2026-10-10"
+    },
+    {
+      "id": "EC2024Q2",
+      "title": "Auctions by the Common Auction Platform: April, May, June 2024",
+      "authors": [
+        "European Commission"
+      ],
+      "year": 2024,
+      "url": "https://climate.ec.europa.eu/document/download/d962459c-021e-4901-b49f-e5d37e5d2c93_en?filename=cap_report_202406_en.pdf",
+      "level": "official_PDF_parsed_text_targeted",
+      "read_scope": "Section 1.1.2, mean definitions and Tables 2–3 notes; unit/header explanatory passages",
+      "supports": "Auction-level bid mean and participants versus won mean and successful participants; monthly aggregation distinction",
+      "visual_table_verification": false,
+      "failures": "Page 10 and 11 screenshot attempts returned Internal Error; no cellwise replication of source report tables",
+      "access_date": "2026-10-10"
+    },
+    {
+      "id": "ESMA2025",
+      "title": "Market Report on EU Carbon Markets",
+      "authors": [
+        "ESMA"
+      ],
+      "year": 2025,
+      "document_id": "ESMA50-481369926-30552",
+      "url": "https://www.esma.europa.eu/sites/default/files/2025-10/ESMA50-481369926-30552_Carbon_Markets_Report_2025.pdf",
+      "level": "official_PDF_targeted_text_and_page_images",
+      "read_scope": "Auction participation and concentration, printed pages 8–9; screenshots pages 7–8 (zero-based)",
+      "supports": "Monitoring distinguishes participation from concentration and uses different underlying sources; no replacement of micro-level concentration with our ratios",
+      "access_date": "2026-10-10"
+    },
+    {
+      "id": "CramtonKerr2002",
+      "title": "Tradeable carbon permit auctions: How and why to auction not grandfather",
+      "authors": [
+        "Peter Cramton",
+        "Suzi Kerr"
+      ],
+      "doi": "10.1016/S0301-4215(01)00100-8",
+      "year": 2002,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301421501001008",
+      "level": "official_search_index_abstract_metadata",
+      "read_scope": "Publisher-indexed abstract and bibliographic identity only",
+      "supports": "Broad motivation for auctioning versus grandfathering, not a specific EUA quantity-dispersion result",
+      "failures": "Direct abstract-page open returned Internal Error; no retry through a different body host",
+      "access_date": "2026-10-10"
+    },
+    {
+      "id": "Ausubel2014",
+      "title": "Demand Reduction and Inefficiency in Multi-Unit Auctions",
+      "authors": [
+        "Lawrence M. Ausubel",
+        "Peter Cramton",
+        "Marek Pycia",
+        "Marzena Rostek",
+        "Marek Weretka"
+      ],
+      "doi": "10.1093/restud/rdu023",
+      "year": 2014,
+      "first_online": "2014-07-07",
+      "url": "https://academic.oup.com/restud/article-abstract/81/4/1366/1578040",
+      "level": "official_search_index_abstract_metadata",
+      "read_scope": "Publisher-indexed abstract and publication metadata; no full body",
+      "supports": "Broad multi-unit strategic-demand context, not proof of a mechanism in the study data",
+      "access_date": "2026-10-10"
+    },
+    {
+      "id": "Kronmal1993",
+      "title": "Spurious Correlation and the Fallacy of the Ratio Standard Revisited",
+      "authors": [
+        "Richard A. Kronmal"
+      ],
+      "doi": "10.2307/2983064",
+      "year": 1993,
+      "url": "https://rss.onlinelibrary.wiley.com/doi/10.2307/2983064",
+      "level": "publisher_summary_metadata",
+      "read_scope": "Summary and bibliographic information, not full paper",
+      "supports": "General ratio-regression caution only; equations in our paper are our explicit algebra",
+      "access_date": "2026-10-10"
+    },
+    {
+      "id": "Cook1977",
+      "title": "Detection of Influential Observation in Linear Regression",
+      "authors": [
+        "R. Dennis Cook"
+      ],
+      "doi": "10.1080/00401706.1977.10489493",
+      "year": 1977,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00401706.1977.10489493",
+      "additional_url": "https://experts.umn.edu/en/publications/detection-of-influential-observation-in-linear-regression-2/",
+      "level": "publisher_index_and_author_institution_record",
+      "read_scope": "Bibliographic identity and institutional summary; no full article",
+      "supports": "Attribution of standard influence diagnostic, not validation of our entire implementation",
+      "failures": "Direct publisher body open returned Internal Error",
+      "access_date": "2026-10-10"
+    },
+    {
+      "id": "Lovell1963",
+      "title": "Seasonal Adjustment of Economic Time Series and Multiple Regression Analysis",
+      "authors": [
+        "Michael C. Lovell"
+      ],
+      "doi": "10.1080/01621459.1963.10480682",
+      "year": 1963,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1963.10480682",
+      "additional_url": "https://cowles.yale.edu/node/145881",
+      "level": "publisher_index_and_related_author_archive_summary",
+      "read_scope": "Publication metadata and abstract; related working-paper landing, not original full article",
+      "supports": "Partial-regression attribution; implemented identities stated and checked directly",
+      "failures": "Direct publisher body open returned Internal Error; working-paper and journal versions not conflated",
+      "access_date": "2026-10-10"
+    }
+  ],
+  "inherited_access_warning": "Inherited records are previous-turn readings, not new visits. Failed full-text/page-image routes were not bypassed or retroactively authenticated.",
+  "unresolved": [
+    "CAS historical edition and individual journal category/zone",
+    "Complete fee schedule",
+    "SD population/divisor and historical first-release versions",
+    "Novelty not certified by incomplete search"
+  ],
+  "new_estimation": false
+}

@@ -1,0 +1,149 @@
+table,row,column,value,source,json_path
+Table 2,2020,EU,139,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2020;project=EU
+Table 2,2020,DE,46,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2020;project=DE
+Table 2,2020,PL,24,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2020;project=PL
+Table 2,2020,Total,209,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2020;project=Total
+Table 2,2021,EU,132,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2021;project=EU
+Table 2,2021,DE,45,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2021;project=DE
+Table 2,2021,PL,46,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2021;project=PL
+Table 2,2021,Total,223,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2021;project=Total
+Table 2,2022,EU,142,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2022;project=EU
+Table 2,2022,DE,46,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2022;project=DE
+Table 2,2022,PL,23,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2022;project=PL
+Table 2,2022,Total,211,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2022;project=Total
+Table 2,2023,EU,143,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2023;project=EU
+Table 2,2023,DE,47,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2023;project=DE
+Table 2,2023,PL,24,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2023;project=PL
+Table 2,2023,Total,214,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2023;project=Total
+Table 2,2024,EU,142,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2024;project=EU
+Table 2,2024,DE,46,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2024;project=DE
+Table 2,2024,PL,24,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2024;project=PL
+Table 2,2024,Total,212,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2024;project=Total
+Table 2,2025,EU,142,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2025;project=EU
+Table 2,2025,DE,45,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2025;project=DE
+Table 2,2025,PL,25,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2025;project=PL
+Table 2,2025,Total,212,5745eb3ddca79602346053446583d794b0e09800:research/pro_review_20261010/hold_supplement/DEFINITION_REPORT.md,year=2025;project=Total
+Table 3,A,beta,0.880231483392218,frozen_baseline_results.json,points.A.beta
+Table 3,A,theta,0.6496300946706919,frozen_baseline_results.json,points.A.theta
+Table 3,A,partial_R2,0.4220192599018521,frozen_baseline_results.json,points.A.partial_r_squared
+Table 3,A,beta_CI_low,0.7506363633059706,frozen_baseline_results.json,intervals.A_L3.beta_percentile_95[0]
+Table 3,A,beta_CI_high,1.0384454439843775,frozen_baseline_results.json,intervals.A_L3.beta_percentile_95[1]
+Table 3,A,theta_CI_low,0.5713641899419214,frozen_baseline_results.json,intervals.A_L3.theta_percentile_95[0]
+Table 3,A,theta_CI_high,0.7422173323309178,frozen_baseline_results.json,intervals.A_L3.theta_percentile_95[1]
+Table 3,C,beta,0.8797263444555286,frozen_baseline_results.json,points.C.beta
+Table 3,C,theta,0.6486230066167087,frozen_baseline_results.json,points.C.theta
+Table 3,C,partial_R2,0.4207118047124989,frozen_baseline_results.json,points.C.partial_r_squared
+Table 3,C,beta_CI_low,0.7626931771032806,frozen_baseline_results.json,intervals.C_L3.beta_percentile_95[0]
+Table 3,C,beta_CI_high,1.014299171831216,frozen_baseline_results.json,intervals.C_L3.beta_percentile_95[1]
+Table 3,C,theta_CI_low,0.5660001981860003,frozen_baseline_results.json,intervals.C_L3.theta_percentile_95[0]
+Table 3,C,theta_CI_high,0.7401990109848688,frozen_baseline_results.json,intervals.C_L3.theta_percentile_95[1]
+Table 5,Series and month effects,A_theta,0.6243055724731661,frozen_extension_results.json,"control_ladder[spec=A,controls=FE].theta"
+Table 5,Series and month effects,A_CI_low,0.5595890421801466,baseline or extension intervals,A_FE.theta_CI[0]
+Table 5,Series and month effects,A_CI_high,0.7067447265308548,baseline or extension intervals,A_FE.theta_CI[1]
+Table 5,Series and month effects,C_theta,0.6196882566330826,frozen_extension_results.json,"control_ladder[spec=C,controls=FE].theta"
+Table 5,Series and month effects,C_CI_low,0.5493587461290793,baseline or extension intervals,C_FE.theta_CI[0]
+Table 5,Series and month effects,C_CI_high,0.7017329037823349,baseline or extension intervals,C_FE.theta_CI[1]
+Table 5,Effects + volume + bidders,A_theta,0.6289321209073133,frozen_extension_results.json,"control_ladder[spec=A,controls=size_participation].theta"
+Table 5,Effects + volume + bidders,A_CI_low,0.5626041111567261,baseline or extension intervals,A_size_participation.theta_CI[0]
+Table 5,Effects + volume + bidders,A_CI_high,0.7093697230296855,baseline or extension intervals,A_size_participation.theta_CI[1]
+Table 5,Effects + volume + bidders,C_theta,0.6238717409983576,frozen_extension_results.json,"control_ladder[spec=C,controls=size_participation].theta"
+Table 5,Effects + volume + bidders,C_CI_low,0.5521324045904282,baseline or extension intervals,C_size_participation.theta_CI[0]
+Table 5,Effects + volume + bidders,C_CI_high,0.7044464477751858,baseline or extension intervals,C_size_participation.theta_CI[1]
+Table 5,Full controls,A_theta,0.6496300946706919,frozen_extension_results.json,"control_ladder[spec=A,controls=full].theta"
+Table 5,Full controls,A_CI_low,0.5713641899419214,baseline or extension intervals,A_full.theta_CI[0]
+Table 5,Full controls,A_CI_high,0.7422173323309178,baseline or extension intervals,A_full.theta_CI[1]
+Table 5,Full controls,C_theta,0.6486230066167087,frozen_extension_results.json,"control_ladder[spec=C,controls=full].theta"
+Table 5,Full controls,C_CI_low,0.5660001981860003,baseline or extension intervals,C_full.theta_CI[0]
+Table 5,Full controls,C_CI_high,0.7401990109848688,baseline or extension intervals,C_full.theta_CI[1]
+Table 4 panel A,A_early,n,643,frozen_extension_results.json,"period_points[spec=A,period=early].n"
+Table 4 panel A,A_early,beta,0.6727741692090599,frozen_extension_results.json,"period_points[spec=A,period=early].beta"
+Table 4 panel A,A_early,theta,0.5500637873219566,frozen_extension_results.json,"period_points[spec=A,period=early].theta"
+Table 4 panel A,A_early,theta_CI_low,0.45695583542072443,frozen_extension_results.json,period_intervals.A.theta_early_CI[0]
+Table 4 panel A,A_early,theta_CI_high,0.6485984697260725,frozen_extension_results.json,period_intervals.A.theta_early_CI[1]
+Table 4 panel A,A_late,n,638,frozen_extension_results.json,"period_points[spec=A,period=late].n"
+Table 4 panel A,A_late,beta,1.182470472806227,frozen_extension_results.json,"period_points[spec=A,period=late].beta"
+Table 4 panel A,A_late,theta,0.7797580394102535,frozen_extension_results.json,"period_points[spec=A,period=late].theta"
+Table 4 panel A,A_late,theta_CI_low,0.6757114267330819,frozen_extension_results.json,period_intervals.A.theta_late_CI[0]
+Table 4 panel A,A_late,theta_CI_high,0.889216955710825,frozen_extension_results.json,period_intervals.A.theta_late_CI[1]
+Table 4 panel A,C_early,n,643,frozen_extension_results.json,"period_points[spec=C,period=early].n"
+Table 4 panel A,C_early,beta,0.6879713711013911,frozen_extension_results.json,"period_points[spec=C,period=early].beta"
+Table 4 panel A,C_early,theta,0.5413773360052372,frozen_extension_results.json,"period_points[spec=C,period=early].theta"
+Table 4 panel A,C_early,theta_CI_low,0.4393580470548396,frozen_extension_results.json,period_intervals.C.theta_early_CI[0]
+Table 4 panel A,C_early,theta_CI_high,0.6492994714198093,frozen_extension_results.json,period_intervals.C.theta_early_CI[1]
+Table 4 panel A,C_late,n,638,frozen_extension_results.json,"period_points[spec=C,period=late].n"
+Table 4 panel A,C_late,beta,1.1232247074540742,frozen_extension_results.json,"period_points[spec=C,period=late].beta"
+Table 4 panel A,C_late,theta,0.7719109950999271,frozen_extension_results.json,"period_points[spec=C,period=late].theta"
+Table 4 panel A,C_late,theta_CI_low,0.6645034684029555,frozen_extension_results.json,period_intervals.C.theta_late_CI[0]
+Table 4 panel A,C_late,theta_CI_high,0.8828631852582224,frozen_extension_results.json,period_intervals.C.theta_late_CI[1]
+Table 4 panel B,A,delta_beta,0.5096963035971671,frozen_extension_results.json,late beta - early beta (arithmetic only)
+Table 4 panel B,A,CI_low,0.33399810505479166,frozen_extension_results.json,period_intervals.A.delta_beta_Bonferroni97_5_CI[0]
+Table 4 panel B,A,CI_high,0.7221630675931723,frozen_extension_results.json,period_intervals.A.delta_beta_Bonferroni97_5_CI[1]
+Table 4 panel B,C,delta_beta,0.43525333635268315,frozen_extension_results.json,late beta - early beta (arithmetic only)
+Table 4 panel B,C,CI_low,0.26053529092279043,frozen_extension_results.json,period_intervals.C.delta_beta_Bonferroni97_5_CI[0]
+Table 4 panel B,C,CI_high,0.6343508262497788,frozen_extension_results.json,period_intervals.C.delta_beta_Bonferroni97_5_CI[1]
+Table S1,A_L1,beta_CI_low,0.7806549214156159,frozen_baseline_results.json,intervals.A_L1.beta_percentile_95[0]
+Table S1,A_L1,beta_CI_high,0.9832870539832361,frozen_baseline_results.json,intervals.A_L1.beta_percentile_95[1]
+Table S1,A_L1,theta_CI_low,0.5902559655419414,frozen_baseline_results.json,intervals.A_L1.theta_percentile_95[0]
+Table S1,A_L1,theta_CI_high,0.7158315518886209,frozen_baseline_results.json,intervals.A_L1.theta_percentile_95[1]
+Table S1,A_L3,beta_CI_low,0.7506363633059706,frozen_baseline_results.json,intervals.A_L3.beta_percentile_95[0]
+Table S1,A_L3,beta_CI_high,1.0384454439843775,frozen_baseline_results.json,intervals.A_L3.beta_percentile_95[1]
+Table S1,A_L3,theta_CI_low,0.5713641899419214,frozen_baseline_results.json,intervals.A_L3.theta_percentile_95[0]
+Table S1,A_L3,theta_CI_high,0.7422173323309178,frozen_baseline_results.json,intervals.A_L3.theta_percentile_95[1]
+Table S1,A_L6,beta_CI_low,0.7349734939294617,frozen_baseline_results.json,intervals.A_L6.beta_percentile_95[0]
+Table S1,A_L6,beta_CI_high,1.0292424848627044,frozen_baseline_results.json,intervals.A_L6.beta_percentile_95[1]
+Table S1,A_L6,theta_CI_low,0.5564364178868685,frozen_baseline_results.json,intervals.A_L6.theta_percentile_95[0]
+Table S1,A_L6,theta_CI_high,0.7437678892718725,frozen_baseline_results.json,intervals.A_L6.theta_percentile_95[1]
+Table S1,C_L1,beta_CI_low,0.7906507711295806,frozen_baseline_results.json,intervals.C_L1.beta_percentile_95[0]
+Table S1,C_L1,beta_CI_high,0.9714206681491746,frozen_baseline_results.json,intervals.C_L1.beta_percentile_95[1]
+Table S1,C_L1,theta_CI_low,0.5855312727765417,frozen_baseline_results.json,intervals.C_L1.theta_percentile_95[0]
+Table S1,C_L1,theta_CI_high,0.7134013194098413,frozen_baseline_results.json,intervals.C_L1.theta_percentile_95[1]
+Table S1,C_L3,beta_CI_low,0.7626931771032806,frozen_baseline_results.json,intervals.C_L3.beta_percentile_95[0]
+Table S1,C_L3,beta_CI_high,1.014299171831216,frozen_baseline_results.json,intervals.C_L3.beta_percentile_95[1]
+Table S1,C_L3,theta_CI_low,0.5660001981860003,frozen_baseline_results.json,intervals.C_L3.theta_percentile_95[0]
+Table S1,C_L3,theta_CI_high,0.7401990109848688,frozen_baseline_results.json,intervals.C_L3.theta_percentile_95[1]
+Table S1,C_L6,beta_CI_low,0.7503365980085088,frozen_baseline_results.json,intervals.C_L6.beta_percentile_95[0]
+Table S1,C_L6,beta_CI_high,1.009019860150183,frozen_baseline_results.json,intervals.C_L6.beta_percentile_95[1]
+Table S1,C_L6,theta_CI_low,0.5526424705238842,frozen_baseline_results.json,intervals.C_L6.theta_percentile_95[0]
+Table S1,C_L6,theta_CI_high,0.7492538968580545,frozen_baseline_results.json,intervals.C_L6.theta_percentile_95[1]
+Table S2,One calendar month,A_min,0.6419220039050791,frozen_extension_results.json,"leave_group_out[spec=A,type=month].theta (min)"
+Table S2,One calendar month,A_max,0.665616610729143,frozen_extension_results.json,"leave_group_out[spec=A,type=month].theta (max)"
+Table S2,One calendar month,C_min,0.6404936870547205,frozen_extension_results.json,"leave_group_out[spec=C,type=month].theta (min)"
+Table S2,One calendar month,C_max,0.6673808967812982,frozen_extension_results.json,"leave_group_out[spec=C,type=month].theta (max)"
+Table S2,One calendar year,A_min,0.6057843543728386,frozen_extension_results.json,"leave_group_out[spec=A,type=year].theta (min)"
+Table S2,One calendar year,A_max,0.6981387911269283,frozen_extension_results.json,"leave_group_out[spec=A,type=year].theta (max)"
+Table S2,One calendar year,C_min,0.6022577095106398,frozen_extension_results.json,"leave_group_out[spec=C,type=year].theta (min)"
+Table S2,One calendar year,C_max,0.699592359081014,frozen_extension_results.json,"leave_group_out[spec=C,type=year].theta (max)"
+Table S2,One reporting series,A_min,0.6018690487617964,frozen_extension_results.json,"leave_group_out[spec=A,type=project].theta (min)"
+Table S2,One reporting series,A_max,0.7120196616940405,frozen_extension_results.json,"leave_group_out[spec=A,type=project].theta (max)"
+Table S2,One reporting series,C_min,0.61100977636325,frozen_extension_results.json,"leave_group_out[spec=C,type=project].theta (min)"
+Table S2,One reporting series,C_max,0.7080597111787561,frozen_extension_results.json,"leave_group_out[spec=C,type=project].theta (max)"
+Table S3,A_EU,n,840,frozen_extension_results.json,"project_points[spec=A,project=EU].n"
+Table S3,A_EU,residual_df,764,frozen_extension_results.json,"project_points[spec=A,project=EU].residual_df"
+Table S3,A_EU,theta,0.6898218744279514,frozen_extension_results.json,"project_points[spec=A,project=EU].theta"
+Table S3,A_EU,theta_CI_low,0.6282776607252343,frozen_extension_results.json,project_intervals.A_EU.theta_CI[0]
+Table S3,A_EU,theta_CI_high,0.7584619796519824,frozen_extension_results.json,project_intervals.A_EU.theta_CI[1]
+Table S3,A_DE,n,275,frozen_extension_results.json,"project_points[spec=A,project=DE].n"
+Table S3,A_DE,residual_df,198,frozen_extension_results.json,"project_points[spec=A,project=DE].residual_df"
+Table S3,A_DE,theta,0.5618888440069785,frozen_extension_results.json,"project_points[spec=A,project=DE].theta"
+Table S3,A_DE,theta_CI_low,0.45671297141817263,frozen_extension_results.json,project_intervals.A_DE.theta_CI[0]
+Table S3,A_DE,theta_CI_high,0.6808119761023428,frozen_extension_results.json,project_intervals.A_DE.theta_CI[1]
+Table S3,A_PL,n,166,frozen_extension_results.json,"project_points[spec=A,project=PL].n"
+Table S3,A_PL,residual_df,90,frozen_extension_results.json,"project_points[spec=A,project=PL].residual_df"
+Table S3,A_PL,theta,0.8076470876704042,frozen_extension_results.json,"project_points[spec=A,project=PL].theta"
+Table S3,A_PL,theta_CI_low,0.694292876544797,frozen_extension_results.json,project_intervals.A_PL.theta_CI[0]
+Table S3,A_PL,theta_CI_high,0.8827758947499519,frozen_extension_results.json,project_intervals.A_PL.theta_CI[1]
+Table S3,C_EU,n,840,frozen_extension_results.json,"project_points[spec=C,project=EU].n"
+Table S3,C_EU,residual_df,764,frozen_extension_results.json,"project_points[spec=C,project=EU].residual_df"
+Table S3,C_EU,theta,0.6838934512639199,frozen_extension_results.json,"project_points[spec=C,project=EU].theta"
+Table S3,C_EU,theta_CI_low,0.6159495978603078,frozen_extension_results.json,project_intervals.C_EU.theta_CI[0]
+Table S3,C_EU,theta_CI_high,0.7586828219878138,frozen_extension_results.json,project_intervals.C_EU.theta_CI[1]
+Table S3,C_DE,n,275,frozen_extension_results.json,"project_points[spec=C,project=DE].n"
+Table S3,C_DE,residual_df,198,frozen_extension_results.json,"project_points[spec=C,project=DE].residual_df"
+Table S3,C_DE,theta,0.5688525577083207,frozen_extension_results.json,"project_points[spec=C,project=DE].theta"
+Table S3,C_DE,theta_CI_low,0.46788128660841954,frozen_extension_results.json,project_intervals.C_DE.theta_CI[0]
+Table S3,C_DE,theta_CI_high,0.68700732427149,frozen_extension_results.json,project_intervals.C_DE.theta_CI[1]
+Table S3,C_PL,n,166,frozen_extension_results.json,"project_points[spec=C,project=PL].n"
+Table S3,C_PL,residual_df,90,frozen_extension_results.json,"project_points[spec=C,project=PL].residual_df"
+Table S3,C_PL,theta,0.8138048712909932,frozen_extension_results.json,"project_points[spec=C,project=PL].theta"
+Table S3,C_PL,theta_CI_low,0.7005345216419079,frozen_extension_results.json,project_intervals.C_PL.theta_CI[0]
+Table S3,C_PL,theta_CI_high,0.8850146569566236,frozen_extension_results.json,project_intervals.C_PL.theta_CI[1]

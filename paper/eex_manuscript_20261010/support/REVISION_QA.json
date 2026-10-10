@@ -1,0 +1,98 @@
+{
+  "revision": "v2",
+  "date": "2026-10-10",
+  "new_statistical_fits": 0,
+  "frozen_inputs": [
+    {
+      "file": "frozen_baseline_results.json",
+      "sha256": "7460fa27bb81837377d4af1d24afe341085df05487b93f93f4b83f11ee5bbe96",
+      "unchanged": true
+    },
+    {
+      "file": "frozen_extension_results.json",
+      "sha256": "704ff4739116fcb1546bb3fba4e663b5b6d6bfd477ba2c675511e3e09dfb670c",
+      "unchanged": true
+    },
+    {
+      "file": "frozen_sample_summary.json",
+      "sha256": "1aec3affd74e7e3601ab7533d0db6bdc79f1cd05b256b73c433afa93e80e505a",
+      "unchanged": true
+    }
+  ],
+  "table_checks": [
+    {
+      "v2_table_index": 1,
+      "v1_table_index": 1,
+      "numeric_tokens_unchanged": 34,
+      "B_duplicate_removed": false
+    },
+    {
+      "v2_table_index": 2,
+      "v1_table_index": 2,
+      "numeric_tokens_unchanged": 14,
+      "B_duplicate_removed": true
+    },
+    {
+      "v2_table_index": 3,
+      "v1_table_index": 4,
+      "numeric_tokens_unchanged": 29,
+      "B_duplicate_removed": false
+    },
+    {
+      "v2_table_index": 4,
+      "v1_table_index": 5,
+      "numeric_tokens_unchanged": 7,
+      "B_duplicate_removed": false
+    },
+    {
+      "v2_table_index": 5,
+      "v1_table_index": 3,
+      "numeric_tokens_unchanged": 20,
+      "B_duplicate_removed": false
+    },
+    {
+      "v2_table_index": 6,
+      "v1_table_index": 6,
+      "numeric_tokens_unchanged": 38,
+      "B_duplicate_removed": false
+    },
+    {
+      "v2_table_index": 7,
+      "v1_table_index": 7,
+      "numeric_tokens_unchanged": 19,
+      "B_duplicate_removed": false
+    },
+    {
+      "v2_table_index": 8,
+      "v1_table_index": 8,
+      "numeric_tokens_unchanged": 31,
+      "B_duplicate_removed": false
+    }
+  ],
+  "numeric_table_tokens_checked": 192,
+  "numeric_ledger_rows": 148,
+  "ledger_json_paths_resolved": 124,
+  "ledger_source_report_rows": 24,
+  "abstract_words": 193,
+  "keywords": 5,
+  "references": 11,
+  "display_equations_native_OMML": 7,
+  "physical_word_tables": 9,
+  "numbered_main_tables": 5,
+  "supplementary_tables": 3,
+  "figures": 2,
+  "word_pages": 15,
+  "visual_review": "All 15 final pages inspected; pages 1-4 also byte-compared to previously inspected identical render. Initial superscript-star rendering defect changed to explicitly implied notation; final pages clean.",
+  "remaining_submission_items": [
+    "human author information and actual declarations",
+    "data-access rights and journal-facing statement",
+    "CAS history/category/zone qualification not certified",
+    "contribution significance not guaranteed by editorial revisions"
+  ],
+  "rendering_scope": "LibreOffice preview; native Microsoft Word was not run",
+  "build_note": "First figure write failed due to folder permission, permission corrected and plots regenerated. No experimental computation was involved.",
+  "full_repository_audit": false,
+  "all_numeric_checks_passed": true,
+  "ledger_frozen_value_or_fixed_report_checks_passed": 148,
+  "ledger_unresolved": 0
+}
