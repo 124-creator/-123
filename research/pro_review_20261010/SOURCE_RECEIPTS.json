@@ -1,0 +1,95 @@
+{
+  "scope": "Local historical report identity; source originals absent, hashes not authenticity certification",
+  "records": [
+    {
+      "id": "carbon_single_direction_decision_20261010/DECISION.md",
+      "bytes": 7658,
+      "sha256": "8c025e47a030488ea13d1c1464de9e1f0951eb62d20476b1099f5f6e1cc23975",
+      "included_original": false
+    },
+    {
+      "id": "eex_local_pdf_review_20261010/REPORT.md",
+      "bytes": 14052,
+      "sha256": "0ed37ba3befc3d3729a175cb7008767df949b092c700d421ae296123bc73c92b",
+      "included_original": false
+    },
+    {
+      "id": "eex_research_note_20261010/NOTE_EN.md",
+      "bytes": 9504,
+      "sha256": "2f778743d61b0608d02b182ad7461eaa78a5b912c3960d06cbefbba1362dc6c7",
+      "included_original": false
+    },
+    {
+      "id": "eex_research_note_20261010/CHINESE_BRIEF.md",
+      "bytes": 4708,
+      "sha256": "5a6f213a2f0cbe62a1c5dd3f9753693ec52ff86e7eef3a5b02ddded28b214db1",
+      "included_original": false
+    },
+    {
+      "id": "gd_deadline_secondary_evidence_20261010/RUN_DECISION.json",
+      "bytes": 2919,
+      "sha256": "3749fa347b48b3847e1b8c7b90e4eb5f141fcbd9d24bc69e46d788b7aac53075",
+      "included_original": false
+    },
+    {
+      "id": "carbon_deadline_risk_feasibility_20261010/DECISION.md",
+      "bytes": 10164,
+      "sha256": "5ea66d2eabd4b9b166109cc8ee0e278572a5ec095c4e5c6bb374ad18892f726c",
+      "included_original": false
+    },
+    {
+      "id": "carbon_incremental_pilot_20261009/REPORT.md",
+      "bytes": 4131,
+      "sha256": "da0fcbc3fee287e0780e1e1fa1ede599ec6de5c6610441e8f32936d83c446f9a",
+      "included_original": false
+    },
+    {
+      "id": "carbon_incremental_pilot_review_20261009/REPORT.md",
+      "bytes": 5969,
+      "sha256": "e5d33df28fa50c31f37172dd7107932119ede5840f9c8e94d38aa7f5d1b354de",
+      "included_original": false
+    },
+    {
+      "id": "eex_auction_pilot_20261009/REPORT.md",
+      "bytes": 8250,
+      "sha256": "19e9d2f7fecc432b65912b08973727e6eee5b90f335508f532fc8ea7314f9b16",
+      "included_original": false
+    },
+    {
+      "id": "carbon_hubei_validation_20261009/REPORT.md",
+      "bytes": 869,
+      "sha256": "bf57b3a1ba39e5c72a03f7dbacce915d1d7e14b5e3dbd69c2209a2c7ac684988",
+      "included_original": false
+    },
+    {
+      "id": "carbon_multidata_strategy_20261009/DATA_USE_MATRIX.json",
+      "bytes": 69283,
+      "sha256": "cf176a4def8b455c4109f06bd48157d07a6d8b0a5ecf14db8c62f99f4e973199",
+      "included_original": false
+    },
+    {
+      "id": "eex_dispersion_local_literature_20261010/MATRIX.json",
+      "bytes": 2632,
+      "sha256": "b03f10863cd9c105ea9da86f8bb1b909376b8ac337c53f09d39e1813d54f762a",
+      "included_original": false
+    },
+    {
+      "id": "eex_local_pdf_review_20261010/review_manifest.json",
+      "bytes": 48932,
+      "sha256": "971d27f82d030b179f43de045cfc9445665da21d732ed09b7af6eedffde149df",
+      "included_original": false
+    },
+    {
+      "id": "eex_dispersion_independent_review_20261010/REPORT.md",
+      "bytes": 6302,
+      "sha256": "3e33ca22ab5e10b0fa04a188338ebadf7b0103858d085bb26c750e206116de3d",
+      "included_original": false
+    },
+    {
+      "id": "eex_dispersion_definition_20261010/REPORT.md",
+      "bytes": 6653,
+      "sha256": "8efd436fcef0a33b4b1e3cfcc9554cd1ddcdfd931ed3fdfd6f25b75476d31f82",
+      "included_original": false
+    }
+  ]
+}

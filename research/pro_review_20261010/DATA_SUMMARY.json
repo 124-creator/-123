@@ -1,0 +1,646 @@
+{
+  "as_of": "2026-10-10",
+  "scope": "historical local reports reviewed; no fresh source authentication or raw data republication",
+  "matrix_counts": {
+    "matrix_families": 29,
+    "established_path_families": 25,
+    "unresolved_category_placeholders": 4,
+    "historical_inventory_files_context_only": 12098,
+    "historical_inventory_tables_context_only": 4805
+  },
+  "families": [
+    {
+      "family_id": "GDEA",
+      "category": "carbon_pilot",
+      "identity": "广东GDEA收盘价；不视为全国CEA或均价",
+      "fields": {
+        "price": "website field endPrice labeled 收盘价(元); not assumed VWAP",
+        "volume": "exchangeRate is labeled 成交数量(吨) by live website despite misleading JSON property name",
+        "amount": "deal is labeled 成交金额(元), not the price",
+        "missing": {
+          "high": 34,
+          "low": 34,
+          "volume_tons": 5,
+          "amount_cny": 4,
+          "reported_message": 2524,
+          "amount_divided_by_volume_cny_per_ton_diagnostic": 17
+        }
+      },
+      "frequency": "reported daily observations, not certified session axis",
+      "coverage": {
+        "rows": 2839,
+        "date_min": "2013-12-19",
+        "date_max": "2026-09-30",
+        "reported_zero_volume_rows": 12
+      },
+      "source_grade": "official_snapshot_metadata",
+      "allowed_research_use": "frozen-snapshot descriptive/conditional retrospective analysis after target and calendar scope fixed",
+      "unknown": [
+        "12条报告零量不足以建立主无成交模型",
+        "9条消息与正数量冲突、5条缺数量；状态需日公告",
+        "履约/拍卖主源另代理检查，未纳入其未返回结论"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "CEA_COMPOSITE",
+      "category": "carbon_national",
+      "identity": "全国综合编制报价，非独立年度合约",
+      "fields": {
+        "price": "composite quotation",
+        "volume": null,
+        "amount": null,
+        "missing": {}
+      },
+      "frequency": "reported daily observations, not certified session axis",
+      "coverage": {
+        "rows": 1262,
+        "date_min": "2021-07-16",
+        "date_max": "2026-09-30",
+        "reported_zero_volume_rows": 26
+      },
+      "source_grade": "official_snapshot_metadata",
+      "allowed_research_use": "frozen-snapshot descriptive/conditional retrospective analysis after target and calendar scope fixed",
+      "unknown": [
+        "完整官方交易日历未认证；跨年官方日历预测仍暂停",
+        "挂牌报价量不等于全市场交易状态",
+        "年度可交易/可履约/结转有效范围需按生效日核对"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "CEA_19_20",
+      "category": "carbon_national",
+      "identity": "全国年度配额 cea_19_20",
+      "fields": {
+        "price": "individual vintage quotation",
+        "volume": null,
+        "amount": null,
+        "missing": {}
+      },
+      "frequency": "reported daily observations, not certified session axis",
+      "coverage": {
+        "rows": 1264,
+        "date_min": "2021-07-16",
+        "date_max": "2026-09-30",
+        "reported_zero_volume_rows": 479
+      },
+      "source_grade": "official_snapshot_metadata",
+      "allowed_research_use": "frozen-snapshot descriptive/conditional retrospective analysis after target and calendar scope fixed",
+      "unknown": [
+        "完整官方交易日历未认证；跨年官方日历预测仍暂停",
+        "挂牌报价量不等于全市场交易状态",
+        "年度可交易/可履约/结转有效范围需按生效日核对"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "CEA_21",
+      "category": "carbon_national",
+      "identity": "全国年度配额 cea_21",
+      "fields": {
+        "price": "individual vintage quotation",
+        "volume": null,
+        "amount": null,
+        "missing": {}
+      },
+      "frequency": "reported daily observations, not certified session axis",
+      "coverage": {
+        "rows": 750,
+        "date_min": "2023-08-28",
+        "date_max": "2026-09-30",
+        "reported_zero_volume_rows": 488
+      },
+      "source_grade": "official_snapshot_metadata",
+      "allowed_research_use": "frozen-snapshot descriptive/conditional retrospective analysis after target and calendar scope fixed",
+      "unknown": [
+        "完整官方交易日历未认证；跨年官方日历预测仍暂停",
+        "挂牌报价量不等于全市场交易状态",
+        "年度可交易/可履约/结转有效范围需按生效日核对"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "CEA_22",
+      "category": "carbon_national",
+      "identity": "全国年度配额 cea_22",
+      "fields": {
+        "price": "individual vintage quotation",
+        "volume": null,
+        "amount": null,
+        "missing": {}
+      },
+      "frequency": "reported daily observations, not certified session axis",
+      "coverage": {
+        "rows": 750,
+        "date_min": "2023-08-28",
+        "date_max": "2026-09-30",
+        "reported_zero_volume_rows": 344
+      },
+      "source_grade": "official_snapshot_metadata",
+      "allowed_research_use": "frozen-snapshot descriptive/conditional retrospective analysis after target and calendar scope fixed",
+      "unknown": [
+        "完整官方交易日历未认证；跨年官方日历预测仍暂停",
+        "挂牌报价量不等于全市场交易状态",
+        "年度可交易/可履约/结转有效范围需按生效日核对"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "CEA_23",
+      "category": "carbon_national",
+      "identity": "全国年度配额 cea_23",
+      "fields": {
+        "price": "individual vintage quotation",
+        "volume": null,
+        "amount": null,
+        "missing": {}
+      },
+      "frequency": "reported daily observations, not certified session axis",
+      "coverage": {
+        "rows": 471,
+        "date_min": "2024-10-28",
+        "date_max": "2026-09-30",
+        "reported_zero_volume_rows": 214
+      },
+      "source_grade": "official_snapshot_metadata",
+      "allowed_research_use": "frozen-snapshot descriptive/conditional retrospective analysis after target and calendar scope fixed",
+      "unknown": [
+        "完整官方交易日历未认证；跨年官方日历预测仍暂停",
+        "挂牌报价量不等于全市场交易状态",
+        "年度可交易/可履约/结转有效范围需按生效日核对"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "CEA_24",
+      "category": "carbon_national",
+      "identity": "全国年度配额 cea_24",
+      "fields": {
+        "price": "individual vintage quotation",
+        "volume": null,
+        "amount": null,
+        "missing": {}
+      },
+      "frequency": "reported daily observations, not certified session axis",
+      "coverage": {
+        "rows": 348,
+        "date_min": "2025-04-29",
+        "date_max": "2026-09-30",
+        "reported_zero_volume_rows": 172
+      },
+      "source_grade": "official_snapshot_metadata",
+      "allowed_research_use": "frozen-snapshot descriptive/conditional retrospective analysis after target and calendar scope fixed",
+      "unknown": [
+        "完整官方交易日历未认证；跨年官方日历预测仍暂停",
+        "挂牌报价量不等于全市场交易状态",
+        "年度可交易/可履约/结转有效范围需按生效日核对"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "CEA_25",
+      "category": "carbon_national",
+      "identity": "全国年度配额 cea_25",
+      "fields": {
+        "price": "individual vintage quotation",
+        "volume": null,
+        "amount": null,
+        "missing": {}
+      },
+      "frequency": "reported daily observations, not certified session axis",
+      "coverage": {
+        "rows": 181,
+        "date_min": "2026-01-05",
+        "date_max": "2026-09-30",
+        "reported_zero_volume_rows": 15
+      },
+      "source_grade": "official_snapshot_metadata",
+      "allowed_research_use": "frozen-snapshot descriptive/conditional retrospective analysis after target and calendar scope fixed",
+      "unknown": [
+        "完整官方交易日历未认证；跨年官方日历预测仍暂停",
+        "挂牌报价量不等于全市场交易状态",
+        "年度可交易/可履约/结转有效范围需按生效日核对"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "HBEA",
+      "category": "carbon_pilot",
+      "identity": "湖北HBEA网页最新价，不自动等于收盘价",
+      "fields": {
+        "price": "source header 最新, not independently certified as settlement or daily VWAP",
+        "volume": null,
+        "amount": null,
+        "missing": {
+          "high": 21,
+          "low": 21,
+          "volume_reported": 3,
+          "amount_reported": 3,
+          "previous_close": 2
+        }
+      },
+      "frequency": "reported daily observations, not certified session axis",
+      "coverage": {
+        "rows": 2242,
+        "date_min": "2017-04-05",
+        "date_max": "2026-09-30",
+        "reported_zero_volume_rows": 18
+      },
+      "source_grade": "official_snapshot_metadata",
+      "allowed_research_use": "frozen-snapshot descriptive/conditional retrospective analysis after target and calendar scope fixed",
+      "unknown": [
+        "最新价定义、单位、交易渠道未闭合",
+        "225页快照包路径本次未确认；列出page1不等于全部页"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "brent_eia_daily",
+      "category": "energy",
+      "identity": "Europe Brent Spot Price FOB (Dollars per Barrel)",
+      "fields": null,
+      "frequency": "daily",
+      "coverage": {
+        "rows": 9097,
+        "date_min": "1987-05-20",
+        "date_max": "2026-09-29"
+      },
+      "source_grade": "official_source_export_or_original_index_workbook",
+      "allowed_research_use": "retrospective controls with explicit lag/release sensitivity; not certified real-time",
+      "unknown": [
+        "逐期首次发布时间/修订版本未认证"
+      ],
+      "license": "EIA public domain attribution per existing DATA_LICENSES.md",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "wti_eia_daily",
+      "category": "energy",
+      "identity": "Cushing, OK WTI Spot Price FOB (Dollars per Barrel)",
+      "fields": null,
+      "frequency": "daily",
+      "coverage": {
+        "rows": 9512,
+        "date_min": "1986-01-02",
+        "date_max": "2026-09-29"
+      },
+      "source_grade": "official_source_export_or_original_index_workbook",
+      "allowed_research_use": "retrospective controls with explicit lag/release sensitivity; not certified real-time",
+      "unknown": [
+        "逐期首次发布时间/修订版本未认证"
+      ],
+      "license": "EIA public domain attribution per existing DATA_LICENSES.md",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "henryhub_eia_daily",
+      "category": "energy",
+      "identity": "Henry Hub Natural Gas Spot Price (Dollars per Million Btu)",
+      "fields": null,
+      "frequency": "daily",
+      "coverage": {
+        "rows": 5698,
+        "date_min": "1997-01-07",
+        "date_max": "2026-09-29"
+      },
+      "source_grade": "official_source_export_or_original_index_workbook",
+      "allowed_research_use": "retrospective controls with explicit lag/release sensitivity; not certified real-time",
+      "unknown": [
+        "逐期首次发布时间/修订版本未认证"
+      ],
+      "license": "EIA public domain attribution per existing DATA_LICENSES.md",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "china_mainland_epu",
+      "category": "policy_index",
+      "identity": "china_mainland_epu",
+      "fields": null,
+      "frequency": "monthly",
+      "coverage": {
+        "rows": 923,
+        "date_min": "1949-10-01",
+        "date_max": "2026-08-01"
+      },
+      "source_grade": "official_source_export_or_original_index_workbook",
+      "allowed_research_use": "retrospective controls with explicit lag/release sensitivity; not certified real-time",
+      "unknown": [
+        "逐期首次发布时间/修订版本未认证"
+      ],
+      "license": "EPU/TPU attribution-use statement in DATA_LICENSES.md",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "china_mainland_tpu",
+      "category": "policy_index",
+      "identity": "china_mainland_tpu",
+      "fields": null,
+      "frequency": "monthly",
+      "coverage": {
+        "rows": 320,
+        "date_min": "2000-01-01",
+        "date_max": "2026-08-01"
+      },
+      "source_grade": "official_source_export_or_original_index_workbook",
+      "allowed_research_use": "retrospective controls with explicit lag/release sensitivity; not certified real-time",
+      "unknown": [
+        "逐期首次发布时间/修订版本未认证"
+      ],
+      "license": "EPU/TPU attribution-use statement in DATA_LICENSES.md",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "author_wang_eu_futures",
+      "category": "carbon_author",
+      "identity": "author_wang_eu_futures",
+      "fields": null,
+      "frequency": "author-described daily",
+      "coverage": {
+        "rows": 2059,
+        "date_min": "2010-12-13",
+        "date_max": "2018-12-27"
+      },
+      "source_grade": "author_published_market_prices_not_independently_authenticated",
+      "allowed_research_use": "author descriptive/reference only pending contract authentication",
+      "unknown": [
+        "逐期首次发布时间/修订版本未认证",
+        "供应商、现货/期货、合约、roll、币种单位未认证；名字非认证"
+      ],
+      "license": "CC BY-NC 3.0",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "EEX_PRIMARY_AUCTIONS",
+      "category": "auction",
+      "identity": "EEX官方一级排放配额拍卖年报；不能替代EUA二级连续期货",
+      "fields": null,
+      "frequency": "auction event (within-year fields unverified this task)",
+      "coverage": {
+        "file_year_min": 2012,
+        "file_year_max": 2025,
+        "annual_files": 14,
+        "all_prior_byte_matches": true
+      },
+      "source_grade": "official_original_prior_byte_receipts",
+      "allowed_research_use": "auction supply/demand descriptive or conditional event study after product-level schema audit",
+      "unknown": [
+        "逐年EUA/EUAA、平台/国家、清算价/数量/竞标字段未本轮认证",
+        "拍卖内生性；宣布/实施/结果时刻区别",
+        "14个年度不是14个独立市场或可直接拼接样本"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "EEX_CALENDAR_2026",
+      "category": "auction_calendar",
+      "identity": "2026拍卖日历当前版与历史版；非全国交易日历",
+      "fields": null,
+      "frequency": "schedule/version event",
+      "coverage": {
+        "calendar_year": 2026,
+        "archive_members_recorded": 15
+      },
+      "source_grade": "official_download_manifest",
+      "allowed_research_use": "version-aware 2026 planned supply only after publication-time and product audit",
+      "unknown": [
+        "2012—2025计划日历未在该记录认证",
+        "2026计划不能充当2012—2025历史事前供给"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "SZA_2016_AUTHOR",
+      "category": "carbon_author",
+      "identity": "Shenzhen-SZA-2016.xlsx",
+      "fields": {
+        "sheets_recorded": [
+          {
+            "sheet": "Sheet1",
+            "rows_including_header": 807,
+            "columns": 15
+          }
+        ]
+      },
+      "frequency": null,
+      "coverage": null,
+      "source_grade": "author_download_identity_only",
+      "allowed_research_use": "source lead/reference; no independent market sample certification",
+      "unknown": [
+        "合同/日期覆盖/来源/上游再发布权待认证"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "R10_UNDATED_MARKET_PACKAGE",
+      "category": "carbon_author",
+      "identity": "Code and data.rar",
+      "fields": {
+        "sheets_recorded": null
+      },
+      "frequency": null,
+      "coverage": null,
+      "source_grade": "author_download_identity_only",
+      "allowed_research_use": "source lead/reference; no independent market sample certification",
+      "unknown": [
+        "合同/日期覆盖/来源/上游再发布权待认证",
+        "市场表无日期列；不能对齐外生资料"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "EUA_ANCILLARY_AUTHOR",
+      "category": "carbon_author",
+      "identity": "EUA_data.xlsx",
+      "fields": {
+        "sheets_recorded": [
+          {
+            "sheet": "Sheet1",
+            "rows_including_header": 4104,
+            "columns": 20
+          }
+        ]
+      },
+      "frequency": null,
+      "coverage": null,
+      "source_grade": "author_download_identity_only",
+      "allowed_research_use": "source lead/reference; no independent market sample certification",
+      "unknown": [
+        "合同/日期覆盖/来源/上游再发布权待认证"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "COAL_VENDOR",
+      "category": "energy",
+      "identity": "Newcastle Coal Futures",
+      "fields": null,
+      "frequency": null,
+      "coverage": null,
+      "source_grade": "inventory_filename_only",
+      "allowed_research_use": "do not use until supplier/contract/field/date/license authenticated",
+      "unknown": [
+        "字段、频率、覆盖、实际来源及许可未知",
+        "现有衍生表不能认证原源"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "CSI300_VENDOR",
+      "category": "macro_financial",
+      "identity": "Shanghai Shenzhen CSI",
+      "fields": null,
+      "frequency": null,
+      "coverage": null,
+      "source_grade": "inventory_filename_only",
+      "allowed_research_use": "do not use until supplier/contract/field/date/license authenticated",
+      "unknown": [
+        "字段、频率、覆盖、实际来源及许可未知",
+        "现有衍生表不能认证原源"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "FX_VENDOR",
+      "category": "fx",
+      "identity": "美元兑人民币汇率",
+      "fields": null,
+      "frequency": null,
+      "coverage": null,
+      "source_grade": "inventory_filename_only",
+      "allowed_research_use": "do not use until supplier/contract/field/date/license authenticated",
+      "unknown": [
+        "字段、频率、覆盖、实际来源及许可未知",
+        "现有衍生表不能认证原源"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "EUA_VENDOR",
+      "category": "carbon_vendor",
+      "identity": "Carbon Emissions Futures",
+      "fields": null,
+      "frequency": null,
+      "coverage": null,
+      "source_grade": "inventory_filename_only",
+      "allowed_research_use": "do not use until supplier/contract/field/date/license authenticated",
+      "unknown": [
+        "字段、频率、覆盖、实际来源及许可未知",
+        "现有衍生表不能认证原源"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "POWER_TTF",
+      "category": "unresolved_required_family",
+      "identity": "电力/欧洲TTF明确产品原表",
+      "fields": null,
+      "frequency": null,
+      "coverage": null,
+      "source_grade": "not_established_in_reviewed_evidence",
+      "allowed_research_use": "not included; existence not established does not mean globally absent",
+      "unknown": [
+        "精确原件路径null；未认证字段/频率/时间覆盖/许可",
+        "未全盘重扫"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "COMPLIANCE_DEMAND",
+      "category": "unresolved_required_family",
+      "identity": "企业真实履约需求/执行成本",
+      "fields": null,
+      "frequency": null,
+      "coverage": null,
+      "source_grade": "not_established_in_reviewed_evidence",
+      "allowed_research_use": "not included; existence not established does not mean globally absent",
+      "unknown": [
+        "精确原件路径null；未认证字段/频率/时间覆盖/许可",
+        "未全盘重扫"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "OTHER_PILOTS",
+      "category": "unresolved_required_family",
+      "identity": "上海/北京/天津/重庆等其他试点原件",
+      "fields": null,
+      "frequency": null,
+      "coverage": null,
+      "source_grade": "not_established_in_reviewed_evidence",
+      "allowed_research_use": "not included; existence not established does not mean globally absent",
+      "unknown": [
+        "精确原件路径null；未认证字段/频率/时间覆盖/许可",
+        "未全盘重扫"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "GD_POLICY_AUCTION",
+      "category": "unresolved_required_family",
+      "identity": "广东履约/拍卖完整主源事件表",
+      "fields": null,
+      "frequency": null,
+      "coverage": null,
+      "source_grade": "not_established_in_reviewed_evidence",
+      "allowed_research_use": "not included; existence not established does not mean globally absent",
+      "unknown": [
+        "精确原件路径null；未认证字段/频率/时间覆盖/许可",
+        "其他代理结果尚未返回"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    },
+    {
+      "family_id": "NATIONAL_RULE_DOCUMENTS",
+      "category": "policy_document",
+      "identity": "全国综合编制方案/年度配额上线公告",
+      "fields": null,
+      "frequency": "announcement/effective-date events",
+      "coverage": {
+        "download_keys": [
+          "cea_definition_2023",
+          "cea_definition_2026",
+          "cea_launch_2023",
+          "cea_definition_2024",
+          "cea_launch_2025"
+        ]
+      },
+      "source_grade": "official_download_receipts",
+      "allowed_research_use": "define targets/regimes, not assume exogenous surprise",
+      "unknown": [
+        "正文本轮未重新全文核对；完整可交易/履约/结转表仍缺",
+        "规则重建精确一致是数据核对，不是预测创新"
+      ],
+      "license": "unknown_do_not_republish",
+      "certification_scope": "existing metadata reviewed; original values not reparsed; existence checked only"
+    }
+  ],
+  "updates": {
+    "HBEA": "Later local validation verified 225-page byte receipts; latest-price semantics, units and channel unresolved; fits=0",
+    "GDEA": "2839 unique dates; 2819 20-row-lookback origins; 1575 exact five-calendar-day endpoints are availability diagnostics, not complete issuance or supervised eligibility",
+    "EEX": "14 annual originals 2012–2025; 22 sheets; 2844 dated events. EUA EU1829/DE647/PL263; EUAA EU60/DE12/PL10 distinct. 2817 cover ratios consistent B/V within reporting tolerance, 27 missing in 2012. Successful EUA EU/DE/PL 2020–2025 candidate=1281, 72 months; required fields complete; SD populations and ddof unknown. Means B/N and V/S numerically consistent, not semantic certification",
+    "deadline": "2023 publication 2024-06-06, deadline 2024-07-31; 2024 publication 2025-03-21, deadline 2025-07-20. Date-only NEAR/FAR 27/15 and25/59; not matured supervised-pair counts. 2020–2022 authenticated cycles=0."
+  }
+}

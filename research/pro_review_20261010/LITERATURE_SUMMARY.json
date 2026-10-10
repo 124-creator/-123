@@ -1,0 +1,120 @@
+{
+  "scope": "Inherited local evidence with explicit access layers; no new web search in publication task",
+  "inventory": {
+    "physical_pdfs": 232,
+    "unique_byte_files": 128,
+    "byte_duplicates": 104,
+    "parse_errors": 0,
+    "warning": "Extraction is not close reading; byte identity is not paper identity; two Bisiotis packages share DOI"
+  },
+  "targeted_local_fulltexts": [
+    {
+      "title": "Forecasting Carbon Prices: A Literature Review",
+      "doi": "10.1002/for.70054",
+      "sha256": "e6fae4bc7c5ac2f1b415fc135e2485b3bcc74773a9acbc9dd4447eae9d5d8342",
+      "page_count": 34,
+      "evidence_level": "local published full text; targeted close reading of main-text problem/data/method/results/limitations; not independent replication",
+      "direct_auction_neighbor": false,
+      "evidence_pages_1based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        23,
+        24,
+        25,
+        26
+      ],
+      "publication_identity_basis": "internal title/journal/DOI text, not filename"
+    },
+    {
+      "title": "Model-driven multimodal LSTM-CNN for unbiased structural forecasting of European Union allowances open-high-low-close price",
+      "doi": "10.1016/j.eneco.2024.107459",
+      "sha256": "3105d164e15685ad58e4f982ef2842badd56b3b602c4bbd66ca3ae054e9e3fc2",
+      "page_count": 19,
+      "evidence_level": "local published full text; targeted close reading of main-text problem/data/method/results/limitations; not independent replication",
+      "direct_auction_neighbor": false,
+      "evidence_pages_1based": [
+        1,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "publication_identity_basis": "internal title/journal/DOI text, not filename"
+    },
+    {
+      "title": "Systematic review and meta-analysis of ex-post evaluations on the effectiveness of carbon pricing",
+      "doi": "10.1038/s41467-024-48512-w",
+      "sha256": "07de20c699c435e645d587ccdc222b1eb024cf11c0a7d7c0fcf37dee7261fe48",
+      "page_count": 12,
+      "evidence_level": "local published full text; targeted close reading of main-text problem/data/method/results/limitations; not independent replication",
+      "direct_auction_neighbor": false,
+      "evidence_pages_1based": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        9,
+        10
+      ],
+      "publication_identity_basis": "internal title/journal/DOI text, not filename"
+    }
+  ],
+  "other_records": [
+    {
+      "title": "Do Carbon Price Forecasts Improve Compliance Procurement? Evidence from European Union Allowances",
+      "doi": null,
+      "scope": "Local arXiv preprint, July2026 first-page identity; only physical pages2–4 targeted for decision; publication status unverified"
+    },
+    {
+      "title": "Carbon Price Forecasting with Quantile Regression and Feature Selection",
+      "authors": "Pang, Tan, Fan",
+      "doi": null,
+      "scope": "Local 9-page text identity; §§3,4.7 targeted; publication identity not newly publisher-verified; Guangdong quantiles .25/.5/.75, not certified deadline 90% coverage"
+    },
+    {
+      "title": null,
+      "doi": "10.1002/for.70059",
+      "scope": "Local Sha et al. 13-page text; exact title not extracted in reviewed decision, leave unknown; §§3.3,4.1,4.2 targeted; Hubei high/low interval-valued price, not nominal90% risk interval"
+    }
+  ],
+  "nearest_neighbor_leads": [
+    {
+      "source": "10.1007/s10018-022-00344-y",
+      "title_as_cached": "Trade, equilibrium prices and rents in European auctions for emission allowances",
+      "scope": "historical primary-publisher search excerpt only; no direct local full text found",
+      "covered": "excerpt mentions cover ratio and bidders; not full-text verification",
+      "unknown": "participation, bid surplus, submissionCV, allocatedCV and conditional allocation-quantity dispersion coverage unknown",
+      "possible_difference": "proposed conditional dispersion estimand only; unverified novelty"
+    },
+    {
+      "source": "Determinants of the bid-to-cover ratio in Eurozone sovereign debt auctions",
+      "title_as_cached": null,
+      "scope": "historical UvA search excerpts only, not downloaded PDF",
+      "covered": "excerpt discusses bid-to-cover determinants, supply and primary dealers; sovereign debt rather than EUA",
+      "unknown": "full-text measurement and transfer to EUA allocation dispersion not verified",
+      "possible_difference": "asset/estimand distinction is not proof of novelty"
+    },
+    {
+      "source": "arXiv:2402.04828v3",
+      "title_as_cached": "Forecasting the Price of Carbon with Macroeconomic and Financial variables",
+      "scope": "existing full-length text derivative; identity/license lines 59–85; targeted actual reading lines 140–284; no complete methodological reading claimed; original HTML absent",
+      "covered": "monthly futures-price forecasting uses auction cover ratio, clearing price and monthly auction-price range as predictors; predictor/sample scope actually read",
+      "unknown": "direct auction bidder-level submissionCV/allocatedCV coverage not established; price range is not quantity dispersion",
+      "possible_difference": "auction-level conditional quantity dispersion versus monthly price forecasting; does not clear closest-prior gate"
+    }
+  ],
+  "unresolved_risk_leads": "IQTN MDPI14/7/734; RePEc conformal; ScienceDirect interval: unverified clues only, no certified title/full text or innovation gap. Retracted URLs excluded.",
+  "novelty": "UNKNOWN; no claim of first study or exhausted literature"
+}

@@ -1,0 +1,104 @@
+{
+  "evidence_scope": "New independent local explorations and audit reports only; summarized here, not rerun by publishing agent. Old model outputs untrusted and excluded.",
+  "guangdong": {
+    "fits_per_execution": 32,
+    "candidate_fits": 24,
+    "final_fits": 8,
+    "test_n": 563,
+    "train_n": 1690,
+    "validation_n": 563,
+    "final_matured_refit_n": 2254,
+    "return_rmse": {
+      "RW": 0.03898832636248841,
+      "own_ridge": 0.03864326850560045,
+      "both_ridge": 0.03858512484502482,
+      "GB_groups_machine_precision_equal": 0.03828795501772495
+    },
+    "external_ridge_rmse_gain_pct": 0.1504625846,
+    "target_year_gain_pct": {
+      "2024": 0.2582767,
+      "2025": 0.1451857,
+      "2026": -0.368929
+    },
+    "external_GB_splits": 0,
+    "maximum_group_prediction_difference": 6.938893903907228e-18,
+    "limitations": [
+      "All fitted models return MAE worse than RW",
+      "No confidence interval or significance claim",
+      "Energy origin minus2 calendar days and monthly May uses February are explicit availability assumptions, not real-time release certification",
+      "Historical snapshot and inspected test; exploratory"
+    ]
+  },
+  "eex_cover": {
+    "origins": 2679,
+    "positive_scoreable": 2674,
+    "train_validation_test": [
+      1604,
+      534,
+      536
+    ],
+    "test_log_rmse": {
+      "rolling20": 0.13345,
+      "own_GB": 0.119685,
+      "cross_GB": 0.126158
+    },
+    "full_years": {
+      "2024": {
+        "own_GB": 0.103179,
+        "rolling20": 0.100045
+      },
+      "2025": {
+        "own_GB": 0.109974,
+        "rolling20": 0.107711
+      }
+    },
+    "verdict": "No stable cross-venue or full-year gain; positive-outcome regression excludes cancellation target; not latent demand"
+  },
+  "eex_reported_dispersion": {
+    "n": 1281,
+    "months": 72,
+    "x": "log1p(reported bid SD / reported bid mean)",
+    "y": "log1p(reported won SD / reported won mean)",
+    "controls": [
+      "log cover ratio",
+      "log auction volume",
+      "log bidders N",
+      "log successful bidders S",
+      "venue FE",
+      "calendar year-month FE"
+    ],
+    "beta": 0.8802314833922176,
+    "three_month_block_percentile_95_interval": [
+      0.749468029215353,
+      1.0149162564734016
+    ],
+    "main_draws": 999,
+    "total_independently_reproduced_draw_fits": 2591,
+    "period_betas": [
+      0.6727741692090593,
+      1.1824704728062292
+    ],
+    "numerical_review": "VALID final specification",
+    "initial_freeze_history": "PARTIAL",
+    "limits": [
+      "reported-field association only; not verified same-population CV",
+      "unknown population and ddof",
+      "no period coefficient-difference test",
+      "successful-auction selection and contemporaneous controls",
+      "high DE/PL condition numbers; PL residual df90",
+      "residual variation proves estimability, not elimination of mechanical relationships",
+      "not causal, fairness, HHI, concentration, market power or savings"
+    ]
+  },
+  "hubei": {
+    "fits": 0,
+    "scores": null,
+    "status": "BLOCKED target semantics"
+  },
+  "deadline": {
+    "fits": 0,
+    "group_outcomes_inspected": false,
+    "2020_2022_authenticated_cycles": 0,
+    "status": "BLOCKED; two-cycle descriptive fallback is a proposal, not executed result"
+  }
+}
