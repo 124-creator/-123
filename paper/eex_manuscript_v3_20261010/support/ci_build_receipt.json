@@ -1,0 +1,51 @@
+{
+  "scope": "document compilation only; no statistics fitted",
+  "source_commit": "ee12dbcf92287395319ae507dbc9adb1cd42720a",
+  "run_id": "38040347923",
+  "python": "3.12.3",
+  "pandoc": "pandoc 3.1.11.1",
+  "new_fits": 0,
+  "semantic_lock_passed": true,
+  "files": [
+    {
+      "path": "MANUSCRIPT_EN_v3.docx",
+      "bytes": 221642,
+      "sha256": "2b1387d304da470d34f73a744da8fd51d0eb1cd7a86f770b239cbe9a7e5367a1"
+    },
+    {
+      "path": "ONLINE_RESOURCE_1_v3.docx",
+      "bytes": 20247,
+      "sha256": "9dcb07341b2a17877938bc73b577a801c6ba616b52bbea889fa02a0dc87c6f2c"
+    },
+    {
+      "path": "figures/Fig1.eps",
+      "bytes": 27177,
+      "sha256": "2c6a5f2792be980d84aedfea997b91b96e7bb982492565def91957536fac8438"
+    },
+    {
+      "path": "figures/Fig1.png",
+      "bytes": 166993,
+      "sha256": "df7d9d12f7e0d3b46fef5b1ef465f078320e7e0ab830aa473c524e1e7fcb8591"
+    },
+    {
+      "path": "figures/Fig1.svg",
+      "bytes": 35958,
+      "sha256": "d0c37d1c524a9d8013aba08b8810e2431848311a2080616aec31629e027aa9c4"
+    },
+    {
+      "path": "figures/Fig2.eps",
+      "bytes": 21986,
+      "sha256": "95ccec84fbf162401be28afd8bff5e73b9294c943be4408ce70692c1819a5600"
+    },
+    {
+      "path": "figures/Fig2.png",
+      "bytes": 131030,
+      "sha256": "4d03b0b7c84d3bb5dc9afd4598999462576b0c6501de19a9719b0028d515ffeb"
+    },
+    {
+      "path": "figures/Fig2.svg",
+      "bytes": 27599,
+      "sha256": "f6bba98c9ef9c528a614944015de20fe44825405974b4669c3136bf233dd73fb"
+    }
+  ]
+}
