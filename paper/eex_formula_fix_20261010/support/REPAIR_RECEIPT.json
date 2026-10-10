@@ -1,0 +1,80 @@
+{
+  "base_commit": "8cc64c63803444334fc70c87e67965ca804f445d",
+  "scope": "OOXML repair and user-confirmed declarations only",
+  "new_fits": 0,
+  "new_resamples": 0,
+  "new_statistics": 0,
+  "funding": "none; explicitly confirmed by user",
+  "xiang_wang_review": "reviewed; explicitly confirmed by user",
+  "final_submission_authorization": "not inferred from review",
+  "user_application_and_version": "unknown; Microsoft Word/WPS native testing not performed",
+  "documents": {
+    "MANUSCRIPT_EN_v6.docx": {
+      "source_sha256": "231c49e22b1a6a996fa59ab0d2bd6bc7f6ca3738c1e0b6da215126086a79d7be",
+      "output_sha256": "c8ab33a6ad282f4239a66c1a0140e0de9b4e0170fb72d99259a848d13d162753",
+      "math_objects_before": 53,
+      "math_objects_after": 51,
+      "inline_math_repaired": 2,
+      "formula_changes": [
+        "inline-β-contrast-native-text-subscripts",
+        "inline-θ-contrast-native-text-subscripts",
+        "atomic-upright-script-label:partial"
+      ],
+      "declaration_changes": [
+        {
+          "old": "Funding: [Author confirmation required for this study; no funding or absence of funding has been inferred.]",
+          "new": "Funding: The authors received no financial support for this research."
+        },
+        {
+          "old": "Author-review status: Final declarations, data-access arrangements and approval by all authors are pending. This version is not for submission.",
+          "new": "Author-review status: Xiang Wang has reviewed the manuscript. Remaining author declarations and the final data-access arrangement are recorded separately."
+        }
+      ],
+      "unmodified_other_zip_parts": 18,
+      "mathematical_character_sequence_preserved": true,
+      "images_tables_styles_unchanged": true
+    },
+    "ONLINE_RESOURCE_1_v6.docx": {
+      "source_sha256": "2d61cf0f87df1c71bfb7236bc4c635696f41a40ed7e904915db77c9cdf8d4d07",
+      "output_sha256": "e0c4da5c1147d5e3a173c75fd79fa094203a6d501adfbc6fbe402e2e366e6670",
+      "math_objects_before": 58,
+      "math_objects_after": 58,
+      "inline_math_repaired": 0,
+      "formula_changes": [],
+      "declaration_changes": [
+        {
+          "old": "The numerical reimplementations use the same archive and are not independent-market replications. Fitting counts are execution bookkeeping, not sample sizes. The scope of the evidence is reported-field association conditional on successful auctions. Author order and the corresponding contact have been supplied for this revision. Funding, competing interests, actual contributions, AI-use disclosure and data permissions still require both authors’ confirmation before submission.",
+          "new": "The numerical reimplementations use the same archive and are not independent-market replications. Fitting counts are execution bookkeeping, not sample sizes. The scope of the evidence is reported-field association conditional on successful auctions. Author order and the corresponding contact have been supplied for this revision. The corresponding author has confirmed that the research received no financial support and that Xiang Wang has reviewed the manuscript. Competing interests, actual contributions, AI-use disclosure and data permissions remain separate author declarations."
+        }
+      ],
+      "unmodified_other_zip_parts": 15,
+      "mathematical_character_sequence_preserved": true,
+      "images_tables_styles_unchanged": true
+    },
+    "TITLE_PAGE_v6.docx": {
+      "source_sha256": "3b17a660c9ff2db42c31a3aa27a7cfb05addc59a46d52683354ebeedf7378c35",
+      "output_sha256": "1a72b118ed1a74386ba3cdab62cec2cc64038537287e894fc427bd1a62091192",
+      "math_objects_before": 0,
+      "math_objects_after": 0,
+      "inline_math_repaired": 0,
+      "formula_changes": [],
+      "declaration_changes": [
+        {
+          "old": "[Author confirmation required. Add full funding-body names and grant identifiers where applicable; otherwise use an accurate statement confirmed for this study.]",
+          "new": "The authors received no financial support for this research."
+        },
+        {
+          "old": "Final approval",
+          "new": "Review status"
+        },
+        {
+          "old": "[Both authors must approve the completed manuscript, references, declarations, AI-use disclosure and permissible data-access route before submission.]",
+          "new": "Xiang Wang has reviewed the manuscript. Remaining author declarations and the final data-access arrangement are recorded separately."
+        }
+      ],
+      "unmodified_other_zip_parts": 15,
+      "mathematical_character_sequence_preserved": true,
+      "images_tables_styles_unchanged": true
+    }
+  }
+}
