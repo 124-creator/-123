@@ -1,0 +1,154 @@
+{
+  "classification": "post-result finite resampling sensitivity; not exact coverage",
+  "source": {
+    "url": "https://public.eex-group.com/eex/eua-auction-report/emission-spot-primary-market-auction-report-2026-data.xlsx",
+    "retrieved_utc": "2026-10-10T14:12:19.030151+00:00",
+    "returncode": 0,
+    "stderr": "",
+    "attempts": 1,
+    "bytes": 72742,
+    "sha256": "54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d"
+  },
+  "fits": 2172,
+  "status": "COMPLETED_DIAGNOSTIC",
+  "n": 166,
+  "months": 9,
+  "dated_rows": 173,
+  "excluded": {
+    "outside_fixed_dates": 7
+  },
+  "points": {
+    "A": {
+      "beta": 1.313738191223664,
+      "theta": 0.8493631613240371,
+      "partial_R2": 0.7214177798143623,
+      "n_active": 166,
+      "residual_df": 150,
+      "ess": 166.0
+    },
+    "C": {
+      "beta": 1.2375080946428219,
+      "theta": 0.8350056427172541,
+      "partial_R2": 0.6972344233696546,
+      "n_active": 166,
+      "residual_df": 150,
+      "ess": 166.0
+    }
+  },
+  "schemes": {
+    "noncircular": {
+      "ordered_tuples": 343,
+      "distinct_month_weight_vectors": 84,
+      "expected_month_multiplicity": [
+        0.42857142857142855,
+        0.8571428571428571,
+        1.2857142857142858,
+        1.2857142857142858,
+        1.2857142857142858,
+        1.2857142857142858,
+        1.2857142857142858,
+        0.8571428571428571,
+        0.42857142857142855
+      ],
+      "statistics": {
+        "A": {
+          "valid": 343,
+          "theta_q025_median_q975": [
+            0.8094309045524453,
+            0.8676091629510579,
+            0.9148538318620242
+          ],
+          "beta_q025_median_q975": [
+            1.2945559616861266,
+            1.349108153709058,
+            1.4325581602682353
+          ]
+        },
+        "C": {
+          "valid": 343,
+          "theta_q025_median_q975": [
+            0.7757339571760845,
+            0.8600041278836963,
+            0.915649223877536
+          ],
+          "beta_q025_median_q975": [
+            1.2281021460104278,
+            1.2665675550923245,
+            1.3394346153578616
+          ]
+        }
+      }
+    },
+    "circular": {
+      "ordered_tuples": 729,
+      "distinct_month_weight_vectors": 163,
+      "expected_month_multiplicity": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "statistics": {
+        "A": {
+          "valid": 729,
+          "theta_q025_median_q975": [
+            0.80637314983404,
+            0.8517803529957491,
+            0.9047735944944377
+          ],
+          "beta_q025_median_q975": [
+            1.2283012194738951,
+            1.32505140349739,
+            1.4071070568079795
+          ]
+        },
+        "C": {
+          "valid": 729,
+          "theta_q025_median_q975": [
+            0.773132850082265,
+            0.8381460752775358,
+            0.9055465763223184
+          ],
+          "beta_q025_median_q975": [
+            1.1741909721714545,
+            1.2475248848751899,
+            1.320801454033355
+          ]
+        }
+      }
+    }
+  },
+  "leave_month_ranges": {
+    "A": {
+      "theta": [
+        0.8395627974095312,
+        0.8626424330489667
+      ],
+      "beta": [
+        1.2815660327348855,
+        1.3491221656313852
+      ]
+    },
+    "C": {
+      "theta": [
+        0.8230450080482384,
+        0.8569299253915329
+      ],
+      "beta": [
+        1.2132068455376417,
+        1.2670866054789867
+      ]
+    }
+  },
+  "failures": 0,
+  "independent_crosschecks": 8,
+  "max_crosscheck_difference": 4.596323321948148e-14,
+  "compute_seconds": 0.42213092300000454,
+  "prior_intervals_preserved": true,
+  "exact_coverage_claim": false
+}

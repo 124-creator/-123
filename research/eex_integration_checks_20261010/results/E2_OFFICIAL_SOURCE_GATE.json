@@ -1,0 +1,9 @@
+{
+  "url": "https://climate.ec.europa.eu/document/download/f3199005-4ca8-461b-9499-e5f3846ea4a5_en?filename=cap_report_202312_en.pdf&prefLang=et",
+  "retrieved_utc": "2026-10-10T14:12:19.940687+00:00",
+  "returncode": 22,
+  "stderr": "curl: (22) The requested URL returned error: 429\n",
+  "attempts": 1,
+  "price_regressions": 0,
+  "gate": "HOLD: no PDF bytes; no reference-price observations"
+}
