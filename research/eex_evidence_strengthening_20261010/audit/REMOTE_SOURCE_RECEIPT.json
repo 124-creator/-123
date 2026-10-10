@@ -1,0 +1,10 @@
+{
+  "compressed_sha256": "71d1705d4dc7432a6e687a10ed1d7f255f51d3a597c98797a479d463f1533738",
+  "files": {
+    "code/run_strengthening.py": "a90bc0b33a88219e489612748b92e756741f210842e660f74c52f09ec86c531b",
+    "code/run_newtime_2026.py": "d80d30074beb1bef48eca62350fe30e0b1aafe53e4cff026471052f01ee8b7f7",
+    "code/test_strengthening.py": "e048a1c20b940680a1afcb0da90223198f01b27599bdb3c66a373db94c49f90f",
+    "code/independent_crosscheck.py": "b1bc4b26e14b04e862831e23141c39f7cc56e5c558ab0de66ce116cf247b1c66"
+  },
+  "raw_data_included": false
+}
