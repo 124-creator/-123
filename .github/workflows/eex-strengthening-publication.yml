@@ -1,0 +1,71 @@
+name: EEX completed evidence publication only
+on:
+  push:
+    branches: [eex-evidence-strengthening-20261010]
+    paths:
+      - 'research/eex_evidence_strengthening_20261010/delivery_payload/**'
+      - '.github/workflows/eex-strengthening-publication.yml'
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      MPLBACKEND: Agg
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: eex-evidence-strengthening-20261010
+          fetch-depth: 1
+      - name: Restore already reviewed results and report text
+        run: python3 research/eex_evidence_strengthening_20261010/delivery_payload/materialize_delivery.py
+      - name: Draw completed results only
+        run: |
+          python3 -m venv /tmp/eex-publication-env
+          /tmp/eex-publication-env/bin/pip install --disable-pip-version-check numpy==2.3.5 matplotlib==3.10.8
+          /tmp/eex-publication-env/bin/python -B research/eex_evidence_strengthening_20261010/code/build_figures.py
+      - name: Check unchanged results and restricted publication scope
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,hashlib,os
+          root=Path('research/eex_evidence_strengthening_20261010')
+          receipt=json.loads((root/'audit/PUBLICATION_SOURCE_RECEIPT.json').read_text())
+          for name,digest in receipt['files'].items():
+              if hashlib.sha256((root/name).read_bytes()).hexdigest()!=digest: raise ValueError('Reviewed file altered: '+name)
+          if any(root.rglob('*.xlsx')) or any(root.rglob('*.xls')): raise ValueError('Raw workbook must not be published')
+          pngs=list((root/'figures').glob('*.png'));svgs=list((root/'figures').glob('*.svg'))
+          if len(pngs)!=3 or len(svgs)!=3: raise ValueError('Missing frozen-result figures')
+          receipt['workflow_source_commit']=os.environ['GITHUB_SHA']
+          receipt['reviewed_file_hashes_passed']=True
+          receipt['figures']={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in pngs+svgs}
+          receipt['raw_market_data_republished']=False
+          receipt['new_estimation_this_publication']=0
+          (root/'audit/PUBLICATION_BUILD_RECEIPT.json').write_text(json.dumps(receipt,indent=2))
+          print(json.dumps({'reviewed_files':len(receipt['files']),'figures':len(receipt['figures']),'new_fits':0}))
+          PY
+      - name: Commit only new evidence files without rewriting prior results
+        run: |
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git ls-remote origin refs/heads/eex-evidence-strengthening-20261010 | cut -f1)" = "$GITHUB_SHA"
+          find research/eex_evidence_strengthening_20261010 -type d -name __pycache__ -prune -exec rm -rf '{}' +
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- research/eex_evidence_strengthening_20261010
+          git commit -m 'research: publish completed composition results, limits and new-time synthesis'
+          git push origin HEAD:refs/heads/eex-evidence-strengthening-20261010
+      - name: Attach published results for readback
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: eex-completed-strengthening-publication
+          retention-days: 7
+          path: |
+            research/eex_evidence_strengthening_20261010/REPORT_ZH.md
+            research/eex_evidence_strengthening_20261010/SUPPLEMENTARY_RESULTS_EN.md
+            research/eex_evidence_strengthening_20261010/KEY_RESULTS.json
+            research/eex_evidence_strengthening_20261010/results/*.csv
+            research/eex_evidence_strengthening_20261010/figures/
+            research/eex_evidence_strengthening_20261010/audit/PUBLICATION_BUILD_RECEIPT.json
