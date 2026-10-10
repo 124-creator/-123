@@ -1,0 +1,58 @@
+name: EEX v8 final delivery verification
+on:
+  push:
+    branches: [eex-editorial-v8-20261010]
+    paths:
+      - 'paper/eex_manuscript_v8_20261010/tools/finalize_delivery.py'
+      - '.github/workflows/eex-v8-delivery-finish.yml'
+permissions:
+  contents: write
+jobs:
+  finish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: eex-editorial-v8-20261010
+          fetch-depth: 1
+      - name: Validate reviewed document bytes and restore Markdown title exports
+        run: |
+          python -B paper/eex_manuscript_v8_20261010/tools/finalize_delivery.py
+          python -B scripts/verify_repository.py > paper/eex_manuscript_v8_20261010/support/FINISH_FROZEN_MANIFEST_CHECK.json
+      - name: Commit only delivery metadata and title headings on the manuscript branch
+        run: |
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git ls-remote origin refs/heads/eex-editorial-v8-20261010 | cut -f1)" = "$GITHUB_SHA"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- paper/eex_manuscript_v8_20261010
+          if git diff --cached --name-only | grep -v '^paper/eex_manuscript_v8_20261010/'; then exit 1; fi
+          git diff --cached --check
+          git commit -m 'paper: finalize v8 readback receipt and restore online document titles'
+          git push origin HEAD:refs/heads/eex-editorial-v8-20261010
+      - name: Package the manuscript folder only, excluding transient caches
+        run: |
+          python - <<'PY'
+          import hashlib, json, zipfile
+          from pathlib import Path
+          root=Path('paper/eex_manuscript_v8_20261010')
+          files=sorted(p for p in root.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix not in ('.pyc','.pyo'))
+          out=Path('/tmp/EEX_MANUSCRIPT_V8_DELIVERY.zip')
+          with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:
+              for p in files:
+                  if p.suffix.lower() in ('.ttf','.otf','.woff','.woff2'): raise ValueError('Do not package fonts')
+                  z.write(p,arcname='EEX_manuscript_v8_20261010/'+str(p.relative_to(root)))
+          with zipfile.ZipFile(out) as z:
+              if z.testzip() is not None: raise ValueError('ZIP CRC')
+          manifest={'file_count':len(files),'scope':'Manuscript directory; not the complete raw-data or experiment archive','sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'files':{str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files}}
+          Path('/tmp/EEX_V8_DELIVERY_MANIFEST.json').write_text(json.dumps(manifest,indent=2))
+          print(json.dumps({'files':len(files),'sha256':manifest['sha256']}))
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: eex-v8-final-delivery
+          retention-days: 7
+          path: |
+            /tmp/EEX_MANUSCRIPT_V8_DELIVERY.zip
+            /tmp/EEX_V8_DELIVERY_MANIFEST.json
