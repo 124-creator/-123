@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-10",
+  "main_pages": 15,
+  "SI_pages": 10,
+  "title_pages": 1,
+  "all_pages_viewed": true,
+  "engine": "LibreOffice via docx skill renderer; PNG inspection",
+  "native_Word_WPS_test": false,
+  "observed_clipping_or_overlap": false,
+  "tables_and_repaired_inline_subscripts_reviewed": true,
+  "render_directories": "final2_main; final3_si; final2_title (internal only)",
+  "source_paragraph_target_error_corrected_before_delivery": true,
+  "source_versions_and_table_values_preserved": true,
+  "new_fits": 0,
+  "new_resamples": 0,
+  "new_descriptive_statistics": 0
+}

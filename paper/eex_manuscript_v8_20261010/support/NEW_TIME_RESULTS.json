@@ -1,0 +1,102 @@
+{
+  "retrieved_utc": "2026-10-10T13:33:15.536822+00:00",
+  "period": "2026-01-01 through 2026-09-30",
+  "classification": "new-time descriptive re-estimation, not untouched holdout or model forecast",
+  "raw_republished": false,
+  "fits": 2000,
+  "source_url": "https://public.eex-group.com/eex/eua-auction-report/emission-spot-primary-market-auction-report-2026-data.xlsx",
+  "input_sha256": "54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d",
+  "input_bytes": 72742,
+  "headers": {
+    "V": "Auction Volume tCO2",
+    "B": "Total Amount of Bids",
+    "bid_count": "Number of bids submitted",
+    "successful_bid_count": "Number of successful bids",
+    "mean_bids_per_bidder": "Average number of bids per bidder",
+    "mean_bid_size": "Average bid size",
+    "mu_B": "Average volume bid per bidder",
+    "sd_B": "Standard deviation of bid volume per bidder",
+    "mu_W": "Average volume won per bidder",
+    "sd_W": "Standard deviation of volume won per bidder",
+    "R": "Cover Ratio",
+    "N": "Total Number of Bidders",
+    "S": "Number of Successful Bidders"
+  },
+  "status": "COMPLETED_WITH_SHORT_TIME_AXIS_LIMITATION",
+  "dated_rows": 173,
+  "eligible_n": 166,
+  "earliest_source": "2026-01-07",
+  "latest_source": "2026-10-09",
+  "cutoff": "2026-09-30",
+  "first_eligible": "2026-01-07",
+  "last_eligible": "2026-09-30",
+  "exclusions": {
+    "outside_fixed_Jan_Sep_2026": 7
+  },
+  "product_counts": {
+    "T3PA": 173
+  },
+  "month_counts": {
+    "2026-01": 16,
+    "2026-02": 18,
+    "2026-03": 20,
+    "2026-04": 18,
+    "2026-05": 15,
+    "2026-06": 20,
+    "2026-07": 20,
+    "2026-08": 19,
+    "2026-09": 20
+  },
+  "series_counts": {
+    "PL": 20,
+    "EU": 111,
+    "DE": 35
+  },
+  "repeated_date_count": 0,
+  "points": {
+    "A": {
+      "beta": 1.313738191223664,
+      "theta": 0.849363161324037,
+      "partial_R2": 0.7214177798143621,
+      "n_active": 166,
+      "residual_df": 150,
+      "ess": 166.0
+    },
+    "C": {
+      "beta": 1.2375080946428219,
+      "theta": 0.8350056427172541,
+      "partial_R2": 0.6972344233696546,
+      "n_active": 166,
+      "residual_df": 150,
+      "ess": 166.0
+    }
+  },
+  "intervals": {
+    "A": {
+      "valid": 999,
+      "planned": 999,
+      "theta_CI95": [
+        0.8122732198941973,
+        0.9148538318620243
+      ],
+      "beta_CI95": [
+        1.3039861196803453,
+        1.4325581602682356
+      ]
+    },
+    "C": {
+      "valid": 999,
+      "planned": 999,
+      "theta_CI95": [
+        0.7832223631632538,
+        0.915649223877536
+      ],
+      "beta_CI95": [
+        1.2289807719451717,
+        1.3394346153578613
+      ]
+    }
+  },
+  "failed_draws": 0,
+  "inference_limit": "Only 9 months / 7 possible contiguous 3-month blocks; percentile intervals are fragile diagnostics, not confirmatory replication."
+}

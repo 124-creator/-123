@@ -1,0 +1,10 @@
+{
+  "scope": "document-only build and export",
+  "new_fits": 0,
+  "new_resamples": 0,
+  "docx": {
+    "MANUSCRIPT_EN_v8.docx": "15180678628a21a511b6f2ff49c91b1eb5bd89168129b522585ad20cc2452ee6",
+    "ONLINE_RESOURCE_1_v8.docx": "0b00a762b7b1b0ddf67d3711486c248a38a4005f4274b8366ff437e8591d66fe",
+    "TITLE_PAGE_v8.docx": "7daf9d090939235805a0c88a8e135872717877050eb61e6aae6db82b5000c335"
+  }
+}

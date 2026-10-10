@@ -1,0 +1,320 @@
+[
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 1,
+    "before": "Historical association and composition sensitivity, with a 2026 time extension",
+    "after": "Conditional association and composition sensitivity"
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 6,
+    "before": "Public carbon-auction reports describe participation and the dispersion of quantities bid and won. We examine the conditional relationship between two reported dispersion ratios in 1,281 successful European Union Allowance auctions during 2020–2025. Each ratio divides a reported standard deviation by its reported mean, without assuming matched bidder populations. Conditioning on auction volume, participant counts, demand coverage and calendar effects yields residual correlations of 0.650 and 0.649 under two transformations. Correlations rise from about 0.55 in 2020–2022 to 0.78 in 2023–2025, although both ratios have lower marginal medians in the later period. A supplementary overlap-weighted comparison balances selected composition means and second moments. The weighted correlation differences remain approximately 0.20, with exploratory 97.5% intervals above zero, but auction-volume distributions remain unbalanced. A separate January–September 2026 sample of 166 auctions gives correlations of 0.849 and 0.835. Exhaustive finite block-resampling and month-deletion diagnostics preserve the positive direction while exposing the limitations of a nine-month time axis. Together, the findings distinguish indicator levels, conditional co-variation and temporal scope. The weighting and new-time exercises strengthen a descriptive relationship, not an allocation mechanism or an operational forecasting result. Historical specification choices were exploratory; neither numerical replication nor the supplementary checks provide selection-adjusted inference or resolve the unknown statistical populations behind the reported standard deviations.",
+    "after": "Quantity statistics in carbon-auction reports describe both the scale of bidding and the dispersion of quantities bid and won. We examine the joint information in two reported dispersion ratios using 1,281 successful European Union Allowance auctions during 2020–2025. Each ratio is a reported standard deviation divided by its reported mean; their underlying bidder populations are not assumed to match. After controlling for auction volume, bidder counts, demand coverage, reporting series and year–month effects, residual correlations are 0.650 and 0.649 under two transformations. Correlations are about 0.55 in 2020–2022 and 0.78 in 2023–2025, despite lower marginal medians of both ratios in the later period. Descriptive overlap weighting balances selected composition means and second moments, with weighted correlation differences of 0.197 and 0.194. Auction-volume distributions nevertheless remain unequal, limiting the comparison to the selected moments. A separate January–September 2026 sample of 166 auctions also exhibits positive association; its nine-month record supports only limited temporal diagnostics. The findings show that dispersion levels, conditional co-variation and historical scope are distinct features of these published statistics. They provide a measurement-explicit empirical description rather than evidence of allocation effects or forecasting value. All uncertainty assessments remain exploratory and do not adjust for the historical specification search."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 10,
+    "before": "How unevenly quantities are bid and awarded is distinct from how much is bid in total. The European Commission publishes quantity moments alongside auction volume and participant counts, while the European Securities and Markets Authority (ESMA) monitors participation and concentration (European Commission 2024; ESMA 2025). These reporting dimensions need not move together. An auction can have similar total bids and participant counts to another auction while the distribution of reported quantities differs. Understanding their joint variation requires an explicit comparison of indicator levels, conditional association and historical scope.",
+    "after": "Carbon-auction reports contain information about how much is bid, how many participants bid, and how quantities are dispersed. These dimensions describe different aspects of a primary allowance market. The European Commission publishes quantity moments alongside auction volume and bidder counts, while the European Securities and Markets Authority (ESMA) monitors participation and concentration (European Commission 2024; ESMA 2025). Marginal summaries locate each indicator separately. A joint analysis asks whether reports with unusually dispersed bidding also have unusually dispersed awards after accounting for scale and participation, and whether the same relationship characterizes different periods."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 11,
+    "before": "Awards originate in submitted bids, making a positive link plausible but leaving its magnitude undetermined by totals and counts alone. Allocation and selection may produce a relationship even without an identifiable causal channel. Moreover, bid-side and award-side statistics can refer to different groups of participants. We therefore ask two descriptive questions: how closely do the reported dispersion measures co-vary after conditioning on scale and participation, and how much does that association differ between two historical periods?",
+    "after": "Awards originate in bids, so a positive relationship is plausible. Its magnitude is not fixed by auction totals and participant counts, however, and a lower level of dispersion need not imply a weaker relationship between bid-side and award-side measures. We ask two descriptive questions: how strong is their conditional association, and how much does it differ between the historical periods 2020–2022 and 2023–2025? Because the reported moments can refer to different groups, the object is a relationship between auction reports, not a before-and-after comparison of the same bidders."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 12,
+    "before": "We analyse 1,281 successful European Union Allowance (EUA) auctions in the EU, DE and PL reporting series of the European Energy Exchange (EEX) during 2020–2025. An observation is a completed auction report. The two indicators divide reported quantity standard deviations by their corresponding reported means. Regressions include auction volume, total and successful bidder counts, the cover ratio, and reporting-series and year–month effects. Alternative transformations use exactly the same observations. Reduced-control and deletion diagnostics assess specified sensitivities; the already explored periods 2020–2022 and 2023–2025 are compared using separately estimated nuisance coefficients.",
+    "after": "The main sample comprises 1,281 successful European Union Allowance (EUA) auctions in the EU, DE and PL reporting series of the European Energy Exchange (EEX). We relate the two reported standard-deviation-to-mean ratios using common samples, two transformations, and controls for scale, participation, reporting series and year–month. The historical comparison estimates all nuisance coefficients separately in each period. A supplementary overlap-weighted analysis examines sensitivity to selected observed composition moments; a separate 2026 sample examines whether the positive direction also appears outside the original years."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 13,
+    "before": "The historical archive has three distinct features: residual correlations are approximately 0.65 under either transformation; correlations are higher in 2023–2025 than in 2020–2022; and the later sample has lower marginal medians of both report ratios. Supplementary analyses assess the scope of the second finding. Overlap weighting retains a positive period difference after balancing selected composition moments, while a separate 2026 sample retains a positive association. The weighting exercise also leaves auction-volume distributions unequal, and the new-time sample contains only nine months. These qualifications accompany the additional evidence rather than being treated as failed checks to remove.",
+    "after": "The main finding combines levels and co-variation. Residual correlations are about 0.65 in the pooled sample and are higher in the later historical period, even though both report ratios have lower marginal medians. Weighted period differences remain about 0.20 after balancing selected composition moments. This does not establish full comparability: the auction-volume distributions remain unequal. The 2026 sample also has a positive relationship, but its nine-month span provides limited information about temporal uncertainty."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 14,
+    "before": "The contribution is a measurement-explicit account of the magnitude and historical scope of reported quantity co-variation. It complements price-focused auction analysis, including Bosco (2023), by examining the joint variation of quantity statistics already present in official reports. Composition weighting asks whether the period contrast persists under a specified change in the distribution of observed auction characteristics; the new-time exercise asks whether the positive relationship also appears outside the original years. Neither exercise establishes that the indicators improve a pricing, monitoring or procurement decision. The distinction between selected-moment balance and full-distribution balance is important to what can be concluded from the weighting result.",
+    "after": "The contribution is an auction-level characterization of shared quantity variation and its historical scope. Relative to price-focused auction analysis such as Bosco (2023), the outcome is reported quantity dispersion rather than price volatility. Relative to official marginal reporting, the analysis quantifies a conditional joint relationship and separates changes in indicator levels from changes in their association. The weighting and time-extension exercises qualify that description rather than identify a mechanism. We do not claim a new estimator, prior misuse of official statistics, or a demonstrated pricing or monitoring benefit."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 15,
+    "before": "The analysis is retrospective and exploratory: the historical archive and earlier findings were inspected before supplementary checks were specified. Section 2 introduces the institutional and measurement context; Section 3 defines the data and estimands; Section 4 reports the evidence. Sections 5 and 6 discuss interpretation and conclusions. Online Resource 1 contains the field dictionary, additional results and reproduction details.",
+    "after": "The historical data and earlier findings were examined before supplementary checks were specified. The study is therefore retrospective and exploratory. Section 2 introduces the market and measurement context; Section 3 defines the estimands and inferential limits; Section 4 presents the results. Sections 5 and 6 discuss their economic interpretation and scope. Online Resource 1 provides the field definitions, detailed diagnostics, study sequence and reproduction record."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 19,
+    "before": "Auctioning allowances can affect the distribution of rents and the allocation of permits, rather than only the observed clearing price (Cramton and Kerr 2002). Multi-unit auction theory also links bidding incentives and demand reduction to allocation outcomes (Ausubel et al. 2014). These considerations explain why quantity distributions are economically relevant. They do not turn our report-level regression into a test of strategic bidding: private valuations and participant-specific bid schedules are absent.",
+    "after": "Allowance auction design matters for rents and allocation as well as the clearing price (Cramton and Kerr 2002). Multi-unit auction theory links bidding incentives and demand reduction to allocation outcomes (Ausubel et al. 2014). These considerations motivate attention to quantity distributions. Our data contain public aggregate moments rather than valuations or participant-specific bid schedules, so they support a description of quantity co-variation, not a test of strategic demand reduction."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 20,
+    "before": "The empirical distinction is between auction-level quantities, their distributional summaries and the allocation mechanism. Our data observe the first two through public fields. They do not recover the private valuations or bid schedules required to identify the third.",
+    "after": "The available observations distinguish auction-level totals, reported distributional summaries and bidder-level mechanisms. The first two are observed; the third is not recovered by aggregate regressions."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 22,
+    "before": "Bosco (2023) provides a direct primary-market comparison, studying Phase III EUA auction prices and return volatility using a bidding model and GARCH specifications. Participation and the cover ratio enter that analysis; its bid spread is a price variable, not a quantity standard deviation. Niu and Liu (2024) instead forecast EUA futures volatility with macroeconomic information. Neither price variation over time nor a forecast issued before trading is the outcome examined here: our quantities and conditioning variables come from the same completed auction report.",
+    "after": "Bosco (2023) studies Phase III EUA primary-auction prices and return volatility using a bidding model and GARCH specifications, with participation and the cover ratio among the explanatory variables. Its bid spread is a price variable, not a quantity standard deviation. Niu and Liu (2024) forecast EUA futures volatility with macroeconomic information. Our analysis instead concerns two quantity summaries in the same completed auction. Neither a temporal price forecast nor a price-premium equation is estimated."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 23,
+    "before": "Official reporting is an equally important comparator. The Commission distinguishes individual-auction means from monthly aggregates and describes the bid and award means using participating and successful bidders, respectively (European Commission 2024). ESMA (2025) distinguishes participation indicators from concentration statistics and identifies different data sources. Quantity dispersion is therefore an established reporting dimension. Our empirical increment is a conditional comparison of the two reported measures and its temporal scope, not the construction of another conventional ratio or a claim of first use of these fields.",
+    "after": "Official reporting provides the closest measurement context. The Commission distinguishes individual-auction means from monthly aggregates and describes bid and award means using participating and successful bidders, respectively (European Commission 2024). ESMA (2025) treats participation and concentration as distinct indicators with different data sources. Quantity dispersion is thus an established reporting dimension. We add a conditional comparison of the two report measures and its historical scope, rather than introduce the fields themselves."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 31,
+    "before": "Records retain their source workbook, sheet and row. The completed audit reconciled all 46 exclusions and matched 13 numeric fields across the 1,327 dated records, giving 17,251 comparisons. A separate XML-reading route agreed with the workbook import. These checks establish numerical traceability of the frozen snapshot rather than historical first-release availability. Online Resource 1 documents the source versions and reproduction procedure.",
+    "after": "Each record retains its source workbook, sheet and row. The completed source audit reconciled the exclusions and compared the numeric extraction with a separate XML-reading route. The audit establishes traceability of the supplied snapshot, not the first historical release of every field. Online Resource 1, Section S2, records the cell counts and verification scope."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 35,
+    "before": "The separate sample medians are 23 participating bidders, 17 successful bidders, 2.651 million tCO2 of reported auction volume and a cover ratio of 1.740; they need not describe one observed auction. The median reported bid and award ratios are 1.387 and 1.399. Figure 1 places the historical marginal medians and interquartile ranges on a common scale. Online Resource 1, Table S5, retains the complete period-specific descriptions. These distributional summaries are different objects from the conditional correlations estimated below.",
+    "after": "The separate sample medians are 23 participating bidders, 17 successful bidders, 2.651 million tCO2 of auction volume and a cover ratio of 1.740; these need not occur in one observed auction. Median bid and award ratios are 1.387 and 1.399. Figure 1 shows the period-specific medians and interquartile ranges, with full summaries in Online Resource 1, Table S5. These marginal quantities are distinct from the conditional correlations below."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 58,
+    "before": "The full archive and earlier results were inspected before the supplementary protocols were recorded. The evidence for the first protocol freeze is partial. This study is consequently retrospective and exploratory, with no untouched holdout or preregistration claim. The block intervals do not adjust for the full history of specification selection. They also do not guarantee coverage under arbitrary temporal change: pooled slope heterogeneity complicates a stationarity interpretation, while independent half-period resampling does not represent all cross-boundary dependence. These qualifications apply to all inferential results below.",
+    "after": "The historical archive and earlier results were inspected before supplementary protocols were recorded; evidence for the first protocol freeze is partial. No untouched holdout or preregistration is claimed. Month-block intervals approximate temporal dependence, but do not adjust for the full specification search, arbitrary changes in the relationship, or all dependence across the period boundary. Separate multiplicity sensitivities do not establish familywise coverage across every analysis in this article. Online Resource 1, Section S13, maps each estimand to its evidence status."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 59,
+    "before": "Generative AI tools, including ChatGPT, assisted research organization, code-related work, and manuscript drafting and revision. Their role included generative drafting rather than spelling and grammar correction alone. Source-linked inputs, executable analysis specifications and numerical validation records document the work. The present integrated version preserves the original estimates and adds the separately recorded supplementary analyses in Sections 3.5–3.6. The authors remain responsible for reviewing the final analysis and manuscript.",
+    "after": "Generative AI tools, including ChatGPT, assisted research organization, code-related work, and manuscript drafting and revision. Their use included generative drafting, not only copy editing. The numerical specifications, source checks and validation records are documented separately. The authors remain responsible for the analysis, citations and final manuscript. This editorial revision reports existing estimates without new model fitting or resampling."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 61,
+    "before": "A supplementary overlap-weighted comparison targets auctions with common observed composition in the two historical halves. Following the weighting construction of Li et al. (2018), an unpenalized logistic model predicts late-period membership from the four pooled-standardized log controls, their squared terms, reporting-series indicators and month-of-year indicators. It includes an intercept but no year, specific year–month, price or dispersion indicator. Early-period weights are the fitted late-period probabilities; late-period weights are one minus those probabilities. We use these as descriptive weights, not as treatment probabilities with a causal interpretation. Successful participation and coverage remain joint auction outcomes.",
+    "after": "We use descriptive overlap weights to emphasize auction characteristics represented in both historical periods. Following Li et al. (2018), one unpenalized logistic model predicts late-period membership from an intercept, the four pooled-standardized log controls, their squared terms, reporting-series indicators and month-of-year indicators. Neither dispersion measure, price, year nor specific year–month enters this model. Early weights are the fitted late-period probabilities; late weights are one minus those probabilities. Coverage and successful participation remain joint auction outcomes. The weights standardize selected observed moments and are not a causal treatment design."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 62,
+    "before": "The original outcome controls and year–month effects are estimated separately in each half using weighted least squares. Weighted residual correlation defines the supplemental estimand. Each of 999 three-month block draws re-estimates both the period model and the outcome projections; one- and six-month checks use 199 draws each. The two weighted correlation contrasts have individual 97.5% percentile intervals as a limited multiplicity sensitivity. These are later supplementary questions and do not redefine the original primary slope contrasts. We report weight concentration, balance of fitted terms, empirical distribution distances and the paired change in the correlation contrast. No trimming or alternative weight model was selected after inspecting the result.",
+    "after": "Within each period, both transformed indicators are projected on the original controls and year–month effects by weighted least squares. We compute their weighted residual covariance and divide by the product of the weighted residual standard deviations, using the same weights throughout. The supplemental contrast is the late-minus-early difference in that correlation. Every block draw refits the period-membership model and both outcome projections. The main calculation uses 999 three-month draws, with 199 draws each for one- and six-month sensitivity checks. Individual 97.5% percentile intervals address the two weighted contrasts only as a limited multiplicity sensitivity. Weight concentration, fitted-term balance, distribution distances and the paired change from equal weighting are reported together. No outcome-dependent trimming or alternative weight-model search is used."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 64,
+    "before": "The 2026 extension uses the same product, successful-auction and series rules, restricted to January–September before new-time estimation. The official annual workbook contains 173 dated rows; seven October observations are outside the fixed cutoff. The resulting 166 auctions comprise 111 EU, 35 DE and 20 PL reports. All nine calendar months are present, and the 13 required field labels match the historical schema. A and C are re-estimated with contemporaneous 2026 year–month effects. This is an additional time sample of the same market, not prediction from a frozen historical model or an independent-market replication.",
+    "after": "The additional sample uses the same product, success-status and series rules, with January–September 2026 fixed before its estimation. The annual file contains 173 dated rows; seven October rows are excluded, leaving 166 auctions: 111 EU, 35 DE and 20 PL. All nine months are represented, and required labels match the historical schema. Both specifications are re-estimated using 2026 year–month effects. The exercise therefore checks a relationship in a new time period of the same market, not predictions from a frozen historical model."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 65,
+    "before": "Only seven non-circular three-month blocks can be formed from nine months. After the initial 999-draw analysis, a separately recorded diagnostic enumerates all 343 ordered triples of those blocks and, as an endpoint sensitivity, all 729 triples of nine circular three-month blocks. Both procedures retain original month labels and re-estimate the full projections. Non-circular blocks give endpoint months lower expected multiplicity; circular blocks equalize marginal inclusion but impose September-to-January adjacency. Their percentile ranges describe finite resampling distributions, not exact inferential coverage. Leave-one-month-out results provide an additional influence diagnostic. The original intervals remain unchanged, and no test comparing 2026 with earlier periods is conducted.",
+    "after": "A nine-month axis provides only seven non-circular three-month source blocks. Following the initial 999 draws, a post-result diagnostic enumerates the finite non-circular and circular resampling distributions and deletes each month in turn. Non-circular sampling underweights endpoint months; circular sampling balances their expected inclusion but joins September to January artificially. The resulting ranges are short-axis diagnostics, not certified coverage intervals. Original results remain available in Online Resource 1, Section S11, and no formal difference between 2026 and earlier years is tested."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 68,
+    "before": "Table 3 reports the two distinct transformations. Under A, the slope is 0.8802 and the residual correlation is 0.6496, with a three-month block interval of [0.5714, 0.7422]. Under C, the corresponding values are 0.8797 and 0.6486, with correlation interval [0.5660, 0.7402]. Thus, the relationship is of similar standardized magnitude under the two transformations on the identical sample. The transformation comparison is not affected by zero-standard-deviation exclusions, because the sample contains none.",
+    "after": "The two transformations give nearly identical standardized associations (Table 3). Residual correlations are 0.6496 under A and 0.6486 under C, with three-month block intervals [0.5714, 0.7422] and [0.5660, 0.7402]. Corresponding slopes are 0.8802 and 0.8797. The comparison uses exactly the same auctions; no zero-standard-deviation observations distinguish the samples."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 74,
+    "before": "Figure 2 examines whether the positive direction appears only after conditioning on the cover ratio and successful-bidder count. With series and year–month effects alone, residual correlations are 0.6243 under A and 0.6197 under C. Adding volume and total participation yields 0.6289 and 0.6239. The full controls give slightly larger values. Thus, the direction is already present in models that omit the two additional simultaneous outcomes. This does not establish their exogeneity or eliminate selection associated with successful auctions.",
+    "after": "The positive direction is not confined to the full conditioning set (Fig. 2). With series and year–month effects only, residual correlations are 0.6243 and 0.6197. Adding volume and total bidders gives 0.6289 and 0.6239. The relationship is therefore present without the cover ratio and successful-bidder count as controls. These are different descriptive projections, not an exogeneity or collider-bias test."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 77,
+    "before": "Deletion diagnostics lead to the same directional conclusion. Removing one month at a time gives residual correlations of 0.6419–0.6656 under A and 0.6405–0.6674 under C. Year and series deletions produce wider positive ranges. Individual-observation deletion also preserves the direction. Omitting the 13 largest-Cook-distance observations raises the correlations to 0.6911 and 0.6930; these values are diagnostic only, and all principal estimates retain the full sample. Online Resource 1, Table S3, reports the complete ranges. A statistically influential auction is not thereby an erroneous observation.",
+    "after": "The completed deletion checks retain a positive association (Online Resource 1, Table S3). They remove observations, months, years or reporting series without replacing the principal sample. Omitting the 13 largest-Cook-distance observations gives correlations of 0.6911 and 0.6930; this is an influence diagnostic, not a revised data-cleaning rule. No observation is classified as erroneous solely because it is influential."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 78,
+    "before": "Within-series estimates are positive in EU, DE and PL under both transformations (Online Resource 1, Table S4). Their differences are not formal between-series contrasts or independent-market replications. In particular, PL has 166 observations and only 90 residual degrees of freedom after its controls and month effects. The pooled direction remains positive in these specific control and deletion exercises. These diagnostics do not rule out common determinants of the two report fields.",
+    "after": "Within-series correlations are positive under both transformations (Online Resource 1, Table S4). EU, DE and PL are reporting series within one market, not independent replications. The PL comparison has 166 observations and only 90 residual degrees of freedom. These diagnostics address specified sources of sensitivity; they do not exclude shared determinants of bidding and awards."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 80,
+    "before": "Table 4 separates three estimands: period-specific association (Panel A), the primary slope contrast (Panel B), and the secondary direct correlation contrast (Panel C). Under A, residual correlation is 0.5501 in 2020–2022 and 0.7798 in 2023–2025; under C, it is 0.5414 and 0.7719. Both halves retain positive association. Figure 3 displays the direct differences in correlation, rather than asking readers to infer them from slope intervals or separate period intervals.",
+    "after": "Conditional association is higher in the later historical sample (Table 4). Panel A reports correlations of 0.5501 and 0.7798 under A, and 0.5414 and 0.7719 under C, in 2020–2022 and 2023–2025 respectively. Panel B retains the originally designated slope contrasts; Panel C and Fig. 3 report the direct, secondary correlation contrasts. The two contrast scales are not interchangeable."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 89,
+    "before": "Indicator levels move differently from the strength of association. The marginal median bid ratio is 1.520 in 2020–2022 and 1.255 in 2023–2025; the corresponding award medians are 1.443 and 1.356 (Online Resource 1, Table S5). Higher conditional co-movement therefore coexists with lower marginal report ratios in this sample. These summaries compare auctions in two periods, not matched bidders, and they are not a test of a population-wide decline in dispersion. Nor do they establish what explains the correlation difference. Separately estimated control spaces, residual scales, participant composition and reporting conventions may all matter. January 2023 remains a historical comparison boundary, not an identified policy intervention.",
+    "after": "The marginal levels move differently: the median bid ratio is 1.520 in 2020–2022 and 1.255 in 2023–2025, while award medians are 1.443 and 1.356 (Online Resource 1, Table S5). Lower report-ratio levels thus coexist with stronger conditional association. This is a comparison of auctions, not matched bidders, and does not establish improved equality. The January 2023 boundary is a historical split, not an identified policy intervention."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 91,
+    "before": "Table 5 reports the weighted period contrast together with the diagnostics needed to interpret it. The weighted differences are 0.1971 under A and 0.1937 under C. Both exploratory 97.5% intervals are above zero, but this result is conditional on the stated weighting and resampling approximations. Relative to the equal-weight differences, the paired changes are −0.0326 and −0.0368, with 95% intervals [−0.1349, 0.0802] and [−0.1449, 0.0797]. Thus the estimates do not establish a discernible weighting-induced reduction, let alone a causal fraction of the difference explained by composition.",
+    "after": "The overlap-weighted differences remain positive: 0.1971 under A and 0.1937 under C (Table 5). Their exploratory 97.5% intervals are [0.0947, 0.3029] and [0.0847, 0.3051]. The paired changes from equal weighting are −0.0326 and −0.0368, with 95% intervals [−0.1349, 0.0802] and [−0.1449, 0.0797]. Because these paired intervals include zero, the analysis does not establish that weighting reduced the contrast, or quantify a fraction attributable to composition."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 95,
+    "before": "Note: The weighted sample retains 643 early and 638 late auctions. All weights and projections are refitted in each of 999 three-month block draws. The maximum included-term mean imbalance is below 1.6×10⁻¹⁵; weight-concentration effective sample sizes are 586.55 and 614.75. KS denotes the maximum distance between empirical cumulative distributions, not a p-value. Selected moment balance is not full-distribution balance. Complete intervals and block-length checks are in Online Resource 1, Tables S7–S8.",
+    "after": "Note: Each weighted comparison retains 643 early and 638 late auctions. The period-membership and outcome models are refitted in 999 three-month block draws. Included-term mean differences are below 1.6×10⁻¹⁵; weight-concentration effective sample sizes are 586.55 and 614.75, not independent temporal sample sizes. KS is the maximum empirical cumulative-distribution distance, not a p-value. Tables S7–S8 provide paired changes and block sensitivities."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 96,
+    "before": "Auction volume is the important exception to improved distributional comparability: its KS distance increases from 0.2810 to 0.2908 despite balanced first and second moments of log volume. The other three distances are smaller after weighting. The positive weighted difference therefore supports persistence under the specified moment standardization, not invariance to all auction-composition differences. No revised model or sample restriction was introduced to remove this adverse diagnostic.",
+    "after": "Matching the selected moments does not match the full distributions. Log auction-volume KS distance increases from 0.2810 to 0.2908 even though its first and second moments balance; the other three distances decrease. The evidence supports a positive period contrast under this particular moment standardization, not invariance to all composition differences. The volume diagnostic was not used to select a different weight model or sample."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 98,
+    "before": "The separate 2026 sample gives residual correlations of 0.8494 for A and 0.8350 for C, with slopes 1.3137 and 1.2375. The original diagnostic 95% correlation intervals are [0.8123, 0.9149] and [0.7832, 0.9156]. These are positive same-market re-estimates, not forecasting accuracies; only nine months underpin the dependence calculation.",
+    "after": "The January–September 2026 sample also shows positive association. Residual correlations are 0.8494 and 0.8350, with slopes 1.3137 and 1.2375. All leave-one-month-out correlations remain positive: 0.8396–0.8626 for A and 0.8230–0.8569 for C. These are same-market, new-period estimates from 166 auctions, not predictive accuracy or a formal test of further strengthening after 2025."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 99,
+    "before": "Exhaustive non-circular enumeration gives central percentile ranges [0.8094, 0.9149] and [0.7757, 0.9156]; circular enumeration gives [0.8064, 0.9048] and [0.7731, 0.9055]. Removing one month at a time yields correlation ranges 0.8396–0.8626 and 0.8230–0.8569. The direction persists across these particular checks. However, the schemes contain only 84 and 163 distinct month-weight vectors, respectively, and circular blocks change the endpoint assumption. These diagnostics do not warrant a claim of precise or confirmatory 2026 coverage. Online Resource 1, Table S9, separates the point estimates, finite percentile ranges and deletion ranges; no significance claim is made about a further increase after 2025.",
+    "after": "The original block intervals and complete enumeration results are retained in Online Resource 1, Table S9. Non-circular and circular sampling produce different diagnostic percentile ranges; neither expands the nine-month historical record. Accordingly, the additional sample supports the recurrence of the positive direction, with limited evidence about temporal uncertainty. It is not used as a confirmatory replication or as a substitute for the historical sample."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 102,
+    "before": "The evidence distinguishes three objects: the level of reported dispersion, the strength of the conditional relationship between the indicators, and the extent to which that relationship is sensitive to time and composition. The historical residual correlation is about 0.65, while the direct correlation contrast between the two halves is about 0.23. The corresponding weighted contrasts are about 0.20. Lower marginal medians and stronger conditional co-variation coexist in the later period; they need not imply the same ranking of the reporting archive.",
+    "after": "Two economic descriptions of this reporting archive differ. The later historical auctions have lower marginal dispersion ratios but a stronger conditional relationship between the bid-side and award-side measures. Reading only levels would miss the change in co-variation; reading only the pooled regression would hide its historical heterogeneity. Reporting both describes the observed quantities more fully without ranking either period by allocation quality."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 103,
+    "before": "The estimates complement official summaries of quantity moments, participation and auction size with a specified joint characterization. The pooled projection remains a useful description of the selected historical archive. Separate period estimates, overlap weighting and the 2026 re-estimation identify particular limits to extending that description. In particular, balancing selected moments does not make the full auction-volume distributions comparable, and an additional 166 reports do not overcome a time axis of only nine months.",
+    "after": "The period comparison addresses observed composition only to a specified extent. Positive weighted contrasts remain after selected log-scale means and second moments are balanced, while the auction-volume distribution retains a shape difference. The 2026 exercise addresses a different question: whether the positive direction appears in an additional time segment. It does, but the short segment cannot establish a stable long-run mapping. These exercises narrow the scope of the historical relationship rather than identify why it changed."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 104,
+    "before": "The denominator analysis serves a narrower purpose. It isolates identities induced by constructed totals and counts, without proving that all mechanical or economic links have been removed. The ordinary-log comparison shows that the direction is not specific to log-one-plus ratios. It does not identify a new measurement instrument or establish that one indicator can replace the other. The study’s contribution is this reproducible, measurement-explicit empirical characterization; it does not document prior misuse of the indicators or test a benefit from applying the relationship in a monitoring decision.",
+    "after": "This joint characterization complements the quantity moments in official reports and the prices and participation variables examined by Bosco (2023). Its contribution is the magnitude and conditional scope of a report-level relationship, not a new indicator or evidence that official monitoring is mistaken. The denominator checks clarify normalization; they do not remove the inherent link from submitted bids to awards. Nor has this relationship been validated against an independently measured economic outcome."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 105,
+    "before": "5.2 What remains unidentified",
+    "after": "5.2 Identification, inference and data limits"
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 106,
+    "before": "The economic interpretation is constrained by three features of the evidence. First, standard-deviation populations and variance divisors are not fully documented across the archive. The numerical report ratios are well defined, but they cannot be treated as authenticated changes in dispersion within a common bidder population. Report participants may also represent clients. Similar labels across annual files are not proof of unchanging populations.",
+    "after": "Measurement is the first limit. The standard-deviation populations and variance divisors are not fully documented across the archive, and reporting participants may represent clients. The ratios are arithmetically defined but are not authenticated matched-population inequality measures. Identical labels across files do not establish unchanged statistical populations."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 107,
+    "before": "Second, the study conditions on auction success and uses contemporaneous outcomes. The reduced-control comparison shows that the positive direction is present without conditioning on successful bidders and the cover ratio. It does not resolve endogenous selection, shared demand conditions or the allocation link between the two variables. The stronger late-period association cannot be assigned to reporting changes, bidding composition or a particular policy from this design. In particular, lower marginal report ratios do not identify improved equality, competition or allocation efficiency.",
+    "after": "Selection and simultaneity are the second limit. We condition on successful completion, while participation, coverage and awards can share determinants. Reduced controls do not eliminate endogenous selection or unobserved demand conditions. Differences in separately fitted projections may reflect reporting conventions, observed or unobserved composition, and residual scales as well as changes in the underlying relationship. No causal policy, competition or efficiency interpretation follows."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 108,
+    "before": "Third, the comparisons are historical and exploratory. Month blocks provide a dependence approximation rather than protection against arbitrary structural change or specification selection. The original primary slope contrasts, secondary correlation contrasts and later weighted contrasts retain their separate inferential roles. The additional enumeration diagnostic removes Monte Carlo error for a finite set of resampling tuples, not uncertainty about repeated-sample coverage. Circular blocks also join the end and beginning of the short record artificially. These checks cannot convert the archive into a preregistered or independent confirmatory study.",
+    "after": "Inference is the third limit. Every interval remains conditional on exploratory choices and an approximate dependence model. The original slope contrasts, secondary correlation contrasts and later weighted contrasts are separate inferential families; no correction covers the entire research history. Exhaustive enumeration removes Monte Carlo variation for its finite set of tuples, not uncertainty about repeated-sample coverage. Circular blocks additionally impose an artificial endpoint link."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 109,
+    "before": "These boundaries leave an interpretable empirical object: conditional association among reported quantity indicators in successful auctions. An external pricing validation would require a matched per-auction secondary-market reference. The inspected official report describes a closing-window reference but supplies its price comparison as monthly summaries, not the individual matched series needed here (European Commission 2023). No monthly average, daily close or bid-price surrogate was substituted. Consequently the evidence does not establish price informativeness, allocation efficiency or operational value.",
+    "after": "External price informativeness is untested. The inspected official report describes a bidding-window-close reference but provides the relevant price comparisons as monthly summaries, not the matched auction-level series required here (European Commission 2023). No eligible external series was obtained, so no price regression was run. This is a data limitation, not a negative price result. Separately, access to the exact 2026 raw snapshot is not secured by its dynamic download URL; the reproducibility boundary is stated below."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 111,
+    "before": "Across 1,281 successful EUA auctions during 2020–2025, reported bid and award dispersion have residual correlations near 0.65 under two transformations. The later historical period has a stronger conditional relationship despite lower marginal report-ratio medians. Supplementary weighting retains a positive difference after balancing selected composition moments, but does not balance the complete auction-volume distribution. In a separate sample of 166 auctions in January–September 2026, the same descriptive projections are also positive; short-axis diagnostics limit the precision attached to that finding.",
+    "after": "Reported bid and award dispersion are positively associated across 1,281 successful EUA auctions during 2020–2025. The pooled residual correlation is about 0.65 under both transformations, while the later historical period has a stronger relationship despite lower marginal report-ratio medians. The period contrast remains positive after balancing selected composition moments, but the auction-volume distributions remain unequal."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 112,
+    "before": "The findings support distinguishing indicator levels from co-variation and reporting the temporal and composition limits of a pooled relationship. They do not identify an invariant allocation mapping or establish matched-bidder inequality, policy causality or forecasting value. The additional evidence refines the scope of a reported-field relationship; it does not replace an external economic validation.",
+    "after": "A separate set of 166 auctions in January–September 2026 also has a positive relationship. Its short time axis limits the inferential weight of that observation. Together, the results distinguish levels, co-variation and temporal scope in public quantity reports. They do not establish matched-bidder distributional change, a causal allocation mechanism or operational value."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 114,
+    "before": "The historical EEX input snapshot is fixed at commit 5745eb3ddca79602346053446583d794b0e09800 of repository 124-creator/-123. Principal estimates and original robustness results are fixed at e25c1e02e1a58e0aec1084f7419066855e9565ec and d4b26f1bbd8c1d7c036259e48e119c9c12f6c9a9; composition weighting and the first 2026 re-estimation are fixed at 89d3ac3beba670838d4b62b1209f6f3412753f19. The integration-check protocol and outputs are under research/eex_integration_checks_20261010 on the dedicated manuscript branch. Online Resource 1 records exact paths, hashes and scope. EEX retains its data rights. The 2026 annual URL is dynamic: this study uses the 72,742-byte snapshot with SHA-256 54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d. Its bytes were verified again for the finite-resampling diagnostic but are not redistributed in this package. A lawful exact-snapshot access arrangement remains necessary for full raw-data reproduction; later downloads must not silently substitute a changed file.",
+    "after": "The historical input and analysis records are available in repository 124-creator/-123 at the fixed revisions listed in Online Resource 1. The input is fixed at 5745eb3ddca79602346053446583d794b0e09800; main estimates, original robustness and subsequent composition analyses are preserved separately. Integration checks are fixed at 35d8c63fc57173f67eb0bd8bb570eb289188324f under research/eex_integration_checks_20261010. EEX retains its data rights. The 2026 analysis used a 72,742-byte snapshot, identified by its full SHA-256 in Online Resource 1. The download URL is dynamic, and the exact raw file is not included in this replication package. Numerical outputs and code therefore do not by themselves provide complete raw-data reproducibility for the 2026 extension. A lawful exact-snapshot access arrangement remains to be finalized; a later file with a different hash must not silently replace it."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 119,
+    "before": "Author-review status: Xiang Wang has reviewed the preceding manuscript. This integrated revision adds supplementary analyses for author review; remaining declarations and the final data-access arrangement are recorded separately.",
+    "after": "Author-review status: Xiang Wang has reviewed the preceding manuscript. This revision changes presentation and methodological explanation without new estimation. Outstanding declarations and the exact-snapshot data-access arrangement are recorded in the author checklist."
+  },
+  {
+    "file": "MANUSCRIPT_EN_v7.docx",
+    "paragraph": 121,
+    "before": "Online Resource 1 Field dictionary, sample provenance, resampling implementation, additional sensitivity tables and measurement identities",
+    "after": "Online Resource 1 Field dictionary, sample provenance, supplementary estimates, measurement identities, short-axis diagnostics and evidence-status map"
+  },
+  {
+    "file": "ONLINE_RESOURCE_1_v7.docx",
+    "paragraph": 2,
+    "before": "Historical association and composition sensitivity, with a 2026 time extension",
+    "after": "Conditional association and composition sensitivity"
+  },
+  {
+    "file": "ONLINE_RESOURCE_1_v7.docx",
+    "paragraph": 3,
+    "before": "Journal: Empirical Economics (intended submission; not yet submitted)\nAuthors: Zhongfei Tian; Xiang Wang\nAffiliation: Zhengzhou University of Aeronautics, Zhengzhou, Henan, China\nCorresponding author: Zhongfei Tian, 15517837680@163.com\nVersion: Author-review v7, 10 October 2026",
+    "after": "Journal: Empirical Economics (intended submission; not yet submitted)\nAuthors: Zhongfei Tian; Xiang Wang\nAffiliation: Zhengzhou University of Aeronautics, Zhengzhou, Henan, China\nCorresponding author: Zhongfei Tian, 15517837680@163.com\nVersion: Author-review v8, 10 October 2026"
+  },
+  {
+    "file": "ONLINE_RESOURCE_1_v7.docx",
+    "paragraph": 5,
+    "before": "This resource supports the integrated manuscript. The original 2020–2025 estimates, descriptions and sensitivity results remain unchanged in Sections S1–S9. Sections S10–S12 add the recorded composition-weighting analysis, separate 2026 re-estimation, post-result finite-resampling diagnostic and external-price data gate. Their scopes and timing are distinguished. A and B remain identical in the original sample; no extra independent result is attributed to B.",
+    "after": "This resource documents the historical estimates and later supplementary analyses without combining them into one confirmatory study. Sections S1–S9 retain the original numerical results. Sections S10–S12 cover composition weighting, the separate 2026 sample, finite resampling diagnostics and the uncompleted price-reference analysis. Section S13 maps estimands to their evidence roles. This editorial revision changes no estimate, resample, eligibility rule or previously reported table value."
+  },
+  {
+    "file": "ONLINE_RESOURCE_1_v7.docx",
+    "paragraph": 54,
+    "before": "The inherited numeric ledger is tables/INHERITED_NUMERIC_LEDGER.csv; additional values are linked in tables/INTEGRATED_NUMERIC_LEDGER.csv. Historical descriptions and figure inputs are reused, not recalculated. The integration revision preserves the original formulas and tables, adds new-result tables separately and records a document-level structural comparison.",
+    "after": "The original numeric ledgers are retained in the preceding v7 companion package. The current package supplies a newly generated display inventory in tables/DISPLAY_NUMERICS_V8.csv and a locator in REPRODUCIBILITY.md that points to fixed repository outputs. A display inventory checks editorial preservation; it does not replace raw-input verification or statistical replication. Historical descriptions and figure inputs have not been recalculated."
+  },
+  {
+    "file": "ONLINE_RESOURCE_1_v7.docx",
+    "paragraph": 67,
+    "before": "The E3 download occurred on 10 October 2026 at 13:33:15 UTC. The E3R diagnostic retrieved the same official URL again at 14:12:19 UTC and matched the exact 72,742-byte file and SHA-256 54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d. It independently rebuilt the fixed January–September eligibility from 173 dated source rows, excluded seven October rows, retained 166 unique auctions and reproduced the frozen point estimates. Required header labels matched. This verifies a specific byte snapshot and numerical route, not historical first-release versions or standard-deviation populations.",
+    "after": "The E3 record reports a download on 10 October 2026 at 13:33:15 UTC; E3R retrieved the same URL at 14:12:19 UTC. Both records identify 72,742 bytes and SHA-256 54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d. E3R rebuilt the January–September eligibility set, excluding seven October rows from 173 dated records and retaining 166 auctions; the point estimates matched E3. This is a repeated implementation on the same snapshot, not an independent market replication, first-release audit or certification of standard-deviation populations."
+  },
+  {
+    "file": "ONLINE_RESOURCE_1_v7.docx",
+    "paragraph": 71,
+    "before": "E3R required 2,164 primary projection requests and eight explicit-dummy cross-checks, with no failures. The largest implementation difference was 4.60×10⁻¹⁴. Six synthetic enumeration/multiplicity/projection tests passed. These are numerical validations on the same input, not additional economic observations. Complete ordered-tuple outputs, month multiplicities and deletion records are in research/eex_integration_checks_20261010/results. No raw EEX bytes are republished in the diagnostic artifact.",
+    "after": "E3R records 2,164 primary projection requests and eight explicit-dummy numerical cross-checks, with no failures and maximum implementation difference 4.60×10⁻¹⁴. Its six synthetic checks assess enumeration, multiplicities and projection code. These execution counts are not observations. Complete outputs are at research/eex_integration_checks_20261010/results, commit 35d8c63fc57173f67eb0bd8bb570eb289188324f; they have not been re-estimated for v8."
+  },
+  {
+    "file": "ONLINE_RESOURCE_1_v7.docx",
+    "paragraph": 75,
+    "before": "The code and aggregate diagnostic outputs are accessible in the dedicated integration branch, with protocols and source receipts. E1 and original E3 material remains at its frozen commit. The official source is https://public.eex-group.com/eex/eua-auction-report/emission-spot-primary-market-auction-report-2026-data.xlsx. Exact-snapshot reproduction requires a lawfully held copy matching the recorded hash; temporary raw bytes are not republished with the diagnostic outputs. The current package does not claim to contain a complete archived first-release dataset.",
+    "after": "Code and aggregate outputs are fixed in the repository revisions listed in REPRODUCIBILITY.md. The dynamic 2026 source URL is https://public.eex-group.com/eex/eua-auction-report/emission-spot-primary-market-auction-report-2026-data.xlsx. The exact raw snapshot is not included in this package; temporary download files were not retained in the published diagnostic artifact. Full raw-data reproduction of that extension still requires a lawfully available matching snapshot. A source hash proves identity only when the corresponding bytes can be obtained; it is not itself an archive."
+  },
+  {
+    "file": "TITLE_PAGE_v7.docx",
+    "paragraph": 1,
+    "before": "Historical association and composition sensitivity, with a 2026 time extension",
+    "after": "Conditional association and composition sensitivity"
+  },
+  {
+    "file": "TITLE_PAGE_v7.docx",
+    "paragraph": 13,
+    "before": "Xiang Wang has reviewed the preceding manuscript. The added supplementary analyses are identified for author review; this file does not imply submission authorization or invent remaining declarations.",
+    "after": "Xiang Wang has reviewed the preceding manuscript. This revision changes presentation without new estimation; the statement does not infer approval of unresolved declarations or authorize submission."
+  }
+]

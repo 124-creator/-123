@@ -1,0 +1,43 @@
+{
+  "base_commit": "35d8c63fc57173f67eb0bd8bb570eb289188324f",
+  "new_fits": 0,
+  "new_resamples": 0,
+  "scope": "document-object preservation, not independent market-data replication",
+  "documents": {
+    "MANUSCRIPT_EN_v8.docx": {
+      "sha256": "15180678628a21a511b6f2ff49c91b1eb5bd89168129b522585ad20cc2452ee6",
+      "document_xml_sha256": "6c66a8e63e9a8cb0416ab6d5e745e1147225fe58710efcd5fb9d2710f7f0a70e",
+      "original_math_preserved": 51,
+      "original_table_contents_preserved": 8,
+      "allowed_table_layout_change": "Keep last row with its following note",
+      "tables_including_panels": 8,
+      "images_preserved": 3,
+      "scripted_runs_preserved": 4,
+      "original_table_numbers_and_values_unchanged": true
+    },
+    "ONLINE_RESOURCE_1_v8.docx": {
+      "sha256": "0b00a762b7b1b0ddf67d3711486c248a38a4005f4274b8366ff437e8591d66fe",
+      "document_xml_sha256": "462f83738cb1b841a06537deb9298e12dd016cb0c7c3ed3f3d29f5c4a9ad6102",
+      "original_math_preserved": 58,
+      "original_table_contents_preserved": 10,
+      "allowed_table_layout_change": "Keep last row with its following note",
+      "tables_including_panels": 11,
+      "images_preserved": 0,
+      "scripted_runs_preserved": 0,
+      "original_table_numbers_and_values_unchanged": true
+    },
+    "TITLE_PAGE_v8.docx": {
+      "sha256": "7daf9d090939235805a0c88a8e135872717877050eb61e6aae6db82b5000c335",
+      "document_xml_sha256": "f9620c9189a8121ab2fca72591e0936c20b738f6096f7a16474be70a4c877d9d",
+      "original_math_preserved": 0,
+      "original_table_contents_preserved": 0,
+      "allowed_table_layout_change": "Keep last row with its following note",
+      "tables_including_panels": 0,
+      "images_preserved": 0,
+      "scripted_runs_preserved": 0,
+      "original_table_numbers_and_values_unchanged": true
+    }
+  },
+  "changed_paragraphs": 53,
+  "abstract_words": 200
+}
