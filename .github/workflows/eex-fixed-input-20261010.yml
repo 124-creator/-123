@@ -1,0 +1,42 @@
+name: EEX fixed input transfer 20261010
+on:
+  push:
+    branches: [eex-abc-experiment-20261010]
+    paths: [.github/workflows/eex-fixed-input-20261010.yml]
+permissions:
+  contents: read
+jobs:
+  fixed-input:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fetch only the user-supplied immutable public ZIP
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib, urllib.request, zipfile, io
+          commit='5745eb3ddca79602346053446583d794b0e09800'
+          url=f'https://raw.githubusercontent.com/124-creator/-123/{commit}/research/pro_review_20261010/full_data/EEX_FULL_DATA.zip'
+          with urllib.request.urlopen(url, timeout=60) as r:
+              if r.status != 200: raise RuntimeError(f'HTTP {r.status}')
+              data=r.read(4*1024*1024)
+          if len(data)!=1020365: raise ValueError('Unexpected byte count')
+          gitsha=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+          if gitsha!='c0382fb8e4afb715e0e93c7b42215713804cef65': raise ValueError('Git blob mismatch')
+          with zipfile.ZipFile(io.BytesIO(data)) as z:
+              if z.testzip() is not None: raise ValueError('ZIP CRC error')
+              members=z.namelist()
+          p=pathlib.Path('fixed_input_transfer'); p.mkdir()
+          (p/'EEX_FULL_DATA.zip').write_bytes(data)
+          receipt={'input_commit':commit,'bytes':len(data),'git_blob_sha':gitsha,'sha256':hashlib.sha256(data).hexdigest(),'zip_crc_passed':True,'zip_members':members,'purpose':'Transfer existing user-published input only; no models or source scripts executed','raw_source_modified':False}
+          (p/'TRANSFER_RECEIPT.json').write_text(json.dumps(receipt,indent=2))
+          print(json.dumps(receipt))
+          PY
+      - name: Expose verified input for connected analysis tools
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: eex-fixed-input-5745eb3
+          path: fixed_input_transfer/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
