@@ -1,0 +1,17 @@
+{
+  "checked_on": "2026-10-10",
+  "scope": "v3 writing and source review, no experiments",
+  "latest_remote_writing_base": "16ab8ff415e51d69b750699f33d62f32c66e0ac4",
+  "current_reads": [
+    {"id":"J1","title":"Empirical Economics — Aims and scope","url":"https://link.springer.com/journal/181/aims-and-scope","level":"primary_page_body","read_scope":"scope and editorial screening","accessed":"2026-10-10","author_results_reproduced":false},
+    {"id":"J2","title":"Empirical Economics — Submission guidelines","url":"https://link.springer.com/journal/181/submission-guidelines","level":"primary_page_body_targeted","read_scope":"abstract, title page, AI use, declarations, data and document requirements","accessed":"2026-10-10","author_results_reproduced":false},
+    {"id":"J3","title":"Empirical Economics — How to publish with us","url":"https://link.springer.com/journal/181/how-to-publish-with-us","level":"primary_page_body_targeted","read_scope":"publishing options; not all author charges authenticated","accessed":"2026-10-10","author_results_reproduced":false},
+    {"id":"W1","title":"Handling multiple proxies","url":"https://link.springer.com/article/10.1007/s00181-025-02825-x","level":"full_text_available_targeted_read","read_scope":"abstract, introduction and model setup; not numerical replication","accessed":"2026-10-10","author_results_reproduced":false},
+    {"id":"W2","title":"Trade, equilibrium prices and rents in European auctions for emission allowances","url":"https://link.springer.com/article/10.1007/s10018-022-00344-y","level":"full_text_available_targeted_read","read_scope":"abstract and introduction this turn; wider earlier reading retained separately","accessed":"2026-10-10","author_results_reproduced":false},
+    {"id":"W3","title":"Resampling Methods for Dependent Data","url":"https://link.springer.com/book/10.1007/978-1-4757-3803-2","level":"overview_metadata_contents_only","read_scope":"publisher overview and chapter list; full subscription book NOT read","accessed":"2026-10-10","author_results_reproduced":false}
+  ],
+  "inherited_sources":"support/INHERITED_SOURCE_LEDGER_V2.json in complete package; prior evidence is not a new access event",
+  "search_scope":"limited primary-source and EUA-auction/quantity-dispersion queries; not exhaustive",
+  "denied_routes_retried_by_circumvention":false,
+  "dates":{"Meijer2025_first_online":"2025-09-27","Bosco_first_online":"2022-05-31","Bosco_issue_year":2023,"Lahiri_book_year":2003}
+}

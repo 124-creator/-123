@@ -1,0 +1,17 @@
+{
+  "scope": "post-exploration manuscript and graphic values; hashes do not certify scientific novelty",
+  "new_fits": 0,
+  "numeric_ledger_checked_locally": 237,
+  "sources": [
+    {"path": "MANUSCRIPT_EN.md", "sha256": "cdbfaf0bc3355b66943c66e4a485d43a6ca4a9659e8b23f6f058332955f67baa"},
+    {"path": "ONLINE_RESOURCE_1.md", "sha256": "56e8734bfb18fdb1f4527354d85c16667e0984537f770612b57f55e4722f587f"},
+    {"path": "references.bib", "sha256": "33da731d68d338341fdcdfcbc0cc17bf0a36003dab38e316f264ffe049a70c2d"},
+    {"path": "support/figure_data.json", "sha256": "35638aa94b8a9d62bf88c157def7f8110f75fa6f6061eea2caff3fe8637f6fed"},
+    {"path": "tools/build_manuscript.py", "sha256": "d1c14780f17c355c0d2fae9fb913a81fad6eaee35e8ae3b5f1100931fc75e050"},
+    {"path": "tools/build_figures.py", "sha256": "f1b045a8b4df46f37ea283672e128c9966b1aaaef3edd9ddc05ba7358674eefd"}
+  ],
+  "docx_signatures": {
+    "MANUSCRIPT_EN_v3.docx": {"semantic_sha256": "9931fa1ef57786bbf322d311b2e9b2b1bca08edff46018b7dae10b91a5010430", "tables": 5, "equation_objects": 38, "drawings": 2},
+    "ONLINE_RESOURCE_1_v3.docx": {"semantic_sha256": "f79ea8a65e08e1346bf0ec6b11fc8949152661c0a2c74eae5df3e330dfc0b4c8", "tables": 4, "equation_objects": 42, "drawings": 0}
+  }
+}
