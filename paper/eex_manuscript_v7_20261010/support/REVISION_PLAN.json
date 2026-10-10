@@ -1,0 +1,397 @@
+{
+  "scope": "Integrated author-review manuscript, no changed original numerical results",
+  "abstract_words": 208,
+  "replace_main": [
+    [
+      "Conditional association and temporal heterogeneity, 2020–2025",
+      "Historical association and composition sensitivity, with a 2026 time extension"
+    ],
+    [
+      "Public carbon-auction reports summarize both market participation",
+      "Public carbon-auction reports describe participation and the dispersion of quantities bid and won. We examine the conditional relationship between two reported dispersion ratios in 1,281 successful European Union Allowance auctions during 2020–2025. Each ratio divides a reported standard deviation by its reported mean, without assuming matched bidder populations. Conditioning on auction volume, participant counts, demand coverage and calendar effects yields residual correlations of 0.650 and 0.649 under two transformations. Correlations rise from about 0.55 in 2020–2022 to 0.78 in 2023–2025, although both ratios have lower marginal medians in the later period. A supplementary overlap-weighted comparison balances selected composition means and second moments. The weighted correlation differences remain approximately 0.20, with exploratory 97.5% intervals above zero, but auction-volume distributions remain unbalanced. A separate January–September 2026 sample of 166 auctions gives correlations of 0.849 and 0.835. Exhaustive finite block-resampling and month-deletion diagnostics preserve the positive direction while exposing the limitations of a nine-month time axis. Together, the findings distinguish indicator levels, conditional co-variation and temporal scope. The weighting and new-time exercises strengthen a descriptive relationship, not an allocation mechanism or an operational forecasting result. Historical specification choices were exploratory; neither numerical replication nor the supplementary checks provide selection-adjusted inference or resolve the unknown statistical populations behind the reported standard deviations."
+    ],
+    [
+      "Three features of the archive emerge.",
+      "The historical archive has three distinct features: residual correlations are approximately 0.65 under either transformation; correlations are higher in 2023–2025 than in 2020–2022; and the later sample has lower marginal medians of both report ratios. Supplementary analyses assess the scope of the second finding. Overlap weighting retains a positive period difference after balancing selected composition moments, while a separate 2026 sample retains a positive association. The weighting exercise also leaves auction-volume distributions unequal, and the new-time sample contains only nine months. These qualifications accompany the additional evidence rather than being treated as failed checks to remove."
+    ],
+    [
+      "The contribution is a conditional and period-specific characterization",
+      "The contribution is a measurement-explicit account of the magnitude and historical scope of reported quantity co-variation. It complements price-focused auction analysis, including Bosco (2023), by examining the joint variation of quantity statistics already present in official reports. Composition weighting asks whether the period contrast persists under a specified change in the distribution of observed auction characteristics; the new-time exercise asks whether the positive relationship also appears outside the original years. Neither exercise establishes that the indicators improve a pricing, monitoring or procurement decision. The distinction between selected-moment balance and full-distribution balance is important to what can be concluded from the weighting result."
+    ],
+    [
+      "Generative AI tools, including ChatGPT, assisted research organization",
+      "Generative AI tools, including ChatGPT, assisted research organization, code-related work, and manuscript drafting and revision. Their role included generative drafting rather than spelling and grammar correction alone. Source-linked inputs, executable analysis specifications and numerical validation records document the work. The present integrated version preserves the original estimates and adds the separately recorded supplementary analyses in Sections 3.5–3.6. The authors remain responsible for reviewing the final analysis and manuscript."
+    ],
+    [
+      "The principal result concerns joint variation rather than",
+      "The evidence distinguishes three objects: the level of reported dispersion, the strength of the conditional relationship between the indicators, and the extent to which that relationship is sensitive to time and composition. The historical residual correlation is about 0.65, while the direct correlation contrast between the two halves is about 0.23. The corresponding weighted contrasts are about 0.20. Lower marginal medians and stronger conditional co-variation coexist in the later period; they need not imply the same ranking of the reporting archive."
+    ],
+    [
+      "The estimates complement official summaries",
+      "The estimates complement official summaries of quantity moments, participation and auction size with a specified joint characterization. The pooled projection remains a useful description of the selected historical archive. Separate period estimates, overlap weighting and the 2026 re-estimation identify particular limits to extending that description. In particular, balancing selected moments does not make the full auction-volume distributions comparable, and an additional 166 reports do not overcome a time axis of only nine months."
+    ],
+    [
+      "Third, the comparison is historical and exploratory.",
+      "Third, the comparisons are historical and exploratory. Month blocks provide a dependence approximation rather than protection against arbitrary structural change or specification selection. The original primary slope contrasts, secondary correlation contrasts and later weighted contrasts retain their separate inferential roles. The additional enumeration diagnostic removes Monte Carlo error for a finite set of resampling tuples, not uncertainty about repeated-sample coverage. Circular blocks also join the end and beginning of the short record artificially. These checks cannot convert the archive into a preregistered or independent confirmatory study."
+    ],
+    [
+      "These boundaries leave an interpretable empirical object:",
+      "These boundaries leave an interpretable empirical object: conditional association among reported quantity indicators in successful auctions. An external pricing validation would require a matched per-auction secondary-market reference. The inspected official report describes a closing-window reference but supplies its price comparison as monthly summaries, not the individual matched series needed here (European Commission 2023). No monthly average, daily close or bid-price surrogate was substituted. Consequently the evidence does not establish price informativeness, allocation efficiency or operational value."
+    ],
+    [
+      "Across 1,281 successful EUA auctions during 2020–2025,",
+      "Across 1,281 successful EUA auctions during 2020–2025, reported bid and award dispersion have residual correlations near 0.65 under two transformations. The later historical period has a stronger conditional relationship despite lower marginal report-ratio medians. Supplementary weighting retains a positive difference after balancing selected composition moments, but does not balance the complete auction-volume distribution. In a separate sample of 166 auctions in January–September 2026, the same descriptive projections are also positive; short-axis diagnostics limit the precision attached to that finding."
+    ],
+    [
+      "The findings show why indicator levels, conditional co-variation",
+      "The findings support distinguishing indicator levels from co-variation and reporting the temporal and composition limits of a pooled relationship. They do not identify an invariant allocation mapping or establish matched-bidder inequality, policy causality or forecasting value. The additional evidence refines the scope of a reported-field relationship; it does not replace an external economic validation."
+    ],
+    [
+      "The EEX input snapshot is identified by commit",
+      "The historical EEX input snapshot is fixed at commit 5745eb3ddca79602346053446583d794b0e09800 of repository 124-creator/-123. Principal estimates and original robustness results are fixed at e25c1e02e1a58e0aec1084f7419066855e9565ec and d4b26f1bbd8c1d7c036259e48e119c9c12f6c9a9; composition weighting and the first 2026 re-estimation are fixed at 89d3ac3beba670838d4b62b1209f6f3412753f19. The integration-check protocol and outputs are under research/eex_integration_checks_20261010 on the dedicated manuscript branch. Online Resource 1 records exact paths, hashes and scope. EEX retains its data rights. The 2026 annual URL is dynamic: this study uses the 72,742-byte snapshot with SHA-256 54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d. Its bytes were verified again for the finite-resampling diagnostic but are not redistributed in this package. A lawful exact-snapshot access arrangement remains necessary for full raw-data reproduction; later downloads must not silently substitute a changed file."
+    ],
+    [
+      "Author-review status:",
+      "Author-review status: Xiang Wang has reviewed the preceding manuscript. This integrated revision adds supplementary analyses for author review; remaining declarations and the final data-access arrangement are recorded separately."
+    ]
+  ],
+  "insert_main_before": {
+    "4 Results": [
+      {
+        "type": "heading",
+        "text": "3.5 Composition sensitivity of the historical comparison"
+      },
+      {
+        "type": "p",
+        "text": "A supplementary overlap-weighted comparison targets auctions with common observed composition in the two historical halves. Following the weighting construction of Li et al. (2018), an unpenalized logistic model predicts late-period membership from the four pooled-standardized log controls, their squared terms, reporting-series indicators and month-of-year indicators. It includes an intercept but no year, specific year–month, price or dispersion indicator. Early-period weights are the fitted late-period probabilities; late-period weights are one minus those probabilities. We use these as descriptive weights, not as treatment probabilities with a causal interpretation. Successful participation and coverage remain joint auction outcomes."
+      },
+      {
+        "type": "p",
+        "text": "The original outcome controls and year–month effects are estimated separately in each half using weighted least squares. Weighted residual correlation defines the supplemental estimand. Each of 999 three-month block draws re-estimates both the period model and the outcome projections; one- and six-month checks use 199 draws each. The two weighted correlation contrasts have individual 97.5% percentile intervals as a limited multiplicity sensitivity. These are later supplementary questions and do not redefine the original primary slope contrasts. We report weight concentration, balance of fitted terms, empirical distribution distances and the paired change in the correlation contrast. No trimming or alternative weight model was selected after inspecting the result."
+      },
+      {
+        "type": "heading",
+        "text": "3.6 New-time sample and finite short-axis diagnostics"
+      },
+      {
+        "type": "p",
+        "text": "The 2026 extension uses the same product, successful-auction and series rules, restricted to January–September before new-time estimation. The official annual workbook contains 173 dated rows; seven October observations are outside the fixed cutoff. The resulting 166 auctions comprise 111 EU, 35 DE and 20 PL reports. All nine calendar months are present, and the 13 required field labels match the historical schema. A and C are re-estimated with contemporaneous 2026 year–month effects. This is an additional time sample of the same market, not prediction from a frozen historical model or an independent-market replication."
+      },
+      {
+        "type": "p",
+        "text": "Only seven non-circular three-month blocks can be formed from nine months. After the initial 999-draw analysis, a separately recorded diagnostic enumerates all 343 ordered triples of those blocks and, as an endpoint sensitivity, all 729 triples of nine circular three-month blocks. Both procedures retain original month labels and re-estimate the full projections. Non-circular blocks give endpoint months lower expected multiplicity; circular blocks equalize marginal inclusion but impose September-to-January adjacency. Their percentile ranges describe finite resampling distributions, not exact inferential coverage. Leave-one-month-out results provide an additional influence diagnostic. The original intervals remain unchanged, and no test comparing 2026 with earlier periods is conducted."
+      }
+    ],
+    "5 Discussion": [
+      {
+        "type": "heading",
+        "text": "4.4 Composition weighting: persistence with incomplete distributional balance"
+      },
+      {
+        "type": "p",
+        "text": "Table 5 reports the weighted period contrast together with the diagnostics needed to interpret it. The weighted differences are 0.1971 under A and 0.1937 under C. Both exploratory 97.5% intervals are above zero, but this result is conditional on the stated weighting and resampling approximations. Relative to the equal-weight differences, the paired changes are −0.0326 and −0.0368, with 95% intervals [−0.1349, 0.0802] and [−0.1449, 0.0797]. Thus the estimates do not establish a discernible weighting-induced reduction, let alone a causal fraction of the difference explained by composition."
+      },
+      {
+        "type": "caption",
+        "text": "Table 5 Composition-weighted association and distributional diagnostics"
+      },
+      {
+        "type": "panel",
+        "text": "Panel A: Weighted residual correlations and late-minus-early differences"
+      },
+      {
+        "type": "table",
+        "heads": [
+          "Spec.",
+          "Early θ",
+          "Late θ",
+          "Difference",
+          "97.5% interval"
+        ],
+        "rows": [
+          [
+            "A",
+            "0.5703",
+            "0.7675",
+            "0.1971",
+            "[0.0947, 0.3029]"
+          ],
+          [
+            "C",
+            "0.5649",
+            "0.7586",
+            "0.1937",
+            "[0.0847, 0.3051]"
+          ]
+        ],
+        "widths": [
+          18,
+          24,
+          24,
+          26,
+          72
+        ]
+      },
+      {
+        "type": "panel",
+        "text": "Panel B: Empirical distribution distances before and after weighting"
+      },
+      {
+        "type": "table",
+        "heads": [
+          "Log variable",
+          "Original KS distance",
+          "Weighted KS distance"
+        ],
+        "rows": [
+          [
+            "Auction volume",
+            "0.2810",
+            "0.2908"
+          ],
+          [
+            "Total bidders",
+            "0.1080",
+            "0.0364"
+          ],
+          [
+            "Successful bidders",
+            "0.0454",
+            "0.0201"
+          ],
+          [
+            "Cover ratio",
+            "0.1142",
+            "0.0579"
+          ]
+        ],
+        "widths": [
+          68,
+          48,
+          48
+        ]
+      },
+      {
+        "type": "note",
+        "text": "Note: The weighted sample retains 643 early and 638 late auctions. All weights and projections are refitted in each of 999 three-month block draws. The maximum included-term mean imbalance is below 1.6×10⁻¹⁵; weight-concentration effective sample sizes are 586.55 and 614.75. KS denotes the maximum distance between empirical cumulative distributions, not a p-value. Selected moment balance is not full-distribution balance. Complete intervals and block-length checks are in Online Resource 1, Tables S7–S8."
+      },
+      {
+        "type": "p",
+        "text": "Auction volume is the important exception to improved distributional comparability: its KS distance increases from 0.2810 to 0.2908 despite balanced first and second moments of log volume. The other three distances are smaller after weighting. The positive weighted difference therefore supports persistence under the specified moment standardization, not invariance to all auction-composition differences. No revised model or sample restriction was introduced to remove this adverse diagnostic."
+      },
+      {
+        "type": "heading",
+        "text": "4.5 New-time evidence and sensitivity to the nine-month axis"
+      },
+      {
+        "type": "p",
+        "text": "The separate 2026 sample gives residual correlations of 0.8494 for A and 0.8350 for C, with slopes 1.3137 and 1.2375. The original diagnostic 95% correlation intervals are [0.8123, 0.9149] and [0.7832, 0.9156]. These are positive same-market re-estimates, not forecasting accuracies; only nine months underpin the dependence calculation."
+      },
+      {
+        "type": "p",
+        "text": "Exhaustive non-circular enumeration gives central percentile ranges [0.8094, 0.9149] and [0.7757, 0.9156]; circular enumeration gives [0.8064, 0.9048] and [0.7731, 0.9055]. Removing one month at a time yields correlation ranges 0.8396–0.8626 and 0.8230–0.8569. The direction persists across these particular checks. However, the schemes contain only 84 and 163 distinct month-weight vectors, respectively, and circular blocks change the endpoint assumption. These diagnostics do not warrant a claim of precise or confirmatory 2026 coverage. Online Resource 1, Table S9, separates the point estimates, finite percentile ranges and deletion ranges; no significance claim is made about a further increase after 2025."
+      }
+    ]
+  },
+  "append_supplement": [
+    {
+      "type": "heading",
+      "text": "S10 Composition-standardization protocol and results"
+    },
+    {
+      "type": "p",
+      "text": "The supplementary protocol was recorded at commit 2151017871416fe0ad2505cfdbda23162aaa873e before the weighted fits, after the historical data and preceding results had been examined. It is not retrospective preregistration. The E1 implementation and outputs are frozen at 89d3ac3beba670838d4b62b1209f6f3412753f19. The original equal-weight estimates and intervals are retained; newly generated unweighted intervals serve paired comparisons within E1 only."
+    },
+    {
+      "type": "p",
+      "text": "The period model has 22 columns: an intercept, four standardized log controls, four squares, two nonreference-series indicators and eleven month-of-year indicators. It excludes year and year–month identifiers. Exact selected-term mean balance is a property of the fitted unpenalized logistic overlap weights, not a new empirical finding (Li et al. 2018). It does not authenticate full distributional balance, assignment ignorability or minimum variance for a residual-correlation contrast. The outcome model is re-estimated separately in each half with original year–month effects. Early weights equal e and late weights equal 1−e; resampling multiplies these by row multiplicity."
+    },
+    {
+      "type": "caption",
+      "text": "Table S7 Weighted contrasts and paired changes"
+    },
+    {
+      "type": "table",
+      "heads": [
+        "Spec.",
+        "Contrast",
+        "Estimate",
+        "95% interval",
+        "97.5% interval"
+      ],
+      "rows": [
+        [
+          "A",
+          "Weighted difference",
+          "0.1971",
+          "[0.1084, 0.2910]",
+          "[0.0947, 0.3029]"
+        ],
+        [
+          "A",
+          "Weighting-induced change",
+          "-0.0326",
+          "[-0.1349, 0.0802]",
+          "[-0.1520, 0.0915]"
+        ],
+        [
+          "C",
+          "Weighted difference",
+          "0.1937",
+          "[0.0982, 0.2843]",
+          "[0.0847, 0.3051]"
+        ],
+        [
+          "C",
+          "Weighting-induced change",
+          "-0.0368",
+          "[-0.1449, 0.0797]",
+          "[-0.1668, 0.0942]"
+        ]
+      ],
+      "widths": [
+        12,
+        43,
+        20,
+        44,
+        45
+      ]
+    },
+    {
+      "type": "note",
+      "text": "Note: Change means the overlap-weighted minus equal-weight late-minus-early correlation difference from the same bootstrap draw, not a mediation effect. The 0.10 interpretation reference in the supplementary protocol was introduced after earlier results were known; it is neither a cost threshold nor a journal criterion. The weighted-contrast 97.5% intervals include that reference."
+    },
+    {
+      "type": "caption",
+      "text": "Table S8 Block-length sensitivity of the weighted correlation difference"
+    },
+    {
+      "type": "table",
+      "heads": [
+        "Block months",
+        "Tuples sampled",
+        "A: 97.5% interval",
+        "C: 97.5% interval"
+      ],
+      "rows": [
+        [
+          "1",
+          "199",
+          "[0.0991, 0.3018]",
+          "[0.0916, 0.3033]"
+        ],
+        [
+          "3",
+          "999",
+          "[0.0947, 0.3029]",
+          "[0.0847, 0.3051]"
+        ],
+        [
+          "6",
+          "199",
+          "[0.1049, 0.2881]",
+          "[0.0996, 0.2780]"
+        ]
+      ],
+      "widths": [
+        25,
+        30,
+        54,
+        55
+      ]
+    },
+    {
+      "type": "note",
+      "text": "Note: Both period and outcome models are refitted in every draw. A and C share indices. No failed draw was replaced. Short Monte Carlo runs affect endpoint precision; absence of computational failures does not establish coverage. Weight ESS values of 586.55 and 614.75 are concentration diagnostics, not independent time-sample sizes. Maximum normalized weights are approximately 0.263% and 0.314%. The failed auction-volume distribution diagnostic is shown in main Table 5, not suppressed."
+    },
+    {
+      "type": "heading",
+      "text": "S11 Additional 2026 sample and finite block sensitivity"
+    },
+    {
+      "type": "p",
+      "text": "The E3 download occurred on 10 October 2026 at 13:33:15 UTC. The E3R diagnostic retrieved the same official URL again at 14:12:19 UTC and matched the exact 72,742-byte file and SHA-256 54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d. It independently rebuilt the fixed January–September eligibility from 173 dated source rows, excluded seven October rows, retained 166 unique auctions and reproduced the frozen point estimates. Required header labels matched. This verifies a specific byte snapshot and numerical route, not historical first-release versions or standard-deviation populations."
+    },
+    {
+      "type": "caption",
+      "text": "Table S9 The 2026 association and short-axis diagnostic ranges"
+    },
+    {
+      "type": "table",
+      "heads": [
+        "Quantity / diagnostic",
+        "A",
+        "C"
+      ],
+      "rows": [
+        [
+          "Slope β",
+          "1.3137",
+          "1.2375"
+        ],
+        [
+          "Residual correlation θ",
+          "0.8494",
+          "0.8350"
+        ],
+        [
+          "Original 999-draw θ interval",
+          "[0.8123, 0.9149]",
+          "[0.7832, 0.9156]"
+        ],
+        [
+          "Non-circular finite θ percentiles",
+          "[0.8094, 0.9149]",
+          "[0.7757, 0.9156]"
+        ],
+        [
+          "Circular finite θ percentiles",
+          "[0.8064, 0.9048]",
+          "[0.7731, 0.9055]"
+        ],
+        [
+          "Leave-one-month-out θ range",
+          "[0.8396, 0.8626]",
+          "[0.8230, 0.8569]"
+        ]
+      ],
+      "widths": [
+        76,
+        44,
+        44
+      ]
+    },
+    {
+      "type": "note",
+      "text": "Note: Point estimates and the original 999-draw intervals belong to E3. Finite-enumeration and deletion diagnostics are post-result E3R analyses. The enumeration percentiles are 2.5% and 97.5% quantiles of equally likely ordered block triples with linear interpolation. Deletion ranges are not confidence intervals. All schemes use the same 166 auctions and fixed models; they do not provide independent market replications."
+    },
+    {
+      "type": "p",
+      "text": "For non-circular triples, the expected original-month multiplicities are (3,6,9,9,9,9,9,6,3)/7. Endpoint underrepresentation is therefore structural, not eliminated by 999 Monte Carlo draws. The 343 ordered triples yield 84 distinct month-weight vectors. The 729 circular triples yield 163 vectors and unit expected multiplicity for every month; they also connect September to January artificially. Both full finite distributions are retained. No claim is made that the circular scheme is universally more appropriate or that exact enumeration gives exact frequentist coverage."
+    },
+    {
+      "type": "p",
+      "text": "E3R required 2,164 primary projection requests and eight explicit-dummy cross-checks, with no failures. The largest implementation difference was 4.60×10⁻¹⁴. Six synthetic enumeration/multiplicity/projection tests passed. These are numerical validations on the same input, not additional economic observations. Complete ordered-tuple outputs, month multiplicities and deletion records are in research/eex_integration_checks_20261010/results. No raw EEX bytes are republished in the diagnostic artifact."
+    },
+    {
+      "type": "heading",
+      "text": "S12 Price-reference gate and reproduction boundary"
+    },
+    {
+      "type": "p",
+      "text": "The intended external-price association requires one valid secondary-market reference per auction, a compatible allowance product, and a documented quote type and bidding-window-close timestamp. European Commission (2023), Section 1.1.1, reports monthly differences against a closing-window EEX spot midpoint; Annex 2 supplies individual auction and bid-price fields. The parsed text did not provide the per-auction reference series required for the proposed regression. This is not a claim that all official reports lack such data."
+    },
+    {
+      "type": "p",
+      "text": "No eligible per-auction secondary-market reference series was acquired. No graph digitization, monthly-to-auction replication, daily-close replacement or price regression was performed. E2 remains a missing external validation, not a negative finding about price informativeness. Source access levels and failed downloads are recorded separately in the repository source ledger."
+    },
+    {
+      "type": "p",
+      "text": "The code and aggregate diagnostic outputs are accessible in the dedicated integration branch, with protocols and source receipts. E1 and original E3 material remains at its frozen commit. The official source is https://public.eex-group.com/eex/eua-auction-report/emission-spot-primary-market-auction-report-2026-data.xlsx. Exact-snapshot reproduction requires a lawfully held copy matching the recorded hash; temporary raw bytes are not republished with the diagnostic outputs. The current package does not claim to contain a complete archived first-release dataset."
+    }
+  ],
+  "new_references": [
+    "European Commission (2023) Auctions by the Common Auction Platform: October, November, December 2023. https://climate.ec.europa.eu/document/download/f3199005-4ca8-461b-9499-e5f3846ea4a5_en?filename=cap_report_202312_en.pdf. Accessed 10 October 2026 (parsed text, Sections 1.1.1 and Annex 2)",
+    "Li F, Morgan KL, Zaslavsky AM (2018) Balancing covariates via propensity score weighting. Journal of the American Statistical Association 113:390–400. https://doi.org/10.1080/01621459.2016.1260466"
+  ]
+}

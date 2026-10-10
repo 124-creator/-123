@@ -1,0 +1,60 @@
+{
+  "checked_on": "2026-10-10",
+  "sources": [
+    {
+      "id": "EC2023Q4",
+      "url": "https://climate.ec.europa.eu/document/download/f3199005-4ca8-461b-9499-e5f3846ea4a5_en?filename=cap_report_202312_en.pdf&prefLang=et",
+      "read_level": "web parsed text; 35-page resource, targeted Section 1.1.1 and Annex 2, not whole-page visual audit",
+      "finding": "Monthly auction vs closing-window EEX spot midpoint comparison; parsed per-auction tables did not supply the required external reference series",
+      "page_screenshots": "failed cache lookup",
+      "container_download": "transport failed",
+      "runner_download": "one request; HTTP429; no bytes acquired",
+      "price_regressions": 0,
+      "denied_retry": false
+    },
+    {
+      "id": "EC2025Q2",
+      "url": "https://climate.ec.europa.eu/document/download/761233e2-0bce-4e7e-850b-3f38d84b87db_en?filename=cap_report_202506_en.pdf&prefLang=ro",
+      "read_level": "access failed HTTP429; no full text claim",
+      "retried": false
+    },
+    {
+      "id": "EC2024Q4",
+      "url": "https://climate.ec.europa.eu/document/download/fdb4097c-7135-4810-9e5e-24fecf71399f_en?filename=cap_report_202412_en.pdf&prefLang=ro",
+      "read_level": "cache access failed; no full text claim",
+      "retried": false
+    },
+    {
+      "id": "EEX2026",
+      "url": "https://public.eex-group.com/eex/eua-auction-report/emission-spot-primary-market-auction-report-2026-data.xlsx",
+      "read_level": "runner bytes, required headers, eligibility, same numerical projection; not a second independent workbook parser",
+      "bytes": 72742,
+      "sha256": "54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d",
+      "retrieved_utc": "2026-10-10T14:12:19.030151+00:00",
+      "raw_republished": false
+    },
+    {
+      "id": "J1",
+      "url": "https://link.springer.com/journal/181/submission-guidelines",
+      "read_level": "full available author guidelines; targeted title, abstract, text, tables, artwork, SI, declarations, data/AI clauses"
+    },
+    {
+      "id": "J2",
+      "url": "https://link.springer.com/journal/181/aims-and-scope",
+      "read_level": "official scope and editorial screening"
+    },
+    {
+      "id": "J3",
+      "url": "https://link.springer.com/journal/181/how-to-publish-with-us",
+      "read_level": "official publication route; subscription no APC; not all additional fees audited"
+    },
+    {
+      "id": "Li2018",
+      "doi": "10.1080/01621459.2016.1260466",
+      "url": "https://scholars.duke.edu/publication/1249925",
+      "read_level": "this round official bibliographic/abstract and method index; prior targeted author-manuscript reading recorded in strengthening ledger",
+      "not_claimed": "original causal optimality conditions or minimum variance for present correlation estimand"
+    }
+  ],
+  "scope_note": "No denied full-text bypass; no price observations or raw source republished. Existing document and experiment archives read as frozen evidence, not all re-estimated."
+}

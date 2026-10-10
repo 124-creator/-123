@@ -1,0 +1,71 @@
+display_location,quantity,source_value,display_value,source,locator
+Table 5 panel A,A early theta,0.5703494003293214,0.5703,support/strength_point_estimates.json,points.A.overlap
+Table 5 panel A,A late theta,0.7674821964276054,0.7675,support/strength_point_estimates.json,points.A.overlap
+Table 5 panel A,A delta theta,0.19713279609828405,0.1971,support/strength_point_estimates.json,points.A.overlap
+Table 5 panel A,A delta theta lower97_5,0.09469051535563404,0.0947,support/strength_intervals.csv,"block=3,spec=A,weighting=overlap,metric=delta_theta,lower97_5"
+Table 5 panel A,A delta theta upper97_5,0.3029434203917888,0.3029,support/strength_intervals.csv,"block=3,spec=A,weighting=overlap,metric=delta_theta,upper97_5"
+Table S7,A delta_theta point,0.19713279609828405,0.1971,support/strength_intervals.csv,"block=3,spec=A,metric=delta_theta,point"
+Table S7,A delta_theta lower95,0.10840698379727706,0.1084,support/strength_intervals.csv,"block=3,spec=A,metric=delta_theta,lower95"
+Table S7,A delta_theta upper95,0.2910272655609476,0.2910,support/strength_intervals.csv,"block=3,spec=A,metric=delta_theta,upper95"
+Table S7,A delta_theta lower97_5,0.09469051535563404,0.0947,support/strength_intervals.csv,"block=3,spec=A,metric=delta_theta,lower97_5"
+Table S7,A delta_theta upper97_5,0.3029434203917888,0.3029,support/strength_intervals.csv,"block=3,spec=A,metric=delta_theta,upper97_5"
+Table S7,A change_delta_theta point,-0.03256145599001303,-0.0326,support/strength_intervals.csv,"block=3,spec=A,metric=change_delta_theta,point"
+Table S7,A change_delta_theta lower95,-0.13486540852040058,-0.1349,support/strength_intervals.csv,"block=3,spec=A,metric=change_delta_theta,lower95"
+Table S7,A change_delta_theta upper95,0.08017222128262882,0.0802,support/strength_intervals.csv,"block=3,spec=A,metric=change_delta_theta,upper95"
+Table S7,A change_delta_theta lower97_5,-0.15202966781135618,-0.1520,support/strength_intervals.csv,"block=3,spec=A,metric=change_delta_theta,lower97_5"
+Table S7,A change_delta_theta upper97_5,0.09153523305561612,0.0915,support/strength_intervals.csv,"block=3,spec=A,metric=change_delta_theta,upper97_5"
+Table 5 panel A,C early theta,0.5648549780579564,0.5649,support/strength_point_estimates.json,points.C.overlap
+Table 5 panel A,C late theta,0.7586026066070399,0.7586,support/strength_point_estimates.json,points.C.overlap
+Table 5 panel A,C delta theta,0.19374762854908356,0.1937,support/strength_point_estimates.json,points.C.overlap
+Table 5 panel A,C delta theta lower97_5,0.08474235661419152,0.0847,support/strength_intervals.csv,"block=3,spec=C,weighting=overlap,metric=delta_theta,lower97_5"
+Table 5 panel A,C delta theta upper97_5,0.30506929141295563,0.3051,support/strength_intervals.csv,"block=3,spec=C,weighting=overlap,metric=delta_theta,upper97_5"
+Table S7,C delta_theta point,0.19374762854908356,0.1937,support/strength_intervals.csv,"block=3,spec=C,metric=delta_theta,point"
+Table S7,C delta_theta lower95,0.09822371583762714,0.0982,support/strength_intervals.csv,"block=3,spec=C,metric=delta_theta,lower95"
+Table S7,C delta_theta upper95,0.28434686404450626,0.2843,support/strength_intervals.csv,"block=3,spec=C,metric=delta_theta,upper95"
+Table S7,C delta_theta lower97_5,0.08474235661419152,0.0847,support/strength_intervals.csv,"block=3,spec=C,metric=delta_theta,lower97_5"
+Table S7,C delta_theta upper97_5,0.30506929141295563,0.3051,support/strength_intervals.csv,"block=3,spec=C,metric=delta_theta,upper97_5"
+Table S7,C change_delta_theta point,-0.0367860305456057,-0.0368,support/strength_intervals.csv,"block=3,spec=C,metric=change_delta_theta,point"
+Table S7,C change_delta_theta lower95,-0.14486435535221887,-0.1449,support/strength_intervals.csv,"block=3,spec=C,metric=change_delta_theta,lower95"
+Table S7,C change_delta_theta upper95,0.07966717998225002,0.0797,support/strength_intervals.csv,"block=3,spec=C,metric=change_delta_theta,upper95"
+Table S7,C change_delta_theta lower97_5,-0.16681388031849134,-0.1668,support/strength_intervals.csv,"block=3,spec=C,metric=change_delta_theta,lower97_5"
+Table S7,C change_delta_theta upper97_5,0.09423875195790928,0.0942,support/strength_intervals.csv,"block=3,spec=C,metric=change_delta_theta,upper97_5"
+Table 5 panel B,V KS_raw,0.28100791255722346,0.2810,support/strength_distribution_balance.csv,V.KS_raw
+Table 5 panel B,V KS_ow,0.29077982916560036,0.2908,support/strength_distribution_balance.csv,V.KS_ow
+Table 5 panel B,N KS_raw,0.10795789720013454,0.1080,support/strength_distribution_balance.csv,N.KS_raw
+Table 5 panel B,N KS_ow,0.036366115000066646,0.0364,support/strength_distribution_balance.csv,N.KS_ow
+Table 5 panel B,S KS_raw,0.04538872935934127,0.0454,support/strength_distribution_balance.csv,S.KS_raw
+Table 5 panel B,S KS_ow,0.02007315685925326,0.0201,support/strength_distribution_balance.csv,S.KS_ow
+Table 5 panel B,R KS_raw,0.11419092517928786,0.1142,support/strength_distribution_balance.csv,R.KS_raw
+Table 5 panel B,R KS_ow,0.05787825755999232,0.0579,support/strength_distribution_balance.csv,R.KS_ow
+Table S8,A L=1 lower97_5,0.09908400356039533,0.0991,support/strength_intervals.csv,"block=1,spec=A,weighting=overlap,metric=delta_theta,lower97_5"
+Table S8,A L=1 upper97_5,0.30183550926396363,0.3018,support/strength_intervals.csv,"block=1,spec=A,weighting=overlap,metric=delta_theta,upper97_5"
+Table S8,C L=1 lower97_5,0.09164289056210932,0.0916,support/strength_intervals.csv,"block=1,spec=C,weighting=overlap,metric=delta_theta,lower97_5"
+Table S8,C L=1 upper97_5,0.30332725226973967,0.3033,support/strength_intervals.csv,"block=1,spec=C,weighting=overlap,metric=delta_theta,upper97_5"
+Table S8,A L=3 lower97_5,0.09469051535563404,0.0947,support/strength_intervals.csv,"block=3,spec=A,weighting=overlap,metric=delta_theta,lower97_5"
+Table S8,A L=3 upper97_5,0.3029434203917888,0.3029,support/strength_intervals.csv,"block=3,spec=A,weighting=overlap,metric=delta_theta,upper97_5"
+Table S8,C L=3 lower97_5,0.08474235661419152,0.0847,support/strength_intervals.csv,"block=3,spec=C,weighting=overlap,metric=delta_theta,lower97_5"
+Table S8,C L=3 upper97_5,0.30506929141295563,0.3051,support/strength_intervals.csv,"block=3,spec=C,weighting=overlap,metric=delta_theta,upper97_5"
+Table S8,A L=6 lower97_5,0.10488686895698111,0.1049,support/strength_intervals.csv,"block=6,spec=A,weighting=overlap,metric=delta_theta,lower97_5"
+Table S8,A L=6 upper97_5,0.28814241912135613,0.2881,support/strength_intervals.csv,"block=6,spec=A,weighting=overlap,metric=delta_theta,upper97_5"
+Table S8,C L=6 lower97_5,0.09957498107841815,0.0996,support/strength_intervals.csv,"block=6,spec=C,weighting=overlap,metric=delta_theta,lower97_5"
+Table S8,C L=6 upper97_5,0.27795791492457517,0.2780,support/strength_intervals.csv,"block=6,spec=C,weighting=overlap,metric=delta_theta,upper97_5"
+Table S9,A beta,1.313738191223664,1.3137,support/NEW_TIME_RESULTS.json,points.A.beta
+Table S9,C beta,1.2375080946428219,1.2375,support/NEW_TIME_RESULTS.json,points.C.beta
+Table S9,A theta,0.849363161324037,0.8494,support/NEW_TIME_RESULTS.json,points.A.theta
+Table S9,C theta,0.8350056427172541,0.8350,support/NEW_TIME_RESULTS.json,points.C.theta
+Table S9,A Original 999-draw θ interval bound0,0.8122732198941973,0.8123,support/NEW_TIME_RESULTS.json,intervals.A.theta_CI95
+Table S9,A Original 999-draw θ interval bound1,0.9148538318620243,0.9149,support/NEW_TIME_RESULTS.json,intervals.A.theta_CI95
+Table S9,C Original 999-draw θ interval bound0,0.7832223631632538,0.7832,support/NEW_TIME_RESULTS.json,intervals.C.theta_CI95
+Table S9,C Original 999-draw θ interval bound1,0.915649223877536,0.9156,support/NEW_TIME_RESULTS.json,intervals.C.theta_CI95
+Table S9,A Non-circular finite θ percentiles bound0,0.8094309045524453,0.8094,support/new_diagnostic/E3R_RESULTS.json,schemes.noncircular.statistics.A.theta_q025_median_q975
+Table S9,A Non-circular finite θ percentiles bound1,0.9148538318620242,0.9149,support/new_diagnostic/E3R_RESULTS.json,schemes.noncircular.statistics.A.theta_q025_median_q975
+Table S9,C Non-circular finite θ percentiles bound0,0.7757339571760845,0.7757,support/new_diagnostic/E3R_RESULTS.json,schemes.noncircular.statistics.C.theta_q025_median_q975
+Table S9,C Non-circular finite θ percentiles bound1,0.915649223877536,0.9156,support/new_diagnostic/E3R_RESULTS.json,schemes.noncircular.statistics.C.theta_q025_median_q975
+Table S9,A Circular finite θ percentiles bound0,0.80637314983404,0.8064,support/new_diagnostic/E3R_RESULTS.json,schemes.circular.statistics.A.theta_q025_median_q975
+Table S9,A Circular finite θ percentiles bound1,0.9047735944944377,0.9048,support/new_diagnostic/E3R_RESULTS.json,schemes.circular.statistics.A.theta_q025_median_q975
+Table S9,C Circular finite θ percentiles bound0,0.773132850082265,0.7731,support/new_diagnostic/E3R_RESULTS.json,schemes.circular.statistics.C.theta_q025_median_q975
+Table S9,C Circular finite θ percentiles bound1,0.9055465763223184,0.9055,support/new_diagnostic/E3R_RESULTS.json,schemes.circular.statistics.C.theta_q025_median_q975
+Table S9,A Leave-one-month-out θ range bound0,0.8395627974095312,0.8396,support/new_diagnostic/E3R_RESULTS.json,leave_month_ranges.A.theta
+Table S9,A Leave-one-month-out θ range bound1,0.8626424330489667,0.8626,support/new_diagnostic/E3R_RESULTS.json,leave_month_ranges.A.theta
+Table S9,C Leave-one-month-out θ range bound0,0.8230450080482384,0.8230,support/new_diagnostic/E3R_RESULTS.json,leave_month_ranges.C.theta
+Table S9,C Leave-one-month-out θ range bound1,0.8569299253915329,0.8569,support/new_diagnostic/E3R_RESULTS.json,leave_month_ranges.C.theta

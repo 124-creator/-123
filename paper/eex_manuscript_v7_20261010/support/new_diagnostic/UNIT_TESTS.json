@@ -1,0 +1,12 @@
+{
+  "passed": 6,
+  "checks": [
+    "343 and 729 equiprobable ordered tuples",
+    "Every tuple has nine month positions",
+    "Non-circular expected month multiplicities",
+    "Circular equal marginal month inclusion",
+    "Synthetic weighted within/dummy projection agreement",
+    "Synthetic multiplicity equals explicit repeated rows"
+  ],
+  "synthetic_not_market_evidence": true
+}

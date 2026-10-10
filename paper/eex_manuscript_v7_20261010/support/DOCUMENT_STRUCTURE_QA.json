@@ -1,0 +1,29 @@
+{
+  "scope": "document integration only; new statistical computations stored separately",
+  "documents": {
+    "MANUSCRIPT_EN_v7.docx": {
+      "sha256": "ac5fa90309e677edd0ac88d8d356d86e14319b8ea6272aa0b2b1db197d4fead9",
+      "math_objects": 51,
+      "old_math_objects_identical": true,
+      "old_tables_identical": true,
+      "tables_including_panels": 8,
+      "figures": 3
+    },
+    "ONLINE_RESOURCE_1_v7.docx": {
+      "sha256": "4c949b97b1998282f1f0eecc9cacc9b88100612f9bec87f079538b4b065e00fe",
+      "math_objects": 58,
+      "old_math_objects_identical": true,
+      "old_tables_identical": true,
+      "tables_including_panels": 10,
+      "figures": 0
+    },
+    "TITLE_PAGE_v7.docx": {
+      "sha256": "e7ecf9c089f7d66fcd11f76957968b42789c7fbc491d93c526f99708a5ecad5f",
+      "math_objects": 0,
+      "old_math_objects_identical": true,
+      "old_tables_identical": true,
+      "tables_including_panels": 0,
+      "figures": 0
+    }
+  }
+}

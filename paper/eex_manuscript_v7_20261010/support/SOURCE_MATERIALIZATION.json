@@ -1,0 +1,18 @@
+{
+  "source_payload_sha256": "5fd8ccb1dd6858d9651809d2f0e2e5b2637a1ae0442a39153b1147e16acaee2f",
+  "reviewed_sources": {
+    "tools/build_integrated.py": "d0e0592a5c8b6632076b203a10c70f3c9f7acb68af91a37f21119d2ebf7530a9",
+    "tools/verify_integration.py": "dbc70fe24e07a11b97085528f9b444bac58af3ab19f20ad22e8d5cf94456778d",
+    "support/REVISION_PLAN.json": "05c2658a6eecc8245ac6052bb4c9910060a781bfc12e29396872dcc830339865",
+    "START_HERE.md": "984ffc8e7f4d7ed3188c99d3f906cbfd4f5e65765b65243925aed4f69b554642",
+    "REPORT_ZH.md": "fa4203e13184bcf6321aa5e063359cb48fbad20977b9cda8b064c9702b2bf5d3",
+    "JOURNAL_COMPLIANCE_V7.md": "4cc518b56402ddcdfe9991018f77e6c138ddaac5810453dc890b935015509559",
+    "DATA_ACCESS_LEDGER.json": "d40292cf14b138ffaf5c3343257ef4c9466cc895219e008a92d02f3a4b19eb9f",
+    "AUTHOR_STATUS.json": "f7b84b2dc0faa33425a64739e71c6679b09592aac8f6493eda8c84eee3b35e78",
+    "AGENTS.md": "10ca73a4e3fcf5e768212641eae9a2e2f08c8640755cd17b67c85ace7457b42a",
+    "references.bib": "6af1aeffd42283b0c3f417ccb38065752aa698d30d055ccdc5cc7808ea7465c9",
+    "tables/INTEGRATED_NUMERIC_LEDGER.csv": "574d178e6418a8be292d0ce6fd6d6109bd641908cbc37e4dd2754cf5e91bdd80"
+  },
+  "new_market_estimation": false,
+  "copied_evidence": "Prior E1/E3 and separately committed E3R aggregate outputs; no new raw source"
+}

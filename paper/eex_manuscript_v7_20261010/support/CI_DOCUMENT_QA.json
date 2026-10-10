@@ -1,0 +1,19 @@
+{
+  "source_commit": "3a922ad64f590efa4252ab425c25d0405693c501",
+  "scope": "document build and previously computed number checks only",
+  "new_fits": 0,
+  "new_resamples": 0,
+  "document_xml": {
+    "MANUSCRIPT_EN_v7.docx": "27ce2d9ab7ec5afbef2aec6b5fc1aa4bf2661210ce72853aa6ee4d28256c15ea",
+    "ONLINE_RESOURCE_1_v7.docx": "59b8addbc9b8f7e6bdf34932a0d43948de7e17eefff99ccab7bff757bd1bc8fa",
+    "TITLE_PAGE_v7.docx": "c2526c43edd0a4922131b7ca028b9f477df49e3e4b348b1673847f08768b664f"
+  },
+  "files": {
+    "MANUSCRIPT_EN_v7.docx": "ac5fa90309e677edd0ac88d8d356d86e14319b8ea6272aa0b2b1db197d4fead9",
+    "ONLINE_RESOURCE_1_v7.docx": "4c949b97b1998282f1f0eecc9cacc9b88100612f9bec87f079538b4b065e00fe",
+    "TITLE_PAGE_v7.docx": "e7ecf9c089f7d66fcd11f76957968b42789c7fbc491d93c526f99708a5ecad5f"
+  },
+  "old_formula_repair_preserved": true,
+  "raw_sources_republished": false,
+  "author_final_approval": false
+}

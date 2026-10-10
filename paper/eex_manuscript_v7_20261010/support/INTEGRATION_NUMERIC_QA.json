@@ -1,0 +1,16 @@
+{
+  "new_numeric_ledger_entries": 70,
+  "new_table_objects_compared": 5,
+  "finite_quantile_endpoints_recomputed": 24,
+  "enumerated_rows_read": 2144,
+  "abstract_words": 208,
+  "old_table_and_math_checks": "See DOCUMENT_STRUCTURE_QA.json; old blocks byte/canonical-identical, not a new market replication",
+  "preserved_repaired_inline_subscript_words": true,
+  "new_fits_in_document_audit": 0,
+  "new_market_tests_in_document_audit": 0,
+  "E3R_runner_fits": 2172,
+  "E2_price_regressions": 0,
+  "funding": "none, user confirmed",
+  "review": "Xiang Wang reviewed preceding version; integrated revision not automatically approved",
+  "publication_probability_claim": false
+}
