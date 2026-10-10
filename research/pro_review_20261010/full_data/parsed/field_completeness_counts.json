@@ -1,0 +1,99 @@
+{
+  "total_dated_rows": 1327,
+  "candidate": 1281,
+  "numeric_eligible": 1281,
+  "status": {
+    "successful": 1324,
+    "cancelled": 3
+  },
+  "candidate_year_venue": {
+    "2020_EU": 139,
+    "2020_DE": 46,
+    "2020_PL": 24,
+    "2021_EU": 132,
+    "2021_DE": 45,
+    "2021_PL": 46,
+    "2022_EU": 142,
+    "2022_DE": 46,
+    "2022_PL": 23,
+    "2023_EU": 143,
+    "2023_DE": 47,
+    "2023_PL": 24,
+    "2024_EU": 142,
+    "2024_DE": 46,
+    "2024_PL": 24,
+    "2025_EU": 142,
+    "2025_DE": 45,
+    "2025_PL": 25
+  },
+  "missing_candidate_fields": {
+    "V": 0,
+    "B": 0,
+    "bid_count": 0,
+    "successful_bid_count": 0,
+    "mean_bids_per_bidder": 0,
+    "mean_bid_size": 0,
+    "mu_B": 0,
+    "sd_B": 0,
+    "mu_W": 0,
+    "sd_W": 0,
+    "R": 0,
+    "N": 0,
+    "S": 0
+  },
+  "test_consistency": {
+    "B_over_N": 1281,
+    "V_over_S": 1281,
+    "V_over_N": 18,
+    "B_over_V": 1281,
+    "B_over_bid_count": 1281,
+    "bids_over_N": 1281
+  },
+  "unique_dates": 1281,
+  "duplicate_keys": 0,
+  "formats": {
+    "V": [
+      "#,##0"
+    ],
+    "B": [
+      "#,##0"
+    ],
+    "bid_count": [
+      "#,##0"
+    ],
+    "successful_bid_count": [
+      "#,##0"
+    ],
+    "mean_bids_per_bidder": [
+      "0.00"
+    ],
+    "mean_bid_size": [
+      "#,##0"
+    ],
+    "mu_B": [
+      "#,##0"
+    ],
+    "sd_B": [
+      "#,##0"
+    ],
+    "mu_W": [
+      "#,##0"
+    ],
+    "sd_W": [
+      "#,##0"
+    ],
+    "R": [
+      "0.00"
+    ],
+    "N": [
+      "#,##0"
+    ],
+    "S": [
+      "#,##0"
+    ]
+  },
+  "SD_official_population": "unknown",
+  "SD_ddof": "unknown",
+  "mean_interpretation_grade": "consistent-but-unverified",
+  "same_day_multi_venue_dates": 0
+}

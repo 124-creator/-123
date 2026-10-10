@@ -12,15 +12,15 @@
 全部1281场成功EUA、2020—2025、EU/DE/PL；不同项目/序列，不称独立碳市场。
 原log1p beta=0.880231483，原区间引用既有独立复核。本轮普通log beta=0.879726344，999次3月块区间[0.760931257,0.997876241]。全部样本SD正值，无变换导致的删行。原始结果已见，本轮是post-result exploratory，不是原预设、预注册或未触碰验证。
 
-## 为什么不是完整原始数据包
+## 后续更新：完整输入已补齐
 
-未确认EEX完整行情/拍卖原件的再发布许可，因此不公开逐场CSV、工作簿或可重构完整行情的逐行导出；论文全文也不上传。不是技术不能上传，也不是认定所有这些材料都禁止再发布。此目录提供可公开的派生汇总、系数draw、底稿正文和自写计算脚本；不能凭这些文件独立重算1281场回归。
+首版只有汇总；用户随后明确要求上传完整输入。现见 [../full_data/README.md](../full_data/README.md)：六份原始年度XLSX、全部1281场逐行样本、筛选前1327行和46条排除流水均已提供。读者可以从原件核查并重新计算。请不要继续引用首版“缺少逐场输入”的状态。数据来源与第三方权利边界见完整数据说明，论文全文仍不上传。
 官方来源入口（未在本次发布中重新访问）：
 https://www.eex.com/en/market-data/market-data-hub/environmentals/eex-eua-primary-auction-spot-download
 
 ## 代码与口径
 
-SCRIPT.py是本轮自写静态数据/OLS检查代码，不是旧作者模型。PROTOCOL.json保留来源hash，但将个人路径替换为local_only目录。输入数据不随包分发：如有合法取得且与列示hash相符的原文件，可按协议提供；否则不要绕过hash检查。可在不取得原数据的情况下运行 `python -B SCRIPT.py --self-test`，它只检验合成数学例子、OLS/FWL与损坏输入拒绝，不生成市场结果。
+SCRIPT.py是本轮自写静态数据/OLS检查代码，不是旧作者模型。PROTOCOL.json保留来源hash，将个人路径替换为local_only目录；这是历史计算的脱敏导出，不能直接视为完整新执行接口。后续补齐的输入和独立原件核查程序位于../full_data，读者应据实际字段重新解析，不绕过hash检查。`python -B SCRIPT.py --self-test`只检验合成数学例子、OLS/FWL与损坏输入拒绝，不生成市场结果。
 VERIFICATION.json是执行时回执的脱敏导出，里面protocol_sha256指向原冻结协议，不是公开改路径版本。PUBLICATION_RECEIPTS.json区分原文件身份与公开副本身份。MANIFEST.json记录本目录公开字节，hash不是来源真实性或事前冻结认证。
 
 ## 判读限制

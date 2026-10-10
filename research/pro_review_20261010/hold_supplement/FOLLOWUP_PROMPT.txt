@@ -1,6 +1,6 @@
 请继续你对固定提交37a3a8ad7df95562095a2b964256eb5013d45d91作出的EEX限时HOLD裁决，不重新进行广泛选点。
 
-本次新增目录hold_supplement，请完整读取README.md、DEFINITION_REPORT.md、INDEPENDENT_REVIEW_REPORT.md、TRANSFORM_REPORT.md、RESULTS.json、TABLE.csv，并核对BOOTSTRAP.csv确有999个draw（draw不是独立拍卖样本）。先明确实际读取范围。代码、协议和回执也可用于检查设计，但原1281场逐行数据不在公开包，不能声称已独立复算市场回归。
+本次补件包括hold_supplement与full_data。请完整读取两份底稿、新结果表，并下载full_data/EEX_FULL_DATA.zip。里面包含2020—2025六份原始XLSX、全部1281场主样本、筛选前1327行和46条排除流水。现在可以重新解析、独立实算A/B/C，不要只复述摘要；没有实际执行就不要声称独立复算。BOOTSTRAP.csv的999个draw不是独立拍卖样本。请先明确实际读取与运行范围。
 
 补件事实：同一1281场、两SD零值0；原log1p点估计复现，旧bootstrap区间没有重跑；普通log新999次3月移动块CI为[0.7609312566800983,0.9978762406421822]。真实字段有舍入，以隐含均值和R构造后的残差等价是纯代数，不是经济发现。报告关系在这次固定检查下为正；探索性、群体/ddof未知及首次冻结PARTIAL均未消失。
 

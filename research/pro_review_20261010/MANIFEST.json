@@ -1,7 +1,7 @@
 {
   "schema": "byte-manifest-v1",
   "self_excluded": "MANIFEST.json",
-  "file_count_excluding_self": 22,
+  "file_count_excluding_self": 38,
   "files": [
     {
       "path": ".gitattributes",
@@ -19,6 +19,86 @@
       "sha256": "545258c7bd9b2c1aa0bb77e6bed7f35cc980141eb515f9033c4b60625d7b2bb9"
     },
     {
+      "path": "full_data/EEX_FULL_DATA.zip",
+      "bytes": 1020365,
+      "sha256": "5de9627185542751454f5a1487291463fd4852f87f5f3521232a0d9d6e3daf93"
+    },
+    {
+      "path": "full_data/INPUT_MANIFEST.json",
+      "bytes": 3980,
+      "sha256": "7dca0c48ee5b1f206b2fe0de8a72c32700b6190d25bd070e72e978307813cbea"
+    },
+    {
+      "path": "full_data/MANIFEST.json",
+      "bytes": 2751,
+      "sha256": "4842d5c291063e131f2fd016f3c684d433b331c2269989f9b9312ddd7c3c5912"
+    },
+    {
+      "path": "full_data/parsed/candidate_dispersion.csv",
+      "bytes": 920127,
+      "sha256": "8440285e78373e84b07e52db50ae5d3ed548e232de42c67045420ee88692b101"
+    },
+    {
+      "path": "full_data/parsed/extraction_all_2020_2025.csv",
+      "bytes": 935290,
+      "sha256": "0617ad8392762e091b927f793d677826ec0958c2a2ffc7024860e7ee79312ca3"
+    },
+    {
+      "path": "full_data/parsed/field_completeness_counts.json",
+      "bytes": 1758,
+      "sha256": "af245dbf75eb2ce35d29557b48a6e0400c2f088998eb96685661aafdbf8c43ad"
+    },
+    {
+      "path": "full_data/parsed/raw_field_cells.json",
+      "bytes": 2463763,
+      "sha256": "ccba7bfbc4104db2038182e59108d39ef2d71740e763d76d611330274d2b1d83"
+    },
+    {
+      "path": "full_data/parsed/row_exclusions.csv",
+      "bytes": 14164,
+      "sha256": "8a4f7b4ffc417d6f9bbd7963fea79e121b71cda20659b3e63dcba4023860672e"
+    },
+    {
+      "path": "full_data/raw/emission-spot-primary-market-auction-report-2020-data.xlsx",
+      "bytes": 82938,
+      "sha256": "9437b244c9f9e9ae0ef442e70604bd6cf5bdad5ede852651fad3e775f1679b92"
+    },
+    {
+      "path": "full_data/raw/emission-spot-primary-market-auction-report-2021-data.xlsx",
+      "bytes": 87483,
+      "sha256": "7a5b75bf9e876a066cd07114816b41328891d591a99a0f12a72e8f438f5a6ec5"
+    },
+    {
+      "path": "full_data/raw/emission-spot-primary-market-auction-report-2022-data.xlsx",
+      "bytes": 86849,
+      "sha256": "f370f57d8e4fb3c613ba86471e198ff48c2b98376ccf6073c4f9009b9cb045c4"
+    },
+    {
+      "path": "full_data/raw/emission-spot-primary-market-auction-report-2023-data.xlsx",
+      "bytes": 88714,
+      "sha256": "3d6f474c92a0961966683f688227b5d0ab5cc4ee1bd35c36cc4933440320dd37"
+    },
+    {
+      "path": "full_data/raw/emission-spot-primary-market-auction-report-2024-data.xlsx",
+      "bytes": 89056,
+      "sha256": "eeb636efcc64d6a7f3aaa9877cb6060b3601754a7476ca94419a2da611796fcd"
+    },
+    {
+      "path": "full_data/raw/emission-spot-primary-market-auction-report-2025-data.xlsx",
+      "bytes": 87659,
+      "sha256": "37baf2b0175624e3c420f0d6ca265b14da0d6e48f4b3d459a18fcacaf0a2a6d8"
+    },
+    {
+      "path": "full_data/README.md",
+      "bytes": 2429,
+      "sha256": "528a86ec3a19ad4cbaf1663efc06177b8d376ec758993fdcc2b6310af1c7620b"
+    },
+    {
+      "path": "full_data/verify_data.py",
+      "bytes": 5396,
+      "sha256": "91123a753f48641a177d75b74f6e574c3270c6a1accdd48b9d803ca1b1928b88"
+    },
+    {
       "path": "hold_supplement/BOOTSTRAP.csv",
       "bytes": 22741,
       "sha256": "6cadd34c609995254b063aedc27d55b4aa1d41b4faf491bdebe0b6b916e93433"
@@ -30,8 +110,8 @@
     },
     {
       "path": "hold_supplement/FOLLOWUP_PROMPT.txt",
-      "bytes": 2090,
-      "sha256": "443f8c6c2c543ea6047349f23fbffabd889165ec85771194cce02c2c4af7f5bd"
+      "bytes": 2135,
+      "sha256": "0af741fe70bfe2aa740ae2eef61ff48a84cd5640542c5a659e18ae5005a230e5"
     },
     {
       "path": "hold_supplement/INDEPENDENT_REVIEW_REPORT.md",
@@ -41,7 +121,7 @@
     {
       "path": "hold_supplement/MANIFEST.json",
       "bytes": 1938,
-      "sha256": "0fed1a8b8867d29dc65a6e90e4200de970907d9bfc1675112d2ee51f65ad2f6a"
+      "sha256": "9a5699d9b2378ec1e3662a9651f7ec93cdbcca3a875f0f8dbaf63cd70c89b3cb"
     },
     {
       "path": "hold_supplement/PROTOCOL.json",
@@ -55,8 +135,8 @@
     },
     {
       "path": "hold_supplement/README.md",
-      "bytes": 2963,
-      "sha256": "03e59d96b741600191ad6938199429ddc549a9df1d65f04e5b1951c569244eba"
+      "bytes": 3021,
+      "sha256": "0892cd669b3399865c6de9ae154940e792681630b54bf0dad6bfc5e966c6ce60"
     },
     {
       "path": "hold_supplement/RESULTS.json",
@@ -110,8 +190,8 @@
     },
     {
       "path": "START_HERE.md",
-      "bytes": 2086,
-      "sha256": "a366d111322d5391525259880c50f349f82f8277798422a4c8e7bbcc9ce9290c"
+      "bytes": 2452,
+      "sha256": "9ddeeaa2e46404c38c2bfd9899ad6ad8370f07f06a89b0375cd6c0c5d44b8e4b"
     }
   ]
 }

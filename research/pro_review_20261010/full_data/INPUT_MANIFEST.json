@@ -1,0 +1,101 @@
+{
+  "files": [
+    {
+      "path": "raw/emission-spot-primary-market-auction-report-2020-data.xlsx",
+      "bytes": 82938,
+      "sha256": "9437b244c9f9e9ae0ef442e70604bd6cf5bdad5ede852651fad3e775f1679b92",
+      "source_file": "emission-spot-primary-market-auction-report-2020-data.xlsx",
+      "copied_without_changes": true,
+      "kind": "original_annual_workbook"
+    },
+    {
+      "path": "raw/emission-spot-primary-market-auction-report-2021-data.xlsx",
+      "bytes": 87483,
+      "sha256": "7a5b75bf9e876a066cd07114816b41328891d591a99a0f12a72e8f438f5a6ec5",
+      "source_file": "emission-spot-primary-market-auction-report-2021-data.xlsx",
+      "copied_without_changes": true,
+      "kind": "original_annual_workbook"
+    },
+    {
+      "path": "raw/emission-spot-primary-market-auction-report-2022-data.xlsx",
+      "bytes": 86849,
+      "sha256": "f370f57d8e4fb3c613ba86471e198ff48c2b98376ccf6073c4f9009b9cb045c4",
+      "source_file": "emission-spot-primary-market-auction-report-2022-data.xlsx",
+      "copied_without_changes": true,
+      "kind": "original_annual_workbook"
+    },
+    {
+      "path": "raw/emission-spot-primary-market-auction-report-2023-data.xlsx",
+      "bytes": 88714,
+      "sha256": "3d6f474c92a0961966683f688227b5d0ab5cc4ee1bd35c36cc4933440320dd37",
+      "source_file": "emission-spot-primary-market-auction-report-2023-data.xlsx",
+      "copied_without_changes": true,
+      "kind": "original_annual_workbook"
+    },
+    {
+      "path": "raw/emission-spot-primary-market-auction-report-2024-data.xlsx",
+      "bytes": 89056,
+      "sha256": "eeb636efcc64d6a7f3aaa9877cb6060b3601754a7476ca94419a2da611796fcd",
+      "source_file": "emission-spot-primary-market-auction-report-2024-data.xlsx",
+      "copied_without_changes": true,
+      "kind": "original_annual_workbook"
+    },
+    {
+      "path": "raw/emission-spot-primary-market-auction-report-2025-data.xlsx",
+      "bytes": 87659,
+      "sha256": "37baf2b0175624e3c420f0d6ca265b14da0d6e48f4b3d459a18fcacaf0a2a6d8",
+      "source_file": "emission-spot-primary-market-auction-report-2025-data.xlsx",
+      "copied_without_changes": true,
+      "kind": "original_annual_workbook"
+    },
+    {
+      "path": "parsed/candidate_dispersion.csv",
+      "bytes": 920127,
+      "sha256": "8440285e78373e84b07e52db50ae5d3ed548e232de42c67045420ee88692b101",
+      "source_file": "candidate_dispersion.csv",
+      "copied_without_changes": true,
+      "kind": "parsed_or_cell_trace"
+    },
+    {
+      "path": "parsed/extraction_all_2020_2025.csv",
+      "bytes": 935290,
+      "sha256": "0617ad8392762e091b927f793d677826ec0958c2a2ffc7024860e7ee79312ca3",
+      "source_file": "extraction_all_2020_2025.csv",
+      "copied_without_changes": true,
+      "kind": "parsed_or_cell_trace"
+    },
+    {
+      "path": "parsed/row_exclusions.csv",
+      "bytes": 14164,
+      "sha256": "8a4f7b4ffc417d6f9bbd7963fea79e121b71cda20659b3e63dcba4023860672e",
+      "source_file": "row_exclusions.csv",
+      "copied_without_changes": true,
+      "kind": "parsed_or_cell_trace"
+    },
+    {
+      "path": "parsed/raw_field_cells.json",
+      "bytes": 2463763,
+      "sha256": "ccba7bfbc4104db2038182e59108d39ef2d71740e763d76d611330274d2b1d83",
+      "source_file": "raw_field_cells.json",
+      "copied_without_changes": true,
+      "kind": "parsed_or_cell_trace"
+    },
+    {
+      "path": "parsed/field_completeness_counts.json",
+      "bytes": 1758,
+      "sha256": "af245dbf75eb2ce35d29557b48a6e0400c2f088998eb96685661aafdbf8c43ad",
+      "source_file": "field_completeness_counts.json",
+      "copied_without_changes": true,
+      "kind": "parsed_or_cell_trace"
+    }
+  ],
+  "row_counts": {
+    "candidate_dispersion.csv": 1281,
+    "extraction_all_2020_2025.csv": 1327,
+    "row_exclusions.csv": 46
+  },
+  "workbooks": 6,
+  "sensitive_findings": [],
+  "full_data_included": true,
+  "scope": "Complete inputs to the current 2020-2025 EEX dispersion experiment, not all carbon datasets on this computer"
+}
