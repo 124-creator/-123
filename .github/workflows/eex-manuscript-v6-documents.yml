@@ -1,0 +1,90 @@
+name: EEX v6 author and journal documents only
+on:
+  push:
+    branches: [eex-manuscript-v6-20261010]
+    paths:
+      - 'paper/eex_manuscript_v6_20261010/source_payload/**'
+      - '.github/workflows/eex-manuscript-v6-documents.yml'
+permissions:
+  contents: write
+jobs:
+  documents:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      MPLBACKEND: Agg
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: eex-manuscript-v6-20261010
+          fetch-depth: 1
+      - name: Install document-only build dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-croscore fonts-liberation libreoffice-writer python3-venv
+          python3 -m venv /tmp/eex-docs-venv
+          /tmp/eex-docs-venv/bin/pip install --disable-pip-version-check numpy==2.3.5 matplotlib==3.10.8 python-docx==1.2.0 lxml==6.1.1
+          curl --fail --location --max-time 120 https://github.com/jgm/pandoc/releases/download/3.1.11.1/pandoc-3.1.11.1-linux-amd64.tar.gz -o /tmp/eex-pandoc.tar.gz
+          tar -xzf /tmp/eex-pandoc.tar.gz -C /tmp
+          sudo install /tmp/pandoc-3.1.11.1/bin/pandoc /usr/local/bin/pandoc
+      - name: Verify reviewed sources and build documents without experiments
+        run: |
+          python3 paper/eex_manuscript_v6_20261010/source_payload/materialize_reviewed_sources.py
+          /tmp/eex-docs-venv/bin/python -B paper/eex_manuscript_v6_20261010/tools/build_figures.py
+          /tmp/eex-docs-venv/bin/python -B paper/eex_manuscript_v6_20261010/tools/build_manuscript.py
+          mkdir -p /tmp/eex-v6-si-pdf /tmp/eex-v6-lohome
+          HOME=/tmp/eex-v6-lohome timeout 240 libreoffice -env:UserInstallation=file:///tmp/eex-v6-lo-profile --headless --convert-to pdf --outdir /tmp/eex-v6-si-pdf paper/eex_manuscript_v6_20261010/ONLINE_RESOURCE_1_v6.docx
+          cp /tmp/eex-v6-si-pdf/ONLINE_RESOURCE_1_v6.pdf paper/eex_manuscript_v6_20261010/ESM_1.pdf
+      - name: Check author order and document structure
+        run: |
+          /tmp/eex-docs-venv/bin/python - <<'PY'
+          from pathlib import Path
+          from docx import Document
+          import json, hashlib, os
+          root = Path('paper/eex_manuscript_v6_20261010')
+          expected = [('MANUSCRIPT_EN_v6.docx',6,3),('ONLINE_RESOURCE_1_v6.docx',7,0),('TITLE_PAGE_v6.docx',0,0)]
+          receipt = {'scope':'remote document build only; no raw input audit or statistical fitting', 'source_commit':os.environ['GITHUB_SHA'], 'new_fits':0, 'new_resamples':0, 'files':{}}
+          for name, tables, figures in expected:
+              doc = Document(root/name)
+              text = '\n'.join(p.text for p in doc.paragraphs)
+              required = ['Zhongfei Tian','Xiang Wang','Zhengzhou University of Aeronautics','15517837680@163.com']
+              if not all(s in text for s in required): raise ValueError('Missing supplied author information: '+name)
+              if text.index('Zhongfei Tian') > text.index('Xiang Wang'): raise ValueError('Author order')
+              if '.cam' in text or '1976' in text or '2001' in text: raise ValueError('Unconfirmed or irrelevant author data')
+              if len(doc.tables)!=tables or len(doc.inline_shapes)!=figures: raise ValueError('Document structure differs: '+name)
+              receipt['files'][name]={'sha256':hashlib.sha256((root/name).read_bytes()).hexdigest(),'tables_including_panels':tables,'figures':figures}
+          manifest = json.loads((root/'support/source_materialization_receipt.json').read_text())
+          for name,digest in manifest['files'].items():
+              if hashlib.sha256((root/name).read_bytes()).hexdigest()!=digest: raise ValueError('Source altered during build')
+          receipt['files']['ESM_1.pdf']={'sha256':hashlib.sha256((root/'ESM_1.pdf').read_bytes()).hexdigest()}
+          receipt['reviewed_source_hashes_passed']=True
+          receipt['author_consent_certified']=False
+          receipt['ready_to_submit']=False
+          (root/'support/ci_build_receipt.json').write_text(json.dumps(receipt,indent=2))
+          print(json.dumps(receipt,indent=2))
+          PY
+      - name: Commit only new manuscript documents to the dedicated branch
+        run: |
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git ls-remote origin refs/heads/eex-manuscript-v6-20261010 | cut -f1)" = "$GITHUB_SHA"
+          rm -rf paper/eex_manuscript_v6_20261010/_build
+          find paper/eex_manuscript_v6_20261010 -type d -name __pycache__ -prune -exec rm -rf '{}' +
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- paper/eex_manuscript_v6_20261010
+          git diff --cached --name-only | grep -v '^paper/eex_manuscript_v6_20261010/' && exit 1 || true
+          git commit -m 'paper: build author-complete v6 review documents without new estimation'
+          git push origin HEAD:refs/heads/eex-manuscript-v6-20261010
+      - name: Attach built documents for independent readback
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: eex-v6-built-manuscript
+          retention-days: 7
+          path: |
+            paper/eex_manuscript_v6_20261010/*.docx
+            paper/eex_manuscript_v6_20261010/ESM_1.pdf
+            paper/eex_manuscript_v6_20261010/figures/*.png
+            paper/eex_manuscript_v6_20261010/support/ci_build_receipt.json
+            paper/eex_manuscript_v6_20261010/support/source_materialization_receipt.json
