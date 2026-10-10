@@ -1,0 +1,64 @@
+name: EEX formula repair documents only
+on:
+  push:
+    branches: [eex-formula-fix-20261010]
+    paths:
+      - 'paper/eex_formula_fix_20261010/tools/repair_v6.py'
+      - '.github/workflows/eex-formula-fix-documents.yml'
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: eex-formula-fix-20261010
+          fetch-depth: 1
+      - name: Install document repair dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq python3-venv libreoffice-writer fonts-liberation fonts-croscore
+          python3 -m venv /tmp/eex-repair-env
+          /tmp/eex-repair-env/bin/pip install lxml==6.1.1
+      - name: Apply exact original-document repair and verify reviewed XML
+        run: |
+          /tmp/eex-repair-env/bin/python paper/eex_formula_fix_20261010/tools/repair_v6.py --source paper/eex_manuscript_v6_20261010 --out paper/eex_formula_fix_20261010
+          /tmp/eex-repair-env/bin/python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          import hashlib,json
+          root=Path('paper/eex_formula_fix_20261010')
+          expected={'MANUSCRIPT_EN_v6.docx':'ee749d7f1ee6599c4984471c1e85c0638a84b3cf31d593dbb2d573bf8478e0ca','ONLINE_RESOURCE_1_v6.docx':'c048b42e0b4ce0a8d2ac24314d543c04950af4ae741dd1c08042b79fd3ded78c','TITLE_PAGE_v6.docx':'f178e5da9e5835014efbbdca16f6a01d1b934c91fe64cb1e21637696ab7ce98a'}
+          for name,digest in expected.items():
+              with ZipFile(root/name) as z:
+                  actual=hashlib.sha256(z.read('word/document.xml')).hexdigest()
+              if actual!=digest: raise ValueError('Not identical to locally reviewed document XML: '+name)
+          (root/'support/REMOTE_XML_CHECK.json').write_text(json.dumps({'reviewed_document_xml_sha256':expected,'all_equal':True,'market_estimation_performed':False,'user_application_tested':False},indent=2))
+          PY
+      - name: Update supplementary PDF from the repaired Word
+        run: |
+          mkdir -p /tmp/eex-fix-pdf /tmp/eex-fix-home
+          HOME=/tmp/eex-fix-home timeout 240 libreoffice -env:UserInstallation=file:///tmp/eex-fix-profile --headless --convert-to pdf --outdir /tmp/eex-fix-pdf paper/eex_formula_fix_20261010/ONLINE_RESOURCE_1_v6.docx
+          cp /tmp/eex-fix-pdf/ONLINE_RESOURCE_1_v6.pdf paper/eex_formula_fix_20261010/ESM_1.pdf
+      - name: Commit repaired documents only to this dedicated branch
+        run: |
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git ls-remote origin refs/heads/eex-formula-fix-20261010 | cut -f1)" = "$GITHUB_SHA"
+          find paper/eex_formula_fix_20261010 -type d -name __pycache__ -prune -exec rm -rf '{}' +
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- paper/eex_formula_fix_20261010
+          git diff --cached --name-only | grep -v '^paper/eex_formula_fix_20261010/' && exit 1 || true
+          git commit -m 'fix: publish checked editable math and confirmed funding/review statements'
+          git push origin HEAD:refs/heads/eex-formula-fix-20261010
+      - name: Attach repaired files for readback
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: eex-formula-repair-documents
+          retention-days: 7
+          path: |
+            paper/eex_formula_fix_20261010/*.docx
+            paper/eex_formula_fix_20261010/ESM_1.pdf
+            paper/eex_formula_fix_20261010/support/*.json
