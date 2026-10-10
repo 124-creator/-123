@@ -1,0 +1,69 @@
+name: EEX bounded new-time evidence gate
+on:
+  push:
+    branches: [eex-evidence-strengthening-20261010]
+    paths:
+      - 'research/eex_evidence_strengthening_20261010/source_payload/**'
+      - '.github/workflows/eex-strengthening-newtime.yml'
+permissions:
+  contents: write
+jobs:
+  newtime:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: eex-evidence-strengthening-20261010
+          fetch-depth: 1
+      - name: Restore reviewed code and isolated dependencies
+        run: |
+          python3 research/eex_evidence_strengthening_20261010/source_payload/materialize_code.py
+          python3 -m venv /tmp/eex-strengthening-env
+          /tmp/eex-strengthening-env/bin/pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+      - name: Single official-source acquisition and fixed Jan-Sep check
+        run: |
+          set +e
+          OUT=research/eex_evidence_strengthening_20261010/results/newtime_2026
+          mkdir -p "$OUT"
+          URL=https://public.eex-group.com/eex/eua-auction-report/emission-spot-primary-market-auction-report-2026-data.xlsx
+          curl --fail --location --max-time 90 "$URL" -o /tmp/eex-primary-2026.xlsx 2>"$OUT/download_stderr.txt"
+          CURL_STATUS=$?
+          echo "$CURL_STATUS" > "$OUT/download_exit_code.txt"
+          export CURL_STATUS OUT
+          if [ "$CURL_STATUS" = 0 ]; then
+            /tmp/eex-strengthening-env/bin/python -B research/eex_evidence_strengthening_20261010/code/run_newtime_2026.py --input /tmp/eex-primary-2026.xlsx --out "$OUT" > "$OUT/execution_log.txt" 2>&1
+            echo "$?" > "$OUT/python_exit_code.txt"
+          else
+            python3 - <<'PY'
+          import os,json
+          from pathlib import Path
+          from datetime import datetime,timezone
+          Path(os.environ['OUT'],'NEW_TIME_RESULTS.json').write_text(json.dumps({'status':'HOLD','reason':'Single official-source download failed; no mirror or source-denial retry','curl_exit_code':int(os.environ['CURL_STATUS']),'attempt_utc':datetime.now(timezone.utc).isoformat(),'fits':0,'raw_republished':False,'period':'2026-01-01 through 2026-09-30'},indent=2))
+          PY
+          fi
+          rm -f /tmp/eex-primary-2026.xlsx
+          test -f "$OUT/NEW_TIME_RESULTS.json"
+      - name: Commit code and numerical outputs only
+        run: |
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git ls-remote origin refs/heads/eex-evidence-strengthening-20261010 | cut -f1)" = "$GITHUB_SHA"
+          find research/eex_evidence_strengthening_20261010 -type d -name __pycache__ -prune -exec rm -rf '{}' +
+          if find research/eex_evidence_strengthening_20261010 -type f \( -name '*.xlsx' -o -name '*.xls' \) | grep -q .; then echo 'Unexpected raw workbook'; exit 1; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- research/eex_evidence_strengthening_20261010
+          git commit -m 'research: preserve reviewed code and bounded official new-time gate outcome'
+          git push origin HEAD:refs/heads/eex-evidence-strengthening-20261010
+      - name: Attach numerical outputs for readback, excluding raw inputs
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: eex-strengthening-newtime-results
+          retention-days: 7
+          path: |
+            research/eex_evidence_strengthening_20261010/results/newtime_2026/
+            research/eex_evidence_strengthening_20261010/audit/REMOTE_SOURCE_RECEIPT.json
