@@ -1,0 +1,56 @@
+{
+  "scope": "this bounded extension only; not whole-repository acceptance",
+  "data_commit": "5745eb3ddca79602346053446583d794b0e09800",
+  "base_result_commit": "e25c1e02e1a58e0aec1084f7419066855e9565ec",
+  "protocol_sha256": "dae33b96e0fe61709696d65d04fabdb746c787cfd29bfb48eb9a778ccbf38b80",
+  "protocol_git_blob": "68154ff9dc24e9a6f140049010536ce341ea8a11",
+  "executed_code_sha256": "2b639c5c8f33ba6025cf57f936baf8680d2514a55822bdfcef062c4ecd7e92ad",
+  "executed_code_git_blob": "592f9199f482edd9d003d16d3318073fc67b367e",
+  "normalized_input_sha256": "28e30965d1b6c7945ae7e4ddb7a6051a1770518cfe152dcef76050d27ff1e8e8",
+  "input_checks": {
+    "workbooks": 6,
+    "dated_rows": 1327,
+    "qualified_rows": 1281,
+    "excluded_rows": 46,
+    "numeric_raw_to_csv": 17251,
+    "numeric_raw_to_trace": 17251,
+    "artifact_tool_to_XML": 17251,
+    "all_numeric_matches": true,
+    "unchanged_input_files_after": 11
+  },
+  "tests": {
+    "distinct_tests": 15,
+    "normal_passed": 15,
+    "optimized_passed": 15,
+    "initial_synthetic_test_failure_fixed_before_real_extension": true,
+    "no_failed_real_resamples_hidden": true
+  },
+  "execution": {
+    "started_utc": "2026-10-10T06:38:01.953730+00:00",
+    "finished_utc": "2026-10-10T06:38:09.211838+00:00",
+    "core_statistics_seconds_excluding_io_and_reporting": 7.227798601000018,
+    "core_fit_requests": 8584,
+    "all_fits_plus_control_projections_crosschecks": 8660,
+    "cap": 9000,
+    "analytical_single_row_diagnostics": 2562,
+    "bootstrap_failures": 0,
+    "Python": "3.13.5", "NumPy": "2.3.5", "SciPy": "1.17.0",
+    "BLAS_threads": 1
+  },
+  "crosscheck": {
+    "real_bootstrap_target_refits": 32,
+    "additional_nuisance_projections": 32,
+    "random_schedules_verified": 1897,
+    "max_beta_difference": 3.063105324940807e-13,
+    "max_theta_difference": 1.2212453270876722e-14,
+    "another_agent_or_dataset": false
+  },
+  "new_market_datasets": 0,
+  "old_author_programs_executed": false,
+  "models_deserialized": false,
+  "external_email": false,
+  "other_AI_models_called": false,
+  "raw_data_republished": false,
+  "whole_repo_S1_pass_claimed": false,
+  "publication_transport_note": "Core source and protocol blobs checked against executed local bytes before referencing them in this commit."
+}

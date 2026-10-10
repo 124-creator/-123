@@ -1,0 +1,91 @@
+{
+  "created_utc": "2026-10-10T06:33:32.565754+00:00",
+  "protocol_id": "EEX_ROUND2_REVIEW_EXTENSION",
+  "base_result_commit": "e25c1e02e1a58e0aec1084f7419066855e9565ec",
+  "data_commit": "5745eb3ddca79602346053446583d794b0e09800",
+  "historical_results_seen": true,
+  "new_extension_results_seen": false,
+  "preregistered": false,
+  "authorization": "Current user requested review and additional experiments; no new markets, forecasts, causal designs or outcome-driven searches.",
+  "scope": "same 2020-2025 successful EUA EU/DE/PL reported-field association",
+  "specifications": [
+    "A log1p",
+    "C natural log"
+  ],
+  "A_equals_B_in_previous_data": "check; never count as separate evidence",
+  "analyses": {
+    "reproduce_original": true,
+    "control_ladder": [
+      "project and year-month FE",
+      "FE plus logV logN",
+      "original FE plus logV logN logR logS"
+    ],
+    "effect_size": "beta, residual correlation theta, partial R2; observed within-control x interquartile difference beta*IQR(rx) reported on response scale, no causal interpretation",
+    "influence": [
+      "leave each calendar month out",
+      "leave each calendar year out",
+      "leave each project out",
+      "leave each single observation: exact OLS deletion formula",
+      "omit top ceil(.01*n) Cook-distance rows once, diagnostics only; all-data estimate remains main"
+    ],
+    "temporal": "2020-2022 versus 2023-2025 split from pre-existing report; fit all nuisance slopes separately, compare beta and theta; no causal break attribution",
+    "yearly": "descriptive estimates only; no six-independent-studies claim",
+    "projects": "EU/DE/PL separate nuisance controls and own month FE, no independent-market claim"
+  },
+  "bootstrap": {
+    "algorithm": "noncircular contiguous calendar month blocks; keep original month FE; whole month multiplicity weights",
+    "block_months": 3,
+    "period_repetitions": 999,
+    "period_rng": [
+      20261010,
+      2,
+      1
+    ],
+    "period_sampling": "independently resample within each original 36-month half; joint projects within months; shared across A,C",
+    "period_primary": "beta_late_minus_beta_early; 97.5% pointwise percentile CIs for each of two transforms as Bonferroni 95% family sensitivity; bootstrap is approximate and exploratory",
+    "period_secondary": "theta contrast descriptive 95% interval, no extra discovery counting",
+    "ladder_repetitions": 499,
+    "ladder_rng": [
+      20261010,
+      2,
+      2
+    ],
+    "project_repetitions": 399,
+    "project_rng": [
+      20261010,
+      2,
+      3
+    ],
+    "calendar": "72 months including empty subgroup months",
+    "failed_draw": "record; never redraw to success; inferential interpretation only if >=95% planned draws valid",
+    "interval_method": "numpy quantile linear; beta/theta separate",
+    "Monte_Carlo_uncertainty": "tails approximate; not significance certification"
+  },
+  "limits": {
+    "max_actual_data_fits": 9000,
+    "max_seconds": 1800,
+    "point_extreme_exclusion_specs": 2,
+    "no_extra_models_or_datasets": true
+  },
+  "decision_rules": [
+    "no guaranteed CAS3 threshold; distinguish technical credibility and contribution",
+    "retain positive association only to extent all-data and sensitivities support",
+    "heterogeneity may restrict a universal claim even if each subgroup is positive",
+    "influence removal is not cleaned main result",
+    "weak or inconclusive outcomes do not authorize further searches",
+    "ddof or absent micro procurement data alone is not a veto for reported-field association"
+  ],
+  "input_sha256": {
+    "raw/emission-spot-primary-market-auction-report-2020-data.xlsx": "9437b244c9f9e9ae0ef442e70604bd6cf5bdad5ede852651fad3e775f1679b92",
+    "raw/emission-spot-primary-market-auction-report-2021-data.xlsx": "7a5b75bf9e876a066cd07114816b41328891d591a99a0f12a72e8f438f5a6ec5",
+    "raw/emission-spot-primary-market-auction-report-2022-data.xlsx": "f370f57d8e4fb3c613ba86471e198ff48c2b98376ccf6073c4f9009b9cb045c4",
+    "raw/emission-spot-primary-market-auction-report-2023-data.xlsx": "3d6f474c92a0961966683f688227b5d0ab5cc4ee1bd35c36cc4933440320dd37",
+    "raw/emission-spot-primary-market-auction-report-2024-data.xlsx": "eeb636efcc64d6a7f3aaa9877cb6060b3601754a7476ca94419a2da611796fcd",
+    "raw/emission-spot-primary-market-auction-report-2025-data.xlsx": "37baf2b0175624e3c420f0d6ca265b14da0d6e48f4b3d459a18fcacaf0a2a6d8",
+    "parsed/candidate_dispersion.csv": "8440285e78373e84b07e52db50ae5d3ed548e232de42c67045420ee88692b101",
+    "parsed/extraction_all_2020_2025.csv": "0617ad8392762e091b927f793d677826ec0958c2a2ffc7024860e7ee79312ca3",
+    "parsed/row_exclusions.csv": "8a4f7b4ffc417d6f9bbd7963fea79e121b71cda20659b3e63dcba4023860672e",
+    "parsed/raw_field_cells.json": "ccba7bfbc4104db2038182e59108d39ef2d71740e763d76d611330274d2b1d83",
+    "parsed/field_completeness_counts.json": "af245dbf75eb2ce35d29557b48a6e0400c2f088998eb96685661aafdbf8c43ad"
+  }
+}
