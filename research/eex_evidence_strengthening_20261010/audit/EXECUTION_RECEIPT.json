@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-10-10T13:22:12.798950+00:00",
+  "elapsed_seconds": 5.232722091000028,
+  "estimation_requests": 12582,
+  "requested_blocks": {
+    "3": 999,
+    "1": 199,
+    "6": 199
+  },
+  "failed_draws": 0,
+  "input_bytes_unchanged": true,
+  "old_baseline_reproduced": true,
+  "original_manuscript_or_results_modified": false,
+  "statistical_scope": "exploratory descriptive overlap-weighted period association",
+  "source_files_after": {
+    "test_strengthening.py": "e048a1c20b940680a1afcb0da90223198f01b27599bdb3c66a373db94c49f90f",
+    "run_strengthening.py": "a90bc0b33a88219e489612748b92e756741f210842e660f74c52f09ec86c531b"
+  }
+}

@@ -1,0 +1,23 @@
+test_ESS (__main__.Tests.test_ESS) ... ok
+test_KS (__main__.Tests.test_KS) ... ok
+test_R2 (__main__.Tests.test_R2) ... ok
+test_balance (__main__.Tests.test_balance) ... ok
+test_block_axis (__main__.Tests.test_block_axis) ... ok
+test_complement (__main__.Tests.test_complement) ... ok
+test_degenerate (__main__.Tests.test_degenerate) ... ok
+test_logit_independent_optimizer (__main__.Tests.test_logit_independent_optimizer) ... ok
+test_logit_multiplicity (__main__.Tests.test_logit_multiplicity) ... ok
+test_missing_reference_category (__main__.Tests.test_missing_reference_category) ... ok
+test_probability_bounds (__main__.Tests.test_probability_bounds) ... ok
+test_projection_full_dummies (__main__.Tests.test_projection_full_dummies) ... ok
+test_projection_multiplicity (__main__.Tests.test_projection_multiplicity) ... ok
+test_propensity_direction (__main__.Tests.test_propensity_direction) ... ok
+test_single_period (__main__.Tests.test_single_period) ... ok
+test_swapped_outcome (__main__.Tests.test_swapped_outcome) ... ok
+test_weight_scaling (__main__.Tests.test_weight_scaling) ... ok
+test_zero_weight_removal (__main__.Tests.test_zero_weight_removal) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.018s
+
+OK

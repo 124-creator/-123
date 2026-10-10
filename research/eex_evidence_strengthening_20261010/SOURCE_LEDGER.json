@@ -1,0 +1,83 @@
+[
+  {
+    "id": "M1",
+    "title": "Balancing Covariates via Propensity Score Weighting",
+    "authors": "Li F; Morgan KL; Zaslavsky AM",
+    "version": "JASA113(521),2018,390–400; author-hosted manuscript consulted",
+    "doi": "10.1080/01621459.2016.1260466",
+    "url": "https://www2.stat.duke.edu/~fl35/papers/psweight_final.pdf",
+    "access": "full author PDF retrieved; directed reading §§2–4.2; relevant exact-balance page screenshot read",
+    "date": "2026-10-10",
+    "use": "descriptive overlap-weight construction and finite-sample fitted-term mean balance; not causal inference or optimality certification for residual correlation",
+    "author_results_reproduced": false
+  },
+  {
+    "id": "M1-metadata",
+    "title": "Duke Scholars publication metadata",
+    "url": "https://scholars.duke.edu/publication/1249925",
+    "access": "official author-institution metadata and abstract",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "D1",
+    "title": "EEX production primary-auction archive",
+    "url": "https://public.eex-group.com/eex/eua-auction-report/",
+    "access": "official index text read; current2026 entry72742bytes,09Oct2026",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "D2",
+    "title": "2026 EEX primary auction report",
+    "url": "https://public.eex-group.com/eex/eua-auction-report/emission-spot-primary-market-auction-report-2026-data.xlsx",
+    "access": "local DNS/helper failed; single same-source runner download succeeded; stdlib OOXML parsed, JanSep eligibility reconstructed; raw not transferred to local environment, not republished",
+    "date": "2026-10-10",
+    "sha256": "54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d",
+    "bytes": 72742,
+    "historical_first_release": false,
+    "full_historical_schema_semantics_certified": false,
+    "exact_source_archive_retained_in_deliverable": false
+  },
+  {
+    "id": "E2-index",
+    "title": "UBA staff publications2024",
+    "url": "https://www.umweltbundesamt.de/system/files/medien/5871/dokumente/mitarbeitendenveroeffentlichungen-2024_0.pdf",
+    "access": "official search index excerpt only; identifies Q2report URL; no全文阅读claim",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "E2a",
+    "title": "DEHSt2024Q2 auction report",
+    "url": "https://www.dehst.de/SharedDocs/downloads/EN/auctioning/2024/2024_report_Q2.pdf?__blob=publicationFile&v=6",
+    "access": "direct open internal error; no document content obtained; not retried through alternate tools",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "E2b",
+    "title": "DEHSt analyses and reports",
+    "url": "https://www.dehst.de/EN/Topics/EU-ETS-1/EU-ETS-1-Information/Analyses-and-Reports/analysis-and-reports_node.html",
+    "access": "clicked from European Commission official auction page;403; no content obtained; no bypass",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "E2c",
+    "title": "Auctions by the Common Auction Platform: April, May, June2024",
+    "url": "https://climate.ec.europa.eu/document/download/d962459c-021e-4901-b49f-e5d37e5d2c93_en?filename=cap_report_202406_en.pdf",
+    "access": "429 this round; earlier-conversation readings not claimed as this-round fulltext",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "E2landing",
+    "title": "European Commission auctioning allowances",
+    "url": "https://climate.ec.europa.eu/areas-action/carbon-markets/eu-emissions-trading-system-eu-ets/auctioning-allowances_en?prefLang=ro",
+    "access": "official HTML text and relevant Germany link read",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "J1",
+    "title": "Empirical Economics aims and scope",
+    "url": "https://link.springer.com/journal/181/aims-and-scope",
+    "access": "official scope paragraphs read",
+    "date": "2026-10-10",
+    "CAS_or_fees_confirmed": false
+  }
+]

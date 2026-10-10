@@ -1,0 +1,283 @@
+{
+  "date": "2026-10-10",
+  "design": "post-exploration supplemental experiments; not preregistration",
+  "protocol_commit": "2151017871416fe0ad2505cfdbda23162aaa873e",
+  "E1": {
+    "status": "COMPLETED_WITH_VOLUME_DISTRIBUTION_IMBALANCE",
+    "n": 1281,
+    "contrasts": [
+      {
+        "spec": "A",
+        "weighting": "unweighted",
+        "early_theta": 0.5500637873219566,
+        "late_theta": 0.7797580394102537,
+        "delta_theta": 0.22969425208829708,
+        "early_beta": 0.6727741692090597,
+        "late_beta": 1.182470472806227,
+        "delta_beta": 0.5096963035971672,
+        "lower95": 0.08742006915548128,
+        "upper95": 0.37284558367221565,
+        "lower97_5": 0.07011213293174837,
+        "upper97_5": 0.38710332808854153,
+        "draws": 999
+      },
+      {
+        "spec": "A",
+        "weighting": "overlap",
+        "early_theta": 0.5703494003293214,
+        "late_theta": 0.7674821964276054,
+        "delta_theta": 0.19713279609828405,
+        "early_beta": 0.7027192453022404,
+        "late_beta": 1.1961712640368973,
+        "delta_beta": 0.49345201873465694,
+        "lower95": 0.10840698379727706,
+        "upper95": 0.2910272655609476,
+        "lower97_5": 0.09469051535563404,
+        "upper97_5": 0.3029434203917888,
+        "draws": 999
+      },
+      {
+        "spec": "C",
+        "weighting": "unweighted",
+        "early_theta": 0.5413773360052373,
+        "late_theta": 0.7719109950999266,
+        "delta_theta": 0.23053365909468926,
+        "early_beta": 0.6879713711013914,
+        "late_beta": 1.1232247074540733,
+        "delta_beta": 0.43525333635268193,
+        "lower95": 0.07821496357852603,
+        "upper95": 0.38120375730245654,
+        "lower97_5": 0.06393256180202242,
+        "upper97_5": 0.395166970448636,
+        "draws": 999
+      },
+      {
+        "spec": "C",
+        "weighting": "overlap",
+        "early_theta": 0.5648549780579564,
+        "late_theta": 0.7586026066070399,
+        "delta_theta": 0.19374762854908356,
+        "early_beta": 0.7123032392057242,
+        "late_beta": 1.1337190651911155,
+        "delta_beta": 0.4214158259853913,
+        "lower95": 0.09822371583762714,
+        "upper95": 0.28434686404450626,
+        "lower97_5": 0.08474235661419152,
+        "upper97_5": 0.30506929141295563,
+        "draws": 999
+      }
+    ],
+    "weighting_change_delta_theta": {
+      "A": {
+        "point": -0.03256145599001303,
+        "lower95": -0.13486540852040058,
+        "upper95": 0.08017222128262882,
+        "lower97_5": -0.15202966781135618,
+        "upper97_5": 0.09153523305561612,
+        "draws": 999
+      },
+      "C": {
+        "point": -0.0367860305456057,
+        "lower95": -0.14486435535221887,
+        "upper95": 0.07966717998225002,
+        "lower97_5": -0.16681388031849134,
+        "upper97_5": 0.09423875195790928,
+        "draws": 999
+      }
+    },
+    "weight_diagnostics": [
+      {
+        "period": "0",
+        "n": "643",
+        "ESS": "586.5490166188514",
+        "ESS_fraction": "0.9122068687695978",
+        "weight_sum": "299.9300060997099",
+        "weight_max": "0.7894641284777979",
+        "max_normalized_weight": "0.002632161212357477",
+        "p_min": "0.01912263749704222",
+        "p_Q1": "0.38369424829507076",
+        "p_median": "0.48992729233484894",
+        "p_Q3": "0.5618861849137347",
+        "p_max": "0.7894641284777979",
+        "proposed_ESS_gate": "True"
+      },
+      {
+        "period": "1",
+        "n": "638",
+        "ESS": "614.7503843388694",
+        "ESS_fraction": "0.9635585961424284",
+        "weight_sum": "299.9300060997099",
+        "weight_max": "0.9411403634332249",
+        "max_normalized_weight": "0.0031378666498621303",
+        "p_min": "0.05885963656677507",
+        "p_Q1": "0.49258492408787213",
+        "p_median": "0.5426240932200486",
+        "p_Q3": "0.5866587847546952",
+        "p_max": "0.8558240110975538",
+        "proposed_ESS_gate": "True"
+      }
+    ],
+    "distribution_diagnostics": [
+      {
+        "log_variable": "V",
+        "KS_raw": "0.28100791255722346",
+        "KS_ow": "0.29077982916560036",
+        "variance_ratio_raw": "0.7734335922186552",
+        "variance_ratio_ow": "0.9999999999999998"
+      },
+      {
+        "log_variable": "N",
+        "KS_raw": "0.10795789720013454",
+        "KS_ow": "0.036366115000066646",
+        "variance_ratio_raw": "0.6725070599723003",
+        "variance_ratio_ow": "1.0000000000000002"
+      },
+      {
+        "log_variable": "S",
+        "KS_raw": "0.04538872935934127",
+        "KS_ow": "0.02007315685925326",
+        "variance_ratio_raw": "0.7628794965147505",
+        "variance_ratio_ow": "1.0"
+      },
+      {
+        "log_variable": "R",
+        "KS_raw": "0.11419092517928786",
+        "KS_ow": "0.05787825755999232",
+        "variance_ratio_raw": "0.5813035687347191",
+        "variance_ratio_ow": "0.9999999999999997"
+      }
+    ],
+    "maximum_included_term_mean_difference": 1.5543122344752192e-15,
+    "all_included_moment_balance_verified": true,
+    "full_covariate_distribution_balance_verified": false,
+    "volume_KS_warning": true,
+    "weighted_delta_positive_CI97_5_both": true,
+    "weighted_delta_above_0_10_CI97_5_both": false,
+    "significant_weighting_induced_change_claim": false,
+    "causal_composition_explanation_claim": false
+  },
+  "E2": {
+    "status": "HOLD_NO_MATCHED_TIMED_PRICE_REFERENCE",
+    "fits": 0,
+    "reason": "Official report access failed; no per-auction reference prices with certified product/time definition.",
+    "daily_close_or_monthly_average_substituted": false
+  },
+  "E3": {
+    "retrieved_utc": "2026-10-10T13:33:15.536822+00:00",
+    "period": "2026-01-01 through 2026-09-30",
+    "classification": "new-time descriptive re-estimation, not untouched holdout or model forecast",
+    "raw_republished": false,
+    "fits": 2000,
+    "source_url": "https://public.eex-group.com/eex/eua-auction-report/emission-spot-primary-market-auction-report-2026-data.xlsx",
+    "input_sha256": "54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d",
+    "input_bytes": 72742,
+    "headers": {
+      "V": "Auction Volume tCO2",
+      "B": "Total Amount of Bids",
+      "bid_count": "Number of bids submitted",
+      "successful_bid_count": "Number of successful bids",
+      "mean_bids_per_bidder": "Average number of bids per bidder",
+      "mean_bid_size": "Average bid size",
+      "mu_B": "Average volume bid per bidder",
+      "sd_B": "Standard deviation of bid volume per bidder",
+      "mu_W": "Average volume won per bidder",
+      "sd_W": "Standard deviation of volume won per bidder",
+      "R": "Cover Ratio",
+      "N": "Total Number of Bidders",
+      "S": "Number of Successful Bidders"
+    },
+    "status": "COMPLETED_WITH_SHORT_TIME_AXIS_LIMITATION",
+    "dated_rows": 173,
+    "eligible_n": 166,
+    "earliest_source": "2026-01-07",
+    "latest_source": "2026-10-09",
+    "cutoff": "2026-09-30",
+    "first_eligible": "2026-01-07",
+    "last_eligible": "2026-09-30",
+    "exclusions": {
+      "outside_fixed_Jan_Sep_2026": 7
+    },
+    "product_counts": {
+      "T3PA": 173
+    },
+    "month_counts": {
+      "2026-01": 16,
+      "2026-02": 18,
+      "2026-03": 20,
+      "2026-04": 18,
+      "2026-05": 15,
+      "2026-06": 20,
+      "2026-07": 20,
+      "2026-08": 19,
+      "2026-09": 20
+    },
+    "series_counts": {
+      "PL": 20,
+      "EU": 111,
+      "DE": 35
+    },
+    "repeated_date_count": 0,
+    "points": {
+      "A": {
+        "beta": 1.313738191223664,
+        "theta": 0.849363161324037,
+        "partial_R2": 0.7214177798143621,
+        "n_active": 166,
+        "residual_df": 150,
+        "ess": 166.0
+      },
+      "C": {
+        "beta": 1.2375080946428219,
+        "theta": 0.8350056427172541,
+        "partial_R2": 0.6972344233696546,
+        "n_active": 166,
+        "residual_df": 150,
+        "ess": 166.0
+      }
+    },
+    "intervals": {
+      "A": {
+        "valid": 999,
+        "planned": 999,
+        "theta_CI95": [
+          0.8122732198941973,
+          0.9148538318620243
+        ],
+        "beta_CI95": [
+          1.3039861196803453,
+          1.4325581602682356
+        ]
+      },
+      "C": {
+        "valid": 999,
+        "planned": 999,
+        "theta_CI95": [
+          0.7832223631632538,
+          0.915649223877536
+        ],
+        "beta_CI95": [
+          1.2289807719451717,
+          1.3394346153578613
+        ]
+      }
+    },
+    "failed_draws": 0,
+    "inference_limit": "Only 9 months / 7 possible contiguous 3-month blocks; percentile intervals are fragile diagnostics, not confirmatory replication."
+  },
+  "requests": {
+    "E1_core": 12582,
+    "E1_validation_including_failed_attempts": 134,
+    "E1_total": 12716,
+    "E3": 2000,
+    "total": 14716
+  },
+  "synthetic_unique_tests": 18,
+  "synthetic_test_runs": [
+    "normal",
+    "optimized"
+  ],
+  "original_data_outputs_and_manuscript_changed": false,
+  "old_review_and_funding_status": "No funding; Xiang Wang reviewed, per user. Unchanged by experiments.",
+  "journal_acceptance_probability_estimated": false,
+  "decision": "INCLUDE_BOUNDED_COMPOSITION_SENSITIVITY_AND_NEW_TIME_DESCRIPTION; ECONOMIC_VALIDATION_REMAINS_HOLD"
+}

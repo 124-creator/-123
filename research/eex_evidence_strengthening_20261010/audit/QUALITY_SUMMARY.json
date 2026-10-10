@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-10",
+  "E1_core_requests": 12582,
+  "E1_final_independent_requests": 70,
+  "E1_all_validation_requests_including_failed_BFGS_attempt_and_diagnostic_rerun": 134,
+  "E1_total_requests": 12716,
+  "E3_requests": 2000,
+  "total_estimation_requests": 14716,
+  "E1_core_seconds": 5.232722091000028,
+  "E1_bootstrap_failures": 0,
+  "E3_bootstrap_failures": 0,
+  "unique_synthetic_tests": 18,
+  "test_modes": [
+    "normal",
+    "optimized"
+  ],
+  "independent_numerical_cases": 7,
+  "independent_max_weight_error": 3.5628889296122573e-09,
+  "independent_max_beta_error": 6.227240945122503e-12,
+  "independent_max_theta_error": 5.592970531154151e-12,
+  "E3_result_readback": {
+    "artifact_SHA256": "7fbdaaa7745858a22383eb918fb0f06383de797114bcc5de7bff8a7d12cc94f3",
+    "artifact_crc": true,
+    "code_hashes_equal_local": true,
+    "draw_rows": 1998,
+    "draw_indices": 999,
+    "quantiles_recalculated": true,
+    "theta_squared_R2_checked": true,
+    "raw_downloaded_to_this_local_runtime": false,
+    "scope": "result artifact and code agreement only; not independent 2026 data parsing",
+    "single_runner_acquisition_success": true,
+    "raw_republished": false
+  },
+  "scientific_limit": "Moment balance does not balance auction-volume distribution; 2026 inference based on 9 months; price validation not run.",
+  "old_inputs_and_manuscript_changed": false,
+  "publication_standard_certified": false,
+  "initial_failures_disclosed": [
+    "Reader rejected metadata formula D3 before fitting; now retained unevaluated",
+    "Independent BFGS precision loss on fixed resample; same likelihood validated in orthonormal coordinates with trust-exact; no relaxed tolerance"
+  ],
+  "source_sha256": {
+    "write_report.py": "f40007a7f7bd3f2256fedb9126b19311ce8fc8ebc4f808cdb6f02d0008b43fc1",
+    "run_newtime_2026.py": "d80d30074beb1bef48eca62350fe30e0b1aafe53e4cff026471052f01ee8b7f7",
+    "test_strengthening.py": "e048a1c20b940680a1afcb0da90223198f01b27599bdb3c66a373db94c49f90f",
+    "assemble_results.py": "bbb9f5c53a5d577f4386783b7715e7cda92b0386e389d7f6eeba23e390bbde87",
+    "build_figures.py": "9a08ae5ec90b7ac748b5e98ae5016ec61409f9c8091944281f9dd21f080a4670",
+    "run_strengthening.py": "a90bc0b33a88219e489612748b92e756741f210842e660f74c52f09ec86c531b",
+    "independent_crosscheck.py": "b1bc4b26e14b04e862831e23141c39f7cc56e5c558ab0de66ce116cf247b1c66"
+  }
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/mnt/data/eex_strengthening_20261010/code/independent_crosscheck.py", line 42, in <module>
+    if err>1e-6:raise ValueError('Optimizer predictions disagree')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Optimizer predictions disagree

@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-10T13:22:07.557619+00:00",
+  "hashes": {
+    "raw/emission-spot-primary-market-auction-report-2020-data.xlsx": "9437b244c9f9e9ae0ef442e70604bd6cf5bdad5ede852651fad3e775f1679b92",
+    "raw/emission-spot-primary-market-auction-report-2021-data.xlsx": "7a5b75bf9e876a066cd07114816b41328891d591a99a0f12a72e8f438f5a6ec5",
+    "raw/emission-spot-primary-market-auction-report-2022-data.xlsx": "f370f57d8e4fb3c613ba86471e198ff48c2b98376ccf6073c4f9009b9cb045c4",
+    "raw/emission-spot-primary-market-auction-report-2023-data.xlsx": "3d6f474c92a0961966683f688227b5d0ab5cc4ee1bd35c36cc4933440320dd37",
+    "raw/emission-spot-primary-market-auction-report-2024-data.xlsx": "eeb636efcc64d6a7f3aaa9877cb6060b3601754a7476ca94419a2da611796fcd",
+    "raw/emission-spot-primary-market-auction-report-2025-data.xlsx": "37baf2b0175624e3c420f0d6ca265b14da0d6e48f4b3d459a18fcacaf0a2a6d8",
+    "parsed/candidate_dispersion.csv": "8440285e78373e84b07e52db50ae5d3ed548e232de42c67045420ee88692b101",
+    "parsed/extraction_all_2020_2025.csv": "0617ad8392762e091b927f793d677826ec0958c2a2ffc7024860e7ee79312ca3",
+    "parsed/row_exclusions.csv": "8a4f7b4ffc417d6f9bbd7963fea79e121b71cda20659b3e63dcba4023860672e",
+    "parsed/raw_field_cells.json": "ccba7bfbc4104db2038182e59108d39ef2d71740e763d76d611330274d2b1d83",
+    "parsed/field_completeness_counts.json": "af245dbf75eb2ce35d29557b48a6e0400c2f088998eb96685661aafdbf8c43ad"
+  },
+  "workbooks": 6,
+  "dated_rows": 1327,
+  "candidate_rows": 1281,
+  "excluded_rows": 46,
+  "source_numeric_comparisons": 17251,
+  "header_comparisons": 78,
+  "duplicate_dates": 0,
+  "method": "stdlib ZIP + XML versus all CSV numeric values; not a market/vintage/population certification"
+}

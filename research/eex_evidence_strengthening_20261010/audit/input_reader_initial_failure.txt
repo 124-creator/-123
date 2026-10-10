@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/mnt/data/eex_strengthening_20261010/code/run_strengthening.py", line 347, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/mnt/data/eex_strengthening_20261010/code/run_strengthening.py", line 292, in main
+    rows,hashes=audit_inputs(args.inputs);d=period_design(rows);budget=Budget()
+                ~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/mnt/data/eex_strengthening_20261010/code/run_strengthening.py", line 94, in audit_inputs
+    books={p.name:xlsx_cells(p) for p in sorted((inp/'raw').glob('*.xlsx'))}
+                  ~~~~~~~~~~^^^
+  File "/mnt/data/eex_strengthening_20261010/code/run_strengthening.py", line 61, in xlsx_cells
+    raise ValueError('Unexpected formula cell '+cell.attrib['r'])
+ValueError: Unexpected formula cell D3

@@ -1,0 +1,64 @@
+{
+  "method": "own Newton ML + within-month projection versus SciPy trust-exact in orthonormal coordinates + explicit repeated rows + full dummy scipy gelsy",
+  "cases": [
+    {
+      "case": "point",
+      "max_weight_difference": 5.329070518200751e-15,
+      "max_beta_difference": 4.440892098500626e-16,
+      "max_theta_difference": 2.220446049250313e-16,
+      "independent_score_max": 7.467029856780729e-18,
+      "optimizer_status": "Optimization terminated successfully."
+    },
+    {
+      "case": "L3_draw0",
+      "max_weight_difference": 1.6058820939690577e-12,
+      "max_beta_difference": 1.2323475573339238e-13,
+      "max_theta_difference": 1.4432899320127035e-13,
+      "independent_score_max": 4.000768362378428e-15,
+      "optimizer_status": "Optimization terminated successfully."
+    },
+    {
+      "case": "L3_draw17",
+      "max_weight_difference": 1.524995407731211e-13,
+      "max_beta_difference": 1.7763568394002505e-15,
+      "max_theta_difference": 2.1094237467877974e-15,
+      "independent_score_max": 1.8764294320628585e-16,
+      "optimizer_status": "Optimization terminated successfully."
+    },
+    {
+      "case": "L3_draw498",
+      "max_weight_difference": 3.5628889296122573e-09,
+      "max_beta_difference": 3.1119551380243138e-12,
+      "max_theta_difference": 1.5384360452230794e-12,
+      "independent_score_max": 2.655462157497503e-13,
+      "optimizer_status": "Optimization terminated successfully."
+    },
+    {
+      "case": "L3_draw998",
+      "max_weight_difference": 1.0990066479087611e-09,
+      "max_beta_difference": 3.2889246881495637e-12,
+      "max_theta_difference": 5.592970531154151e-12,
+      "independent_score_max": 3.8850877412141986e-13,
+      "optimizer_status": "Optimization terminated successfully."
+    },
+    {
+      "case": "L1_draw0",
+      "max_weight_difference": 3.4395375436702125e-11,
+      "max_beta_difference": 1.5702994460298214e-12,
+      "max_theta_difference": 1.2038148256010572e-12,
+      "independent_score_max": 1.5129292483207e-13,
+      "optimizer_status": "Optimization terminated successfully."
+    },
+    {
+      "case": "L6_draw0",
+      "max_weight_difference": 2.8800189906213293e-09,
+      "max_beta_difference": 6.227240945122503e-12,
+      "max_theta_difference": 2.072342297765317e-12,
+      "independent_score_max": 3.7523239638737615e-13,
+      "optimizer_status": "Optimization terminated successfully."
+    }
+  ],
+  "all_passed": true,
+  "additional_estimation_requests": 70,
+  "note": "Numerical cross-check on same data, not new market evidence. Optimizer status accepted only with explicit small score and prediction agreement."
+}

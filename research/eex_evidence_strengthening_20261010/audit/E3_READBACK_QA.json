@@ -1,0 +1,13 @@
+{
+  "artifact_SHA256": "7fbdaaa7745858a22383eb918fb0f06383de797114bcc5de7bff8a7d12cc94f3",
+  "artifact_crc": true,
+  "code_hashes_equal_local": true,
+  "draw_rows": 1998,
+  "draw_indices": 999,
+  "quantiles_recalculated": true,
+  "theta_squared_R2_checked": true,
+  "raw_downloaded_to_this_local_runtime": false,
+  "scope": "result artifact and code agreement only; not independent 2026 data parsing",
+  "single_runner_acquisition_success": true,
+  "raw_republished": false
+}
