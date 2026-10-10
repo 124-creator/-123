@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "decision_date": "2026-10-10",
+  "repository": "124-creator/-123",
+  "target_branch": "research-handoff-20261010",
+  "evidence_base_commit": "37a3a8ad7df95562095a2b964256eb5013d45d91",
+  "topic_id": "EEX_REPORTED_QUANTITY_DISPERSION",
+  "title_zh": "EUA一级拍卖中申报与获配数量分散的条件关联：报告口径与测量稳健性",
+  "title_en": "Reported Quantity Dispersion in EUA Primary Auctions: Conditional Associations and Measurement Robustness",
+  "question": "在2020—2025年成功EUA一级拍卖中，两端报告相对离散指标是否存在对分母、参与人数与变换处理稳健的条件关联？",
+  "selection_status": "SELECTED_ONLY_DIRECTION",
+  "empirical_gate": "HOLD_TWO_BOUNDED_EVIDENCE_ITEMS",
+  "paper_type": "retrospective_conditional_association_and_measurement",
+  "price_forecasting_method_paper": false,
+  "novelty_confirmed": false,
+  "publication_guaranteed": false,
+  "target_period": ["2020-01-01", "2025-12-31"],
+  "reported_sample": {
+    "successful_auctions": 1281,
+    "months": 72,
+    "source": "../pro_review_20261010/RESULTS_SUMMARY.json at evidence_base_commit",
+    "independently_recomputed_this_turn": false,
+    "do_not_force_future_sample_to_match": true
+  },
+  "source_reproduction_policy": {
+    "new_independent_team_validation": "limited_scope_evidence_from_read_summary",
+    "legacy_model_scores": "UNTRUSTED_NOT_USED",
+    "author_performance": "NOT_REPRODUCED",
+    "first_freeze": "PARTIAL",
+    "historical_snapshot_seen": true,
+    "preregistered": false,
+    "untouched_holdout": false
+  },
+  "authorization_this_turn": {
+    "select_topic": true,
+    "publish_selection_documents_to_github": true,
+    "new_statistical_fitting": false,
+    "forecast_model_training": false,
+    "raw_data_republication": false,
+    "email": false,
+    "other_model_invocation": false,
+    "journal_submission": false
+  },
+  "execution_this_turn": {
+    "new_regressions": 0,
+    "new_forecast_fits": 0,
+    "authors_code_executed": false,
+    "models_deserialized": false,
+    "full_repository_verifier_executed": false,
+    "full_repository_pass_claimed": false
+  },
+  "bounded_gate": {
+    "proposed_deadline": "2026-10-15",
+    "human_hours_max": 8,
+    "missing_existing_reports": [
+      "eex_dispersion_definition_20261010/REPORT.md",
+      "eex_dispersion_independent_review_20261010/REPORT.md"
+    ],
+    "evidence_items_max": 2,
+    "empirical_specifications": ["A_original_log1p", "B_positive_common_sample_log1p", "C_same_positive_sample_log"],
+    "new_computation_requires_further_explicit_authorization": true,
+    "proposed_compute_minutes_max_after_authorization": 30,
+    "fit_attempts_max_after_authorization": 4000,
+    "proposed_minimum_absolute_residual_standardized_association": 0.10,
+    "threshold_is_design_proposal_not_verified_power": true,
+    "automatic_extension_or_topic_switch": false
+  },
+  "publication_goal": {
+    "partition_system": "Chinese Academy of Sciences",
+    "zones_allowed": [1, 2, 3],
+    "preferred_route": "traditional_subscription_non_OA",
+    "school_recognition_is_blocker": false,
+    "official_cas_edition": null,
+    "official_cas_major_category": null,
+    "official_cas_minor_category": null,
+    "confirmed_eligible_journals": 0,
+    "zero_total_fees_promised": false
+  },
+  "prohibited_claims_without_additional_identification": [
+    "same_population_CV",
+    "causal_allocation_compression",
+    "fairness_or_market_power",
+    "real_procurement_savings",
+    "first_study",
+    "full_historical_first_release_certification"
+  ],
+  "next_entry": "EXECUTION_TASKS.md"
+}
