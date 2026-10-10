@@ -1,0 +1,32 @@
+test_01_gate_blocks_unreviewed_sources (test_run_eex.MathAndInputTests.test_01_gate_blocks_unreviewed_sources) ... ok
+test_02_unknown_ddof_does_not_block_reported_ratio (test_run_eex.MathAndInputTests.test_02_unknown_ddof_does_not_block_reported_ratio) ... ok
+test_03_non_target_and_unsuccessful_rows_are_audited (test_run_eex.MathAndInputTests.test_03_non_target_and_unsuccessful_rows_are_audited) ... ok
+test_04_duplicates_are_not_silently_dropped (test_run_eex.MathAndInputTests.test_04_duplicates_are_not_silently_dropped) ... ok
+test_05_inconsistent_participant_counts_fail (test_run_eex.MathAndInputTests.test_05_inconsistent_participant_counts_fail) ... ok
+test_06_zero_sd_preserved_in_A_not_B_C (test_run_eex.MathAndInputTests.test_06_zero_sd_preserved_in_A_not_B_C) ... ok
+test_07_nan_is_missing_not_zero (test_run_eex.MathAndInputTests.test_07_nan_is_missing_not_zero) ... ok
+test_08_month_demeaning_has_zero_group_sums (test_run_eex.MathAndInputTests.test_08_month_demeaning_has_zero_group_sums) ... ok
+test_09_partial_fit_matches_full_dummy_OLS (test_run_eex.MathAndInputTests.test_09_partial_fit_matches_full_dummy_OLS) ... ok
+test_10_month_multiplicity_matches_row_replication (test_run_eex.MathAndInputTests.test_10_month_multiplicity_matches_row_replication) ... ok
+test_11_B_C_share_exact_rows (test_run_eex.MathAndInputTests.test_11_B_C_share_exact_rows) ... ok
+test_12_no_zero_A_B_are_identical (test_run_eex.MathAndInputTests.test_12_no_zero_A_B_are_identical) ... ok
+test_13_constructed_log_identity_passes (test_run_eex.MathAndInputTests.test_13_constructed_log_identity_passes) ... ok
+test_14_unknown_allocated_volume_does_not_assume_W_V (test_run_eex.MathAndInputTests.test_14_unknown_allocated_volume_does_not_assume_W_V) ... ok
+test_15_reported_rounding_does_not_break_constructed_identity (test_run_eex.MathAndInputTests.test_15_reported_rounding_does_not_break_constructed_identity) ... ok
+test_16_blocks_are_reproducible_and_keep_72_month_positions (test_run_eex.MathAndInputTests.test_16_blocks_are_reproducible_and_keep_72_month_positions) ... ok
+test_17_no_automatic_budget_extension (test_run_eex.MathAndInputTests.test_17_no_automatic_budget_extension) ... ok
+test_18_residual_constant_x_not_identifiable (test_run_eex.MathAndInputTests.test_18_residual_constant_x_not_identifiable) ... ok
+test_19_nonpositive_mean_is_not_repaired (test_run_eex.MathAndInputTests.test_19_nonpositive_mean_is_not_repaired) ... ok
+test_20_noncanonical_locale_numeric_is_not_guessed (test_run_eex.MathAndInputTests.test_20_noncanonical_locale_numeric_is_not_guessed) ... ok
+test_21_log1p_does_not_have_log_denominator_identity (test_run_eex.MathAndInputTests.test_21_log1p_does_not_have_log_denominator_identity) ... ok
+test_22_input_algebra_does_not_compute_HHI_from_unknown_population (test_run_eex.MathAndInputTests.test_22_input_algebra_does_not_compute_HHI_from_unknown_population) ... ok
+test_23_budget_stop_keeps_partial_results_without_retries (test_run_eex.MathAndInputTests.test_23_budget_stop_keeps_partial_results_without_retries) ... ok
+test_24_fixed_schedule_is_below_4000_attempts (test_run_eex.MathAndInputTests.test_24_fixed_schedule_is_below_4000_attempts) ... ok
+test_25_missing_required_source_locator_is_not_silent (test_run_eex.MathAndInputTests.test_25_missing_required_source_locator_is_not_silent) ... ok
+test_26_reported_volume_identity_does_not_certify_allocations (test_run_eex.MathAndInputTests.test_26_reported_volume_identity_does_not_certify_allocations) ... ok
+test_27_volume_diagnostic_labels_are_not_actual_W (test_run_eex.MathAndInputTests.test_27_volume_diagnostic_labels_are_not_actual_W) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.142s
+
+OK

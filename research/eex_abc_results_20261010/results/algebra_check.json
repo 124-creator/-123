@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "rows": 1281,
+  "max_abs_x_residual_difference": 7.473188734508085e-15,
+  "max_abs_y_residual_difference": 7.0915495697931874e-15,
+  "tolerance": 1.041324365988677e-09,
+  "constructed_inputs_used": true,
+  "reported_rounded_fields_not_overwritten": true,
+  "reported_volume_only_construction": true,
+  "actual_allocated_volume_authenticated": false,
+  "not_an_independent_market_finding": true
+}

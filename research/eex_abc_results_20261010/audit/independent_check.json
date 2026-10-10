@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "independent_implementation": "unscaled full original month dummies + explicit repeated rows + numpy.linalg.lstsq, no within-month routine reused",
+  "point_refits": 3,
+  "selected_bootstrap_refits": 14,
+  "additional_nuisance_projection_systems": 17,
+  "empirical_pipeline_requests": 3796,
+  "total_counting_extra_full_and_nuisance_solves": 3830,
+  "max_abs_beta_difference": 1.3322676295501878e-14,
+  "max_abs_theta_difference": 6.661338147750939e-16,
+  "full_dummy_points": {
+    "A": {"beta": 0.880231483392226, "theta": 0.6496300946706924, "sse": 7.122078659596896, "n": 1281, "columns": 79, "rank": 79, "df": 1202, "condition_unscaled": 16301.06165839171, "nuisance_rank": 78},
+    "B": {"beta": 0.880231483392226, "theta": 0.6496300946706924, "sse": 7.122078659596896, "n": 1281, "columns": 79, "rank": 79, "df": 1202, "condition_unscaled": 16301.06165839171, "nuisance_rank": 78},
+    "C": {"beta": 0.8797263444555241, "theta": 0.6486230066167085, "sse": 21.354092376282253, "n": 1281, "columns": 79, "rank": 79, "df": 1202, "condition_unscaled": 16426.27161639232, "nuisance_rank": 78}
+  },
+  "month_plan_checks": 1397,
+  "identical_A_B_paired_draws": 999,
+  "source_files_unchanged": 11,
+  "checks": [
+    {"kind":"point","spec":"A","beta_difference":7.993605777301127e-15,"theta_difference":5.551115123125783e-16},
+    {"kind":"point","spec":"B","beta_difference":7.993605777301127e-15,"theta_difference":5.551115123125783e-16},
+    {"kind":"point","spec":"C","beta_difference":4.440892098500626e-15,"theta_difference":2.220446049250313e-16},
+    {"kind":"bootstrap","block_months":3,"draw":0,"spec":"A","beta_difference":9.992007221626409e-16,"theta_difference":4.440892098500626e-16},
+    {"kind":"bootstrap","block_months":3,"draw":0,"spec":"C","beta_difference":2.9976021664879227e-15,"theta_difference":1.1102230246251565e-16},
+    {"kind":"bootstrap","block_months":3,"draw":499,"spec":"A","beta_difference":1.7763568394002505e-15,"theta_difference":1.1102230246251565e-16},
+    {"kind":"bootstrap","block_months":3,"draw":499,"spec":"C","beta_difference":1.3322676295501878e-15,"theta_difference":0.0},
+    {"kind":"bootstrap","block_months":3,"draw":998,"spec":"A","beta_difference":1.4432899320127035e-15,"theta_difference":3.3306690738754696e-16},
+    {"kind":"bootstrap","block_months":3,"draw":998,"spec":"C","beta_difference":1.021405182655144e-14,"theta_difference":3.3306690738754696e-16},
+    {"kind":"bootstrap","block_months":1,"draw":0,"spec":"A","beta_difference":6.661338147750939e-16,"theta_difference":6.661338147750939e-16},
+    {"kind":"bootstrap","block_months":1,"draw":0,"spec":"C","beta_difference":4.440892098500626e-16,"theta_difference":4.440892098500626e-16},
+    {"kind":"bootstrap","block_months":1,"draw":198,"spec":"A","beta_difference":2.220446049250313e-16,"theta_difference":4.440892098500626e-16},
+    {"kind":"bootstrap","block_months":1,"draw":198,"spec":"C","beta_difference":1.1102230246251565e-15,"theta_difference":0.0},
+    {"kind":"bootstrap","block_months":6,"draw":0,"spec":"A","beta_difference":1.5543122344752192e-15,"theta_difference":3.3306690738754696e-16},
+    {"kind":"bootstrap","block_months":6,"draw":0,"spec":"C","beta_difference":2.3314683517128287e-15,"theta_difference":1.1102230246251565e-16},
+    {"kind":"bootstrap","block_months":6,"draw":198,"spec":"A","beta_difference":1.5543122344752192e-15,"theta_difference":1.1102230246251565e-16},
+    {"kind":"bootstrap","block_months":6,"draw":198,"spec":"C","beta_difference":1.3322676295501878e-14,"theta_difference":0.0}
+  ],
+  "team_comparison": {
+    "A":{"point_beta_difference_from_team":4.440892098500626e-16,"SSE_difference_from_team":8.881784197001252e-16,"prior_interval":[0.749468029215356,1.0149162564734024],"this_run_interval":[0.7506363633059706,1.0384454439843775]},
+    "B":{"point_beta_difference_from_team":4.440892098500626e-16,"SSE_difference_from_team":8.881784197001252e-16,"prior_interval":[0.749468029215356,1.0149162564734024],"this_run_interval":[0.7506363633059706,1.0384454439843775]},
+    "C":{"point_beta_difference_from_team":-5.551115123125783e-16,"SSE_difference_from_team":-3.552713678800501e-15,"prior_interval":[0.7609312566800983,0.9978762406421822],"this_run_interval":[0.7626931771032806,1.014299171831216]}
+  },
+  "interval_difference_reason": "This run follows the previously supplied ready-code SeedSequence([seed,L]) stream. Team used a different seed initialization; point estimates agree, bootstrap intervals need not be identical. No seed search or repeat-until-significant run."
+}

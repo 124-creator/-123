@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-10T06:00:24.216887+00:00",
+  "base_commit": "5745eb3ddca79602346053446583d794b0e09800",
+  "script_sha256": "10fce7fd0466c6b74a24c30d381bab75814966c4c457a675c5fa5f57d6c68c61",
+  "input_name": "normalized_input.csv",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "real_regression_run_started": true,
+  "audit_only": false,
+  "old_model_files_read": false,
+  "other_models_invoked": false,
+  "data_republished": false,
+  "gate_sha256": "ee9cae006653c2186a56c39c5166d93664812ac9c803bc600ca8a2c675b6af64",
+  "input_sha256": "28e30965d1b6c7945ae7e4ddb7a6051a1770518cfe152dcef76050d27ff1e8e8",
+  "status": "COMPLETED",
+  "finished_utc": "2026-10-10T06:00:25.146957+00:00"
+}

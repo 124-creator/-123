@@ -1,0 +1,23 @@
+{
+  "source_identity_checked": true,
+  "field_units_mapping_checked": true,
+  "success_status_mapping_checked": true,
+  "auction_volume_semantics_checked": true,
+  "reported_ratio_interpretation_accepted": true,
+  "evidence_note": "Six supplied workbooks read with artifact_tool and independently parsed as OOXML; 17251 numeric cells matched full extraction, trace and artifact values; 1327 dated rows and all sample/exclusion rules independently checked. Official source identity is user-supplied workbook provenance, not a fresh exchange download. Auction Volume is the reported quantity, not an independently observed W.",
+  "population_definitions": "unknown",
+  "ddof": "unknown",
+  "historical_first_release_versions": "unverified",
+  "allocated_volume_is_actual": false,
+  "successful_auction_volume_equals_allocated": false,
+  "reported_volume_implied_means_diagnostic": true,
+  "source_files": [
+    "emission-spot-primary-market-auction-report-2020-data.xlsx",
+    "emission-spot-primary-market-auction-report-2021-data.xlsx",
+    "emission-spot-primary-market-auction-report-2022-data.xlsx",
+    "emission-spot-primary-market-auction-report-2023-data.xlsx",
+    "emission-spot-primary-market-auction-report-2024-data.xlsx",
+    "emission-spot-primary-market-auction-report-2025-data.xlsx"
+  ],
+  "input_commit": "5745eb3ddca79602346053446583d794b0e09800"
+}

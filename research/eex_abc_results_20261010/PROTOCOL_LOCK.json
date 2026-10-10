@@ -1,0 +1,25 @@
+{
+  "locked_utc": "2026-10-10T06:00:23.425440+00:00",
+  "input_commit": "5745eb3ddca79602346053446583d794b0e09800",
+  "selected_protocol_commit": "d13ac63fffa06ce349988b7b66492c7f0ba3e7e6",
+  "seed": 20261010,
+  "seed_recipe": "numpy SeedSequence([20261010,block_length]); same month multiplicities for all scheduled specifications",
+  "main": [3, 999, ["A", "B", "C"]],
+  "sensitivity": [[1, 199, ["A", "C"]], [6, 199, ["A", "C"]]],
+  "main_fit_requests": 3796,
+  "max_fit_requests": 4000,
+  "max_seconds": 1800,
+  "minimal_abs_theta": 0.1,
+  "historical_results_already_seen": true,
+  "preregistered": false,
+  "user_authorized_experiments_and_aggregate_github_publication": true,
+  "changes_since_previous_code": ["input commit metadata updated", "pure implied-V normalization identity explicitly does not certify V equals actual allocations; original A/B/C regressions unchanged", "two additional artificial tests for diagnostic scope"],
+  "side_checks": "Full-dummy point cross-checks and prespecified selected bootstrap negative-control refits count separately within 4000 cap; not additional estimands",
+  "hashes": {
+    "run_eex.py": "10fce7fd0466c6b74a24c30d381bab75814966c4c457a675c5fa5f57d6c68c61",
+    "test_run_eex.py": "4a6077319a0374e3b16355c60d127c9feae7de2417fd658e5d5f9637d090b615",
+    "audit_inputs.py": "ca361b4a2e841582422b089e3e432817e902c9ee030319324261cc5663a1f836",
+    "gate1_review.json": "ee9cae006653c2186a56c39c5166d93664812ac9c803bc600ca8a2c675b6af64",
+    "normalized_input.csv": "28e30965d1b6c7945ae7e4ddb7a6051a1770518cfe152dcef76050d27ff1e8e8"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "analysis":"post_exploration_supplement_not_preregistered",
+  "models_trained_for_price_forecasting":0,
+  "point_estimates_independently_recomputed_from_raw_derived_input":true,
+  "base_commit":"5745eb3ddca79602346053446583d794b0e09800",
+  "seed":20261010,
+  "points":{
+    "A":{"beta":0.880231483392218,"theta":0.6496300946706919,"partial_r_squared":0.4220192599018521,"n_weighted":1281,"n_distinct_rows":1281,"months_present":72,"nuisance_within_rank":6,"nuisance_within_columns":6,"full_design_rank":79,"residual_df":1202,"within_control_condition_scaled":3.9319758156825304,"nuisance_rank_deficient":false,"sse_controls_only":12.322345997874411,"sse_with_x":7.122078659596897},
+    "B":{"beta":0.880231483392218,"theta":0.6496300946706919,"partial_r_squared":0.4220192599018521,"n_weighted":1281,"n_distinct_rows":1281,"months_present":72,"nuisance_within_rank":6,"nuisance_within_columns":6,"full_design_rank":79,"residual_df":1202,"within_control_condition_scaled":3.9319758156825304,"nuisance_rank_deficient":false,"sse_controls_only":12.322345997874411,"sse_with_x":7.122078659596897},
+    "C":{"beta":0.8797263444555286,"theta":0.6486230066167087,"partial_r_squared":0.4207118047124989,"n_weighted":1281,"n_distinct_rows":1281,"months_present":72,"nuisance_within_rank":6,"nuisance_within_columns":6,"full_design_rank":79,"residual_df":1202,"within_control_condition_scaled":3.9319758156825304,"nuisance_rank_deficient":false,"sse_controls_only":36.8626403058053,"sse_with_x":21.354092376282253}
+  },
+  "intervals":{
+    "A_L3":{"planned":999,"attempted":999,"valid":999,"failed":0,"not_attempted":0,"inference_usable_by_fixed_rule":true,"beta_percentile_95":[0.7506363633059706,1.0384454439843775],"theta_percentile_95":[0.5713641899419214,0.7422173323309178],"theta_size_diagnostic":"positive_beyond_post_exploration_size_threshold"},
+    "B_L3":{"planned":999,"attempted":999,"valid":999,"failed":0,"not_attempted":0,"inference_usable_by_fixed_rule":true,"beta_percentile_95":[0.7506363633059706,1.0384454439843775],"theta_percentile_95":[0.5713641899419214,0.7422173323309178],"theta_size_diagnostic":"positive_beyond_post_exploration_size_threshold"},
+    "C_L3":{"planned":999,"attempted":999,"valid":999,"failed":0,"not_attempted":0,"inference_usable_by_fixed_rule":true,"beta_percentile_95":[0.7626931771032806,1.014299171831216],"theta_percentile_95":[0.5660001981860003,0.7401990109848688],"theta_size_diagnostic":"positive_beyond_post_exploration_size_threshold"},
+    "A_L1":{"planned":199,"attempted":199,"valid":199,"failed":0,"not_attempted":0,"inference_usable_by_fixed_rule":true,"beta_percentile_95":[0.7806549214156159,0.9832870539832361],"theta_percentile_95":[0.5902559655419414,0.7158315518886209],"theta_size_diagnostic":"positive_beyond_post_exploration_size_threshold"},
+    "C_L1":{"planned":199,"attempted":199,"valid":199,"failed":0,"not_attempted":0,"inference_usable_by_fixed_rule":true,"beta_percentile_95":[0.7906507711295806,0.9714206681491746],"theta_percentile_95":[0.5855312727765417,0.7134013194098413],"theta_size_diagnostic":"positive_beyond_post_exploration_size_threshold"},
+    "A_L6":{"planned":199,"attempted":199,"valid":199,"failed":0,"not_attempted":0,"inference_usable_by_fixed_rule":true,"beta_percentile_95":[0.7349734939294617,1.0292424848627044],"theta_percentile_95":[0.5564364178868685,0.7437678892718725],"theta_size_diagnostic":"positive_beyond_post_exploration_size_threshold"},
+    "C_L6":{"planned":199,"attempted":199,"valid":199,"failed":0,"not_attempted":0,"inference_usable_by_fixed_rule":true,"beta_percentile_95":[0.7503365980085088,1.009019860150183],"theta_percentile_95":[0.5526424705238842,0.7492538968580545],"theta_size_diagnostic":"positive_beyond_post_exploration_size_threshold"}
+  },
+  "fit_failures":[],
+  "calendar_months":72,
+  "estimated_effect_is_conditional_not_causal":true,
+  "bootstrap":"noncircular overlapping moving month blocks, original month FE labels retained",
+  "inference_limit":"Approximate dependent-data inference; does not correct prior specification/target selection.",
+  "minimum_abs_theta_proposal":0.1,
+  "threshold_is_post_exploration_design":true,
+  "fit_attempts":3796,
+  "regression_bootstrap_seconds":0.8893047410000463,
+  "requested_fit_attempts":3796,
+  "budget_completed":true,
+  "algebra":{"status":"PASS","rows":1281,"max_abs_x_residual_difference":7.473188734508085e-15,"max_abs_y_residual_difference":7.0915495697931874e-15,"tolerance":1.041324365988677e-09,"constructed_inputs_used":true,"reported_rounded_fields_not_overwritten":true,"reported_volume_only_construction":true,"actual_allocated_volume_authenticated":false,"not_an_independent_market_finding":true},
+  "rounding_diagnostics":{
+    "mean_bid_vs_B_over_N":{"n":1281,"max_absolute_difference":0.5,"median_absolute_difference":0.18181818182347342,"p95_absolute_difference":0.4705882353009656},
+    "mean_won_vs_reported_V_over_S":{"n":1281,"max_absolute_difference":0.5,"median_absolute_difference":0.25,"p95_absolute_difference":0.4705882353009656},
+    "reported_cover_vs_B_over_reported_V":{"n":1281,"max_absolute_difference":0.004993555039958686,"median_absolute_difference":0.0025835772608227003,"p95_absolute_difference":0.004730105731775236},
+    "scope":"Numerical differences only; no automatic population/ddof/rounding authentication"
+  },
+  "status":"COMPLETED",
+  "budget_error":null
+}

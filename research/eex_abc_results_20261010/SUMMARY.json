@@ -1,0 +1,152 @@
+{
+  "input_commit": "5745eb3ddca79602346053446583d794b0e09800",
+  "experiment_date": "2026-10-10",
+  "decision": "EMPIRICAL_GO_FOR_REPORTED_FIELD_ASSOCIATION",
+  "paper_development": "CONDITIONAL_GO_NARROW_EMPIRICAL_CLAIM",
+  "novelty_or_acceptance_guaranteed": false,
+  "cas_zone_verified": false,
+  "subscription_route_preferred": true,
+  "school_gate_not_reintroduced": true,
+  "scope": "2020-2025 successful T3PA EU/DE/PL EUA auctions; retrospective contemporaneous reported-field association",
+  "raw_workbooks": 6,
+  "raw_records": 1327,
+  "eligible_records": 1281,
+  "exclusions": {
+    "not_EUA_contract": 38,
+    "not_explicit_successful": 3,
+    "outside_venue": 5
+  },
+  "raw_numeric_cells_compared": 17251,
+  "artifact_tool_cross_comparisons": 17251,
+  "A_and_B_same_sample_and_same_results": true,
+  "ABC": [
+    {
+      "spec": "A",
+      "n": 1281,
+      "beta": 0.880231483392218,
+      "beta_ci_low": 0.7506363633059706,
+      "beta_ci_high": 1.0384454439843775,
+      "theta": 0.6496300946706919,
+      "theta_ci_low": 0.5713641899419214,
+      "theta_ci_high": 0.7422173323309178,
+      "partial_r_squared": 0.4220192599018521,
+      "rank": 79,
+      "residual_df": 1202,
+      "bootstrap_valid": 999,
+      "bootstrap_failed": 0,
+      "block_months": 3
+    },
+    {
+      "spec": "B",
+      "n": 1281,
+      "beta": 0.880231483392218,
+      "beta_ci_low": 0.7506363633059706,
+      "beta_ci_high": 1.0384454439843775,
+      "theta": 0.6496300946706919,
+      "theta_ci_low": 0.5713641899419214,
+      "theta_ci_high": 0.7422173323309178,
+      "partial_r_squared": 0.4220192599018521,
+      "rank": 79,
+      "residual_df": 1202,
+      "bootstrap_valid": 999,
+      "bootstrap_failed": 0,
+      "block_months": 3
+    },
+    {
+      "spec": "C",
+      "n": 1281,
+      "beta": 0.8797263444555286,
+      "beta_ci_low": 0.7626931771032806,
+      "beta_ci_high": 1.014299171831216,
+      "theta": 0.6486230066167087,
+      "theta_ci_low": 0.5660001981860003,
+      "theta_ci_high": 0.7401990109848688,
+      "partial_r_squared": 0.4207118047124989,
+      "rank": 79,
+      "residual_df": 1202,
+      "bootstrap_valid": 999,
+      "bootstrap_failed": 0,
+      "block_months": 3
+    }
+  ],
+  "sensitivity": [
+    {
+      "spec": "A",
+      "block_months": 1,
+      "draws": 199,
+      "beta_ci_low": 0.7806549214156159,
+      "beta_ci_high": 0.9832870539832361,
+      "theta_ci_low": 0.5902559655419414,
+      "theta_ci_high": 0.7158315518886209,
+      "failed": 0
+    },
+    {
+      "spec": "A",
+      "block_months": 3,
+      "draws": 999,
+      "beta_ci_low": 0.7506363633059706,
+      "beta_ci_high": 1.0384454439843775,
+      "theta_ci_low": 0.5713641899419214,
+      "theta_ci_high": 0.7422173323309178,
+      "failed": 0
+    },
+    {
+      "spec": "A",
+      "block_months": 6,
+      "draws": 199,
+      "beta_ci_low": 0.7349734939294617,
+      "beta_ci_high": 1.0292424848627044,
+      "theta_ci_low": 0.5564364178868685,
+      "theta_ci_high": 0.7437678892718725,
+      "failed": 0
+    },
+    {
+      "spec": "C",
+      "block_months": 1,
+      "draws": 199,
+      "beta_ci_low": 0.7906507711295806,
+      "beta_ci_high": 0.9714206681491746,
+      "theta_ci_low": 0.5855312727765417,
+      "theta_ci_high": 0.7134013194098413,
+      "failed": 0
+    },
+    {
+      "spec": "C",
+      "block_months": 3,
+      "draws": 999,
+      "beta_ci_low": 0.7626931771032806,
+      "beta_ci_high": 1.014299171831216,
+      "theta_ci_low": 0.5660001981860003,
+      "theta_ci_high": 0.7401990109848688,
+      "failed": 0
+    },
+    {
+      "spec": "C",
+      "block_months": 6,
+      "draws": 199,
+      "beta_ci_low": 0.7503365980085088,
+      "beta_ci_high": 1.009019860150183,
+      "theta_ci_low": 0.5526424705238842,
+      "theta_ci_high": 0.7492538968580545,
+      "failed": 0
+    }
+  ],
+  "statistical_fit_requests": 3796,
+  "failed_draws": 0,
+  "independent_full_dummy_cross_checks": 17,
+  "independent_max_beta_difference": 1.3322676295501878e-14,
+  "source_files_unchanged": 11,
+  "limits": [
+    "No same-population CV or official SD ddof certification",
+    "No first-release version authentication",
+    "Post-result supplementary protocol, not preregistration or untouched holdout",
+    "No causal allocation-compression, market-power, fairness, procurement-savings or forecasting-skill claim",
+    "Success-only target; contemporaneous controls do not remove endogeneity",
+    "A=B is an identity in this positive-SD sample, not independent robustness evidence",
+    "Block-length robustness is not a test of stability across years or projects",
+    "New bootstrap uses previously frozen ready-code SeedSequence streams; intervals are not a replication of the team seed stream",
+    "Both main beta intervals include 1; do not claim beta<1 or dispersion compression"
+  ],
+  "data_transfer_workflow": "https://github.com/124-creator/-123/actions/runs/38029122830",
+  "calculation_location": "ChatGPT working container after verified GitHub artifact transfer; workflow did not fit models"
+}
