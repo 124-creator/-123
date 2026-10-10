@@ -1,0 +1,83 @@
+name: EEX v7 integrated documents only
+on:
+  push:
+    branches: [eex-integrated-v7-20261010]
+    paths:
+      - 'paper/eex_manuscript_v7_20261010/source_payload/**'
+      - '.github/workflows/eex-v7-integrated-documents.yml'
+permissions:
+  contents: write
+jobs:
+  documents:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: eex-integrated-v7-20261010
+          fetch-depth: 1
+      - name: Install document-only dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-croscore fonts-liberation libreoffice-writer python3-venv pandoc
+          python3 -m venv /tmp/eex-v7-docs
+          /tmp/eex-v7-docs/bin/pip install --disable-pip-version-check numpy==2.3.5 python-docx==1.2.0 lxml==6.1.1
+      - name: Materialize reviewed text and preserve existing formula objects
+        run: |
+          python3 paper/eex_manuscript_v7_20261010/source_payload/materialize.py
+          /tmp/eex-v7-docs/bin/python -B paper/eex_manuscript_v7_20261010/tools/build_integrated.py --source paper/eex_formula_fix_20261010 --out paper/eex_manuscript_v7_20261010
+          /tmp/eex-v7-docs/bin/python -B paper/eex_manuscript_v7_20261010/tools/verify_integration.py
+      - name: Verify exact reviewed document XML and export readable Markdown
+        run: |
+          /tmp/eex-v7-docs/bin/python - <<'PY'
+          from pathlib import Path
+          import zipfile,hashlib,json,re,subprocess,os
+          root=Path('paper/eex_manuscript_v7_20261010')
+          expected={'MANUSCRIPT_EN_v7.docx':'27ce2d9ab7ec5afbef2aec6b5fc1aa4bf2661210ce72853aa6ee4d28256c15ea','ONLINE_RESOURCE_1_v7.docx':'59b8addbc9b8f7e6bdf34932a0d43948de7e17eefff99ccab7bff757bd1bc8fa','TITLE_PAGE_v7.docx':'c2526c43edd0a4922131b7ca028b9f477df49e3e4b348b1673847f08768b664f'}
+          outputs={'MANUSCRIPT_EN_v7.docx':'MANUSCRIPT_EN.md','ONLINE_RESOURCE_1_v7.docx':'ONLINE_RESOURCE_1.md','TITLE_PAGE_v7.docx':'TITLE_PAGE.md'}
+          receipt={'source_commit':os.environ['GITHUB_SHA'],'scope':'document build and previously computed number checks only','new_fits':0,'new_resamples':0,'document_xml':{},'files':{}}
+          for name,h in expected.items():
+              with zipfile.ZipFile(root/name) as z:
+                  actual=hashlib.sha256(z.read('word/document.xml')).hexdigest()
+                  if actual!=h:raise ValueError('Reviewed document body differs: '+name)
+                  if hashlib.sha256(z.read('word/styles.xml')).hexdigest()!='8640e2e43e7e1f0e3f7972c8dba36318fd0992c831b4a22b9103bf19b276e174':raise ValueError('Styles differ')
+                  receipt['document_xml'][name]=actual
+              receipt['files'][name]=hashlib.sha256((root/name).read_bytes()).hexdigest()
+              subprocess.run(['pandoc',str(root/name),'-f','docx','-t','gfm+tex_math_dollars','--wrap=none','-o',str(root/outputs[name])],check=True)
+              text=(root/outputs[name]).read_text()
+              text=re.sub(r'media/image([123])\.png',r'figures/Fig\1.png',text)
+              (root/outputs[name]).write_text(text)
+          receipt['old_formula_repair_preserved']=True
+          receipt['raw_sources_republished']=False
+          receipt['author_final_approval']=False
+          (root/'support/CI_DOCUMENT_QA.json').write_text(json.dumps(receipt,indent=2))
+          PY
+      - name: Produce journal PDF supplement
+        run: |
+          mkdir -p /tmp/eex-v7-pdf /tmp/eex-v7-home
+          HOME=/tmp/eex-v7-home timeout 240 libreoffice -env:UserInstallation=file:///tmp/eex-v7-lo-profile --headless --convert-to pdf --outdir /tmp/eex-v7-pdf paper/eex_manuscript_v7_20261010/ONLINE_RESOURCE_1_v7.docx
+          cp /tmp/eex-v7-pdf/ONLINE_RESOURCE_1_v7.pdf paper/eex_manuscript_v7_20261010/ESM_1.pdf
+      - name: Commit only integrated manuscript directory
+        run: |
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git ls-remote origin refs/heads/eex-integrated-v7-20261010 | cut -f1)" = "$GITHUB_SHA"
+          find paper/eex_manuscript_v7_20261010 -type d -name __pycache__ -prune -exec rm -rf '{}' +
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- paper/eex_manuscript_v7_20261010
+          git diff --cached --name-only | grep -v '^paper/eex_manuscript_v7_20261010/' && exit 1 || true
+          git commit -m 'paper: integrate E1 and E3R with author metadata, no-funding and formula repair preserved'
+          git push origin HEAD:refs/heads/eex-integrated-v7-20261010
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: eex-v7-integrated-documents
+          retention-days: 7
+          path: |
+            paper/eex_manuscript_v7_20261010/*.docx
+            paper/eex_manuscript_v7_20261010/ESM_1.pdf
+            paper/eex_manuscript_v7_20261010/support/CI_DOCUMENT_QA.json
+            paper/eex_manuscript_v7_20261010/support/DOCUMENT_STRUCTURE_QA.json
+            paper/eex_manuscript_v7_20261010/support/INTEGRATION_NUMERIC_QA.json
