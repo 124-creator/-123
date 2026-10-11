@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-10-11T15:22:03.408663+08:00",
+  "repo": "124-creator/-123",
+  "data_current_verified_commit": "6cd665873c9bb11ed266bb3d5eea7e587ef2ca80",
+  "data_branch": "eex-market-data-acquisition-20261011",
+  "frozen_manuscript_commit": "b23920a1ed51bdd79428e4ebef5dd1bd2b9607e4",
+  "frozen_manuscript_branch": "eex-editorial-v8-20261010",
+  "frozen_manuscript_directory": "paper/eex_manuscript_v8_20261010",
+  "manuscript_read_scope_this_step": "Presence, byte identity and title/entry verified; not a new full manuscript/statistical review",
+  "manuscript_objects": {
+    "paper/eex_manuscript_v8_20261010/START_HERE.md": {
+      "bytes": 2184,
+      "sha256": "e95de1f7d9ec19be96629298c84fb595624147df58b2aab788eee562ddacd458"
+    },
+    "paper/eex_manuscript_v8_20261010/MANUSCRIPT_EN.md": {
+      "bytes": 47228,
+      "sha256": "9fbedb1bbb6514446b2345ec00ead53dc501c9f96343db17d2f1bf5b7d5a4d8f"
+    },
+    "paper/eex_manuscript_v8_20261010/ONLINE_RESOURCE_1.md": {
+      "bytes": 32785,
+      "sha256": "ec78fc976360086c52a8b3169cf9ac93b77e83e83d456c7f4dffdb4488c57072"
+    },
+    "paper/eex_manuscript_v8_20261010/REPRODUCIBILITY.md": {
+      "bytes": 2552,
+      "sha256": "c616a9c4cdd7cc08f30c52f27e9a8942a333ba14b72eede1cfa67f0d82a20b8a"
+    },
+    "paper/eex_manuscript_v8_20261010/DELIVERY_SCOPE.md": {
+      "bytes": 1260,
+      "sha256": "ef17c7e5e34352658b857efba5fcc8dfce0b526e3287f63c16c003879661e4f0"
+    }
+  },
+  "default_main_is_historical": "cfce35a4d2ddab44df85c0b0e427333810a192bd",
+  "scope": "Current six-year German EUA official-reported comparison layer complete, not entireworld/carbonmarketdata or native tick feed",
+  "official_report_quarters": 24,
+  "matched_reported_rows": 275,
+  "strict_rows": 240,
+  "strict_source_quarters": 21,
+  "no_row_source_flag_rows": 203,
+  "best_bid_strict_rows": 236,
+  "last_trade_strict_rows": 4,
+  "quarantined_rows": 35,
+  "native_tick_rows": 0,
+  "new_price_model_fits": 0,
+  "new_row_price_data_in_GitHub": false,
+  "new_official_pdf_originals_in_GitHub": false,
+  "previous_auction_quantity_public_bundle_path": "research/pro_review_20261010/full_data/README.md",
+  "local_full240_working_directory": "E:/碳价格/独立数据归档/EUA/official_cutoff_reference_20261011/full_24quarters_2020_2025",
+  "ChatGPT_Pro_invoked": false,
+  "jurisdiction_rank_or_acceptance_not_authenticated_by_dataset_counts": true,
+  "officialOpenAIhelp_body_not_retrieved_safetyrefusal_nofeatureclaim": true
+}

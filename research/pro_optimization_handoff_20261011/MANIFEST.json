@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "CURRENT_STATE.json",
+      "bytes": 2473,
+      "sha256": "c4581699b529aaeb5ce3a18edf1607b9f2f6c4468165fabcdea8e55592e182c1"
+    },
+    {
+      "path": "PRO_PROMPT.txt",
+      "bytes": 3708,
+      "sha256": "efefad384f5c96a4388f166ff783e00d502477610515735b556a659ac0b92b6b"
+    },
+    {
+      "path": "START_HERE_ZH.txt",
+      "bytes": 3126,
+      "sha256": "4e56179344e0d5031cc5918186ad71d16ba6f3772d45fbc1eb14a7f5bd6f88e7"
+    }
+  ],
+  "scope": "Three self-authored current-state/reader-entry/prompt objects;no new raw data or new model results;no Pro call made."
+}

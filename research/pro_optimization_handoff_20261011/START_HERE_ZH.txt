@@ -1,0 +1,25 @@
+Pro实验审查与论文优化：当前唯一交接入口（2026-10-11）
+
+可以开始实验方案审查和论文正文优化；不能声称全部下载数据已在GitHub，也不能声称新的价格关联实验已经完成。
+
+不要只读取默认main或2026-10-10旧审判入口。默认main是旧研究阶段；冻结主稿v8与新数据分属两个分支。
+
+先读冻结论文（完整正文、附录与可复现说明），commit b23920a1ed51bdd79428e4ebef5dd1bd2b9607e4：
+https://github.com/124-creator/-123/blob/b23920a1ed51bdd79428e4ebef5dd1bd2b9607e4/paper/eex_manuscript_v8_20261010/MANUSCRIPT_EN.md
+https://github.com/124-creator/-123/blob/b23920a1ed51bdd79428e4ebef5dd1bd2b9607e4/paper/eex_manuscript_v8_20261010/ONLINE_RESOURCE_1.md
+https://github.com/124-creator/-123/blob/b23920a1ed51bdd79428e4ebef5dd1bd2b9607e4/paper/eex_manuscript_v8_20261010/REPRODUCIBILITY.md
+
+再读新数据当前权威，commit 6cd665873c9bb11ed266bb3d5eea7e587ef2ca80：
+https://github.com/124-creator/-123/blob/6cd665873c9bb11ed266bb3d5eea7e587ef2ca80/research/eua_official_cutoff_pilot_20261011/START_HERE_ZH.txt
+https://github.com/124-creator/-123/blob/6cd665873c9bb11ed266bb3d5eea7e587ef2ca80/research/eua_official_cutoff_pilot_20261011/FULL24_PARENT_ACCEPTANCE.json
+https://github.com/124-creator/-123/blob/6cd665873c9bb11ed266bb3d5eea7e587ef2ca80/research/eua_official_cutoff_pilot_20261011/FULL24_EXPLORATORY_PROTOCOL.json
+
+当前数据：德国EUA 2020—2025全24季度、275场已报截止价格偏差，逐场与六份原EEX年表完整成功德国EUA日期集合、拍卖价格及8个数量字段一致。保守240场/21季度，203场无行级源标记，236场bestbid和4场lasttrade；35场隔离。原生tick仍0、原生事件时间/quoteage不认证。这是官方已报偏差层，不是原生二级报价重构或欧洲全体拍卖的高频研究。
+
+Github已有早期公开的EEX数量原表和1281场完整输入包，可见research/pro_review_20261010/full_data/README.md。新增政府PDF与275/240逐场价格对照表因为新原件及报价再分发许可未确认仍仅本机；公开的是来源、hash、验收摘要和固定探索协议。不能仅靠这些元数据独立重算新的价格实验。
+
+运行分工：Pro评审贡献、提出一次有界的实验协议改进并修改现有论文；本机执行新协议、保存真实输出及适宜公开的汇总，再据实完善结果/讨论。尚未登录或调用用户Pro账户。Pro若无法读取某文件，先列出已读和未读范围，不得声称已读完整仓库。
+
+当前已有候选协议是在看到数据之后固定，不是预注册，也未拟合。允许有理由地在首次拟合之前提出一次协议修订；不要为结果显著而追加模型或换题。冻结v8和原件保持不变，所有新实验/修订独立目录。
+
+复制PRO_PROMPT.txt到用户自己的Pro。目标是中科院三区及以上、优先传统订阅非OA；沿用Empirical Economics为工作目标，不把目标当成已确认分区/录用承诺。无需重新索取学校认可材料；没有自动投稿、付费或购买行情授权。
