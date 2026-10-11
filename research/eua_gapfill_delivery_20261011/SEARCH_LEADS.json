@@ -1,0 +1,59 @@
+{
+  "query_count": 4,
+  "successful_query_count": 3,
+  "primary_domain_unique_lead_count": 8,
+  "leads": [
+    {
+      "query": "site.eex.com \"Emission Spot\" \"Secondary Market\" \"xlsx\"",
+      "url": "https://www.eex.com/en/market-data/market-data-hub/environmentals-data",
+      "title": "Environmentals Market Data - European Energy Exchange (EEX)",
+      "scope": "SEARCH_INDEX_ONLY; not a document-body, downloadable-row, permission or historical-coverage certification"
+    },
+    {
+      "query": "site.eex.com \"Emission Spot\" \"Secondary Market\" \"xlsx\"",
+      "url": "https://www.eex.com/en/markets/environmentals/eu-ets1-eu-ets2-auctions/eu-ets1-auctions/access-to-the-auctions",
+      "title": "Access to the auctions | EEX",
+      "scope": "SEARCH_INDEX_ONLY; not a document-body, downloadable-row, permission or historical-coverage certification"
+    },
+    {
+      "query": "site.eex.com \"Emission Spot\" \"Secondary Market\" \"xlsx\"",
+      "url": "https://www.eex.com/en/newsroom/detail?cHash=fce2f94c4c662ac996e36d8276b39a4a&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=318",
+      "title": "Solved - Data Alert – Missing Prices in Emission Spot XLSX File",
+      "scope": "SEARCH_INDEX_ONLY; not a document-body, downloadable-row, permission or historical-coverage certification"
+    },
+    {
+      "query": "site.eex.com \"Emission Spot\" \"Secondary Market\" \"xlsx\"",
+      "url": "https://www.eex.com/en/markets/environmental-markets/eu-ets-spot-futures-options",
+      "title": "EU ETS Spot, Futures & Options | EEX",
+      "scope": "SEARCH_INDEX_ONLY; not a document-body, downloadable-row, permission or historical-coverage certification"
+    },
+    {
+      "query": "site.eex.com \"Emission Spot\" \"Secondary Market\" \"xlsx\"",
+      "url": "https://www.eex.com/en/markets/environmental-markets/eu-ets-auctions",
+      "title": "EU ETS Auctions | EEX",
+      "scope": "SEARCH_INDEX_ONLY; not a document-body, downloadable-row, permission or historical-coverage certification"
+    },
+    {
+      "query": "site.theice.com OR site.ice.com \"EUA Daily\" \"historical\" \"sample\"",
+      "url": "https://www.ice.com/publicdocs/circulars/12173%20attach%202.pdf",
+      "title": "ICE EUA Daily Futures (Phase 3) Contract Specifications",
+      "scope": "SEARCH_INDEX_ONLY; not a document-body, downloadable-row, permission or historical-coverage certification"
+    },
+    {
+      "query": "site.theice.com OR site.ice.com \"EUA Daily\" \"historical\" \"sample\"",
+      "url": "https://www.ice.com/products/18709519/EUA-Daily-Future",
+      "title": "EUA Daily Future",
+      "scope": "SEARCH_INDEX_ONLY; not a document-body, downloadable-row, permission or historical-coverage certification"
+    },
+    {
+      "query": "site.theice.com OR site.ice.com \"EUA Daily\" \"historical\" \"sample\"",
+      "url": "https://www.ice.com/report/26",
+      "title": "Historical Daily Volume - Futures",
+      "scope": "SEARCH_INDEX_ONLY; not a document-body, downloadable-row, permission or historical-coverage certification"
+    }
+  ],
+  "settlement_history_filename_lead": {
+    "literal": "/market_data/environmental/spot/xls/2020/EmissionSpotSecondaryMarketHistory_2020.xlsx",
+    "scope": "Literal path returned by search index of a 2020 EEX alert. Not a fetched file, not an anonymous-download URL, and not intraday trade/BBO evidence."
+  }
+}

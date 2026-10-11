@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "scope": "All selected new delivery files except this manifest. ZIP is immutable prior snapshot; it does not contain the newly written catalogue.",
+  "snapshot_commit": "d455d2b1adcce45889d0e16faac31bbd0454a3ff",
+  "file_count": 6,
+  "files": [
+    {
+      "path": "DOWNLOAD_CATALOG.json",
+      "bytes": 12228,
+      "sha256": "fa5f563ad1089fffb1b4e7ce103d1f1ad50f36b21a5a26066ee41a8076dfba35"
+    },
+    {
+      "path": "downloads/EUA_PUBLIC_PACKAGE_d455d2b.zip",
+      "bytes": 88799,
+      "sha256": "aeb31dc9974a85542c6823c6c7f3495ea77945e352a5d3ca71189ef225f6eafd"
+    },
+    {
+      "path": "GAPFILL_STATUS.json",
+      "bytes": 1976,
+      "sha256": "ebea8f600b70efacf682b52a4f5520ad44430ae906c427c57679c93e1d9f6d8c"
+    },
+    {
+      "path": "REQUEST_DELTA_EN.txt",
+      "bytes": 1349,
+      "sha256": "37e9d61ad6afbcd132d87c273bb59266e8522881a3f5e976251c4c9fb3219be4"
+    },
+    {
+      "path": "SEARCH_LEADS.json",
+      "bytes": 3418,
+      "sha256": "f8a3f2b08d0f17ea6008279ca6946756c6fa826daee8ceb432008537918efa82"
+    },
+    {
+      "path": "START_HERE_ZH.txt",
+      "bytes": 2237,
+      "sha256": "bdd857a2beaac2d25cf51d47b211039071808ff6e04e200ccaf3491198b55e5f"
+    }
+  ]
+}

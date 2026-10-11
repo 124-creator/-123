@@ -1,0 +1,11 @@
+Additional request for historical data and republication terms (DRAFT; NOT SENT)
+
+To EEX Market Data Services / ICE Data Services:
+
+We need a 5–20 auction-day research sample from 2020–2025 for EEX EUA Spot or ICE Endex EUA Daily Future. Please confirm historical instrument/venue mapping, trade and best-bid event timestamps and timezones, price/quantity units, and no-trade or stale-quote handling. The reference is the last trade before each independently verified auction closing time, with last best bid only where no trade is available; daily close, settlement, midpoint and front-December futures are not interchangeable substitutes.
+
+Please distinguish permission for academic analysis from permission to redistribute sample or full raw rows publicly in a reproducibility repository. We also request explicit terms for publishing the downloaded EEX 2026 primary-auction XLSX and auction calendars.
+
+A search-index result mentions /market_data/environmental/spot/xls/2020/EmissionSpotSecondaryMarketHistory_2020.xlsx. We have not obtained or authenticated this file. Please confirm the legitimate access route, field dictionary, historical correction version, and whether it is daily settlement only rather than intraday events.
+
+No account, subscription, purchase or acceptance of binding terms is requested automatically by this draft.

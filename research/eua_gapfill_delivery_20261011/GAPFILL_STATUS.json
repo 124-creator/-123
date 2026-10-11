@@ -1,0 +1,41 @@
+{
+  "recorded_after_actual_attempts": "2026-10-11T12:32:04.718978+08:00",
+  "parent_approved_snapshot_commit": "d455d2b1adcce45889d0e16faac31bbd0454a3ff",
+  "query_count": 4,
+  "new_body_target_count": 4,
+  "new_body_target_results": [
+    {
+      "url": "https://www.eex.com/en/market-data/market-data-hub/environmentals-data",
+      "error": "Blocked: URL targets a private or internal network address",
+      "body_obtained": false,
+      "alternate_route_attempted": false
+    },
+    {
+      "url": "https://www.eex.com/en/newsroom/detail?cHash=fce2f94c4c662ac996e36d8276b39a4a&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=318",
+      "error": "Blocked: URL targets a private or internal network address",
+      "body_obtained": false,
+      "alternate_route_attempted": false
+    },
+    {
+      "url": "https://www.eex.com/en/markets/environmental-markets/eu-ets-spot-futures-options",
+      "error": "Blocked: URL targets a private or internal network address",
+      "body_obtained": false,
+      "alternate_route_attempted": false
+    },
+    {
+      "url": "https://www.ice.com/products/18709519/EUA-Daily-Future",
+      "error": "Blocked: URL targets a private or internal network address",
+      "body_obtained": false,
+      "alternate_route_attempted": false
+    }
+  ],
+  "failed_query_count": 1,
+  "new_original_market_data_downloads_this_round": 0,
+  "new_eligible_auction_close_reference_rows": 0,
+  "valid_price_pairs": 0,
+  "price_regressions": 0,
+  "research_data_complete": false,
+  "all_downloaded_objects_public": false,
+  "stop_condition": "Four bounded new targets safety-refused; no bypass. Stop public-source hunting rather than claim unavailable data were acquired. Require legitimate provider sample and its research/public-redistribution authorization.",
+  "not_a_site_login_or_license_denial": "Tool private-network safety refusal does not establish that the site or data are commercially inaccessible."
+}

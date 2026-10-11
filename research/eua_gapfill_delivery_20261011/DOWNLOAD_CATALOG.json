@@ -1,0 +1,281 @@
+{
+  "recorded_after_actual_inventory": "2026-10-11T12:32:02.958348+08:00",
+  "scope": "Actual dataset containers, derived CSV and downloaded PDF evidence within the six named acquisition/archive roots only; not an all-project training inventory",
+  "physical_file_count": 19,
+  "unique_byte_object_count": 16,
+  "original_market_data_containers": 3,
+  "note_on_original_market_data_container_count": "Figshare author XLSX, Mendeley author ZIP and EEX 2026 primary-auction XLSX only; extracted member, CSV, snapshot ZIP, calendars and PDFs are not counted as additional price datasets.",
+  "public_unique_objects_selected": 3,
+  "all_downloaded_objects_public": false,
+  "unknown_rights_does_not_prove_a_blanket_legal_prohibition": true,
+  "items": [
+    {
+      "sha256": "aeb31dc9974a85542c6823c6c7f3495ea77945e352a5d3ca71189ef225f6eafd",
+      "bytes": 88799,
+      "file_kind": "zip",
+      "role": "generated_public_snapshot_bundle",
+      "publication_status": "PUBLIC_NOW_PACKAGED",
+      "public_repo_relative_path": "downloads/EUA_PUBLIC_PACKAGE_d455d2b.zip",
+      "reason": "Exact 31-file snapshot of already permitted author data and own audit artifacts; contains no Wind or additional exchange originals.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "eua_local_archive",
+          "relative_path": "EUA_PUBLIC_PACKAGE_d455d2b.zip"
+        }
+      ]
+    },
+    {
+      "sha256": "8617b185007c3f27c2bad593636aac2a6afc602d90ab048f5395bde048556985",
+      "bytes": 36646,
+      "file_kind": "xlsx",
+      "role": "author_raw_daily_prices",
+      "publication_status": "PUBLIC_DECLARED_AUTHOR_CC_BY_4_0",
+      "public_repo_relative_path": "../eex_market_data_acquisition_20261011/data/raw/figshare_28682684_v1/EU carbon price data.xlsx",
+      "reason": "Author grant accepted with attribution and upstream/market-semantic limitations.",
+      "byte_identical_copy_count": 3,
+      "observed_locations": [
+        {
+          "root_id": "eua_local_archive",
+          "relative_path": "figshare_28682684_v1/EU carbon price data.xlsx"
+        },
+        {
+          "root_id": "eua_local_archive",
+          "relative_path": "public_package/data/raw/figshare_28682684_v1/EU carbon price data.xlsx"
+        },
+        {
+          "root_id": "official_report_acquisition",
+          "relative_path": "figshare_eu_53279591.xlsx"
+        }
+      ]
+    },
+    {
+      "sha256": "b4ddba5c3609dfa3c13ed4a0c5998c952225c69dc1bc6c8a8f4c73a5fdfd2862",
+      "bytes": 508904,
+      "file_kind": "zip",
+      "role": "downloaded_vendor_identified_author_zip",
+      "publication_status": "LOCAL_ONLY_PERMISSION_UNRESOLVED",
+      "public_repo_relative_path": null,
+      "reason": "Wind identified in actual workbook; third-party rights and source conflict unresolved.",
+      "byte_identical_copy_count": 2,
+      "observed_locations": [
+        {
+          "root_id": "eua_local_archive",
+          "relative_path": "local_only_mendeley_d4bv52fgmd/data.zip"
+        },
+        {
+          "root_id": "official_report_acquisition",
+          "relative_path": "mendeley_d4bv52fgmd_data.zip"
+        }
+      ]
+    },
+    {
+      "sha256": "f4d04a394806caa0c4c8f8de02954f41c38dcc3dc3f27a8d28aaa161a6223d5d",
+      "bytes": 115000,
+      "file_kind": "xlsx",
+      "role": "extracted_wind_eua_settlement_workbook",
+      "publication_status": "LOCAL_ONLY_PERMISSION_UNRESOLVED",
+      "public_repo_relative_path": null,
+      "reason": "Member extracted from preceding Mendeley ZIP, not a separate downloaded source; not auction-close data.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "eua_local_archive",
+          "relative_path": "local_only_mendeley_d4bv52fgmd/期货结算价(..A).xlsx"
+        }
+      ]
+    },
+    {
+      "sha256": "5bb3360e69361124ed24b4065f0537ac7597cc85be36e8a1e96f1c25a2d909a5",
+      "bytes": 63374,
+      "file_kind": "csv",
+      "role": "derived_author_csv",
+      "publication_status": "PUBLIC_SAME_AUTHOR_DATA_TRANSFORM",
+      "public_repo_relative_path": "../eex_market_data_acquisition_20261011/data/parsed/figshare_eu_daily.csv",
+      "reason": "Same permitted author observations; no new independent source.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "eua_local_archive",
+          "relative_path": "public_package/data/parsed/figshare_eu_daily.csv"
+        }
+      ]
+    },
+    {
+      "sha256": "9e1c310a0be595442ac0fd43258846611a4a8012d3a6ae683dec5c38d245fdb0",
+      "bytes": 105014,
+      "file_kind": "pdf",
+      "role": "downloaded_provider_or_official_document",
+      "publication_status": "LOCAL_ONLY_WHOLE_DOCUMENT_PERMISSION_NOT_CERTIFIED",
+      "public_repo_relative_path": null,
+      "reason": "Specification, commercial history description, regulatory form, annual report or API guide; not original market quote rows. Publish link/hash facts only.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "intraday_documents",
+          "relative_path": "ice_consolidated_history_factsheet.pdf"
+        }
+      ]
+    },
+    {
+      "sha256": "a8f11e964c0fa782ebf0ef69cd3b676c29f046bc786d61dc9c88ac6a29d6c249",
+      "bytes": 13784,
+      "file_kind": "pdf",
+      "role": "downloaded_provider_or_official_document",
+      "publication_status": "LOCAL_ONLY_WHOLE_DOCUMENT_PERMISSION_NOT_CERTIFIED",
+      "public_repo_relative_path": null,
+      "reason": "Specification, commercial history description, regulatory form, annual report or API guide; not original market quote rows. Publish link/hash facts only.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "intraday_documents",
+          "relative_path": "ice_ecp_current_spec.pdf"
+        }
+      ]
+    },
+    {
+      "sha256": "1f1dd15e07edd51b923ca34a2c5a0e5d4cc8c811c47fdb2b95d04f13d485e44a",
+      "bytes": 73504,
+      "file_kind": "pdf",
+      "role": "downloaded_provider_or_official_document",
+      "publication_status": "LOCAL_ONLY_WHOLE_DOCUMENT_PERMISSION_NOT_CERTIFIED",
+      "public_repo_relative_path": null,
+      "reason": "Specification, commercial history description, regulatory form, annual report or API guide; not original market quote rows. Publish link/hash facts only.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "intraday_documents",
+          "relative_path": "ice_mifid_mft_form.pdf"
+        }
+      ]
+    },
+    {
+      "sha256": "29fa0b3ab8675005000962148b600d34f198f8079d7e80f5babdb9a77f7b8f6e",
+      "bytes": 1190324,
+      "file_kind": "pdf",
+      "role": "downloaded_provider_or_official_document",
+      "publication_status": "LOCAL_ONLY_WHOLE_DOCUMENT_PERMISSION_NOT_CERTIFIED",
+      "public_repo_relative_path": null,
+      "reason": "Specification, commercial history description, regulatory form, annual report or API guide; not original market quote rows. Publish link/hash facts only.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "intraday_documents",
+          "relative_path": "lseg_redistribution_policy.pdf"
+        }
+      ]
+    },
+    {
+      "sha256": "b3790b613b632da64e43f960fd432bd883a2eb15d9af3fbfb7069b63b7832be3",
+      "bytes": 393720,
+      "file_kind": "pdf",
+      "role": "downloaded_provider_or_official_document",
+      "publication_status": "LOCAL_ONLY_WHOLE_DOCUMENT_PERMISSION_NOT_CERTIFIED",
+      "public_repo_relative_path": null,
+      "reason": "Specification, commercial history description, regulatory form, annual report or API guide; not original market quote rows. Publish link/hash facts only.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "official_report_acquisition",
+          "relative_path": "DEHSt_2024_annual_report.pdf"
+        }
+      ]
+    },
+    {
+      "sha256": "54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d",
+      "bytes": 72742,
+      "file_kind": "xlsx",
+      "role": "exchange_original_2026_primary_auctions",
+      "publication_status": "LOCAL_ONLY_REPUBLICATION_NOT_CERTIFIED",
+      "public_repo_relative_path": null,
+      "reason": "Authentic downloaded EEX original retained; public bulk-file redistribution basis not certified. Primary auction observations do not supply an independent secondary reference.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "eex_2026_original",
+          "relative_path": "emission-spot-primary-market-auction-report-2026-data.xlsx"
+        }
+      ]
+    },
+    {
+      "sha256": "ffd75f74b9dc40944472751aa61c56f9b4e388f2e5ea48c45190f356de0bc59c",
+      "bytes": 2049034,
+      "file_kind": "pdf",
+      "role": "downloaded_or_archive_extracted_auction_calendar",
+      "publication_status": "LOCAL_ONLY_WHOLE_FILE_PERMISSION_NOT_CERTIFIED",
+      "public_repo_relative_path": null,
+      "reason": "Schedule evidence, not secondary-market quote observations; whole-file republication basis unresolved.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "eex_price_reference_archive",
+          "relative_path": "calendar_materials/EEX Auction Calendar_2024_21.12.2023.pdf"
+        }
+      ]
+    },
+    {
+      "sha256": "c5c9cd2f02aeb3d9b96221fef26cf752505044828c1f39fd6fe0246df03aafee",
+      "bytes": 235735,
+      "file_kind": "xlsx",
+      "role": "downloaded_or_archive_extracted_auction_calendar",
+      "publication_status": "LOCAL_ONLY_WHOLE_FILE_PERMISSION_NOT_CERTIFIED",
+      "public_repo_relative_path": null,
+      "reason": "Schedule evidence, not secondary-market quote observations; whole-file republication basis unresolved.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "eex_price_reference_archive",
+          "relative_path": "calendar_materials/EEX Auction Calendar_2024_21.12.2023.xlsx"
+        }
+      ]
+    },
+    {
+      "sha256": "21f45109e7737d20b2a668ff3314e46c1b535fa1431ac108970d0a42413e5d67",
+      "bytes": 1929832,
+      "file_kind": "pdf",
+      "role": "downloaded_or_archive_extracted_auction_calendar",
+      "publication_status": "LOCAL_ONLY_WHOLE_FILE_PERMISSION_NOT_CERTIFIED",
+      "public_repo_relative_path": null,
+      "reason": "Schedule evidence, not secondary-market quote observations; whole-file republication basis unresolved.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "eex_price_reference_archive",
+          "relative_path": "calendar_materials/EEX Auction Calendar_2024_31.07.2024.pdf"
+        }
+      ]
+    },
+    {
+      "sha256": "298d3ef602d62d9f35f56976e7c48905267c8ab7333a50de9c814be03a5978d2",
+      "bytes": 235578,
+      "file_kind": "xlsx",
+      "role": "downloaded_or_archive_extracted_auction_calendar",
+      "publication_status": "LOCAL_ONLY_WHOLE_FILE_PERMISSION_NOT_CERTIFIED",
+      "public_repo_relative_path": null,
+      "reason": "Schedule evidence, not secondary-market quote observations; whole-file republication basis unresolved.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "eex_price_reference_archive",
+          "relative_path": "calendar_materials/EEX Auction Calendar_2024_31.07.2024.xlsx"
+        }
+      ]
+    },
+    {
+      "sha256": "07551a5da633509d075a921190b5aefbeef8eb8e660e20d3daea8320012e3978",
+      "bytes": 1324610,
+      "file_kind": "pdf",
+      "role": "downloaded_provider_or_official_document",
+      "publication_status": "LOCAL_ONLY_WHOLE_DOCUMENT_PERMISSION_NOT_CERTIFIED",
+      "public_repo_relative_path": null,
+      "reason": "Specification, commercial history description, regulatory form, annual report or API guide; not original market quote rows. Publish link/hash facts only.",
+      "byte_identical_copy_count": 1,
+      "observed_locations": [
+        {
+          "root_id": "eex_price_reference_archive",
+          "relative_path": "public_documents/EEX_Group_DataSource_REST_API__v2__User_Guide_v008.pdf"
+        }
+      ]
+    }
+  ]
+}
