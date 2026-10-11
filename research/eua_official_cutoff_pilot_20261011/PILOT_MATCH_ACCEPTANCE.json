@@ -1,0 +1,80 @@
+{
+  "recorded_after_real_originals_and_parent_parse": "2026-10-11T13:39:51.687033+08:00",
+  "official_reported_cutoff_deviation_rows": 36,
+  "quarter_counts": {
+    "dehst_2020_q1": 12,
+    "dehst_2020_q3": 13,
+    "dehst_2020_q4": 11
+  },
+  "all_EEX_date_country_product_status_matches_unique": true,
+  "all_report_EEX_auction_prices_exact_equal": true,
+  "event_types": {
+    "last_best_bid": 34,
+    "last_trade": 2
+  },
+  "date_min": "2020-01-10",
+  "date_max": "2020-12-11",
+  "eex_original_bytes": 82938,
+  "eex_original_sha256": "9437b244c9f9e9ae0ef442e70604bd6cf5bdad5ede852651fad3e775f1679b92",
+  "strict_raw_reference_ticks_obtained": 0,
+  "individual_reference_event_timestamp_not_obtained": true,
+  "new_usable_grade": "government_official_reported_cutoff_price_deviation; not certified raw market feed",
+  "no_implied_second_market_prices_reconstructed": true,
+  "no_fitting_or_old_model_code_run": true,
+  "EEX_Time_field_is_not_cutoff_without_definition": true,
+  "missing_2020_quarter": 2,
+  "source_methods_checked_in_all_originals": [
+    {
+      "source_id": "dehst_2020_q1",
+      "method_original_pdf_page_1based": 13,
+      "last_trade_before_bidding_end_then_last_best_bid_rule_present": true
+    },
+    {
+      "source_id": "dehst_2020_q4",
+      "method_original_pdf_page_1based": 14,
+      "last_trade_before_bidding_end_then_last_best_bid_rule_present": true
+    },
+    {
+      "source_id": "dehst_2020_q3",
+      "method_original_pdf_page_1based": 13,
+      "last_trade_before_bidding_end_then_last_best_bid_rule_present": true
+    }
+  ],
+  "parent_visual_spotcheck": {
+    "recorded_after_parent_actual_image_read": "2026-10-11T13:48:51.352375+08:00",
+    "source_id": "dehst_2020_q1",
+    "original_pdf_page_1based": 14,
+    "dated_rows_visual": 12,
+    "single_star_footnote": "best bid ICE Daily Future",
+    "double_star_footnote": "last trade ICE Daily Future",
+    "unique_double_star_date": "20/03/2020",
+    "negative_values_visible_under_Absolute": true,
+    "native_tick_time_or_license_not_certified_by_image": true
+  },
+  "published_summary_replays": [
+    {
+      "source_id": "dehst_2020_q1",
+      "rows": 12,
+      "reported_mean_abs_eur": "0.06",
+      "reported_mean_abs_percent": "0.30",
+      "recomputed_rounding_matches": true
+    },
+    {
+      "source_id": "dehst_2020_q3",
+      "rows": 13,
+      "reported_mean_abs_eur": "0.11",
+      "reported_mean_abs_percent": "0.41",
+      "recomputed_rounding_matches": true
+    },
+    {
+      "source_id": "dehst_2020_q4",
+      "rows": 11,
+      "reported_mean_abs_eur": "0.11",
+      "reported_mean_abs_percent": "0.43",
+      "recomputed_rounding_matches": true
+    }
+  ],
+  "line_level_prices_and_quantity_panel_not_publicly_republished": true,
+  "scope_status": "36-row official reported price-validation pilot ready; six-year coverage incomplete; raw-tick gate remains open",
+  "definition_revision_recorded_after_data_were_seen_not_pre_registration": "2026-10-11T13:48:52.763997+08:00"
+}

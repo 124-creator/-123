@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {
+      "source_id": "dehst_2020_q1",
+      "source_url": "https://climate.ec.europa.eu/system/files/2020-06/ger_report_202003_en.pdf",
+      "relative_original_path": "originals/ger_report_202003_en.pdf",
+      "bytes": 1182239,
+      "sha256": "88ca6700b4bc9a14fe37d0dcc5b42a868724e2064f93beb3cca385b2b83f70ce",
+      "publisher_report": "DEHSt German auctioning report hosted by European Commission",
+      "grade": "official_reported_cutoff_deviation",
+      "license": "not established for full-PDF bulk republication; original local only",
+      "market_reference_definition": "report explicitly uses last trade immediately before bidding-period end; absent trade last best bid",
+      "not_raw_market_tick_export": true
+    },
+    {
+      "source_id": "dehst_2020_q4",
+      "source_url": "https://climate.ec.europa.eu/document/download/4fc4af05-7acd-4ce4-b007-41c67b399411_en",
+      "relative_original_path": "originals/ger_report_2020_q4.pdf",
+      "bytes": 1028436,
+      "sha256": "a4d3cff595c478fbc6c9c823d3704a18f27ff65ccfc2aebb698b3ad00377df43",
+      "publisher_report": "DEHSt German auctioning report hosted by European Commission",
+      "grade": "official_reported_cutoff_deviation",
+      "license": "not established for full-PDF bulk republication; original local only",
+      "market_reference_definition": "report explicitly uses last trade immediately before bidding-period end; absent trade last best bid",
+      "not_raw_market_tick_export": true
+    },
+    {
+      "source_id": "dehst_2020_q3",
+      "source_url": "https://climate.ec.europa.eu/document/download/2ce5a6a2-bb40-4538-8569-c40c877154e0_en",
+      "relative_original_path": "originals/ger_report_2020_q3.pdf",
+      "bytes": 843854,
+      "sha256": "8973dd7a70c29c6bbc8fe0b62bac781e35341aabe967839650e41ff6b0073815",
+      "publisher_report": "DEHSt German auctioning report hosted by European Commission",
+      "grade": "official_reported_cutoff_deviation",
+      "license": "not established for full-PDF bulk republication; original local only",
+      "market_reference_definition": "report explicitly uses last trade immediately before bidding-period end; absent trade last best bid",
+      "not_raw_market_tick_export": true
+    }
+  ],
+  "source_file_identity_not_raw_market_quote_authentication": true,
+  "row_level_csv_actual_local_filename": "official_reported_cutoff_deviations_2020_matched_EEX.csv",
+  "data_not_in_this_public_metadata_package": true
+}

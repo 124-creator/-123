@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "scope": "Four public self-authored metadata/summary/definition records; no PDFs or36-row quotation panel in this package",
+  "files": [
+    {
+      "path": "ACCESS_CLAIM_CORRECTION.json",
+      "bytes": 517,
+      "sha256": "d315a34da76e0c39c03f79ac0682140a905853fdaa679bd2e754de1f8ae40849"
+    },
+    {
+      "path": "PILOT_MATCH_ACCEPTANCE.json",
+      "bytes": 2990,
+      "sha256": "ff0f4a8122f19473bfcd227bf51c9de0d7ae5fcc46cf80f943c12f3f8e765c61"
+    },
+    {
+      "path": "SOURCE_RECORDS.json",
+      "bytes": 2476,
+      "sha256": "2c9d80f3778ade3e4e5f01503823e0aa9289b9aeb332b9b431972d74f8b49e22"
+    },
+    {
+      "path": "START_HERE_ZH.txt",
+      "bytes": 1424,
+      "sha256": "89b2075d135d13009344ee39ea41000fc8e5201b984c00e6102fd74237eb5f83"
+    }
+  ]
+}
