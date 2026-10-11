@@ -1,0 +1,37 @@
+{
+  "title": "Daily Carbon Price Data from Hubei, Guangzhou, and EU Emissions Trading Systems (2018–2024)",
+  "version": 1,
+  "doi": "10.6084/m9.figshare.28682684.v1",
+  "published_date": "2025-03-28T06:40:48Z",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "authors": [
+    {
+      "id": 20949980,
+      "full_name": "Yingying Fan",
+      "first_name": "Yingying",
+      "last_name": "Fan",
+      "is_active": true,
+      "url_name": "Yingying_Fan",
+      "orcid_id": ""
+    }
+  ],
+  "figshare_url": "https://figshare.com/articles/dataset/Daily_Carbon_Price_Data_from_Hubei_Guangzhou_and_EU_Emissions_Trading_Systems_2018_2024_/28682684",
+  "target_file": {
+    "id": 53279591,
+    "name": "EU carbon price data.xlsx",
+    "size": 36646,
+    "is_link_only": false,
+    "download_url": "https://ndownloader.figshare.com/files/53279591",
+    "supplied_md5": "ca9209187e4f95b12ac7e9464e95928c",
+    "computed_md5": "ca9209187e4f95b12ac7e9464e95928c",
+    "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  },
+  "source_api_url": "https://api.figshare.com/v2/articles/28682684",
+  "actual_api_capture_at": "2026-10-11T10:28:48.053986+08:00",
+  "captured_metadata_sha256": "fe9c189549611974a5c8b461e4609582c981a0fc19fa76eec92dfa163116a454",
+  "scope": "Selected factual fields from an earlier successful official API capture; not a fresh HTTP retrieval. The later parent extractor refusal is preserved separately."
+}

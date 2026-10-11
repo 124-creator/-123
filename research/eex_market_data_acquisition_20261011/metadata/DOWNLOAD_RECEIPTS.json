@@ -1,0 +1,40 @@
+[
+  {
+    "name": "figshare_eu_53279591.xlsx",
+    "source_url": "https://ndownloader.figshare.com/files/53279591",
+    "started_at": "2026-10-11T10:47:28.037893+08:00",
+    "finished_at": "2026-10-11T10:47:33.464039+08:00",
+    "tls_verification": true,
+    "local_proxy_used": true,
+    "returncode": 0,
+    "http_summary": "200\n36646",
+    "error": "",
+    "expected_size": 36646,
+    "actual_size": 36646,
+    "sha256": "8617b185007c3f27c2bad593636aac2a6afc602d90ab048f5395bde048556985",
+    "publisher_checksum_algorithm": "md5",
+    "publisher_checksum": "ca9209187e4f95b12ac7e9464e95928c",
+    "publisher_checksum_matches": true,
+    "zip_magic": true,
+    "downloaded_original_verified": true
+  },
+  {
+    "name": "mendeley_d4bv52fgmd_data.zip",
+    "source_url": "https://data.mendeley.com/public-files/datasets/d4bv52fgmd/files/4935504f-cf2d-45c0-add4-d6c20d667a45/file_downloaded",
+    "started_at": "2026-10-11T10:47:33.464039+08:00",
+    "finished_at": "2026-10-11T10:47:38.166070+08:00",
+    "tls_verification": true,
+    "local_proxy_used": true,
+    "returncode": 0,
+    "http_summary": "200\n508904",
+    "error": "",
+    "expected_size": 508904,
+    "actual_size": 508904,
+    "sha256": "b4ddba5c3609dfa3c13ed4a0c5998c952225c69dc1bc6c8a8f4c73a5fdfd2862",
+    "publisher_checksum_algorithm": "sha256",
+    "publisher_checksum": "b4ddba5c3609dfa3c13ed4a0c5998c952225c69dc1bc6c8a8f4c73a5fdfd2862",
+    "publisher_checksum_matches": true,
+    "zip_magic": true,
+    "downloaded_original_verified": true
+  }
+]

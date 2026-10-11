@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://api.figshare.com/v2/articles/28682684",
+      "title": "",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": 2,
+      "url": "https://data.mendeley.com/datasets/d4bv52fgmd/1",
+      "title": "",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": 3,
+      "url": "https://www.ice.com/publicdocs/ICE_Consolidated_History_Fact_Sheet.pdf",
+      "title": "",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": 4,
+      "url": "https://www.ice.com/api/productguide/spec/18709519/pdf",
+      "title": "",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": 5,
+      "url": "https://www.lseg.com/content/dam/data-analytics/en_us/documents/expert-talks/data-analytics-redistribution-expert-talk.pdf",
+      "title": "",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": 6,
+      "url": "https://www.eex.com/en/market-data/eex-group-datasource/real-time-data",
+      "title": "",
+      "accessed": "2026-10-11"
+    }
+  ]
+}

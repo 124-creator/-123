@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "path": "data/raw/figshare_28682684_v1/EU carbon price data.xlsx",
+      "bytes": 36646,
+      "sha256": "8617b185007c3f27c2bad593636aac2a6afc602d90ab048f5395bde048556985",
+      "publisher_md5": "ca9209187e4f95b12ac7e9464e95928c",
+      "source_url": "https://ndownloader.figshare.com/files/53279591",
+      "source_grade": "author_repository_copy",
+      "file_id": 53279591
+    }
+  ],
+  "semantic_authentication": "UNKNOWN; preserves original date/Y only",
+  "price_model_fitting_authorized_by_this_package": false
+}

@@ -1,0 +1,25 @@
+{
+  "initial_independent_verdict": "FAIL accepted; derived write could overwrite the original via aliases",
+  "fix_cycles_used": 2,
+  "fix_cycle_1": "partial; exceeded time budget; preserved as historical partial",
+  "fix_cycle_2": "completed narrow POSIX symlink guard within reported 112.83 seconds",
+  "actual_parent_tests": {
+    "normal_run": 14,
+    "normal_passed": 14,
+    "normal_skipped": 0,
+    "optimized_run": 14,
+    "optimized_passed": 14,
+    "optimized_skipped": 0
+  },
+  "default_readonly_audit_passed": true,
+  "original_sha256_unchanged": "8617b185007c3f27c2bad593636aac2a6afc602d90ab048f5395bde048556985",
+  "earlier_incorrect_check_flag": "The parser has no --check argument; an earlier --check invocation failed exit 2. Default invocation is read-only; this harness mistake was not a passing producer check.",
+  "physical_symlink_tests": "not probed; trusted lstat/resolve seam tests and actual hardlink test, no physical-symlink claims",
+  "scope_limits": [
+    "Not complete directory-object/TOCTOU authorization",
+    "Not dual-output transactional atomicity",
+    "No fresh authentication of market-price semantics",
+    "No price regressions or old model execution"
+  ],
+  "independent_recheck": "PASSED limited static scope; see results/INDEPENDENT_CODE_REVIEW.json. Not a market-data, remote-delivery or complete TOCTOU certification."
+}

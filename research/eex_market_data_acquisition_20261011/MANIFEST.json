@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-11T12:05:28.529925+08:00",
+  "scope": "Every selected package file except this manifest itself; workflow is independently checked in Git readback. Hashes authenticate bytes, not market semantics.",
+  "file_count": 28,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 54,
+      "sha256": "165160827a8a223a3ac69452cf005adee8050d2c6365a54b1e995f58ea6ab1f2"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1869,
+      "sha256": "5d23d8fc443a4ec6d32dd422e538cc41986a0a58fff90ca9206942e253c53c00"
+    },
+    {
+      "path": "ATTRIBUTION.txt",
+      "bytes": 1771,
+      "sha256": "b8ad3337fa5d035fabfaae95715a0f5ce3f2ace0c9f3d5bc3ade842e4a0e8bd0"
+    },
+    {
+      "path": "code/download_public.py",
+      "bytes": 3309,
+      "sha256": "9649fb7ee864c08214473da5b5b50fb30a1312a4d51fce32afa7484dd6543b8f"
+    },
+    {
+      "path": "code/parse_daily.py",
+      "bytes": 6360,
+      "sha256": "65c70fcc35c5e29279b40d5465b2cfbeb61efa65200d1659a57b0a58d7979ea3"
+    },
+    {
+      "path": "code/test_parse_daily.py",
+      "bytes": 10252,
+      "sha256": "69e3917f8dcc5daac9b2c4efc0147d1ebf811622618903c1667f18acc3d8d87b"
+    },
+    {
+      "path": "code/test_verify_package.py",
+      "bytes": 4396,
+      "sha256": "c9c08de9470b6624a020ba5c74b2ebfda544247006ac01ccfec737ecdf93a865"
+    },
+    {
+      "path": "code/verify_package.py",
+      "bytes": 1317,
+      "sha256": "6f6ecfc3aabb4d85007abe1902a9970a8ac9e232b813770598d95d181d6d1c87"
+    },
+    {
+      "path": "data/parsed/figshare_eu_daily.csv",
+      "bytes": 63374,
+      "sha256": "5bb3360e69361124ed24b4065f0537ac7597cc85be36e8a1e96f1c25a2d909a5"
+    },
+    {
+      "path": "data/raw/figshare_28682684_v1/EU carbon price data.xlsx",
+      "bytes": 36646,
+      "sha256": "8617b185007c3f27c2bad593636aac2a6afc602d90ab048f5395bde048556985"
+    },
+    {
+      "path": "DATA_DICTIONARY.md",
+      "bytes": 1865,
+      "sha256": "695a2442c60a9af1f183af6b176fb6c59ef25cb425463b7df511a96e99f5402b"
+    },
+    {
+      "path": "DOWNLOAD_INSTRUCTIONS_ZH.txt",
+      "bytes": 4492,
+      "sha256": "0d6dec1c9c3f5364afd216d42623c1ee45331cc49b2edba354e362bb758bdef9"
+    },
+    {
+      "path": "LICENSE_DECISION.json",
+      "bytes": 1409,
+      "sha256": "acca1c907446bcaa3692f552b346cd099f4f428e9883e230432b475f578d4209"
+    },
+    {
+      "path": "metadata/ACCESS_STATUS.json",
+      "bytes": 2921,
+      "sha256": "62b25ef1e2f0c4dadb4fba509b2b47b97976d9fab3988cbeff81dad58cd356d6"
+    },
+    {
+      "path": "metadata/CITATIONS.json",
+      "bytes": 1057,
+      "sha256": "ab41a3c0fa42be512a0b793d88363e819db248dce9f27c50943fea871de18036"
+    },
+    {
+      "path": "metadata/DOWNLOAD_RECEIPTS.json",
+      "bytes": 1524,
+      "sha256": "e0832afaa6dcaf4436c599c54fcccaed6f20441068eca8ac7461375ba6dcd71c"
+    },
+    {
+      "path": "metadata/FIGSHARE_DEPOSIT.json",
+      "bytes": 1521,
+      "sha256": "ba75b2d85970e4f297d57bbf0b2d9a59a886e788cabed304c0fb4187a4830b71"
+    },
+    {
+      "path": "PRO_REVIEW_PROMPT_ZH.txt",
+      "bytes": 1829,
+      "sha256": "fe1e0c9d3a22982a029994d75e8c115465818bda95995127eef3456addd90346"
+    },
+    {
+      "path": "REQUEST_DRAFTS_EN.txt",
+      "bytes": 3535,
+      "sha256": "5b6bc9eef8846b8aafcbb4c7b09c0743dcb43ccb2e0da640cd1ed8f743becd73"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 34,
+      "sha256": "5ab8a239c1418483ead11ccd73008173fdd3af6ae97f912357ede24da823b30a"
+    },
+    {
+      "path": "results/CODE_WRITE_REPAIR.json",
+      "bytes": 1368,
+      "sha256": "e15c2dcef05f14de07b21cccf493f272188ff207b3d18459b879115ed8f31cb8"
+    },
+    {
+      "path": "results/DAILY_AUDIT.json",
+      "bytes": 886,
+      "sha256": "76df475da0bdab2178961968d5790f6bc3a38a1fe38912779fc9c0d52f872ccf"
+    },
+    {
+      "path": "results/HELD_SOURCE_AUDIT.json",
+      "bytes": 1844,
+      "sha256": "c914288a8f38186abfe6af14d3045842815f94965d5aa7c35947bc24e7eb2c73"
+    },
+    {
+      "path": "results/INDEPENDENT_CODE_REVIEW.json",
+      "bytes": 3391,
+      "sha256": "255a9aecba218da420645c02bcf8dee4ff5e35258d5824bd4328b450fe44db15"
+    },
+    {
+      "path": "results/LOCAL_EXECUTION.json",
+      "bytes": 1107,
+      "sha256": "4ebe83668eb6274100e41851364af3042d740965600438c6087633975f02e732"
+    },
+    {
+      "path": "SOURCE_CONTRACT.json",
+      "bytes": 572,
+      "sha256": "848072f6cb4da9aa5892262e61dd891bb13573d5321c5a49ed1b350138678782"
+    },
+    {
+      "path": "SOURCE_INDEX.json",
+      "bytes": 4458,
+      "sha256": "c46ec616175cb0daa202c17c1b39fe824e5805bd2c660038535bd18ec0df6580"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 5362,
+      "sha256": "2be8edc3ffb88ca72c0e17f59f8a9021b55f1ce2c15fb7a66b3b5d1e99b6419c"
+    }
+  ]
+}

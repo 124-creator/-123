@@ -1,0 +1,50 @@
+下载与核验说明（2026-10-11）
+
+实际方法
+  官方公开仓库提供原始文件直链，无需登录、购买或API密钥。普通Python和curl首次发生TLS EOF；后来通过本机已有网络代理的正常TLS连接取得两个真实文件，并与平台公布的校验值一致。没有关闭证书校验。
+  单个下载最多45秒、一次请求链，失败即停止；HTTP成功还不够，必须核对文件魔数、长度和平台checksum。
+
+Figshare：允许按作者声明的CC BY 4.0、附署名与来源限制分享的作者副本。
+  原始地址：https://ndownloader.figshare.com/files/53279591
+  原文件名：EU carbon price data.xlsx
+  长度：36646字节
+  平台MD5：ca9209187e4f95b12ac7e9464e95928c
+  父独立SHA-256：8617b185007c3f27c2bad593636aac2a6afc602d90ab048f5395bde048556985
+  观察范围和数量以 results/DAILY_AUDIT.json 为准，而非把标题年份扩成完整年。
+
+以下从仓库根目录运行；Python下载/字节核验脚本只用标准库，重新读Excel另外需要 requirements.txt 中的读表依赖。
+
+先验证已经包含的公开原件，不重复联网：
+  python -B research/eex_market_data_acquisition_20261011/code/download_public.py --verify-only
+
+确需独立复下载时（Git Bash示例，临时目录在仓库外；Linux同理）：
+  mkdir -p ../eua-download-scratch
+  python -B research/eex_market_data_acquisition_20261011/code/download_public.py --output "../private_downloads/EU carbon price data.xlsx" --tempdir ../eua-download-scratch
+  如本机确有可用代理，再添加 --proxy http://127.0.0.1:7897；其他机器不要凭空假设该端口存在。没有代理时省略此参数。
+  新下载路径和仅核验已有原件路径均已实际执行，不能称为只写了未运行脚本。
+
+安装读表依赖到自选的隔离环境，不修改旧研究环境：
+  依赖文件：research/eex_market_data_acquisition_20261011/requirements.txt
+  openpyxl==3.1.5、et-xmlfile==2.0.0；使用隔离环境的python/pip执行以下核对。
+
+核对完整交付包：
+  python -B research/eex_market_data_acquisition_20261011/code/verify_package.py
+  python -O -B research/eex_market_data_acquisition_20261011/code/verify_package.py
+
+重新从原始字节检查每一行CSV及摘要（默认只读，不写输出）：
+  python -B research/eex_market_data_acquisition_20261011/code/parse_daily.py
+  python -O -B research/eex_market_data_acquisition_20261011/code/parse_daily.py
+  只有在明确需要生成自己的派生表时才加 --write。重新获取的不同版本不能混入当前冻结清单。
+  没有--check参数；默认命令就是只读核验。--write只创建缺失派生文件或复用逐字节相同的普通文件；冲突、链接/重解析或原件别名均拒绝，不truncate已有文件。冻结包JSON可能保留原始CRLF，不得为了让写入成功而改写冻结字节；日常复核使用默认只读模式。
+  该修复只有静态预校验与独占创建范围，不宣称是对并发恶意目录替换的操作系统沙箱，也不提供双输出事务。测试路径/属性seam不等于已探测物理symlink权限。
+
+Mendeley：真实原包已取得，但不是已核准公开再发布的数据。
+  原始文件地址：https://data.mendeley.com/public-files/datasets/d4bv52fgmd/files/4935504f-cf2d-45c0-add4-d6c20d667a45/file_downloaded
+  原包名：data.zip；长度508904字节。
+  平台/父SHA-256：b4ddba5c3609dfa3c13ed4a0c5998c952225c69dc1bc6c8a8f4c73a5fdfd2862
+  原包内EUA文件的实际成员名为 data/期货结算价(..A).xlsx，与页面声称的长文件名不同，不能擅自改名并称其是原名称。
+  Wind脚注、作者来源矛盾及连续合约换月规则未知，使它暂留本机；不得把ZIP或派生报价行加入GitHub。具体字段、实际日期边界和表头见 results/HELD_SOURCE_AUDIT.json。
+
+不要重试被明确拒绝的目标，不绕过认证/验证码/订阅。metadata/ACCESS_STATUS.json 明确区分网络错误、用户拒绝、工具安全拒绝及后来的真实成功。早先合法取得的本地元数据可以作为历史证据，但不是后来被拒页面的成功访问。
+
+日内行情：当前公开说明、教程及样件申请表不是EUA原始逐笔数据。下一步按 REQUEST_DRAFTS_EN.txt 询具体ECP/EEX EUA Spot的逐年历史和许可，再取5–20场样件。日收盘、连续期货结算、月平均绝对偏离均不能恢复拍卖截止前成交或best bid。

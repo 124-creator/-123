@@ -1,0 +1,13 @@
+Attribution and scope
+
+Original deposit: Yingying Fan (2025), Daily Carbon Price Data from Hubei, Guangzhou, and EU Emissions Trading Systems (2018–2024), version 1.
+DOI: 10.6084/m9.figshare.28682684.v1
+Source: https://figshare.com/articles/dataset/Daily_Carbon_Price_Data_from_Hubei_Guangzhou_and_EU_Emissions_Trading_Systems_2018_2024_/28682684
+Dataset-declared license: Creative Commons Attribution 4.0 International (CC BY 4.0).
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+The original EU carbon price data.xlsx is reproduced byte-for-byte, unchanged, under that deposit-level declared license. The parsed CSV is a derived representation: Excel dates become ISO dates and sheet/row locators are added. No price adjustment, imputation, weekend removal, interpolation, model prediction or rolling-contract reconstruction is performed. The same attribution and CC BY 4.0 apply to this derived price table. No author endorsement is implied.
+
+This permission basis is the author's explicit data-deposit grant, not certification that we independently audited every upstream right. Neither the deposit title nor byte identity authenticates a specific exchange, allowance, contract, price definition or currency. The original workbook only labels its two fields date and Y. These unresolved semantics are disclosed in SOURCE_CONTRACT.json and results/DAILY_AUDIT.json.
+
+This attribution does NOT license the Mendeley/Wind ZIP, exchange bulk data inherited elsewhere in the repository, ICE/EEX/LSEG manuals, or third-party reports. Those newly acquired unconfirmed originals are not part of this public package. Only their factual provenance and acquisition limitations are described here. Existing repository source rights are not retrospectively certified.

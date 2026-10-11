@@ -1,0 +1,4 @@
+/local_only/
+/verification_output/
+__pycache__/
+*.pyc

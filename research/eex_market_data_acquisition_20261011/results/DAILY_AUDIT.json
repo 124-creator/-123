@@ -1,0 +1,32 @@
+{
+  "observation_count": 1577,
+  "date_min": "2018-01-02",
+  "date_max": "2024-03-27",
+  "unique_date_count": 1577,
+  "duplicate_date_count": 0,
+  "dates_strictly_increasing": true,
+  "missing_price_count": 0,
+  "zero_price_count": 0,
+  "year_row_counts": {
+    "2018": 241,
+    "2019": 240,
+    "2020": 259,
+    "2021": 259,
+    "2022": 258,
+    "2023": 258,
+    "2024": 62
+  },
+  "unit": null,
+  "specific_allowance_and_contract": null,
+  "venue": null,
+  "timestamp_timezone": null,
+  "price_measurement": "daily_close_claimed_by_author_metadata_not_independently_authenticated",
+  "source_grade": "author_repository_copy",
+  "auction_close_eligible_reference_rows": 0,
+  "original_sha256": "8617b185007c3f27c2bad593636aac2a6afc602d90ab048f5395bde048556985",
+  "original_headers": [
+    "date",
+    "Y"
+  ],
+  "original_sheet": "欧盟碳价数据"
+}

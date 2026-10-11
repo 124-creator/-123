@@ -1,0 +1,21 @@
+{
+  "recorded_after_actual_tool_return": "2026-10-11T11:46:48.336327+08:00",
+  "python_version": "3.11.15",
+  "openpyxl_version": "3.1.5",
+  "unique_unit_and_integration_tests": 14,
+  "normal_passed": 14,
+  "optimized_passed": 14,
+  "fresh_csv_and_audit_match_normal": true,
+  "fresh_csv_and_audit_match_optimized": true,
+  "inherited_frozen_manifest_files_checked": 80,
+  "inherited_frozen_manifest_passed": true,
+  "new_price_regressions": 0,
+  "model_or_notebook_execution": false,
+  "scope": "LOCAL EXECUTION ONLY; not a GitHub push, remote readback or CI receipt. Those are verified separately against the final commit.",
+  "normal_skipped": 0,
+  "optimized_skipped": 0,
+  "historical_initial_passed_tests": 9,
+  "repair_scope": "Static derived-output alias/boundary/reparse/POSIX symlink preflight and exclusive creation; not directory-object or concurrent TOCTOU certification",
+  "physical_symlink_privileges_probed": false,
+  "final_independent_review": "PASSED limited static scope; see results/INDEPENDENT_CODE_REVIEW.json. Not a market-data, remote-delivery or complete TOCTOU certification."
+}

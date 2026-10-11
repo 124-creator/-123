@@ -1,0 +1,71 @@
+{
+  "status": "DOWNLOADED_LOCAL_ONLY",
+  "literal_archive_member": "data/期货结算价(..A).xlsx",
+  "xlsx_bytes": 115000,
+  "xlsx_sha256": "f4d04a394806caa0c4c8f8de02954f41c38dcc3dc3f27a8d28aaa161a6223d5d",
+  "sheet_name": "期货结算价(连续)_欧盟排放配额(EUA)",
+  "actual_physical_expanded_rows": 5269,
+  "observed_date_row_count": 5262,
+  "date_min": "2005-04-22",
+  "date_max": "2025-10-02",
+  "missing_settlement_count": 0,
+  "year_row_counts": {
+    "2005": 174,
+    "2006": 255,
+    "2007": 257,
+    "2008": 256,
+    "2009": 255,
+    "2010": 257,
+    "2011": 257,
+    "2012": 258,
+    "2013": 258,
+    "2014": 258,
+    "2015": 258,
+    "2016": 258,
+    "2017": 257,
+    "2018": 258,
+    "2019": 258,
+    "2020": 259,
+    "2021": 259,
+    "2022": 258,
+    "2023": 258,
+    "2024": 259,
+    "2025": 195
+  },
+  "literal_metadata_rows": [
+    [
+      "指标名称",
+      "期货结算价(连续):欧盟排放配额(EUA)",
+      "期货成交量(连续):欧盟排放配额(EUA)"
+    ],
+    [
+      "频率",
+      "日",
+      "日"
+    ],
+    [
+      "单位",
+      "欧元/吨二氧化碳当量",
+      "吨二氧化碳当量"
+    ],
+    [
+      "指标ID",
+      "S5100012",
+      "S5100010"
+    ],
+    [
+      "来源",
+      "根据新闻整理",
+      "根据新闻整理"
+    ]
+  ],
+  "literal_footer": [
+    "数据来源：Wind"
+  ],
+  "declared_dimension_issue": "A1 in original worksheet XML; physical rows independently read after reset_dimensions",
+  "asset": "EUA continuous futures settlement and volume per original header",
+  "continuous_roll_rule": null,
+  "upstream_rights": "HOLD: Wind footer and inconsistent Wind/Investing.com deposit description; author CC BY does not establish vendor raw redistribution permission",
+  "auction_close_eligible_reference_rows": 0,
+  "market_values_republished": false
+}

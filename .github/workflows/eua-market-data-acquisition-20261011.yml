@@ -1,0 +1,41 @@
+name: EUA author-data acquisition checks
+on:
+  push:
+    branches: [eex-market-data-acquisition-20261011]
+    paths:
+      - 'research/eex_market_data_acquisition_20261011/**'
+      - '.github/workflows/eua-market-data-acquisition-20261011.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-public-package:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      TMPDIR: ${{ runner.temp }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Create isolated reader environment
+        run: |
+          python3 -m venv "$RUNNER_TEMP/eua-reader"
+          "$RUNNER_TEMP/eua-reader/bin/pip" install --disable-pip-version-check -r research/eex_market_data_acquisition_20261011/requirements.txt
+      - name: Verify inherited frozen originals without model fitting
+        run: python3 -B scripts/verify_repository.py
+      - name: Verify selected package bytes
+        run: |
+          python3 -B research/eex_market_data_acquisition_20261011/code/verify_package.py
+          python3 -O -B research/eex_market_data_acquisition_20261011/code/verify_package.py
+      - name: Test logic and existing-original acquisition check
+        run: |
+          "$RUNNER_TEMP/eua-reader/bin/python" -B -m unittest discover -s research/eex_market_data_acquisition_20261011/code -p 'test_*.py' -v
+          "$RUNNER_TEMP/eua-reader/bin/python" -O -B -m unittest discover -s research/eex_market_data_acquisition_20261011/code -p 'test_*.py' -v
+      - name: Fresh extraction must reproduce every public CSV row
+        run: |
+          "$RUNNER_TEMP/eua-reader/bin/python" -B research/eex_market_data_acquisition_20261011/code/parse_daily.py
+          "$RUNNER_TEMP/eua-reader/bin/python" -O -B research/eex_market_data_acquisition_20261011/code/parse_daily.py
+          git diff --exit-code

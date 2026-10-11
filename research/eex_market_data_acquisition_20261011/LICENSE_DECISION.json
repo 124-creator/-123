@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-11T11:10:07.629820+08:00",
+  "figshare": {
+    "decision": "PUBLIC_AUTHOR_COPY_UNDER_DEPOSIT_DECLARED_CC_BY_4_0",
+    "evidence": "Successful earlier official API capture; metadata/FIGSHARE_DEPOSIT.json records dataset-level license, version and target file",
+    "attribution": "ATTRIBUTION.txt",
+    "raw_bytes_changed": false,
+    "original_exchange_authentication": false,
+    "specific_instrument_units_and_price_definition": null,
+    "parent_scope_correction": "The child initially held both candidates. Here the explicit author-deposit grant is accepted for this otherwise unrestricted deposit file only; unknown product semantics remain a scientific HOLD, not an invented exchange license. This does not certify upstream ownership or permit vendor-identified files."
+  },
+  "mendeley": {
+    "decision": "LOCAL_ONLY_HOLD",
+    "reason": "Original workbook footer identifies Wind; deposit license itself warns third-party contents may require permission; Wind versus Investing.com source descriptions conflict",
+    "zip_republished": false,
+    "raw_or_derived_price_rows_republished": false
+  },
+  "official_documents": {
+    "decision": "LINKS_HASHES_AND_SCOPED_FACTS_ONLY",
+    "whole_pdf_or_html_republished": false
+  },
+  "inherited_exchange_tables": {
+    "decision": "NOT_REASSESSED_OR_REPUBLISHED_BY_THIS_CHANGE",
+    "rights_retroactively_certified": false
+  }
+}

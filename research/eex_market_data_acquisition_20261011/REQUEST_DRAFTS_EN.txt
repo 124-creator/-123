@@ -1,0 +1,30 @@
+DRAFTS ONLY — NOT SENT; NO PURCHASE OR TERMS ACCEPTED
+
+1. Author source-definition inquiry (public Figshare author profile/contact channel, if available)
+
+Dear Yingying Fan,
+We obtained version 1 of your dataset, DOI 10.6084/m9.figshare.28682684.v1, specifically EU carbon price data.xlsx. Thank you for providing it under CC BY 4.0. Its date/Y table runs from 2018-01-02 through 2024-03-27.
+For transparent research use, could you confirm the exact exchange and supplier, allowance type, ticker/ISIN, spot versus futures contract, contract expiry and roll rule if continuous, units, and whether Y is a closing transaction price, official close or settlement? Could you also explain observation-date selection, especially the 2018–2019 coverage, and confirm whether any identified third-party terms restrict onward sharing of the deposited EU file?
+We will cite the deposit and preserve the unresolved definitions rather than describing it as exchange-authenticated data.
+
+2. Historical event-data sample request — ICE
+Contact printed in the official historical-service factsheet: sales-icedataservices-usinsidesales@ice.com
+Subject: Academic EUA daily-future historical trade/quote sample and research redistribution terms, 2020–2025
+
+Dear ICE Data Services,
+We are studying European primary carbon auctions and need an independent benchmark available before each documented auction bidding deadline. We are considering EUA Daily Future (current symbol ECP), not a front-December continuous settlement series.
+Before ordering data, could you provide written confirmation of:
+- Exact historical product identifiers and venue mappings for each year 2020–2025, including any venue migration or discontinued identifier;
+- Actual per-product historical trade and quote coverage and gaps, not only the service's broad cross-market starting year;
+- Event time, exchange time, timezone/DST conventions, trade/correction flags, bid/ask price and size, units and contract/expiry fields;
+- A lawful 5–20-auction-date sample, preferably full sessions initially so deadline/timezone mapping can be independently checked;
+- Whether the last transaction before the deadline can be reconstructed, and the last best bid when no relevant transaction is present; we are not imposing midpoint as the mandatory reference;
+- Academic research, retention, publication of aggregate findings, and permission for public GitHub redistribution of original event rows, each separately;
+- Any sample restrictions and academic pricing, without treating this inquiry as an order.
+We have no target historical raw sample yet and do not assume that current specifications establish earlier coverage.
+
+3. EEX follow-up request — only if the existing inquiry has no usable answer
+Use the official EEX Group DataSource contact channel. Do not resend an already answered request or assume receipt/reply from a user's self-report.
+Request EEX EUA Spot historical transactions / last best bid around documented auction deadlines for 2020–2025. Ask the same field/venue/timezone and separate research versus public raw-file redistribution questions as above. Confirm the exact relevant API/product endpoint and per-year coverage before buying or exporting. Broad API history or a recent derivatives Top-of-Book starting date is not complete spot history certification.
+
+No credentials, account passwords, API keys or payment details belong in chat or this repository. Any future authentication uses the platform's secure mechanism and requires authorization.

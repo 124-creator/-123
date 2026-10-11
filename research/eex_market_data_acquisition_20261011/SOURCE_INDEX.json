@@ -1,0 +1,88 @@
+{
+  "compiled_at": "2026-10-11T11:10:07.629820+08:00",
+  "new_candidate_count": 6,
+  "sources": [
+    {
+      "candidate": "Ember",
+      "source_url": "https://ember-energy.org/data/european-electricity-prices-and-costs/",
+      "product": "EU/UK ETS front December futures contracts; not spot",
+      "price_type": "front-December contract; CSV frequency, closing or settlement definition not verified",
+      "historical_child_download_status": "NOT_DOWNLOADED: download-entry inspection command was explicitly denied; this branch was stopped without alternate access",
+      "parent_status": "STOPPED_AFTER_EXPLICIT_USER_COMMAND_DENIAL",
+      "redistribution": "HOLD_MONTEL_SERIES_SCOPE_UNVERIFIED",
+      "price_pair_gate": "NO_ORIGINAL_ROWS_OBTAINED"
+    },
+    {
+      "candidate": "Figshare 28682684 v1",
+      "source_url": "https://figshare.com/articles/dataset/Daily_Carbon_Price_Data_from_Hubei_Guangzhou_and_EU_Emissions_Trading_Systems_2018_2024_/28682684",
+      "product": "EU carbon market; EUA/EUAA, venue, spot/futures not identified in actual metadata",
+      "price_type": "Metadata says treated as closing prices; not independently authenticated",
+      "historical_child_download_status": "FAILED: Python SSL EOF; single bounded native curl fallback returned 35; no third attempt",
+      "parent_status": "DOWNLOADED_CHECKSUM_VERIFIED_PUBLIC_AUTHOR_COPY",
+      "actual_coverage": {
+        "date_min": "2018-01-02",
+        "date_max": "2024-03-27",
+        "rows": 1577
+      },
+      "public_data_path": "data/raw/figshare_28682684_v1/EU carbon price data.xlsx",
+      "license": "author dataset CC BY 4.0",
+      "upstream_rights_independently_audited": false,
+      "market_semantics_confirmed": false,
+      "price_pair_gate": "INELIGIBLE"
+    },
+    {
+      "candidate": "Mendeley d4bv52fgmd v1",
+      "source_url": "https://data.mendeley.com/datasets/d4bv52fgmd/1",
+      "product": "EUA continuous futures; fallback, not spot",
+      "price_type": "Daily futures settlement prices and volumes, author metadata claim",
+      "historical_child_download_status": "FAILED: Python SSL EOF; single bounded native curl fallback returned 35 after official S3 redirect; no third attempt",
+      "parent_status": "DOWNLOADED_CHECKSUM_VERIFIED_LOCAL_ONLY",
+      "actual_coverage": {
+        "date_min": "2005-04-22",
+        "date_max": "2025-10-02",
+        "rows": 5262
+      },
+      "literal_archive_member": "data/期货结算价(..A).xlsx",
+      "redistribution": "HOLD_WIND_THIRD_PARTY",
+      "continuous_contract_roll_rule": null,
+      "price_pair_gate": "INELIGIBLE"
+    },
+    {
+      "candidate": "ICE / ICE Endex",
+      "source_url": "https://www.ice.com/publicdocs/ICE_Consolidated_History_Fact_Sheet.pdf",
+      "product": "Historical trade/quote service; exact ECP historical coverage requires confirmation",
+      "parent_status": "PUBLIC_DOCUMENTS_ONLY_NO_RAW_SAMPLE",
+      "public_raw_redistribution_permission": null,
+      "request_contact": "sales-icedataservices-usinsidesales@ice.com",
+      "price_pair_gate": "NO_ELIGIBLE_ROWS"
+    },
+    {
+      "candidate": "Tick Data",
+      "source_url": "https://www.tickdata.com/product/historical-futures-data/",
+      "product": "Historical futures trades and quotes; ECP instrument coverage unknown",
+      "parent_status": "SAMPLE_REQUEST_FORM_NOT_DOWNLOAD",
+      "public_raw_redistribution_permission": null,
+      "price_pair_gate": "NO_ELIGIBLE_ROWS"
+    },
+    {
+      "candidate": "LSEG",
+      "source_url": "https://developers.lseg.com/en/article-catalog/article/request-tick-history-time-and-sales-data-using-python",
+      "product": "Licensed tick history; tutorial rows are other instruments, not EUA",
+      "parent_status": "AUTHENTICATED_SERVICE_NO_CREDENTIALS_USED",
+      "public_raw_redistribution_permission": null,
+      "price_pair_gate": "NO_ELIGIBLE_ROWS"
+    }
+  ],
+  "parent_checked_metadata_capture_count": 4,
+  "parent_checked_intraday_document_count": 10,
+  "original_author_data_containers_downloaded": 2,
+  "public_raw_originals_selected": 1,
+  "eligible_auction_close_references": 0,
+  "new_price_regressions": 0,
+  "prior_official_channel": {
+    "organization": "EEX",
+    "source_url": "https://www.eex.com/en/market-data/eex-group-datasource/real-time-data",
+    "status": "Earlier parent API guide audit, not another new candidate or acquired quote file",
+    "per_product_history_not_certified_for_full_sample": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-10-11T11:10:07.629820+08:00",
+  "earlier_child_daily_tls_errors_preserved_in_source_index": true,
+  "successful_parent_raw_downloads": "metadata/DOWNLOAD_RECEIPTS.json",
+  "tls_verification_disabled": false,
+  "user_denied_ember_action": [
+    {
+      "scope": "Ember source HTML iframe/src/CSV/download endpoint inspection",
+      "at": "2026-10-11 about 10:29 +08:00",
+      "tool_result": "BLOCKED: User denied this command",
+      "action": "Stopped that branch; no equivalent command or tool route attempted"
+    }
+  ],
+  "intraday_security_denials": {
+    "scope": "Security refusals actually returned by web_extract; no alternate-tool refetch of these exact targets after refusal. Search-index descriptions, where already returned, are not full document access.",
+    "targets": [
+      "https://www.ice.com/report/60",
+      "https://www.ice.com/report/61",
+      "https://www.ice.com/products/18709519/EUA-Daily-Future/data",
+      "https://developers.lseg.com/en/api-catalog/refinitiv-tick-history/refinitiv-tick-history-rth-rest-api/quick-start",
+      "https://www.tickdata.com/historical-market-data-products/futures-data/available-futures-data/",
+      "https://www.ice.com/publicdocs/Guide_to_Reading_Delayed_Pre_and_Post_Trade_Transparency_Data_April_2021.pdf",
+      "https://www.lseg.com/en/data-analytics/market-data/data-feeds/tick-history",
+      "https://www.tickdata.com/terms-of-use/",
+      "https://s3-us-west-2.amazonaws.com/tick-data-s3/pdf/Futures_File_Format_Guide.pdf",
+      "https://www.lseg.com/en/data-analytics/market-data/data-redistribution"
+    ],
+    "tool_error_literal": "Blocked: URL targets a private or internal network address",
+    "not_site_authentication_or_license_findings": true,
+    "separate_local_browser_failure": "PermissionError: [WinError 5] at browser-harness runtime bu-eua_intraday_audit.port",
+    "separate_http_404": "https://www.ice.com/endex/mifidii",
+    "tls_only_failures": "Initial requests attempts at ICE MiFID landing and at LSEG product/redistribution landing pages failed with SSL EOF. Native curl succeeded for distinct allowed pages/documents, as separately recorded; no credentials or TLS verification bypass used."
+  },
+  "later_parent_extractor_denials": {
+    "targets": [
+      "https://api.figshare.com/v2/articles/28682684",
+      "https://creativecommons.org/licenses/by/4.0/",
+      "https://data.mendeley.com/datasets/d4bv52fgmd/1"
+    ],
+    "literal_error": "Blocked: URL targets a private or internal network address",
+    "action": "No refetch of these exact targets with an alternate tool after refusal; earlier legitimate saved captures remain historical evidence, not later successful access."
+  },
+  "download_cli_live_network_path_exercised": true,
+  "download_cli_original_checksum_matched": true,
+  "credentials_used_for_data_acquisition": false,
+  "purchases_or_contact_forms_submitted": false
+}
