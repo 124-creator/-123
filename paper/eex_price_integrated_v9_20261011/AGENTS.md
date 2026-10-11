@@ -1,0 +1,7 @@
+# v9固定整合边界
+
+以955f694ccc76396e5af90166da8a921cd210a104的paper/eex_reported_price_v8_2_20261011为DOCX源，结果使用fccd471de96548bd781c59aced4a59435aae08ac，描述使用33707c164c80accd7acf9fcd3f0965088a8370f6。本轮新目录只做公开结果审查和完整论文整合。不得覆盖旧稿、重新选择样本、执行旧模型或导入私有报价。
+
+保留修好的整词late/early下标；不要从Markdown重建DOCX。tools/build_integrated_v9.py校验源文件哈希并保护旧公式表图。tools/audit_public_evidence.py只重算公开汇总和已存储抽样统计；不是新市场拟合。tools/finalize_delivery.py只导出MD和显示账本。发布时只增加本目录和research/eex_aggregate_review_20261011，不合并main。
+
+无资助与王老师审过前稿已由用户确认。其他作者声明不猜测。中科院分区/录用概率未认证，不得用JCR替代或许诺。真源与网页阅读层级分别记录。

@@ -1,0 +1,34 @@
+{
+  "scope": "Document integration and object integrity only; not a market refit",
+  "version": "v9",
+  "new_market_fits": 0,
+  "new_bootstrap_fits": 0,
+  "files": {
+    "MANUSCRIPT_EN_v9.docx": {
+      "sha256": "ce6b68f22d88454d35a534a99b0b1561d0207a550dc31666f0f37e00c424e789",
+      "bytes": 768323,
+      "math_objects": 52,
+      "physical_tables": 10,
+      "drawings": 3
+    },
+    "ONLINE_RESOURCE_1_v9.docx": {
+      "sha256": "7e6de1b5e9045d3f0343c323f6e34ffb7209d0dc8fd9d9e64fcff22598a82830",
+      "bytes": 35519,
+      "math_objects": 58,
+      "physical_tables": 16,
+      "drawings": 0
+    },
+    "TITLE_PAGE_v9.docx": {
+      "sha256": "97a79285d4f88287f5e04e2fa88442e15372b1e89b9b88ef146e26b7561a0527",
+      "bytes": 11919,
+      "math_objects": 0,
+      "physical_tables": 0,
+      "drawings": 0
+    }
+  },
+  "source_hashes": {
+    "MANUSCRIPT_EN_v8_2.docx": "ca7d885b16aae4986f2975e652e1f1e0cdedfcec33abfe870917f49e7cca7504",
+    "ONLINE_RESOURCE_1_v8_2.docx": "c51c72bc1614685634ec4a2f491f228ab473a860ab8a2e3e6ab817eefc292dd6",
+    "TITLE_PAGE_v8_2.docx": "4854830b09550d4e23243521d26e113c2647726d6c9b2f08d1dfb31f044fc5f8"
+  }
+}

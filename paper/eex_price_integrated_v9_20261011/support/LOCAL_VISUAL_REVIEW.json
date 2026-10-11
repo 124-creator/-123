@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-11",
+  "scope": "Local visual review, not native Word/WPS compatibility certification",
+  "pages": {
+    "main": 17,
+    "online_resource": 13,
+    "title_page": 1
+  },
+  "all_final_local_pages_checked": true,
+  "main_finalization": "Last changed pages 9 and 17 opened after final build; other approved pages pixel-identical to previously individually reviewed final2 pages",
+  "observed_clipping_or_overlap": false,
+  "native_Word_WPS_test": false,
+  "protected_previous_math_objects": {
+    "main": 51,
+    "supplement": 58
+  },
+  "new_native_equation": "(5)",
+  "whole_word_early_late_subscripts_preserved": true,
+  "figure_bytes_unchanged": true,
+  "local_only_pages_not_publication_claim": true
+}

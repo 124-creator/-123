@@ -1,0 +1,40 @@
+{
+  "scope": "Document structure, source locators and public-result presentation only",
+  "new_market_fits": 0,
+  "new_resamples": 0,
+  "new_private_row_descriptions": 0,
+  "documents": {
+    "MANUSCRIPT_EN_v9.docx": {
+      "sha256": "ce6b68f22d88454d35a534a99b0b1561d0207a550dc31666f0f37e00c424e789",
+      "native_math_objects": 52,
+      "physical_table_objects": 10,
+      "drawings": 3,
+      "markdown_title_restored": true
+    },
+    "ONLINE_RESOURCE_1_v9.docx": {
+      "sha256": "7e6de1b5e9045d3f0343c323f6e34ffb7209d0dc8fd9d9e64fcff22598a82830",
+      "native_math_objects": 58,
+      "physical_table_objects": 16,
+      "drawings": 0,
+      "markdown_title_restored": true
+    },
+    "TITLE_PAGE_v9.docx": {
+      "sha256": "97a79285d4f88287f5e04e2fa88442e15372b1e89b9b88ef146e26b7561a0527",
+      "native_math_objects": 0,
+      "physical_table_objects": 0,
+      "drawings": 0,
+      "markdown_title_restored": true
+    }
+  },
+  "abstract_words": 216,
+  "keywords": 6,
+  "main_numbered_tables": 6,
+  "supplement_numbered_tables": 14,
+  "main_figures": 3,
+  "price_numeric_source_entries": 391,
+  "display_inventory_paragraphs": 728,
+  "ledger_is_not_independent_statistical_verification": true,
+  "aggregate_audit_checks": 228,
+  "pending_author_declarations_preserved": true,
+  "submission_ready": false
+}

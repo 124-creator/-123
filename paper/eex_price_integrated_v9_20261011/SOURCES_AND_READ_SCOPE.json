@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-11",
+  "manuscript_read": "Complete pinned v8.2 body and supplement, native math and tables, reproduction and author records; edited complete v9 with all final pages visually inspected locally",
+  "public_evidence_read": "Complete fixed results, protocol/final lock/mapping, main and independent verification code, new descriptions and description code, source definition records and report index; stored 999 bootstrap statistics. Test logs read; upstream market fits and artificial suites not rerun in this environment.",
+  "not_read_or_reperformed": [
+    "Private German row-price panels",
+    "24 original quarterly PDFs in team storage",
+    "Native reference ticks and quote ages",
+    "Re-estimation of the real-price models",
+    "Raw-source independent reauthentication"
+  ],
+  "web_sources": [
+    {
+      "url": "https://link.springer.com/journal/181/submission-guidelines",
+      "level": "Official full author-guidance page; targeted all applicable formatting, declarations and data-policy sections"
+    },
+    {
+      "url": "https://link.springer.com/journal/181/aims-and-scope",
+      "level": "Official scope"
+    },
+    {
+      "url": "https://link.springer.com/journal/181/how-to-publish-with-us",
+      "level": "Official publishing routes"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10018-022-00344-y",
+      "level": "Publisher full text accessible; targeted model/data/Section 5; not author-result reproduction"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jae.2969",
+      "level": "Publisher methodological text; targeted CV3J/bootstrap interpretation; not coverage simulation"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/irfi.70099",
+      "level": "Publisher full text accessible; targeted market/data alignment; no licensed source download"
+    }
+  ],
+  "failed_or_limited": [
+    "Direct container GitHub network resolution failed; connector/Actions public transfer succeeded",
+    "No native Microsoft Word/WPS test",
+    "CAS history and all possible charges not authenticated"
+  ],
+  "no_additional_external_price_acquisition": true
+}

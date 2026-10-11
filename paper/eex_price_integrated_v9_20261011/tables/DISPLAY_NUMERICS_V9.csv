@@ -1,0 +1,729 @@
+document,paragraph_xml_index,tokens,context
+MANUSCRIPT_EN_v9.docx,4,15517837680 | 163,Corresponding author: Zhongfei Tian · 15517837680@163.com
+MANUSCRIPT_EN_v9.docx,6,"1,281 | 2020 | 2025 | 240 | 0.65 | 2023 | 2025 | −14.51 | 95 | −23.00 | −6.01 | 2022 | 2026","Published carbon-auction statistics summarize quantities, participation and prices, but their joint information is not captured by marginal summaries alone. We examine reported bid and award dispersion in 1,281 successful European Union Allowance auctions during 2020–2025, and extend the analysis to official price comparisons for 240 German auctions. Conditional residual correlations between the two quantity ratios are about 0.65 under two transformations. Their association is stronger in 2023–2025 despite lower marginal medians; selected-moment standardization retains positive period contrasts without balancing the full auction-volume distribution. In the German subsample, bid dispersion is negatively associated with the official-reported signed percentage deviation after controlling for auction scale, participation, demand coverage, bid-price range, the same-auction clearing price and year effects. An observed interquartile range of transformed dispersion corresponds to a fitted difference of −14.51 basis points, with an exploratory quarter-clustered 95% interval of [−23.00, −6.01]. The direction persists in two predefined source subsets, but the absolute-deviation interval includes zero and omitting 2022 materially attenuates the coefficient. A separate 2026 quantity sample retains positive association but has a short time axis. The findings distinguish quantity co-variation from the location and magnitude of reported price deviations. They provide conditional empirical information, not evidence of causal allocation effects, improved pricing efficiency or forecast performance; inference remains exploratory and the official signed convention is retained."
+MANUSCRIPT_EN_v9.docx,8,4 | 3 | 8,JEL classification: D44; C13; Q58
+MANUSCRIPT_EN_v9.docx,9,1,1 Introduction
+MANUSCRIPT_EN_v9.docx,10,2024 | 2025,"Carbon-auction reports describe how much is bid, how many participants bid, and how quantities and prices differ across completed auctions. Official publications present quantity moments alongside volume and bidder counts, while market surveillance also considers participation and concentration (European Commission 2024; ESMA 2025). These summaries address distinct questions. Participation and aggregate demand do not fully describe the distribution of submitted quantities, and the dispersion of those quantities need not duplicate the information in the range of submitted prices. We study whether the reported quantity moments are associated with award dispersion and, in a matched German subsample, with official-reported price deviations."
+MANUSCRIPT_EN_v9.docx,11,2020 | 2022 | 2023 | 2025,"Awards originate in bids, so a positive relationship between their dispersion is plausible. Its conditional magnitude and historical scope nevertheless require measurement rather than assumption. Our first question is how strongly the two reported quantity ratios co-vary after accounting for scale and participation, including whether that association differs between 2020–2022 and 2023–2025. The second question is whether bid dispersion has a price-related association beyond conventional auction characteristics. Both questions concern completed auction reports, not matched bidders or decisions observed before bidding."
+MANUSCRIPT_EN_v9.docx,12,"1,281 | 2026 | 240 | 21 | 1,281","The quantity analysis uses 1,281 successful auctions in the EU, DE and PL reporting series of the European Energy Exchange (EEX). It compares common-sample transformations, separate historical projections, a selected-moment composition adjustment and an additional 2026 time segment. The price extension uses 240 successful German auctions in 21 quarters, matched to official-reported secondary-market comparisons. It adds the bid-dispersion ratio to a fixed baseline containing scale, participation, demand coverage, submitted-price range, the same-auction clearing price, year effects and reference type. The two samples answer complementary questions; the price comparisons do not cover all 1,281 auctions."
+MANUSCRIPT_EN_v9.docx,13,0.65 | −14.51 | 2022,"Three findings organize the analysis. First, the quantity ratios have residual correlations near 0.65, with stronger association in the later historical period despite lower marginal ratio levels. Second, the German price comparison yields a negative conditional association: an observed interquartile range of transformed bid dispersion corresponds to a fitted signed-deviation difference of −14.51 basis points. Third, this is not evidence of convergence toward the reference price. The absolute-deviation interval includes zero, and the signed coefficient is sensitive in magnitude to observations from 2022. Composition and new-time checks further delimit, rather than universalize, the quantity finding."
+MANUSCRIPT_EN_v9.docx,14,2023,"Our contribution is to connect two forms of report-level information without treating them as interchangeable. Relative to the quantity summaries in official reports, we quantify conditional co-variation and its historical heterogeneity. Relative to price-focused auction analysis such as Bosco (2023), we examine the incremental association of a quantity-dispersion measure with reported price deviations, conditioning on conventional demand, participation and submitted-price variables. The distinction between signed and absolute deviations is substantive: the evidence concerns where the reported comparison lies, not a demonstrated reduction in its distance from zero. These descriptive relationships neither identify a bid-to-award-to-price mechanism nor validate an executable pricing signal."
+MANUSCRIPT_EN_v9.docx,15,2 | 3 | 4 | 5 | 6 | 1,"The study is retrospective. Historical data and earlier findings were inspected before supplementary checks, and the price protocol was finalized after data inspection but before its first fit. We therefore retain the exploratory status of all uncertainty statements. Section 2 positions the questions in the auction and measurement literature. Section 3 defines the separate quantity and price estimands; Section 4 presents the findings and their limiting diagnostics. Sections 5 and 6 discuss the resulting information and scope. Online Resource 1 documents the source restrictions, complete supplementary results and study sequence."
+MANUSCRIPT_EN_v9.docx,16,2,2 Auction context and related research
+MANUSCRIPT_EN_v9.docx,17,2.1,"2.1 Allocation, participation and quantities"
+MANUSCRIPT_EN_v9.docx,19,2002 | 2014,"Allowance auction design matters for rents and allocation as well as the clearing price (Cramton and Kerr 2002). Multi-unit auction theory links bidding incentives and demand reduction to allocation outcomes (Ausubel et al. 2014). These considerations motivate attention to quantity distributions. Our data contain public aggregate moments rather than valuations or participant-specific bid schedules, so they support a description of quantity co-variation, not a test of strategic demand reduction."
+MANUSCRIPT_EN_v9.docx,21,2.2,2.2 Direct comparisons and measurement interpretation
+MANUSCRIPT_EN_v9.docx,22,2023 | 2022 | 2024,"Bosco (2023), first published online in 2022, studies EUA auction prices and returns with GARCH specifications. Participation, demand coverage and the maximum-minus-minimum submitted bid price enter its analysis. That price range is distinct from quantity dispersion and is therefore included in our fixed price baseline. Our extension concerns a reported auction-to-secondary-market comparison, not price volatility or a new test of whether auction characteristics matter in general. Niu and Liu (2024) instead forecast EUA futures volatility; no forecasting contest is conducted here."
+MANUSCRIPT_EN_v9.docx,23,2026 | 16 | 00 | 2020 | 2025,"Otsubo (2026) studies intraday futures–ETF price discovery and a daily auction–futures–ETF comparison aligned to 16:00 UK time. We use the price deviations already reported by the German Emissions Trading Authority (DEHSt 2020–2025), rather than reconstructing synchronous native quotes or estimating cross-venue information shares. The source and timing distinctions prevent either analysis from being treated as a direct replication of the other."
+MANUSCRIPT_EN_v9.docx,24,2024 | 2025,"Official reporting provides the measurement context. The Commission distinguishes individual-auction means from monthly aggregates and describes bid and award means using participating and successful bidders, respectively (European Commission 2024). ESMA (2025) separates participation from concentration indicators. The DEHSt quarterly reports provide the German price comparisons used in our extension. These dimensions are established reporting objects. The contribution is their conditional empirical relationship, not the introduction of the fields or a claim that official reporting has used them incorrectly."
+MANUSCRIPT_EN_v9.docx,25,1993 | 2025,"Two measurement cautions shape the design. Shared ratio components can affect regression relationships, so normalizing by a mean is not a substitute for making totals and counts explicit (Kronmal 1993). In addition, association between observed indicators does not identify a latent common factor. The multiple-proxy framework of Meijer et al. (2025) makes the identification and normalization conditions for that different task explicit. We impose no such factor model. The analysis retains the original report fields, examines the specified transformations and control sets, and uses a separate algebraic check to explain the role of constructed denominators."
+MANUSCRIPT_EN_v9.docx,26,3,3 Data and empirical design
+MANUSCRIPT_EN_v9.docx,27,3.1,3.1 Reporting archive and sample definition
+MANUSCRIPT_EN_v9.docx,28,"2020 | 2025 | 1,327 | 38 | 1,281 | 7 | 2020 | 15 | 2025 | 72 | 1","The data are six EEX annual primary-auction workbooks for 2020–2025, preserved in a fixed research snapshot. Extracting every dated row yields 1,327 records. The sample retains product code T3PA, the EU/DE/PL reporting series and an explicit successful status. The rule excludes 38 other-product records, five records outside the specified series and three cancelled auctions. It leaves 1,281 unique auctions between 7 January 2020 and 15 December 2025, covering all 72 calendar months. Table 1 gives their distribution. The three series belong to the same allowance market and are not independent-market replications."
+MANUSCRIPT_EN_v9.docx,29,1,Table 1 Sample composition by year and reporting series
+MANUSCRIPT_EN_v9.docx,35,2020,2020
+MANUSCRIPT_EN_v9.docx,36,139,139
+MANUSCRIPT_EN_v9.docx,37,46,46
+MANUSCRIPT_EN_v9.docx,38,24,24
+MANUSCRIPT_EN_v9.docx,39,209,209
+MANUSCRIPT_EN_v9.docx,40,2021,2021
+MANUSCRIPT_EN_v9.docx,41,132,132
+MANUSCRIPT_EN_v9.docx,42,45,45
+MANUSCRIPT_EN_v9.docx,43,46,46
+MANUSCRIPT_EN_v9.docx,44,223,223
+MANUSCRIPT_EN_v9.docx,45,2022,2022
+MANUSCRIPT_EN_v9.docx,46,142,142
+MANUSCRIPT_EN_v9.docx,47,46,46
+MANUSCRIPT_EN_v9.docx,48,23,23
+MANUSCRIPT_EN_v9.docx,49,211,211
+MANUSCRIPT_EN_v9.docx,50,2023,2023
+MANUSCRIPT_EN_v9.docx,51,143,143
+MANUSCRIPT_EN_v9.docx,52,47,47
+MANUSCRIPT_EN_v9.docx,53,24,24
+MANUSCRIPT_EN_v9.docx,54,214,214
+MANUSCRIPT_EN_v9.docx,55,2024,2024
+MANUSCRIPT_EN_v9.docx,56,142,142
+MANUSCRIPT_EN_v9.docx,57,46,46
+MANUSCRIPT_EN_v9.docx,58,24,24
+MANUSCRIPT_EN_v9.docx,59,212,212
+MANUSCRIPT_EN_v9.docx,60,2025,2025
+MANUSCRIPT_EN_v9.docx,61,142,142
+MANUSCRIPT_EN_v9.docx,62,45,45
+MANUSCRIPT_EN_v9.docx,63,25,25
+MANUSCRIPT_EN_v9.docx,64,212,212
+MANUSCRIPT_EN_v9.docx,66,840,840
+MANUSCRIPT_EN_v9.docx,67,275,275
+MANUSCRIPT_EN_v9.docx,68,166,166
+MANUSCRIPT_EN_v9.docx,69,1281,1281
+MANUSCRIPT_EN_v9.docx,70,643 | 638,Note: Counts refer to successful T3PA auctions satisfying the stated series restriction. Cancelled auctions and other products are not recoded as zero outcomes. The first three years contain 643 auctions and the final three contain 638.
+MANUSCRIPT_EN_v9.docx,72,1,"Each record retains its source workbook, sheet and row. The completed source audit reconciled the exclusions and compared the numeric extraction with a separate XML-reading route. The audit establishes traceability of the supplied snapshot, not the first historical release of every field. Online Resource 1, Section S2, records the cell counts and verification scope."
+MANUSCRIPT_EN_v9.docx,73,2,"For descriptive context, Table 2 reports the two dispersion ratios (reported standard deviation divided by reported mean), the conditioning variables and total bid volume. All summaries give each auction equal weight. Volumes are displayed in millions of tCO2; ratios and counts retain their original scales. Quartiles use linear interpolation. No winsorization, trimming or additional sample restriction is applied."
+MANUSCRIPT_EN_v9.docx,74,2,Table 2 Descriptive statistics of the successful-auction sample
+MANUSCRIPT_EN_v9.docx,83,1.404,1.404
+MANUSCRIPT_EN_v9.docx,84,1.202,1.202
+MANUSCRIPT_EN_v9.docx,85,1.387,1.387
+MANUSCRIPT_EN_v9.docx,86,1.579,1.579
+MANUSCRIPT_EN_v9.docx,87,0.847,0.847
+MANUSCRIPT_EN_v9.docx,88,2.622,2.622
+MANUSCRIPT_EN_v9.docx,90,1.422,1.422
+MANUSCRIPT_EN_v9.docx,91,1.215,1.215
+MANUSCRIPT_EN_v9.docx,92,1.399,1.399
+MANUSCRIPT_EN_v9.docx,93,1.598,1.598
+MANUSCRIPT_EN_v9.docx,94,0.443,0.443
+MANUSCRIPT_EN_v9.docx,95,2.707,2.707
+MANUSCRIPT_EN_v9.docx,97,1.825,1.825
+MANUSCRIPT_EN_v9.docx,98,1.540,1.540
+MANUSCRIPT_EN_v9.docx,99,1.740,1.740
+MANUSCRIPT_EN_v9.docx,100,2.030,2.030
+MANUSCRIPT_EN_v9.docx,101,1.010,1.010
+MANUSCRIPT_EN_v9.docx,102,3.780,3.780
+MANUSCRIPT_EN_v9.docx,104,2.675,2.675
+MANUSCRIPT_EN_v9.docx,105,2.296,2.296
+MANUSCRIPT_EN_v9.docx,106,2.651,2.651
+MANUSCRIPT_EN_v9.docx,107,3.245,3.245
+MANUSCRIPT_EN_v9.docx,108,0.970,0.970
+MANUSCRIPT_EN_v9.docx,109,6.399,6.399
+MANUSCRIPT_EN_v9.docx,111,4.717,4.717
+MANUSCRIPT_EN_v9.docx,112,3.986,3.986
+MANUSCRIPT_EN_v9.docx,113,4.736,4.736
+MANUSCRIPT_EN_v9.docx,114,5.321,5.321
+MANUSCRIPT_EN_v9.docx,115,1.937,1.937
+MANUSCRIPT_EN_v9.docx,116,12.899,12.899
+MANUSCRIPT_EN_v9.docx,118,22.663,22.663
+MANUSCRIPT_EN_v9.docx,119,20,20
+MANUSCRIPT_EN_v9.docx,120,23,23
+MANUSCRIPT_EN_v9.docx,121,25,25
+MANUSCRIPT_EN_v9.docx,122,12,12
+MANUSCRIPT_EN_v9.docx,123,31,31
+MANUSCRIPT_EN_v9.docx,125,16.878,16.878
+MANUSCRIPT_EN_v9.docx,126,14,14
+MANUSCRIPT_EN_v9.docx,127,17,17
+MANUSCRIPT_EN_v9.docx,128,20,20
+MANUSCRIPT_EN_v9.docx,129,3,3
+MANUSCRIPT_EN_v9.docx,130,27,27
+MANUSCRIPT_EN_v9.docx,131,"1,281 | 25 | 75","Note: All rows use 1,281 auctions. V and B are in million tCO2, N and S are bidder counts, and the three ratios are dimensionless. B maps to the source field “Total Amount of Bids” in the workbook’s volume section, not to auction revenue. Q1 and Q3 are the 25th and 75th percentiles. These are marginal descriptive statistics, not conditional estimates or bidder-level distributional comparisons."
+MANUSCRIPT_EN_v9.docx,132,23 | 17 | 2.651 | 1.740 | 1.387 | 1.399 | 1 | 1,"The separate sample medians are 23 participating bidders, 17 successful bidders, 2.651 million tCO2 of auction volume and a cover ratio of 1.740; these need not occur in one observed auction. Median bid and award ratios are 1.387 and 1.399. Figure 1 shows the period-specific medians and interquartile ranges, with full summaries in Online Resource 1, Table S5. These marginal quantities are distinct from the conditional correlations below."
+MANUSCRIPT_EN_v9.docx,134,1 | 25 | 75 | 643 | 638 | 1,"Fig. 1 Marginal reported dispersion ratios by historical period; diamonds denote auction-level medians and horizontal segments extend from the 25th to the 75th percentile. Each early-period row contains 643 auctions and each late-period row 638. These segments describe the middle half of the observations; they are not confidence intervals or paired-bidder comparisons. The figure reuses the descriptive statistics in Online Resource 1, Table S5"
+MANUSCRIPT_EN_v9.docx,135,3.2,3.2 Reported measures and linear projection
+MANUSCRIPT_EN_v9.docx,137,1,"rtb=stbμtb,  rtw=stwμtw.(1)"
+MANUSCRIPT_EN_v9.docx,138,1,"We call these reported dispersion ratios. The original labels refer to volume per bidder. Nevertheless, the population underlying each standard deviation and its variance divisor have not been conclusively matched to the paired mean throughout the archive. The ratios are therefore not interpreted as verified coefficients of variation for an identical population before and after allocation. This restriction affects the economic interpretation, not the arithmetic definition in (1)."
+MANUSCRIPT_EN_v9.docx,140,2,"yt=βxt+γ′zt+αjt+δmt+ut,(2)"
+MANUSCRIPT_EN_v9.docx,141,"2 | 2 | 79 | 1,202","where jt denotes the reporting series, mt the original year–month, and zt=logRt,logVt,logNt,logSt′. Here R is the reported cover ratio, V reported auction volume, N total bidders and S successful bidders. The submitted-volume field B, used in the denominator audit and Table 2, is labelled “Total Amount of Bids” in the source workbook; it is not an additional regressor in (2). All observations have equal weight. The pooled full design has rank 79 and 1,202 residual degrees of freedom."
+MANUSCRIPT_EN_v9.docx,142,"1,281","The fixed supplementary measurement comparison contains A, a positive-standard-deviation version of A labelled B, and a natural-log version C on the same positive sample. Since all selected standard deviations are positive, A and B are identical. B is retained in the reproduction record as a sample-eligibility check rather than a separate result. C uses xt=logrtb and yt=logrtw on exactly the same 1,281 rows. No constant is added to a zero standard deviation."
+MANUSCRIPT_EN_v9.docx,143,2,"All variables concern the same completed auction. In particular, the cover ratio and successful-bidder count are simultaneous outcomes, not instruments or inputs known before bidding. Equation (2) is an equal-auction-weighted descriptive linear projection for the selected archive. Its coefficient depends on the conditioning set and on the distribution of those auctions. To examine dependence on those conditions, we also report fixed effects alone and fixed effects plus logV and logN. These models answer related, but not identical, conditional questions. Year–month effects account for monthly levels; they do not absorb every daily common shock."
+MANUSCRIPT_EN_v9.docx,144,1 | 2,"Reported means are numerically consistent with total submitted volume divided by N and reported auction volume divided by S, to the archive’s displayed precision. This creates an explicit denominator structure. Under natural logs, constructed means and a constructed cover ratio yield additive identities that disappear after projection on the corresponding totals and counts. The log-one-plus transformation does not have that property. Online Resource 1 derives and checks these identities, keeping constructed fields separate from the reported fields used in (2)."
+MANUSCRIPT_EN_v9.docx,145,3.3,"3.3 Magnitude, dependence and sensitivity"
+MANUSCRIPT_EN_v9.docx,146,2,"Let Z contain the nuisance regressors and fixed effects in (2), and let MZ denote the residual-maker for that space. With x=MZx and y=MZy, the coefficient and standardized association are"
+MANUSCRIPT_EN_v9.docx,147,3,"β=x′yx′x,  θ=βsxsy.(3)"
+MANUSCRIPT_EN_v9.docx,148,1963,"This is the partial-regression representation (Lovell 1963). In the present equal-weight, single-added-regressor setting, θ is the sample correlation of the two residuals. The partial coefficient of determination satisfies"
+MANUSCRIPT_EN_v9.docx,149,2 | 4,"Rpartial2=SSEZ−SSEZ,xSSEZ=θ 2.(4)"
+MANUSCRIPT_EN_v9.docx,151,2003 | 72 | 999 | 199,"The principal uncertainty calculation uses a month-block resampling design for dependent observations, within the general class discussed by Lahiri (2003). It resamples non-circular blocks of three consecutive calendar months. Starting months are drawn with replacement; blocks are concatenated and truncated to a 72-month axis. All auctions in a selected month are retained jointly. Repeated months increase row multiplicities and retain their original fixed-effect labels. The entire conditional projection is re-estimated for each of 999 draws. A and C share the draw indices. One- and six-month blocks, with 199 draws each, provide bounded sensitivity checks. Intervals are percentile intervals with linear quantile interpolation."
+MANUSCRIPT_EN_v9.docx,152,13 | 1977 | 72 | 499 | 399,"We examine influence by deleting each observation, month, year and series, and by jointly omitting the 13 largest-Cook-distance observations under each specification (Cook 1977). These diagnostics do not redefine the main sample. Within-series models retain their own monthly effects; empty months retain their positions on the 72-month resampling axis. Reduced-control and within-series intervals use 499 and 399 three-month block draws, respectively."
+MANUSCRIPT_EN_v9.docx,153,3.4,3.4 Historical comparison and research process
+MANUSCRIPT_EN_v9.docx,154,2020 | 2022 | 2023 | 2025 | 643 | 638 | 36 | 999 | 97.5 | 95 | 95,"The historical comparison divides 2020–2022 from 2023–2025, a split already present in earlier exploration. The two samples contain 643 and 638 observations, and all nuisance coefficients are estimated separately. Each 36-month half is independently resampled in three-month blocks for 999 paired draws, with common indices across transformations. The protocol’s primary contrasts are late-minus-early slopes, Δβ = βlate − βearly. Each transformation receives a 97.5% percentile interval as a Bonferroni-style nominal family-95% sensitivity calculation, conditional on adequate individual interval approximations. We also display the previously computed secondary contrasts Δθ = θlate − θearly with their exploratory 95% intervals. These are direct comparisons of standardized association; a slope-difference interval does not test a correlation difference. The secondary intervals are neither family-adjusted over the two transformations nor replacements for the originally designated primary contrasts."
+MANUSCRIPT_EN_v9.docx,155,1 | 3,"The historical archive and earlier results were inspected before supplementary protocols were recorded; evidence for the first protocol freeze is partial. No untouched holdout or preregistration is claimed. Month-block intervals approximate temporal dependence, but do not adjust for the full specification search, arbitrary changes in the relationship, or all dependence across the period boundary. Separate multiplicity sensitivities do not establish familywise coverage across every analysis in this article. Online Resource 1, Section S13, maps each estimand to its evidence status."
+MANUSCRIPT_EN_v9.docx,157,3.5,3.5 Composition sensitivity of the historical comparison
+MANUSCRIPT_EN_v9.docx,158,2018,"We use descriptive overlap weights to emphasize auction characteristics represented in both historical periods. Following Li et al. (2018), one unpenalized logistic model predicts late-period membership from an intercept, the four pooled-standardized log controls, their squared terms, reporting-series indicators and month-of-year indicators. Neither dispersion measure, price, year nor specific year–month enters this model. Early weights are the fitted late-period probabilities; late weights are one minus those probabilities. Coverage and successful participation remain joint auction outcomes. The weights standardize selected observed moments and are not a causal treatment design."
+MANUSCRIPT_EN_v9.docx,159,999 | 199 | 97.5,"Within each period, both transformed indicators are projected on the original controls and year–month effects by weighted least squares. We compute their weighted residual covariance and divide by the product of the weighted residual standard deviations, using the same weights throughout. The supplemental contrast is the late-minus-early difference in that correlation. Every block draw refits the period-membership model and both outcome projections. The main calculation uses 999 three-month draws, with 199 draws each for one- and six-month sensitivity checks. Individual 97.5% percentile intervals address the two weighted contrasts only as a limited multiplicity sensitivity. Weight concentration, fitted-term balance, distribution distances and the paired change from equal weighting are reported together. No outcome-dependent trimming or alternative weight-model search is used."
+MANUSCRIPT_EN_v9.docx,160,3.6,3.6 New-time sample and finite short-axis diagnostics
+MANUSCRIPT_EN_v9.docx,161,2026 | 173 | 166 | 111 | 35 | 20 | 2026,"The additional sample uses the same product, success-status and series rules, with January–September 2026 fixed before its estimation. The annual file contains 173 dated rows; seven October rows are excluded, leaving 166 auctions: 111 EU, 35 DE and 20 PL. All nine months are represented, and required labels match the historical schema. Both specifications are re-estimated using 2026 year–month effects. The exercise therefore checks a relationship in a new time period of the same market, not predictions from a frozen historical model."
+MANUSCRIPT_EN_v9.docx,162,999 | 1 | 1 | 2026,"A nine-month axis provides only seven non-circular three-month source blocks. Following the initial 999 draws, a post-result diagnostic enumerates the finite non-circular and circular resampling distributions and deletes each month in turn. Non-circular sampling underweights endpoint months; circular sampling balances their expected inclusion but joins September to January artificially. The resulting ranges are short-axis diagnostics, not certified coverage intervals. Original results remain available in Online Resource 1, Section S11, and no formal difference between 2026 and earlier years is tested."
+MANUSCRIPT_EN_v9.docx,163,3.7,3.7 Reported price deviations in the matched German sample
+MANUSCRIPT_EN_v9.docx,164,2020 | 2025 | 275 | 24 | 35 | 240 | 21 | 236 | 203 | 18,"The price extension pairs the EEX quantity fields with comparisons printed in DEHSt quarterly reports for 2020–2025. Source reconciliation identifies 275 German successful auctions across all 24 quarters. The prefit source restrictions quarantine 35 observations for reference-footnote or date inconsistencies, leaving 240 auctions in 21 quarters. Of these, 236 use a last-best-bid reference and four a last-trade reference. The predefined no-row-flag subset contains 203 auctions in 18 quarters. These are subsets of the historical archive, not additional auctions or an independent market."
+MANUSCRIPT_EN_v9.docx,165,100 | −0.07 | −7,"Let d denote the official signed numeric percentage deviation multiplied by 100, so that its unit is a basis point. A printed −0.07% becomes −7 basis points. The study does not infer an unreported denominator or recover a native reference price from rounded entries. Reported zeros remain zeros at publication precision, not missing values, no-trade indicators or proof of exact unrounded equality. The focal regressor x is the same log-one-plus bid-dispersion ratio used in specification A. We fit the descriptive projection"
+MANUSCRIPT_EN_v9.docx,166,5,dt = a + κ xt + λ′ct + ηY + et(5)
+MANUSCRIPT_EN_v9.docx,167,14 | 226,"where Y denotes the calendar year of auction t and c contains log auction volume, log total and successful bidder counts, log reported coverage, the highest-minus-lowest submitted price in euros, log same-auction clearing price, and a last-trade indicator when it varies. The year effects differ from the year–month effects in the quantity analysis. The full primary design has rank 14 and 226 residual degrees of freedom. Its baseline omits only x on exactly the same rows. No reported award-dispersion term is used to infer a mediation channel. All controls describe completed auctions; in particular, clearing price and coverage are simultaneous outcomes."
+MANUSCRIPT_EN_v9.docx,168,1 | 95 | 999 | 2023,"Uncertainty is reported using quarter-clustered CR1 covariance and t(G−1) 95% intervals, with G equal to the number of observed quarters. The primary coefficient also receives one null-imposed wild-cluster t test with 999 Rademacher draws. A mean-centred delete-quarter jackknife (CV3J) and six fixed leave-one-year-out estimates assess influence. These procedures are related checks on the same data, not independent confirmations; cross-quarter independence and small-cluster calibration remain assumptions (MacKinnon et al. 2023). The CR1 interval is not a bootstrap interval."
+MANUSCRIPT_EN_v9.docx,169,240 | 203 | 236 | 2026,"The locked secondary specifications use the absolute deviation on the same 240 rows, the signed deviation on the 203 no-row-flag observations, and the signed deviation on the 236 best-bid observations. The main scale illustration is κ times the observed interquartile range of x, holding the fitted conditioning set fixed. A contrast using the interquartile range of residualized x is retained separately. Neither is a feasible intervention or monetary return. The final code and specifications were fixed before the first price fit but after inspection of the source data. Twenty-two separately acquired German price observations from 2026 were not fitted or merged into this analysis."
+MANUSCRIPT_EN_v9.docx,170,4,4 Results
+MANUSCRIPT_EN_v9.docx,171,4.1,4.1 Magnitude of the pooled relationship
+MANUSCRIPT_EN_v9.docx,172,3 | 0.6496 | 0.6486 | 0.5714 | 0.7422 | 0.5660 | 0.7402 | 0.8802 | 0.8797,"The two transformations give nearly identical standardized associations (Table 3). Residual correlations are 0.6496 under A and 0.6486 under C, with three-month block intervals [0.5714, 0.7422] and [0.5660, 0.7402]. Corresponding slopes are 0.8802 and 0.8797. The comparison uses exactly the same auctions; no zero-standard-deviation observations distinguish the samples."
+MANUSCRIPT_EN_v9.docx,173,3,Table 3 Pooled conditional association
+MANUSCRIPT_EN_v9.docx,176,95,95% interval for β
+MANUSCRIPT_EN_v9.docx,178,95,95% interval for θ
+MANUSCRIPT_EN_v9.docx,180,0.8802,0.8802
+MANUSCRIPT_EN_v9.docx,181,0.7506 | 1.0384,"[0.7506, 1.0384]"
+MANUSCRIPT_EN_v9.docx,182,0.6496,0.6496
+MANUSCRIPT_EN_v9.docx,183,0.5714 | 0.7422,"[0.5714, 0.7422]"
+MANUSCRIPT_EN_v9.docx,185,0.8797,0.8797
+MANUSCRIPT_EN_v9.docx,186,0.7627 | 1.0143,"[0.7627, 1.0143]"
+MANUSCRIPT_EN_v9.docx,187,0.6486,0.6486
+MANUSCRIPT_EN_v9.docx,188,0.5660 | 0.7402,"[0.5660, 0.7402]"
+MANUSCRIPT_EN_v9.docx,189,"1,281 | 999 | 3.4","Note: Each row uses 1,281 successful auctions, the full controls and reporting-series and year–month effects. Intervals use 999 three-month block draws. The planned positive-sample log-one-plus specification B equals A and is not duplicated. The intervals are exploratory, as described in Section 3.4."
+MANUSCRIPT_EN_v9.docx,190,0.422 | 0.421 | 0.0816 | 0.1408,"The partial R2 is approximately 0.422 under A and 0.421 under C. These values describe the in-sample reduction in residual squared error relative to the fitted control-only model, not validation of one indicator as a substitute for the other. They do not describe a proportion of total market variation explained or an out-of-sample improvement. To illustrate the association on its transformed scale, the frozen estimates imply fitted contrasts of 0.0816 under A and 0.1408 under C across their respective observed interquartile ranges of residualized bid dispersion. Different transformations have different units, so equality of those contrasts is neither expected nor required."
+MANUSCRIPT_EN_v9.docx,191,1 | 3,"The pooled correlation intervals remain positive in the one- and six-month block checks (Online Resource 1, Table S2). Both principal slope intervals in Table 3 include one. A slope across reports is not a within-auction comparison of an identical bidder population, however, so its value relative to one does not test dispersion compression."
+MANUSCRIPT_EN_v9.docx,192,4.2,"4.2 Controls, influence and reporting series"
+MANUSCRIPT_EN_v9.docx,193,2 | 0.6243 | 0.6197 | 0.6289 | 0.6239,"The positive direction is not confined to the full conditioning set (Fig. 2). With series and year–month effects only, residual correlations are 0.6243 and 0.6197. Adding volume and total bidders gives 0.6289 and 0.6239. The relationship is therefore present without the cover ratio and successful-bidder count as controls. These are different descriptive projections, not an exogeneity or collider-bias test."
+MANUSCRIPT_EN_v9.docx,195,2 | 95 | 499 | 999 | 1,"Fig. 2 Residual correlations across conditioning sets; A and C denote log-one-plus and natural-log ratios, respectively. Bars are exploratory 95% three-month block intervals, using 499 draws for the reduced controls and 999 for full controls. FE denotes reporting-series and year–month effects; full controls also include the cover ratio and successful-bidder count. Exact values are retained in Online Resource 1, Table S6. These rows are related descriptive projections, not independent replications"
+MANUSCRIPT_EN_v9.docx,196,1 | 13 | 0.6911 | 0.6930,"The completed deletion checks retain a positive association (Online Resource 1, Table S3). They remove observations, months, years or reporting series without replacing the principal sample. Omitting the 13 largest-Cook-distance observations gives correlations of 0.6911 and 0.6930; this is an influence diagnostic, not a revised data-cleaning rule. No observation is classified as erroneous solely because it is influential."
+MANUSCRIPT_EN_v9.docx,197,1 | 166 | 90,"Within-series correlations are positive under both transformations (Online Resource 1, Table S4). EU, DE and PL are reporting series within one market, not independent replications. The PL comparison has 166 observations and only 90 residual degrees of freedom. These diagnostics address specified sources of sensitivity; they do not exclude shared determinants of bidding and awards."
+MANUSCRIPT_EN_v9.docx,198,4.3,4.3 Directional persistence and temporal heterogeneity
+MANUSCRIPT_EN_v9.docx,199,4 | 0.5501 | 0.7798 | 0.5414 | 0.7719 | 2020 | 2022 | 2023 | 2025 | 3,"Conditional association is higher in the later historical sample (Table 4). Panel A reports correlations of 0.5501 and 0.7798 under A, and 0.5414 and 0.7719 under C, in 2020–2022 and 2023–2025 respectively. Panel B retains the originally designated slope contrasts; Panel C and Fig. 3 report the direct, secondary correlation contrasts. The two contrast scales are not interchangeable."
+MANUSCRIPT_EN_v9.docx,200,4,Table 4 Historical period comparison
+MANUSCRIPT_EN_v9.docx,206,95,θ [95% interval]
+MANUSCRIPT_EN_v9.docx,208,2020 | 2022,2020–2022
+MANUSCRIPT_EN_v9.docx,209,643,643
+MANUSCRIPT_EN_v9.docx,210,0.6728,0.6728
+MANUSCRIPT_EN_v9.docx,211,0.5501 | 0.4570 | 0.6486,"0.5501 [0.4570, 0.6486]"
+MANUSCRIPT_EN_v9.docx,213,2023 | 2025,2023–2025
+MANUSCRIPT_EN_v9.docx,214,638,638
+MANUSCRIPT_EN_v9.docx,215,1.1825,1.1825
+MANUSCRIPT_EN_v9.docx,216,0.7798 | 0.6757 | 0.8892,"0.7798 [0.6757, 0.8892]"
+MANUSCRIPT_EN_v9.docx,218,2020 | 2022,2020–2022
+MANUSCRIPT_EN_v9.docx,219,643,643
+MANUSCRIPT_EN_v9.docx,220,0.6880,0.6880
+MANUSCRIPT_EN_v9.docx,221,0.5414 | 0.4394 | 0.6493,"0.5414 [0.4394, 0.6493]"
+MANUSCRIPT_EN_v9.docx,223,2023 | 2025,2023–2025
+MANUSCRIPT_EN_v9.docx,224,638,638
+MANUSCRIPT_EN_v9.docx,225,1.1232,1.1232
+MANUSCRIPT_EN_v9.docx,226,0.7719 | 0.6645 | 0.8829,"0.7719 [0.6645, 0.8829]"
+MANUSCRIPT_EN_v9.docx,230,97.5,97.5% interval
+MANUSCRIPT_EN_v9.docx,232,0.5097,0.5097
+MANUSCRIPT_EN_v9.docx,233,0.3340 | 0.7222,"[0.3340, 0.7222]"
+MANUSCRIPT_EN_v9.docx,235,0.4353,0.4353
+MANUSCRIPT_EN_v9.docx,236,0.2605 | 0.6344,"[0.2605, 0.6344]"
+MANUSCRIPT_EN_v9.docx,240,95,Exploratory 95% interval
+MANUSCRIPT_EN_v9.docx,242,0.2297,0.2297
+MANUSCRIPT_EN_v9.docx,243,0.0875 | 0.3681,"[0.0875, 0.3681]"
+MANUSCRIPT_EN_v9.docx,245,0.2305,0.2305
+MANUSCRIPT_EN_v9.docx,246,0.0808 | 0.3748,"[0.0808, 0.3748]"
+MANUSCRIPT_EN_v9.docx,247,999 | 36 | 95 | 97.5 | 95,"Note: All nuisance coefficients are estimated separately in the two halves. The frozen 999 paired draws resample three-month blocks independently within each 36-month half, using common indices across transformations. Panel A gives 95% intervals for each period’s correlation. Panel B retains the primary slope contrasts and their 97.5% intervals. Panel C displays the already computed secondary correlation contrasts with 95% intervals, without multiplicity adjustment across transformations. This presentation does not promote Panel C to a prospectively primary analysis. Historical selection and cross-boundary dependence limitations apply to all panels."
+MANUSCRIPT_EN_v9.docx,248,0.2297 | 0.2305 | 95 | 0.0875 | 0.3681 | 0.0808 | 0.3748 | 0.5097 | 0.4353 | 97.5,"The direct correlation differences are 0.2297 under A and 0.2305 under C, with secondary 95% intervals of [0.0875, 0.3681] and [0.0808, 0.3748]. The primary slope differences are 0.5097 and 0.4353, with the distinct 97.5% intervals shown in Panel B. Thus, both scales describe a stronger fitted relationship in the later sample under the stated exploratory scheme. The evidence for the correlation contrast is its own interval, not significance of Δβ or non-overlap of period-specific bars."
+MANUSCRIPT_EN_v9.docx,250,3 | 2023 | 2025 | 2020 | 2022 | 95 | 97.5 | 4,"Fig. 3 Late-minus-early differences in residual correlation, comparing 2023–2025 with 2020–2022; squares mark the two transformations identified by their row labels. Bars reproduce the frozen secondary exploratory 95% intervals, without adjustment across transformations. The vertical line marks zero difference. Primary slope contrasts and their 97.5% intervals are reported separately in Table 4, Panel B"
+MANUSCRIPT_EN_v9.docx,251,1.520 | 2020 | 2022 | 1.255 | 2023 | 2025 | 1.443 | 1.356 | 1 | 2023,"The marginal levels move differently: the median bid ratio is 1.520 in 2020–2022 and 1.255 in 2023–2025, while award medians are 1.443 and 1.356 (Online Resource 1, Table S5). Lower report-ratio levels thus coexist with stronger conditional association. This is a comparison of auctions, not matched bidders, and does not establish improved equality. The January 2023 boundary is a historical split, not an identified policy intervention."
+MANUSCRIPT_EN_v9.docx,252,4.4,4.4 Composition weighting: persistence with incomplete distributional balance
+MANUSCRIPT_EN_v9.docx,253,0.1971 | 0.1937 | 5 | 97.5 | 0.0947 | 0.3029 | 0.0847 | 0.3051 | −0.0326 | −0.0368 | 95 | −0.1349 | 0.0802 | −0.1449 | 0.0797,"The overlap-weighted differences remain positive: 0.1971 under A and 0.1937 under C (Table 5). Their exploratory 97.5% intervals are [0.0947, 0.3029] and [0.0847, 0.3051]. The paired changes from equal weighting are −0.0326 and −0.0368, with 95% intervals [−0.1349, 0.0802] and [−0.1449, 0.0797]. Because these paired intervals include zero, the analysis does not establish that weighting reduced the contrast, or quantify a fraction attributable to composition."
+MANUSCRIPT_EN_v9.docx,254,5,Table 5 Composition-weighted association and distributional diagnostics
+MANUSCRIPT_EN_v9.docx,260,97.5,97.5% interval
+MANUSCRIPT_EN_v9.docx,262,0.5703,0.5703
+MANUSCRIPT_EN_v9.docx,263,0.7675,0.7675
+MANUSCRIPT_EN_v9.docx,264,0.1971,0.1971
+MANUSCRIPT_EN_v9.docx,265,0.0947 | 0.3029,"[0.0947, 0.3029]"
+MANUSCRIPT_EN_v9.docx,267,0.5649,0.5649
+MANUSCRIPT_EN_v9.docx,268,0.7586,0.7586
+MANUSCRIPT_EN_v9.docx,269,0.1937,0.1937
+MANUSCRIPT_EN_v9.docx,270,0.0847 | 0.3051,"[0.0847, 0.3051]"
+MANUSCRIPT_EN_v9.docx,276,0.2810,0.2810
+MANUSCRIPT_EN_v9.docx,277,0.2908,0.2908
+MANUSCRIPT_EN_v9.docx,279,0.1080,0.1080
+MANUSCRIPT_EN_v9.docx,280,0.0364,0.0364
+MANUSCRIPT_EN_v9.docx,282,0.0454,0.0454
+MANUSCRIPT_EN_v9.docx,283,0.0201,0.0201
+MANUSCRIPT_EN_v9.docx,285,0.1142,0.1142
+MANUSCRIPT_EN_v9.docx,286,0.0579,0.0579
+MANUSCRIPT_EN_v9.docx,287,643 | 638 | 999 | 1.6 | 10 | 586.55 | 614.75,"Note: Each weighted comparison retains 643 early and 638 late auctions. The period-membership and outcome models are refitted in 999 three-month block draws. Included-term mean differences are below 1.6×10⁻¹⁵; weight-concentration effective sample sizes are 586.55 and 614.75, not independent temporal sample sizes. KS is the maximum empirical cumulative-distribution distance, not a p-value. Tables S7–S8 provide paired changes and block sensitivities."
+MANUSCRIPT_EN_v9.docx,288,0.2810 | 0.2908,"Matching the selected moments does not match the full distributions. Log auction-volume KS distance increases from 0.2810 to 0.2908 even though its first and second moments balance; the other three distances decrease. The evidence supports a positive period contrast under this particular moment standardization, not invariance to all composition differences. The volume diagnostic was not used to select a different weight model or sample."
+MANUSCRIPT_EN_v9.docx,289,4.5,4.5 New-time evidence and sensitivity to the nine-month axis
+MANUSCRIPT_EN_v9.docx,290,2026 | 0.8494 | 0.8350 | 1.3137 | 1.2375 | 0.8396 | 0.8626 | 0.8230 | 0.8569 | 166 | 2025,"The January–September 2026 sample also shows positive association. Residual correlations are 0.8494 and 0.8350, with slopes 1.3137 and 1.2375. All leave-one-month-out correlations remain positive: 0.8396–0.8626 for A and 0.8230–0.8569 for C. These are same-market, new-period estimates from 166 auctions, not predictive accuracy or a formal test of further strengthening after 2025."
+MANUSCRIPT_EN_v9.docx,291,1,"The original block intervals and complete enumeration results are retained in Online Resource 1, Table S9. Non-circular and circular sampling produce different diagnostic percentile ranges; neither expands the nine-month historical record. Accordingly, the additional sample supports the recurrence of the positive direction, with limited evidence about temporal uncertainty. It is not used as a confirmatory replication or as a substitute for the historical sample."
+MANUSCRIPT_EN_v9.docx,292,4.6,4.6 Quantity dispersion and official-reported price deviations
+MANUSCRIPT_EN_v9.docx,293,240 | −2.80 | −7.00 | −29.00 | 17.25 | 46.34 | 142 | 59.17 | 92 | 38.33 | 2.50 | 33.51 | 25.00 | 6 | 1 | 1,"The signed deviation in the 240-auction price sample has a mean of −2.80 and median of −7.00 basis points, with quartiles −29.00 and 17.25 and sample standard deviation 46.34. There are 142 negative observations (59.17%), 92 positive observations (38.33%) and six reported zeros (2.50%). The absolute deviation has mean 33.51 and median 25.00 basis points. Panel A of Table 6 provides the primary descriptive context; Online Resource 1, Table S11, also reports the two source subsets. These unconditional distributions are not the conditional contrast estimated below."
+MANUSCRIPT_EN_v9.docx,294,6,Table 6 German reported-price context and conditional associations
+MANUSCRIPT_EN_v9.docx,295,240 | 21,"Panel A: Primary-sample descriptive context (240 auctions, 21 quarters; basis points)"
+MANUSCRIPT_EN_v9.docx,303,−2.80,−2.80
+MANUSCRIPT_EN_v9.docx,304,−7.00,−7.00
+MANUSCRIPT_EN_v9.docx,305,−29.00 | 17.25,"[−29.00, 17.25]"
+MANUSCRIPT_EN_v9.docx,306,−174.00 | 171.00,"[−174.00, 171.00]"
+MANUSCRIPT_EN_v9.docx,307,46.34,46.34
+MANUSCRIPT_EN_v9.docx,309,33.51,33.51
+MANUSCRIPT_EN_v9.docx,310,25.00,25.00
+MANUSCRIPT_EN_v9.docx,311,11.00 | 46.00,"[11.00, 46.00]"
+MANUSCRIPT_EN_v9.docx,312,0.00 | 174.00,"[0.00, 174.00]"
+MANUSCRIPT_EN_v9.docx,313,32.06,32.06
+MANUSCRIPT_EN_v9.docx,317,95,κ [95% CI]
+MANUSCRIPT_EN_v9.docx,319,95,"IQR contrast[95% CI], bp"
+MANUSCRIPT_EN_v9.docx,322,240 | 21,240/21
+MANUSCRIPT_EN_v9.docx,323,−78.72 | −124.80 | −32.64,"−78.72[−124.80, −32.64]"
+MANUSCRIPT_EN_v9.docx,324,0.1843,0.1843
+MANUSCRIPT_EN_v9.docx,325,−14.51 | −23.00 | −6.01,"−14.51[−23.00, −6.01]"
+MANUSCRIPT_EN_v9.docx,326,0.0681,0.0681
+MANUSCRIPT_EN_v9.docx,328,240 | 21,240/21
+MANUSCRIPT_EN_v9.docx,329,41.35 | −13.58 | 96.29,"41.35[−13.58, 96.29]"
+MANUSCRIPT_EN_v9.docx,330,0.1843,0.1843
+MANUSCRIPT_EN_v9.docx,331,7.62 | −2.50 | 17.74,"7.62[−2.50, 17.74]"
+MANUSCRIPT_EN_v9.docx,332,0.0189,0.0189
+MANUSCRIPT_EN_v9.docx,334,203 | 18,203/18
+MANUSCRIPT_EN_v9.docx,335,−81.46 | −138.39 | −24.53,"−81.46[−138.39, −24.53]"
+MANUSCRIPT_EN_v9.docx,336,0.1856,0.1856
+MANUSCRIPT_EN_v9.docx,337,−15.12 | −25.68 | −4.55,"−15.12[−25.68, −4.55]"
+MANUSCRIPT_EN_v9.docx,338,0.0744,0.0744
+MANUSCRIPT_EN_v9.docx,340,236 | 21,236/21
+MANUSCRIPT_EN_v9.docx,341,−83.62 | −129.71 | −37.54,"−83.62[−129.71, −37.54]"
+MANUSCRIPT_EN_v9.docx,342,0.1828,0.1828
+MANUSCRIPT_EN_v9.docx,343,−15.29 | −23.71 | −6.86,"−15.29[−23.71, −6.86]"
+MANUSCRIPT_EN_v9.docx,344,0.0758,0.0758
+MANUSCRIPT_EN_v9.docx,345,1 | 142 | 92 | 1 | 1 | 3.7,"Note: Panel A gives unconditional summaries of the reported percentage scale, with sample SD using n−1 and linear-interpolation quartiles. The signed observations comprise 142 negative, 92 positive and six printed-zero values. Panel B retains one primary and three secondary models; each baseline and extension uses identical observations. κ is in basis points per unit of log(1 + bid ratio). Intervals use quarter-cluster CR1 covariance and t(G−1), not bootstrap quantiles. Each IQR contrast uses its own observed x range; partial R² is in-sample. The absolute outcome concerns magnitude, not the signed outcome tested in the primary model. Model and inference definitions are in Section 3.7."
+MANUSCRIPT_EN_v9.docx,346,−78.72 | 6 | 0.1843 | −14.51 | −23.00 | −6.01 | 0.0681,"Adding bid dispersion to the fixed baseline gives κ = −78.72 basis points per unit of x (Table 6, Panel B). The observed interquartile range of x is 0.1843, yielding a fitted signed-deviation difference of −14.51 basis points and a CR1-t interval of [−23.00, −6.01]. These values concern the signed report scale: they do not establish that prices are closer to an efficient benchmark. The incremental partial R-squared is 0.0681, an in-sample residual-variation statistic rather than predictive improvement."
+MANUSCRIPT_EN_v9.docx,347,0.005 | −136.54 | −20.90 | 203 | 236 | −15.12 | −15.29,"The restricted wild-cluster test gives p = 0.005, and the mean-centred quarter-jackknife coefficient interval is [−136.54, −20.90]. Both are reported alongside, not as the source of, the CR1 interval. The negative signed association also appears in the 203-observation no-row-flag subset and the 236-observation best-bid subset. Their fitted interquartile contrasts are −15.12 and −15.29 basis points, with their own sample-specific x ranges. Subset agreement does not eliminate remaining measurement differences or make the observations independent."
+MANUSCRIPT_EN_v9.docx,348,+7.62 | −2.50 | 17.74 | −88.23 | −45.12 | 2022 | −78.72 | −45.12 | 1 | 2 | 3,"The absolute-deviation specification gives an interquartile contrast of +7.62 basis points with interval [−2.50, 17.74]. Thus the analysis does not establish a reduction in absolute deviation, nor does the interval prove a zero relationship. All six leave-year-out point estimates of the signed coefficient are negative, ranging from −88.23 to −45.12. Omitting 2022 changes the coefficient from −78.72 to −45.12. This substantial attenuation makes a claim of stable cross-year magnitude inappropriate; no deletion-specific significance claim is made. Complete deletion results and the distinct observed-x and residualized-x scales are retained in Online Resource 1, Tables S12–S13."
+MANUSCRIPT_EN_v9.docx,349,5,5 Discussion
+MANUSCRIPT_EN_v9.docx,350,5.1,5.1 Quantity information beyond marginal summaries
+MANUSCRIPT_EN_v9.docx,352,2026,"The period comparison addresses observed composition only to a specified extent. Positive weighted contrasts remain after selected log-scale means and second moments are balanced, while the auction-volume distribution retains a shape difference. The 2026 exercise addresses a different question: whether the positive direction appears in an additional time segment. It does, but the short segment cannot establish a stable long-run mapping. These exercises narrow the scope of the historical relationship rather than identify why it changed."
+MANUSCRIPT_EN_v9.docx,354,5.2,5.2 Signed price association is not price alignment
+MANUSCRIPT_EN_v9.docx,356,−14.51 | 2022,"The signed and absolute results answer different economic questions. A lower signed deviation need not reduce distance from the reference; whether it would do so depends on the starting position and the unobserved joint distribution. The sample contains both negative and positive deviations, and the absolute-outcome interval does not establish closer price alignment. Consequently, neither the −14.51-basis-point contrast nor its ratio to a descriptive mean should be interpreted as a procurement saving or an efficiency gain. The 2022 deletion similarly delimits the historical magnitude without identifying that year's contribution or an underlying policy mechanism."
+MANUSCRIPT_EN_v9.docx,357,5.3,"5.3 Identification, inference and data limits"
+MANUSCRIPT_EN_v9.docx,360,2026,"Inference remains conditional on the chosen dependence approximations and the research sequence. The quantity period contrasts and later composition contrasts are separate families; no correction covers the complete exploration history. In the price analysis, CR1 and jackknife intervals and the restricted wild-cluster test use the same observations, while the small number of quarters and possible cross-quarter dependence limit their calibration. Agreement across these procedures is not independent replication. Likewise, exact enumeration of the 2026 quantity resampling distribution removes Monte Carlo variation, not uncertainty about repeated-sample coverage."
+MANUSCRIPT_EN_v9.docx,361,236 | 24,"The price outcome is measured at official publication precision. It uses 236 last-best-bid references and four last-trade references, neither of which is an independently reconstructed midpoint. A targeted check of the methods text in the 24 held reports did not establish an explicit subtraction-and-denominator equation. We therefore retain the reported sign and percentage scale and describe the association as a lower official-reported signed deviation, not a widening auction discount. Native quote age, an independently authenticated UTC event clock and cross-report measurement invariance remain unverified. These limitations narrow the interpretation of the completed price analysis; they do not mean it was unperformed."
+MANUSCRIPT_EN_v9.docx,362,6,6 Conclusion
+MANUSCRIPT_EN_v9.docx,363,"1,281 | 2020 | 2025 | 0.65 | 2026","Across 1,281 successful EUA auctions during 2020–2025, reported bid and award dispersion have a residual correlation near 0.65. Their association is stronger in the later historical period despite lower marginal ratio levels. The period contrast survives selected-moment standardization, although auction-volume distributions remain unequal. The separate 2026 quantity sample is directionally consistent but provides only short-axis temporal diagnostics."
+MANUSCRIPT_EN_v9.docx,364,240 | −14.51 | 2022,"In the matched 240-auction German subsample, reported bid dispersion is negatively associated with the official signed price deviation conditional on conventional auction indicators and the same-auction price level. The fitted interquartile contrast is −14.51 basis points. The absolute-deviation result and the influence of 2022 do not justify a blanket claim of greater price alignment or stable magnitude. Together, the findings identify distinct report-level quantity and price relationships, not a causal allocation mechanism, procurement saving or forecast improvement."
+MANUSCRIPT_EN_v9.docx,366,124 | -123 | 5745 | 9602346053446583 | 94 | 9800 | 71 | 6548 | 81 | 9 | 9435 | 8 | 33707 | 64 | 0 | 965088 | 370 | 1 | 2026,"Data and computer code are documented at fixed revisions of repository 124-creator/-123. Historical quantity inputs are identified by 5745eb3ddca79602346053446583d794b0e09800; the completed price code, aggregate estimates and verification records are fixed at fccd471de96548bd781c59aced4a59435aae08ac. Post-estimation price descriptions and source-definition checks are fixed at 33707c164c80accd7acf9fcd3f0965088a8370f6. Online Resource 1 lists the earlier quantity analyses and the price-report locators. The authors hold the German official PDFs and matched event-level tables; those files are not included in the public aggregate package because bulk redistribution rights have not been established. Public outputs permit code and arithmetic review but not an independent row-level refit. The exact 2026 quantity snapshot is also absent from the package; its dynamic URL and hash do not substitute for accessible matching bytes. Provider rights and a lawful source-access arrangement must be respected in any journal deposit."
+MANUSCRIPT_EN_v9.docx,372,1,"Online Resource 1 Field dictionary, source provenance, supplementary quantity and price estimates, uncertainty diagnostics and evidence-status map"
+MANUSCRIPT_EN_v9.docx,374,2014 | 81 | 1366 | 1400 | 10.1093 | 23,"Ausubel LM, Cramton P, Pycia M, Rostek M, Weretka M (2014) Demand reduction and inefficiency in multi-unit auctions. The Review of Economic Studies 81:1366–1400. https://doi.org/10.1093/restud/rdu023"
+MANUSCRIPT_EN_v9.docx,375,2023 | 25 | 87 | 113 | 10.1007 | 0018 | -022 | -00344,"Bosco B (2023) Trade, equilibrium prices and rents in European auctions for emission allowances. Environmental Economics and Policy Studies 25:87–113. https://doi.org/10.1007/s10018-022-00344-y"
+MANUSCRIPT_EN_v9.docx,376,1977 | 19 | 15 | 18 | 10.1080 | 00401706.1977.10489493,Cook RD (1977) Detection of influential observation in linear regression. Technometrics 19:15–18. https://doi.org/10.1080/00401706.1977.10489493
+MANUSCRIPT_EN_v9.docx,377,2002 | 30 | 333 | 345 | 10.1016 | 301 | -4215 | 01 | 00100 | -8,"Cramton P, Kerr S (2002) Tradeable carbon permit auctions: how and why to auction not grandfather. Energy Policy 30:333–345. https://doi.org/10.1016/S0301-4215(01)00100-8"
+MANUSCRIPT_EN_v9.docx,378,10 | 2026,EEX (n.d.) Frequently Asked Questions: Emissions Auctions. European Energy Exchange. https://www.eex.com/en/faq. Accessed 10 October 2026
+MANUSCRIPT_EN_v9.docx,379,2024 | 2024 | 62459 | 021 | 4901 | 9 | 7 | 3 | 202406 | 10 | 2026,"European Commission (2024) Auctions by the Common Auction Platform: April, May, June 2024. https://climate.ec.europa.eu/document/download/d962459c-021e-4901-b49f-e5d37e5d2c93_en?filename=cap_report_202406_en.pdf. Access record: 10 October 2026"
+MANUSCRIPT_EN_v9.docx,380,2025 | 0 | -481369926 | -30552 | 2025 | -10 | 0 | -481369926 | -30552 | 2025 | 10 | 2026,European Securities and Markets Authority (ESMA) (2025) Market Report on EU carbon markets. ESMA50-481369926-30552. https://www.esma.europa.eu/sites/default/files/2025-10/ESMA50-481369926-30552_Carbon_Markets_Report_2025.pdf. Accessed 10 October 2026
+MANUSCRIPT_EN_v9.docx,381,2020 | 2025 | 4 | 1 | 7,"German Emissions Trading Authority (DEHSt) (2020–2025) Quarterly reports on German auctions of emission allowances. Umweltbundesamt, Berlin. Report-specific editions, Table 4 page locators and source URLs are recorded in Online Resource 1, Section S17, and the accompanying source ledger."
+MANUSCRIPT_EN_v9.docx,382,1993 | 156 | 379 | 392 | 10.2307 | 2983064,Kronmal RA (1993) Spurious correlation and the fallacy of the ratio standard revisited. Journal of the Royal Statistical Society: Series A 156:379–392. https://doi.org/10.2307/2983064
+MANUSCRIPT_EN_v9.docx,383,2003 | 10.1007 | 978 | -1 | -4757 | -3803 | -2,"Lahiri SN (2003) Resampling methods for dependent data. Springer, New York. https://doi.org/10.1007/978-1-4757-3803-2"
+MANUSCRIPT_EN_v9.docx,384,2018 | 113 | 390 | 400 | 10.1080 | 01621459.2016.1260466,"Li F, Morgan KL, Zaslavsky AM (2018) Balancing covariates via propensity score weighting. Journal of the American Statistical Association 113:390–400. https://doi.org/10.1080/01621459.2016.1260466"
+MANUSCRIPT_EN_v9.docx,385,1963 | 58 | 993 | 1010 | 10.1080 | 01621459.1963.10480682,Lovell MC (1963) Seasonal adjustment of economic time series and multiple regression analysis. Journal of the American Statistical Association 58:993–1010. https://doi.org/10.1080/01621459.1963.10480682
+MANUSCRIPT_EN_v9.docx,386,2023 | 38 | 671 | 694 | 10.1002 | 2969,"MacKinnon JG, Nielsen MØ, Webb MD (2023) Fast and reliable jackknife and bootstrap methods for cluster-robust inference. Journal of Applied Econometrics 38:671–694. https://doi.org/10.1002/jae.2969"
+MANUSCRIPT_EN_v9.docx,387,2025 | 69 | 2901 | 2926 | 10.1007 | 0181 | -025 | -02825,"Meijer E, Postepska A, Wansbeek T (2025) Handling multiple proxies. Empirical Economics 69:2901–2926. https://doi.org/10.1007/s00181-025-02825-x"
+MANUSCRIPT_EN_v9.docx,388,2024 | 67 | 75 | 96 | 10.1007 | 0181 | -023 | -02551 | -2,"Niu H, Liu T (2024) Forecasting the volatility of European Union allowance futures with macroeconomic variables using the GJR-GARCH-MIDAS model. Empirical Economics 67:75–96. https://doi.org/10.1007/s00181-023-02551-2"
+MANUSCRIPT_EN_v9.docx,389,2026 | 26 | 0099 | 10.1111 | 70099,Otsubo Y (2026) Intraday and daily price discovery in carbon markets: EUA futures versus carbon ETFs. International Review of Finance 26:e70099. https://doi.org/10.1111/irfi.70099
+ONLINE_RESOURCE_1_v9.docx,0,1,Online Resource 1
+ONLINE_RESOURCE_1_v9.docx,3,15517837680 | 163 | 11 | 2026,"Journal: Empirical Economics (intended submission; not yet submitted)Authors: Zhongfei Tian; Xiang WangAffiliation: Zhengzhou University of Aeronautics, Zhengzhou, Henan, ChinaCorresponding author: Zhongfei Tian, 15517837680@163.comVersion: Integrated author-review v9, 11 October 2026"
+ONLINE_RESOURCE_1_v9.docx,5,1 | 2 | 7,"This resource keeps the historical quantity evidence and later price extension distinct. Sections S1–S11 preserve the completed quantity analyses. Sections S12–S17 document the German report-level price data, its signed convention, descriptive context, four fixed models and diagnostic limits. Every numerical stage has a separate fixed source; the present integration does not re-estimate the market models."
+ONLINE_RESOURCE_1_v9.docx,6,124 | -123 | 5745 | 9602346053446583 | 94 | 9800 | 5 | 2 | 8 | 084 | 419066855 | 565 | 6 | 36259 | 8 | 19 | 2,"The repository is 124-creator/-123. The input is fixed at commit 5745eb3ddca79602346053446583d794b0e09800. The principal results are fixed at e25c1e02e1a58e0aec1084f7419066855e9565ec, and the robustness extension at d4b26f1bbd8c1d7c036259e48e119c9c12f6c9a9. The respective paths are:"
+ONLINE_RESOURCE_1_v9.docx,7,20261010,research/pro_review_20261010/full_data/
+ONLINE_RESOURCE_1_v9.docx,8,20261010,research/eex_abc_results_20261010/
+ONLINE_RESOURCE_1_v9.docx,9,20261010,research/eex_robustness_20261010/
+ONLINE_RESOURCE_1_v9.docx,43,6,"Note: Quantity fields use tCO2 in the source. Literal labels are reproduced from row 6 of Primary Market Auction in each annual workbook. In particular, column M is “Total Amount of Bids” within the volume section; auction revenue is a different field. Original labels, cell positions and formats are retained in the provenance record. A reporting participant need not equal a final client or compliance installation. Field labels and arithmetic consistency do not establish identical populations for each paired mean and standard deviation."
+ONLINE_RESOURCE_1_v9.docx,44,"1,327 | 1,281 | 38","The six annual files yield 1,327 dated observations. Restricting to T3PA, EU/DE/PL and explicit successful status yields 1,281 unique auctions. Exclusions comprise 38 other-product records, five other-series records and three cancelled auctions. Cancelled award fields remain missing rather than becoming zero dispersion. No main-sample row is removed on the basis of the size of its reported ratio."
+ONLINE_RESOURCE_1_v9.docx,45,"13 | 17,251 | 53","The source audit compared 13 numeric fields for all dated observations with the extraction and the cell trace, with 17,251 comparisons in each route. An independent XML route agreed with the workbook import. The 53 candidate fields match their corresponding extraction rows; input files were unchanged after computation. These checks certify the relationship between the supplied files and the calculations, not unobserved bidder identities, every market event or historical first-release values."
+ONLINE_RESOURCE_1_v9.docx,47,"79 | 1,202","The main nuisance space contains log cover ratio, log auction volume, log total bidders, log successful bidders, reporting-series indicators and original year–month indicators. Each auction has equal weight. Numerically stable least-squares projection gives a rank-79 pooled design with 1,202 residual degrees of freedom. The within-month implementation was cross-checked using an explicit dummy design and explicit row replication on fixed draws. Such agreement verifies a numerical route, not a second empirical sample."
+ONLINE_RESOURCE_1_v9.docx,48,0 | 72 | 72,"For pooled block length L, draw starting months uniformly from 0,…,M−L with M=72. Append each selected contiguous block of L calendar months until at least 72 positions are obtained, then truncate. Retain all auction-series observations in each selected month. Multiplicities act as observation weights; original year–month labels are not renamed. Empty factor levels in a draw are removed rather than represented by all-zero dummy columns. Nuisance coefficients and the focal coefficient are re-estimated in each draw, and failures are recorded without replacement draws."
+ONLINE_RESOURCE_1_v9.docx,49,20261010 | 999 | 199,"The principal stream uses SeedSequence([20261010, block_length]). The three-month analysis uses 999 draws shared across A/B/C; the one- and six-month checks use 199 each for A and C. Quantiles are computed by linear interpolation. The prior team calculation used a different initialization; this resource retains the frozen principal intervals rather than the more favourable of alternative Monte Carlo realizations. In particular, the principal ordinary-log slope interval includes one."
+ONLINE_RESOURCE_1_v9.docx,50,36 | 999 | 20261010 | 2 | 1 | 20261010 | 2 | 2 | 20261010 | 2 | 3 | 97.5,"For the historical split, each original half has 36 months. Independent three-month resampling within each half produces 999 paired comparisons, shared across A and C. The extension protocol records the period stream [20261010, 2, 1], the reduced-control stream [20261010, 2, 2] and the series stream [20261010, 2, 3]. All nuisance slopes are separately estimated in each half. The two 97.5% slope-difference intervals constitute a Bonferroni-style sensitivity calculation only to the extent that each interval approximation is adequate. They do not correct selection of the historical question or fully represent cross-boundary dependence."
+ONLINE_RESOURCE_1_v9.docx,51,499 | 399 | 72,"Reduced-control specifications use 499 draws, and within-series analyses use 399. Each subseries retains the full 72-month calendar axis, including months without selected auctions. EU and PL each have one such empty month. No observation is fabricated there. Singleton months contribute no net within-month information. The completed runs report no failed bootstrap draw. Bootstrap coverage remains approximate, particularly under changes in slopes or dependence."
+ONLINE_RESOURCE_1_v9.docx,57,95,β: 95% interval
+ONLINE_RESOURCE_1_v9.docx,58,95,θ: 95% interval
+ONLINE_RESOURCE_1_v9.docx,60,1,1
+ONLINE_RESOURCE_1_v9.docx,61,199,199
+ONLINE_RESOURCE_1_v9.docx,62,0.7807 | 0.9833,"[0.7807, 0.9833]"
+ONLINE_RESOURCE_1_v9.docx,63,0.5903 | 0.7158,"[0.5903, 0.7158]"
+ONLINE_RESOURCE_1_v9.docx,65,3,3
+ONLINE_RESOURCE_1_v9.docx,66,999,999
+ONLINE_RESOURCE_1_v9.docx,67,0.7506 | 1.0384,"[0.7506, 1.0384]"
+ONLINE_RESOURCE_1_v9.docx,68,0.5714 | 0.7422,"[0.5714, 0.7422]"
+ONLINE_RESOURCE_1_v9.docx,70,6,6
+ONLINE_RESOURCE_1_v9.docx,71,199,199
+ONLINE_RESOURCE_1_v9.docx,72,0.7350 | 1.0292,"[0.7350, 1.0292]"
+ONLINE_RESOURCE_1_v9.docx,73,0.5564 | 0.7438,"[0.5564, 0.7438]"
+ONLINE_RESOURCE_1_v9.docx,75,1,1
+ONLINE_RESOURCE_1_v9.docx,76,199,199
+ONLINE_RESOURCE_1_v9.docx,77,0.7907 | 0.9714,"[0.7907, 0.9714]"
+ONLINE_RESOURCE_1_v9.docx,78,0.5855 | 0.7134,"[0.5855, 0.7134]"
+ONLINE_RESOURCE_1_v9.docx,80,3,3
+ONLINE_RESOURCE_1_v9.docx,81,999,999
+ONLINE_RESOURCE_1_v9.docx,82,0.7627 | 1.0143,"[0.7627, 1.0143]"
+ONLINE_RESOURCE_1_v9.docx,83,0.5660 | 0.7402,"[0.5660, 0.7402]"
+ONLINE_RESOURCE_1_v9.docx,85,6,6
+ONLINE_RESOURCE_1_v9.docx,86,199,199
+ONLINE_RESOURCE_1_v9.docx,87,0.7503 | 1.0090,"[0.7503, 1.0090]"
+ONLINE_RESOURCE_1_v9.docx,88,0.5526 | 0.7493,"[0.5526, 0.7493]"
+ONLINE_RESOURCE_1_v9.docx,89,199,Note: These are exploratory percentile intervals. Three-month rows reproduce the principal result; they are not additional replications. Sensitivity endpoints based on 199 draws have non-negligible Monte Carlo variability.
+ONLINE_RESOURCE_1_v9.docx,95,0.6419 | 0.6656,"[0.6419, 0.6656]"
+ONLINE_RESOURCE_1_v9.docx,96,0.6405 | 0.6674,"[0.6405, 0.6674]"
+ONLINE_RESOURCE_1_v9.docx,98,0.6058 | 0.6981,"[0.6058, 0.6981]"
+ONLINE_RESOURCE_1_v9.docx,99,0.6023 | 0.6996,"[0.6023, 0.6996]"
+ONLINE_RESOURCE_1_v9.docx,101,0.6019 | 0.7120,"[0.6019, 0.7120]"
+ONLINE_RESOURCE_1_v9.docx,102,0.6110 | 0.7081,"[0.6110, 0.7081]"
+ONLINE_RESOURCE_1_v9.docx,104,0.6467 | 0.6569,"[0.6467, 0.6569]"
+ONLINE_RESOURCE_1_v9.docx,105,0.6457 | 0.6577,"[0.6457, 0.6577]"
+ONLINE_RESOURCE_1_v9.docx,106,13,Top 13 Cook-distance rows
+ONLINE_RESOURCE_1_v9.docx,107,0.6911,0.6911
+ONLINE_RESOURCE_1_v9.docx,108,0.6930,0.6930
+ONLINE_RESOURCE_1_v9.docx,109,"1,281","Note: Bracketed values are deterministic deletion ranges, not confidence intervals. The largest-Cook-distance set is selected within each specification only for diagnosis. It does not define a revised data-cleaning rule. All main estimates retain 1,281 auctions."
+ONLINE_RESOURCE_1_v9.docx,115,95,θ [95% interval]
+ONLINE_RESOURCE_1_v9.docx,118,840,840
+ONLINE_RESOURCE_1_v9.docx,119,764,764
+ONLINE_RESOURCE_1_v9.docx,120,0.6898 | 0.6283 | 0.7585,"0.6898 [0.6283, 0.7585]"
+ONLINE_RESOURCE_1_v9.docx,123,275,275
+ONLINE_RESOURCE_1_v9.docx,124,198,198
+ONLINE_RESOURCE_1_v9.docx,125,0.5619 | 0.4567 | 0.6808,"0.5619 [0.4567, 0.6808]"
+ONLINE_RESOURCE_1_v9.docx,128,166,166
+ONLINE_RESOURCE_1_v9.docx,129,90,90
+ONLINE_RESOURCE_1_v9.docx,130,0.8076 | 0.6943 | 0.8828,"0.8076 [0.6943, 0.8828]"
+ONLINE_RESOURCE_1_v9.docx,133,840,840
+ONLINE_RESOURCE_1_v9.docx,134,764,764
+ONLINE_RESOURCE_1_v9.docx,135,0.6839 | 0.6159 | 0.7587,"0.6839 [0.6159, 0.7587]"
+ONLINE_RESOURCE_1_v9.docx,138,275,275
+ONLINE_RESOURCE_1_v9.docx,139,198,198
+ONLINE_RESOURCE_1_v9.docx,140,0.5689 | 0.4679 | 0.6870,"0.5689 [0.4679, 0.6870]"
+ONLINE_RESOURCE_1_v9.docx,143,166,166
+ONLINE_RESOURCE_1_v9.docx,144,90,90
+ONLINE_RESOURCE_1_v9.docx,145,0.8138 | 0.7005 | 0.8850,"0.8138 [0.7005, 0.8850]"
+ONLINE_RESOURCE_1_v9.docx,146,399,Note: Each series has its own month effects and numeric controls. Intervals use 399 three-month block draws. These are not independent-market replications or formal tests that series coefficients differ. The small PL residual sample limits interpretation.
+ONLINE_RESOURCE_1_v9.docx,147,0.0927037454 | 0.0816007553 | 0.1600483679 | 0.1407987656,"The interquartile-scale contrasts reported in the main article are already present in the frozen extension output. Under A, IQRMZx=0.0927037454 and the corresponding fitted transformed-response contrast is 0.0816007553. Under C, these values are 0.1600483679 and 0.1407987656. They are partial-regression scale summaries. Exponentiating a transformed fitted value would not, without further assumptions, recover the arithmetic conditional mean of the original ratio. No such raw-scale mean or procurement outcome is estimated here."
+ONLINE_RESOURCE_1_v9.docx,154,7.47 | 10 | −15 | 7.09 | 10 | −15,"The completed calculation yields maximum residual discrepancies of approximately 7.47×10−15 and 7.09×10−15. These are algebraic and implementation checks, not another economic finding. They do not supply an independently observed total award W or authenticate V=W."
+ONLINE_RESOURCE_1_v9.docx,155,0.5 | 0.004994,"With the original reported rather than constructed values, mean discrepancies relative to B/N and V/S reach 0.5 quantity units, while the cover-ratio discrepancy relative to B/V reaches approximately 0.004994. Agreement with display precision is not certification of the historical rounding rule. The main regressions use the reported fields; neither implied means nor implied cover ratios silently replace them. The corresponding log-one-plus terms do not satisfy the additive log identities."
+ONLINE_RESOURCE_1_v9.docx,156,2,"A related interpretation boundary concerns concentration. If m quantities genuinely form one population with common mean μ and s2=i​qi−μ2/m−d, then its single-auction quantity-share concentration is"
+ONLINE_RESOURCE_1_v9.docx,157,1 | 2,H=1m+m−dm2sμ2.(S4)
+ONLINE_RESOURCE_1_v9.docx,161,0.10,An earlier supplementary protocol proposed 0.10 as an exploratory reference for the absolute standardized association. It was introduced after earlier results were known and is not an economic-cost or journal threshold. It is not used as a decision boundary in the article’s figures or as proof of publication value. This presentation change leaves the numerical record unchanged.
+ONLINE_RESOURCE_1_v9.docx,168,2020 | 2022 | 643,"Panel A: 2020–2022, n = 643"
+ONLINE_RESOURCE_1_v9.docx,177,1.532,1.532
+ONLINE_RESOURCE_1_v9.docx,178,1.345,1.345
+ONLINE_RESOURCE_1_v9.docx,179,1.520,1.520
+ONLINE_RESOURCE_1_v9.docx,180,1.712,1.712
+ONLINE_RESOURCE_1_v9.docx,181,0.874,0.874
+ONLINE_RESOURCE_1_v9.docx,182,2.622,2.622
+ONLINE_RESOURCE_1_v9.docx,184,1.459,1.459
+ONLINE_RESOURCE_1_v9.docx,185,1.247,1.247
+ONLINE_RESOURCE_1_v9.docx,186,1.443,1.443
+ONLINE_RESOURCE_1_v9.docx,187,1.629,1.629
+ONLINE_RESOURCE_1_v9.docx,188,0.443,0.443
+ONLINE_RESOURCE_1_v9.docx,189,2.707,2.707
+ONLINE_RESOURCE_1_v9.docx,191,1.864,1.864
+ONLINE_RESOURCE_1_v9.docx,192,1.530,1.530
+ONLINE_RESOURCE_1_v9.docx,193,1.790,1.790
+ONLINE_RESOURCE_1_v9.docx,194,2.100,2.100
+ONLINE_RESOURCE_1_v9.docx,195,1.010,1.010
+ONLINE_RESOURCE_1_v9.docx,196,3.770,3.770
+ONLINE_RESOURCE_1_v9.docx,198,2.692,2.692
+ONLINE_RESOURCE_1_v9.docx,199,2.363,2.363
+ONLINE_RESOURCE_1_v9.docx,200,2.515,2.515
+ONLINE_RESOURCE_1_v9.docx,201,3.082,3.082
+ONLINE_RESOURCE_1_v9.docx,202,0.972,0.972
+ONLINE_RESOURCE_1_v9.docx,203,6.399,6.399
+ONLINE_RESOURCE_1_v9.docx,205,4.844,4.844
+ONLINE_RESOURCE_1_v9.docx,206,3.887,3.887
+ONLINE_RESOURCE_1_v9.docx,207,4.761,4.761
+ONLINE_RESOURCE_1_v9.docx,208,5.588,5.588
+ONLINE_RESOURCE_1_v9.docx,209,1.937,1.937
+ONLINE_RESOURCE_1_v9.docx,210,12.899,12.899
+ONLINE_RESOURCE_1_v9.docx,212,22.379,22.379
+ONLINE_RESOURCE_1_v9.docx,213,20,20
+ONLINE_RESOURCE_1_v9.docx,214,22,22
+ONLINE_RESOURCE_1_v9.docx,215,25,25
+ONLINE_RESOURCE_1_v9.docx,216,12,12
+ONLINE_RESOURCE_1_v9.docx,217,31,31
+ONLINE_RESOURCE_1_v9.docx,219,16.687,16.687
+ONLINE_RESOURCE_1_v9.docx,220,14,14
+ONLINE_RESOURCE_1_v9.docx,221,17,17
+ONLINE_RESOURCE_1_v9.docx,222,20,20
+ONLINE_RESOURCE_1_v9.docx,223,3,3
+ONLINE_RESOURCE_1_v9.docx,224,27,27
+ONLINE_RESOURCE_1_v9.docx,225,2023 | 2025 | 638,"Panel B: 2023–2025, n = 638"
+ONLINE_RESOURCE_1_v9.docx,234,1.275,1.275
+ONLINE_RESOURCE_1_v9.docx,235,1.108,1.108
+ONLINE_RESOURCE_1_v9.docx,236,1.255,1.255
+ONLINE_RESOURCE_1_v9.docx,237,1.429,1.429
+ONLINE_RESOURCE_1_v9.docx,238,0.847,0.847
+ONLINE_RESOURCE_1_v9.docx,239,1.896,1.896
+ONLINE_RESOURCE_1_v9.docx,241,1.384,1.384
+ONLINE_RESOURCE_1_v9.docx,242,1.184,1.184
+ONLINE_RESOURCE_1_v9.docx,243,1.356,1.356
+ONLINE_RESOURCE_1_v9.docx,244,1.557,1.557
+ONLINE_RESOURCE_1_v9.docx,245,0.665,0.665
+ONLINE_RESOURCE_1_v9.docx,246,2.295,2.295
+ONLINE_RESOURCE_1_v9.docx,248,1.785,1.785
+ONLINE_RESOURCE_1_v9.docx,249,1.550,1.550
+ONLINE_RESOURCE_1_v9.docx,250,1.710,1.710
+ONLINE_RESOURCE_1_v9.docx,251,1.980,1.980
+ONLINE_RESOURCE_1_v9.docx,252,1.080,1.080
+ONLINE_RESOURCE_1_v9.docx,253,3.780,3.780
+ONLINE_RESOURCE_1_v9.docx,255,2.659,2.659
+ONLINE_RESOURCE_1_v9.docx,256,2.147,2.147
+ONLINE_RESOURCE_1_v9.docx,257,3.035,3.035
+ONLINE_RESOURCE_1_v9.docx,258,3.245,3.245
+ONLINE_RESOURCE_1_v9.docx,259,0.970,0.970
+ONLINE_RESOURCE_1_v9.docx,260,3.350,3.350
+ONLINE_RESOURCE_1_v9.docx,262,4.588,4.588
+ONLINE_RESOURCE_1_v9.docx,263,4.076,4.076
+ONLINE_RESOURCE_1_v9.docx,264,4.712,4.712
+ONLINE_RESOURCE_1_v9.docx,265,5.156,5.156
+ONLINE_RESOURCE_1_v9.docx,266,1.946,1.946
+ONLINE_RESOURCE_1_v9.docx,267,6.731,6.731
+ONLINE_RESOURCE_1_v9.docx,269,22.948,22.948
+ONLINE_RESOURCE_1_v9.docx,270,21,21
+ONLINE_RESOURCE_1_v9.docx,271,23,23
+ONLINE_RESOURCE_1_v9.docx,272,25,25
+ONLINE_RESOURCE_1_v9.docx,273,15,15
+ONLINE_RESOURCE_1_v9.docx,274,30,30
+ONLINE_RESOURCE_1_v9.docx,276,17.071,17.071
+ONLINE_RESOURCE_1_v9.docx,277,15,15
+ONLINE_RESOURCE_1_v9.docx,278,17,17
+ONLINE_RESOURCE_1_v9.docx,279,20,20
+ONLINE_RESOURCE_1_v9.docx,280,5,5
+ONLINE_RESOURCE_1_v9.docx,281,27,27
+ONLINE_RESOURCE_1_v9.docx,282,1 | 7,"Note: These previously tabulated summaries use the unchanged eligible auctions and equal row weights. Volume fields are in million tCO2; bidder counts and ratios are on their original scales. Quartiles use linear interpolation at (n−1)q (type 7). No p-values, distributional-equality tests, trimming or new regression are introduced. These are marginal auction-level summaries; the early and late auctions do not represent matched bidder populations. Lower marginal ratios cannot be equated with a decline in identified bidder-level inequality, and the table does not explain the change in conditional association."
+ONLINE_RESOURCE_1_v9.docx,283,4 | 5 | 5 | 0.2296942521 | 0.2305336591 | 95 | 97.5,"The direct differences in correlation in main Table 4, Panel C, already exist in the frozen extension: period_intervals.A.delta_theta_CI and period_intervals.C.delta_theta_CI in support/frozen_extension_results.json, and equivalently periods.A.delta_theta_CI95 and periods.C.delta_theta_CI95 in the repository’s KEY_RESULTS.json. The point differences are 0.2296942521 and 0.2305336591. These are secondary exploratory 95% intervals, not the 97.5% primary slope intervals. Displaying them now does not retrospectively change the extension protocol."
+ONLINE_RESOURCE_1_v9.docx,285,2,S9 Conditioning-set values accompanying Figure 2
+ONLINE_RESOURCE_1_v9.docx,288,95,A: θ [95% interval]
+ONLINE_RESOURCE_1_v9.docx,289,95,C: θ [95% interval]
+ONLINE_RESOURCE_1_v9.docx,291,0.6243 | 0.5596 | 0.7067,"0.6243 [0.5596, 0.7067]"
+ONLINE_RESOURCE_1_v9.docx,292,0.6197 | 0.5494 | 0.7017,"0.6197 [0.5494, 0.7017]"
+ONLINE_RESOURCE_1_v9.docx,294,0.6289 | 0.5626 | 0.7094,"0.6289 [0.5626, 0.7094]"
+ONLINE_RESOURCE_1_v9.docx,295,0.6239 | 0.5521 | 0.7044,"0.6239 [0.5521, 0.7044]"
+ONLINE_RESOURCE_1_v9.docx,297,0.6496 | 0.5714 | 0.7422,"0.6496 [0.5714, 0.7422]"
+ONLINE_RESOURCE_1_v9.docx,298,0.6486 | 0.5660 | 0.7402,"0.6486 [0.5660, 0.7402]"
+ONLINE_RESOURCE_1_v9.docx,299,499 | 999,Note: Reduced-control intervals use 499 three-month block draws. The full-control row reuses the 999-draw principal intervals. Each conditioning set defines a different descriptive projection; these are not instruments or randomized comparisons.
+ONLINE_RESOURCE_1_v9.docx,300,2 | 1 | 2 | 3,The table and Figure 2 use the same frozen values. The full-control row duplicates the principal estimate for orientation; it is not an additional empirical result. Figure 1 uses quartile ranges rather than inferential intervals; Figures 2 and 3 use the explicitly stated exploratory confidence intervals. These three uncertainty or dispersion objects must not be interchanged.
+ONLINE_RESOURCE_1_v9.docx,301,0,S10 Composition-standardization protocol and results
+ONLINE_RESOURCE_1_v9.docx,302,2151017871416 | 505 | 3162 | 73 | 89 | 70838 | 2 | 209 | 412753 | 9,"The supplementary protocol was recorded at commit 2151017871416fe0ad2505cfdbda23162aaa873e before the weighted fits, after the historical data and preceding results had been examined. It is not retrospective preregistration. The E1 implementation and outputs are frozen at 89d3ac3beba670838d4b62b1209f6f3412753f19. The original equal-weight estimates and intervals are retained; newly generated unweighted intervals serve paired comparisons within E1 only."
+ONLINE_RESOURCE_1_v9.docx,303,22 | 2018 | 1,"The period model has 22 columns: an intercept, four standardized log controls, four squares, two nonreference-series indicators and eleven month-of-year indicators. It excludes year and year–month identifiers. Exact selected-term mean balance is a property of the fitted unpenalized logistic overlap weights, not a new empirical finding (Li et al. 2018). It does not authenticate full distributional balance, assignment ignorability or minimum variance for a residual-correlation contrast. The outcome model is re-estimated separately in each half with original year–month effects. Early weights equal e and late weights equal 1−e; resampling multiplies these by row multiplicity."
+ONLINE_RESOURCE_1_v9.docx,308,95,95% interval
+ONLINE_RESOURCE_1_v9.docx,309,97.5,97.5% interval
+ONLINE_RESOURCE_1_v9.docx,312,0.1971,0.1971
+ONLINE_RESOURCE_1_v9.docx,313,0.1084 | 0.2910,"[0.1084, 0.2910]"
+ONLINE_RESOURCE_1_v9.docx,314,0.0947 | 0.3029,"[0.0947, 0.3029]"
+ONLINE_RESOURCE_1_v9.docx,317,-0.0326,-0.0326
+ONLINE_RESOURCE_1_v9.docx,318,-0.1349 | 0.0802,"[-0.1349, 0.0802]"
+ONLINE_RESOURCE_1_v9.docx,319,-0.1520 | 0.0915,"[-0.1520, 0.0915]"
+ONLINE_RESOURCE_1_v9.docx,322,0.1937,0.1937
+ONLINE_RESOURCE_1_v9.docx,323,0.0982 | 0.2843,"[0.0982, 0.2843]"
+ONLINE_RESOURCE_1_v9.docx,324,0.0847 | 0.3051,"[0.0847, 0.3051]"
+ONLINE_RESOURCE_1_v9.docx,327,-0.0368,-0.0368
+ONLINE_RESOURCE_1_v9.docx,328,-0.1449 | 0.0797,"[-0.1449, 0.0797]"
+ONLINE_RESOURCE_1_v9.docx,329,-0.1668 | 0.0942,"[-0.1668, 0.0942]"
+ONLINE_RESOURCE_1_v9.docx,330,0.10 | 97.5,"Note: Change means the overlap-weighted minus equal-weight late-minus-early correlation difference from the same bootstrap draw, not a mediation effect. The 0.10 interpretation reference in the supplementary protocol was introduced after earlier results were known; it is neither a cost threshold nor a journal criterion. The weighted-contrast 97.5% intervals include that reference."
+ONLINE_RESOURCE_1_v9.docx,334,97.5,A: 97.5% interval
+ONLINE_RESOURCE_1_v9.docx,335,97.5,C: 97.5% interval
+ONLINE_RESOURCE_1_v9.docx,336,1,1
+ONLINE_RESOURCE_1_v9.docx,337,199,199
+ONLINE_RESOURCE_1_v9.docx,338,0.0991 | 0.3018,"[0.0991, 0.3018]"
+ONLINE_RESOURCE_1_v9.docx,339,0.0916 | 0.3033,"[0.0916, 0.3033]"
+ONLINE_RESOURCE_1_v9.docx,340,3,3
+ONLINE_RESOURCE_1_v9.docx,341,999,999
+ONLINE_RESOURCE_1_v9.docx,342,0.0947 | 0.3029,"[0.0947, 0.3029]"
+ONLINE_RESOURCE_1_v9.docx,343,0.0847 | 0.3051,"[0.0847, 0.3051]"
+ONLINE_RESOURCE_1_v9.docx,344,6,6
+ONLINE_RESOURCE_1_v9.docx,345,199,199
+ONLINE_RESOURCE_1_v9.docx,346,0.1049 | 0.2881,"[0.1049, 0.2881]"
+ONLINE_RESOURCE_1_v9.docx,347,0.0996 | 0.2780,"[0.0996, 0.2780]"
+ONLINE_RESOURCE_1_v9.docx,348,586.55 | 614.75 | 0.263 | 0.314 | 5,"Note: Both period and outcome models are refitted in every draw. A and C share indices. No failed draw was replaced. Short Monte Carlo runs affect endpoint precision; absence of computational failures does not establish coverage. Weight ESS values of 586.55 and 614.75 are concentration diagnostics, not independent time-sample sizes. Maximum normalized weights are approximately 0.263% and 0.314%. The failed auction-volume distribution diagnostic is shown in main Table 5, not suppressed."
+ONLINE_RESOURCE_1_v9.docx,349,1 | 2026,S11 Additional 2026 sample and finite block sensitivity
+ONLINE_RESOURCE_1_v9.docx,350,"10 | 2026 | 13 | 33 | 15 | 14 | 12 | 19 | 72,742 | 256 | 54 | 49872 | 29333 | 9 | 2 | 393 | 47050 | 7 | 173 | 166","The E3 record reports a download on 10 October 2026 at 13:33:15 UTC; E3R retrieved the same URL at 14:12:19 UTC. Both records identify 72,742 bytes and SHA-256 54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d. E3R rebuilt the January–September eligibility set, excluding seven October rows from 173 dated records and retaining 166 auctions; the point estimates matched E3. This is a repeated implementation on the same snapshot, not an independent market replication, first-release audit or certification of standard-deviation populations."
+ONLINE_RESOURCE_1_v9.docx,351,2026,Table S9 The 2026 association and short-axis diagnostic ranges
+ONLINE_RESOURCE_1_v9.docx,356,1.3137,1.3137
+ONLINE_RESOURCE_1_v9.docx,357,1.2375,1.2375
+ONLINE_RESOURCE_1_v9.docx,359,0.8494,0.8494
+ONLINE_RESOURCE_1_v9.docx,360,0.8350,0.8350
+ONLINE_RESOURCE_1_v9.docx,361,999,Original 999-draw θ interval
+ONLINE_RESOURCE_1_v9.docx,362,0.8123 | 0.9149,"[0.8123, 0.9149]"
+ONLINE_RESOURCE_1_v9.docx,363,0.7832 | 0.9156,"[0.7832, 0.9156]"
+ONLINE_RESOURCE_1_v9.docx,365,0.8094 | 0.9149,"[0.8094, 0.9149]"
+ONLINE_RESOURCE_1_v9.docx,366,0.7757 | 0.9156,"[0.7757, 0.9156]"
+ONLINE_RESOURCE_1_v9.docx,368,0.8064 | 0.9048,"[0.8064, 0.9048]"
+ONLINE_RESOURCE_1_v9.docx,369,0.7731 | 0.9055,"[0.7731, 0.9055]"
+ONLINE_RESOURCE_1_v9.docx,371,0.8396 | 0.8626,"[0.8396, 0.8626]"
+ONLINE_RESOURCE_1_v9.docx,372,0.8230 | 0.8569,"[0.8230, 0.8569]"
+ONLINE_RESOURCE_1_v9.docx,373,999 | 2.5 | 97.5 | 166,Note: Point estimates and the original 999-draw intervals belong to E3. Finite-enumeration and deletion diagnostics are post-result E3R analyses. The enumeration percentiles are 2.5% and 97.5% quantiles of equally likely ordered block triples with linear interpolation. Deletion ranges are not confidence intervals. All schemes use the same 166 auctions and fixed models; they do not provide independent market replications.
+ONLINE_RESOURCE_1_v9.docx,374,"3,6,9,9,9,9,9,6,3 | 7 | 999 | 343 | 84 | 729 | 163","For non-circular triples, the expected original-month multiplicities are (3,6,9,9,9,9,9,6,3)/7. Endpoint underrepresentation is therefore structural, not eliminated by 999 Monte Carlo draws. The 343 ordered triples yield 84 distinct month-weight vectors. The 729 circular triples yield 163 vectors and unit expected multiplicity for every month; they also connect September to January artificially. Both full finite distributions are retained. No claim is made that the circular scheme is universally more appropriate or that exact enumeration gives exact frequentist coverage."
+ONLINE_RESOURCE_1_v9.docx,375,"2,164 | 4.60 | 10 | 20261010 | 35 | 3 | 7173 | 7 | 70 | 89188324","E3R records 2,164 primary projection requests and eight explicit-dummy numerical cross-checks, with no failures and maximum implementation difference 4.60×10⁻¹⁴. Its six synthetic checks assess enumeration, multiplicities and projection code. These execution counts are not observations. Complete outputs are at research/eex_integration_checks_20261010/results, commit 35d8c63fc57173f67eb0bd8bb570eb289188324f; they have not been re-estimated for v9."
+ONLINE_RESOURCE_1_v9.docx,376,2,S12 German reported-price sources and reproduction boundary
+ONLINE_RESOURCE_1_v9.docx,377,275 | 24 | 2020 | 2025 | 35 | 11 | 2022 | 11 | 2023 | 12 | 2024 | 2025 | 240 | 21 | 236 | 203 | 18,"The completed price study uses the German official-report comparison layer. Source-based matching identified 275 successful auctions in 24 quarters of 2020–2025, with price and quantity links to the EEX archive. The fixed restrictions quarantine 35 observations: 11 from 2022Q4, 11 from 2023Q4 and 12 from 2024Q2 for unresolved reference-footnote mapping, and one from 2025Q1 for a source-date conflict. This leaves 240 observations in 21 quarters, comprising 236 last-best-bid and four last-trade references. The predefined subset without row-level source flags contains 203 observations in 18 quarters. These qualification rules preceded the first price fit."
+ONLINE_RESOURCE_1_v9.docx,378,71 | 6548 | 81 | 9 | 9435 | 8 | 20261011 | 33707 | 64 | 0 | 965088 | 370 | 20261011,"Price results and code are fixed at fccd471de96548bd781c59aced4a59435aae08ac under research/eua_local_price_execution_20261011. Descriptions and the targeted source-definition check are fixed at 33707c164c80accd7acf9fcd3f0965088a8370f6 under research/eua_price_description_followup_20261011. The analysis retains signed numeric percentage points, converted to basis points; it does not take the modulus of the source's EUR column merely because it is labelled Absolute. The local source check did not locate an explicit subtraction-and-denominator equation in the examined methods text. No rounded values are inverted to manufacture that definition. The scope is official-reported deviations, with native quote age and UTC event times unauthenticated."
+ONLINE_RESOURCE_1_v9.docx,379,2026 | 1 | 22 | 2026 | 166 | 2026,"The official PDFs and event-level price tables remain author-held; public aggregate outputs and code permit review but not an independent row-level refit. A hash alone is not an archive or a data-use permission. This is separate from the 2026 quantity snapshot, whose dynamic EEX URL and required hash are recorded in Section S11 but whose exact bytes are not included in the package. The additional 22 German 2026 price observations were acquired but not fitted, and are distinct from the 166-observation 2026 quantity exercise."
+ONLINE_RESOURCE_1_v9.docx,380,3,S13 Estimands and evidence status
+ONLINE_RESOURCE_1_v9.docx,381,0,"Table S10 records the role of each analysis in the research sequence. Different transformations, uncertainty levels and later checks are not interchangeable confirmations. The labels describe recorded analysis roles, not a prospectively registered design."
+ONLINE_RESOURCE_1_v9.docx,382,0,Table S10 Evidence roles and limits
+ONLINE_RESOURCE_1_v9.docx,389,95,Exploratory 95% month-block intervals
+ONLINE_RESOURCE_1_v9.docx,393,97.5 | 95,97.5% slope intervals; 95% correlation intervals
+ONLINE_RESOURCE_1_v9.docx,397,97.5 | 95,Exploratory 97.5% intervals; 95% paired-change intervals
+ONLINE_RESOURCE_1_v9.docx,399,2026,Additional 2026 period
+ONLINE_RESOURCE_1_v9.docx,408,4,"S14 Price estimand, conditioning set and descriptive context"
+ONLINE_RESOURCE_1_v9.docx,409,100 | 1 | 14 | 226 | 236 | 13,"The response is the official signed numeric percentage-point field multiplied by 100. Printed zero is retained at source precision; it is not a no-trade indicator or certification of identical unrounded prices. The focal covariate is log(1 + reported bid SD / reported bid mean). The fixed baseline contains an intercept, log auction volume, log total and successful bidder counts, log reported cover ratio, the submitted-price maximum minus minimum in EUR, log same-auction clearing price, observed-year indicators, and a last-trade indicator when it varies. The extended model adds only the focal covariate on the same rows. The primary matrix has rank 14 with 226 residual degrees of freedom. The 236-row best-bid model omits its constant reference indicator and has rank 13. The one-sided nature of a best bid, and the fact that reference prices are not midpoints, restrict the interpretation."
+ONLINE_RESOURCE_1_v9.docx,411,1,Table S11 Reported price-deviation descriptions in the three fixed samples
+ONLINE_RESOURCE_1_v9.docx,421,240 | 21,240 / 21
+ONLINE_RESOURCE_1_v9.docx,422,−2.80,−2.80
+ONLINE_RESOURCE_1_v9.docx,423,−7.00,−7.00
+ONLINE_RESOURCE_1_v9.docx,424,−29.00 | 17.25,"[−29.00, 17.25]"
+ONLINE_RESOURCE_1_v9.docx,425,−174.00 | 171.00,"[−174.00, 171.00]"
+ONLINE_RESOURCE_1_v9.docx,426,46.34,46.34
+ONLINE_RESOURCE_1_v9.docx,428,203 | 18,203 / 18
+ONLINE_RESOURCE_1_v9.docx,429,−2.79,−2.79
+ONLINE_RESOURCE_1_v9.docx,430,−5.00,−5.00
+ONLINE_RESOURCE_1_v9.docx,431,−27.00 | 15.50,"[−27.00, 15.50]"
+ONLINE_RESOURCE_1_v9.docx,432,−174.00 | 153.00,"[−174.00, 153.00]"
+ONLINE_RESOURCE_1_v9.docx,433,43.23,43.23
+ONLINE_RESOURCE_1_v9.docx,435,236 | 21,236 / 21
+ONLINE_RESOURCE_1_v9.docx,436,−2.14,−2.14
+ONLINE_RESOURCE_1_v9.docx,437,−7.00,−7.00
+ONLINE_RESOURCE_1_v9.docx,438,−29.00 | 18.00,"[−29.00, 18.00]"
+ONLINE_RESOURCE_1_v9.docx,439,−174.00 | 171.00,"[−174.00, 171.00]"
+ONLINE_RESOURCE_1_v9.docx,440,46.19,46.19
+ONLINE_RESOURCE_1_v9.docx,450,240 | 21,240 / 21
+ONLINE_RESOURCE_1_v9.docx,451,33.51,33.51
+ONLINE_RESOURCE_1_v9.docx,452,25.00,25.00
+ONLINE_RESOURCE_1_v9.docx,453,11.00 | 46.00,"[11.00, 46.00]"
+ONLINE_RESOURCE_1_v9.docx,454,0.00 | 174.00,"[0.00, 174.00]"
+ONLINE_RESOURCE_1_v9.docx,455,32.06,32.06
+ONLINE_RESOURCE_1_v9.docx,457,203 | 18,203 / 18
+ONLINE_RESOURCE_1_v9.docx,458,30.88,30.88
+ONLINE_RESOURCE_1_v9.docx,459,23.00,23.00
+ONLINE_RESOURCE_1_v9.docx,460,10.00 | 40.00,"[10.00, 40.00]"
+ONLINE_RESOURCE_1_v9.docx,461,0.00 | 174.00,"[0.00, 174.00]"
+ONLINE_RESOURCE_1_v9.docx,462,30.30,30.30
+ONLINE_RESOURCE_1_v9.docx,464,236 | 21,236 / 21
+ONLINE_RESOURCE_1_v9.docx,465,33.37,33.37
+ONLINE_RESOURCE_1_v9.docx,466,25.00,25.00
+ONLINE_RESOURCE_1_v9.docx,467,11.00 | 46.00,"[11.00, 46.00]"
+ONLINE_RESOURCE_1_v9.docx,468,0.00 | 174.00,"[0.00, 174.00]"
+ONLINE_RESOURCE_1_v9.docx,469,31.93,31.93
+ONLINE_RESOURCE_1_v9.docx,470,142 | 92 | 6 | 118 | 79 | 6 | 138 | 92 | 6 | 2.50 | 2.96 | 2.54,"Note: All values except n/G are basis points. Equal auction weights are used. Signed negative/positive/printed-zero counts are 142/92/6 in the primary sample, 118/79/6 in the no-row-flag subset, and 138/92/6 in the best-bid subset. These imply printed-zero shares 2.50%, 2.96% and 2.54%. Absolute outcomes preserve the same zeros. Descriptions were computed after the fits on the unchanged private input sets, not selected to improve estimates. The tables do not measure a treatment effect or procurement benefit."
+ONLINE_RESOURCE_1_v9.docx,471,5,"S15 Cluster uncertainty, scale and numerical diagnostics"
+ONLINE_RESOURCE_1_v9.docx,472,1 | 1 | 1 | 999 | 20261011 | 2 | 240 | 999 | 3.5632 | 4 | +1 | 999 | +1 | 0.005,"The primary uncertainty display uses quarter-cluster CR1 covariance with finite factor G/(G−1) × (n−1)/(n−k), and a t(G−1) reference. The primary signed coefficient alone receives a restricted-null wild-cluster t test with 999 Rademacher sign vectors, SeedSequence([20261011, 2, 240]), and CR1 studentization. The null sets the focal coefficient to zero; no sign vector is redrawn following a failure. All 999 stored draws are valid. Four statistics meet or exceed the absolute observed statistic of 3.5632, giving the two-sided plus-one p-value (4+1)/(999+1) = 0.005. This is a test, not the source of a bootstrap confidence interval."
+ONLINE_RESOURCE_1_v9.docx,473,21 | 1 | 1 | 2023,"The quarter jackknife deletes each of 21 source quarters, recentres its coefficient estimates at their deletion mean, and uses variance (G−1)/G times their summed squared deviations. This is mean-centred CV3J, distinct from the full-estimate-centred CV3. A t(G−1) interval is displayed around the full-sample coefficient. The approaches follow the cluster-jackknife and wild-bootstrap framework discussed by MacKinnon et al. (2023); they remain approximate with few and potentially dependent time clusters. Agreement of these displays does not adjust the whole exploratory history or make the same observations independent replications."
+ONLINE_RESOURCE_1_v9.docx,474,2,Table S12 Distinct price scales and inference diagnostics
+ONLINE_RESOURCE_1_v9.docx,477,95,"Residual-IQR contrast[95% CI], bp"
+ONLINE_RESOURCE_1_v9.docx,482,0.1291,0.1291
+ONLINE_RESOURCE_1_v9.docx,483,−10.16 | −16.11 | −4.21,"−10.16 [−16.11, −4.21]"
+ONLINE_RESOURCE_1_v9.docx,484,14.76,14.76
+ONLINE_RESOURCE_1_v9.docx,485,0.0910,0.0910
+ONLINE_RESOURCE_1_v9.docx,486,16.33,16.33
+ONLINE_RESOURCE_1_v9.docx,488,0.1291,0.1291
+ONLINE_RESOURCE_1_v9.docx,489,5.34 | −1.75 | 12.43,"5.34 [−1.75, 12.43]"
+ONLINE_RESOURCE_1_v9.docx,490,14.76,14.76
+ONLINE_RESOURCE_1_v9.docx,491,0.0910,0.0910
+ONLINE_RESOURCE_1_v9.docx,492,16.33,16.33
+ONLINE_RESOURCE_1_v9.docx,494,0.1247,0.1247
+ONLINE_RESOURCE_1_v9.docx,495,−10.16 | −17.26 | −3.06,"−10.16 [−17.26, −3.06]"
+ONLINE_RESOURCE_1_v9.docx,496,17.46,17.46
+ONLINE_RESOURCE_1_v9.docx,497,0.1119,0.1119
+ONLINE_RESOURCE_1_v9.docx,498,13.97,13.97
+ONLINE_RESOURCE_1_v9.docx,500,0.1270,0.1270
+ONLINE_RESOURCE_1_v9.docx,501,−10.62 | −16.48 | −4.77,"−10.62 [−16.48, −4.77]"
+ONLINE_RESOURCE_1_v9.docx,502,14.85,14.85
+ONLINE_RESOURCE_1_v9.docx,503,0.0921,0.0921
+ONLINE_RESOURCE_1_v9.docx,504,16.15,16.15
+ONLINE_RESOURCE_1_v9.docx,505,6 | −14.5059 | −10.1622 | 22.0923 | 27.7203 | −136.5430 | −20.8960 | 0.005,"Note: Residual-x contrasts differ from the observed-x contrasts in main Table 6. They are not alternatives selected by effect size. Information shares are proportional to within-model residualized x squared, summed by quarter; their reciprocal concentration is a design diagnostic, not a certified effective independent sample size. The primary observed-x contrast is −14.5059 bp; the residual-x contrast is −10.1622 bp. The primary CR1 SE is 22.0923; the CV3J SE is 27.7203 and its coefficient interval [−136.5430, −20.8960]. The single wild-cluster p-value is 0.005. Raw and scaled condition numbers address different numerical scales; no control was dropped to obtain significance."
+ONLINE_RESOURCE_1_v9.docx,506,6,S16 Source-subset and year-deletion limits
+ONLINE_RESOURCE_1_v9.docx,507,6 | 999,"The four fixed extended specifications and their own identical-row baselines are reported in main Table 6. Only the primary model has the 999-draw wild-cluster test. The two source subsets overlap the primary data; their similar signs are not independent replications. The absolute-outcome coefficient is positive but imprecise, so neither a reduction in magnitude nor a zero effect has been established. No new natural-log price specification or further window search was added after viewing these results."
+ONLINE_RESOURCE_1_v9.docx,508,3,Table S13 Fixed leave-one-year-out primary price coefficients
+ONLINE_RESOURCE_1_v9.docx,513,2020,2020
+ONLINE_RESOURCE_1_v9.docx,514,194,194
+ONLINE_RESOURCE_1_v9.docx,515,17,17
+ONLINE_RESOURCE_1_v9.docx,516,−86.11,−86.11
+ONLINE_RESOURCE_1_v9.docx,517,2021,2021
+ONLINE_RESOURCE_1_v9.docx,518,195,195
+ONLINE_RESOURCE_1_v9.docx,519,17,17
+ONLINE_RESOURCE_1_v9.docx,520,−84.42,−84.42
+ONLINE_RESOURCE_1_v9.docx,521,2022,2022
+ONLINE_RESOURCE_1_v9.docx,522,205,205
+ONLINE_RESOURCE_1_v9.docx,523,18,18
+ONLINE_RESOURCE_1_v9.docx,524,−45.12,−45.12
+ONLINE_RESOURCE_1_v9.docx,525,2023,2023
+ONLINE_RESOURCE_1_v9.docx,526,204,204
+ONLINE_RESOURCE_1_v9.docx,527,18,18
+ONLINE_RESOURCE_1_v9.docx,528,−73.27,−73.27
+ONLINE_RESOURCE_1_v9.docx,529,2024,2024
+ONLINE_RESOURCE_1_v9.docx,530,206,206
+ONLINE_RESOURCE_1_v9.docx,531,18,18
+ONLINE_RESOURCE_1_v9.docx,532,−88.23,−88.23
+ONLINE_RESOURCE_1_v9.docx,533,2025,2025
+ONLINE_RESOURCE_1_v9.docx,534,196,196
+ONLINE_RESOURCE_1_v9.docx,535,17,17
+ONLINE_RESOURCE_1_v9.docx,536,−83.74,−83.74
+ONLINE_RESOURCE_1_v9.docx,537,2022 | 78.72 | 45.12 | 42.7 | 21,"Note: These are point-estimate influence checks, not six significance tests. Observed-year effects are rebased after deletion; all economic controls are retained. Deleting 2022 reduces the coefficient magnitude from 78.72 to 45.12, a 42.7% comparison of two estimates, not an estimate of the contribution of that year. No claim is made that the deletion-specific intervals exclude zero or that slopes are invariant across years. The 21 quarter deletions and the four models remain available in the fixed RESULTS.json."
+ONLINE_RESOURCE_1_v9.docx,538,"1,034 | 999 | 21 | 55","The team reports 1,034 original estimation requests (eight baseline/extension fits, 999 restricted bootstrap fits, 21 quarter deletions and six year deletions), followed by four cross-implementation comparisons of the same models. The signed coefficient, CR1 SE and partial R² agreed numerically. Twenty-six artificial tests passed in each recorded Python mode, and 55 source objects were unchanged. These are team computation and verification records, not a claim of a new raw-data refit by the present editorial reviewer. This revision separately checks the public arithmetic, manifest bytes and stored test statistics without access to private event rows."
+ONLINE_RESOURCE_1_v9.docx,539,7,"S17 Report definitions, locators and availability"
+ONLINE_RESOURCE_1_v9.docx,540,24 | 4,"The targeted local source-definition audit covers 24 held quarterly reports: file identity and native text were checked, relevant Table 4 explanatory text was located, and the earliest and latest complete methods paragraphs were additionally read. That audit describes the target as a comparison of auction clearing prices with the secondary-market reference. It did not locate an explicit subtraction-and-percentage-denominator equation in the examined text. This does not prove that no formula occurs elsewhere or in an image. Accordingly, the article retains the official signed number and the phrase “lower official-reported signed deviation”, without reconstructing a numerator, dividing by an inferred reference price, or relabelling the association as a larger discount."
+ONLINE_RESOURCE_1_v9.docx,541,4,Table S14 Report-definition page locators and eligibility
+ONLINE_RESOURCE_1_v9.docx,546,2020,2020Q1
+ONLINE_RESOURCE_1_v9.docx,547,13,13
+ONLINE_RESOURCE_1_v9.docx,548,12,12
+ONLINE_RESOURCE_1_v9.docx,549,12,12
+ONLINE_RESOURCE_1_v9.docx,550,2020,2020Q2
+ONLINE_RESOURCE_1_v9.docx,551,14,14
+ONLINE_RESOURCE_1_v9.docx,552,10,10
+ONLINE_RESOURCE_1_v9.docx,553,10,10
+ONLINE_RESOURCE_1_v9.docx,554,2020,2020Q3
+ONLINE_RESOURCE_1_v9.docx,555,14,14
+ONLINE_RESOURCE_1_v9.docx,556,13,13
+ONLINE_RESOURCE_1_v9.docx,557,13,13
+ONLINE_RESOURCE_1_v9.docx,558,2020,2020Q4
+ONLINE_RESOURCE_1_v9.docx,559,15,15
+ONLINE_RESOURCE_1_v9.docx,560,11,11
+ONLINE_RESOURCE_1_v9.docx,561,11,11
+ONLINE_RESOURCE_1_v9.docx,562,2021,2021Q1
+ONLINE_RESOURCE_1_v9.docx,563,13,13
+ONLINE_RESOURCE_1_v9.docx,564,9,9
+ONLINE_RESOURCE_1_v9.docx,565,9,9
+ONLINE_RESOURCE_1_v9.docx,566,2021,2021Q2
+ONLINE_RESOURCE_1_v9.docx,567,14,14
+ONLINE_RESOURCE_1_v9.docx,568,11,11
+ONLINE_RESOURCE_1_v9.docx,569,11,11
+ONLINE_RESOURCE_1_v9.docx,570,2021,2021Q3
+ONLINE_RESOURCE_1_v9.docx,571,15,15
+ONLINE_RESOURCE_1_v9.docx,572,13,13
+ONLINE_RESOURCE_1_v9.docx,573,13,13
+ONLINE_RESOURCE_1_v9.docx,574,2021,2021Q4
+ONLINE_RESOURCE_1_v9.docx,575,16,16
+ONLINE_RESOURCE_1_v9.docx,576,12,12
+ONLINE_RESOURCE_1_v9.docx,577,12,12
+ONLINE_RESOURCE_1_v9.docx,578,2022,2022Q1
+ONLINE_RESOURCE_1_v9.docx,579,13,13
+ONLINE_RESOURCE_1_v9.docx,580,11,11
+ONLINE_RESOURCE_1_v9.docx,581,11,11
+ONLINE_RESOURCE_1_v9.docx,582,2022,2022Q2
+ONLINE_RESOURCE_1_v9.docx,583,14,14
+ONLINE_RESOURCE_1_v9.docx,584,10,10
+ONLINE_RESOURCE_1_v9.docx,585,10,10
+ONLINE_RESOURCE_1_v9.docx,586,2022,2022Q3
+ONLINE_RESOURCE_1_v9.docx,587,15,15
+ONLINE_RESOURCE_1_v9.docx,588,14,14
+ONLINE_RESOURCE_1_v9.docx,589,14,14
+ONLINE_RESOURCE_1_v9.docx,590,2022,2022Q4
+ONLINE_RESOURCE_1_v9.docx,591,15,15
+ONLINE_RESOURCE_1_v9.docx,592,11,11
+ONLINE_RESOURCE_1_v9.docx,593,0,0
+ONLINE_RESOURCE_1_v9.docx,594,2023,2023Q1
+ONLINE_RESOURCE_1_v9.docx,595,13,13
+ONLINE_RESOURCE_1_v9.docx,596,12,12
+ONLINE_RESOURCE_1_v9.docx,597,12,12
+ONLINE_RESOURCE_1_v9.docx,598,2023,2023Q2
+ONLINE_RESOURCE_1_v9.docx,599,13,13
+ONLINE_RESOURCE_1_v9.docx,600,11,11
+ONLINE_RESOURCE_1_v9.docx,601,11,11
+ONLINE_RESOURCE_1_v9.docx,602,2023,2023Q3
+ONLINE_RESOURCE_1_v9.docx,603,14,14
+ONLINE_RESOURCE_1_v9.docx,604,13,13
+ONLINE_RESOURCE_1_v9.docx,605,13,13
+ONLINE_RESOURCE_1_v9.docx,606,2023,2023Q4
+ONLINE_RESOURCE_1_v9.docx,607,15,15
+ONLINE_RESOURCE_1_v9.docx,608,11,11
+ONLINE_RESOURCE_1_v9.docx,609,0,0
+ONLINE_RESOURCE_1_v9.docx,610,2024,2024Q1
+ONLINE_RESOURCE_1_v9.docx,611,13,13
+ONLINE_RESOURCE_1_v9.docx,612,10,10
+ONLINE_RESOURCE_1_v9.docx,613,10,10
+ONLINE_RESOURCE_1_v9.docx,614,2024,2024Q2
+ONLINE_RESOURCE_1_v9.docx,615,14,14
+ONLINE_RESOURCE_1_v9.docx,616,12,12
+ONLINE_RESOURCE_1_v9.docx,617,0,0
+ONLINE_RESOURCE_1_v9.docx,618,2024,2024Q3
+ONLINE_RESOURCE_1_v9.docx,619,14,14
+ONLINE_RESOURCE_1_v9.docx,620,13,13
+ONLINE_RESOURCE_1_v9.docx,621,13,13
+ONLINE_RESOURCE_1_v9.docx,622,2024,2024Q4
+ONLINE_RESOURCE_1_v9.docx,623,15,15
+ONLINE_RESOURCE_1_v9.docx,624,11,11
+ONLINE_RESOURCE_1_v9.docx,625,11,11
+ONLINE_RESOURCE_1_v9.docx,626,2025,2025Q1
+ONLINE_RESOURCE_1_v9.docx,627,14,14
+ONLINE_RESOURCE_1_v9.docx,628,12,12
+ONLINE_RESOURCE_1_v9.docx,629,11,11
+ONLINE_RESOURCE_1_v9.docx,630,2025,2025Q2
+ONLINE_RESOURCE_1_v9.docx,631,15,15
+ONLINE_RESOURCE_1_v9.docx,632,10,10
+ONLINE_RESOURCE_1_v9.docx,633,10,10
+ONLINE_RESOURCE_1_v9.docx,634,2025,2025Q3
+ONLINE_RESOURCE_1_v9.docx,635,15,15
+ONLINE_RESOURCE_1_v9.docx,636,13,13
+ONLINE_RESOURCE_1_v9.docx,637,13,13
+ONLINE_RESOURCE_1_v9.docx,638,2025,2025Q4
+ONLINE_RESOURCE_1_v9.docx,639,16,16
+ONLINE_RESOURCE_1_v9.docx,640,10,10
+ONLINE_RESOURCE_1_v9.docx,641,10,10
+ONLINE_RESOURCE_1_v9.docx,642,4 | 256 | 2025,"Note: Page numbers reproduce the targeted local definition record, not a new page-by-page PDF inspection by this reviewer. The machine-readable SOURCE_DEFINITION_CHECK.json and FULL24_SOURCE_INDEX.json carry each exact report URL and SHA-256. Three quarters contribute no eligible reference observations; one additional source-date conflict is excluded in 2025Q1. The underlying official reports and row-level price panels are not republished here. No native tick stream, quote age or complete UTC deadline history is certified by these locators."
+ONLINE_RESOURCE_1_v9.docx,643,2026 | 1,"Data-access statement: the historical EEX quantity input and aggregate price outputs have fixed repository identifiers. The author-held reported-price rows are not part of the public replication package because bulk redistribution permissions remain unresolved. Reviewers can inspect the released analysis code, sample restrictions and aggregate evidence, but independent refitting requires lawful access to those exact rows. Before submission, the authors must finalize a journal-acceptable access route. The separate 2026 quantity snapshot limitation in Section S11 remains unchanged; no fresh data acquisition was performed for this integration."
+ONLINE_RESOURCE_1_v9.docx,645,2020 | 2025 | 4 | 1 | 7,"German Emissions Trading Authority (DEHSt) (2020–2025) Quarterly reports on German auctions of emission allowances. Umweltbundesamt, Berlin. Report-specific editions, Table 4 page locators and source URLs are recorded in Online Resource 1, Section S17, and the accompanying source ledger."
+ONLINE_RESOURCE_1_v9.docx,646,2018 | 113 | 390 | 400 | 10.1080 | 01621459.2016.1260466,"Li F, Morgan KL, Zaslavsky AM (2018) Balancing covariates via propensity score weighting. Journal of the American Statistical Association 113:390–400. https://doi.org/10.1080/01621459.2016.1260466"
+ONLINE_RESOURCE_1_v9.docx,647,2023 | 38 | 671 | 694 | 10.1002 | 2969,"MacKinnon JG, Nielsen MØ, Webb MD (2023) Fast and reliable jackknife and bootstrap methods for cluster-robust inference. Journal of Applied Econometrics 38:671–694. https://doi.org/10.1002/jae.2969"
+TITLE_PAGE_v9.docx,4,15517837680 | 163,Corresponding author: Zhongfei TianE-mail: 15517837680@163.com

@@ -1,0 +1,63 @@
+{
+  "scope": "Reviewed v9 editorial and public-aggregate-audit sources only; no raw prices or market fits",
+  "source_files": 14,
+  "compressed_sha256": "738913796aa7cc0704cdbf575dae88b268e06daffb51797063c736db6edec882",
+  "files": [
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/AGENTS.md",
+      "sha256": "6732521ee87adc0babc5f4958ebe02465f50d899db579482c267f28a8ae11e3f"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/START_HERE.md",
+      "sha256": "b07e19b623da497a230bd225da2b0233afa91dbf7c522dfde3bd7d5e6ae5f59a"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/REPORT_ZH.md",
+      "sha256": "ac20ab3b72b0d4316908d7ba33663da610c0f9291d65e09aef6cac4c8d13246d"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/JOURNAL_REQUIREMENTS_CHECK_ZH.md",
+      "sha256": "b73f7b7cb9c76a9c0e7fa5f8c837ebe739f2ecc779ad853e46d8a1564c6d79af"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/REPRODUCIBILITY.md",
+      "sha256": "a5bb381cd729604cc2ae4f6add88f1a83d2218d8e692266425b9582fc0ced6ed"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/AUTHOR_FINAL_CHECK.md",
+      "sha256": "07cc58d45006027ef52f725b652d6ffa8a7e18be94d05c95ceb87705e1045a90"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/COVER_LETTER_DRAFT_EN.md",
+      "sha256": "779712a125202299c7a57eec9542d409cee94dec27de7594cff6a2c1c901f7eb"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/SOURCES_AND_READ_SCOPE.json",
+      "sha256": "9cc03e25efc0cbb34f362c9ba79bbee4b1a12f50537476dc08a0717cdad73cb8"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/REVISION_PLAN.json",
+      "sha256": "7065747d238eda7d1a3428745da60fef06d7970c79c0bbb783b0319c29ba7811"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/tools/build_integrated_v9.py",
+      "sha256": "915d2e78a24e37832f87b94ed4092b2e61cf0f3ae0b6d60c997208844bef57b2"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/tools/audit_public_evidence.py",
+      "sha256": "aa5b8b89d44d9f7df7736ae0524b3e7b97e41007d3309965b7ccd5a4460bb865"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/tools/finalize_delivery.py",
+      "sha256": "7865a8b65412fccf594bbdd7efba9a5d3c840dba132c4a364d320c19a31a60d2"
+    },
+    {
+      "path": "paper/eex_price_integrated_v9_20261011/support/LOCAL_VISUAL_REVIEW.json",
+      "sha256": "fae34402f5fda3a429acadf0f7c448c5c6be39afed079d05e059129dc2f2363c"
+    },
+    {
+      "path": "research/eex_aggregate_review_20261011/README.md",
+      "sha256": "53ffc8a00ce953e5e917ea54d3318404fca34f352a2289e049f9789f89d35fae"
+    }
+  ]
+}
