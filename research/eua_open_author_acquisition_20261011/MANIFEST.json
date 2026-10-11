@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "All package files except this MANIFEST; no vendor raw archive or workbook included.",
+  "scope": "All package files except this MANIFEST; vendor quote originals stay local. Includes completed parallel-route metadata, not vendor raw archive/workbook.",
   "files": [
     {
       "path": "ACQUISITION_RESULT.json",
@@ -33,14 +33,19 @@
       "sha256": "473eef0fe8ec56706777503483e5dccf4fbdce1db30b98650a3f40af33d02cae"
     },
     {
+      "path": "PARALLEL_ACQUISITION_COMPLETED.json",
+      "bytes": 8096,
+      "sha256": "8bb17470c6806111f7eb4f08b6c7a3d14e82a8ef08735045e61a66ef4420be54"
+    },
+    {
       "path": "SOURCE_RECORD.json",
       "bytes": 2189,
       "sha256": "37b1ad07fccb571cff0678af2bdebbd4c1787d81d5bbe31514df9c4e2b5d54ca"
     },
     {
       "path": "START_HERE_ZH.txt",
-      "bytes": 2041,
-      "sha256": "47a4de6a6f21b0e62e4e54ea62b6b6f6a5e55a42792d347fb5a36d4b50a502c6"
+      "bytes": 3252,
+      "sha256": "4d2096c5a77ccdb3e72357e248cdafce7b6bca8db762a93da5fc7cc3762e74e3"
     }
   ]
 }

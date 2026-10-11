@@ -1,0 +1,167 @@
+{
+  "recorded_after_actual_parent_acceptance": "2026-10-11T13:12:36.502108+08:00",
+  "parallel_routes": "both finished; delivered artifacts actually read and checksummed by parent",
+  "totals_this_acquisition_round": {
+    "distinct_downloaded_data_candidate_originals": 5,
+    "distinct_sample_archives": 1,
+    "distinct_format_mapping_documents": 2,
+    "distinct_author_readmes": 1,
+    "total_distinct_downloaded_original_objects": 9,
+    "observed_physical_download_copies": 10,
+    "duplicate_original_content_objects": 1,
+    "parsed_csv_not_counted_as_extra_downloaded_originals": true,
+    "row_counts_not_summed_across_products_or_sources": true
+  },
+  "no_exhaustive_all_world_sources_claim": true,
+  "strict_auction_cutoff_reference_rows": 0,
+  "full_2020_2025_intraday_gap_filled": false,
+  "no_model_fitting_or_frozen_manuscript_change": true,
+  "additional_new_sources": [
+    {
+      "original_filename": "Price History 21.10.19 (1).xlsx",
+      "source_page": "https://figshare.com/articles/dataset/Price_History_21_10_19_1_xlsx/10012907",
+      "original_download_url": "https://ndownloader.figshare.com/files/18058991",
+      "bytes": 871094,
+      "sha256": "19f6e1cc0e1f120ee27080e52a1906e685b563e942773e84d14151b2914ee3e5",
+      "platform_length_md5_equal": true,
+      "original_publicly_republished": false,
+      "source_grade": "author_Thomson_Reuters_vendor_export_NOT_exchange_native",
+      "useful_panels": [
+        {
+          "sheet": "Лист2",
+          "date_rows": 1762,
+          "numeric_last": 1762,
+          "missing_last": 0,
+          "date_min": "2012-12-10",
+          "date_max": "2019-10-21",
+          "date_cell_types": {
+            "datetime": 1762
+          },
+          "date_field_not_intraday_event_time": true
+        },
+        {
+          "sheet": "Лист3",
+          "date_rows": 1665,
+          "numeric_last": 1159,
+          "missing_last": 506,
+          "date_min": "2012-07-06",
+          "date_max": "2019-10-21",
+          "date_cell_types": {
+            "datetime": 1665
+          },
+          "date_field_not_intraday_event_time": true
+        }
+      ],
+      "embedded_vendor_rights_conflict_present": true,
+      "why_not_qualified": "Daily bars ending2019; missing506 spot Last values; no auction-cutoff event clock and outside main2020–2025 window.",
+      "why_not_uploaded_raw": "Embedded Thomson Reuters use/redistribution restrictions; platform CC BY does not supersede vendor restrictions."
+    },
+    {
+      "original_filename": "EUA_data.xlsx",
+      "source_page": "https://data.mendeley.com/datasets/sy5bkmf5yj/2",
+      "original_download_url": "https://data.mendeley.com/public-files/datasets/sy5bkmf5yj/files/ed5266ba-bb48-4b41-a2e3-3572074bf170/file_downloaded",
+      "bytes": 651239,
+      "sha256": "3fd934f7fa46a08eea7d880ce0af527530e30ffa4072586c8c6e992fb67b95f3",
+      "platform_length_sha256_equal": true,
+      "original_publicly_republished": false,
+      "source_grade": "author_Wind_continuous_futures_candidate_NOT_independent_provider_verified",
+      "parent_observed": {
+        "rows": 4103,
+        "literal_headers": [
+          "month",
+          "day",
+          "year",
+          "open",
+          "high",
+          "low",
+          "close",
+          "position",
+          "price",
+          "log_price",
+          null,
+          "return",
+          "return2",
+          "real_volatility",
+          null,
+          "rf1",
+          "rf",
+          "ra"
+        ],
+        "date_min": "2008-04-01",
+        "date_max": "2024-03-01",
+        "unique_dates": 4103,
+        "observations_2020_2025": 1078,
+        "numeric_price_rows": 4103,
+        "numeric_close_rows": 4100,
+        "price_close_different_rows": 2156,
+        "close_outside_low_high_rows": 891,
+        "product_supplier": "Wind as stated by author Readme; exact product/roll rule not authenticated",
+        "strict_cutoff_reference_eligible": false
+      },
+      "why_not_uploaded_raw": "Wind-sourced quote data; upstream redistribution unresolved.",
+      "why_not_qualified": "No ECP/spot product mapping, roll rule, units or intraday timestamp. price and close columns disagree; no silent repair."
+    },
+    {
+      "original_filename": "carbonprice_2019.csv",
+      "source_page": "https://data.mendeley.com/datasets/k9mn2nh632/2",
+      "original_download_url": "https://data.mendeley.com/public-files/datasets/k9mn2nh632/files/4c538277-94d6-47e8-b05a-1336db03b62c/file_downloaded",
+      "bytes": 58376,
+      "sha256": "46e6b48478b9b3ee630a56956cab669afb560b6f75fb5968cab35dc49e14ebc1",
+      "platform_length_sha256_equal": true,
+      "original_publicly_republished": false,
+      "source_grade": "author_EUA_labelled_settlement_candidate_supplier_product_unverified",
+      "parent_observed": {
+        "rows": 3356,
+        "literal_headers": [
+          "Date",
+          "Settle price carbon [Euro/ton carbon]"
+        ],
+        "date_min": "2008-04-08",
+        "date_max": "2021-04-16",
+        "unique_dates": 3356,
+        "weekend_dates": 34,
+        "observations_2020_2025": 333,
+        "source_unit_preserved": "Settle price carbon [Euro/ton carbon]",
+        "source_grade": "author_EUA_labelled_settlement_candidate_provider_contract_clock_unverified",
+        "strict_cutoff_reference_eligible": false
+      },
+      "why_not_uploaded_raw": "Exact underlying supplier/product and quote redistribution rights not established.",
+      "why_not_qualified": "Daily settle-labelled series only; literal Euro/ton carbon unit not silently changed to EUR/tCO2; no cutoff event clock."
+    }
+  ],
+  "duplicate_excluded_from_new_sources": {
+    "filename": "SIMRAN DATASET.xlsx",
+    "sha256": "79d1d94bc9bc2a253da38be05368a81a35f7a96bf1fc4f99f1223bb94136166c",
+    "same_parent_child_bytes": true,
+    "grade_clarification": "ICE official index family identifies ICEEUA as excess-return carbon-futures index. Do not use author values as EUR/tonne EUA price. Author values not independently market-authenticated.",
+    "parent_read_primary_source_url": "https://www.ice.com/fixed-income-data-services/index-solutions/commodity-indices/carbon-futures"
+  },
+  "support_readme": {
+    "filename": "Readme.pdf",
+    "bytes": 70639,
+    "sha256": "a29f05fe9c994e39606ccbde1c1f105863029a7c9e3b412da7a3e621d21ebbe9",
+    "parent_pdf_text_read": true,
+    "Wind_supplier_statement_present": true,
+    "not_counted_as_price_dataset": true,
+    "author_notebook_run_instructions_not_executed": true,
+    "source_url": "https://data.mendeley.com/public-files/datasets/sy5bkmf5yj/files/f9f5eb50-a788-4c15-8edf-7c4c499f2830/file_downloaded",
+    "publicly_republished": false
+  },
+  "parent_read_error_retained": "Unconstrained reset_dimensions iteration can return short rows with omitted trailing Last cells. Initial parent length filter omitted506 dates; explicit max_col recovered1665 dates and506 true missing Lasts, no original changed.",
+  "source_access_refusal_propagation": {
+    "new_child_refusals": [
+      "https://www.qeios.com/read/OCI53Z",
+      "https://b2find.eudat.eu/dataset/904e2cae-70f9-504e-8e7e-36398814f1c1",
+      "https://b2find.eudat.eu/dataset/f6c1b4c6-3e73-5ffd-9e3f-8b32850265e6",
+      "https://arxiv.org/html/2408.06497",
+      "https://arxiv.org/abs/2408.06497",
+      "https://data.mendeley.com/datasets/dyvfhycpg5/2",
+      "https://zenodo.org/records/10363561",
+      "https://zenodo.org/records/20802491",
+      "https://data.mendeley.com/datasets/gmsxtcrfgt/2"
+    ],
+    "same_record_parallel_collision": "A child refused the Zenodo20802491 page, while the parent independently acquired its public-API original before receiving child result. Parent successful file access does not certify or retroactively resolve that refused gate. No further retrieval of that record after receipt of this result.",
+    "all_new_refused_targets_stopped_after_result_received": true
+  },
+  "old_parent_phase_receipt": "ACQUISITION_RESULT.json is retained as the5-file parent-only earlier phase, not current exhaustive total. This record owns the completed round totals."
+}
