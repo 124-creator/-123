@@ -1,0 +1,98 @@
+name: EEX v10 final editorial documents
+on:
+  push:
+    branches: [eex-final-v10-20261011]
+    paths:
+      - 'paper/eex_final_v10_20261011/source_payload/**'
+      - '.github/workflows/eex-v10-final-documents.yml'
+permissions:
+  contents: write
+jobs:
+  reviewed-documents:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      MPLBACKEND: Agg
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: eex-final-v10-20261011
+          fetch-depth: 1
+      - name: Materialize exact reviewed editorial sources
+        run: python3 paper/eex_final_v10_20261011/source_payload/materialize.py
+      - name: Install document-only dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-croscore fonts-liberation libreoffice-writer python3-venv
+          python3 -m venv /tmp/eex-v10-venv
+          /tmp/eex-v10-venv/bin/pip install --disable-pip-version-check numpy==2.3.5 matplotlib==3.10.8 python-docx==1.2.0 lxml==6.1.1
+      - name: Build fixed-result figures and protected editable documents
+        run: |
+          /tmp/eex-v10-venv/bin/python -B paper/eex_final_v10_20261011/tools/build_price_figure.py --source paper/eex_price_integrated_v9_20261011 --out paper/eex_final_v10_20261011
+          /tmp/eex-v10-venv/bin/python -B paper/eex_final_v10_20261011/tools/build_v10.py --source paper/eex_price_integrated_v9_20261011 --out paper/eex_final_v10_20261011
+      - name: Compare DOCX internal bytes with local reviewed versions
+        run: |
+          /tmp/eex-v10-venv/bin/python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,os,zipfile,sys
+          import numpy,matplotlib,docx,lxml
+          root=Path('paper/eex_final_v10_20261011')
+          expected=json.loads((root/'support/EXPECTED_DOCX_MEMBERS.json').read_text())
+          checked={}
+          for name,parts in expected.items():
+              with zipfile.ZipFile(root/name) as z:
+                  actual={p:hashlib.sha256(z.read(p)).hexdigest() for p in z.namelist()}
+              if actual != parts:
+                  diff=[k for k in set(actual)|set(parts) if actual.get(k)!=parts.get(k)]
+                  raise ValueError('DOCX differs from visually reviewed local version: '+name+' '+str(diff))
+              checked[name]={'internal_members':len(parts),'sha256':hashlib.sha256((root/name).read_bytes()).hexdigest(),'every_internal_member_matches':True}
+          manifest=json.loads((root/'support/SOURCE_MATERIALIZATION.json').read_text())
+          for p,h in manifest['files'].items():
+              if hashlib.sha256((root/p).read_bytes()).hexdigest()!=h:
+                  raise ValueError('Reviewed source altered: '+p)
+          receipt={'scope':'Remote document build and exact member checks; no raw-data audit or market refit','source_commit':os.environ['GITHUB_SHA'],'new_market_fits':0,'new_bootstrap_fits':0,'private_raw_data_included':False,'docx':checked,'versions':{'python':sys.version,'numpy':numpy.__version__,'matplotlib':matplotlib.__version__,'python_docx':docx.__version__,'lxml':lxml.__version__},'remote_pdf_visual_review':'Not yet performed; requires independent artifact readback','submission_ready':False}
+          (root/'support/CI_BUILD_RECEIPT.json').write_text(json.dumps(receipt,indent=2))
+          print(json.dumps(receipt,indent=2))
+          PY
+      - name: Verify unchanged repository source manifests
+        run: |
+          python3 scripts/verify_repository.py > /tmp/eex-v10-root-manifest-check.json
+          cp /tmp/eex-v10-root-manifest-check.json paper/eex_final_v10_20261011/support/ROOT_MANIFEST_CHECK.json
+          cat /tmp/eex-v10-root-manifest-check.json
+      - name: Render manuscript, title and journal supplement PDFs
+        run: |
+          mkdir -p /tmp/eex-v10-pdfs /tmp/eex-v10-lohome
+          for f in MANUSCRIPT_EN_v10 ONLINE_RESOURCE_1_v10 TITLE_PAGE_v10; do
+            HOME=/tmp/eex-v10-lohome timeout 240 libreoffice -env:UserInstallation=file:///tmp/eex-v10-lo-profile --headless --convert-to pdf --outdir /tmp/eex-v10-pdfs paper/eex_final_v10_20261011/${f}.docx
+          done
+          cp /tmp/eex-v10-pdfs/MANUSCRIPT_EN_v10.pdf paper/eex_final_v10_20261011/
+          cp /tmp/eex-v10-pdfs/TITLE_PAGE_v10.pdf paper/eex_final_v10_20261011/
+          cp /tmp/eex-v10-pdfs/ONLINE_RESOURCE_1_v10.pdf paper/eex_final_v10_20261011/ESM_1.pdf
+      - name: Publish new manuscript directory only
+        run: |
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git ls-remote origin refs/heads/eex-final-v10-20261011 | cut -f1)" = "$GITHUB_SHA"
+          find paper/eex_final_v10_20261011 -type d -name __pycache__ -prune -exec rm -rf '{}' +
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- paper/eex_final_v10_20261011
+          if git diff --cached --name-only | grep -v '^paper/eex_final_v10_20261011/'; then exit 1; fi
+          git commit -m 'paper: publish final editorial v10 with confirmed author roles and fixed numerical evidence'
+          git push origin HEAD:refs/heads/eex-final-v10-20261011
+      - name: Produce file inventory for independent readback
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json,subprocess
+          root=Path('paper/eex_final_v10_20261011')
+          files=[{'path':str(p.relative_to(root)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(root.rglob('*')) if p.is_file()]
+          (root/'DELIVERY_MANIFEST.json').write_text(json.dumps({'commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'scope':'New editorial documents only; no original market rows or fonts','files':files},indent=2))
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: eex-v10-final-editorial-delivery
+          retention-days: 7
+          path: paper/eex_final_v10_20261011/
