@@ -45,5 +45,6 @@
       "reviewed_diff_sha256": "cc97a50e0edc9cefe4f18f7ee83786723b4831da2e14fd56f8b5f1fbc8ad8572"
     }
   ],
-  "independent_reading_not_fresh_market_authentication": true
+  "independent_reading_not_fresh_market_authentication": true,
+  "historical_authority_note": "Static review and parent diff comparison were for initial data commit 5450d3c39bfcd5732a72c89c001926925dc11b38. Subsequent CI-only configuration correction changes the workflow, not the six reviewed source-contract/parser/downloader/test files. This receipt is not an independent approval of the corrected workflow; current workflow execution is separately verified by actual GitHub Actions."
 }

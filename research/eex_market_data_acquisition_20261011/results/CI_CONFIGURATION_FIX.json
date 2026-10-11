@@ -1,0 +1,15 @@
+{
+  "recorded_after_actual_error_read": "2026-10-11T12:11:10.167170+08:00",
+  "initial_data_commit": "5450d3c39bfcd5732a72c89c001926925dc11b38",
+  "initial_run_id": 38110524821,
+  "initial_conclusion": "failure",
+  "jobs_executed": 0,
+  "actual_error": "(Line: 17, Col: 15): Unrecognized named-value: runner; expression runner.temp",
+  "error_source": "https://github.com/124-creator/-123/actions/runs/38110524821",
+  "context_reference": "https://docs.github.com/en/actions/reference/workflows-and-actions/contexts",
+  "repair": "Remove runner context from job-level env; set TMPDIR from RUNNER_TEMP in a runtime step through GITHUB_ENV. No data/parser/test-source edits.",
+  "verification_scope": "Initial data commit was fresh-cloned; all 30 published files matched exact bytes; 14 distinct tests passed in normal and optimized modes; source audit matched all 1577 CSV rows. This is not CI execution.",
+  "initial_static_review_did_not_find_this_workflow_configuration_error": true,
+  "corrected_ci_pass_not_preclaimed": true,
+  "progress_citation_correction": "An earlier progress message emitted an invalid citation marker before web retrieval. It was withdrawn; actual GitHub error and official context documentation were subsequently read. No planned access is counted as earlier verified access."
+}

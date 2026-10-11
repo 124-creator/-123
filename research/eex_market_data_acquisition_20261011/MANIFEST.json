@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "created_at": "2026-10-11T12:05:28.529925+08:00",
+  "created_at": "2026-10-11T12:11:11.413445+08:00",
   "scope": "Every selected package file except this manifest itself; workflow is independently checked in Git readback. Hashes authenticate bytes, not market semantics.",
-  "file_count": 28,
+  "file_count": 29,
   "files": [
     {
       "path": ".gitignore",
@@ -105,6 +105,11 @@
       "sha256": "5ab8a239c1418483ead11ccd73008173fdd3af6ae97f912357ede24da823b30a"
     },
     {
+      "path": "results/CI_CONFIGURATION_FIX.json",
+      "bytes": 1307,
+      "sha256": "30e8b32c6b1d93177289d3edd7a4f64d4590b8397232b045f76d8956a6890acd"
+    },
+    {
       "path": "results/CODE_WRITE_REPAIR.json",
       "bytes": 1368,
       "sha256": "e15c2dcef05f14de07b21cccf493f272188ff207b3d18459b879115ed8f31cb8"
@@ -121,8 +126,8 @@
     },
     {
       "path": "results/INDEPENDENT_CODE_REVIEW.json",
-      "bytes": 3391,
-      "sha256": "255a9aecba218da420645c02bcf8dee4ff5e35258d5824bd4328b450fe44db15"
+      "bytes": 3817,
+      "sha256": "84513926f83712f7056d32c2afa2145a83ece2746754b4bb7385a4b1d16a95a6"
     },
     {
       "path": "results/LOCAL_EXECUTION.json",
