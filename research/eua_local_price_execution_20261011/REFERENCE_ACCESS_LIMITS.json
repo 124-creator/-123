@@ -1,0 +1,18 @@
+{
+  "recorded_after_tools": "2026-10-11T17:04:59.205022+08:00",
+  "actual_tool": "web_extract",
+  "results": [
+    {
+      "url": "https://help.openai.com/en/articles/8437071-data-analysis-with-chatgpt",
+      "result": "Blocked: URL targets a private or internal network address",
+      "content_obtained": false
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.stats.sandwich_covariance.cov_cluster.html",
+      "result": "Blocked: URL targets a private or internal network address",
+      "content_obtained": false
+    }
+  ],
+  "retry_via_other_routes_performed": false,
+  "claims_based_on_these_bodies": false
+}

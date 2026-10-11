@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
+  "scope": "Verified aggregate local price results, code and current Pro instructions; not private row data",
   "files": [
     {
       "path": "CURRENT_STATE.json",
-      "bytes": 2473,
-      "sha256": "c4581699b529aaeb5ce3a18edf1607b9f2f6c4468165fabcdea8e55592e182c1"
+      "bytes": 3238,
+      "sha256": "8fe0e49ddf7bd41a6ff2fa23e02c618a32f463cdf0eef5dd65c3a647348be125"
     },
     {
       "path": "PRO_PROMPT.txt",
-      "bytes": 4576,
-      "sha256": "025ccaf8c9c2cbdd2b1b39555e207c6889b06e31b929920689e542a6a741d32c"
+      "bytes": 4074,
+      "sha256": "5ee71295d34eaf6dbb85353cfdbe90fcd8de40a7836b8247910fa2e798254902"
     },
     {
       "path": "START_HERE_ZH.txt",
-      "bytes": 3841,
-      "sha256": "214a4b716c55268eb20ac8f4eab36159f74cd51f7c6d7ce390cedd1bde2e74c7"
+      "bytes": 4104,
+      "sha256": "4a5fa0461417f59e0472830d86a00d6ba61d5ebcfde78a175bcea28c04da381d"
     }
-  ],
-  "scope": "Current self-authoredmetadata/codeonly; officialrowprices/rawreportsremainlocal; nofittednewmodel"
+  ]
 }

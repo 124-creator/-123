@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-11",
+  "scope": "price-field acquisition and eligibility audit; no price regression",
+  "input_commit": "5745eb3ddca79602346053446583d794b0e09800",
+  "input_hashes_checked": 11,
+  "workbooks_read": 6,
+  "dated_rows": 1327,
+  "eligible_auctions": 1281,
+  "exclusions": {
+    "other_product": 38,
+    "not_successful": 3,
+    "other_series": 5
+  },
+  "year_counts": {
+    "2020": 209,
+    "2021": 223,
+    "2022": 211,
+    "2023": 214,
+    "2024": 212,
+    "2025": 212
+  },
+  "original_numeric_cell_comparisons": 17251,
+  "new_price_and_revenue_fields_per_auction": 6,
+  "new_price_revenue_cells_read": 7686,
+  "reported_time_cells_read": 1281,
+  "literal_header_checks": 120,
+  "price_constraints": {
+    "clearing_in_bid_range": 1281,
+    "mean_in_bid_range": 1281,
+    "median_in_bid_range": 1281,
+    "revenue_equals_price_times_volume_within_0_01_eur": 1281
+  },
+  "revenue_product_max_abs_discrepancy_eur": "0",
+  "reported_unzoned_clock_diagnostics": {
+    "clock_after_11_00": 1281,
+    "clock_equals_11_00": 0,
+    "clock_before_11_00": 0
+  },
+  "time_semantics": "No timezone or bidding-close semantics authenticated by numeric clock values",
+  "external_reference_observations": 0,
+  "eligible_price_pairs": 0,
+  "market_regressions": 0,
+  "hypothesis_tests": 0,
+  "source_bytes_unchanged": true,
+  "local_auction_file_sha256": "b1d737d7dc7d1af53b989560ccb13d8cad52345747441ab34f77c320edbe498f",
+  "new_derived_market_rows_republished": false
+}

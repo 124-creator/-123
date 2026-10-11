@@ -1,0 +1,19 @@
+Reproduction boundary and commands
+
+This package contains actual aggregate results and the tested local implementation, not the restricted per-auction input CSVs or official PDFs. Do not attempt to generate private market rows from counts, hashes, coefficient tables or bootstrap statistics.
+
+Use a fresh local copy of this directory as PRIVATE_RUN. Preserve its code, mapping, protocol and lock files. All derived market-row outputs remain private. The historical EEX input root is research/pro_review_20261010/full_data in repository 124-creator/-123; the original fixed input commit is 5745eb3ddca79602346053446583d794b0e09800. PRIVATE_FULL24 denotes the already-held directory containing the four frozen data CSVs and their MANIFEST.json. The existing original ZIP matches the hash supplied by Pro; it does not need redownloading.
+
+Use Python 3.11 and requirements.txt. REQUIREMENTS_ACTUAL.txt is a metadata snapshot of the exercised environment, not a request to install the agent itself. Set TMPDIR, TEMP and TMP explicitly to an authorized scratch directory, PYTHONDONTWRITEBYTECODE=1, OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=1. On Windows use native forward-slash paths. Run from PRIVATE_RUN:
+
+    python -B -m unittest discover -s code -p "test_*.py" -v
+    python -B -O -m unittest discover -s code -p "test_*.py" -v
+    python -B code/audit_auction_prices.py --input EEX_FULL_DATA --out private_auction_base_reviewed
+    python -B code/run_official_reported_price.py --private-root PRIVATE_FULL24 --auction-prices private_auction_base_reviewed/auction_prices_local.csv --mapping INPUT_MAPPING.json --out real_results
+    python -B code/verify_actual_results.py PRIVATE_RUN PRIVATE_FULL24
+
+Replace the capitalized placeholders with real paths. Choose new output directories; do not overwrite prior results. The verifier re-estimates the same four fixed extended models only, using an independent numerical implementation; it does not rerun bootstrap or search specifications. In the delivered execution there were 1034 estimation calls plus four verification fits. Output under results/ in this public package is the delivered run; a new run writes under real_results/ and must have its own actual timestamps. The copied historical prefit lock is evidence for this run's original specification, not a new preregistration.
+
+Expected checks for this delivered execution: 26 distinct artificial tests passed in each mode; 240/203/236 rows match the fixed sets; primary 21 clusters; all 999 bootstrap draws valid; 21 quarter deletions and six year deletions; four independently checked coefficients and CR1 standard errors; 55 private frozen objects unchanged. Raw rows and official PDFs are not published. The full Word manuscript has not been updated by these commands.
+
+Limitations: static path checks and content checks do not constitute a complete directory-object/TOCTOU sandbox. IDE type diagnostics were not a certified project-wide type-check gate; actual imports and tests used the specified isolated Python environment. Do not claim this package passed a full IDE/type audit or authenticated source-license, native-clock, causal or journal-acceptance gates.

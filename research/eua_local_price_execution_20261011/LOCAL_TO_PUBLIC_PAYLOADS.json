@@ -1,0 +1,132 @@
+{
+  "recorded_after_copy": "2026-10-11T17:14:46.920374+08:00",
+  "selection": "No raw rows, raw PDFs or private paths",
+  "files": [
+    {
+      "published_path": "code/run_official_reported_price.py",
+      "bytes": 19563,
+      "sha256": "17b858762ac9c4b3e3a83da7506bddcd29c42846e53fd11149875b034e208581",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "code/audit_auction_prices.py",
+      "bytes": 12279,
+      "sha256": "7e2db073c45c2b12153814a25d6f89005850a955f245d2b7a6f0c74da71fbf48",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "code/test_reported_price.py",
+      "bytes": 4539,
+      "sha256": "f4d7e23b7e7587ddd16c73dd8b4b1f2e3360fe094d25382618194dc01d7ac25d",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "code/test_bridge.py",
+      "bytes": 5393,
+      "sha256": "dafaa2dd11411e3fc65fa8ec9c944052cf2fe3066dd1677437aedce401b394f2",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "code/verify_actual_results.py",
+      "bytes": 5323,
+      "sha256": "67c374106f253ca691088506a337d8a511fa864ff7e5bbef62af80caba604c2c",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "INPUT_MAPPING.json",
+      "bytes": 1632,
+      "sha256": "1d86c9e13860393428a47c7445fe40b0e09fe9c588f3cd53c50d373a8863b20c",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "PROTOCOL_LOCK_BEFORE_FIT.md",
+      "bytes": 6403,
+      "sha256": "0cdeba8e6a984feafe7336274e6f61f5d5bc423d03eab8c5d628f0198daf64de",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "PREFIT_LOCK.json",
+      "bytes": 1485,
+      "sha256": "e2981d86dc326ce6a74b227dace550fb3ba145326f28d236ae007693f86140ff",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "PREFIT_LOCK_FINAL.json",
+      "bytes": 1683,
+      "sha256": "a834bd0cc50149fb3d75a1fcdb470f00540784fd1340f1ad425a733880ce5075",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "INDEPENDENT_REVIEW_RESOLUTION.json",
+      "bytes": 1001,
+      "sha256": "8c5b36a7dd08019a18197bf95ac830bf4d5ef7ac45ea57d617bee26f589b16ed",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "NUMERICAL_VERIFICATION.json",
+      "bytes": 1745,
+      "sha256": "1766c8976c8ba757c07e68f8a282c4b3b043048eef6a2ee2aac76d6e2624451f",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "REFERENCE_ACCESS_LIMITS.json",
+      "bytes": 651,
+      "sha256": "9a2d449e9640caac62c01ddeb7ce89dcfe3353f433904760de46c8a8b5917839",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "REQUIREMENTS_ACTUAL.txt",
+      "bytes": 167,
+      "sha256": "5e80cccf6a882b0e8cb9d77d48571f4ab6ce8d710666d369779154d7da7b53bb",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "tests/REVIEW_TEST_NORMAL.log",
+      "bytes": 2815,
+      "sha256": "0cb042a4a093d72b5feaf2386cfc6d375a255c3f18a956652c89f79b3c6c11cd",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "tests/REVIEW_TEST_OPTIMIZED.log",
+      "bytes": 2815,
+      "sha256": "dde4aeb45072a0cb9f632188c6b50a421121e602388def238fe19dedca3fdfc0",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "results/RESULTS.json",
+      "bytes": 16957,
+      "sha256": "f5c176d25d0cf06c61d7d2d0b40839a7c99532a6cd145cb6bafd18623a1cdbe9",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "results/EXECUTION_STATUS.json",
+      "bytes": 264,
+      "sha256": "589a051c6e6e4834037186433de224f2b5509217d95849a0ba9d898019d5618b",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "results/INPUT_GATE.json",
+      "bytes": 5917,
+      "sha256": "2b8fbd7ea71a4ff7e1cabe725d9bc1c7b4b8a98e49a22a6cf15553534b1b49f0",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "results/PRIMARY_WCR_DRAWS.csv",
+      "bytes": 24450,
+      "sha256": "263bf70ef48a233850b43242024b9d3a2db065368ae4ba272ac25ae1538ea132",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "results/PRIMARY_WCR_SIGNS.json",
+      "bytes": 75556,
+      "sha256": "d6a754855af0c1500cbff6db939ea1f793e42860be75fecd2bd480b1afd48be6",
+      "exact_local_payload": true
+    },
+    {
+      "published_path": "ORIGINAL_AUCTION_REAUDIT.json",
+      "bytes": 1520,
+      "sha256": "2c22f7426477d9f0ea6f236c63b521bb5be7851aa69ab3b84a38b829c502c6d5",
+      "exact_local_payload": true
+    }
+  ]
+}

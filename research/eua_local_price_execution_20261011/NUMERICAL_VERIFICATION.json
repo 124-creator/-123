@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "recorded_after_actual_verification": "2026-10-11T17:10:36.998440+08:00",
+  "independent_verification_regressions": 4,
+  "no_additional_research_specification": true,
+  "bootstrap_reruns": 0,
+  "fixed_models": [
+    {
+      "specification": "primary_signed_240",
+      "n": 240,
+      "independent_beta": -78.7195048925599,
+      "beta_abs_difference": 1.1368683772161603e-13,
+      "CR1_SE_abs_difference": 1.3393730569077889e-12,
+      "partial_R2_difference": 2.7755575615628914e-17
+    },
+    {
+      "specification": "S1_absolute_240",
+      "n": 240,
+      "independent_beta": 41.35149422941785,
+      "beta_abs_difference": 7.105427357601002e-15,
+      "CR1_SE_abs_difference": 1.3500311979441904e-13,
+      "partial_R2_difference": 7.632783294297951e-17
+    },
+    {
+      "specification": "S2_no_flags_203",
+      "n": 203,
+      "independent_beta": -81.45829605055306,
+      "beta_abs_difference": 1.2789769243681803e-13,
+      "CR1_SE_abs_difference": 1.9895196601282805e-13,
+      "partial_R2_difference": 2.498001805406602e-16
+    },
+    {
+      "specification": "S3_best_bid_236",
+      "n": 236,
+      "independent_beta": -83.62450645172984,
+      "beta_abs_difference": 8.526512829121202e-14,
+      "CR1_SE_abs_difference": 1.936228954946273e-12,
+      "partial_R2_difference": 2.220446049250313e-16
+    }
+  ],
+  "bootstrap_draw_count": 999,
+  "exceedance_count": 4,
+  "quarter_delete_estimates": 21,
+  "year_delete_estimates": 6,
+  "frozen_objects_unchanged": 55,
+  "prefit_lock_precedes_run": true,
+  "original_estimation_requests": 1034,
+  "scope": "Independent statsmodels estimators, manually constructed design from original-derived inputs; not a second source authentication or causal certificate"
+}

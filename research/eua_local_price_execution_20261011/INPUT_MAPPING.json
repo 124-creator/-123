@@ -1,0 +1,36 @@
+{
+  "status": "Actual frozen CSV headers inspected on local computer; checked before first fit",
+  "fields": {
+    "date": "auction_date",
+    "auction_price": "auction_price_eur_tCO2",
+    "deviation_percent": "reported_deviation_percent_signed",
+    "reference_type": "reference_event_type"
+  },
+  "quantity_fields": {
+    "V": "auction_volume_tCO2",
+    "B": "bid_volume_tCO2",
+    "N": "total_bidders",
+    "S": "successful_bidders",
+    "mu_B": "reported_mean_bid_volume",
+    "sd_B": "reported_SD_bid_volume",
+    "mu_W": "reported_mean_won_volume",
+    "sd_W": "reported_SD_won_volume"
+  },
+  "trace_columns": [
+    "source_report_id",
+    "source_pdf_sha256",
+    "source_pdf_relative_path",
+    "source_pdf_page_1based",
+    "source_line_literal"
+  ],
+  "reference_type_values": {
+    "last_best_bid": "last_best_bid",
+    "last_trade": "last_trade"
+  },
+  "date_format": "%Y-%m-%d",
+  "decimal_separator": ".",
+  "percentage_encoding": "numeric_percentage_points",
+  "definition_evidence": "Frozen CSV fields retain literal source lines and page references; reported signed percentage points multiplied by 100 to bp. Preserve signed EUR separately. Reference labels and source limitations per full24 PARENT_ACCEPTANCE. No midpoint/native quote reconstruction or independent event timestamp certification.",
+  "reported_sign_interpretation": "Higher official-reported signed deviation only; no newly authenticated premium/discount definition",
+  "cover_ratio_source": "R from freshly audited original EEX workbooks, not a nonexistent column in the four price CSVs; compare B as the eighth cross-source quantity instead."
+}

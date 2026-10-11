@@ -1,0 +1,16 @@
+{
+  "completed_before_price_fits": "2026-10-11T17:08:56.164788+08:00",
+  "reviewed_upstream": "955f694ccc76396e5af90166da8a921cd210a104",
+  "core_math_static_review": "No error identified; not a coverage or causal certificate",
+  "handled": [
+    "quarter CV3J and six year deletions with observed FE rebuilding",
+    "same verified byte buffers for original workbook/CSV and mapping parsing",
+    "complete parser input manifest coverage and duplicate rejection",
+    "all candidate quantities and identity checked directly against XLSX cells",
+    "all thirteen OLD headers confirmed on all six original workbooks",
+    "incomplete WCR no longer successful exit"
+  ],
+  "sign_population_unknown": "Retained explicitly; no premium/discount or within-population CV claim",
+  "real_market_fits_before_review_completion": 0,
+  "scope_limit": "Static path/content checks are not a full TOCTOU sandbox guarantee; external source body claims from the reviewer are not newly authenticated by the parent."
+}

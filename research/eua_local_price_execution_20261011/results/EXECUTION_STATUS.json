@@ -1,0 +1,8 @@
+{
+  "recorded_utc": "2026-10-11T09:09:16.147532+00:00",
+  "real_price_model_fits": 1034,
+  "scope": "official-reported German EUA subset, not native ticks",
+  "estimates": "RESULTS.json",
+  "status": "COMPLETED_EXPLORATORY",
+  "seconds": 1.062000000005355
+}

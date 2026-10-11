@@ -1,0 +1,12 @@
+请继续论文修订，不再把价格实验写成尚未运行，也不要重新选主问题或为了显著性增加模型。
+
+仓库124-creator/-123，分支eex-market-data-acquisition-20261011。本轮结果入口：research/eua_local_price_execution_20261011/START_HERE_ZH.txt。
+请实际读取PROTOCOL_LOCK_BEFORE_FIT.md、PREFIT_LOCK_FINAL.json、INPUT_MAPPING.json、PRICE_RESULT_TABLE.csv、results/RESULTS.json、NUMERICAL_VERIFICATION.json及PRICE_RESULTS_FOR_MANUSCRIPT_EN.md，再判断与整合。结果已在团队本机用真实240场行值执行，四个固定扩展模型另经独立数值核对。公开汇总不是可独立重估的原始数据；你若没有逐行文件，只能称审阅本机已验证结果，不能声称在你的环境重跑。
+
+论文基础：commit955f694ccc76396e5af90166da8a921cd210a104，paper/eex_reported_price_v8_2_20261011/。首先读正文、补充材料及可复现说明；旧v8继续冻结。用户贴的另一个sandbox ZIP未交付到本机，这里不宣称与其逐字节相同。
+
+主结果是投标数量报告分散比值与有符号偏差的条件关联，不是获配SD主问题。三个敏感性、季度jackknife和逐年删除全部披露。绝对偏差95%区间包含零，不能说价格更接近参照或效率提升；删除2022影响量级，不宣称跨年稳定。保留官方报告精度、21季度推断、同期内生控制、SD群体/ddof未知、参照非midpoint和无原生事件时钟等限制。2026新增22场仅已取得，本轮未使用。
+
+请产出独立新版本正文/补充材料，实际加入价格方法、完整结果表、稳健性及限制；同步更新摘要、引言贡献、讨论和数据可得性陈述。不得以只润色讨论而仍保留“未估计”完成交付。报告真实修改位置及未能读取的文件，不虚构显著性或独立复现，也不承诺期刊录用。目标仍Empirical Economics、优先传统订阅非OA，不再索取学校认可材料。
+
+本轮不要求你重新下载数据。若必须独立复算，再私下传递既有LOCAL_ONLY_FULL24_QUARTERS_275_STRICT240.zip；不要求把原报告和逐行报价公开上传GitHub。

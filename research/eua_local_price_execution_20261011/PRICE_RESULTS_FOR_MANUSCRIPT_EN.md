@@ -1,0 +1,25 @@
+# Price extension: verified text for author integration
+
+Status: actual local first price fits completed on 11 October 2026. This file is a proposed insertion, not a claim that the complete v8.2 Word manuscript has been revised or visually checked again. Results derive from results/RESULTS.json and are independently checked in NUMERICAL_VERIFICATION.json.
+
+## Methods
+
+We examine whether the published bid-quantity dispersion ratio is conditionally associated with official-reported signed auction-price deviations. The primary sample comprises 240 successful German EUA auctions in 21 report quarters during 2020–2025. The response retains the sign of the official percentage deviation and is expressed in basis points. The focal regressor is log(1 + reported bid-quantity standard deviation / reported bid-quantity mean). Its construction does not establish a within-population coefficient of variation or a measure of firm concentration. Baseline controls are log auction volume, log total and successful bidder counts, log reported demand coverage, the maximum-minus-minimum submitted bid price in euros, log auction price, year fixed effects and a last-trade reference indicator. The extended model adds only the focal regressor on the same observations. This is a contemporaneous conditional association, not causal identification or an out-of-sample forecasting exercise.
+
+Quarter-clustered CR1 covariance estimates are paired with t(G−1) intervals. The primary coefficient is also assessed using one null-imposed wild-cluster t test with 999 quarter-level Rademacher draws and a fixed seed; all draws completed. A mean-centred delete-quarter jackknife (CV3J) and six fixed leave-one-year-out point estimates provide additional diagnostics. The protocol was fixed before the first new price fit but after the data had been inspected; it is not a preregistration. Cross-quarter independence and the calibration of small-cluster inference remain assumptions rather than established properties of the data.
+
+## Results
+
+The primary coefficient is -78.72 basis points per unit of the transformed dispersion measure (quarter-clustered 95% interval [-124.80, -32.64]). A difference equal to the observed interquartile range of the focal regressor corresponds to a fitted signed-deviation difference of -14.51 basis points (95% interval [-23.00, -6.01]), holding the included controls fixed. The null-imposed wild-cluster test gives p = 0.005; the delete-quarter jackknife interval for the coefficient is [-136.54, -20.90]. The incremental partial R-squared is 0.0681. This in-sample statistic does not establish forecasting value.
+
+The signed association remains negative in the predefined no-row-flag sample (203 observations; coefficient -81.46, interval [-138.39, -24.53]) and the best-bid-only sample (236 observations; coefficient -83.62, interval [-129.71, -37.54]). In contrast, the absolute-deviation specification gives 41.35, with interval [-13.58, 96.29], which includes zero. The evidence therefore concerns the direction of reported deviations and does not establish that dispersion reduces their absolute magnitude.
+
+All six leave-year-out point estimates are negative, ranging from -88.23 to -45.12. Omitting 2022 attenuates the estimate to -45.12; these diagnostics do not prove that the association is stable across years. The largest quarter share of focal partial leverage is 0.0910, with an information-concentration equivalent of 16.33 quarters. The latter is a design diagnostic, not a replacement for the actual count of 21 quarters.
+
+## Interpretation and limits
+
+These estimates supply a price-related conditional association beyond the specified conventional auction controls, addressing the earlier missing statistical extension. They do not validate a trading strategy, procurement saving, causal mechanism, efficient-price measure or auction-efficiency claim. The response is an already rounded official-reported deviation; best-bid and last-trade references are not midpoints, and the native quote time and age remain unauthenticated. The sign must be described as the reported sign unless the economic premium/discount convention is separately documented. Four last-trade observations do not support a precise standalone interpretation of reference-type effects. Thirty-five source-flagged observations remain excluded; 22 additional 2026 H1 observations were kept separate and were not used for further specification search.
+
+## Placement in v8.2
+
+Replace statements that no new price regression has been run with this completed local-analysis status, while retaining the distinction between local computation and public row-level data availability. Integrate the price extension as a separate matched German subsample, not as if all 1281 auctions in the earlier quantity analysis had price references. Keep the old quantity estimates and frozen v8 unchanged. Do not describe all robustness outcomes as significant, and report the absolute-deviation result and 2022 influence alongside the main signed result. No new novelty or journal-acceptance claim is certified by these computations.

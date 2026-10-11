@@ -1,0 +1,48 @@
+{
+  "recorded_before_any_real_price_fit": "2026-10-11T17:05:02.226902+08:00",
+  "real_price_fits_at_recording": 0,
+  "source_commit": "955f694ccc76396e5af90166da8a921cd210a104",
+  "protocol": {
+    "path": "PROTOCOL_LOCK_BEFORE_FIT.md",
+    "sha256": "0cdeba8e6a984feafe7336274e6f61f5d5bc423d03eab8c5d628f0198daf64de"
+  },
+  "files": [
+    {
+      "path": "code/run_official_reported_price.py",
+      "bytes": 19370,
+      "sha256": "ef39aa76f20e79e333b1304165c179c68c34b178cac1d70db72387cfba89b653"
+    },
+    {
+      "path": "code/test_bridge.py",
+      "bytes": 3773,
+      "sha256": "0ee38855d38356cc5da8446818df10d9ee0dfbc3013b1addcc614c9f5b050c17"
+    },
+    {
+      "path": "code/test_reported_price.py",
+      "bytes": 4539,
+      "sha256": "f4d7e23b7e7587ddd16c73dd8b4b1f2e3360fe094d25382618194dc01d7ac25d"
+    },
+    {
+      "path": "code/audit_auction_prices.py",
+      "bytes": 9888,
+      "sha256": "0dfe66f909c0f9373d849dec2f13a3cabaa0321448e4f1a8af0edf087a866993"
+    },
+    {
+      "path": "INPUT_MAPPING.json",
+      "bytes": 1632,
+      "sha256": "1d86c9e13860393428a47c7445fe40b0e09fe9c588f3cd53c50d373a8863b20c"
+    },
+    {
+      "path": "REQUIREMENTS_ACTUAL.txt",
+      "bytes": 167,
+      "sha256": "5e80cccf6a882b0e8cb9d77d48571f4ab6ce8d710666d369779154d7da7b53bb"
+    }
+  ],
+  "expected_fits": 1034,
+  "max_fits": 1100,
+  "wall_seconds": 900,
+  "year_delete_count": 6,
+  "quarter_delete_count": 21,
+  "main_bootstrap_draws": 999,
+  "not_preregistered": true
+}
