@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Seven public metadata/acceptance/scope records, plus this manifest. No PDFs/native workbooks or115/102/13row quote panels in this public package.",
+  "scope": "Twelve self-authored current andhistorical metadata/acceptance/scope records,plus thismanifest;275/240/35/203rowsand30sourceoriginalsarelocalonly.CurrentauthorityFULL24*.",
   "files": [
     {
       "path": "ACCESS_CLAIM_CORRECTION.json",
@@ -18,9 +18,34 @@
       "sha256": "186cddf3e753a1d99704a92eb6cfe5ee9e7cc5303733ab71fe0c329efc1c5c2c"
     },
     {
+      "path": "FULL24_DELIVERY_VERIFICATION.json",
+      "bytes": 1766,
+      "sha256": "11c29cfedf1aa11a868d08b5772a9a15183d0f6193adec0644e3de39fa971a18"
+    },
+    {
+      "path": "FULL24_EXPLORATORY_PROTOCOL.json",
+      "bytes": 2830,
+      "sha256": "107525c169e6f7fd9fbc4de2bdfc58e1a7683e98db5af19a8f360339ad8619d7"
+    },
+    {
+      "path": "FULL24_PARENT_ACCEPTANCE.json",
+      "bytes": 2209,
+      "sha256": "99cd2996457aadbd99437fca4d11b8d9fce43755f1180e4ae2a363a1ec7d2b1d"
+    },
+    {
+      "path": "FULL24_SOURCE_INDEX.json",
+      "bytes": 18437,
+      "sha256": "bc80205ef9098cedb77a56af0b1ee68e480e94af0c0e53184e2b4bd6da126ab4"
+    },
+    {
       "path": "NATIVE_ACCESS_LIMITS.json",
       "bytes": 1497,
       "sha256": "4b55194b5b6e98b9e48be387698cde28b2757f1d165e164ee9dea393fceda25e"
+    },
+    {
+      "path": "PARENT_SEARCH_ATTRIBUTION_CORRECTION.json",
+      "bytes": 619,
+      "sha256": "884dd568d0c55613b20d22de7243a0d83cf7418726e0a52f1e8c421c25d2b761"
     },
     {
       "path": "PILOT_MATCH_ACCEPTANCE.json",
@@ -34,8 +59,8 @@
     },
     {
       "path": "START_HERE_ZH.txt",
-      "bytes": 2551,
-      "sha256": "3859fad9e3434d1f325b0347b454b24977b57471493372d5cbf460f135b2a935"
+      "bytes": 5391,
+      "sha256": "985d9b95d98a7fd54a7414b83e9a93a082ee1a9a35a298d3525abc854ae5cece"
     }
   ]
 }

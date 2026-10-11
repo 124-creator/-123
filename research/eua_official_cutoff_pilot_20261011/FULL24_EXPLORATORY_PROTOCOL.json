@@ -1,0 +1,48 @@
+{
+  "recorded_after_data_seen_but_before_any_new_price_model_fit": "2026-10-11T14:51:51.773916+08:00",
+  "status": "exploratory_post_data_protocol_fixed_not_preregistered_and_not_yet_fitted",
+  "data_sha256": "7e12f25db5bb97f3b0152f264519803569edcee9914da548ff156ee7e058f4c1",
+  "scope": "Germany EUA official-reported price-gap association, supplemental to frozen auction-statistic manuscript;not causal pricing efficiency/procurement saving/forecasting",
+  "primary_rows": 240,
+  "primary_source_quarters": 21,
+  "primary_outcome": "absolute reported_deviation_percent_signed;percentage points, including printed0.00 values without treating them as no trade",
+  "primary_statistic": "coefficient on log(reported_SD_won_volume) conditional on log(reported_SD_bid_volume),auction volume,total and successful bidder counts,year effects andlast-trade indicator",
+  "actual_candidate_design_columns": [
+    "intercept",
+    "log_reported_SD_won",
+    "log_reported_SD_bid",
+    "log_auction_volume",
+    "log_total_bidders",
+    "log_successful_bidders",
+    "year_2021",
+    "year_2022",
+    "year_2023",
+    "year_2024",
+    "year_2025",
+    "reference_last_trade"
+  ],
+  "actual_design_rows": 240,
+  "actual_design_columns": 12,
+  "actual_full_column_rank": 12,
+  "actual_unscaled_design_condition_number": 1951.16521301648,
+  "no_estimator_run_in_design_check": true,
+  "not_internal_CV_or_firm_concentration": "Only reported field SDs are used;unverified populations/ddof not silently authenticated",
+  "fixed_sensitivities": [
+    "same design using signed reported percentage gap",
+    "same absolute-percentage model on203no-row-source-flag observations",
+    "same absolute-percentage model using236bestbid observations, omit constant lasttrade indicator"
+  ],
+  "uncertainty_proposed_before_fit": "Quarter-clustered uncertainty;small21cluster limitation disclosed;onefixed999-draw wildbootstrap onprimarycomparison if actualvalidated statisticalimplementation available",
+  "runtime_budget_next_phase_max": "15minutes;1primary and3fixedsensitivityfits;one999drawuncertaintycheck;nohyperparametersearch,deepmodels,significance-chasingornewdatafetchloop",
+  "stop_conditions": [
+    "Missing/invalid source identity ornumeric field:failclosed, nozeroimputation",
+    "Unidentified target coefficient ordegenerate outcomes:stop,do not invent fit",
+    "Unvalidated statistical dependency/formula:report blocker,do not fabricate CI",
+    "Weak ornull association:report it,do not search more models to rescue significance"
+  ],
+  "native_tick_gate_remains_open": true,
+  "official_reported_comparison_layer_calendar_gap_closed": true,
+  "old_model_outputs_and_frozen_v8_not_used_as_fit_inputs": true,
+  "no_test_holdout_or_real_time_claim": true,
+  "dataset_count_does_not_establish_CAS_rank_or_publication_acceptance": true
+}

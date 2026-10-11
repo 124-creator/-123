@@ -1,0 +1,71 @@
+{
+  "recorded_after_actual_source_reparse_match_and_complete_calendar": "2026-10-11T14:38:57.426267+08:00",
+  "layer": "official_reported_auction_cutoff_deviation_not_native_ticks",
+  "scope": "successful Germany EUA auctions2020–2025;not allEuropeanauctions",
+  "all_rows": 275,
+  "all_event_quarters": 24,
+  "all_successful_original_EEX_DE_EUA_dates_equal": true,
+  "all_price_exact_matches": 275,
+  "strict_rows": 240,
+  "strict_event_quarters": 21,
+  "excluded_rows": 35,
+  "no_row_source_flags_strict_rows": 203,
+  "all_year_counts": {
+    "2020": 46,
+    "2021": 45,
+    "2022": 46,
+    "2023": 47,
+    "2024": 46,
+    "2025": 45
+  },
+  "strict_year_counts": {
+    "2020": 46,
+    "2021": 45,
+    "2022": 35,
+    "2023": 36,
+    "2024": 34,
+    "2025": 44
+  },
+  "strict_event_types": {
+    "last_best_bid": 236,
+    "last_trade": 4
+  },
+  "unmapped_reference_rows": 22,
+  "official_date_conflict_strict_exclusion_rows": 1,
+  "source_mean_disagreements_preserved": true,
+  "source_time_or_CET_not_converted_to_UTC": true,
+  "native_tick_count": 0,
+  "old_models_or_frozen_estimators_run": 0,
+  "new_fits_run_at_this_data_acceptance_time": 0,
+  "frozen_v8_and_initial36_and115phases_unchanged": true,
+  "derivatives": [
+    {
+      "path": "data/official_reported_cutoff_all275.csv",
+      "rows": 275,
+      "bytes": 181495,
+      "sha256": "b168de79301d99003e95d62779bd75d02a97a34d1b876034f3f26bf23273abed"
+    },
+    {
+      "path": "data/official_reported_cutoff_strict240.csv",
+      "rows": 240,
+      "bytes": 154561,
+      "sha256": "7e12f25db5bb97f3b0152f264519803569edcee9914da548ff156ee7e058f4c1"
+    },
+    {
+      "path": "data/official_reported_cutoff_excluded35.csv",
+      "rows": 35,
+      "bytes": 27740,
+      "sha256": "7e332bb5be5f1cb1ebb9b83def7d9c2dabc0e846d81de698930de1751e7dbecb"
+    },
+    {
+      "path": "data/official_reported_cutoff_noflags.csv",
+      "rows": 203,
+      "bytes": 130034,
+      "sha256": "7441f31c72b220adb6fc2374d0205f510955023f9f3cb405e6660478a59c6086"
+    }
+  ],
+  "workbook_exact_string_readback_all4sheets_passed": true,
+  "original_report_count": 24,
+  "original_EEX_workbook_count": 6,
+  "public_raw_redistribution_permission_not_claimed": true
+}

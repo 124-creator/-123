@@ -1,0 +1,52 @@
+{
+  "recorded_after_actual_cold_verifier_and_everyZIPmember_readback": "2026-10-11T14:52:55.972223+08:00",
+  "working_manifest_files": 55,
+  "cold_normal_and_optimized_runs": [
+    {
+      "optimized": false,
+      "actual_stdout": {
+        "passed": true,
+        "manifest_files_checked": 55,
+        "official_quarters": 24,
+        "all_rows": 275,
+        "strict_rows": 240,
+        "excluded_rows": 35,
+        "no_source_flag_rows": 203,
+        "exact_original_prices_and_quantity_rows": 275,
+        "native_tick_count": 0,
+        "new_model_fits": 0,
+        "not_a_TOCTOU_or_full_source_price_tick_authentication_test": true
+      },
+      "actual_exit_code": 0
+    },
+    {
+      "optimized": true,
+      "actual_stdout": {
+        "passed": true,
+        "manifest_files_checked": 55,
+        "official_quarters": 24,
+        "all_rows": 275,
+        "strict_rows": 240,
+        "excluded_rows": 35,
+        "no_source_flag_rows": 203,
+        "exact_original_prices_and_quantity_rows": 275,
+        "native_tick_count": 0,
+        "new_model_fits": 0,
+        "not_a_TOCTOU_or_full_source_price_tick_authentication_test": true
+      },
+      "actual_exit_code": 0
+    }
+  ],
+  "archive": {
+    "path": "E:/碳价格/独立数据归档/EUA/official_cutoff_reference_20261011/LOCAL_ONLY_FULL24_QUARTERS_275_STRICT240.zip",
+    "members": 56,
+    "bytes": 14978101,
+    "sha256": "d9cfa6d40a77ed17a390385001d12b9e000369d3a1d438c76a2969f0a732b48f",
+    "all_member_CRC_and_exact_object_bytes_checked": true
+  },
+  "workbook4sheets_exact_strings_readback_passed": true,
+  "public_bulk_republication_not_authorized": true,
+  "actual_new_model_fits": 0,
+  "no_native_tick_or_raw_clock_certification": true,
+  "initial115and36snapshots_not_changed": true
+}
