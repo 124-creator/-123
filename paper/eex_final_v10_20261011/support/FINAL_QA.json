@@ -1,0 +1,72 @@
+{
+  "scope": "Editorial build, not statistical refit",
+  "date": "2026-10-11",
+  "source_sha256": {
+    "MANUSCRIPT_EN_v9.docx": "ce6b68f22d88454d35a534a99b0b1561d0207a550dc31666f0f37e00c424e789",
+    "ONLINE_RESOURCE_1_v9.docx": "7e6de1b5e9045d3f0343c323f6e34ffb7209d0dc8fd9d9e64fcff22598a82830",
+    "TITLE_PAGE_v9.docx": "97a79285d4f88287f5e04e2fa88442e15372b1e89b9b88ef146e26b7561a0527"
+  },
+  "original_math_objects_main": 52,
+  "math_objects_main": 52,
+  "math_text_preserved": true,
+  "original_numerical_tables_all_cells_preserved": true,
+  "SI_math_objects": 58,
+  "SI_math_text_preserved": true,
+  "main_figures": 3,
+  "SI_figures": 1,
+  "main_physical_tables": 10,
+  "SI_physical_tables": 16,
+  "main_numbered_tables": 7,
+  "SI_numbered_tables": 14,
+  "abstract_words": 200,
+  "main_paragraph_words_including_references": 8900,
+  "main_v9_paragraph_words_including_references": 7097,
+  "SI_paragraph_words": 4347,
+  "new_market_fits": 0,
+  "new_resampling_fits": 0,
+  "new_private_row_statistics": 0,
+  "visual_review": "Every final local page inspected; final small edits rerendered and changed pages re-inspected; unchanged pages compared by PNG bytes.",
+  "nonfinancial_interests_not_inferred": true,
+  "data_redistribution_permission_not_inferred": true,
+  "native_Word_WPS_test": false,
+  "main_pages": 21,
+  "SI_pages": 14,
+  "title_pages": 1,
+  "main_sections_1_to_8_prose_words": 7134,
+  "v9_sections_1_to_6_prose_words": 6172,
+  "final_text_checks": [
+    {
+      "document": "main",
+      "no_placeholders_or_stale_review_labels": true
+    },
+    {
+      "document": "SI",
+      "no_placeholders_or_stale_review_labels": true
+    },
+    {
+      "document": "title",
+      "no_placeholders_or_stale_review_labels": true
+    }
+  ],
+  "old_numerical_table_cells_preserved": true,
+  "manuscript_word_count_scope": "Sections 1–8 prose, includes headings and inline mathematical symbols; excludes table cells, captions, notes, displayed equations, abstract and references.",
+  "price_display_ledger_entries": 156,
+  "price_figure_frozen_value_entries": 12,
+  "formatted_source_table_number_protected": "DEHSt source Table 4 is not renumbered when main Tables 3–7 change.",
+  "frozen_evidence_hashes": {
+    "PRICE_DESCRIPTIVES.json": "b8c4bb212d49a42216fd93a8ff5b5f5f945740fbc7b39d21fa869887eafff923",
+    "FULL24_SOURCE_INDEX.json": "bc80205ef9098cedb77a56af0b1ee68e480e94af0c0e53184e2b4bd6da126ab4",
+    "PRICE_RESULTS.json": "f5c176d25d0cf06c61d7d2d0b40839a7c99532a6cd145cb6bafd18623a1cdbe9",
+    "SOURCE_DEFINITION_CHECK.json": "db38067e26e05e242623d695de2352d9dea65bd7249925589fb8d5500bbec3b5"
+  },
+  "document_hashes": {
+    "ONLINE_RESOURCE_1_v10.docx": "228a9b79f4eb0a4b9ade28b11f09669cebf8847235346ea6671a9aeccabe02a4",
+    "TITLE_PAGE_v10.docx": "6f59fa31e102c896e12932ea5b0b3a737eb0c17e67e941930ee903627f221156",
+    "MANUSCRIPT_EN_v10.docx": "6338aa9c9ccc2102ef2b3ca21a126ad4a1f4c6edf494030ed3288a45542fe3ec"
+  },
+  "financial_interests": "No relevant financial interests; explicitly confirmed by user",
+  "nonfinancial_interests": "Not inferred from financial declaration; scope still needs author confirmation",
+  "coauthor_approval": "User explicitly reports Wang reviewed, checked, approved scientific content and delegated final editorial changes to Tian",
+  "all_submission_conditions_certified": false,
+  "github_pushed_at_this_local_check": false
+}

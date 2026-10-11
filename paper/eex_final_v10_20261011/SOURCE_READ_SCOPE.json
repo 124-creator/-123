@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-11",
+  "base_v9_commit": "35f6b780561907b4914e61e68b0962645ace8e71",
+  "audit_read": "EEX_V9_PRE_SUBMISSION_AUDIT_ZH.md full105lines",
+  "manuscript_read": "Complete v9 nativeDOCX paragraphs, tables and math; complete v10 local render pages",
+  "public_frozen_evidence": "PRICE_RESULTS/PRICE_DESCRIPTIVES/FULL24_SOURCE_INDEX/SOURCE_DEFINITION_CHECK loaded; no private raw rows",
+  "primary_online_sources": [
+    {
+      "url": "https://link.springer.com/journal/181/submission-guidelines",
+      "scope": "Current author/title/abstract/text/math/figures/SI/declarations/data-policy sections"
+    },
+    {
+      "url": "https://link.springer.com/journal/181/aims-and-scope",
+      "scope": "Scope and editorial screening"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00181-026-02925-2",
+      "scope": "Publisher HTML targeted indicator/attributes/price/interpretation passages; no author-result replication"
+    }
+  ],
+  "comparator_pdf": "No new successful byte or screenshot access in this pass; former39page/8section/2figure/7table inventory comes from the preceding audit, not a new visual measurement",
+  "market_fits": 0,
+  "raw_private_refit": false
+}

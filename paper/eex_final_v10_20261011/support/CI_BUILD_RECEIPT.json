@@ -1,0 +1,33 @@
+{
+  "scope": "Remote document build and exact member checks; no raw-data audit or market refit",
+  "source_commit": "c4f30b1c16bcf7ca014c2e764914b29ffa504beb",
+  "new_market_fits": 0,
+  "new_bootstrap_fits": 0,
+  "private_raw_data_included": false,
+  "docx": {
+    "MANUSCRIPT_EN_v10.docx": {
+      "internal_members": 21,
+      "sha256": "3b5b4da0ffc4791669b47f64b77e1c3670646672973f76524c27cb8b352200bb",
+      "every_internal_member_matches": true
+    },
+    "ONLINE_RESOURCE_1_v10.docx": {
+      "internal_members": 18,
+      "sha256": "6417f20d6756bb3794867f5091319dd461642bcd5aa9fbc160242edfdb807e46",
+      "every_internal_member_matches": true
+    },
+    "TITLE_PAGE_v10.docx": {
+      "internal_members": 17,
+      "sha256": "dfdcfc92a2d293ae4466524e05492799f270f138531600a591e83f4422db8427",
+      "every_internal_member_matches": true
+    }
+  },
+  "versions": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "python_docx": "1.2.0",
+    "lxml": "6.1.1"
+  },
+  "remote_pdf_visual_review": "Not yet performed; requires independent artifact readback",
+  "submission_ready": false
+}

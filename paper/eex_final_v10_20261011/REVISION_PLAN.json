@@ -1,0 +1,714 @@
+{
+  "version": "v10",
+  "date": "2026-10-11",
+  "base_commit": "35f6b780561907b4914e61e68b0962645ace8e71",
+  "scope": "Editorial restructuring and author-confirmed declarations only; no model/data changes",
+  "paragraphs": {
+    "abstract": "Public carbon-auction reports summarize bidding, allocations and prices, but marginal statistics do not establish whether quantity dispersion contains distinct information. We examine two conditional relationships using European Union Allowance auctions: bid–award dispersion in 1,281 successful auctions during 2020–2025, and reported price deviations in a matched sample of 240 German auctions. The quantity ratios have residual correlations near 0.65 after controlling for scale, participation and time effects. Their association is stronger in 2023–2025 despite lower marginal medians, and the period contrast remains positive after standardizing selected composition moments. In the German sample, greater bid dispersion is associated with a lower official-reported signed price deviation beyond demand coverage, bidder counts, submitted-price range, the same-auction clearing price and year effects. An observed interquartile range of transformed bid dispersion corresponds to a fitted difference of −14.51 basis points (exploratory quarter-clustered 95% interval: −23.00 to −6.01). Two predefined source subsets retain the negative direction. However, the absolute-deviation interval includes zero and omitting 2022 substantially attenuates the coefficient. The results distinguish shared quantity variation, the conditional location of reported price comparisons and distance from the reference. They establish report-level associations with historical and measurement limits, rather than causal allocation effects, improved pricing efficiency or forecasting value.",
+    "intro1": "Carbon auctions make the allocation of allowances observable through a set of public quantities, participation counts and prices. These reports contain more than a clearing price, yet the economic information in their different fields need not coincide. A count of participants describes the breadth of recorded participation; total submitted quantity describes aggregate demand; and a dispersion statistic describes variation in the reported quantities. Official reporting publishes these dimensions side by side, while the European Securities and Markets Authority (ESMA) separately monitors participation and concentration (European Commission 2024; ESMA 2025). The empirical question is whether reported quantity dispersion adds a distinct conditional description once scale and participation have been made explicit.",
+    "intro2": "This question has two parts. Awards originate in submitted bids, so a positive relationship between bid and award dispersion is plausible. Neither its strength nor its stability is determined by that observation. Separately, a quantity statistic may be related to a price comparison even if it is strongly related to another quantity statistic. We therefore study, first, the conditional association between the reported dispersion of bids and awards and, second, whether reported bid dispersion is associated with official price deviations beyond conventional auction characteristics. The second analysis extends the set of outcomes; it does not test whether awards mediate a bid-to-price mechanism.",
+    "intro3": "The analysis concerns European Union Allowances (EUAs). Its historical quantity sample comprises 1,281 successful auctions in the EU, DE and PL reporting series of the European Energy Exchange (EEX), covering 2020–2025. These series belong to one allowance market. The matched price analysis uses 240 German auctions in 21 quarters for which the official reported comparison passes fixed source restrictions. Thus the price observations are a subset of the historical archive, not an additional independent sample of 240 auctions. A separate 2026 quantity sample is used only to examine the temporal scope of the original quantity relationship.",
+    "intro4": "The price specification distinguishes dispersion of quantities from the range of submitted bid prices. This distinction is important because existing auction-price research already considers participation, demand coverage and submitted-price variation (Bosco 2023). Our baseline retains these dimensions, adds the same-auction clearing-price level and year effects, and compares an extension containing the bid-dispersion ratio on exactly the same observations. The comparison asks about incremental conditional association in completed auction reports. It is not an exercise in forecasting an auction before bids arrive, and it does not treat the included characteristics as exogenous determinants.",
+    "intro5": "Two principal findings emerge. The quantity ratios have residual correlations close to 0.65 under both transformations. In the German price sample, an interquartile range of transformed bid dispersion corresponds to a fitted signed-deviation difference of −14.51 basis points. The price result is not equivalent to closer alignment with the reference: the absolute-deviation interval includes zero, and its point estimate is positive. The signed coefficient also becomes materially smaller when 2022 is omitted. We report these qualifications alongside the main estimate rather than treat every sensitivity calculation as evidence of universal stability.",
+    "intro6": "The historical quantity evidence adds a further distinction. The later period has lower marginal dispersion ratios but a stronger conditional relationship between bids and awards. The period contrast remains positive after balancing selected observed composition moments, although the auction-volume distributions remain unequal. The contribution is therefore a measurement-explicit characterization of quantity and price information in the reports, with a clear separation between levels, co-variation and signed price location. It extends beyond documenting a positive bid–award correlation, but does not introduce a new estimator, authenticate bidder-level concentration or establish an operational benefit.",
+    "intro7": "The study is retrospective. The historical archive and earlier findings were inspected before supplementary checks; the price specifications were fixed after source inspection and before the first price fit. All inferential statements retain that exploratory status. The article is organized around the economic questions rather than the order in which checks were conducted. Section 2 develops the institutional and measurement context. Section 3 describes the samples, and Section 4 defines the estimands. Section 5 presents the quantity and price findings together; Section 6 examines historical scope and sensitivity. Sections 7 and 8 discuss the information added and conclude. Online Resource 1 supplies implementation details and supplementary evidence.",
+    "econ1": "Auction size, participation and quantity dispersion are related but different objects. Even when aggregate submitted quantity and the number of participating bidders are fixed, that total can be distributed more or less unevenly across the reported observations. Consequently, a dispersion field is not determined by those two totals alone. This elementary distinction motivates conditioning on totals and counts rather than treating the reported dispersion ratio as a substitute for demand coverage. It does not identify the participants underlying each reported moment, an issue addressed explicitly in Section 3.",
+    "econ2": "Quantity and price dispersion must also be separated. The highest and lowest submitted prices describe the span of prices in the bid book, but do not state how much quantity is attached to different prices. Conversely, an auction-level quantity standard deviation does not locate bids relative to the clearing threshold. A relationship between quantity dispersion and a reported price comparison is therefore a testable empirical association, not an accounting identity. Aggregate moments are insufficient to recover the bid schedule, so the analysis cannot distinguish strategic demand reduction from heterogeneous demand, intermediation or common market conditions.",
+    "econ3": "The empirical design separates two questions that are sometimes conflated in interpreting price comparisons. A signed outcome concerns the location of the reported comparison, whereas its absolute value concerns distance from zero. A shift in the signed outcome could move an observation closer to or further from the reference, depending on its initial position. With both positive and negative observations present, a coefficient in a signed regression cannot establish improved alignment. We retain both outcomes, with the signed outcome designated as primary before the first price fit. This distinction is necessary for interpretation regardless of which estimate is statistically distinguishable from zero.",
+    "econ4": "The quantities also need not have a single historical relationship. Differences in auction composition, reporting conventions or unobserved demand conditions may change a cross-auction projection. A pooled coefficient consequently summarizes a selected archive, not a permanent allocation rule. The period, composition and new-time analyses examine different aspects of this scope. They are not instruments for one another and do not form a causal explanation of the price result. These are interpretive implications of the design, not directional hypotheses retrospectively presented as preregistered predictions.",
+    "lit_bridge": "The measurement literature offers a useful distinction between comparing indicators and relating them to another outcome. Hackl et al. (2026), for example, assess search-based product-differentiation measures using product attributes and price relationships, while retaining a non-causal interpretation. Our use of reported auction moments is narrower: it does not validate a new measure of a latent characteristic. The German price analysis instead asks whether an established report field has a conditional association with a different reported outcome, beyond the stated baseline.",
+    "report_selection": "Source eligibility is kept separate from statistical influence. The price exclusions concern unresolved report footnotes or a conflicting date, rather than the size or sign of a fitted residual. Nevertheless, a source-selected sample need not represent all German auctions, let alone the EU and PL series. The 203-observation and best-bid subsets are further restrictions of the same data. Their agreement is informative about those specified restrictions, but cannot establish equivalence of reference quality or replace observations excluded by the source contract. Online Resource 1, Section S12, records the restrictions by source quarter.",
+    "price_description": "Table 3 summarizes the price outcome on its reported scale. In the primary sample, the signed deviation has a mean of −2.80 and median of −7.00 basis points, with quartiles −29.00 and 17.25. There are 142 negative observations (59.17%), 92 positive observations (38.33%) and six reported zeros (2.50%). The absolute deviation has a mean of 33.51 and median of 25.00 basis points. These unconditional summaries provide a scale for reading the fitted contrasts; they are not estimates of the conditional relationship. The corresponding descriptions for the two source subsets appear in Online Resource 1, Table S11.",
+    "price_description_note": "Note: Both rows use 240 auctions in 21 quarters. Values are basis points on the official reported percentage scale. SD denotes the sample standard deviation with divisor n−1; quartiles use linear interpolation. Signed observations comprise 142 negative, 92 positive and six printed-zero values. A printed zero is not a no-trade state or proof of equality of unrounded prices. The absolute outcome is the modulus of the reported signed outcome, not a reinterpretation of an original column labelled Absolute.",
+    "scale_logic": "The signs and units are preserved rather than reconstructed. In particular, the analysis does not divide a reported euro difference by an inferred price to recover a formula that was not located in the examined source text. Signed percentage points are converted only to basis points. This transparent transformation keeps the analysis reproducible at publication precision while leaving the original sign convention as an interpretation boundary. The regression thus describes a lower official-reported signed deviation; it does not relabel that finding as a larger auction discount.",
+    "quantity_scope": "The primary quantity sample and the price subset serve different purposes. The former offers broad coverage across the three reporting series; the latter adds a distinct outcome at the cost of narrower geographic and source coverage. The separate January–September 2026 quantity exercise contains 166 auctions in nine months and is not merged with either historical sample. Its analysis re-estimates the relationship, including new year–month effects, rather than carrying a historical forecasting rule into the future. The 22 separately acquired German price observations from 2026 remain unused.",
+    "baseline_logic": "Each element of the price baseline addresses a distinct descriptive dimension: auction volume describes supply scale; bidder counts describe recorded participation and success; coverage describes submitted demand relative to supply; and the submitted-price range captures variation in offered prices. The clearing-price level and year effects condition on contemporaneous level and annual differences. None of these controls measures the full bid schedule or eliminates simultaneity. In particular, including the clearing price, a component of the underlying comparison, restricts the coefficient to association conditional on that price level; it cannot be read as the total response of the clearing price to dispersion.",
+    "inference_logic": "The price analysis uses quarters as its uncertainty clusters, not as 21 independent experimental replications. Cluster methods allow dependence within the chosen groups but still rely on an appropriate approximation across groups. We therefore retain the CR1-t interval, the restricted test and the delete-quarter calculation as separately labelled diagnostics. Their agreement cannot demonstrate that cross-quarter dependence is absent. No reported p-value accounts for all earlier choices in the research programme, and changing the order of presentation here does not change any analysis from exploratory to confirmatory.",
+    "core_result_intro": "We first present the two core associations on their own outcome scales. The quantity result concerns standardized co-variation between reports; the German result concerns basis points of an official signed price comparison. A common explanatory field links these questions, but the estimands are neither interchangeable nor successive stages of a demonstrated mechanism. Historical and composition checks follow in Section 6 so that the principal findings and their immediate limitations can be assessed before the larger set of sensitivity results.",
+    "price_table_caption": "Table 5 Bid dispersion and official-reported price deviations in German auctions",
+    "price_table_note": "Note: One primary and three secondary specifications are retained. Within each row, the baseline and extension use identical observations. κ is in basis points per unit of log(1 + reported bid ratio); n/G gives auctions/quarters. Each interquartile-range (IQR) contrast uses the observed x range in that row. Intervals use quarter-cluster CR1 covariance and t(G−1), not bootstrap quantiles. The partial R² is an in-sample measure. The absolute outcome concerns magnitude, unlike the primary signed outcome. Section 4.2 defines the model and inference; Table 3 supplies the unconditional price context.",
+    "price_main": "Adding bid dispersion to the fixed baseline gives κ = −78.72 basis points per unit of x (Table 5). The observed interquartile range of x is 0.1843, yielding a fitted signed-deviation difference of −14.51 basis points and a CR1-t interval of [−23.00, −6.01]. The restricted wild-cluster test gives p = 0.005; the mean-centred quarter-jackknife coefficient interval is [−136.54, −20.90]. These are differently constructed uncertainty summaries, not three independent confirmations. The incremental partial R-squared is 0.0681, describing residual variation in this sample rather than out-of-sample accuracy.",
+    "price_scale": "Figure 2 displays the interquartile contrasts and their CR1-t intervals. The negative signed association also appears in the 203-observation no-row-flag subset and the 236-observation best-bid subset, with contrasts of −15.12 and −15.29 basis points. Each subset uses its own observed dispersion range, so differences between these contrasts reflect both the coefficient and its scale. The residualized-x contrast for the primary sample is separately reported as −10.16 basis points in Online Resource 1, Table S12. It is not substituted for the prespecified observed-x display.",
+    "price_figure_caption": "Fig. 2 Fitted price-deviation contrasts over an observed interquartile range of transformed bid dispersion; circles show signed-outcome models and the separated square shows the absolute-outcome model. Horizontal bars are exploratory quarter-cluster CR1-t 95% intervals, not wild-bootstrap intervals. Each row uses its own observed x range. Negative signed contrasts do not imply smaller absolute deviations. Values are the same as Table 5 and are not additional estimates",
+    "price_limit": "The absolute-outcome contrast is +7.62 basis points with interval [−2.50, 17.74]. This interval neither establishes smaller absolute deviations nor demonstrates that the association is exactly zero. It therefore limits the interpretation of the negative signed result: the evidence concerns the conditional location of the reported comparison, not greater proximity to a benchmark. Because the report scale has both signs, the signed mean can also reflect cancellation. Dividing the fitted contrast by that mean, or by the absolute median in Table 3, would not yield a return, an explained-share estimate or an efficiency measure.",
+    "year_limit": "Year deletion reveals an important limit to the magnitude. All six leave-one-year-out coefficients are negative, ranging from −88.23 to −45.12, but removing 2022 changes the coefficient from −78.72 to −45.12. This is substantial attenuation, not evidence that the association has a common strength across years. The diagnostic supplies no deletion-specific significance conclusion and does not allocate a share of the effect to 2022. Complete coefficients are in Online Resource 1, Table S13. They are retained rather than used to select a revised estimation period.",
+    "price_sample_result": "The source restrictions and numerical conditioning offer additional context without resolving these economic limits. The primary design is full rank, with a scaled condition number of 14.76. The largest quarter share of focal partial leverage is 0.0910; the concentration-equivalent count is 16.33 quarters. This is a design diagnostic, not an alternative count of independent observations. The no-row-flag sample has only 18 quarters, and the four last-trade references in the primary sample do not support a separate economic interpretation of that indicator. The best-bid result shows that those four observations are not essential to the negative point estimate, not that reference measurement is homogeneous.",
+    "historical_intro": "The historical checks qualify the quantity finding along three dimensions: differences between periods, sensitivity to selected observable composition, and recurrence in an additional short time segment. They are not tests of the stability of the German price coefficient. We keep these questions distinct because persistence of a quantity association in 2026 cannot validate a price result estimated on a different subset during 2020–2025.",
+    "disc1": "The two analyses identify different kinds of information in the same reporting system. Aggregate quantities and participation do not fully summarize the observed conditional co-variation of bid and award dispersion. In the German subset, the bid-side statistic is also associated with an official price comparison after conditioning on the stated conventional variables. This second finding is not implied by the first: strong bid–award co-variation could coexist with no incremental price association. Presenting both establishes the scope of the empirical information more clearly than interpreting the quantity correlation as a mechanism.",
+    "disc2": "The result is economically interpretable at the level at which it is measured. The outcome is a recorded comparison between an auction clearing price and a secondary-market reference, and the fitted contrast has basis-point units. The contrast of −14.51 basis points is consequently more informative than an isolated coefficient in transformed units. Its uncertainty and the unconditional distribution should be read together, not collapsed into a claim of large benefits. Neither a statistical rejection nor an in-sample partial R-squared tells how much a participant would save, whether a reference is executable, or whether the same specification would predict future auctions.",
+    "disc3": "Relative to the direct auction-price literature, the extension tests a particular additional report field, not the general proposition that participation or demand matters. Retaining submitted-price range in the baseline avoids treating quantity dispersion as if it were an untested substitute for price variation. Conversely, the coefficient does not establish superiority of one dispersion measure, nor does it show that all nonlinear or interaction effects of conventional variables have been absorbed. The increment is conditional on a transparent linear benchmark. Its value is an empirical relationship that subsequent studies can challenge on other samples or richer data, rather than a validated decision rule.",
+    "disc4": "The two-sample design makes the scope of the evidence explicit. Broad quantity coverage allows the joint report statistics to be characterized across the EU, DE and PL series. The price comparison adds an economic outcome on a narrower, source-qualified German sample. Retaining these layers separately is preferable to silently presenting the price finding as a result for the full market. The resulting evidence is a conditional characterization of published fields, not validation of a latent competition index or a claim that the German subset represents all European auctions.",
+    "disc5": "The signed and absolute results also suggest a useful reporting discipline. When a relative price comparison can lie on either side of zero, a signed coefficient and a coefficient for its modulus answer different questions. Here only the signed model supplies a precise directional association under the specified approximations. It would therefore be misleading to summarize the extension as prices becoming closer to the reference. The estimate is equally insufficient to infer strategic bid shading: that interpretation would require both an authenticated economic sign convention and information capable of distinguishing bidding behaviour from other jointly determined conditions.",
+    "disc6": "Historical heterogeneity provides a second reason to avoid a universal interpretation. In the quantity sample, lower marginal report ratios coexist with stronger conditional association; matching selected composition moments does not remove the full distributional difference in auction volume. In the price sample, omitting 2022 materially changes the coefficient. These findings limit two different claims: a stable correspondence between quantity indicators and a stable magnitude of the price association. Neither identifies a policy break, and the selected calendar boundary should not be assigned an institutional interpretation after the fact.",
+    "disc7": "For analysis of public auction reports, the practical implication is methodological rather than a demonstrated trading recommendation. Levels, conditional co-variation and signed price location should be separated, with the source population and uncertainty method stated for each. The price result gives a concrete reason to assess the descriptive redundancy of quantity fields instead of assuming that participant counts and coverage exhaust their information. It does not establish that a monitoring system using this variable would make better decisions. That separate question lies beyond the evaluated outcomes.",
+    "limit1": "Measurement and source selection define the first boundary. The means and standard deviations are retained as reported; their arithmetic ratios are not authenticated matched-population inequality measures. Reporting participants can represent clients, and the underlying variance divisors remain incompletely documented. The German analysis additionally conditions on source eligibility. Its best-bid and last-trade references are not independently reconstructed midpoints, and native quote age and an independently authenticated Coordinated Universal Time (UTC) event history are unavailable. These restrictions do not invalidate analysis of the reported numbers, but narrow the population and economic meaning of its coefficient.",
+    "limit2": "Simultaneity defines the second boundary. Participation, demand coverage, awards and the clearing price arise in the same auction. The clearing-price control is also a component of the comparison being studied. It defines a conditional projection rather than the total effect of bid dispersion on auction pricing. Reduced-control quantity models and source-subset price models are sensitivity exercises, not remedies for endogenous selection or omitted demand conditions. Nor does conditioning on annual or monthly indicators ensure that every common market shock has been removed.",
+    "limit3": "Inference defines the third boundary. The interval families do not adjust for the complete research history. Quarter clustering assumes a suitable across-quarter approximation, and a wild-cluster test cannot establish that assumption from 21 quarters. The shorter source subset has fewer clusters. The separate 2026 quantity exercise has only nine months; finite enumeration removes Monte Carlo variation for a specified resampling scheme, not uncertainty about its repeated-sample coverage. The surviving directions are therefore reported with their estimand-specific limitations rather than combined into a single confirmatory claim.",
+    "limit4": "Finally, the official percentage convention is preserved. The targeted methods-text review of 24 reports did not establish an explicit subtraction-and-denominator equation, and the study does not infer one from rounded values. We describe the result as a lower official-reported signed deviation rather than a wider discount. This prevents a stronger economic direction from being attributed to the data than the source review supports. Exact raw-data reproduction also depends on lawful access to the author-held matched rows and the archived 2026 quantity snapshot, as detailed below and in Online Resource 1.",
+    "conclusion1": "Reported quantity dispersion contains two distinct conditional relationships in this archive. Across 1,281 successful EUA auctions in 2020–2025, bid and award ratios have residual correlations near 0.65. In the matched sample of 240 German auctions, bid dispersion is associated with a lower official-reported signed price deviation beyond the specified conventional auction controls and the same-auction price level. Its fitted observed-interquartile contrast is −14.51 basis points, with an exploratory quarter-clustered interval of [−23.00, −6.01].",
+    "conclusion2": "The associated limits are substantive findings, not ancillary qualifications. The absolute-price-deviation interval includes zero, the signed coefficient is sensitive in magnitude to 2022, and quantity-period comparisons remain subject to incomplete composition balance. The short 2026 quantity record adds temporal scope without validating a forecasting rule. Together, these results distinguish quantity co-variation from the signed location and absolute magnitude of reported price comparisons. They contribute a reproducible specification and bounded empirical evidence, while leaving causal allocation, bidder-level inequality, pricing efficiency and operational returns unestablished.",
+    "data1": "The public code, aggregate outputs and versioned documentation are available at https://github.com/124-creator/-123. The historical quantity input is identified by commit 5745eb3ddca79602346053446583d794b0e09800; the price analysis by fccd471de96548bd781c59aced4a59435aae08ac; and the price descriptions and source-definition record by 33707c164c80accd7acf9fcd3f0965088a8370f6. Online Resource 1, Section S18, gives direct links and distinguishes reproduction of published arithmetic from refitting the event-level models. Online Resource 2 provides a machine-readable catalogue of the 24 official report sources, page locators and fixed file identities.",
+    "data2": "The matched German event-level tables and underlying official PDFs are held by the authors but are not included in the public package because bulk redistribution rights have not been established. Requests concerning these files, source reconstruction or exact-snapshot verification should be directed to Zhongfei Tian at 15517837680@163.com. Any transfer of third-party material is conditional on the relevant provider's permission; the public source catalogue and analysis instructions are the first access route. The exact 2026 quantity snapshot is also absent from the public package. Its recorded hash identifies the required bytes but does not guarantee that the changing provider URL still supplies them. Public outputs alone therefore do not permit a complete independent event-level refit.",
+    "contributions": "Zhongfei Tian coordinated the study and manuscript preparation and completed the final revisions. Xiang Wang reviewed and checked the manuscript, approved its scientific content, and authorized Zhongfei Tian to complete the final editorial revision.",
+    "funding": "The authors received no financial support for this research.",
+    "interests": "The authors declare that they have no financial interests relevant to this article.",
+    "si_access": "Data and code access proceeds in two stages. Public code, aggregate results, recorded bootstrap statistics and source metadata can be obtained through the fixed links below without requesting the event-level panels. Independent refitting requires the corresponding exact input rows. Requests about author-held matched tables or the 2026 quantity snapshot should be directed to Zhongfei Tian (15517837680@163.com); transfer of third-party files is subject to the relevant provider's permission. The source catalogue supports lawful retrieval from the original providers, but a matching hash is required before treating a newly obtained file as the analysed snapshot. No unrestricted licence or guaranteed access to restricted material is implied.",
+    "hackl_reference": "Hackl F, Hölzl-Leitner M, Pennerstorfer D (2026) Measuring product differentiation by observing consumer search. Empirical Economics 70:78. https://doi.org/10.1007/s00181-026-02925-2"
+  },
+  "main_sequence": [
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    },
+    {
+      "source": 3
+    },
+    {
+      "source": 4
+    },
+    {
+      "source": 5
+    },
+    {
+      "source": 7
+    },
+    {
+      "text_key": "abstract",
+      "style": "BodyText"
+    },
+    {
+      "source": 9
+    },
+    {
+      "source": 10
+    },
+    {
+      "heading": "1 Introduction",
+      "level": 1
+    },
+    {
+      "text_key": "intro1",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "intro2",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "intro3",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "intro4",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "intro5",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "intro6",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "intro7",
+      "style": "BodyText"
+    },
+    {
+      "heading": "2 Institutional setting and economic questions",
+      "level": 1
+    },
+    {
+      "heading": "2.1 Allocation, participation and reported quantities",
+      "level": 2
+    },
+    {
+      "source": 25
+    },
+    {
+      "source": 26
+    },
+    {
+      "heading": "2.2 What the report fields can distinguish",
+      "level": 2
+    },
+    {
+      "text_key": "econ1",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "econ2",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "econ3",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "econ4",
+      "style": "BodyText"
+    },
+    {
+      "heading": "2.3 Relation to auction-price and measurement research",
+      "level": 2
+    },
+    {
+      "source": 31
+    },
+    {
+      "source": 32
+    },
+    {
+      "source": 33
+    },
+    {
+      "source": 34
+    },
+    {
+      "text_key": "lit_bridge",
+      "style": "BodyText"
+    },
+    {
+      "heading": "3 Data, samples and measurement",
+      "level": 1
+    },
+    {
+      "heading": "3.1 Historical quantity archive and reported measures",
+      "level": 2
+    },
+    {
+      "source": 41
+    },
+    {
+      "source": 42
+    },
+    {
+      "source": 43
+    },
+    {
+      "source": 44
+    },
+    {
+      "source": 45
+    },
+    {
+      "source": 46
+    },
+    {
+      "source": 57
+    },
+    {
+      "source": 58
+    },
+    {
+      "source": 59
+    },
+    {
+      "source": 47
+    },
+    {
+      "source": 48
+    },
+    {
+      "source": 49
+    },
+    {
+      "source": 50
+    },
+    {
+      "source": 51
+    },
+    {
+      "source": 52
+    },
+    {
+      "source": 53
+    },
+    {
+      "heading": "3.2 Matched German price comparisons",
+      "level": 2
+    },
+    {
+      "source": 92
+    },
+    {
+      "text_key": "report_selection",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "scale_logic",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "price_description",
+      "style": "BodyText"
+    },
+    {
+      "text": "Table 3 Descriptive context of German official-reported price deviations",
+      "style": "Caption"
+    },
+    {
+      "source": 150
+    },
+    {
+      "text_key": "price_description_note",
+      "style": "TableNote"
+    },
+    {
+      "heading": "3.3 Sample scope and the additional time segment",
+      "level": 2
+    },
+    {
+      "text_key": "quantity_scope",
+      "style": "BodyText"
+    },
+    {
+      "heading": "4 Empirical strategy",
+      "level": 1
+    },
+    {
+      "heading": "4.1 Quantity projections and standardized association",
+      "level": 2
+    },
+    {
+      "source": 60
+    },
+    {
+      "source": 61
+    },
+    {
+      "source": 62
+    },
+    {
+      "source": 63
+    },
+    {
+      "source": 64
+    },
+    {
+      "source": 65
+    },
+    {
+      "source": 69
+    },
+    {
+      "source": 70
+    },
+    {
+      "source": 71
+    },
+    {
+      "source": 72
+    },
+    {
+      "source": 73
+    },
+    {
+      "source": 74
+    },
+    {
+      "source": 75
+    },
+    {
+      "heading": "4.2 Price-deviation projection and matched baseline",
+      "level": 2
+    },
+    {
+      "source": 93
+    },
+    {
+      "source": 94
+    },
+    {
+      "source": 95
+    },
+    {
+      "text_key": "baseline_logic",
+      "style": "BodyText"
+    },
+    {
+      "source": 96
+    },
+    {
+      "source": 97
+    },
+    {
+      "text_key": "inference_logic",
+      "style": "BodyText"
+    },
+    {
+      "heading": "4.3 Historical scope and composition comparisons",
+      "level": 2
+    },
+    {
+      "source": 79
+    },
+    {
+      "source": 86
+    },
+    {
+      "source": 87
+    },
+    {
+      "source": 90
+    },
+    {
+      "heading": "4.4 Research sequence and disclosure",
+      "level": 2
+    },
+    {
+      "source": 80
+    },
+    {
+      "source": 81
+    },
+    {
+      "heading": "5 Quantity and price findings",
+      "level": 1
+    },
+    {
+      "text_key": "core_result_intro",
+      "style": "BodyText"
+    },
+    {
+      "heading": "5.1 Pooled quantity association",
+      "level": 2
+    },
+    {
+      "source": 101
+    },
+    {
+      "source": 102
+    },
+    {
+      "source": 103
+    },
+    {
+      "source": 104
+    },
+    {
+      "source": 105
+    },
+    {
+      "source": 106
+    },
+    {
+      "heading": "5.2 Price association beyond the specified baseline",
+      "level": 2
+    },
+    {
+      "text_key": "price_main",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "price_table_caption",
+      "style": "Caption"
+    },
+    {
+      "source": 152
+    },
+    {
+      "text_key": "price_table_note",
+      "style": "TableNote"
+    },
+    {
+      "text_key": "price_scale",
+      "style": "BodyText"
+    },
+    {
+      "figure": "Fig2.png"
+    },
+    {
+      "text_key": "price_figure_caption",
+      "style": "FigureCaption"
+    },
+    {
+      "heading": "5.3 Absolute deviations, source restrictions and year influence",
+      "level": 2
+    },
+    {
+      "text_key": "price_limit",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "year_limit",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "price_sample_result",
+      "style": "BodyText"
+    },
+    {
+      "heading": "6 Historical scope and sensitivity",
+      "level": 1
+    },
+    {
+      "text_key": "historical_intro",
+      "style": "BodyText"
+    },
+    {
+      "heading": "6.1 Period-specific quantity relationships",
+      "level": 2
+    },
+    {
+      "source": 118
+    },
+    {
+      "source": 119
+    },
+    {
+      "source": 120
+    },
+    {
+      "source": 121
+    },
+    {
+      "source": 122
+    },
+    {
+      "source": 123
+    },
+    {
+      "source": 124
+    },
+    {
+      "source": 125
+    },
+    {
+      "source": 126
+    },
+    {
+      "source": 127
+    },
+    {
+      "source": 128
+    },
+    {
+      "source": 129
+    },
+    {
+      "source": 130
+    },
+    {
+      "heading": "6.2 Selected composition moments and residual distribution differences",
+      "level": 2
+    },
+    {
+      "source": 135
+    },
+    {
+      "source": 136
+    },
+    {
+      "source": 137
+    },
+    {
+      "source": 138
+    },
+    {
+      "source": 139
+    },
+    {
+      "source": 140
+    },
+    {
+      "source": 141
+    },
+    {
+      "source": 142
+    },
+    {
+      "heading": "6.3 Additional 2026 quantity evidence",
+      "level": 2
+    },
+    {
+      "source": 144
+    },
+    {
+      "source": 145
+    },
+    {
+      "heading": "6.4 Conditioning sets and influence",
+      "level": 2
+    },
+    {
+      "source": 110
+    },
+    {
+      "source": 113
+    },
+    {
+      "source": 114
+    },
+    {
+      "heading": "7 Discussion",
+      "level": 1
+    },
+    {
+      "heading": "7.1 What information is added?",
+      "level": 2
+    },
+    {
+      "text_key": "disc1",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "disc2",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "disc3",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "disc4",
+      "style": "BodyText"
+    },
+    {
+      "heading": "7.2 Economic interpretation and historical scope",
+      "level": 2
+    },
+    {
+      "text_key": "disc5",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "disc6",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "disc7",
+      "style": "BodyText"
+    },
+    {
+      "heading": "7.3 Measurement, identification and inferential boundaries",
+      "level": 2
+    },
+    {
+      "text_key": "limit1",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "limit2",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "limit3",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "limit4",
+      "style": "BodyText"
+    },
+    {
+      "heading": "8 Conclusion",
+      "level": 1
+    },
+    {
+      "text_key": "conclusion1",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "conclusion2",
+      "style": "BodyText"
+    },
+    {
+      "heading": "Data and computer code availability",
+      "level": 1
+    },
+    {
+      "text_key": "data1",
+      "style": "BodyText"
+    },
+    {
+      "text_key": "data2",
+      "style": "BodyText"
+    },
+    {
+      "heading": "Statements and Declarations",
+      "level": 1
+    },
+    {
+      "text": "Funding: The authors received no financial support for this research.",
+      "style": "BodyText"
+    },
+    {
+      "text": "Competing interests: The authors declare that they have no financial interests relevant to this article.",
+      "style": "BodyText"
+    },
+    {
+      "text": "Author contributions: Zhongfei Tian coordinated the study and manuscript preparation and completed the final revisions. Xiang Wang reviewed and checked the manuscript, approved its scientific content, and authorized Zhongfei Tian to complete the final editorial revision.",
+      "style": "BodyText"
+    },
+    {
+      "heading": "Supplementary information",
+      "level": 1
+    },
+    {
+      "text": "Online Resource 1 Field definitions, supplementary estimates, dependence diagnostics, study sequence and data-access instructions",
+      "style": "BodyText"
+    },
+    {
+      "text": "Online Resource 2 Machine-readable catalogue of the 24 official German quarterly reports, page locators and source-file identities",
+      "style": "BodyText"
+    },
+    {
+      "heading": "References",
+      "level": 1
+    },
+    {
+      "source": 196
+    },
+    {
+      "source": 197
+    },
+    {
+      "source": 198
+    },
+    {
+      "source": 199
+    },
+    {
+      "source": 200
+    },
+    {
+      "source": 201
+    },
+    {
+      "source": 202
+    },
+    {
+      "source": 203
+    },
+    {
+      "text_key": "hackl_reference",
+      "style": "Reference"
+    },
+    {
+      "source": 204
+    },
+    {
+      "source": 205
+    },
+    {
+      "source": 206
+    },
+    {
+      "source": 207
+    },
+    {
+      "source": 208
+    },
+    {
+      "source": 209
+    },
+    {
+      "source": 210
+    },
+    {
+      "source": 211
+    }
+  ]
+}

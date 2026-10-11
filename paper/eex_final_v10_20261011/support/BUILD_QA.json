@@ -1,0 +1,32 @@
+{
+  "scope": "Editorial build, not statistical refit",
+  "date": "2026-10-11",
+  "source_sha256": {
+    "MANUSCRIPT_EN_v9.docx": "ce6b68f22d88454d35a534a99b0b1561d0207a550dc31666f0f37e00c424e789",
+    "ONLINE_RESOURCE_1_v9.docx": "7e6de1b5e9045d3f0343c323f6e34ffb7209d0dc8fd9d9e64fcff22598a82830",
+    "TITLE_PAGE_v9.docx": "97a79285d4f88287f5e04e2fa88442e15372b1e89b9b88ef146e26b7561a0527"
+  },
+  "original_math_objects_main": 52,
+  "math_objects_main": 52,
+  "math_text_preserved": true,
+  "original_numerical_tables_all_cells_preserved": true,
+  "SI_math_objects": 58,
+  "SI_math_text_preserved": true,
+  "main_figures": 3,
+  "SI_figures": 1,
+  "main_physical_tables": 10,
+  "SI_physical_tables": 16,
+  "main_numbered_tables": 7,
+  "SI_numbered_tables": 14,
+  "abstract_words": 200,
+  "main_paragraph_words_including_references": 8900,
+  "main_v9_paragraph_words_including_references": 7097,
+  "SI_paragraph_words": 4347,
+  "new_market_fits": 0,
+  "new_resampling_fits": 0,
+  "new_private_row_statistics": 0,
+  "visual_review": "pending",
+  "nonfinancial_interests_not_inferred": true,
+  "data_redistribution_permission_not_inferred": true,
+  "native_Word_WPS_test": false
+}

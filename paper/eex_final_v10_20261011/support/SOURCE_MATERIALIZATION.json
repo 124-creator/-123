@@ -1,0 +1,22 @@
+{
+  "scope": "Reviewed editorial UTF8 files only, no raw data or model objects",
+  "compressed_sha256": "766aeae3e39086cbfd62013946164d6cc29b7bed21f2f76f217e45382d778764",
+  "reviewed_text_files": 14,
+  "files": {
+    "REVISION_PLAN.json": "125d787d6a6c88e8ab76ee44878cb2237789009c50a83afc11bd4d0e70cb1d04",
+    "tools/build_v10.py": "48a2a834cd0943dbb21e08fdcfc8acfb15db384ebc97817312f097aaeb3c9d1a",
+    "tools/build_price_figure.py": "0521dc02c8622354b3f2f2986b5d5c410156f183b365af5bdbd5c2b2e98bce20",
+    "START_HERE.md": "9d0dcf06f5e09a2b10597245f17d2448168da9acff2c7c59893def2fc3638118",
+    "FINAL_REVIEW_ZH.md": "d50a0aeaf5040413d4c5f89e9ffba2cdcb978c364b1b14ecb579a475ef23cece",
+    "JOURNAL_CHECKLIST.md": "bedc3f47ee516fe75b9dd836a13c4f9c78814f91c55d30277aad15ecfcc76162",
+    "DATA_AND_CODE_ACCESS.md": "df0d54b964c49512aaf55ea35d9a10f4bcbf47f125808de17d1a557b29729863",
+    "REPRODUCIBILITY.md": "97b078d3590b33c1d5e513a8d644b5c48b17f0511a4565b833effaf712675d79",
+    "COVER_LETTER_DRAFT.md": "e256f879c845965c873d9cb4575829d9a749850f0df69e8076458adcb7e618cb",
+    "AUTHOR_CONFIRMATIONS.json": "3ba73c978ac8d17aa78a945c6ca43eff658605388dfbc593394a5a52e0e00b04",
+    "SOURCE_READ_SCOPE.json": "5b04af791e06acee66c3e1a456c4ca74c623a8025ffa7f84f4286784012b9d41",
+    "tables/PRICE_DISPLAY_LEDGER_V10.csv": "c5ac6c20e7a2145d18a8368a5c84561020371008b62e7151ab1d7b1ea09e203f",
+    "support/FINAL_QA.json": "cc48f20c529491edb723d5781252b8a3b49244a2673f3f9a040c1b63a119e288",
+    "support/EXPECTED_DOCX_MEMBERS.json": "6cc9a81b9eb3f1f31b90c511b5ee70ac86c01d3968bce0f5c251fe294bd61b0b"
+  },
+  "new_market_fits": 0
+}
