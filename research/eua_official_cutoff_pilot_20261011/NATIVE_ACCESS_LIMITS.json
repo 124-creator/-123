@@ -1,0 +1,33 @@
+{
+  "recorded_after_completed_child_receipts_read": "2026-10-11T14:05:17.350746+08:00",
+  "actual_qualifying_native_files": 0,
+  "actual_qualifying_native_events": 0,
+  "actual_new_native_service_routes_attempted": 1,
+  "blocked_targets": [
+    [
+      "https://www.mds.deutsche-boerse.com/mds-en/real-time-data/Delayed-data",
+      "https://www.eex.com/en/market-data/documentation",
+      "https://api.firecrawl.dev/v2/search"
+    ],
+    [
+      "https://api.firecrawl.dev/v2/search"
+    ]
+  ],
+  "actual_safety_refusals_not_paid_entitlement_findings": true,
+  "no_direct_data_API_auth_response_obtained": true,
+  "not_claimed_exchange_requires_payment_or_login": true,
+  "actual_client_search_failure_literal": "openai-native declares OpenAI's server-side web_search tool; it cannot run as a client-side search and requires the Codex Responses transport",
+  "actual_search_backend403_literal": "Client error '403 Forbidden' for url 'https://api.firecrawl.dev/v2/search'",
+  "web_run_gate_not_passed": true,
+  "stop_targets_and_aliases_after_refusal": true,
+  "raw_market_metadata_unverified": {
+    "product_and_venue": null,
+    "event_type_trade_or_bid_ask": null,
+    "timestamp_timezone": null,
+    "price_unit": null,
+    "observed_years": [],
+    "verified_2020_2025_coverage": false,
+    "reason": "No native file obtained; no product/event schema or historical coverage can be certified"
+  },
+  "does_not_block_the_distinct_already_downloaded_official_reported_deviation_layer": true
+}

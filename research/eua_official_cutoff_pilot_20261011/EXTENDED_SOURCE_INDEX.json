@@ -1,0 +1,129 @@
+{
+  "recorded_after_original_identity_and_rows_verified": "2026-10-11T14:05:16.461699+08:00",
+  "official_report_originals_in_total": 11,
+  "event_quarter_reports": 10,
+  "annual_monthly_report_excluded": 1,
+  "sources": [
+    {
+      "source_id": "dehst_2020_q1",
+      "source_url": "https://climate.ec.europa.eu/system/files/2020-06/ger_report_202003_en.pdf",
+      "relative_original_path": "originals/ger_report_202003_en.pdf",
+      "bytes": 1182239,
+      "sha256": "88ca6700b4bc9a14fe37d0dcc5b42a868724e2064f93beb3cca385b2b83f70ce",
+      "publisher_report": "DEHSt German auctioning report hosted by European Commission",
+      "grade": "official_reported_cutoff_deviation",
+      "license": "not established for full-PDF bulk republication; original local only",
+      "market_reference_definition": "report explicitly uses last trade immediately before bidding-period end; absent trade last best bid",
+      "not_raw_market_tick_export": true,
+      "original_location_scope": "existing parent permanent originals directory, not recounted as newly downloaded"
+    },
+    {
+      "source_id": "dehst_2020_q4",
+      "source_url": "https://climate.ec.europa.eu/document/download/4fc4af05-7acd-4ce4-b007-41c67b399411_en",
+      "relative_original_path": "originals/ger_report_2020_q4.pdf",
+      "bytes": 1028436,
+      "sha256": "a4d3cff595c478fbc6c9c823d3704a18f27ff65ccfc2aebb698b3ad00377df43",
+      "publisher_report": "DEHSt German auctioning report hosted by European Commission",
+      "grade": "official_reported_cutoff_deviation",
+      "license": "not established for full-PDF bulk republication; original local only",
+      "market_reference_definition": "report explicitly uses last trade immediately before bidding-period end; absent trade last best bid",
+      "not_raw_market_tick_export": true,
+      "original_location_scope": "existing parent permanent originals directory, not recounted as newly downloaded"
+    },
+    {
+      "source_id": "dehst_2020_q3",
+      "source_url": "https://climate.ec.europa.eu/document/download/2ce5a6a2-bb40-4538-8569-c40c877154e0_en",
+      "relative_original_path": "originals/ger_report_2020_q3.pdf",
+      "bytes": 843854,
+      "sha256": "8973dd7a70c29c6bbc8fe0b62bac781e35341aabe967839650e41ff6b0073815",
+      "publisher_report": "DEHSt German auctioning report hosted by European Commission",
+      "grade": "official_reported_cutoff_deviation",
+      "license": "not established for full-PDF bulk republication; original local only",
+      "market_reference_definition": "report explicitly uses last trade immediately before bidding-period end; absent trade last best bid",
+      "not_raw_market_tick_export": true,
+      "original_location_scope": "existing parent permanent originals directory, not recounted as newly downloaded"
+    },
+    {
+      "source_id": "2021_Q2",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2021/2021_Bericht_Q2.pdf?__blob=publicationFile&v=3",
+      "relative_original_path": "additional_originals/2021_Q2.pdf",
+      "bytes": 785746,
+      "sha256": "305310fc065b411abf35b849b8b9b9206f7799d07cf97601b2d8878bfc86cdc3",
+      "table_rows": 11,
+      "annual_monthly_only_excluded": false,
+      "license": "unknown; local-only full original and row-level panel"
+    },
+    {
+      "source_id": "2022_Q1_EN",
+      "source_url": "https://openumwelt.de/server/api/core/bitstreams/f21a9a64-169a-4fef-bcce-d1cb0758d128/content",
+      "relative_original_path": "additional_originals/2022_Q1_EN.pdf",
+      "bytes": 1065682,
+      "sha256": "ee197fe3586fc8c4a6ec5f19750bc93f417f6784763c7de350dec85c7945a2e1",
+      "table_rows": 11,
+      "annual_monthly_only_excluded": false,
+      "license": "unknown; local-only full original and row-level panel"
+    },
+    {
+      "source_id": "2023_Q1",
+      "source_url": "http://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2023/2023_Bericht_Q1.pdf?__blob=publicationFile&v=4",
+      "relative_original_path": "additional_originals/2023_Q1.pdf",
+      "bytes": 879293,
+      "sha256": "d1b1d35a35c25c50151b7f457e9e90dd79cc5261024fbf12eea24ff93b1fb3a9",
+      "table_rows": 12,
+      "annual_monthly_only_excluded": false,
+      "license": "unknown; local-only full original and row-level panel"
+    },
+    {
+      "source_id": "2024_annual",
+      "source_url": "https://dehst.de/SharedDocs/downloads/DE/versteigerung/2024/2024_Jahresbericht.pdf?__blob=publicationFile&v=5",
+      "relative_original_path": "additional_originals/2024_annual.pdf",
+      "bytes": 408143,
+      "sha256": "1c48bebd086aa27a64197a9320a375f89e0f866b0116596ec9c558400f5c6e92",
+      "table_rows": 0,
+      "annual_monthly_only_excluded": true,
+      "license": "unknown; local-only full original and row-level panel"
+    },
+    {
+      "source_id": "2024_Q2_attempt2",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2024/2024_Bericht_Q2.pdf?__blob=publicationFile&v=7",
+      "relative_original_path": "additional_originals/2024_Q2_attempt2.pdf",
+      "bytes": 355144,
+      "sha256": "8878045646824e00ade8d5c732c439d61c92b24f8b98b8dc91e2a41a1835d6db",
+      "table_rows": 12,
+      "annual_monthly_only_excluded": false,
+      "license": "unknown; local-only full original and row-level panel"
+    },
+    {
+      "source_id": "2024_Q4",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2024/2024_Bericht_Q4.pdf?__blob=publicationFile&v=3",
+      "relative_original_path": "additional_originals/2024_Q4.pdf",
+      "bytes": 388811,
+      "sha256": "d4994cc9d506d9cc9655361637278fd7c936dc054dd6e69c033f037b21154fce",
+      "table_rows": 11,
+      "annual_monthly_only_excluded": false,
+      "license": "unknown; local-only full original and row-level panel"
+    },
+    {
+      "source_id": "2025_Q1",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2025/2025_Bericht_Q1.pdf?__blob=publicationFile&v=3",
+      "relative_original_path": "additional_originals/2025_Q1.pdf",
+      "bytes": 1402321,
+      "sha256": "d7b6ae27cd6d9cf035b33aab142964d80a3b555ef4a2896d67b91fdd8cdf9459",
+      "table_rows": 12,
+      "annual_monthly_only_excluded": false,
+      "license": "unknown; local-only full original and row-level panel"
+    },
+    {
+      "source_id": "2025_Q2",
+      "source_url": "https://dehst.de/SharedDocs/downloads/DE/versteigerung/2025/2025_Bericht_Q2.pdf?__blob=publicationFile&v=5",
+      "relative_original_path": "additional_originals/2025_Q2.pdf",
+      "bytes": 1411736,
+      "sha256": "bfdf0ec424e9100634164c879e89acc928c065ced23a9e357ef05c757445f008",
+      "table_rows": 10,
+      "annual_monthly_only_excluded": false,
+      "license": "unknown; local-only full original and row-level panel"
+    }
+  ],
+  "quotes_native_tick_zero": true,
+  "public_data_rows_not_included_due_permission_unknown": true
+}

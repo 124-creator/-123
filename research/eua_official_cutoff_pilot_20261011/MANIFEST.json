@@ -1,11 +1,26 @@
 {
   "schema_version": 1,
-  "scope": "Four public self-authored metadata/summary/definition records; no PDFs or36-row quotation panel in this package",
+  "scope": "Seven public metadata/acceptance/scope records, plus this manifest. No PDFs/native workbooks or115/102/13row quote panels in this public package.",
   "files": [
     {
       "path": "ACCESS_CLAIM_CORRECTION.json",
       "bytes": 517,
       "sha256": "d315a34da76e0c39c03f79ac0682140a905853fdaa679bd2e754de1f8ae40849"
+    },
+    {
+      "path": "EXTENDED_PARENT_ACCEPTANCE.json",
+      "bytes": 4423,
+      "sha256": "90474b95c4d0dfeb187d316111fc4599109bd74ade4f83cea5c01f05b79713de"
+    },
+    {
+      "path": "EXTENDED_SOURCE_INDEX.json",
+      "bytes": 6873,
+      "sha256": "186cddf3e753a1d99704a92eb6cfe5ee9e7cc5303733ab71fe0c329efc1c5c2c"
+    },
+    {
+      "path": "NATIVE_ACCESS_LIMITS.json",
+      "bytes": 1497,
+      "sha256": "4b55194b5b6e98b9e48be387698cde28b2757f1d165e164ee9dea393fceda25e"
     },
     {
       "path": "PILOT_MATCH_ACCEPTANCE.json",
@@ -19,8 +34,8 @@
     },
     {
       "path": "START_HERE_ZH.txt",
-      "bytes": 1424,
-      "sha256": "89b2075d135d13009344ee39ea41000fc8e5201b984c00e6102fd74237eb5f83"
+      "bytes": 2551,
+      "sha256": "3859fad9e3434d1f325b0347b454b24977b57471493372d5cbf460f135b2a935"
     }
   ]
 }

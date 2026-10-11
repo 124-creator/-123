@@ -1,5 +1,11 @@
 核心价格验证出现实际数据突破，不是新增不合格日度副本。
 
+当前总数以EXTENDED_PARENT_ACCEPTANCE.json为准：115场官方已报偏差全部与EEX2020—2025原XLSX独立逐行匹配，拍卖价格精确一致；102场保守子集（98场last best bid、4场last trade）。另12场参考合约/事件脚注不明、1场官方表之间日期冲突，单独隔离；1场表数值与正文最大值矛盾保留标记，完全无源异常标记子集101场。原先36场验收是历史阶段，不改写。
+
+实际工作数据已落盘本机E:/碳价格/独立数据归档/EUA/official_cutoff_reference_20261011/combined_2020_2025/：data/official_cutoff_deviations_primary102.csv及OFFICIAL_CUTOFF_REFERENCE_102.xlsx，并有完整115行和隔离13行文件；不是只有来源清单。公开包不含行级报价/数量或原PDF，许可边界不变。10个季度已有逐场数据，剩14个季度正在有界并行获取，不声称完整六年面板。
+
+NATIVE_ACCESS_LIMITS.json明示原生tick仍0及真实工具拒绝。未取得交易所数据API认证响应，不能把工具安全拒绝解释为“必须付费/登录”。不重试被拒绝来源或搜索后端别名。
+
 取得DEHSt2020Q1、Q3、Q4三份官方报告Table4，共36场德国EUA拍卖的已报截止时点价格偏差：34场best bid、2场last trade，产品脚注均为ICE Daily Future。全部已与EEX2020年原XLSX按日期、DE、T3PA、successful唯一匹配，拍卖价格精确相同，三季度平均绝对偏差按原表显示精度重算一致；Q1表页另做实际图像目视核对。
 
 这一数据层是official reported cutoff deviation，不是新取得原生ICE/EEX事件记录。原生逐笔样件门仍0。使用已报差值做价格验证，不能声称重构原生市场价/事件时刻或获得完整2020—2025覆盖。方法调整发生在看到数据之后，未伪称预注册；没有拟合或修改冻结结果。

@@ -1,0 +1,124 @@
+{
+  "recorded_after_actual_parent_combination_and_source_reads": "2026-10-11T13:59:53.722252+08:00",
+  "all_official_rows": 115,
+  "conservative_primary_rows": 102,
+  "excluded_rows": 13,
+  "all_exact_original_EEX_auction_price_matches": 115,
+  "primary_rows_by_year": {
+    "2020": 36,
+    "2021": 11,
+    "2022": 11,
+    "2023": 12,
+    "2024": 11,
+    "2025": 21
+  },
+  "primary_reference_types": {
+    "last_best_bid": 98,
+    "last_trade": 4
+  },
+  "held_event_quarters": 10,
+  "missing_event_quarters": 14,
+  "uncertified_reference_rows": 12,
+  "official_date_conflict_rows_excluded": 1,
+  "narrative_max_vs_table_conflict_retained_flagged": 1,
+  "primary_no_source_flags_sensitivity_rows": 101,
+  "new_summary_replays": [
+    {
+      "report_id": "2021_Q2",
+      "rows": 11,
+      "stated_eur_mean_abs": "0.10",
+      "stated_percent_mean_abs": "0.20",
+      "EUR_summary_replay_equal": true,
+      "percent_summary_replay_equal": true,
+      "rounded_row_versus_rounded_source_summary_possible": false
+    },
+    {
+      "report_id": "2022_Q1_EN",
+      "rows": 11,
+      "stated_eur_mean_abs": "0.25",
+      "stated_percent_mean_abs": "0.32",
+      "EUR_summary_replay_equal": true,
+      "percent_summary_replay_equal": true,
+      "rounded_row_versus_rounded_source_summary_possible": false
+    },
+    {
+      "report_id": "2023_Q1",
+      "rows": 12,
+      "stated_eur_mean_abs": "0.28",
+      "stated_percent_mean_abs": "0.32",
+      "EUR_summary_replay_equal": true,
+      "percent_summary_replay_equal": true,
+      "rounded_row_versus_rounded_source_summary_possible": false
+    },
+    {
+      "report_id": "2024_Q2_attempt2",
+      "rows": 12,
+      "stated_eur_mean_abs": "0.24",
+      "stated_percent_mean_abs": "0.35",
+      "EUR_summary_replay_equal": true,
+      "percent_summary_replay_equal": true,
+      "rounded_row_versus_rounded_source_summary_possible": false
+    },
+    {
+      "report_id": "2024_Q4",
+      "rows": 11,
+      "stated_eur_mean_abs": "0.11",
+      "stated_percent_mean_abs": "0.17",
+      "EUR_summary_replay_equal": true,
+      "percent_summary_replay_equal": true,
+      "rounded_row_versus_rounded_source_summary_possible": false
+    },
+    {
+      "report_id": "2025_Q1",
+      "rows": 12,
+      "stated_eur_mean_abs": "0.14",
+      "stated_percent_mean_abs": "0.19",
+      "EUR_summary_replay_equal": true,
+      "percent_summary_replay_equal": true,
+      "rounded_row_versus_rounded_source_summary_possible": false
+    },
+    {
+      "report_id": "2025_Q2",
+      "rows": 10,
+      "stated_eur_mean_abs": "0.21",
+      "stated_percent_mean_abs": "0.30",
+      "EUR_summary_replay_equal": true,
+      "percent_summary_replay_equal": true,
+      "rounded_row_versus_rounded_source_summary_possible": false
+    }
+  ],
+  "native_tick_count": 0,
+  "data_layers": "official_reported_cutoff_deviation, not certified native trade/BBO feed",
+  "new_fits_or_old_model_runs": 0,
+  "derivatives": [
+    {
+      "path": "data/official_cutoff_deviations_all115.csv",
+      "rows": 115,
+      "bytes": 81187,
+      "sha256": "3ca578e1326e67d7728caa9a47d14699ba870c1a58a7161940cb2d2a82176d0d"
+    },
+    {
+      "path": "data/official_cutoff_deviations_primary102.csv",
+      "rows": 102,
+      "bytes": 69329,
+      "sha256": "961e8de56e3a589b6d010145404b6f68969fe5d8b67b629a08c0aaf892966d35"
+    },
+    {
+      "path": "data/official_cutoff_deviations_excluded13.csv",
+      "rows": 13,
+      "bytes": 12663,
+      "sha256": "8a7a567afe3b63851aeaaf07dec19d058e2a3b98a8599d124fa33a13459d4762"
+    }
+  ],
+  "eex_T3PA_retained_during_fourth_phase": "actual2021–2025 original contract code T3PA and Auction4.PeriodDE caption; do not fabricate T4PA",
+  "no_row_timestamp_inferred_from_EEX_Time_or_MEZ_label": true,
+  "partial_six_year_coverage_not_complete_panel": true,
+  "parent_independently_reparsed_new_table_rows": 79,
+  "new_source_originals_length_sha256_pages_checked": 8,
+  "actual_scope_authority": "This extended acceptance owns current115/102 totals; initial36-row PILOT_MATCH_ACCEPTANCE remains an immutable historical phase.",
+  "child_conservative_subset_identity_equal": true,
+  "initial_parent67_filter_case_bug_withdrawn_final_child66": true,
+  "all_uploaded_content_is_parent_metadata_only_not_rowlevel_market_quote_data": true,
+  "new_source_downloads_and_line_quotes_not_publicly_uploaded": true,
+  "remaining14_quarters_actual_bounded_acquisition_started": true
+}
