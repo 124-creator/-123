@@ -1,0 +1,32 @@
+{
+  "source_grade": "author_processed_weekly_compilation_NOT_exchange_native_or_intraday",
+  "title": "Primary and secondary ETS markets: carbon derivatives and the economic nature of CO₂",
+  "authors": [
+    {
+      "name": "Jammeh, Bakary",
+      "affiliation": "University of Milano-Bicocca",
+      "orcid": "0009-0003-1938-0103"
+    }
+  ],
+  "doi": "10.5281/zenodo.20802491",
+  "source_page": "https://zenodo.org/records/20802491",
+  "metadata_api": "https://zenodo.org/api/records/20802491",
+  "file_url": "https://zenodo.org/api/records/20802491/files/data_fin.csv/content",
+  "publication_date": "2026-06-22",
+  "actual_acquisition_recorded_after_return": "2026-10-11T12:53:11.178532+08:00",
+  "declared_license": {
+    "id": "cc-by-4.0"
+  },
+  "source_description": "<p>This dataset accompanies the article \"Primary and Secondary ETS Markets: Carbon Derivatives and the Economic Nature of CO₂\". It contains weekly EU ETS market data for the period 2021&ndash;2026, including EUA spot prices, futures prices, market positioning, and financialisation indicators. The data are used to analyse carbon price formation, financial intermediation, and intertemporal risk premia in the EU ETS. Sources include ICE Commitments of Traders reports and EEX market data. The dataset supports the empirical results and econometric analyses presented in the associated study.</p>",
+  "original_file": {
+    "path": "data/raw/zenodo_20802491/data_fin.csv",
+    "bytes": 62171,
+    "platform_md5": "3929b62614d1b677b53a5fcf066fa138",
+    "sha256": "473eef0fe8ec56706777503483e5dccf4fbdce1db30b98650a3f40af33d02cae",
+    "platform_length_md5_verified": true,
+    "original_encoding": "cp1252"
+  },
+  "publication_basis": "The author explicitly deposited this processed weekly research compilation under CC BY 4.0. Published as that author compilation, not as proprietary EEX/ICE raw exports or authenticated prices.",
+  "upstream_provider_rights_authentication": "Not certified; the author license is not presented as proof of all upstream rights. This publication does not extend to the newly obtained exchange sample archive or Bloomberg workbook.",
+  "strict_auction_time_eligible": false
+}

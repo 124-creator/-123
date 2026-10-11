@@ -1,0 +1,37 @@
+{
+  "platform_identity": {
+    "bytes": 62171,
+    "md5": "3929b62614d1b677b53a5fcf066fa138",
+    "platform_size_md5_match": true
+  },
+  "lossless_data_blocks": [
+    {
+      "name": "block_1.csv",
+      "bytes": 42193,
+      "sha256": "6d34112a13a8f8e1422ceb4f48d713124c6bdeee2a489e60654be9ab1bc3336f",
+      "source_data_rows": 278,
+      "source_header_row": 5,
+      "date_min": "2021-01-01",
+      "date_max": "2026-04-17",
+      "scope": "Lossless field-string extraction, no price imputation or numeric repairs; blank duplicate trailing column labels preserved"
+    },
+    {
+      "name": "block_2.csv",
+      "bytes": 18729,
+      "sha256": "aceb86615ea05ad9181374dc6542b11b819e118290708bcf9a40164116668896",
+      "source_data_rows": 272,
+      "source_header_row": 302,
+      "date_min": "2021-01-01",
+      "date_max": "2026-03-06",
+      "scope": "Lossless field-string extraction, no price imputation or numeric repairs; blank duplicate trailing column labels preserved"
+    }
+  ],
+  "original_unchanged_after_read": true,
+  "actual_qualified_reference_rows": 0,
+  "no_source_code_executed": true,
+  "read_errors_preserved": [
+    "Original UTF-8 decode failed at nonbreaking-space byte; cp1252 roundtrip verified, original bytes kept.",
+    "Duplicate empty column names made first DictReader preview lossy; final positional extraction preserved all 15 columns."
+  ],
+  "scope": "Actual source file identity and lossless extraction only; no model accuracy, licensing adjudication or scientific authenticity pass."
+}

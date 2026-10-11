@@ -1,0 +1,118 @@
+{
+  "recorded_after_actual_download_and_parse": "2026-10-11T12:58:30.640278+08:00",
+  "scope": "Parent actual downloads only; other parallel routes still running, not prematurely counted.",
+  "new_downloaded_original_files": 5,
+  "not_all_originals_are_price_data": true,
+  "originals": [
+    {
+      "original_file": "20260831_File_Cloud_sample_files.tar",
+      "public_source_url": "https://www.eex.com/fileadmin/EEX/Downloads/Market_Data/EEX_Group_DataSource/File_Cloud/20260831_File_Cloud_sample_files.tar",
+      "bytes": 4313088,
+      "sha256": "faca48a45e95dd4bc9e4563a73fb0a89cd01fd4eacc74f09bc5c9a936234c99e",
+      "available_locally": true,
+      "uploaded_original": false,
+      "reason": "Exchange sample/format documents; no certified bulk redistribution basis and no target secondary-spot trade sample in tar."
+    },
+    {
+      "original_file": "EEX_Group_DataSource_File_Cloud_structure_20261005.xlsx",
+      "public_source_url": "https://www.eex.com/fileadmin/EEX/Downloads/Market_Data/EEX_Group_DataSource/File_Cloud/EEX_Group_DataSource_File_Cloud_structure_20261005.xlsx",
+      "bytes": 54952,
+      "sha256": "66cb8d478a4927930da554c4f72335b8ab554a072b1b628e65f1b6d4993eedb6",
+      "available_locally": true,
+      "uploaded_original": false,
+      "reason": "Exchange sample/format documents; no certified bulk redistribution basis and no target secondary-spot trade sample in tar."
+    },
+    {
+      "original_file": "EEX_Group_DataSource_SFTP_File_Cloud_Mapping_csv_20260925.xlsx",
+      "public_source_url": "https://www.eex.com/fileadmin/EEX/Downloads/Market_Data/EEX_Group_DataSource/File_Cloud/EEX_Group_DataSource_SFTP_File_Cloud_Mapping_csv_20260925.xlsx",
+      "bytes": 156108,
+      "sha256": "a6f48547353ff1f5780ff1407f2d37c72063421d04fffbbc08943a5d69369558",
+      "available_locally": true,
+      "uploaded_original": false,
+      "reason": "Exchange sample/format documents; no certified bulk redistribution basis and no target secondary-spot trade sample in tar."
+    },
+    {
+      "original_file": "SIMRAN DATASET.xlsx",
+      "public_source_url": "https://ndownloader.figshare.com/files/54388595",
+      "bytes": 811692,
+      "sha256": "79d1d94bc9bc2a253da38be05368a81a35f7a96bf1fc4f99f1223bb94136166c",
+      "available_locally": true,
+      "uploaded_original": false,
+      "reason": "Bloomberg-sourced author workbook: ICEEUA label does not establish EUR/t EUA price; vendor bulk redistribution unresolved."
+    },
+    {
+      "original_file": "data_fin.csv",
+      "public_source_url": "https://zenodo.org/api/records/20802491/files/data_fin.csv/content",
+      "bytes": 62171,
+      "sha256": "473eef0fe8ec56706777503483e5dccf4fbdce1db30b98650a3f40af33d02cae",
+      "available_locally": true,
+      "uploaded_original": true,
+      "reason": "Explicitly author-licensed processed weekly research compilation; grade and upstream limits documented."
+    }
+  ],
+  "eex_sample_tar_regular_members": 21,
+  "eex_target_secondary_spot_trade_members": 0,
+  "new_eligible_auction_cutoff_reference_rows": 0,
+  "all_research_data_complete": false,
+  "author_panel_blocks": [
+    {
+      "original_header_row": 5,
+      "original_headers": [
+        "date",
+        "fin_gross",
+        "comp_gross",
+        "fin_net",
+        "comp_net",
+        "ratio_log_w",
+        "fut_front",
+        "price_norm",
+        "fin_net_norm",
+        "ratio_norm",
+        "fut_slope",
+        "if",
+        "com_u",
+        "icf",
+        "subject"
+      ],
+      "original_first_data_row": 6,
+      "original_last_data_row": 283,
+      "rows": 278,
+      "date_min": "2021-01-01",
+      "date_max": "2026-04-17",
+      "duplicate_dates": 0,
+      "rows_with_spot_price": 0
+    },
+    {
+      "original_header_row": 302,
+      "original_headers": [
+        "date",
+        "fut_front",
+        "fut_second",
+        "fut_slope",
+        "fin_net",
+        "comp_net",
+        "fin_ratio",
+        "fin_gross",
+        "comp_gross",
+        "year",
+        "month",
+        "spot_price",
+        "basis",
+        "",
+        ""
+      ],
+      "original_first_data_row": 303,
+      "original_last_data_row": 574,
+      "rows": 272,
+      "date_min": "2021-01-01",
+      "date_max": "2026-03-06",
+      "duplicate_dates": 0,
+      "rows_with_spot_price": 272
+    }
+  ],
+  "original_data_repaired": false,
+  "model_fitting_run": false,
+  "frozen_manuscript_modified": false,
+  "upstream_semantics_unknown_not_promoted_to_native": true,
+  "premature_steer_withdrawn": "A specific dataset candidate was listed to a child before retrieval and immediately withdrawn. Only the later independent publication-index link, real primary API response and actual checksummed CSV form the accepted chain."
+}

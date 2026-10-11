@@ -1,0 +1,6 @@
+Bakary Jammeh (2026). Primary and secondary ETS markets: carbon derivatives and the economic nature of CO₂. Zenodo. DOI 10.5281/zenodo.20802491.
+Source: https://zenodo.org/records/20802491
+Author declaration: CC BY 4.0 (metadata license id cc-by-4.0).
+License: https://creativecommons.org/licenses/by/4.0/
+Original data_fin.csv bytes unchanged. Derived blocks only extract the two original tables, convert cp1252 to UTF-8, and serialize CSV. No values imputed or prices repaired.
+Author-provided processed compilation, not certified exchange-native/intraday observations. Attribution and author license do not certify all upstream provider rights or market meaning.

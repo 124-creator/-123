@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "scope": "All package files except this MANIFEST; no vendor raw archive or workbook included.",
+  "files": [
+    {
+      "path": "ACQUISITION_RESULT.json",
+      "bytes": 4724,
+      "sha256": "e5e2850ff18d057fc5c18d0f95e3cad920e1022ec71efa545104dacd52f2ad7b"
+    },
+    {
+      "path": "ACTUAL_READ_CHECKS.json",
+      "bytes": 1530,
+      "sha256": "dd9fde8f78c5f2bcade36dcb7186cb1773308eb630c6e897d5ee0cabe814fd2a"
+    },
+    {
+      "path": "ATTRIBUTION.txt",
+      "bytes": 668,
+      "sha256": "575b1c42eafb08d70d8d21cf35dbf75fa5e4ddf079caec1963ce7338e6a82e3a"
+    },
+    {
+      "path": "data/parsed/author_weekly_block_1.csv",
+      "bytes": 42193,
+      "sha256": "6d34112a13a8f8e1422ceb4f48d713124c6bdeee2a489e60654be9ab1bc3336f"
+    },
+    {
+      "path": "data/parsed/author_weekly_spot_block_2.csv",
+      "bytes": 18729,
+      "sha256": "aceb86615ea05ad9181374dc6542b11b819e118290708bcf9a40164116668896"
+    },
+    {
+      "path": "data/raw/zenodo_20802491/data_fin.csv",
+      "bytes": 62171,
+      "sha256": "473eef0fe8ec56706777503483e5dccf4fbdce1db30b98650a3f40af33d02cae"
+    },
+    {
+      "path": "SOURCE_RECORD.json",
+      "bytes": 2189,
+      "sha256": "37b1ad07fccb571cff0678af2bdebbd4c1787d81d5bbe31514df9c4e2b5d54ca"
+    },
+    {
+      "path": "START_HERE_ZH.txt",
+      "bytes": 2041,
+      "sha256": "47a4de6a6f21b0e62e4e54ea62b6b6f6a5e55a42792d347fb5a36d4b50a502c6"
+    }
+  ]
+}
