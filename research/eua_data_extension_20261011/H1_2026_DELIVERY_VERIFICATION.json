@@ -1,0 +1,28 @@
+{
+  "recorded_after_actual_XMLandworkbookandZIPchecks": "2026-10-11T16:00:48.197794+08:00",
+  "independent_eex2026_numeric_cells_checked": 352,
+  "numeric_fields_per_auction": 16,
+  "new_events": 22,
+  "workbook": {
+    "path": "E:/碳价格/独立数据归档/EUA/extension_assessment_20261011/RESEARCH_INPUTS_MAIN240_EXTERNAL22.xlsx",
+    "sheets": {
+      "Primary240": 240,
+      "Chronological22": 22,
+      "Excluded35": 35,
+      "HistoricalAll275": 275
+    },
+    "all_cells_readback_equal": true,
+    "sha256": "e527ea760d07f3a7b53cfbb76f508d89775cc68ee9790f0c0d6fb5e506f27aa2"
+  },
+  "new_time_zip": {
+    "path": "E:/碳价格/独立数据归档/EUA/extension_assessment_20261011/LOCAL_ONLY_MATCHED_2026_H1_22.zip",
+    "members": 7,
+    "bytes": 1373074,
+    "sha256": "ef6f5d017e5b561f53d41f5c887396309d183a51258f211ae1ea8e49d32bdbca",
+    "exact_member_bytes_and_CRC_verified": true
+  },
+  "unique_reported_dates_total_historical_plus_H1": 297,
+  "primary240_not_changed_or_expanded": true,
+  "no_model_fits": true,
+  "Q3_not_obtained_no_more_requests_this_phase": true
+}

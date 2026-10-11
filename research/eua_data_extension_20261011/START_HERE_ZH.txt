@@ -1,5 +1,9 @@
 数据扩充的实际结论（2026-10-11）
 
+最终状态以FINAL_DATA_EXPANSION_DECISION.json为准：必要对照字段已补齐；另实际取得并父核2026Q1/Q2两份报告和22场对照，新增原表数值352格与EEX原XLSX独立XML一致。历史275场加新22场，共297个唯一日期；主分析仍保留原240场，新22场单独用于时间段敏感性，不合并伪装预注册样本。参见H1_2026_PARENT_ACCEPTANCE.json与H1_2026_DELIVERY_VERIFICATION.json。
+
+最终工作表：E:/碳价格/独立数据归档/EUA/extension_assessment_20261011/RESEARCH_INPUTS_MAIN240_EXTERNAL22.xlsx。分开列Primary240、Chronological22、Excluded35、HistoricalAll275，逐格读回一致；工作表有重复展示，不能直接加总所有sheet行数。
+
 必须补的是合理对照变量，不是盲目增加行情行数。本次从六份已核EEX原表新增7字段：Cover Ratio、Minimum Bid €/tCO2、Maximum Bid €/tCO2、Mean €/tCO2、Median €/tCO2、Number of bids submitted、Number of successful bids。另派生B/V覆盖率和最高减最低投标价的EUR范围。没有把投标价范围叫二级bid-ask spread，也没有从日收盘伪造截止报价。
 
 275场全字段完整；原240场保守/35场隔离/203场无行源标记分区不变。独立直接解析原XLSX内部XML核对1925个新增数值；每场原字段保持不变。覆盖率与B/V的差均在0.01报告精度的半单位内。普通及真正优化子进程测试通过；损坏输入及既有输出拒绝测试在两种模式均通过。原55对象未变。候选240x14设计满列秩，仅证明数值可识别，不证明效应显著、精度充分或论文必录。
@@ -12,7 +16,9 @@ E:/碳价格/独立数据归档/EUA/extension_assessment_20261011/controls_panel
 
 还发现协议目标变化：早期pricegate拟议关注bidquantity，后来的FULL24拟议关注awardquantity并控制bidquantity。它们都未运行新价格模型，不能合并成貌似同一预注册计划。Pro须在首次拟合前明确一个主问题/主对比，记录方法更改，不能看哪个显著再选哪个。当前补字段没有改变冻结v8或任何价格结果。
 
-2026Q1/Q2/Q3官方偏差报告由独立任务有界获取；本说明生成时结果尚未返回，不能称已下载或排除存在。即便取到，也只能作为新的时间段稳健性扩展；2026拍卖数量已经看过，不能称全新未触碰holdout。没有这些报告也不阻止对现有240场做透明有限分析。
+2026Q1共12场、Q2共10场已真实取得并独立重提取；22场全部与已保存EEX2026原工作簿唯一匹配，日期集合覆盖该工作簿上半年全部德国成功EUA场次，拍卖价格完全相同。19场bestbid、3场lasttrade，数量和新增对照字段完整。2026原表地域字段实际为Zone，不是Country；两次初步程序错误及修正已保留。Q3一次SSL错误后同候选URI返回404 HTML，未取得；这不证明未发布或不存在其他URI，本阶段不继续追搜。已有2026数量早已看过，新22场只有两个季度，不能称未触碰holdout或凭两簇做强统计推断。
+
+本轮数据补充到此结束，可以推进固定问题下的有限实验；原生tick仍为0且新模型拟合仍为0。DATA_EXPANSION_DECISION.json和先前控制增补ZIP中的2026pending说明属于早于此次验收的历史状态，以FINAL文件更新为准。
 
 GitHub实际列出全部12个remoteheads，v8仍b23920a，main仍cfce35a，数据分支本轮发布之前仍b99007b。未观察到新的实验/论文分支提交；不能由此推断未推送工作或PR评论。后续本交接新增是本代理的控制字段审计，不是Pro新实验结果。
 

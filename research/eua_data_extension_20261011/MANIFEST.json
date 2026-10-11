@@ -1,6 +1,5 @@
 {
   "schema_version": 1,
-  "scope": "Metadata/codeonly,no newrowwise price data ornewmodelresults",
   "files": [
     {
       "path": "code/build_controls.py",
@@ -33,9 +32,29 @@
       "sha256": "39b696682874fc492eee117ecac564bd4decb1342246cfd960dbf101fc372124"
     },
     {
+      "path": "FINAL_DATA_EXPANSION_DECISION.json",
+      "bytes": 2234,
+      "sha256": "0ed88e1ef534dcc62cb50bb35305a5ad7b96de5c3a31fa0003efabc5a098caea"
+    },
+    {
       "path": "GITHUB_REMOTE_HEADS_BEFORE_EXTENSION.json",
       "bytes": 1962,
       "sha256": "afdc699f864f947ccb506b2b92f13f41f6b9adde2f220b354a43ab92b5ea8961"
+    },
+    {
+      "path": "H1_2026_DELIVERY_VERIFICATION.json",
+      "bytes": 1086,
+      "sha256": "0085a0dfb4c8c6ce5e16976bbc2d239e04c0cdf47e03bab0d0bab82fb93dc933"
+    },
+    {
+      "path": "H1_2026_PARENT_ACCEPTANCE.json",
+      "bytes": 3147,
+      "sha256": "2564c424c2fc7dcfe19d1378644ba816a7d06de26ca4d8c9a9b0f75694caba50"
+    },
+    {
+      "path": "H1_2026_SOURCE_STATUS.json",
+      "bytes": 2539,
+      "sha256": "7c97b0e37e4145e1e4ae02b286b53ea31b210da7a078fdf464e86f7eac9ef575"
     },
     {
       "path": "NEGATIVE_TESTS_AND_FROZEN_INPUT_CHECK.json",
@@ -54,8 +73,9 @@
     },
     {
       "path": "START_HERE_ZH.txt",
-      "bytes": 3302,
-      "sha256": "56958eecae9231c892fd8457a7c010c4c0748508c81be5639d496f8be98f0b80"
+      "bytes": 4597,
+      "sha256": "5948574a9038a96278e525685dd91043856b34602ab34d9190ec8e5a0b4fc09c"
     }
-  ]
+  ],
+  "scope": "Current self-authoredmetadata/codeonly; officialrowprices/rawreportsremainlocal; nofittednewmodel"
 }

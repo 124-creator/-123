@@ -1,0 +1,36 @@
+{
+  "recorded_after_actual_2026_parent_verification": "2026-10-11T16:01:39.191508+08:00",
+  "decision": "Necessary controlfield expansion complete.2026H1optionalchronological extension22accepted. Stop broad data acquisition and proceed with a single justified analysis design, not keep chasing more rows.",
+  "historical_2020_2025": {
+    "official_quarters": 24,
+    "all_reported_matches": 275,
+    "strict_primary": 240,
+    "quarantined": 35,
+    "control_raw_columns_added": 7,
+    "control_derived_columns_added": 2,
+    "no_missing_new_controls": true
+  },
+  "chronological_2026H1": {
+    "official_quarters": 2,
+    "new_reports_downloaded": 2,
+    "new_eex_downloads": 0,
+    "official_reported_rows_matched_EEX": 22,
+    "best_bid": 19,
+    "last_trade": 3,
+    "all_original_successful_DE_T3PA_H1_dates_covered": true,
+    "raw_source_geo_header_literal": "Zone",
+    "kept_separate_from_primary240": true,
+    "not_untouched_holdout": true,
+    "only_two_new_quarter_clusters": true
+  },
+  "unique_full_reported_dates_acquired": 297,
+  "Q3": "Notobtained after SSLError then404ononeboundedcandidateURI; not proof ofunpublished orabsentelsewhere. Stop thisphase ratherthanretryindefinitely.",
+  "new_primary_model_fit_count": 0,
+  "raw_tick_count": 0,
+  "remaining_required_action": "Resolve bidquantityversusawardquantity primarycontrast explicitly andfreeze reasonable coverratio/price-rangebaseline before newfitting. Do not claim prediction fromcompletedauction controls orfutureyearFE.",
+  "optional_more_data_not_a_blocker": "2026Q3andnative ticks remain unacquired; neitherrequired toperform the scoped historical officialreported conditional comparison. Native tickmicrostructureclaims remain unavailable.",
+  "publication_scope": "Self-authoredmetadata/code/aggregateQApublic, newrowwisequotedprices andofficialPDF/EEX2026byteslocalonly. Prohasnotbeeninvoked.",
+  "primary_paper_frozen_v8_unchanged": true,
+  "current_workbook": "E:/碳价格/独立数据归档/EUA/extension_assessment_20261011/RESEARCH_INPUTS_MAIN240_EXTERNAL22.xlsx",
+  "historical_decision_scope": "DATA_EXPANSION_DECISION.json andprecedingcontrol ZIP predate2026childacceptance; theirpending2026status is historical, supersededbythisfile."
+}

@@ -1,0 +1,56 @@
+{
+  "source_status": [
+    {
+      "quarter_id": "2026_Q1",
+      "status": "obtained_and_extracted",
+      "request_count": 2,
+      "title": "Auktionierung (EU-ETS 1): Deutsche Versteigerungen von Emissionsberechtigungen - Erstes Quartal 2026",
+      "cover_period_literal": "Erstes Quartal 2026",
+      "report_date_literal": "Stand: April 2026",
+      "publication_day": "unknown",
+      "pdf_bytes": 863976,
+      "pdf_sha256": "1635a0008952c1e34c883bbb8cf8af01e69ea0053a87d503e384098298f3c446",
+      "retrieved_at": "2026-10-11T15:48:46.056141+08:00",
+      "candidate_origin": "structurally-generated unverified candidate from held 2025 pattern; NOT a search result",
+      "requested_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2026/2026_Bericht_Q1.pdf?__blob=publicationFile&v=3",
+      "table1_page": 5,
+      "table4_page": 14,
+      "method_page": 13,
+      "table4_rows": 12
+    },
+    {
+      "quarter_id": "2026_Q2",
+      "status": "obtained_and_extracted",
+      "request_count": 1,
+      "title": "Auktionierung (EU-ETS 1): Deutsche Versteigerungen von Emissionsberechtigungen - Zweites Quartal 2026",
+      "cover_period_literal": "Zweites Quartal 2026",
+      "report_date_literal": "Stand: Juli 2026",
+      "publication_day": "unknown",
+      "pdf_bytes": 1457606,
+      "pdf_sha256": "05258c9a3045f70f9adc5959dcb1f5dcd8916de2cb7145880b6939b5e3a7a863",
+      "retrieved_at": "2026-10-11T15:47:29.858232+08:00",
+      "candidate_origin": "structurally-generated unverified candidate from held 2025 pattern; NOT a search result",
+      "requested_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2026/2026_Bericht_Q2.pdf?__blob=publicationFile&v=3",
+      "table1_page": 6,
+      "table4_page": 15,
+      "method_page": 14,
+      "table4_rows": 10
+    },
+    {
+      "quarter_id": "2026_Q3",
+      "status": "not_obtained",
+      "request_count": 2,
+      "title": "unknown",
+      "report_date_literal": "unknown",
+      "pdf_bytes": null,
+      "pdf_sha256": null,
+      "http_status_last": 404,
+      "reason": "First identical-URI request SSLError; second HTTP404 HTML; capped. Does not prove report unpublished or absent at every URI."
+    }
+  ],
+  "search_evidence": "None; structuralcandidates followedbyrealGETs only",
+  "child_premature403_and_later_execution_claims_withdrawn": true,
+  "no_new_safety_or_auth_refusals_returned": true,
+  "full_corrections_preserved_locally": "new_2026_reports/INPUT_SCOPE_AND_CORRECTION.json",
+  "bulk_report_bodies_not_public": true
+}

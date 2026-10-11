@@ -1,0 +1,70 @@
+{
+  "recorded_after_independent_source_reconciliation": "2026-10-11T15:59:39.201807+08:00",
+  "quarters": [
+    {
+      "quarter": "2026_Q1",
+      "rows": 12,
+      "original_auction_prices_match_EEX": true,
+      "means_recomputed": {
+        "reported_deviation_eur_signed": "0.2841666666666666666666666667",
+        "reported_deviation_percent_signed": "0.37"
+      },
+      "table4_page": 14,
+      "source_hash": "1635a0008952c1e34c883bbb8cf8af01e69ea0053a87d503e384098298f3c446",
+      "report_date_literal": "Stand: April 2026"
+    },
+    {
+      "quarter": "2026_Q2",
+      "rows": 10,
+      "original_auction_prices_match_EEX": true,
+      "means_recomputed": {
+        "reported_deviation_eur_signed": "0.079",
+        "reported_deviation_percent_signed": "0.103"
+      },
+      "table4_page": 15,
+      "source_hash": "05258c9a3045f70f9adc5959dcb1f5dcd8916de2cb7145880b6939b5e3a7a863",
+      "report_date_literal": "Stand: Juli 2026"
+    }
+  ],
+  "all_event_rows": 22,
+  "complete_native_successful_DE_T3PA_H1_date_set": true,
+  "reference_events": {
+    "best_bid": 19,
+    "last_trade": 3
+  },
+  "new2026_auction_snapshot_downloads": 0,
+  "actual_existing_snapshot_path": "E:/碳价格/独立数据归档/EEX/2026_snapshot_54e6fb64/emission-spot-primary-market-auction-report-2026-data.xlsx",
+  "actual_existing_snapshot_bytes": 72742,
+  "actual_existing_snapshot_sha256": "54e6fb649872d229333adb29b62a3ff5b7fddd7393facc047050fb8f87a1bf3d",
+  "actual2026_geographic_header_literal": "Zone",
+  "geographic_identity_crosscheck": "ValueDE and Auction4.PeriodDE literal independently checked, not renameoforiginalCountryheader",
+  "initial_failed_parent_check": "KeyError Country before output; inspected actual Zone header andseriesvalues thenexplicitlypreserved alias. Diagnostic JSON tuplekey printing alsofailed beforeany datawrite; corrected listserialization.",
+  "raw_trade_BBO_events": 0,
+  "precise_reference_timestamps_not_observed": true,
+  "reported_clock_not_silently_converted_UTC": true,
+  "eex2026_quantity_history_previously_examined": true,
+  "not_untouched_holdout_or_real_time_forecast": true,
+  "kept_separate_from_frozen2020_2025_primary240": true,
+  "only_two_new_quarter_clusters": "22rows in two2026quarterclusters are limited chronological sensitivity; no standalone quartercluster inference claim.",
+  "Q3_not_obtained": {
+    "quarter_id": "2026_Q3",
+    "status": "not_obtained",
+    "request_count": 2,
+    "http_status_last": 404,
+    "title": "unknown",
+    "report_date_literal": "unknown",
+    "product_identity": "unknown",
+    "pdf_bytes": null,
+    "pdf_sha256": null,
+    "last_non_pdf_response_bytes": 30101,
+    "last_non_pdf_response_sha256": "9083a940d1cfd644bcdd9ccd13875801a14f2fcc88a44337e2f256ca1df78b8e",
+    "reason": "First identical-URI request SSLError; second HTTP404 HTML; capped. Does not prove report unpublished or absent at every URI."
+  },
+  "new_model_fits": 0,
+  "license": "unknown bulkredistribution;originals androwwise tablelocalonly",
+  "actual_child_manifest_files_checked": 24,
+  "parent_visual_pages_checked": [
+    "2026Q1Table4page14",
+    "2026Q2Table4page15"
+  ]
+}

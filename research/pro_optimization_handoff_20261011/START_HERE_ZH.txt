@@ -1,6 +1,6 @@
 Pro实验审查与论文优化：当前唯一交接入口（2026-10-11）
 
-本轮新增：先读同分支research/eua_data_extension_20261011/START_HERE_ZH.txt及DATA_EXPANSION_DECISION.json。已实物补齐7个原始对照字段和2个派生字段，275场均完整，240场保守样本未变；不是新增275场。独立核1925个原单元格。原FULL24协议缺cover ratio和投标价范围，应在首次拟合前审查合理基线；早期关注bidquantity、后期关注awardquantity的目标差异也须明确，不能看显著性后挑选。2026报告补取尚待单独结果，不能预写成功。
+本轮新增：先读同分支research/eua_data_extension_20261011/START_HERE_ZH.txt及FINAL_DATA_EXPANSION_DECISION.json。已补齐7个原始对照字段和2个派生字段，历史275场均完整，240场保守样本未变；独立核1925个原单元格。另真实补入2026Q1/Q2共22场，原PDF重提取、EEX价格/日期及352格原数量/控制数值核一致，单独保存作时间段敏感性，不是未触碰holdout。Q3未取得，不继续阻断历史主分析。原FULL24协议缺cover ratio和投标价范围，应在首次拟合前审查合理基线；早期关注bidquantity、后期关注awardquantity的目标差异也须明确，不能看显著性后挑选。实际新模型拟合仍为0。
 
 可以开始实验方案审查和论文正文优化；不能声称全部下载数据已在GitHub，也不能声称新的价格关联实验已经完成。
 

@@ -8,14 +8,14 @@
     },
     {
       "path": "PRO_PROMPT.txt",
-      "bytes": 4357,
-      "sha256": "91c7928452e7779e482b33ed6980671e8607d0afbb22879304c14e6ec7594de9"
+      "bytes": 4576,
+      "sha256": "025ccaf8c9c2cbdd2b1b39555e207c6889b06e31b929920689e542a6a741d32c"
     },
     {
       "path": "START_HERE_ZH.txt",
-      "bytes": 3663,
-      "sha256": "4c31c23d66754a2ca3c00ba6984caeab11337c6bc6126127b738b5e3c9ff280f"
+      "bytes": 3841,
+      "sha256": "214a4b716c55268eb20ac8f4eab36159f74cd51f7c6d7ce390cedd1bde2e74c7"
     }
   ],
-  "scope": "Current Prohandoff updated to point at actual control-field supplement; no newmodelresults"
+  "scope": "Current self-authoredmetadata/codeonly; officialrowprices/rawreportsremainlocal; nofittednewmodel"
 }
