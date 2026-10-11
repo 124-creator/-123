@@ -1,0 +1,31 @@
+{
+  "scope": "reviewed protocol, synthetic tests and manuscript text, no new row price data or estimates",
+  "source_files": 22,
+  "frozen_figures": 9,
+  "compressed_sha256": "07ae8b12046fadba18113f57531375d420a2dbaa522c0209bc9bdfc1a0deedd0",
+  "new_real_price_fits": 0,
+  "source_hashes": {
+    "research/eex_reported_price_design_20261011/AGENTS.md": "1f8ffb0153f9026b56d70b2971056fddc102b4b87db19ef786c84543523a28c0",
+    "research/eex_reported_price_design_20261011/E2_INTEGRATION_TEMPLATE_EN.md": "1483558b12b7e0a9b40f597bcf2f9900cdb4ce96491b7429affc38fde3245a1a",
+    "research/eex_reported_price_design_20261011/JOURNAL_CHECK_ZH.md": "f591ddcf9411ac4367533819179b74d996d991c5c0a1532ae306925fb5b5fbf3",
+    "research/eex_reported_price_design_20261011/PROTOCOL_AMENDMENT_ZH.md": "0c0713f7361ea3f1ce65106bfb495163712d3f83102e04b1d054b0373574380f",
+    "research/eex_reported_price_design_20261011/REVIEW_AND_STATUS_ZH.md": "ff74ef03a0a2f3fa5849845b98991d82c07de5a0fb05fa8dd67e44522e55d44d",
+    "research/eex_reported_price_design_20261011/REVISION_PLAN.json": "1cab1ccef6658ee58c82072edb0761317ade3e8144f53a1b76fc271c84d5d58e",
+    "research/eex_reported_price_design_20261011/RUN_LOCALLY_ZH.md": "67cfc3badc095141df794f5965c1c93e3125c27a9c29a91a8436022dbb36a62b",
+    "research/eex_reported_price_design_20261011/SOURCE_LEDGER.md": "b0349b944e56f1fd1ae2c2f4e6c44710a6ec3fe013b29aee1262e3583d51ade5",
+    "research/eex_reported_price_design_20261011/START_HERE.md": "078325ea59aa49d04a75396ed31ead3e4bcad7aec9b07c25e05c46de222638b0",
+    "research/eex_reported_price_design_20261011/code/audit_auction_prices.py": "0dfe66f909c0f9373d849dec2f13a3cabaa0321448e4f1a8af0edf087a866993",
+    "research/eex_reported_price_design_20261011/code/revise_v8_2.py": "3016aa89a9538e30de01b0fb0543929a73510d92d40a6edc47641d56bd64e1e0",
+    "research/eex_reported_price_design_20261011/code/run_official_reported_price.py": "a10ab9a678fea9eb8a502f699d8b3e2e97b7ca184d9a0c9422f6ffda532a9d46",
+    "research/eex_reported_price_design_20261011/code/test_reported_price.py": "f4d7e23b7e7587ddd16c73dd8b4b1f2e3360fe094d25382618194dc01d7ac25d",
+    "paper/eex_reported_price_v8_2_20261011/REPRODUCIBILITY.md": "ee17c19c0e07619742889d0732e3bfc21232a9d16695c7f6b74baa349222aa1e",
+    "paper/eex_reported_price_v8_2_20261011/START_HERE.md": "bf350ce5da040e56f5203201adf561cfa3ea00b3d340b78be64b3c000e84edef",
+    "research/eex_reported_price_design_20261011/requirements.txt": "d792cc96824a693e844a78028b396e22915847ba900c878f94420217bce852e7",
+    "research/eex_reported_price_design_20261011/results/FINAL_LOCAL_QA.json": "f7145118ef40dddcab10f55929e9d5fb9642bdc75917ed797783398bc37400df",
+    "research/eex_reported_price_design_20261011/results/HISTORICAL_AUCTION_BASE_AUDIT.json": "86d72946bb8d777e1c4874e95113dcc6d458f4836b5ba20cb8586265b23f9c23",
+    "research/eex_reported_price_design_20261011/results/SYNTHETIC_TESTS_NORMAL.log": "bc69cf7d9e14744978f9a771d254849db7f1f18aae46e7ece2826de44c6d4a70",
+    "research/eex_reported_price_design_20261011/results/SYNTHETIC_TESTS_OPTIMIZED.log": "927f3399fa2c5b3f7af7de84d3a69539950eb82d3ca32d1403df7866a28d3d59",
+    "research/eex_reported_price_design_20261011/results/current_input_gate/EXECUTION_STATUS.json": "cbe206ef992573b731e49f7b23499a387a668e1ada884a5bbe04671ff6c3d97f",
+    "research/eex_reported_price_design_20261011/templates/INPUT_MAPPING_TEMPLATE.json": "5eb62257d6ec21ac49864aaed0bb5736ded5044bc535f259f0b8c60aefa9496e"
+  }
+}

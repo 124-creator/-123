@@ -1,0 +1,12 @@
+{
+  "status": "Fill from actual --inspect output; no inferred column names",
+  "fields": {"date": null, "auction_price": null, "deviation_percent": null, "reference_type": null},
+  "quantity_fields": {"V": null, "R": null, "N": null, "S": null, "mu_B": null, "sd_B": null, "mu_W": null, "sd_W": null},
+  "trace_columns": [],
+  "reference_type_values": {"last_best_bid": "last_best_bid", "last_trade": "last_trade"},
+  "date_format": "%Y-%m-%d",
+  "decimal_separator": ".",
+  "percentage_encoding": "numeric_percentage_points",
+  "definition_evidence": null,
+  "reported_sign_interpretation": "unverified until exact report wording is recorded; do not relabel as midpoint premium"
+}

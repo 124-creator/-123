@@ -1,0 +1,22 @@
+test_CR1_against_statsmodels (test_reported_price.Tests.test_CR1_against_statsmodels) ... ok
+test_WCR_null_generation_and_studentization (test_reported_price.Tests.test_WCR_null_generation_and_studentization) ... ok
+test_WCR_repeatability (test_reported_price.Tests.test_WCR_repeatability) ... ok
+test_budget_stop (test_reported_price.Tests.test_budget_stop) ... ok
+test_constant_outcome_failure (test_reported_price.Tests.test_constant_outcome_failure) ... ok
+test_focal_FRL_and_partial_R2 (test_reported_price.Tests.test_focal_FRL_and_partial_R2) ... ok
+test_malformed_number_not_guessed (test_reported_price.Tests.test_malformed_number_not_guessed) ... ok
+test_missing_not_zero (test_reported_price.Tests.test_missing_not_zero) ... ok
+test_no_private_rows_blocks (test_reported_price.Tests.test_no_private_rows_blocks) ... ok
+test_ols_against_lstsq (test_reported_price.Tests.test_ols_against_lstsq) ... ok
+test_one_cluster_failure (test_reported_price.Tests.test_one_cluster_failure) ... ok
+test_private_hash_failure (test_reported_price.Tests.test_private_hash_failure) ... ok
+test_rank_failure (test_reported_price.Tests.test_rank_failure) ... ok
+test_rescaling_preserves_fits (test_reported_price.Tests.test_rescaling_preserves_fits) ... ok
+test_residual_orthogonality (test_reported_price.Tests.test_residual_orthogonality) ... ok
+test_sign_and_percentage_unit (test_reported_price.Tests.test_sign_and_percentage_unit) ... ok
+test_subset_trade_indicator_rule (test_reported_price.Tests.test_subset_trade_indicator_rule) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.019s
+
+OK

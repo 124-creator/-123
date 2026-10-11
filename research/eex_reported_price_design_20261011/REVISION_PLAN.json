@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-11",
+  "scope": "editorial status and incremental-question alignment; no price estimates",
+  "documents": [
+    {
+      "source": "paper/eex_price_revision_20261011/MANUSCRIPT_EN_v8_1.docx",
+      "source_sha256": "c251033e16f9f44f7da4149ff8375931c666c049737566e7d11f5d6a58ca4d18",
+      "output": "MANUSCRIPT_EN_v8_2.docx",
+      "changes": [
+        {
+          "old": "The contribution is an auction-level characterization of shared quantity variation and its historical scope. Relative to price-focused auction analysis such as Bosco (2023), the outcome is reported quantity dispersion rather than price volatility. Relative to official marginal reporting, the analysis quantifies a conditional joint relationship and separates changes in indicator levels from changes in their association. The weighting and time-extension exercises qualify that description rather than identify a mechanism. We do not claim a new estimator, prior misuse of official statistics, or a demonstrated pricing or monitoring benefit.",
+          "new": "The contribution is a measurement-explicit account of how published bid and award dispersion move together, conditional on auction scale and participation. It complements the price dynamics studied by Bosco (2023) and the separate quantity summaries in official reports. The substantive distinction is between indicator levels and the strength of their joint relationship: the later sample has lower marginal ratios but stronger conditional association. Composition weighting and the additional time segment qualify the scope of this finding rather than identify its cause. Whether bid-quantity dispersion also carries information about reported price deviations beyond standard auction indicators remains a separate empirical question."
+        },
+        {
+          "old": "Bosco (2023) studies Phase III EUA auction prices and returns using GARCH specifications. It includes participation, demand coverage and the difference between maximum and minimum submitted prices. This bid-price spread is not a quantity-dispersion measure. Niu and Liu (2024) instead forecast EUA futures volatility. Our outcomes are quantity statistics from completed auctions; no price-premium equation is estimated.",
+          "new": "Bosco (2023), first published online in 2022, studies EUA auction prices and returns with GARCH specifications, incorporating participation, demand coverage and the maximum-minus-minimum submitted bid price. Its bid-price spread is a price variable, not quantity dispersion. An incremental pricing comparison must therefore condition on this price spread as well as coverage, scale and participation; simply linking auction characteristics to prices would not distinguish a new contribution. Niu and Liu (2024) instead study EUA futures-volatility forecasting. The estimates in this article concern the quantity side of completed auctions."
+        },
+        {
+          "old": "This joint characterization complements the quantity moments in official reports and the prices and participation variables examined by Bosco (2023). Its contribution is the magnitude and conditional scope of a report-level relationship, not a new indicator or evidence that official monitoring is mistaken. The denominator checks clarify normalization; they do not remove the inherent link from submitted bids to awards. Nor has this relationship been validated against an independently measured economic outcome.",
+          "new": "The results add information about the joint behaviour of two routinely reported quantity summaries. Their conditional co-variation is not captured by either marginal median, and the pooled coefficient does not describe every historical period equally well. This is a narrower contribution than identifying allocation quality or validating a pricing signal. The denominator checks clarify the role of normalization but do not remove the inherent link from bids to awards. A separate price analysis would have to establish an incremental relationship beyond coverage, participation, auction scale and bid-price spread on the same matched observations."
+        },
+        {
+          "old": "Price informativeness remains untested. Assessing an incremental association beyond participation, demand coverage and bid-price spread requires a compatible secondary-market quote at a separately documented bidding-window close. The previously inspected report supplies monthly rather than usable per-auction reference comparisons (European Commission 2023). Primary-auction prices have now been extracted, but the workbook field Time is not an authenticated deadline. No eligible external series was acquired and no price-premium regression was run. This is a data limitation, not a null result. The exact-2026-snapshot limitation is stated below.",
+          "new": "Price informativeness has not been estimated here. The previously inspected monthly comparison (European Commission 2023) did not provide this outcome. Subsequent data-acquisition records identify an author-held German official-report comparison layer covering 275 auctions, with 240 retained after source-specific exclusions. That layer permits a weaker question about official-reported signed deviations without claiming to reconstruct native quotes. Its event-level files have not been made available to this revision environment, so the source counts are not independent re-estimates and no price coefficient is reported. Last-best-bid and last-trade references are not interchangeable with a midpoint, and native quote age and an independent UTC event clock remain unverified. Online Resource 1 distinguishes the recorded acquisition from the pending statistical extension."
+        },
+        {
+          "old": "The historical input and analysis records are available in repository 124-creator/-123 at the fixed revisions listed in Online Resource 1. The input is fixed at 5745eb3ddca79602346053446583d794b0e09800; main estimates, original robustness and subsequent composition analyses are preserved separately. Integration checks are fixed at 35d8c63fc57173f67eb0bd8bb570eb289188324f under research/eex_integration_checks_20261010. EEX retains its data rights. The 2026 analysis used a 72,742-byte snapshot, identified by its full SHA-256 in Online Resource 1. The download URL is dynamic, and the exact raw file is not included in this replication package. Numerical outputs and code therefore do not by themselves provide complete raw-data reproducibility for the 2026 extension. A lawful exact-snapshot access arrangement remains to be finalized; a later file with a different hash must not silently replace it.",
+          "new": "The historical quantity inputs and analysis records are available in repository 124-creator/-123 at the fixed revisions listed in Online Resource 1; input commit 5745eb3ddca79602346053446583d794b0e09800 identifies the six-year archive. German official-reported price comparisons are documented at 6cd665873c9bb11ed266bb3d5eea7e587ef2ca80, but the new source reports and event-level tables remain author-held and are not included here. No price-regression result is claimed. Separately, the exact 2026 raw snapshot is not included in the replication package: its dynamic URL and hash do not themselves provide access to matching bytes. Online Resource 1 documents both access boundaries. Data rights remain with the original providers."
+        },
+        {
+          "old": "Author-review status: Xiang Wang has reviewed the preceding manuscript. This revision changes presentation and methodological explanation without new estimation. Outstanding declarations and the exact-snapshot data-access arrangement are recorded in the author checklist.",
+          "new": "Author-review status: Xiang Wang has reviewed the preceding manuscript. This revision clarifies the incremental price question and the subsequent data-acquisition status; it does not report a new price estimate. Existing funding confirmation is unchanged, while actual contributions, competing interests and final data-access arrangements remain to be confirmed by the authors."
+        }
+      ]
+    },
+    {
+      "source": "paper/eex_manuscript_v8_20261010/ONLINE_RESOURCE_1_v8.docx",
+      "source_sha256": "0b00a762b7b1b0ddf67d3711486c248a38a4005f4274b8366ff437e8591d66fe",
+      "output": "ONLINE_RESOURCE_1_v8_2.docx",
+      "changes": [
+        {
+          "old": "Journal: Empirical Economics (intended submission; not yet submitted)Authors: Zhongfei Tian; Xiang WangAffiliation: Zhengzhou University of Aeronautics, Zhengzhou, Henan, ChinaCorresponding author: Zhongfei Tian, 15517837680@163.comVersion: Author-review v8, 10 October 2026",
+          "new": "Journal: Empirical Economics (intended submission; not yet submitted)\nAuthors: Zhongfei Tian; Xiang Wang\nAffiliation: Zhengzhou University of Aeronautics, Zhengzhou, Henan, China\nCorresponding author: Zhongfei Tian, 15517837680@163.com\nVersion: Author-review v8.2, 11 October 2026"
+        },
+        {
+          "old": "S12 Price-reference gate and reproduction boundary",
+          "new": "S12 Official-reported price comparisons and reproduction boundary"
+        },
+        {
+          "old": "The intended external-price association requires one valid secondary-market reference per auction, a compatible allowance product, and a documented quote type and bidding-window-close timestamp. European Commission (2023), Section 1.1.1, reports monthly differences against a closing-window EEX spot midpoint; Annex 2 supplies individual auction and bid-price fields. The parsed text did not provide the per-auction reference series required for the proposed regression. This is not a claim that all official reports lack such data.",
+          "new": "The earlier price gate concerned a reconstructed per-auction secondary-market reference. A subsequent acquisition record at commit 6cd665873c9bb11ed266bb3d5eea7e587ef2ca80 identifies a different, weaker observation layer: deviations already printed in German official auction reports. The team records 275 matched successful German EUA auctions in 24 quarters of 2020–2025, a conservative subset of 240 in 21 quarters, and 35 quarantined observations. The conservative subset contains 236 last-best-bid references and four last-trade references; 203 observations have no row-level source flags. These are acquisition-record counts, not a new independent reconstruction in this editorial revision."
+        },
+        {
+          "old": "No eligible per-auction secondary-market reference series was acquired. No graph digitization, monthly-to-auction replication, daily-close replacement or price regression was performed. E2 remains a missing external validation, not a negative finding about price informativeness. Source access levels and failed downloads are recorded separately in the repository source ledger.",
+          "new": "The official-reported layer is potentially usable for a report-level association and does not require native ticks to answer that weaker question. However, the newly acquired row tables and source PDFs are author-held rather than present in the public handoff. No price regression has been fitted in this revision environment. The proposed response retains the signed reported percentage, converted from percentage points to basis points; a source column labelled Absolute must not automatically be treated as a modulus. Native quote age, an independently checked event clock and midpoint comparability remain unauthenticated. The one amended protocol and not-fitted integration template are separate research documents, not completed Results."
+        },
+        {
+          "old": "No eligible auction-level reference series",
+          "new": "Author-held official comparisons; row-level transfer and estimation pending"
+        },
+        {
+          "old": "Missing validation, not a null result",
+          "new": "No price estimate; native quote reconstruction not claimed"
+        }
+      ]
+    },
+    {
+      "source": "paper/eex_manuscript_v8_20261010/TITLE_PAGE_v8.docx",
+      "source_sha256": "7daf9d090939235805a0c88a8e135872717877050eb61e6aae6db82b5000c335",
+      "output": "TITLE_PAGE_v8_2.docx",
+      "changes": [
+        {
+          "old": "Xiang Wang has reviewed the preceding manuscript. This revision changes presentation without new estimation; the statement does not infer approval of unresolved declarations or authorize submission.",
+          "new": "Xiang Wang has reviewed the preceding manuscript. This revision updates the price-extension question and data-access status without new market estimation; it does not imply approval of unresolved declarations or authorize submission."
+        }
+      ]
+    }
+  ]
+}

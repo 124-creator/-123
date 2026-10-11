@@ -1,0 +1,14 @@
+{
+  "scope": "synthetic validation and document build, not real price fitting",
+  "new_real_price_fits": 0,
+  "new_market_resamples": 0,
+  "private_official_price_rows_available": false,
+  "synthetic_tests_each_mode": 17,
+  "reviewed_source_hashes_passed": true,
+  "source_commit": "be9e480824ec4a64a921af93f95ab2129489de77",
+  "documents": {
+    "MANUSCRIPT_EN_v8_2.docx": "ca7d885b16aae4986f2975e652e1f1e0cdedfcec33abfe870917f49e7cca7504",
+    "ONLINE_RESOURCE_1_v8_2.docx": "c51c72bc1614685634ec4a2f491f228ab473a860ab8a2e3e6ab817eefc292dd6",
+    "TITLE_PAGE_v8_2.docx": "4854830b09550d4e23243521d26e113c2647726d6c9b2f08d1dfb31f044fc5f8"
+  }
+}

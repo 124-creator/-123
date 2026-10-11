@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "file": "MANUSCRIPT_EN_v8_2.docx",
+      "sha256": "ca7d885b16aae4986f2975e652e1f1e0cdedfcec33abfe870917f49e7cca7504",
+      "source_sha256": "c251033e16f9f44f7da4149ff8375931c666c049737566e7d11f5d6a58ca4d18",
+      "paragraph_changes": 6,
+      "native_math_objects": 51,
+      "physical_tables": 8,
+      "drawings": 3,
+      "protected_signature_unchanged": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "file": "ONLINE_RESOURCE_1_v8_2.docx",
+      "sha256": "c51c72bc1614685634ec4a2f491f228ab473a860ab8a2e3e6ab817eefc292dd6",
+      "source_sha256": "0b00a762b7b1b0ddf67d3711486c248a38a4005f4274b8366ff437e8591d66fe",
+      "paragraph_changes": 6,
+      "native_math_objects": 58,
+      "physical_tables": 11,
+      "drawings": 0,
+      "protected_signature_unchanged": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "file": "TITLE_PAGE_v8_2.docx",
+      "sha256": "4854830b09550d4e23243521d26e113c2647726d6c9b2f08d1dfb31f044fc5f8",
+      "source_sha256": "7daf9d090939235805a0c88a8e135872717877050eb61e6aae6db82b5000c335",
+      "paragraph_changes": 1,
+      "native_math_objects": 0,
+      "physical_tables": 0,
+      "drawings": 0,
+      "protected_signature_unchanged": true,
+      "source_bytes_unchanged": true
+    }
+  ],
+  "new_market_estimates": 0,
+  "new_resamples": 0
+}

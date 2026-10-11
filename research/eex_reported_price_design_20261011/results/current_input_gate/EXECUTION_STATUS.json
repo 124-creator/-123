@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-10-11T07:48:49.493890+00:00",
+  "real_price_model_fits": 0,
+  "scope": "official-reported German EUA subset, not native ticks",
+  "estimates": null,
+  "status": "BLOCKED_INPUT_OR_DIAGNOSTIC",
+  "reason": "Private row file unavailable: official_reported_cutoff_all275.csv",
+  "seconds": 5.708599996978592e-05
+}
