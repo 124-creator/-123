@@ -1,0 +1,82 @@
+name: EEX reported-price design and v8.2 review documents
+on:
+  push:
+    branches: [eex-reported-price-design-20261011]
+    paths:
+      - 'research/eex_reported_price_design_20261011/source_payload/**'
+      - '.github/workflows/eex-reported-price-design-20261011.yml'
+permissions:
+  contents: write
+jobs:
+  reviewed-delivery:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      R: research/eex_reported_price_design_20261011
+      P: paper/eex_reported_price_v8_2_20261011
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: eex-reported-price-design-20261011
+          fetch-depth: 1
+      - name: Verify reviewed sources and unchanged input manifests
+        run: |
+          python3 "$R/source_payload/materialize.py"
+          python3 -B scripts/verify_repository.py > "$R/results/REPOSITORY_MANIFEST_CHECK.json"
+      - name: Install synthetic-test and document-only dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-croscore fonts-liberation libreoffice-writer pandoc python3-venv
+          python3 -m venv /tmp/eex-reported-env
+          /tmp/eex-reported-env/bin/pip install --disable-pip-version-check -r "$R/requirements.txt"
+      - name: Run only artificial statistical validation tests
+        run: |
+          (cd "$R/code" && /tmp/eex-reported-env/bin/python -B -m unittest -v test_reported_price) > "$R/results/CI_SYNTHETIC_NORMAL.log" 2>&1
+          (cd "$R/code" && /tmp/eex-reported-env/bin/python -B -O -m unittest -v test_reported_price) > "$R/results/CI_SYNTHETIC_OPTIMIZED.log" 2>&1
+      - name: Edit only reviewed paragraphs while protecting equations and all numeric tables
+        run: |
+          /tmp/eex-reported-env/bin/python -B "$R/code/revise_v8_2.py" --source-root . --out "$P" --plan "$R/REVISION_PLAN.json"
+          /tmp/eex-reported-env/bin/python - <<'PY'
+          from pathlib import Path
+          import os,re,subprocess,json,hashlib
+          p=Path(os.environ['P']);r=Path(os.environ['R'])
+          docs=[('MANUSCRIPT_EN_v8_2.docx','MANUSCRIPT_EN.md','Bid and award dispersion in European carbon auctions'),('ONLINE_RESOURCE_1_v8_2.docx','ONLINE_RESOURCE_1.md','Online Resource 1'),('TITLE_PAGE_v8_2.docx','TITLE_PAGE.md','Title page')]
+          for src,dest,title in docs:
+              s=subprocess.check_output(['pandoc',str(p/src),'-t','markdown','--wrap=none'],text=True)
+              if not s.startswith('# '):s='# '+title+'\n\n'+s
+              s=re.sub(r'media/image(\d+)\.png',lambda m:'figures/Fig'+m[1]+'.png',s)
+              (p/dest).write_text(s)
+          m=json.loads((r/'results/SOURCE_MATERIALIZATION.json').read_text())
+          for path,h in m['source_hashes'].items():
+              if hashlib.sha256(Path(path).read_bytes()).hexdigest()!=h:raise ValueError('Reviewed source changed in build: '+path)
+          receipt={'scope':'synthetic validation and document build, not real price fitting','new_real_price_fits':0,'new_market_resamples':0,'private_official_price_rows_available':False,'synthetic_tests_each_mode':17,'reviewed_source_hashes_passed':True,'source_commit':os.environ['GITHUB_SHA'],'documents':{src:hashlib.sha256((p/src).read_bytes()).hexdigest() for src,_,_ in docs}}
+          (r/'results/CI_BUILD_RECEIPT.json').write_text(json.dumps(receipt,indent=2))
+          PY
+      - name: Produce journal-style PDF supplement
+        run: |
+          mkdir -p /tmp/eex-reported-pdf /tmp/eex-reported-lohome
+          HOME=/tmp/eex-reported-lohome timeout 240 libreoffice -env:UserInstallation=file:///tmp/eex-reported-profile --headless --convert-to pdf --outdir /tmp/eex-reported-pdf "$P/ONLINE_RESOURCE_1_v8_2.docx"
+          test -s /tmp/eex-reported-pdf/ONLINE_RESOURCE_1_v8_2.pdf
+          cp /tmp/eex-reported-pdf/ONLINE_RESOURCE_1_v8_2.pdf "$P/ESM_1.pdf"
+      - name: Publish only new review directories to dedicated branch
+        run: |
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git ls-remote origin refs/heads/eex-reported-price-design-20261011 | cut -f1)" = "$GITHUB_SHA"
+          find "$R" "$P" -type d -name __pycache__ -prune -exec rm -rf '{}' +
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "$R" "$P"
+          if git diff --cached --name-only | grep -Ev '^(research/eex_reported_price_design_20261011/|paper/eex_reported_price_v8_2_20261011/)'; then exit 1; fi
+          git commit -m 'research: publish corrected E2 protocol, validated synthetic implementation and v8.2 author review'
+          git push origin HEAD:refs/heads/eex-reported-price-design-20261011
+      - name: Package documents and audit receipts for independent readback
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: eex-reported-price-design-v8-2
+          retention-days: 7
+          path: |
+            paper/eex_reported_price_v8_2_20261011/**
+            research/eex_reported_price_design_20261011/**
+            !research/eex_reported_price_design_20261011/source_payload/**
