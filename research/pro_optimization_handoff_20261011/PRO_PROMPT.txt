@@ -1,4 +1,6 @@
-请作为独立计量研究审稿人和英文论文编辑，基于已经完成的真实本机价格实验修改论文。最新任务以同分支research/eua_local_price_execution_20261011/PRO_NEXT_PROMPT_ZH.txt为准；不是重新设计模型、编造结果或宣布录用。
+请作为独立计量研究审稿人和英文论文编辑，基于已经完成的真实本机价格实验修改论文。最新任务以同分支research/eua_price_description_followup_20261011/PRO_INTEGRATION_PROMPT_ZH.txt为准，先读取其WEB_READER_LINKS.json；不是重新设计模型、编造结果或宣布录用。
+
+本次补充：真实价格描述表已经完成；240场主样本有符号均值−2.80、中位数−7.00基点，绝对偏离均值33.51、中位数25.00基点，142负/92正/6报告零。三个既定样本的完整精度在新目录DESCRIPTIVES.csv。来源定义检查没有在已读方法文本中找到明确分母公式，继续使用官方所报符号而非折价标签。这不再是等待补表或重新下载数据的阶段；必须实际整合完整正文与补充材料，审查意见仅服务改稿。
 
 最新补件：research/eua_local_price_execution_20261011/包含固定协议、真实列名映射、四项固定价格分析、999抽受限wild-cluster结果、季度jackknife、六次逐年删除及独立数值核验。新实验已实际运行，不再声称待估计。2026Q1/Q2另有22场已取得但未用于本轮拟合。先读该目录START_HERE_ZH.txt、PRICE_RESULT_TABLE.csv、results/RESULTS.json、NUMERICAL_VERIFICATION.json和PRICE_RESULTS_FOR_MANUSCRIPT_EN.md。
 

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "assessment_time": "2026-10-11T19:37:06.542566+08:00",
+  "user_authorized_github_publication": true,
+  "current_task": "Complete price-result manuscript integration and bounded experiment/code review",
+  "additional_market_data_needed_for_current_task": false,
+  "reason": "Fixed actual-input regression results and the missing descriptive context have both been computed; the remaining sign/denominator wording boundary can be reported without inventing a formula or acquiring tick data.",
+  "new_downloads_in_this_followup": 0,
+  "new_market_fits_in_this_followup": 0,
+  "held_private_inputs": {
+    "historical_report_quarters": 24,
+    "historical_report_rows": 275,
+    "strict_primary_rows": 240,
+    "no_row_flag_rows": 203,
+    "best_bid_rows": 236,
+    "quarantined_historical_rows": 35,
+    "separate_2026_H1_rows_not_fitted": 22,
+    "native_tick_rows": 0
+  },
+  "public_material_available": {
+    "actual_price_result_commit": "fccd471de96548bd781c59aced4a59435aae08ac",
+    "description_table": "DESCRIPTIVES.csv; six aggregate descriptions for three fixed sample sets and signed/absolute outcomes",
+    "source_definition": "SOURCE_DEFINITION_CHECK.json; 24 source/page locators and short definition quotations",
+    "price_codes_and_tests": "research/eua_local_price_execution_20261011",
+    "already_public_quantity_inputs": "research/pro_review_20261010/full_data/README.md",
+    "manuscript_basis_commit": "955f694ccc76396e5af90166da8a921cd210a104"
+  },
+  "not_republished": [
+    "Government original report PDFs with unconfirmed bulk redistribution scope",
+    "Row-level reported-price comparison panels",
+    "Restricted or proprietary native quote data"
+  ],
+  "reproduction_boundary": "Public aggregates support reading, arithmetic audit, code review and manuscript editing. Independent refitting still requires the held row-level inputs; it is not represented as available to the web reviewer.",
+  "bounded_next_data_request_fields": [
+    "Economic question or concrete implementation defect",
+    "Exact fields/product/reference/time/sample",
+    "Why it changes the decision rather than duplicates an existing check",
+    "Candidate lawful public source",
+    "Maximum acquisition/model budget and stop rule",
+    "Permitted raw or aggregate publication scope"
+  ],
+  "source_access_policy": "No purchase, credential guessing, login-wall circumvention, CAPTCHA bypass or retry through aliases of denied targets; do not impute missing observations as zero.",
+  "not_blockers_for_current_integration": [
+    "Additional native tick retrieval",
+    "Re-downloading the held 24 quarterly reports",
+    "New algorithms or significance-driven window searches",
+    "A denominator formula not found in examined method text; retain official signed wording instead."
+  ]
+}

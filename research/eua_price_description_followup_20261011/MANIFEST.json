@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "recorded_after_file_reads": "2026-10-11T19:37:07.922571+08:00",
+  "scope": "Authorized GitHub aggregate-description/code/source-definition/manuscript handoff; no row-price originals",
+  "publication_scope": "PUBLIC_AGGREGATE_HANDOFF; remote success verified separately after push",
+  "fixed_price_result_commit": "fccd471de96548bd781c59aced4a59435aae08ac",
+  "new_market_fits_this_followup": 0,
+  "files": [
+    {
+      "path": "code/describe_reported_prices.py",
+      "bytes": 5033,
+      "sha256": "2c10ce09004d9efb36cae937d67f8ee1f1d3a44f1b89c23817843100469d0a74"
+    },
+    {
+      "path": "code/test_describe.py",
+      "bytes": 1352,
+      "sha256": "c42f876fa9ede8f5583cbdfd5f2adf83fa8b9d02e7b1a738a292793521d17298"
+    },
+    {
+      "path": "DATA_NEEDS_AND_ACQUISITION_STATUS.json",
+      "bytes": 2819,
+      "sha256": "48f464d26ecd3fa4cdbd43e33c1f48559426c5cf1d3383d527e7a213661492c0"
+    },
+    {
+      "path": "DESCRIPTIVE_VERIFICATION.json",
+      "bytes": 150,
+      "sha256": "33a6141565986ef3b1c76f64c44c30120cf04e1ea0415a6c8474438b00f62515"
+    },
+    {
+      "path": "DESCRIPTIVES.csv",
+      "bytes": 1048,
+      "sha256": "242cb38fd42ce122b7da0c2da97fc51834e8fa90f545a4e61cd9dbe0268dd243"
+    },
+    {
+      "path": "DESCRIPTIVES.json",
+      "bytes": 4323,
+      "sha256": "b8c4bb212d49a42216fd93a8ff5b5f5f945740fbc7b39d21fa869887eafff923"
+    },
+    {
+      "path": "FINAL_DESCRIPTIVE_VERIFICATION.json",
+      "bytes": 581,
+      "sha256": "856eff35082f71641bc46532c691cc373886224c9670922fd1ca7edc9783ce00"
+    },
+    {
+      "path": "METHOD_AND_CONTEXT_INSERT_EN.md",
+      "bytes": 3559,
+      "sha256": "532364ebc62b3d90e152db392aca77b49bc7f7ce3307b3183a723fa4a3051704"
+    },
+    {
+      "path": "PRO_INTEGRATION_PROMPT_ZH.txt",
+      "bytes": 3357,
+      "sha256": "af35afe81b693ef251129a3f1a6eec01a3feac5ff1515de237765fb7d3bfcce0"
+    },
+    {
+      "path": "REMOTE_HEADS_RECEIPT.json",
+      "bytes": 1364,
+      "sha256": "1576a8fef0bd57aeec0cf45c7826099999e4d8e89c8a901b148578c892c5f9ef"
+    },
+    {
+      "path": "SOURCE_DEFINITION_CHECK.json",
+      "bytes": 17899,
+      "sha256": "db38067e26e05e242623d695de2352d9dea65bd7249925589fb8d5500bbec3b5"
+    },
+    {
+      "path": "START_HERE_ZH.txt",
+      "bytes": 4119,
+      "sha256": "60cbe6afd372f626698617f25cc1efcbe5c9db81c633b1ca546b075ed1ec18a2"
+    },
+    {
+      "path": "tests/DESCRIPTIVE_TEST_NORMAL.log",
+      "bytes": 223,
+      "sha256": "dd5f61d8b73aa48b8f0e363eb60ac0a2e274861f2b7f5b37deb22a0cec462bbd"
+    },
+    {
+      "path": "tests/DESCRIPTIVE_TEST_OPTIMIZED.log",
+      "bytes": 223,
+      "sha256": "2abcb08874247d49d03808da150e5781b651e9d6b6ae711bde05c89a43b9776a"
+    },
+    {
+      "path": "UNCHANGED_INPUTS_AND_RESULTS.json",
+      "bytes": 416,
+      "sha256": "248a0da7e4cb69cc6ca549c22ae1bbb8f1a8cf13674b1e23b522e9509a2ab8b4"
+    },
+    {
+      "path": "WEB_READER_LINKS.json",
+      "bytes": 9365,
+      "sha256": "35c6a503dd34f659495618bd4cbba5696ea8adec1374987a8e93f7a4152adcd5"
+    }
+  ],
+  "manifest_excludes_itself": true
+}

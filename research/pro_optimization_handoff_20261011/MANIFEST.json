@@ -1,21 +1,26 @@
 {
   "schema_version": 1,
-  "scope": "Verified aggregate local price results, code and current Pro instructions; not private row data",
+  "recorded_after_file_reads": "2026-10-11T19:37:09.292441+08:00",
+  "scope": "Authorized GitHub aggregate-description/code/source-definition/manuscript handoff; no row-price originals",
+  "publication_scope": "PUBLIC_AGGREGATE_HANDOFF; remote success verified separately after push",
+  "fixed_price_result_commit": "fccd471de96548bd781c59aced4a59435aae08ac",
+  "new_market_fits_this_followup": 0,
   "files": [
     {
       "path": "CURRENT_STATE.json",
-      "bytes": 3238,
-      "sha256": "8fe0e49ddf7bd41a6ff2fa23e02c618a32f463cdf0eef5dd65c3a647348be125"
+      "bytes": 3771,
+      "sha256": "0659740c907c6fcac540f2a263fcae7784db95811795f529dc887a3ca058624f"
     },
     {
       "path": "PRO_PROMPT.txt",
-      "bytes": 4074,
-      "sha256": "5ee71295d34eaf6dbb85353cfdbe90fcd8de40a7836b8247910fa2e798254902"
+      "bytes": 4640,
+      "sha256": "8ad7f94ff53055ac5783d431d7aba59c3d03f412655847fac258d69437fc9994"
     },
     {
       "path": "START_HERE_ZH.txt",
-      "bytes": 4104,
-      "sha256": "4a5fa0461417f59e0472830d86a00d6ba61d5ebcfde78a175bcea28c04da381d"
+      "bytes": 4786,
+      "sha256": "d34caa8dbe2556647335d805de85e5e022b0879ef52f3e681e880e5b13d88702"
     }
-  ]
+  ],
+  "manifest_excludes_itself": true
 }

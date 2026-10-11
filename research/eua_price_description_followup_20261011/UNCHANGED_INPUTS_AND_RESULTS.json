@@ -1,0 +1,18 @@
+{
+  "recorded_after_checks": "2026-10-11T19:15:42.293290+08:00",
+  "sets": [
+    {
+      "object_set": "original_full24",
+      "files_checked": 55,
+      "unchanged": true
+    },
+    {
+      "object_set": "frozen_fccd471_price_result_package",
+      "files_checked": 29,
+      "unchanged": true
+    }
+  ],
+  "new_market_fits": 0,
+  "reported_zero_count": 6,
+  "zero_tokens_reviewed_in_source_line_literals": true
+}

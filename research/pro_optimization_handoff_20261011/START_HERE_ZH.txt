@@ -1,5 +1,7 @@
 Pro实验审查与论文优化：当前唯一交接入口（2026-10-11）
 
+最新描述与正文整合补件：先读research/eua_price_description_followup_20261011/START_HERE_ZH.txt、PRO_INTEGRATION_PROMPT_ZH.txt及WEB_READER_LINKS.json。240/203/236三个固定样本的六行有符号/绝对描述已由真实行值生成并独立核对；还包括官方符号定义检查和英文背景段落。现在应交付完整论文和补充材料，而不只是再给一次“允许整合”的评审。该补件没有新增回归；原价格结果仍固定于fccd471de96548bd781c59aced4a59435aae08ac。若需新数据，先明确会改变判断的一项缺口，由本机依法获取和核验后公开适宜资料；不要重复下载已完成的24季度。
+
 当前执行状态已更新：先读同分支research/eua_local_price_execution_20261011/START_HERE_ZH.txt及PRO_NEXT_PROMPT_ZH.txt。真实240场价格回归、三个固定敏感性、季度jackknife和六次逐年删除已在本机完成；独立数值核对通过。下述早期资料与固定v8用于追溯，不得再写“价格实验未运行”。新结果和可直接整合的英文段落已公开，完整Word稿本轮尚未合并，原v8保持不变。
 
 数据基础：research/eua_data_extension_20261011/记录7原始对照字段、2派生字段和2026H1新增22场的取得；历史240场主样本不变，2026扩展本轮未拟合。早bid/晚award目标差异已在首次价格拟合前明确采用投标数量报告分散比值与有符号偏差；具体基准、诊断及实现差异以新执行目录的PROTOCOL_LOCK_BEFORE_FIT.md为准。

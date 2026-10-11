@@ -1,0 +1,11 @@
+{
+  "recorded_after_actual_checks": "2026-10-11T19:25:07.746335+08:00",
+  "artificial_test_methods_per_mode": 1,
+  "normal_and_optimized_passed": true,
+  "actual_summary_rows_equal_in_both_modes": 6,
+  "local_and_prepared_code_bytes_equal": true,
+  "independent_numpy_summary_rows_verified": 6,
+  "new_market_fits": 0,
+  "publication_status_at_recorded_verification": "LOCAL_PREPARED_NOT_COMMITTED_NOT_PUSHED",
+  "status_scope": "Historical pre-publication arithmetic verification only; current delivery is determined by the actual GitHub commit and subsequent remote readback."
+}

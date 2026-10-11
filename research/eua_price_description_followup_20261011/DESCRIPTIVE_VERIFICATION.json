@@ -1,0 +1,1 @@
+{"passed": true, "summary_rows_checked": 6, "independent_method": "NumPy direct mean/std(ddof=1)/linear quantile on held CSVs", "new_market_fits": 0}

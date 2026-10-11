@@ -1,6 +1,13 @@
 {
   "checked_at": "2026-10-11T17:10:36.998440+08:00",
   "current_execution_directory": "research/eua_local_price_execution_20261011",
+  "description_followup_directory": "research/eua_price_description_followup_20261011",
+  "current_pro_task": "Integrate full manuscript and supplement using fixed price results plus verified actual-input descriptions; not review-only approval",
+  "price_result_verified_commit": "fccd471de96548bd781c59aced4a59435aae08ac",
+  "description_followup_new_regressions": 0,
+  "description_followup_summary_rows": 6,
+  "additional_market_download_required_for_current_integration": false,
+  "additional_market_downloads_this_followup": 0,
   "execution_protocol": "research/eua_local_price_execution_20261011/PROTOCOL_LOCK_BEFORE_FIT.md",
   "price_execution_status": "COMPLETED_EXPLORATORY; independently verified on local actual inputs",
   "source_program_and_v8_2_commit": "955f694ccc76396e5af90166da8a921cd210a104",

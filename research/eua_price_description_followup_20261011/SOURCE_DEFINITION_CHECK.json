@@ -1,0 +1,238 @@
+{
+  "recorded_after_actual_local_pdf_reads": "2026-10-11T19:15:41.229065+08:00",
+  "reports_checked": 24,
+  "scope": "All 24 stored PDFs hash/length checked and native text searched; Table-4 explanatory paragraphs located and their target-definition phrases checked programmatically, with earliest/latest complete method paragraphs additionally read. Not a new source download, native quote audit, or word-for-word review of every report page. No absence claim is made about equations outside the examined text or rendered as images.",
+  "short_quote_count": 24,
+  "source_definition_findings": {
+    "target_in_prose": "Deviation of auction clearing prices from the secondary-market reference",
+    "observed_signed_columns": true,
+    "explicit_subtraction_and_percentage_denominator_formula": "not located in the examined method text",
+    "denominator_certification": "unknown; no formula inferred by reverse-solving rounded EUR and percentage rows",
+    "permitted_result_phrase": "lower official-reported signed deviation",
+    "not_newly_authorized_terms": [
+      "larger auction discount",
+      "causal price reduction",
+      "efficiency improvement"
+    ],
+    "blocks_existing_fixed_reported_outcome_regression": false
+  },
+  "sources": [
+    {
+      "report": "official_reports/2020_Q1.pdf",
+      "sha256": "88ca6700b4bc9a14fe37d0dcc5b42a868724e2064f93beb3cca385b2b83f70ce",
+      "source_url": "https://climate.ec.europa.eu/system/files/2020-06/ger_report_202003_en.pdf",
+      "page_1based": 13,
+      "short_literal_quote_whitespace_normalized": "relative deviations of the auction clearing price from the secondary market",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2020_Q2.pdf",
+      "sha256": "18404124394c3473e50c7723cc9b23b2afc7c2eb70210a9c75475b5279ad713d",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2020/2020_Bericht_Q2.pdf?__blob=publicationFile&v=3",
+      "page_1based": 14,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2020_Q3.pdf",
+      "sha256": "8973dd7a70c29c6bbc8fe0b62bac781e35341aabe967839650e41ff6b0073815",
+      "source_url": "https://climate.ec.europa.eu/document/download/2ce5a6a2-bb40-4538-8569-c40c877154e0_en",
+      "page_1based": 14,
+      "short_literal_quote_whitespace_normalized": "relative deviations of the auction clearing price from the secondary market",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2020_Q4.pdf",
+      "sha256": "a4d3cff595c478fbc6c9c823d3704a18f27ff65ccfc2aebb698b3ad00377df43",
+      "source_url": "https://climate.ec.europa.eu/document/download/4fc4af05-7acd-4ce4-b007-41c67b399411_en",
+      "page_1based": 15,
+      "short_literal_quote_whitespace_normalized": "relative deviations of the auction clearing price from the secondary market",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2021_Q1.pdf",
+      "sha256": "8a81ef595cea3e99ddcf11b004aa4aa015e6393ef1e579c48371a7e10d88313b",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2021/2021_Bericht_Q1.pdf?__blob=publicationFile&v=3",
+      "page_1based": 13,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2021_Q2.pdf",
+      "sha256": "305310fc065b411abf35b849b8b9b9206f7799d07cf97601b2d8878bfc86cdc3",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2021/2021_Bericht_Q2.pdf?__blob=publicationFile&v=3",
+      "page_1based": 14,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2021_Q3.pdf",
+      "sha256": "ce8e1d879bc9b7dd61a94a1218d40bc66b666a9fd9792dd54a387744b3a0de72",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2021/2021_Bericht_Q3.pdf?__blob=publicationFile&v=3",
+      "page_1based": 15,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2021_Q4.pdf",
+      "sha256": "9bf60593fb5d56ab91908ae78c2e8ec057ea8cecabe17725905eae99875aba3d",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2021/2021_Bericht_Q4.pdf?__blob=publicationFile&v=3",
+      "page_1based": 16,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2022_Q1.pdf",
+      "sha256": "ee197fe3586fc8c4a6ec5f19750bc93f417f6784763c7de350dec85c7945a2e1",
+      "source_url": "https://openumwelt.de/server/api/core/bitstreams/f21a9a64-169a-4fef-bcce-d1cb0758d128/content",
+      "page_1based": 13,
+      "short_literal_quote_whitespace_normalized": "relative deviations of the auction clearing price from the secondary market",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2022_Q2.pdf",
+      "sha256": "7eaeac0d54e154dd8a52050ef5d214cffe65dd7644e35bfca3e9d6efbf93809f",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2022/2022_Bericht_Q2.pdf?__blob=publicationFile&v=3",
+      "page_1based": 14,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2022_Q3.pdf",
+      "sha256": "35ad3ae9fc18f7ef58568905379021d2d2f971e4cfa7f286b051583e8c1b5183",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2022/2022_Bericht_Q3.pdf?__blob=publicationFile&v=3",
+      "page_1based": 15,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2022_Q4.pdf",
+      "sha256": "f8c0fc6586d7fd5d395c33576903cf02f3fce4171b239cfc1521ecffbc3f2dd0",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2022/2022_Bericht_Q4.pdf?__blob=publicationFile&v=3",
+      "page_1based": 15,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2023_Q1.pdf",
+      "sha256": "d1b1d35a35c25c50151b7f457e9e90dd79cc5261024fbf12eea24ff93b1fb3a9",
+      "source_url": "http://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2023/2023_Bericht_Q1.pdf?__blob=publicationFile&v=4",
+      "page_1based": 13,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2023_Q2.pdf",
+      "sha256": "a1eb563fe06cc8ab2df3f8daf09be601eefda3239a648eeaba598a265c4a5b4c",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2023/2023_Bericht_Q2.pdf?__blob=publicationFile&v=3",
+      "page_1based": 13,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2023_Q3.pdf",
+      "sha256": "f4f5d9eeba1f6b9d751c7e06d8f4274119094a00177f9a825fdbd2e127e821a5",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2023/2023_Bericht_Q3.pdf?__blob=publicationFile&v=3",
+      "page_1based": 14,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2023_Q4.pdf",
+      "sha256": "41bfbbc845bdaf08516f5ebe9cf660cd76d0a39b7d66989223f00e7719f86fb1",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2023/2023_Bericht_Q4.pdf?__blob=publicationFile&v=3",
+      "page_1based": 15,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2024_Q1.pdf",
+      "sha256": "97bdf78460d429d8cbd642f907b4e5debe471bdd8df526c6da3dad2afa287ea3",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2024/2024_Bericht_Q1.pdf?__blob=publicationFile&v=3",
+      "page_1based": 13,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2024_Q2.pdf",
+      "sha256": "8878045646824e00ade8d5c732c439d61c92b24f8b98b8dc91e2a41a1835d6db",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2024/2024_Bericht_Q2.pdf?__blob=publicationFile&v=7",
+      "page_1based": 14,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2024_Q3.pdf",
+      "sha256": "bc14c7b53b96ab6cfdb92fe05df757850643e055bdb2f066948ef7aabd092f92",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2024/2024_Bericht_Q3.pdf?__blob=publicationFile&v=3",
+      "page_1based": 14,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2024_Q4.pdf",
+      "sha256": "d4994cc9d506d9cc9655361637278fd7c936dc054dd6e69c033f037b21154fce",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2024/2024_Bericht_Q4.pdf?__blob=publicationFile&v=3",
+      "page_1based": 15,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2025_Q1.pdf",
+      "sha256": "d7b6ae27cd6d9cf035b33aab142964d80a3b555ef4a2896d67b91fdd8cdf9459",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2025/2025_Bericht_Q1.pdf?__blob=publicationFile&v=3",
+      "page_1based": 14,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2025_Q2.pdf",
+      "sha256": "bfdf0ec424e9100634164c879e89acc928c065ced23a9e357ef05c757445f008",
+      "source_url": "https://dehst.de/SharedDocs/downloads/DE/versteigerung/2025/2025_Bericht_Q2.pdf?__blob=publicationFile&v=5",
+      "page_1based": 15,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2025_Q3.pdf",
+      "sha256": "4d1b03ec5305846f5b4938f7a67da566028ece8e244c9df3a9eebc4989ae0fc3",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2025/2025_Bericht_Q3.pdf?__blob=publicationFile&v=3",
+      "page_1based": 15,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    },
+    {
+      "report": "official_reports/2025_Q4.pdf",
+      "sha256": "20591efde24f5834ca78b8f1b790a03c198fc6f77c64ba95ef43972e76c7f452",
+      "source_url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2025/2025_Bericht_Q4.pdf?__blob=publicationFile&v=3",
+      "page_1based": 16,
+      "short_literal_quote_whitespace_normalized": "relativen Abweichungen der Auktions-Zuschlagspreise vom Sekundärmarkt",
+      "supported_definition": "Auction clearing price deviations from a secondary-market reference are described in words; the original signed table percentages are the analysis outcome.",
+      "explicit_numerator_denominator_equation_found_in_examined_text": false
+    }
+  ],
+  "new_market_fits": 0
+}

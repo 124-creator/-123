@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "recorded_after_git_object_checks": "2026-10-11T19:37:05.138307+08:00",
+  "current_supplement": "Read this directory at the actual commit provided by the user; same-commit relative paths avoid a self-referential commit hash.",
+  "same_directory_reading_order": [
+    "START_HERE_ZH.txt",
+    "PRO_INTEGRATION_PROMPT_ZH.txt",
+    "DESCRIPTIVES.csv",
+    "DESCRIPTIVES.json",
+    "SOURCE_DEFINITION_CHECK.json",
+    "METHOD_AND_CONTEXT_INSERT_EN.md",
+    "DATA_NEEDS_AND_ACQUISITION_STATUS.json",
+    "DESCRIPTIVE_VERIFICATION.json",
+    "FINAL_DESCRIPTIVE_VERIFICATION.json",
+    "MANIFEST.json"
+  ],
+  "fixed_existing_objects": [
+    {
+      "role": "fixed_price_results",
+      "commit": "fccd471de96548bd781c59aced4a59435aae08ac",
+      "path": "research/eua_local_price_execution_20261011/results/RESULTS.json",
+      "github_url": "https://github.com/124-creator/-123/blob/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/results/RESULTS.json",
+      "raw_url": "https://raw.githubusercontent.com/124-creator/-123/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/results/RESULTS.json",
+      "git_object_bytes": 16957,
+      "sha256": "f5c176d25d0cf06c61d7d2d0b40839a7c99532a6cd145cb6bafd18623a1cdbe9",
+      "verification_scope": "Existing exact git blob located; document existence/bytes, not a new whole-manuscript review."
+    },
+    {
+      "role": "fixed_price_table",
+      "commit": "fccd471de96548bd781c59aced4a59435aae08ac",
+      "path": "research/eua_local_price_execution_20261011/PRICE_RESULT_TABLE.csv",
+      "github_url": "https://github.com/124-creator/-123/blob/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/PRICE_RESULT_TABLE.csv",
+      "raw_url": "https://raw.githubusercontent.com/124-creator/-123/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/PRICE_RESULT_TABLE.csv",
+      "git_object_bytes": 959,
+      "sha256": "1f097dafabcf5d5123624df64897fbe237b32ee2b8a33fe0a9a75a7aabd84e3b",
+      "verification_scope": "Existing exact git blob located; document existence/bytes, not a new whole-manuscript review."
+    },
+    {
+      "role": "fixed_english_insertion",
+      "commit": "fccd471de96548bd781c59aced4a59435aae08ac",
+      "path": "research/eua_local_price_execution_20261011/PRICE_RESULTS_FOR_MANUSCRIPT_EN.md",
+      "github_url": "https://github.com/124-creator/-123/blob/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/PRICE_RESULTS_FOR_MANUSCRIPT_EN.md",
+      "raw_url": "https://raw.githubusercontent.com/124-creator/-123/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/PRICE_RESULTS_FOR_MANUSCRIPT_EN.md",
+      "git_object_bytes": 5128,
+      "sha256": "3a2dc4a3208d957140c8dcc05fc850c0d99c34f4a7d1be1651f788702f8b33ba",
+      "verification_scope": "Existing exact git blob located; document existence/bytes, not a new whole-manuscript review."
+    },
+    {
+      "role": "fixed_protocol",
+      "commit": "fccd471de96548bd781c59aced4a59435aae08ac",
+      "path": "research/eua_local_price_execution_20261011/PROTOCOL_LOCK_BEFORE_FIT.md",
+      "github_url": "https://github.com/124-creator/-123/blob/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/PROTOCOL_LOCK_BEFORE_FIT.md",
+      "raw_url": "https://raw.githubusercontent.com/124-creator/-123/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/PROTOCOL_LOCK_BEFORE_FIT.md",
+      "git_object_bytes": 6403,
+      "sha256": "0cdeba8e6a984feafe7336274e6f61f5d5bc423d03eab8c5d628f0198daf64de",
+      "verification_scope": "Existing exact git blob located; document existence/bytes, not a new whole-manuscript review."
+    },
+    {
+      "role": "fixed_main_code",
+      "commit": "fccd471de96548bd781c59aced4a59435aae08ac",
+      "path": "research/eua_local_price_execution_20261011/code/run_official_reported_price.py",
+      "github_url": "https://github.com/124-creator/-123/blob/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/code/run_official_reported_price.py",
+      "raw_url": "https://raw.githubusercontent.com/124-creator/-123/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/code/run_official_reported_price.py",
+      "git_object_bytes": 19563,
+      "sha256": "17b858762ac9c4b3e3a83da7506bddcd29c42846e53fd11149875b034e208581",
+      "verification_scope": "Existing exact git blob located; document existence/bytes, not a new whole-manuscript review."
+    },
+    {
+      "role": "fixed_verification",
+      "commit": "fccd471de96548bd781c59aced4a59435aae08ac",
+      "path": "research/eua_local_price_execution_20261011/NUMERICAL_VERIFICATION.json",
+      "github_url": "https://github.com/124-creator/-123/blob/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/NUMERICAL_VERIFICATION.json",
+      "raw_url": "https://raw.githubusercontent.com/124-creator/-123/fccd471de96548bd781c59aced4a59435aae08ac/research/eua_local_price_execution_20261011/NUMERICAL_VERIFICATION.json",
+      "git_object_bytes": 1745,
+      "sha256": "1766c8976c8ba757c07e68f8a282c4b3b043048eef6a2ee2aac76d6e2624451f",
+      "verification_scope": "Existing exact git blob located; document existence/bytes, not a new whole-manuscript review."
+    },
+    {
+      "role": "manuscript_markdown",
+      "commit": "955f694ccc76396e5af90166da8a921cd210a104",
+      "path": "paper/eex_reported_price_v8_2_20261011/MANUSCRIPT_EN.md",
+      "github_url": "https://github.com/124-creator/-123/blob/955f694ccc76396e5af90166da8a921cd210a104/paper/eex_reported_price_v8_2_20261011/MANUSCRIPT_EN.md",
+      "raw_url": "https://raw.githubusercontent.com/124-creator/-123/955f694ccc76396e5af90166da8a921cd210a104/paper/eex_reported_price_v8_2_20261011/MANUSCRIPT_EN.md",
+      "git_object_bytes": 48367,
+      "sha256": "62ef8fd85a354196be91058183130945d4c07decf440523ea1827a01b6645f2f",
+      "verification_scope": "Existing exact git blob located; document existence/bytes, not a new whole-manuscript review."
+    },
+    {
+      "role": "supplement_markdown",
+      "commit": "955f694ccc76396e5af90166da8a921cd210a104",
+      "path": "paper/eex_reported_price_v8_2_20261011/ONLINE_RESOURCE_1.md",
+      "github_url": "https://github.com/124-creator/-123/blob/955f694ccc76396e5af90166da8a921cd210a104/paper/eex_reported_price_v8_2_20261011/ONLINE_RESOURCE_1.md",
+      "raw_url": "https://raw.githubusercontent.com/124-creator/-123/955f694ccc76396e5af90166da8a921cd210a104/paper/eex_reported_price_v8_2_20261011/ONLINE_RESOURCE_1.md",
+      "git_object_bytes": 33479,
+      "sha256": "e7186eca66e77e0383f90fbd831d3524f55261227de02a9bbe965a7b672fff0b",
+      "verification_scope": "Existing exact git blob located; document existence/bytes, not a new whole-manuscript review."
+    },
+    {
+      "role": "manuscript_word",
+      "commit": "955f694ccc76396e5af90166da8a921cd210a104",
+      "path": "paper/eex_reported_price_v8_2_20261011/MANUSCRIPT_EN_v8_2.docx",
+      "github_url": "https://github.com/124-creator/-123/blob/955f694ccc76396e5af90166da8a921cd210a104/paper/eex_reported_price_v8_2_20261011/MANUSCRIPT_EN_v8_2.docx",
+      "raw_url": "https://raw.githubusercontent.com/124-creator/-123/955f694ccc76396e5af90166da8a921cd210a104/paper/eex_reported_price_v8_2_20261011/MANUSCRIPT_EN_v8_2.docx",
+      "git_object_bytes": 763877,
+      "sha256": "ca7d885b16aae4986f2975e652e1f1e0cdedfcec33abfe870917f49e7cca7504",
+      "verification_scope": "Existing exact git blob located; document existence/bytes, not a new whole-manuscript review."
+    },
+    {
+      "role": "supplement_word",
+      "commit": "955f694ccc76396e5af90166da8a921cd210a104",
+      "path": "paper/eex_reported_price_v8_2_20261011/ONLINE_RESOURCE_1_v8_2.docx",
+      "github_url": "https://github.com/124-creator/-123/blob/955f694ccc76396e5af90166da8a921cd210a104/paper/eex_reported_price_v8_2_20261011/ONLINE_RESOURCE_1_v8_2.docx",
+      "raw_url": "https://raw.githubusercontent.com/124-creator/-123/955f694ccc76396e5af90166da8a921cd210a104/paper/eex_reported_price_v8_2_20261011/ONLINE_RESOURCE_1_v8_2.docx",
+      "git_object_bytes": 29648,
+      "sha256": "c51c72bc1614685634ec4a2f491f228ab473a860ab8a2e3e6ab817eefc292dd6",
+      "verification_scope": "Existing exact git blob located; document existence/bytes, not a new whole-manuscript review."
+    },
+    {
+      "role": "existing_public_quantity_input_entry",
+      "commit": "fccd471de96548bd781c59aced4a59435aae08ac",
+      "path": "research/pro_review_20261010/full_data/README.md",
+      "github_url": "https://github.com/124-creator/-123/blob/fccd471de96548bd781c59aced4a59435aae08ac/research/pro_review_20261010/full_data/README.md",
+      "raw_url": "https://raw.githubusercontent.com/124-creator/-123/fccd471de96548bd781c59aced4a59435aae08ac/research/pro_review_20261010/full_data/README.md",
+      "git_object_bytes": 2429,
+      "sha256": "528a86ec3a19ad4cbaf1663efc06177b8d376ec758993fdcc2b6310af1c7620b",
+      "verification_scope": "Existing exact git blob located; document existence/bytes, not a new whole-manuscript review."
+    }
+  ],
+  "row_level_price_data_published": false,
+  "pro_invoked_by_local_agent": false
+}

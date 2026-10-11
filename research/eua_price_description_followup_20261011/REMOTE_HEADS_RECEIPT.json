@@ -1,0 +1,21 @@
+{
+  "actual_read_at": "2026-10-11T19:11:51.333985+08:00",
+  "git_ls_remote_exit_code": 0,
+  "remote_heads": [
+    "16ab8ff415e51d69b750699f33d62f32c66e0ac4\trefs/heads/eex-abc-experiment-20261010",
+    "b23920a1ed51bdd79428e4ebef5dd1bd2b9607e4\trefs/heads/eex-editorial-v8-20261010",
+    "89d3ac3beba670838d4b62b1209f6f3412753f19\trefs/heads/eex-evidence-strengthening-20261010",
+    "fbdf1ca0de2721ffc6c8635f1ff8c7ef54dff265\trefs/heads/eex-formula-fix-20261010",
+    "35d8c63fc57173f67eb0bd8bb570eb289188324f\trefs/heads/eex-integrated-v7-20261010",
+    "a1904935f808be23835eef11aa1a6a8548907855\trefs/heads/eex-manuscript-v3-20261010",
+    "a1904935f808be23835eef11aa1a6a8548907855\trefs/heads/eex-manuscript-v4-20261010",
+    "8cc64c63803444334fc70c87e67965ca804f445d\trefs/heads/eex-manuscript-v6-20261010",
+    "fccd471de96548bd781c59aced4a59435aae08ac\trefs/heads/eex-market-data-acquisition-20261011",
+    "6206f191cd22daf0fe9bc45b57fefa2539d3c74b\trefs/heads/eex-price-gate-20261011",
+    "955f694ccc76396e5af90166da8a921cd210a104\trefs/heads/eex-reported-price-design-20261011",
+    "cfce35a4d2ddab44df85c0b0e427333810a192bd\trefs/heads/main",
+    "5745eb3ddca79602346053446583d794b0e09800\trefs/heads/research-handoff-20261010"
+  ],
+  "review_text_source": "User-pasted Pro reply, not independently retrieved PR/issue comment",
+  "new_market_fits": 0
+}
