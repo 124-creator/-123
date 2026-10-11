@@ -1,0 +1,115 @@
+name: EEX v9 integrated price manuscript
+on:
+  push:
+    branches: [eex-price-integrated-v9-20261011]
+    paths:
+      - 'paper/eex_price_integrated_v9_20261011/source_payload/**'
+      - '.github/workflows/eex-v9-integrated-documents.yml'
+permissions:
+  contents: write
+jobs:
+  reviewed-documents:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: eex-price-integrated-v9-20261011
+          fetch-depth: 1
+      - name: Materialize only exact reviewed sources
+        run: python3 paper/eex_price_integrated_v9_20261011/source_payload/materialize.py
+      - name: Prepare pinned public inputs without executing their market code
+        run: |
+          set -eu
+          mkdir -p /tmp/eex-v9-inputs
+          git fetch --depth=1 origin 955f694ccc76396e5af90166da8a921cd210a104
+          git archive 955f694ccc76396e5af90166da8a921cd210a104 paper/eex_reported_price_v8_2_20261011 | tar -x -C /tmp/eex-v9-inputs
+          git fetch --depth=1 origin 33707c164c80accd7acf9fcd3f0965088a8370f6
+          git archive 33707c164c80accd7acf9fcd3f0965088a8370f6 research/eua_price_description_followup_20261011 research/eua_local_price_execution_20261011 research/eua_official_cutoff_pilot_20261011 | tar -x -C /tmp/eex-v9-inputs
+      - name: Install document and public-arithmetic dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-croscore fonts-liberation libreoffice-writer python3-venv
+          python3 -m venv /tmp/eex-v9-venv
+          /tmp/eex-v9-venv/bin/pip install --disable-pip-version-check python-docx==1.2.0 lxml==6.1.1 numpy==2.3.5 scipy==1.17.0
+          curl --fail --location --max-time 120 https://github.com/jgm/pandoc/releases/download/3.1.11.1/pandoc-3.1.11.1-linux-amd64.tar.gz -o /tmp/eex-v9-pandoc.tar.gz
+          tar -xzf /tmp/eex-v9-pandoc.tar.gz -C /tmp
+          sudo install /tmp/pandoc-3.1.11.1/bin/pandoc /usr/local/bin/pandoc
+      - name: Audit public arithmetic and integrate protected document objects
+        run: |
+          set -eu
+          P=paper/eex_price_integrated_v9_20261011
+          A=research/eex_aggregate_review_20261011/AGGREGATE_AUDIT.json
+          /tmp/eex-v9-venv/bin/python -B "$P/tools/audit_public_evidence.py" --root /tmp/eex-v9-inputs --out "$A"
+          /tmp/eex-v9-venv/bin/python -B "$P/tools/build_integrated_v9.py" --source /tmp/eex-v9-inputs/paper/eex_reported_price_v8_2_20261011 --public-root /tmp/eex-v9-inputs --out "$P" --plan "$P/REVISION_PLAN.json"
+          /tmp/eex-v9-venv/bin/python -B "$P/tools/finalize_delivery.py" --paper "$P" --public-root /tmp/eex-v9-inputs --audit "$A"
+      - name: Verify unchanged repository source manifests
+        run: |
+          set -eu
+          test "$(git hash-object scripts/verify_repository.py)" = e279b6a8a8ae7faa42d47533d2fa5e171fad0a22
+          python3 scripts/verify_repository.py > paper/eex_price_integrated_v9_20261011/support/REPOSITORY_SOURCE_QA.json
+          cat paper/eex_price_integrated_v9_20261011/support/REPOSITORY_SOURCE_QA.json
+      - name: Render journal supplement and manuscript PDF previews
+        run: |
+          set -eu
+          P=paper/eex_price_integrated_v9_20261011
+          mkdir -p /tmp/eex-v9-pdf /tmp/eex-v9-home
+          HOME=/tmp/eex-v9-home timeout 240 libreoffice -env:UserInstallation=file:///tmp/eex-v9-lo-profile --headless --convert-to pdf --outdir /tmp/eex-v9-pdf "$P/MANUSCRIPT_EN_v9.docx" "$P/ONLINE_RESOURCE_1_v9.docx" "$P/TITLE_PAGE_v9.docx"
+          cp /tmp/eex-v9-pdf/MANUSCRIPT_EN_v9.pdf "$P/MANUSCRIPT_EN_v9.pdf"
+          cp /tmp/eex-v9-pdf/ONLINE_RESOURCE_1_v9.pdf "$P/ESM_1.pdf"
+          cp /tmp/eex-v9-pdf/TITLE_PAGE_v9.pdf "$P/TITLE_PAGE_v9.pdf"
+      - name: Check remote build against locally reviewed document bytes
+        run: |
+          /tmp/eex-v9-venv/bin/python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,os
+          p=Path('paper/eex_price_integrated_v9_20261011')
+          expected={'MANUSCRIPT_EN_v9.docx':'ce6b68f22d88454d35a534a99b0b1561d0207a550dc31666f0f37e00c424e789','ONLINE_RESOURCE_1_v9.docx':'7e6de1b5e9045d3f0343c323f6e34ffb7209d0dc8fd9d9e64fcff22598a82830','TITLE_PAGE_v9.docx':'97a79285d4f88287f5e04e2fa88442e15372b1e89b9b88ef146e26b7561a0527'}
+          for name,digest in expected.items():
+              if hashlib.sha256((p/name).read_bytes()).hexdigest()!=digest:raise ValueError('Reviewed document bytes differ: '+name)
+          transfer=json.loads((p/'support/SOURCE_TRANSFER.json').read_text())
+          for item in transfer['files']:
+              if hashlib.sha256(Path(item['path']).read_bytes()).hexdigest()!=item['sha256']:raise ValueError('Reviewed source changed during build')
+          files={x.name:{'bytes':x.stat().st_size,'sha256':hashlib.sha256(x.read_bytes()).hexdigest()} for x in p.iterdir() if x.suffix in {'.docx','.pdf'}}
+          receipt={'scope':'Remote document build and repeated public aggregate arithmetic, not real-market estimation','workflow_source_commit':os.environ['GITHUB_SHA'],'new_market_fits':0,'new_bootstrap_fits':0,'reviewed_docx_bytes_equal':True,'files':files,'PDF_visual_readback_pending':True,'submission_ready':False}
+          (p/'support/REMOTE_BUILD_QA.json').write_text(json.dumps(receipt,indent=2))
+          print(json.dumps(receipt,indent=2))
+          PY
+      - name: Commit only new manuscript and aggregate-review directories
+        run: |
+          set -eu
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git ls-remote origin refs/heads/eex-price-integrated-v9-20261011 | cut -f1)" = "$GITHUB_SHA"
+          find paper/eex_price_integrated_v9_20261011 -type d -name __pycache__ -prune -exec rm -rf '{}' +
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- paper/eex_price_integrated_v9_20261011 research/eex_aggregate_review_20261011
+          python3 - <<'PY'
+          import subprocess
+          paths=subprocess.check_output(['git','diff','--cached','--name-only'],text=True).splitlines()
+          if not paths or any(not x.startswith(('paper/eex_price_integrated_v9_20261011/','research/eex_aggregate_review_20261011/')) for x in paths):raise ValueError('Staged scope differs')
+          PY
+          git commit -m 'paper: integrate completed German price evidence and full source-limited inference in v9'
+          git push origin HEAD:refs/heads/eex-price-integrated-v9-20261011
+      - name: Package exact public delivery for independent readback
+        run: |
+          mkdir -p /tmp/eex-v9-delivery/paper /tmp/eex-v9-delivery/research
+          cp -R paper/eex_price_integrated_v9_20261011 /tmp/eex-v9-delivery/paper/
+          cp -R research/eex_aggregate_review_20261011 /tmp/eex-v9-delivery/research/
+          rm -rf /tmp/eex-v9-delivery/paper/eex_price_integrated_v9_20261011/source_payload
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          r=Path('/tmp/eex-v9-delivery')
+          files={str(x.relative_to(r)):{'bytes':x.stat().st_size,'sha256':hashlib.sha256(x.read_bytes()).hexdigest()} for x in sorted(r.rglob('*')) if x.is_file()}
+          (r/'DELIVERY_MANIFEST.json').write_text(json.dumps({'scope':'Complete reviewed public manuscript package; no raw event prices, PDFs or fonts','files':files},indent=2))
+          print('Delivery files:',len(files))
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: eex-v9-integrated-reviewed-delivery
+          path: /tmp/eex-v9-delivery/
+          retention-days: 7
