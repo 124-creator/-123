@@ -1,0 +1,95 @@
+name: EEX E2 input gate and v8.1 documents
+on:
+  push:
+    branches: [eex-price-gate-20261011]
+    paths:
+      - 'research/eex_price_gate_20261011/source_payload/**'
+      - '.github/workflows/eex-price-gate-20261011.yml'
+permissions:
+  contents: write
+jobs:
+  bounded-gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: eex-price-gate-20261011
+          fetch-depth: 1
+      - name: Materialize reviewed sources
+        run: python3 research/eex_price_gate_20261011/source_payload/materialize.py
+      - name: Verify original frozen manifests and synthetic gate tests
+        run: |
+          mkdir -p /tmp/eex-price-private research/eex_price_gate_20261011/results/remote
+          python3 -B scripts/verify_repository.py > research/eex_price_gate_20261011/results/remote/FROZEN_MANIFEST_CHECK.json
+          python3 -B -m unittest discover -s research/eex_price_gate_20261011/code -p 'test_price_pair_gate.py' -v > research/eex_price_gate_20261011/results/remote/UNIT_TESTS_NORMAL.log 2>&1
+          python3 -O -B -m unittest discover -s research/eex_price_gate_20261011/code -p 'test_price_pair_gate.py' -v > research/eex_price_gate_20261011/results/remote/UNIT_TESTS_OPTIMIZED.log 2>&1
+      - name: Read existing source prices locally and retain missing-reference status
+        run: |
+          python3 -B research/eex_price_gate_20261011/code/audit_auction_prices.py --input research/pro_review_20261010/full_data --out /tmp/eex-price-private/audit
+          python3 -B research/eex_price_gate_20261011/code/price_pair_gate.py --auctions /tmp/eex-price-private/audit/auction_prices_local.csv --references research/eex_price_gate_20261011/templates/REFERENCE_SAMPLE.csv --calendar research/eex_price_gate_20261011/templates/AUCTION_CALENDAR.csv --contract research/eex_price_gate_20261011/templates/SOURCE_CONTRACT.json --out /tmp/eex-price-private/gate
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          local=Path('/tmp/eex-price-private')
+          reviewed=Path('research/eex_price_gate_20261011/results')
+          for sub,name in [('audit','AUCTION_PRICE_AUDIT.json'),('gate','PAIR_GATE_RESULT.json')]:
+              a=json.loads((local/sub/name).read_text())
+              b=json.loads((reviewed/name).read_text())
+              if a!=b: raise ValueError('Remote audit differs from reviewed audit: '+name)
+          PY
+      - name: Install document editing dependencies only
+        run: |
+          python3 -m venv /tmp/eex-price-docs
+          /tmp/eex-price-docs/bin/pip install --disable-pip-version-check python-docx==1.2.0 lxml==6.1.1
+      - name: Build reviewed v8.1 paragraphs while preserving native formulas
+        run: |
+          /tmp/eex-price-docs/bin/python -B research/eex_price_gate_20261011/code/revise_price_scope.py --source paper/eex_manuscript_v8_20261010/MANUSCRIPT_EN_v8.docx --out /tmp/eex-price-private/documents
+          /tmp/eex-price-docs/bin/python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,zipfile,shutil,os
+          p=Path('/tmp/eex-price-private/documents/MANUSCRIPT_EN_v8_1.docx')
+          target=Path('paper/eex_price_revision_20261011')
+          with zipfile.ZipFile(p) as z:
+              if z.testzip() is not None: raise ValueError('DOCX integrity failure')
+              xmlhash=hashlib.sha256(z.read('word/document.xml')).hexdigest()
+              if xmlhash!='435fd0b25acf59f7ee60d99dac6d1f7bd6a0d7df59f4a9b430ec165a796437a6':
+                  raise ValueError('Body XML differs from locally rendered document')
+          shutil.copyfile(p,target/p.name)
+          receipt={'source_commit':os.environ['GITHUB_SHA'],'scope':'source-price extraction, no external prices and no regression; fixed paragraph-only manuscript revision',
+          'market_price_regressions':0,'external_reference_rows':0,'eligible_price_pairs':0,
+          'synthetic_tests_unique':20,'normal_and_optimized_passed':True,
+          'source_price_audit_matches_reviewed':True,'document_XML_matches_locally_rendered':True,
+          'document_xml_sha256':xmlhash,'document_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),
+          'new_price_rows_republished':False,'v8_changed':False,'submission_ready':False}
+          (target/'REMOTE_QA.json').write_text(json.dumps(receipt,indent=2))
+          (Path('research/eex_price_gate_20261011/results/remote')/'RUN_RECEIPT.json').write_text(json.dumps(receipt,indent=2))
+          # Verify staged text has not changed while rebuilding the document.
+          original=json.loads(Path('research/eex_price_gate_20261011/results/SOURCE_TRANSFER_QA.json').read_text())
+          for name,digest in original['files'].items():
+              if hashlib.sha256(Path(name).read_bytes()).hexdigest()!=digest:
+                  raise ValueError('Reviewed source changed: '+name)
+          PY
+      - name: Commit only new gate records and manuscript
+        run: |
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git ls-remote origin refs/heads/eex-price-gate-20261011 | cut -f1)" = "$GITHUB_SHA"
+          find research/eex_price_gate_20261011 -type d -name __pycache__ -prune -exec rm -rf '{}' +
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- research/eex_price_gate_20261011 paper/eex_price_revision_20261011
+          if git diff --cached --name-only | grep -vE '^(research/eex_price_gate_20261011/|paper/eex_price_revision_20261011/)'; then exit 1; fi
+          git commit -m 'research: publish E2 source gate and v8.1 direct-neighbour revision; no price estimates'
+          git push origin HEAD:refs/heads/eex-price-gate-20261011
+      - name: Attach exact revised document and receipts for readback
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: eex-price-gate-v8-1-verified
+          retention-days: 7
+          path: |
+            paper/eex_price_revision_20261011/MANUSCRIPT_EN_v8_1.docx
+            paper/eex_price_revision_20261011/REMOTE_QA.json
+            research/eex_price_gate_20261011/results/remote/
+      - name: Remove temporary primary-price rows
+        if: always()
+        run: rm -rf /tmp/eex-price-private
