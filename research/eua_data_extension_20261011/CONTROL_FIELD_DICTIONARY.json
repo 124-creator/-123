@@ -1,0 +1,20 @@
+{
+  "original_fields": {
+    "reported_cover_ratio": "Cover Ratio",
+    "minimum_bid_price_eur": "Minimum Bid €/tCO2",
+    "maximum_bid_price_eur": "Maximum Bid €/tCO2",
+    "mean_bid_price_eur": "Mean €/tCO2",
+    "median_bid_price_eur": "Median €/tCO2",
+    "bids_submitted_count": "Number of bids submitted",
+    "successful_bids_count": "Number of successful bids"
+  },
+  "derived_fields": {
+    "cover_ratio_from_quantities": "bid_volume_tCO2 / auction_volume_tCO2",
+    "bid_price_range_eur": "maximum_bid_price_eur - minimum_bid_price_eur"
+  },
+  "scope": "Completed-auction descriptive controls, not pre-auction predictors or secondary quotes",
+  "price_range_warning": "Submitted-price range, not price SD, bid-ask spread, or raw secondary benchmark",
+  "missing_policy": "Preserve blanks; do not impute zero or silently change eligibility",
+  "scaling_warning": "Raw EUR price range can vary with price level; no hidden normalization by outcome",
+  "rank_warning": "Do not include log B, log V and log(B/V) together with an intercept"
+}

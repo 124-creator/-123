@@ -8,14 +8,14 @@
     },
     {
       "path": "PRO_PROMPT.txt",
-      "bytes": 3708,
-      "sha256": "efefad384f5c96a4388f166ff783e00d502477610515735b556a659ac0b92b6b"
+      "bytes": 4357,
+      "sha256": "91c7928452e7779e482b33ed6980671e8607d0afbb22879304c14e6ec7594de9"
     },
     {
       "path": "START_HERE_ZH.txt",
-      "bytes": 3126,
-      "sha256": "4e56179344e0d5031cc5918186ad71d16ba6f3772d45fbc1eb14a7f5bd6f88e7"
+      "bytes": 3663,
+      "sha256": "4c31c23d66754a2ca3c00ba6984caeab11337c6bc6126127b738b5e3c9ff280f"
     }
   ],
-  "scope": "Three self-authored current-state/reader-entry/prompt objects;no new raw data or new model results;no Pro call made."
+  "scope": "Current Prohandoff updated to point at actual control-field supplement; no newmodelresults"
 }

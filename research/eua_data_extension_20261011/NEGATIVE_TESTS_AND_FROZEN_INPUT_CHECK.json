@@ -1,0 +1,29 @@
+{
+  "checked_after_execution": "2026-10-11T15:51:30.316012+08:00",
+  "actual_checks": [
+    {
+      "optimized": false,
+      "case": "source_digest_mismatch",
+      "exit_code": 1,
+      "no_output_created": true
+    },
+    {
+      "optimized": false,
+      "case": "existing_output_refused",
+      "exit_code": 1
+    },
+    {
+      "optimized": true,
+      "case": "source_digest_mismatch",
+      "exit_code": 1,
+      "no_output_created": true
+    },
+    {
+      "optimized": true,
+      "case": "existing_output_refused",
+      "exit_code": 1
+    }
+  ],
+  "unchanged_frozen_manifest_objects": 55,
+  "no_source_files_overwritten": true
+}

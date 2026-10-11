@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-10-11T15:50:44.148440+08:00",
+  "independent_xml_original_cells_checked": 1925,
+  "rowwise_range_and_cover_checked": 275,
+  "new_raw_columns": 7,
+  "new_derived_columns": 2,
+  "missing_controls_count": 0,
+  "new_observations": 0,
+  "full_rows": 275,
+  "strict_rows": 240,
+  "candidate_design_rows_columns": [
+    240,
+    14
+  ],
+  "candidate_design_columns": [
+    "constant",
+    "log_auction_volume",
+    "log_total_bidders",
+    "log_successful_bidders",
+    "log_cover_ratio",
+    "bid_price_range_eur",
+    "year2021",
+    "year2022",
+    "year2023",
+    "year2024",
+    "year2025",
+    "last_trade",
+    "log_reported_SD_bid",
+    "log_reported_SD_won"
+  ],
+  "candidate_design_rank": 14,
+  "candidate_design_unscaled_condition_number": 3684.33475349456,
+  "new_models_fitted": 0,
+  "new_outcome_association_not_computed": true,
+  "actual_test_runs": [
+    {
+      "flags": [],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".\n----------------------------------------------------------------------\nRan 1 test in 1.276s\n\nOK\n"
+    },
+    {
+      "flags": [
+        "-O"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".\n----------------------------------------------------------------------\nRan 1 test in 0.996s\n\nOK\n"
+    }
+  ],
+  "first_RED_observed": "Missing control-panel enrichment feature; actual unittest failure before build_controls.py existed",
+  "earlier_O_test_scope_correction": "Original test subprocess did not inherit -O; corrected and now cold child explicitly uses -O. Do not count the initial wrapper as optimized production check.",
+  "workbook_string_sheets_rows": {
+    "Strict240": 240,
+    "All275": 275,
+    "Excluded35": 35,
+    "NoFlags203": 203
+  },
+  "workbook_bytes": 225174,
+  "workbook_sha256": "a033a400df628e0fec45db90ab96828a719f593c3112e4ac46b0cce695498e57",
+  "openpyxl_native_warning": "Workbook contains no default style; default applied to in-memory reader only; source not modified",
+  "no_TOCTOU_guarantee": true
+}

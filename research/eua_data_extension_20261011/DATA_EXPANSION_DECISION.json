@@ -1,0 +1,32 @@
+{
+  "recorded_after_native_field_validation": "2026-10-11T15:53:06.156533+08:00",
+  "decision": "Extend necessary baseline fields now; do not require broader daily market collection before a bounded price-association analysis. Consider2026officialcomparisons optional chronological robustness only.",
+  "required_expansion_completed": "Seven existing-original fields andtwo derived columns joined to the exact275/240/35/203existing partitions. No new observations created.",
+  "why_needed": "Current FULL24price protocol omits coverratio andsubmittedprice range despite those fields being available; a quantitydispersion increment needs an explicit economically reasonable baseline. This is a design judgment, not a claim of causal identification.",
+  "optional_fields_not_all_for_primary_model": [
+    "mean_bid_price_eur",
+    "median_bid_price_eur",
+    "bids_submitted_count",
+    "successful_bids_count"
+  ],
+  "recommended_minimum_baseline_additions": [
+    "log(cover_ratio_from_quantities)",
+    "bid_price_range_eur"
+  ],
+  "no_new_fits": true,
+  "no_new_external_literature_read": true,
+  "important_protocol_difference": {
+    "old_DRAFT_ANALYSIS_PROTOCOL": "Submitted bidquantity dispersion was focal; awardquantity branch disallowed; different native midpoint outcome was conditional and never fitted.",
+    "later_FULL24_EXPLORATORY_PROTOCOL": "Awardvolume SD conditioned on bidvolume SD, with officialreported absolutepercentage outcome.",
+    "resolution": "Do not silently blend these objectives orselect whichever is significant. The official-reported benchmark is a disclosed methodological revision; before first fitting, state explicitly whether submitted orawarded quantity is focal and freeze a single nesting/conditioning comparison. Currentdata extension does not silently authorize either old protocol."
+  },
+  "recommended_finite_next_step": "AskPro to finalize the question-specific primary contrast andone common-sample baseline; retain1primary plusatmost3sensitivities andfixed inferencebudget. Main paper quantityassociation remains frozen. No modelsearch torescue significance.",
+  "no_required_additional_oil_gas_macro_daily_panel": "Such controls are not automatically necessary for the declared completed-auction conditional question; adding arbitrary macro series orfar futures changes scope andcan consume degreesoffreedom without identifying a mechanism.",
+  "2026_scope": "Independent child bounded toQ1/Q2/Q3 acquisitions; results not yet received orparentaccepted at this record. Existing2026auctionquantities were previously examined, so no untouched holdout orpreauctionprediction claim. Any new official outcomes require freshsource checks, explicit clocks/footnotes andmatched auctions.",
+  "publication_limits": "New rowwise price-controls andoriginal government reports localonly; sourcecode/fielddictionary/hashes/aggregatechecks public. Publicmetadata isnot complete priceexperiment data.",
+  "rank_check_scope": "240x14candidate control design is fullcolumnrank, not statistical power orvalid inference/novelty proof.",
+  "native_tick_count": 0,
+  "expanded_workbook": "E:/碳价格/独立数据归档/EUA/extension_assessment_20261011/CONTROLS_ENRICHED_240.xlsx",
+  "expanded_csv": "E:/碳价格/独立数据归档/EUA/extension_assessment_20261011/controls_panel/data/controls_strict240.csv",
+  "frozen_full24_original_package_unchanged": true
+}

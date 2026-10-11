@@ -1,0 +1,12 @@
+{
+  "recorded_after_steering_returns": "2026-10-11T15:46:00.879778+08:00",
+  "web_run_actually_invoked": false,
+  "actual_search_result": null,
+  "withdrawn_claims": [
+    "Parent dispatch said a real web.run search had returned irrelevant2026reports",
+    "First steering said a later real search returned named irrelevant results"
+  ],
+  "truth": "Neither claimed search has a recorded tool invocation or result. Both claims withdrawn. No web search evidence exists in this task. Child latest steering explicitly says not executed/result null.",
+  "valid_candidate_discovery_authority": "Existing2025officialreportURI structure only, with each2026candidate unverified until actualGET.",
+  "no_search_result_or_access_receipt_to_be_fabricated": true
+}

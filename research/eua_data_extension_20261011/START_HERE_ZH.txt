@@ -1,0 +1,21 @@
+数据扩充的实际结论（2026-10-11）
+
+必须补的是合理对照变量，不是盲目增加行情行数。本次从六份已核EEX原表新增7字段：Cover Ratio、Minimum Bid €/tCO2、Maximum Bid €/tCO2、Mean €/tCO2、Median €/tCO2、Number of bids submitted、Number of successful bids。另派生B/V覆盖率和最高减最低投标价的EUR范围。没有把投标价范围叫二级bid-ask spread，也没有从日收盘伪造截止报价。
+
+275场全字段完整；原240场保守/35场隔离/203场无行源标记分区不变。独立直接解析原XLSX内部XML核对1925个新增数值；每场原字段保持不变。覆盖率与B/V的差均在0.01报告精度的半单位内。普通及真正优化子进程测试通过；损坏输入及既有输出拒绝测试在两种模式均通过。原55对象未变。候选240x14设计满列秩，仅证明数值可识别，不证明效应显著、精度充分或论文必录。
+
+本机可用增补表：
+E:/碳价格/独立数据归档/EUA/extension_assessment_20261011/CONTROLS_ENRICHED_240.xlsx
+E:/碳价格/独立数据归档/EUA/extension_assessment_20261011/controls_panel/data/controls_strict240.csv
+
+新价格协议遗漏cover ratio及投标价范围，应在第一次拟合前纳入合理基线或解释排除理由；不要把所有字段都塞进模型。尤其不能同时纳入log B、log V和log(B/V)导致精确共线。均价/中位价及出价条数主要供检查，不自动成为主模型控制。
+
+还发现协议目标变化：早期pricegate拟议关注bidquantity，后来的FULL24拟议关注awardquantity并控制bidquantity。它们都未运行新价格模型，不能合并成貌似同一预注册计划。Pro须在首次拟合前明确一个主问题/主对比，记录方法更改，不能看哪个显著再选哪个。当前补字段没有改变冻结v8或任何价格结果。
+
+2026Q1/Q2/Q3官方偏差报告由独立任务有界获取；本说明生成时结果尚未返回，不能称已下载或排除存在。即便取到，也只能作为新的时间段稳健性扩展；2026拍卖数量已经看过，不能称全新未触碰holdout。没有这些报告也不阻止对现有240场做透明有限分析。
+
+GitHub实际列出全部12个remoteheads，v8仍b23920a，main仍cfce35a，数据分支本轮发布之前仍b99007b。未观察到新的实验/论文分支提交；不能由此推断未推送工作或PR评论。后续本交接新增是本代理的控制字段审计，不是Pro新实验结果。
+
+公开本目录只有自写代码、字段字典、汇总与回执；不含新增逐行价格对照和原PDF。build_controls.py需要本机完整full_24quarters_2020_2025冻结包，通过明确manifest检验实际输入。不能仅下载本公开目录就声称重做了价格实验。test_controls.py使用真实本机已核输入，不是虚构实证结果。requirements为openpyxl==3.1.5。
+
+首次缺feature测试曾实际失败，再实现后通过；初版测试未向子进程传递-O，已修正后重跑，不把旧包装器当真优化测试。新数值结果0；没有训练旧模型。父两条未发生的搜索归因已撤回，PARENT_SEARCH_CLAIM_WITHDRAWAL.json明确没有web.run访问证据；本次新增字段权威来自本地既有原件，非任何声称搜索。

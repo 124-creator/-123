@@ -1,0 +1,67 @@
+{
+  "all_rows": 275,
+  "strict_rows": 240,
+  "excluded_rows": 35,
+  "no_source_flag_rows": 203,
+  "added_raw_columns": 7,
+  "added_derived_columns": 2,
+  "missing_by_raw_field": {
+    "reported_cover_ratio": 0,
+    "minimum_bid_price_eur": 0,
+    "maximum_bid_price_eur": 0,
+    "mean_bid_price_eur": 0,
+    "median_bid_price_eur": 0,
+    "bids_submitted_count": 0,
+    "successful_bids_count": 0
+  },
+  "cover_ratio_deviations_over_half_0_01_unit": [],
+  "original_field_values_preserved": true,
+  "new_observations": 0,
+  "new_model_fits": 0,
+  "native_ticks": 0,
+  "base_manifest_sha256": "3e24578d02ee8a0385f38157eb1b4e234503bc8ae098afa564017c04d3a19b41",
+  "actual_parser_inputs": [
+    {
+      "path": "data/official_reported_cutoff_all275.csv",
+      "bytes": 181495,
+      "sha256": "b168de79301d99003e95d62779bd75d02a97a34d1b876034f3f26bf23273abed"
+    },
+    {
+      "path": "EEX_ORIGINAL_INPUT_INDEX.json",
+      "bytes": 2953,
+      "sha256": "15f4e10553ba39411905e9c009b5c668054b70cbafcde78e687c794d1e56a5ec"
+    },
+    {
+      "path": "eex_auction_originals/emission-spot-primary-market-auction-report-2020-data.xlsx",
+      "bytes": 82938,
+      "sha256": "9437b244c9f9e9ae0ef442e70604bd6cf5bdad5ede852651fad3e775f1679b92"
+    },
+    {
+      "path": "eex_auction_originals/emission-spot-primary-market-auction-report-2021-data.xlsx",
+      "bytes": 87483,
+      "sha256": "7a5b75bf9e876a066cd07114816b41328891d591a99a0f12a72e8f438f5a6ec5"
+    },
+    {
+      "path": "eex_auction_originals/emission-spot-primary-market-auction-report-2022-data.xlsx",
+      "bytes": 86849,
+      "sha256": "f370f57d8e4fb3c613ba86471e198ff48c2b98376ccf6073c4f9009b9cb045c4"
+    },
+    {
+      "path": "eex_auction_originals/emission-spot-primary-market-auction-report-2023-data.xlsx",
+      "bytes": 88714,
+      "sha256": "3d6f474c92a0961966683f688227b5d0ab5cc4ee1bd35c36cc4933440320dd37"
+    },
+    {
+      "path": "eex_auction_originals/emission-spot-primary-market-auction-report-2024-data.xlsx",
+      "bytes": 89056,
+      "sha256": "eeb636efcc64d6a7f3aaa9877cb6060b3601754a7476ca94419a2da611796fcd"
+    },
+    {
+      "path": "eex_auction_originals/emission-spot-primary-market-auction-report-2025-data.xlsx",
+      "bytes": 87659,
+      "sha256": "37baf2b0175624e3c420f0d6ca265b14da0d6e48f4b3d459a18fcacaf0a2a6d8"
+    }
+  ],
+  "source_originals_not_bundled": true,
+  "security_scope": "Static ordinary-path checks, not TOCTOU sandbox or output transaction"
+}
