@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "created_at": "2026-10-11T12:11:11.413445+08:00",
+  "created_at": "2026-10-11T12:14:01.435515+08:00",
   "scope": "Every selected package file except this manifest itself; workflow is independently checked in Git readback. Hashes authenticate bytes, not market semantics.",
   "file_count": 29,
   "files": [
@@ -106,8 +106,8 @@
     },
     {
       "path": "results/CI_CONFIGURATION_FIX.json",
-      "bytes": 1307,
-      "sha256": "30e8b32c6b1d93177289d3edd7a4f64d4590b8397232b045f76d8956a6890acd"
+      "bytes": 2068,
+      "sha256": "4dfb81fb940034db30f9d1b2636159e8625d7ab9a7c4ae87259a42b689ee04c5"
     },
     {
       "path": "results/CODE_WRITE_REPAIR.json",
