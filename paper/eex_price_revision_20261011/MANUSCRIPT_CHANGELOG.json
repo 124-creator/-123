@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-11",
+  "source_commit": "b23920a1ed51bdd79428e4ebef5dd1bd2b9607e4",
+  "source_sha256": "15180678628a21a511b6f2ff49c91b1eb5bd89168129b522585ad20cc2452ee6",
+  "output_sha256": "81e963f923efe5f3775f63ec747cdfdcc8565af660eedd08d6550f77eccf7d28",
+  "native_math_objects_preserved": 51,
+  "physical_table_objects_preserved": 8,
+  "embedded_images_preserved": 3,
+  "existing_mathematics_tables_images_identical": true,
+  "new_price_regressions": 0,
+  "v8_overwritten": false,
+  "changes": [
+    {
+      "old": "Bosco (2023) studies Phase III EUA primary-auction prices and return volatility using a bidding model and GARCH specifications, with participation and the cover ratio among the explanatory variables. Its bid spread is a price variable, not a quantity standard deviation. Niu and Liu (2024) forecast EUA futures volatility with macroeconomic information. Our analysis instead concerns two quantity summaries in the same completed auction. Neither a temporal price forecast nor a price-premium equation is estimated.",
+      "new": "Bosco (2023) studies Phase III EUA auction prices and returns using GARCH specifications. It includes participation, demand coverage and the difference between maximum and minimum submitted prices. This bid-price spread is not a quantity-dispersion measure. Niu and Liu (2024) instead forecast EUA futures volatility. Our outcomes are quantity statistics from completed auctions; no price-premium equation is estimated."
+    },
+    {
+      "old": "External price informativeness is untested. The inspected official report describes a bidding-window-close reference but provides the relevant price comparisons as monthly summaries, not the matched auction-level series required here (European Commission 2023). No eligible external series was obtained, so no price regression was run. This is a data limitation, not a negative price result. Separately, access to the exact 2026 raw snapshot is not secured by its dynamic download URL; the reproducibility boundary is stated below.",
+      "new": "Price informativeness remains untested. Assessing an incremental association beyond participation, demand coverage and bid-price spread requires a compatible secondary-market quote at a separately documented bidding-window close. The previously inspected report supplies monthly rather than usable per-auction reference comparisons (European Commission 2023). Primary-auction prices have now been extracted, but the workbook field Time is not an authenticated deadline. No eligible external series was acquired and no price-premium regression was run. This is a data limitation, not a null result. The exact-2026-snapshot limitation is stated below."
+    }
+  ],
+  "added_paragraph": "Otsubo (2026) examines EUA futures, a carbon ETF and auction prices, aligning futures and ETF prices to 16:00 UK time in its daily analysis. That cross-venue comparison is distinct from matching each auction to a quote immediately before bidding closes; its daily alignment cannot supply the required synchronous reference.",
+  "added_reference": "Otsubo Y (2026) Intraday and daily price discovery in carbon markets: EUA futures versus carbon ETFs. International Review of Finance 26:e70099. https://doi.org/10.1111/irfi.70099"
+}

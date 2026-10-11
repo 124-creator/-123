@@ -1,0 +1,43 @@
+source_file,cell,field,literal_header
+emission-spot-primary-market-auction-report-2020-data.xlsx,G6,auction_price,Auction Price €/tCO2
+emission-spot-primary-market-auction-report-2020-data.xlsx,H6,minimum_bid_price,Minimum Bid €/tCO2
+emission-spot-primary-market-auction-report-2020-data.xlsx,I6,maximum_bid_price,Maximum Bid €/tCO2
+emission-spot-primary-market-auction-report-2020-data.xlsx,J6,mean_bid_price,Mean €/tCO2
+emission-spot-primary-market-auction-report-2020-data.xlsx,K6,median_bid_price,Median €/tCO2
+emission-spot-primary-market-auction-report-2020-data.xlsx,Y6,reported_revenue,Total Revenue €
+emission-spot-primary-market-auction-report-2020-data.xlsx,C6,reported_time,Time
+emission-spot-primary-market-auction-report-2021-data.xlsx,G6,auction_price,Auction Price €/tCO2
+emission-spot-primary-market-auction-report-2021-data.xlsx,H6,minimum_bid_price,Minimum Bid €/tCO2
+emission-spot-primary-market-auction-report-2021-data.xlsx,I6,maximum_bid_price,Maximum Bid €/tCO2
+emission-spot-primary-market-auction-report-2021-data.xlsx,J6,mean_bid_price,Mean €/tCO2
+emission-spot-primary-market-auction-report-2021-data.xlsx,K6,median_bid_price,Median €/tCO2
+emission-spot-primary-market-auction-report-2021-data.xlsx,Y6,reported_revenue,Total Revenue €
+emission-spot-primary-market-auction-report-2021-data.xlsx,C6,reported_time,Time
+emission-spot-primary-market-auction-report-2022-data.xlsx,G6,auction_price,Auction Price €/tCO2
+emission-spot-primary-market-auction-report-2022-data.xlsx,H6,minimum_bid_price,Minimum Bid €/tCO2
+emission-spot-primary-market-auction-report-2022-data.xlsx,I6,maximum_bid_price,Maximum Bid €/tCO2
+emission-spot-primary-market-auction-report-2022-data.xlsx,J6,mean_bid_price,Mean €/tCO2
+emission-spot-primary-market-auction-report-2022-data.xlsx,K6,median_bid_price,Median €/tCO2
+emission-spot-primary-market-auction-report-2022-data.xlsx,Y6,reported_revenue,Total Revenue €
+emission-spot-primary-market-auction-report-2022-data.xlsx,C6,reported_time,Time
+emission-spot-primary-market-auction-report-2023-data.xlsx,G6,auction_price,Auction Price €/tCO2
+emission-spot-primary-market-auction-report-2023-data.xlsx,H6,minimum_bid_price,Minimum Bid €/tCO2
+emission-spot-primary-market-auction-report-2023-data.xlsx,I6,maximum_bid_price,Maximum Bid €/tCO2
+emission-spot-primary-market-auction-report-2023-data.xlsx,J6,mean_bid_price,Mean €/tCO2
+emission-spot-primary-market-auction-report-2023-data.xlsx,K6,median_bid_price,Median €/tCO2
+emission-spot-primary-market-auction-report-2023-data.xlsx,Y6,reported_revenue,Total Revenue €
+emission-spot-primary-market-auction-report-2023-data.xlsx,C6,reported_time,Time
+emission-spot-primary-market-auction-report-2024-data.xlsx,G6,auction_price,Auction Price €/tCO2
+emission-spot-primary-market-auction-report-2024-data.xlsx,H6,minimum_bid_price,Minimum Bid €/tCO2
+emission-spot-primary-market-auction-report-2024-data.xlsx,I6,maximum_bid_price,Maximum Bid €/tCO2
+emission-spot-primary-market-auction-report-2024-data.xlsx,J6,mean_bid_price,Mean €/tCO2
+emission-spot-primary-market-auction-report-2024-data.xlsx,K6,median_bid_price,Median €/tCO2
+emission-spot-primary-market-auction-report-2024-data.xlsx,Y6,reported_revenue,Total Revenue €
+emission-spot-primary-market-auction-report-2024-data.xlsx,C6,reported_time,Time
+emission-spot-primary-market-auction-report-2025-data.xlsx,G6,auction_price,Auction Price €/tCO2
+emission-spot-primary-market-auction-report-2025-data.xlsx,H6,minimum_bid_price,Minimum Bid €/tCO2
+emission-spot-primary-market-auction-report-2025-data.xlsx,I6,maximum_bid_price,Maximum Bid €/tCO2
+emission-spot-primary-market-auction-report-2025-data.xlsx,J6,mean_bid_price,Mean €/tCO2
+emission-spot-primary-market-auction-report-2025-data.xlsx,K6,median_bid_price,Median €/tCO2
+emission-spot-primary-market-auction-report-2025-data.xlsx,Y6,reported_revenue,Total Revenue €
+emission-spot-primary-market-auction-report-2025-data.xlsx,C6,reported_time,Time

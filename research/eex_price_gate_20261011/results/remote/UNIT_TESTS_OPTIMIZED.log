@@ -1,0 +1,25 @@
+test_bid_price_spread (test_price_pair_gate.Tests.test_bid_price_spread) ... ok
+test_calendar_required (test_price_pair_gate.Tests.test_calendar_required) ... ok
+test_close_not_accepted (test_price_pair_gate.Tests.test_close_not_accepted) ... ok
+test_crossed_quote (test_price_pair_gate.Tests.test_crossed_quote) ... ok
+test_dst_offset_conversion (test_price_pair_gate.Tests.test_dst_offset_conversion) ... ok
+test_duplicate_reference (test_price_pair_gate.Tests.test_duplicate_reference) ... ok
+test_future_reference (test_price_pair_gate.Tests.test_future_reference) ... ok
+test_futures_not_spot (test_price_pair_gate.Tests.test_futures_not_spot) ... ok
+test_midpoint (test_price_pair_gate.Tests.test_midpoint) ... ok
+test_missing_data_not_zero_result (test_price_pair_gate.Tests.test_missing_data_not_zero_result) ... ok
+test_naive_timestamp_rejected (test_price_pair_gate.Tests.test_naive_timestamp_rejected) ... ok
+test_nan (test_price_pair_gate.Tests.test_nan) ... ok
+test_positive_premium (test_price_pair_gate.Tests.test_positive_premium) ... ok
+test_stale_reference (test_price_pair_gate.Tests.test_stale_reference) ... ok
+test_unlocked (test_price_pair_gate.Tests.test_unlocked) ... ok
+test_unmatched (test_price_pair_gate.Tests.test_unmatched) ... ok
+test_unreviewed_rights (test_price_pair_gate.Tests.test_unreviewed_rights) ... ok
+test_valid_zero_basis (test_price_pair_gate.Tests.test_valid_zero_basis) ... ok
+test_wrong_date (test_price_pair_gate.Tests.test_wrong_date) ... ok
+test_zero_sd_allowed (test_price_pair_gate.Tests.test_zero_sd_allowed) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.001s
+
+OK

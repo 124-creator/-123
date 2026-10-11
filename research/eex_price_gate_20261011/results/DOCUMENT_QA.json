@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-11",
+  "main_pages_rendered_and_inspected": 15,
+  "paragraph_only_revision": true,
+  "abstract_words": 200,
+  "keywords": 6,
+  "main_numbered_tables": 5,
+  "main_figures": 3,
+  "native_math_objects": 51,
+  "paragraph_clipping_or_overlap_observed": false,
+  "new_data_tables_in_manuscript": false,
+  "Word_WPS_native_validation": false,
+  "unchanged_pages_1_and_2_pixel_identical_to_inspected_previous_render": true,
+  "fonts_in_source_not_distributed": true,
+  "original_v8_sha256": "15180678628a21a511b6f2ff49c91b1eb5bd89168129b522585ad20cc2452ee6",
+  "revised_docx_sha256": "81e963f923efe5f3775f63ec747cdfdcc8565af660eedd08d6550f77eccf7d28",
+  "funding": "none_confirmed",
+  "prior_Wang_review": "confirmed",
+  "overall_journal_acceptance_certified": false,
+  "complete_author_declarations_confirmed": false,
+  "notes": "First layout iteration had sparse overflow pages from longer literature paragraphs; shortened new prose only, did not change statistics or original tables. Final 15-page render inspected."
+}

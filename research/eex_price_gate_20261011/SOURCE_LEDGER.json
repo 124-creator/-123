@@ -1,0 +1,56 @@
+{
+  "retrieval_date": "2026-10-11",
+  "sources": [
+    {
+      "id": "BOSCO",
+      "title": "Trade, equilibrium prices and rents in European auctions for emission allowances",
+      "url": "https://link.springer.com/article/10.1007/s10018-022-00344-y",
+      "doi": "10.1007/s10018-022-00344-y",
+      "first_online": "2022-05-31",
+      "volume_year": 2023,
+      "access": "publisher HTML full text accessible; directed reading Sections 3-5 and 6; no author-result replication",
+      "key_use": "Bid-price spread, N, S and cover ratio are established explanatory variables. Proposed E2 outcome and quantity-dispersion regressor differ; novelty not certified."
+    },
+    {
+      "id": "OTSUBO",
+      "title": "Intraday and Daily Price Discovery in Carbon Markets: EUA Futures Versus Carbon ETFs",
+      "author": "Yoichi Otsubo",
+      "doi": "10.1111/irfi.70099",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/irfi.70099",
+      "first_online": "2026-08-26",
+      "access": "publisher HTML accessible; directed reading metadata, Sections 4 and 5.7, data availability statement",
+      "key_use": "LSEG licensed intraday data; daily futures/ETF aligned to 16:00 UK; not a matched pre-close cash-reference dataset for E2. No replication."
+    },
+    {
+      "id": "EEX_REALTIME",
+      "url": "https://www.eex.com/en/market-data/eex-group-datasource/real-time-data",
+      "access": "official HTML service/access sections read",
+      "key_use": "Historical trades/order books and reference data advertised; access authentication/subscription; no exact eligible instrument or numeric extract obtained."
+    },
+    {
+      "id": "EEX_MIFIR",
+      "url": "https://www.eex.com/en/market-data/mifir-eex-market-data",
+      "access": "official HTML description read",
+      "key_use": "MiFIR products managed via Deutsche Börse; no historical sample extracted."
+    },
+    {
+      "id": "DEHST_Q1_2024",
+      "url": "https://www.dehst.de/SharedDocs/downloads/EN/auctioning/2024/2024_report_Q1.pdf?__blob=publicationFile&v=5",
+      "access": "container.download failed; HTTP status not supplied; no bytes read; no retry",
+      "discovery": "UBA official employee-publications bibliography index"
+    },
+    {
+      "id": "EC_Q4_2021",
+      "url": "https://climate.ec.europa.eu/system/files/2022-03/cap_report_202112_en.pdf",
+      "access": "web open returned Internal Error; no report read; no retry"
+    },
+    {
+      "id": "JOURNAL",
+      "url": "https://link.springer.com/journal/181/submission-guidelines",
+      "access": "official author guide read: review, text/abstract/keywords, references, tables/figures, SI and data policy; no new CAS/fee certification"
+    }
+  ],
+  "new_valid_secondary_price_rows": 0,
+  "previous_failed_fulltexts_not_retried": true,
+  "private_windows_path_accessed": false
+}

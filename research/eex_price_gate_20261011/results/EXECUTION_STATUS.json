@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-11",
+  "price_regressions": 0,
+  "price_effect_estimates": null,
+  "new_estimation_program_released": false,
+  "source_price_audit_completed": true,
+  "reference_validation_unit_tests": 20,
+  "normal_mode_passed": 20,
+  "optimized_mode_passed": 20,
+  "synthetic_fixtures": "unit logic only, no empirical observations",
+  "reference_numeric_data_downloaded": false,
+  "status": "HOLD_DATA",
+  "old_v8_modified": false,
+  "no_funding": "user_confirmed",
+  "Wang_review": "preceding manuscript user-confirmed; not reset to unknown"
+}

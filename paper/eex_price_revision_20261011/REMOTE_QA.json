@@ -1,0 +1,16 @@
+{
+  "source_commit": "057bb8f22211f26e21ffdebe042e19920ad6c6ae",
+  "scope": "source-price extraction, no external prices and no regression; fixed paragraph-only manuscript revision",
+  "market_price_regressions": 0,
+  "external_reference_rows": 0,
+  "eligible_price_pairs": 0,
+  "synthetic_tests_unique": 20,
+  "normal_and_optimized_passed": true,
+  "source_price_audit_matches_reviewed": true,
+  "document_XML_matches_locally_rendered": true,
+  "document_xml_sha256": "435fd0b25acf59f7ee60d99dac6d1f7bd6a0d7df59f4a9b430ec165a796437a6",
+  "document_sha256": "c251033e16f9f44f7da4149ff8375931c666c049737566e7d11f5d6a58ca4d18",
+  "new_price_rows_republished": false,
+  "v8_changed": false,
+  "submission_ready": false
+}

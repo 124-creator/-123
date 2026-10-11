@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-11",
+  "auction_rows": 1281,
+  "reference_rows": 0,
+  "calendar_rows": 0,
+  "eligible_pairs": 0,
+  "eligible_months": 0,
+  "excluded_reasons": {
+    "missing_external_reference": 1281
+  },
+  "status": "HOLD_NO_ELIGIBLE_PAIR",
+  "model_fits": 0,
+  "effect_estimates": null,
+  "human_source_review_not_proven_by_software": true,
+  "formal_analysis_release": "NOT_AUTHORIZED_BY_A_SCHEMA_PASS; freeze source-specific protocol first"
+}

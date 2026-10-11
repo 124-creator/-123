@@ -1,0 +1,32 @@
+{
+  "source_files": 24,
+  "archive_sha256": "8443191d9c78b74add1231cf268a20b082942b65a346c3c329b44eb3335ccdcd",
+  "files": {
+    "research/eex_price_gate_20261011/AGENTS.md": "1d97c4bc3761b9ea6b644efff7399a3bfd490b5a796dcc3d74dfba3617c0e7d8",
+    "research/eex_price_gate_20261011/DATA_REQUEST_ZH.md": "db06c258a36030e86418932bd20d2ca1f2d708bcc0c79a9e12ca164dfbcfff12",
+    "research/eex_price_gate_20261011/DRAFT_ANALYSIS_PROTOCOL.md": "0d4640fedf6a1360bcd6e3c0402bd6e7c62824d2de05e131a343d19a72392cc0",
+    "research/eex_price_gate_20261011/JOURNAL_AND_INTEGRATION_ZH.md": "b81ca5082ec6249b615c28c74ccd8475afc7cd7fd1739cdb531250ce8a4576c5",
+    "research/eex_price_gate_20261011/RESEARCH_DECISION_ZH.md": "8817888c8b071461cf791c53ac409093e3a61e07aeb83cd398460c3f133b80e5",
+    "research/eex_price_gate_20261011/SOURCE_LEDGER.json": "e0d21fc7984b798f61b220dce1d23a8bd2e97bf3490002f104393f91e4ff4606",
+    "research/eex_price_gate_20261011/START_HERE.md": "a6559379131d422b84d0af8e4db32504ac165f8790855ae314bc3834abfe4107",
+    "research/eex_price_gate_20261011/code/audit_auction_prices.py": "0dfe66f909c0f9373d849dec2f13a3cabaa0321448e4f1a8af0edf087a866993",
+    "research/eex_price_gate_20261011/code/price_pair_gate.py": "1e533cd25c54f9c17be036e0f719d2bc04876d4901994517c8b1476e4520210d",
+    "research/eex_price_gate_20261011/code/revise_price_scope.py": "a58fda55f62074ad6ec6b266954e09ce0c7cfb9d2fbf3744b78d494a4c850351",
+    "research/eex_price_gate_20261011/code/test_price_pair_gate.py": "2110ad0612177856b39370276c0d8bc19a224fae298895bbef665a2459d5fca9",
+    "paper/eex_price_revision_20261011/MANUSCRIPT_CHANGELOG.json": "2c40b4c17e7c5d770b0aa4ee57037131b0824eb9395ffad481ffb104a962f970",
+    "paper/eex_price_revision_20261011/REVISED_PASSAGES_EN.md": "afdf51730cbeb20260257f8b3c2c72c39e2c790086c8f55db51edd613da3dc67",
+    "paper/eex_price_revision_20261011/START_HERE.md": "4afe89dc72277b87ff430866c11bedf33cc24c3e70ddbadec736ac51bb60cb0a",
+    "research/eex_price_gate_20261011/results/AUCTION_PRICE_AUDIT.json": "86d72946bb8d777e1c4874e95113dcc6d458f4836b5ba20cb8586265b23f9c23",
+    "research/eex_price_gate_20261011/results/DOCUMENT_QA.json": "57abb9860f1a86997ae1526cd06a2f458574b2ee475433faceb110672a627f5f",
+    "research/eex_price_gate_20261011/results/EXECUTION_STATUS.json": "548474b99bf52c1e85f27673bf73e4adc74a0e0da2a5063812259764df0a6221",
+    "research/eex_price_gate_20261011/results/PAIR_GATE_RESULT.json": "3e60b3275a561a4b24a67a67d856385113f42f5d2cf228f973985255ad7983bf",
+    "research/eex_price_gate_20261011/results/PRICE_HEADERS.csv": "80088d12ffaa530341d678dd64fbde56a049d724076e61974daaf12a33f29c43",
+    "research/eex_price_gate_20261011/results/UNIT_TESTS_NORMAL.log": "e665eed598842941af496afcf0fd414b953eba97bf8257fea0296b50357e089d",
+    "research/eex_price_gate_20261011/results/UNIT_TESTS_OPTIMIZED.log": "e665eed598842941af496afcf0fd414b953eba97bf8257fea0296b50357e089d",
+    "research/eex_price_gate_20261011/templates/AUCTION_CALENDAR.csv": "fdf6623cc0f1ec2392a2157ff8ec42e6423b8d1b89af0beb90f4f9e486a223c8",
+    "research/eex_price_gate_20261011/templates/REFERENCE_SAMPLE.csv": "a2ed4b8bd5dfbc7726349ba711fb5d484adbc495467d48fc74beeb34f01d3ffe",
+    "research/eex_price_gate_20261011/templates/SOURCE_CONTRACT.json": "451adbb950114623142dba2baf946d4ce37189d277afc0148a27e9441ac852c4"
+  },
+  "market_price_regressions": 0,
+  "third_party_raw_republished": false
+}
