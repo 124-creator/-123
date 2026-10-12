@@ -1,0 +1,20 @@
+{
+  "version": "v10.1",
+  "basis_commit": "30116aa4b230272207ea7818a284f648fa988fb2",
+  "branch": "eex-finite-v10-1-20261012",
+  "recorded_at": "2026-10-12T12:05:21.393459+08:00",
+  "editorial_revision_complete": true,
+  "independent_static_code_review_passed": true,
+  "parent_repaired_builder_exit_code": 0,
+  "tests_per_mode": 2,
+  "market_model_refits": 0,
+  "new_market_downloads": 0,
+  "main_pdf_pages": 21,
+  "supplementary_pdf_pages": 14,
+  "title_pdf_pages": 1,
+  "native_renderer": "WPS Office via Word-compatible COM, not Microsoft Word",
+  "official_full_current_guidelines_verified": false,
+  "restricted_data_access_guaranteed": false,
+  "journal_submission_made": false,
+  "scope": "New manuscript subdirectory only; immutable original v10 and frozen result files remain outside the change set. Publication proof is the actual Git commit plus a separate readback receipt, not an anticipated in-package upload claim."
+}

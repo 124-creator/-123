@@ -1,0 +1,58 @@
+{
+  "version": "v10.1",
+  "basis_commit": "30116aa4b230272207ea7818a284f648fa988fb2",
+  "scope": "Finite editorial revision only; no market fits or result changes.",
+  "author_confirmation": {
+    "date": "2026-10-12",
+    "source": "Direct user clarification in this conversation",
+    "nonfinancial_interests": "Both authors have no relevant non-financial interests",
+    "publish_permission": "New GitHub revision branch; preserve v10 and main; no journal submission"
+  },
+  "source_hashes": {
+    "MANUSCRIPT_EN_v10.docx": "00b8a7fd061421c578c0864113beaf394280ed79b09290c721dfd504c388a83d",
+    "ONLINE_RESOURCE_1_v10.docx": "f051a94c28b85f89cc355af81144e2aac23e51d8220ea2fb2f999435b17561ce",
+    "TITLE_PAGE_v10.docx": "f9cdfcf662f52614c893c95367e595c58b48ddf55fde0d94e7cea04309bf8505"
+  },
+  "delete_plain_paragraphs": [
+    {
+      "old": "The sample restrictions separate eligibility from influence. A record is retained because its product, series and success status satisfy the stated rule, not because its observed ratio fits the proposed relationship. Conversely, a cancelled auction is not converted into a zero-dispersion outcome. This is a selected population of successful auctions, and the findings do not describe latent demand or unsuccessful auctions. The archive permits within-market comparisons across reporting series and dates, rather than independent comparisons across three carbon markets.",
+      "reason": "Repeated eligibility and cancellation discussion; retained in Section 3.1 opening paragraphs."
+    },
+    {
+      "old": "For terminology, we use “bid ratio” and “award ratio” only as short names for the reported standard-deviation-to-mean ratios in (1). The word “reported” is substantive: it preserves the distinction between arithmetic construction and population validation. Counts, means and standard deviations can be numerically consistent with the displayed precision while the precise population, treatment of zero awards or variance divisor remains incompletely documented. Our comparisons therefore remain at the report level rather than being relabelled as firm concentration or within-population inequality.",
+      "reason": "Repeated reported-ratio qualification; definition, population uncertainty and interpretation limits remain."
+    },
+    {
+      "old": "The regression direction is a convention for describing the partial relationship. The residual correlation is symmetric, whereas the slope also depends on the relative residual scales. It follows that a comparison of correlations and a comparison of slopes answer different questions when those scales change. Both are retained in the historical analysis. We interpret the fitted linear projections in their observed samples; neither the chosen transformation nor the residualization step establishes a constant structural mapping between bidding and allocation.",
+      "reason": "Repeated symmetry and scaling explanation; the immediately preceding paragraph retains the distinction."
+    },
+    {
+      "old": "The two periods are historical comparison windows rather than treatment and control groups. The separately fitted nuisance spaces allow the relationship with scale, participation and time to differ, while the transformed residual variances also change. A higher residual correlation therefore means stronger standardized co-variation under those period-specific projections, not proof that one invariant allocation parameter has increased. The direct correlation contrast, rather than the slope interval or the overlap of two marginal intervals, is the relevant statistic for that standardized comparison.",
+      "reason": "Repeated period interpretation; direct contrast, split and non-causal status remain in Section 6.1."
+    },
+    {
+      "old": "This separates balancing properties from empirical robustness. The fitted logistic overlap weights balance the included moments, but that property does not authenticate a common full covariate distribution or an as-if-random period assignment. The failure of the auction-volume distribution check is therefore retained next to the positive contrasts. The analysis supports persistence under this selected-moment standardization; it cannot rule out remaining composition explanations or quantify the share of the period difference attributable to them.",
+      "reason": "Repeated composition limitations; the preceding paragraph and diagnostic table retain the failed volume-distribution check."
+    },
+    {
+      "old": "The added time segment answers whether a similarly defined report relationship recurs in a later sample, not whether the historical model forecasts it. Its short span also means that a narrow numerical range can coexist with weak information about repeated-sample temporal uncertainty. Enumerating all permitted block combinations removes Monte Carlo variation from that finite calculation, but does not create additional months. The original results, circular and non-circular enumerations, and deletion ranges remain visible together rather than selecting a preferred range after comparing their endpoints.",
+      "reason": "Repeated short-axis qualification; Section 6.3 and inference limits retain finite enumeration and temporal uncertainty."
+    }
+  ],
+  "main_replacements": [
+    {
+      "old": "The price extension changes what can be said about the quantity indicator. It is not associated only with another quantity summary: within the selected German reports, it also carries incremental conditional information about the signed price comparison beyond demand coverage, participation and submitted-price range. The finding remains specific to that baseline, sample and report convention. It does not mean that quantity dispersion is an exogenous driver of the clearing price.",
+      "new": "The price extension connects the quantity indicator to an outcome beyond another quantity summary. In the selected German reports, bid dispersion is associated with the signed price comparison conditional on the specified baseline, including demand coverage, participation and submitted-price range. This relationship does not establish that quantity dispersion is an exogenous driver of the clearing price.",
+      "reason": "Describe association relative to the specified baseline rather than unrestricted incremental information."
+    },
+    {
+      "old": "The authors hold the German official-report PDFs and matched event-level price tables, but those files are not included in the public aggregate package because bulk redistribution rights have not been established. Report-specific provider links and edition hashes are listed in the source catalogue and linked from Table S14. Researchers seeking the matched inputs should contact Zhongfei Tian at 15517837680@163.com; any transfer remains subject to applicable provider permissions and use conditions. This contact route is not a representation that unrestricted redistribution has been authorized. The exact 2026 quantity snapshot is likewise not publicly deposited: the dynamic EEX URL and its recorded hash alone do not make the matching bytes accessible. Public aggregate checks should not be described as an independent raw-data refit.",
+      "new": "The authors hold the German official-report PDFs and matched event-level price tables, but these are not included in the public aggregate package because bulk redistribution rights have not been established. SOURCE_CATALOG.md and Table S14 identify the recorded report editions. DATA_ACCESS_AND_REPRODUCTION.md distinguishes public arithmetic checks from a full raw-input refit and specifies the required inputs, version checks and execution steps. Researchers seeking matched inputs should contact Zhongfei Tian at 15517837680@163.com. The authors can identify the source editions and provide the released code and metadata; any transfer of event-level tables or third-party originals remains subject to applicable provider permissions and use conditions. The exact 2026 quantity snapshot is also not publicly deposited. A dynamic source URL, an edition hash and aggregate results do not substitute for accessible matching input bytes, and no unrestricted transfer or independent raw-data refit is implied.",
+      "reason": "Distinguish public checks, exact-input reproduction and conditional third-party access."
+    }
+  ],
+  "interest_replacement": {
+    "old": "The authors declare that they have no financial interests relevant to the content of this article.",
+    "new": "The authors declare that they have no financial or non-financial interests relevant to the content of this article."
+  }
+}

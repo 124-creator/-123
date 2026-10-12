@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-12",
+  "viewer": "Parent assistant native vision",
+  "renderer": "WPS Office via Word-compatible COM",
+  "main_page_count": 21,
+  "main_overview_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "main_enlarged_pages": [
+    8,
+    9,
+    12,
+    19,
+    20
+  ],
+  "title_page_count": 1,
+  "title_enlarged_pages": [
+    1
+  ],
+  "observations": "No obvious cropping, overlap, broken equation layout or missing declared-interest sentence in the inspected views. Price table and signed/absolute figure remain legible. Data statement continues normally across pages 19 and 20.",
+  "limits": "Overview images do not verify every small glyph or formula detail. SI has no edits and is byte-identical to v10. This is not certification of rendering in Microsoft Word or of complete current journal compliance.",
+  "statistical_refits": 0
+}

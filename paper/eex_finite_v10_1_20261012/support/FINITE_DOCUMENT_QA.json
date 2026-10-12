@@ -1,0 +1,43 @@
+{
+  "basis_commit": "30116aa4b230272207ea7818a284f648fa988fb2",
+  "documents": [
+    {
+      "file": "MANUSCRIPT_EN_v10_1.docx",
+      "sha256": "7d231b2fdb5816598d7ea253e5aa5e4285245ae667d50e2b96675755aec9b410",
+      "math_objects": 52,
+      "table_objects": 10,
+      "drawings": 3,
+      "protected_xml_exactly_preserved": true
+    },
+    {
+      "file": "TITLE_PAGE_v10_1.docx",
+      "sha256": "9ef6c0ab65fe003dbfa65575da989c383b42883d9cd14dc2ed81efb75c6f941a",
+      "math_objects": 0,
+      "table_objects": 0,
+      "drawings": 0,
+      "protected_xml_exactly_preserved": true
+    },
+    {
+      "file": "ONLINE_RESOURCE_1_v10_1.docx",
+      "sha256": "f051a94c28b85f89cc355af81144e2aac23e51d8220ea2fb2f999435b17561ce",
+      "math_objects": 58,
+      "table_objects": 16,
+      "drawings": 1,
+      "protected_xml_exactly_preserved": true
+    }
+  ],
+  "deleted_redundant_paragraphs": 6,
+  "deleted_paragraph_words": 476,
+  "main_paragraph_words_before": 9595,
+  "main_paragraph_words_after": 9124,
+  "word_count_scope": "Whitespace tokens in top-level body paragraphs, excluding table cells",
+  "abstract_whitespace_words": 209,
+  "frozen_figures_tables_and_aggregate_files_identical": true,
+  "supplementary_docx_and_pdf_byte_identical_to_v10": true,
+  "market_fits": 0,
+  "pdf_render_verification": "Recorded separately after actual native rendering",
+  "versions": {
+    "python-docx": "1.2.0",
+    "lxml": "6.1.1"
+  }
+}

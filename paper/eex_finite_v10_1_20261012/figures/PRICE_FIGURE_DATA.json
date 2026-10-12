@@ -1,0 +1,26 @@
+[
+  {
+    "specification": "primary_signed_240",
+    "contrast_bp": -14.505866881510512,
+    "CI95_low": -22.997848238532935,
+    "CI95_high": -6.013885524488089
+  },
+  {
+    "specification": "S2_no_flags_203",
+    "contrast_bp": -15.117555182463006,
+    "CI95_low": -25.683362077604286,
+    "CI95_high": -4.551748287321729
+  },
+  {
+    "specification": "S3_best_bid_236",
+    "contrast_bp": -15.288323295803004,
+    "CI95_low": -23.714174580610738,
+    "CI95_high": -6.862472010995265
+  },
+  {
+    "specification": "S1_absolute_240",
+    "contrast_bp": 7.619957359515602,
+    "CI95_low": -2.5028852370806405,
+    "CI95_high": 17.742799956111845
+  }
+]

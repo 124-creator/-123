@@ -1,0 +1,48 @@
+{
+  "full_copied_directory_diff_check_exit": 2,
+  "reason": "Inherited SVG path-line trailing spaces and Markdown hard-break spaces; preserved rather than mutating frozen artifacts",
+  "baseline_comparisons": [
+    {
+      "file": "COVER_LETTER_EN.md",
+      "warnings": 2,
+      "flagged_lines_already_present_in_v10": true
+    },
+    {
+      "file": "MANUSCRIPT_EN.md",
+      "warnings": 2,
+      "flagged_lines_already_present_in_v10": true
+    },
+    {
+      "file": "ONLINE_RESOURCE_1.md",
+      "warnings": 4,
+      "flagged_lines_already_present_in_v10": true
+    },
+    {
+      "file": "TITLE_PAGE.md",
+      "warnings": 2,
+      "flagged_lines_already_present_in_v10": true
+    },
+    {
+      "file": "figures/Fig1.svg",
+      "warnings": 598,
+      "flagged_lines_already_present_in_v10": true
+    },
+    {
+      "file": "figures/Fig2.svg",
+      "warnings": 860,
+      "flagged_lines_already_present_in_v10": true
+    },
+    {
+      "file": "figures/Fig3.svg",
+      "warnings": 734,
+      "flagged_lines_already_present_in_v10": true
+    },
+    {
+      "file": "figures/FigS1.svg",
+      "warnings": 646,
+      "flagged_lines_already_present_in_v10": true
+    }
+  ],
+  "new_code_and_guides_diff_check_exit": 0,
+  "frozen_figures_not_reformatted": true
+}

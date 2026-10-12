@@ -1,0 +1,41 @@
+{
+  "delegation_id": "deleg_ab04b7f8",
+  "scope": "Independent static review of two new editorial Python files and supplied static scan only",
+  "passed": false,
+  "security_concerns": [],
+  "logic_errors": [
+    "require_plain allowed w:pPr containing w:sectPr; deleting that target could remove section settings. Protected equation/table/drawing comparisons would not detect it."
+  ],
+  "suggestions": [
+    "Add a section-target refusal test before mutation.",
+    "Consider extra drawing/field/hyperlink/output-collision tests.",
+    "Directly hash-compare the copied supplementary DOCX."
+  ],
+  "actual_artifact_boundary_check": [
+    {
+      "document": "MANUSCRIPT_EN_v10_1.docx",
+      "source_section_properties": 1,
+      "revised_section_properties": 1,
+      "section_properties_canonical_xml_equal": true,
+      "header_footer_parts_checked": 2,
+      "header_footer_parts_equal": true
+    },
+    {
+      "document": "TITLE_PAGE_v10_1.docx",
+      "source_section_properties": 1,
+      "revised_section_properties": 1,
+      "section_properties_canonical_xml_equal": true,
+      "header_footer_parts_checked": 2,
+      "header_footer_parts_equal": true
+    },
+    {
+      "document": "ONLINE_RESOURCE_1_v10_1.docx",
+      "source_section_properties": 1,
+      "revised_section_properties": 1,
+      "section_properties_canonical_xml_equal": true,
+      "header_footer_parts_checked": 2,
+      "header_footer_parts_equal": true
+    }
+  ],
+  "conclusion": "The general editor defect is retained as a failed review and is being repaired. Independent inspection finds no lost section/header/footer data in these actual generated documents; this does not waive the code defect."
+}

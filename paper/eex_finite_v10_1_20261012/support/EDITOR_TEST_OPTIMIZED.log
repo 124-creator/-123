@@ -1,0 +1,7 @@
+test_plain_edit_preserves_protected_content_and_refuses_unsafe_targets (test_revise_finite.FiniteRevisionTest.test_plain_edit_preserves_protected_content_and_refuses_unsafe_targets) ... ok
+test_section_break_is_rejected_before_any_target_is_modified (test_revise_finite.FiniteRevisionTest.test_section_break_is_rejected_before_any_target_is_modified) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.060s
+
+OK

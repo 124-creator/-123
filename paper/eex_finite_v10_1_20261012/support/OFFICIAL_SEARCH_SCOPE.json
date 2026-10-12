@@ -1,0 +1,25 @@
+{
+  "recorded_after_tools": "2026-10-12T11:57:28.408331+08:00",
+  "retrieval": "web.run search_query only; no retry of previously denied target bodies",
+  "queries": [
+    {
+      "q": "\"Empirical Economics\" \"submission guidelines\" \"abstract\"",
+      "domains": [
+        "link.springer.com"
+      ],
+      "observed_result": "No results found"
+    },
+    {
+      "q": "Empirical Economics journal 181 submission guidelines",
+      "domains": [
+        "link.springer.com",
+        "springer.com"
+      ],
+      "observed_result": "Journal articles, impact-information and other-journal author guides; no complete target-journal submission guidelines obtained"
+    }
+  ],
+  "full_current_guidelines_verified": false,
+  "submission_system_requirements_verified": false,
+  "new_fee_or_rank_claims": false,
+  "draft_scope_correction": "An uncommitted draft quality note had prematurely described the search scope before these calls. It has been replaced by this post-retrieval account. That earlier draft is not access evidence."
+}

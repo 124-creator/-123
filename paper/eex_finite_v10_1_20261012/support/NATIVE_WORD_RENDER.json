@@ -1,0 +1,32 @@
+{
+  "renderer": {
+    "renderer_interface": "Word.Application",
+    "version": "14.0",
+    "isolated_initial_document_count": 0,
+    "com_reported_product_name": "Microsoft Word",
+    "actual_implementation": "WPS Office 12.1.0.24655 (installation path observed)",
+    "pdf_creator": "WPS 文字 (independently read from both generated PDF metadata)",
+    "not_microsoft_word_execution": true
+  },
+  "records": [
+    {
+      "input": "MANUSCRIPT_EN_v10_1.docx",
+      "pdf": "MANUSCRIPT_EN_v10_1.pdf",
+      "pages": 21,
+      "input_sha256_unchanged": "7d231b2fdb5816598d7ea253e5aa5e4285245ae667d50e2b96675755aec9b410",
+      "pdf_bytes": 2072395,
+      "pdf_sha256": "d27e4acafa741537f1f68710c4d2a9ee47755f494b566477c2c7369829c897e0"
+    },
+    {
+      "input": "TITLE_PAGE_v10_1.docx",
+      "pdf": "TITLE_PAGE_v10_1.pdf",
+      "pages": 1,
+      "input_sha256_unchanged": "9ef6c0ab65fe003dbfa65575da989c383b42883d9cd14dc2ed81efb75c6f941a",
+      "pdf_bytes": 73053,
+      "pdf_sha256": "84265f1a9f6f7c74fce507e600b3e9dcaf541f560720c833e472ad02f53986c1"
+    }
+  ],
+  "completed_documents": 2,
+  "execution_note": "Main PDF exported and source hash checked before the first batch failed after closing its last document. Title PDF was exported in a separate successful invocation. No failed batch is reported as a successful full run. Revised cleanup keeps owned documents open until application Quit.",
+  "scope": "New main and title PDFs were rendered through WPS Word-compatible COM. The unchanged SI PDF is retained byte-for-byte from v10, not re-rendered here."
+}
