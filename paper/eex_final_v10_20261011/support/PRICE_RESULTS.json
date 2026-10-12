@@ -1,0 +1,541 @@
+{
+  "primary_signed_240": {
+    "n": 240,
+    "quarters": 21,
+    "rank": 14,
+    "residual_df": 226,
+    "coefficient": -78.71950489255978,
+    "CR1_standard_error": 22.092303679574187,
+    "CR1_t_Gminus1_CI95": [
+      -124.80324283404867,
+      -32.63576695107089
+    ],
+    "IQR_residualized_bid_dispersion": 0.12909355353616186,
+    "fitted_IQR_gap_bps": -10.162180619187822,
+    "IQR_gap_CR1_CI95_bps": [
+      -16.111294110283872,
+      -4.213067128091772
+    ],
+    "incremental_partial_R2": 0.06806125706034483,
+    "scaled_condition_number": 14.758963346939051,
+    "unscaled_condition_number": 4063.7182865314144,
+    "max_quarter_share_of_focal_partial_leverage": 0.09102639831608668,
+    "focal_partial_leverage_effective_quarters": 16.325674046802778,
+    "quarter_counts": {
+      "2020Q1": 12,
+      "2020Q2": 10,
+      "2020Q3": 13,
+      "2020Q4": 11,
+      "2021Q1": 9,
+      "2021Q2": 11,
+      "2021Q3": 13,
+      "2021Q4": 12,
+      "2022Q1": 11,
+      "2022Q2": 10,
+      "2022Q3": 14,
+      "2023Q1": 12,
+      "2023Q2": 11,
+      "2023Q3": 13,
+      "2024Q1": 10,
+      "2024Q3": 13,
+      "2024Q4": 11,
+      "2025Q1": 11,
+      "2025Q2": 10,
+      "2025Q3": 13,
+      "2025Q4": 10
+    },
+    "all_coefficients": {
+      "intercept": -1118.9376455396957,
+      "log_volume": 60.84493456230955,
+      "log_total_bidders": 129.6561524404587,
+      "log_successful_bidders": -127.74068944922016,
+      "log_cover_ratio": 53.00812628359029,
+      "bid_price_spread_eur": -0.06766048566506969,
+      "log_auction_price": 62.638848845037394,
+      "year_2021": -24.111729712210142,
+      "year_2022": -60.160712832322574,
+      "year_2023": -51.619355682808376,
+      "year_2024": -40.964098702620674,
+      "year_2025": -56.92574160432466,
+      "reference_last_trade": -27.85769694592294,
+      "bid_dispersion_log1p": -78.71950489255978
+    },
+    "uncertainty_label": "Exploratory CR1/CV1 t approximation; independence across quarters is an assumption, not established",
+    "outcome_unit": "basis points of the reported percentage deviation; not reconstructed native quotes",
+    "IQR_observed_bid_dispersion": 0.18427284192537574,
+    "observed_IQR_gap_bps": -14.505866881510512,
+    "observed_IQR_gap_CR1_CI95_bps": [
+      -22.997848238532935,
+      -6.013885524488089
+    ],
+    "outcome_absolute": false,
+    "WCR_test": {
+      "null": "coefficient on bid_dispersion_log1p equals zero",
+      "method": "null-imposed quarter wild-cluster t; Rademacher; CV1/CR1 studentization",
+      "requested": 999,
+      "valid": 999,
+      "failed": [],
+      "t_observed": -3.5632094341225824,
+      "two_sided_plus_one_p": 0.005,
+      "not_a_bootstrap_confidence_interval": true,
+      "conditional_MC_SE_approx": 0.0022315868748448895,
+      "coverage_or_untouched_test_certified": false
+    },
+    "deletion_diagnostics": {
+      "quarter_jackknife": {
+        "method": "mean-centred delete-quarter jackknife CV3J; t(G-1)",
+        "standard_error": 27.720268318528262,
+        "CI95": [
+          -136.5429713534117,
+          -20.896038431707865
+        ],
+        "delete_estimate_mean": -78.43646855839417,
+        "deletions": [
+          {
+            "omitted_quarter": "2020Q1",
+            "n": 228,
+            "coefficient": -85.04516276855472
+          },
+          {
+            "omitted_quarter": "2020Q2",
+            "n": 230,
+            "coefficient": -77.57880223473676
+          },
+          {
+            "omitted_quarter": "2020Q3",
+            "n": 227,
+            "coefficient": -77.92622617611913
+          },
+          {
+            "omitted_quarter": "2020Q4",
+            "n": 229,
+            "coefficient": -84.69990725035119
+          },
+          {
+            "omitted_quarter": "2021Q1",
+            "n": 231,
+            "coefficient": -73.17121050015473
+          },
+          {
+            "omitted_quarter": "2021Q2",
+            "n": 229,
+            "coefficient": -75.92350608382534
+          },
+          {
+            "omitted_quarter": "2021Q3",
+            "n": 227,
+            "coefficient": -90.21498881672358
+          },
+          {
+            "omitted_quarter": "2021Q4",
+            "n": 228,
+            "coefficient": -82.47559911836755
+          },
+          {
+            "omitted_quarter": "2022Q1",
+            "n": 229,
+            "coefficient": -64.09865035972234
+          },
+          {
+            "omitted_quarter": "2022Q2",
+            "n": 230,
+            "coefficient": -64.74769616483914
+          },
+          {
+            "omitted_quarter": "2022Q3",
+            "n": 226,
+            "coefficient": -76.55923889997763
+          },
+          {
+            "omitted_quarter": "2023Q1",
+            "n": 228,
+            "coefficient": -75.93144594602322
+          },
+          {
+            "omitted_quarter": "2023Q2",
+            "n": 229,
+            "coefficient": -79.53454591322073
+          },
+          {
+            "omitted_quarter": "2023Q3",
+            "n": 227,
+            "coefficient": -75.4930773496896
+          },
+          {
+            "omitted_quarter": "2024Q1",
+            "n": 230,
+            "coefficient": -79.59790712909256
+          },
+          {
+            "omitted_quarter": "2024Q3",
+            "n": 227,
+            "coefficient": -84.90077097518635
+          },
+          {
+            "omitted_quarter": "2024Q4",
+            "n": 229,
+            "coefficient": -80.33674681294951
+          },
+          {
+            "omitted_quarter": "2025Q1",
+            "n": 229,
+            "coefficient": -82.0672359794958
+          },
+          {
+            "omitted_quarter": "2025Q2",
+            "n": 230,
+            "coefficient": -80.95164106712825
+          },
+          {
+            "omitted_quarter": "2025Q3",
+            "n": 227,
+            "coefficient": -83.17610963936124
+          },
+          {
+            "omitted_quarter": "2025Q4",
+            "n": 230,
+            "coefficient": -72.73537054075791
+          }
+        ]
+      },
+      "leave_year_out": [
+        {
+          "omitted_year": 2020,
+          "n": 194,
+          "quarters": 17,
+          "coefficient": -86.10918434956832,
+          "design_columns": [
+            "intercept",
+            "log_volume",
+            "log_total_bidders",
+            "log_successful_bidders",
+            "log_cover_ratio",
+            "bid_price_spread_eur",
+            "log_auction_price",
+            "year_2022",
+            "year_2023",
+            "year_2024",
+            "year_2025",
+            "reference_last_trade",
+            "bid_dispersion_log1p"
+          ]
+        },
+        {
+          "omitted_year": 2021,
+          "n": 195,
+          "quarters": 17,
+          "coefficient": -84.42153791454946,
+          "design_columns": [
+            "intercept",
+            "log_volume",
+            "log_total_bidders",
+            "log_successful_bidders",
+            "log_cover_ratio",
+            "bid_price_spread_eur",
+            "log_auction_price",
+            "year_2022",
+            "year_2023",
+            "year_2024",
+            "year_2025",
+            "reference_last_trade",
+            "bid_dispersion_log1p"
+          ]
+        },
+        {
+          "omitted_year": 2022,
+          "n": 205,
+          "quarters": 18,
+          "coefficient": -45.1224078407894,
+          "design_columns": [
+            "intercept",
+            "log_volume",
+            "log_total_bidders",
+            "log_successful_bidders",
+            "log_cover_ratio",
+            "bid_price_spread_eur",
+            "log_auction_price",
+            "year_2021",
+            "year_2023",
+            "year_2024",
+            "year_2025",
+            "reference_last_trade",
+            "bid_dispersion_log1p"
+          ]
+        },
+        {
+          "omitted_year": 2023,
+          "n": 204,
+          "quarters": 18,
+          "coefficient": -73.26526973227656,
+          "design_columns": [
+            "intercept",
+            "log_volume",
+            "log_total_bidders",
+            "log_successful_bidders",
+            "log_cover_ratio",
+            "bid_price_spread_eur",
+            "log_auction_price",
+            "year_2021",
+            "year_2022",
+            "year_2024",
+            "year_2025",
+            "reference_last_trade",
+            "bid_dispersion_log1p"
+          ]
+        },
+        {
+          "omitted_year": 2024,
+          "n": 206,
+          "quarters": 18,
+          "coefficient": -88.23344524931525,
+          "design_columns": [
+            "intercept",
+            "log_volume",
+            "log_total_bidders",
+            "log_successful_bidders",
+            "log_cover_ratio",
+            "bid_price_spread_eur",
+            "log_auction_price",
+            "year_2021",
+            "year_2022",
+            "year_2023",
+            "year_2025",
+            "reference_last_trade",
+            "bid_dispersion_log1p"
+          ]
+        },
+        {
+          "omitted_year": 2025,
+          "n": 196,
+          "quarters": 17,
+          "coefficient": -83.73571726766764,
+          "design_columns": [
+            "intercept",
+            "log_volume",
+            "log_total_bidders",
+            "log_successful_bidders",
+            "log_cover_ratio",
+            "bid_price_spread_eur",
+            "log_auction_price",
+            "year_2021",
+            "year_2022",
+            "year_2023",
+            "year_2024",
+            "reference_last_trade",
+            "bid_dispersion_log1p"
+          ]
+        }
+      ],
+      "selection_or_stability_proof": false
+    }
+  },
+  "S1_absolute_240": {
+    "n": 240,
+    "quarters": 21,
+    "rank": 14,
+    "residual_df": 226,
+    "coefficient": 41.351494229417845,
+    "CR1_standard_error": 26.335068736296446,
+    "CR1_t_Gminus1_CI95": [
+      -13.582496535730556,
+      96.28548499456625
+    ],
+    "IQR_residualized_bid_dispersion": 0.12909355353616186,
+    "fitted_IQR_gap_bps": 5.338211334105641,
+    "IQR_gap_CR1_CI95_bps": [
+      -1.7534127436900655,
+      12.429835411901347
+    ],
+    "incremental_partial_R2": 0.01887250006205632,
+    "scaled_condition_number": 14.758963346939051,
+    "unscaled_condition_number": 4063.7182865314144,
+    "max_quarter_share_of_focal_partial_leverage": 0.09102639831608668,
+    "focal_partial_leverage_effective_quarters": 16.325674046802778,
+    "quarter_counts": {
+      "2020Q1": 12,
+      "2020Q2": 10,
+      "2020Q3": 13,
+      "2020Q4": 11,
+      "2021Q1": 9,
+      "2021Q2": 11,
+      "2021Q3": 13,
+      "2021Q4": 12,
+      "2022Q1": 11,
+      "2022Q2": 10,
+      "2022Q3": 14,
+      "2023Q1": 12,
+      "2023Q2": 11,
+      "2023Q3": 13,
+      "2024Q1": 10,
+      "2024Q3": 13,
+      "2024Q4": 11,
+      "2025Q1": 11,
+      "2025Q2": 10,
+      "2025Q3": 13,
+      "2025Q4": 10
+    },
+    "all_coefficients": {
+      "intercept": 158.82012260847756,
+      "log_volume": 7.265949054526235,
+      "log_total_bidders": 16.847039928438548,
+      "log_successful_bidders": -57.44465949319673,
+      "log_cover_ratio": -30.27472067032945,
+      "bid_price_spread_eur": 0.27327443107483734,
+      "log_auction_price": -42.67573636049497,
+      "year_2021": 14.704598129298866,
+      "year_2022": 44.40899787405171,
+      "year_2023": 38.48791485349323,
+      "year_2024": 32.425515281428545,
+      "year_2025": 17.12171023273758,
+      "reference_last_trade": 5.140141385407376,
+      "bid_dispersion_log1p": 41.351494229417845
+    },
+    "uncertainty_label": "Exploratory CR1/CV1 t approximation; independence across quarters is an assumption, not established",
+    "outcome_unit": "basis points of the reported percentage deviation; not reconstructed native quotes",
+    "IQR_observed_bid_dispersion": 0.18427284192537574,
+    "observed_IQR_gap_bps": 7.619957359515602,
+    "observed_IQR_gap_CR1_CI95_bps": [
+      -2.5028852370806405,
+      17.742799956111845
+    ],
+    "outcome_absolute": true
+  },
+  "S2_no_flags_203": {
+    "n": 203,
+    "quarters": 18,
+    "rank": 14,
+    "residual_df": 189,
+    "coefficient": -81.45829605055293,
+    "CR1_standard_error": 26.984348256171437,
+    "CR1_t_Gminus1_CI95": [
+      -138.3902943591027,
+      -24.526297742003166
+    ],
+    "IQR_residualized_bid_dispersion": 0.1246869581971975,
+    "fitted_IQR_gap_bps": -10.156787154470232,
+    "IQR_gap_CR1_CI95_bps": [
+      -17.255464847651297,
+      -3.058109461289168
+    ],
+    "incremental_partial_R2": 0.07437647137995618,
+    "scaled_condition_number": 17.461965943148055,
+    "unscaled_condition_number": 3934.2208735316526,
+    "max_quarter_share_of_focal_partial_leverage": 0.11187904293799297,
+    "focal_partial_leverage_effective_quarters": 13.967493754362335,
+    "quarter_counts": {
+      "2020Q1": 12,
+      "2020Q2": 10,
+      "2020Q3": 13,
+      "2020Q4": 11,
+      "2021Q1": 9,
+      "2021Q2": 11,
+      "2021Q3": 13,
+      "2022Q1": 11,
+      "2022Q2": 10,
+      "2023Q1": 12,
+      "2023Q2": 11,
+      "2023Q3": 13,
+      "2024Q3": 13,
+      "2024Q4": 11,
+      "2025Q1": 10,
+      "2025Q2": 10,
+      "2025Q3": 13,
+      "2025Q4": 10
+    },
+    "all_coefficients": {
+      "intercept": -1107.24946125076,
+      "log_volume": 60.58425770345466,
+      "log_total_bidders": 116.52024250121468,
+      "log_successful_bidders": -124.34546844657835,
+      "log_cover_ratio": 58.70688692917928,
+      "bid_price_spread_eur": -0.02839254847183414,
+      "log_auction_price": 69.55140322377987,
+      "year_2021": -28.704416780289808,
+      "year_2022": -66.54516799066215,
+      "year_2023": -63.20330521846078,
+      "year_2024": -55.31916255715574,
+      "year_2025": -65.6420437414945,
+      "reference_last_trade": -27.48122568646944,
+      "bid_dispersion_log1p": -81.45829605055293
+    },
+    "uncertainty_label": "Exploratory CR1/CV1 t approximation; independence across quarters is an assumption, not established",
+    "outcome_unit": "basis points of the reported percentage deviation; not reconstructed native quotes",
+    "IQR_observed_bid_dispersion": 0.18558644012245318,
+    "observed_IQR_gap_bps": -15.117555182463006,
+    "observed_IQR_gap_CR1_CI95_bps": [
+      -25.683362077604286,
+      -4.551748287321729
+    ],
+    "outcome_absolute": false
+  },
+  "S3_best_bid_236": {
+    "n": 236,
+    "quarters": 21,
+    "rank": 13,
+    "residual_df": 223,
+    "coefficient": -83.62450645172976,
+    "CR1_standard_error": 22.094328421191747,
+    "CR1_t_Gminus1_CI95": [
+      -129.71246793022303,
+      -37.53654497323648
+    ],
+    "IQR_residualized_bid_dispersion": 0.12701369969651857,
+    "fitted_IQR_gap_bps": -10.621457949729583,
+    "IQR_gap_CR1_CI95_bps": [
+      -16.475260448583644,
+      -4.767655450875522
+    ],
+    "incremental_partial_R2": 0.07582321588963226,
+    "scaled_condition_number": 14.852929830655983,
+    "unscaled_condition_number": 4074.8777259900803,
+    "max_quarter_share_of_focal_partial_leverage": 0.09205955383024803,
+    "focal_partial_leverage_effective_quarters": 16.15051127365728,
+    "quarter_counts": {
+      "2020Q1": 11,
+      "2020Q2": 10,
+      "2020Q3": 12,
+      "2020Q4": 11,
+      "2021Q1": 9,
+      "2021Q2": 11,
+      "2021Q3": 13,
+      "2021Q4": 12,
+      "2022Q1": 11,
+      "2022Q2": 10,
+      "2022Q3": 14,
+      "2023Q1": 12,
+      "2023Q2": 11,
+      "2023Q3": 13,
+      "2024Q1": 10,
+      "2024Q3": 13,
+      "2024Q4": 11,
+      "2025Q1": 10,
+      "2025Q2": 9,
+      "2025Q3": 13,
+      "2025Q4": 10
+    },
+    "all_coefficients": {
+      "intercept": -1100.7251292600124,
+      "log_volume": 60.94981612748664,
+      "log_total_bidders": 129.92851102872982,
+      "log_successful_bidders": -127.66526241003676,
+      "log_cover_ratio": 55.177685961055985,
+      "bid_price_spread_eur": -0.03501114043854356,
+      "log_auction_price": 57.21912830073279,
+      "year_2021": -20.4314856146704,
+      "year_2022": -55.16021486766607,
+      "year_2023": -46.37333522098954,
+      "year_2024": -39.049633881868786,
+      "year_2025": -54.171679796483396,
+      "bid_dispersion_log1p": -83.62450645172976
+    },
+    "uncertainty_label": "Exploratory CR1/CV1 t approximation; independence across quarters is an assumption, not established",
+    "outcome_unit": "basis points of the reported percentage deviation; not reconstructed native quotes",
+    "IQR_observed_bid_dispersion": 0.18282108851222723,
+    "observed_IQR_gap_bps": -15.288323295803004,
+    "observed_IQR_gap_CR1_CI95_bps": [
+      -23.714174580610738,
+      -6.862472010995265
+    ],
+    "outcome_absolute": false
+  }
+}

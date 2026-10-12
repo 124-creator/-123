@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-11",
+  "revision": "v10",
+  "basis_commit": "35f6b780561907b4914e61e68b0962645ace8e71",
+  "scope": "Editorial and structural QA only; no raw market refitting",
+  "checks_passed": 34,
+  "checks": [
+    "main maths token multiset preserved",
+    "main table cells preserved",
+    "main both authors and correspondence",
+    "main no pending changes",
+    "main no draft placeholders",
+    "SOURCE_DEFINITION_CHECK.json source bytes unchanged",
+    "FULL24_SOURCE_INDEX.json source bytes unchanged",
+    "PRICE_RESULTS.json source bytes unchanged",
+    "PRICE_DESCRIPTIVES.json source bytes unchanged",
+    "si maths token multiset preserved",
+    "si table cells preserved",
+    "si both authors and correspondence",
+    "si no pending changes",
+    "si no draft placeholders",
+    "SOURCE_DEFINITION_CHECK.json source bytes unchanged",
+    "FULL24_SOURCE_INDEX.json source bytes unchanged",
+    "PRICE_RESULTS.json source bytes unchanged",
+    "PRICE_DESCRIPTIVES.json source bytes unchanged",
+    "primary_signed_240 contrast display",
+    "primary_signed_240 interval display",
+    "S2_no_flags_203 contrast display",
+    "S2_no_flags_203 interval display",
+    "S3_best_bid_236 contrast display",
+    "S3_best_bid_236 interval display",
+    "S1_absolute_240 contrast display",
+    "S1_absolute_240 interval display",
+    "abstract within journal word range",
+    "main captions numbered",
+    "SI captions numbered",
+    "source Table4 remains",
+    "MANUSCRIPT_EN_v10.docx valid zip",
+    "ONLINE_RESOURCE_1_v10.docx valid zip",
+    "TITLE_PAGE_v10.docx valid zip",
+    "page counts"
+  ],
+  "word_counts": {
+    "v9": {
+      "all_text_tokens_including_tables_references": 7568,
+      "body_paragraph_tokens_including_captions_notes_declarations_excluding_tables_references": 6384,
+      "reference_tokens": 439,
+      "physical_tables": 10,
+      "figures": 3
+    },
+    "v10": {
+      "all_text_tokens_including_tables_references": 10364,
+      "body_paragraph_tokens_including_captions_notes_declarations_excluding_tables_references": 9163,
+      "reference_tokens": 463,
+      "physical_tables": 10,
+      "figures": 3
+    },
+    "method": "Regex word tokens; concatenate text and native math within each paragraph, with paragraph separators; not Microsoft Word built-in statistics.",
+    "abstract_whitespace_words": 209,
+    "abstract_regex_tokens": 214
+  },
+  "main_numbered_sections": 8,
+  "main_numbered_tables": 7,
+  "main_figures": 3,
+  "SI_numbered_tables": 14,
+  "SI_figures": 1,
+  "original_main_math_objects": 52,
+  "original_SI_math_objects": 58,
+  "pages": {
+    "MANUSCRIPT_EN_v10.pdf": 21,
+    "ESM_1.pdf": 14,
+    "TITLE_PAGE_v10.pdf": 1
+  },
+  "visual_review": {
+    "all_pages_covered": 36,
+    "main_final_changed_pages_reopened": [
+      17
+    ],
+    "remaining_main_pages_pixel_identical_to_previously_opened": 20,
+    "SI_latest_all_pages_opened": 14,
+    "title_latest_opened": 1,
+    "observed_clipping_overlap_missing_math": false,
+    "native_Word_WPS_test": false
+  },
+  "new_market_fits": 0,
+  "new_resamples": 0,
+  "new_event_descriptions": 0,
+  "GitHub_push_succeeded": false,
+  "journal_submitted": false,
+  "not_a_guarantee_of_journal_acceptance": true,
+  "remaining_confirmation_scope": [
+    "Nonfinancial interests not stated by user",
+    "Permission-dependent exact-row access not guaranteed",
+    "Exclusive-consideration declarations answered only at actual submission",
+    "CAS classification and all publication costs not verified"
+  ],
+  "final_files": {
+    "MANUSCRIPT_EN_v10.docx": "00b8a7fd061421c578c0864113beaf394280ed79b09290c721dfd504c388a83d",
+    "ONLINE_RESOURCE_1_v10.docx": "f051a94c28b85f89cc355af81144e2aac23e51d8220ea2fb2f999435b17561ce",
+    "TITLE_PAGE_v10.docx": "f9cdfcf662f52614c893c95367e595c58b48ddf55fde0d94e7cea04309bf8505",
+    "MANUSCRIPT_EN_v10.pdf": "f8f557de3736a10ef626e74b83c953aeac08749ae38c74eef6fb13b6f240fad3",
+    "ESM_1.pdf": "bedd67779eccf5725172ede4f37a36d0b420fb3aadf7bed580319a82fe5120e3",
+    "TITLE_PAGE_v10.pdf": "ecd0ccf8fdf83873eedafa1613b94ccfdf7cb8159397dc1f48b389e3ad3bab83"
+  }
+}

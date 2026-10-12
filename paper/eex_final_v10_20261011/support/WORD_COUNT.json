@@ -1,0 +1,19 @@
+{
+  "v9": {
+    "all_text_tokens_including_tables_references": 7568,
+    "body_paragraph_tokens_including_captions_notes_declarations_excluding_tables_references": 6384,
+    "reference_tokens": 439,
+    "physical_tables": 10,
+    "figures": 3
+  },
+  "v10": {
+    "all_text_tokens_including_tables_references": 10364,
+    "body_paragraph_tokens_including_captions_notes_declarations_excluding_tables_references": 9163,
+    "reference_tokens": 463,
+    "physical_tables": 10,
+    "figures": 3
+  },
+  "method": "Regex word tokens; concatenate text and native math within each paragraph, with paragraph separators; not Microsoft Word built-in statistics.",
+  "abstract_whitespace_words": 209,
+  "abstract_regex_tokens": 214
+}

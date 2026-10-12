@@ -1,0 +1,19 @@
+{
+  "main_v9_to_v10": {
+    "1": 1,
+    "2": 2,
+    "3": 4,
+    "4": 6,
+    "5": 7,
+    "6_A": 3,
+    "6_B": 5
+  },
+  "figures_v9_to_v10": {
+    "1": "1",
+    "2": "S1",
+    "3": "3"
+  },
+  "new_main_Fig2": "Frozen price contrasts from previous main Table 6B; not new estimation",
+  "supplement_tables": "S1-S14 unchanged",
+  "external_DEHSt_Table4": "Unchanged source-document numbering"
+}

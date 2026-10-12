@@ -1,0 +1,5 @@
+# Document editing and fixed-aggregate plots only; no market fitting
+python-docx==1.2.0
+lxml==6.1.1
+matplotlib==3.10.8
+# Pandoc is used only to export DOCX to Markdown; native formulas remain the Word source.
