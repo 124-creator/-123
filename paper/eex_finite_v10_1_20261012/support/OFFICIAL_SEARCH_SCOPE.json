@@ -1,25 +1,14 @@
 {
-  "recorded_after_tools": "2026-10-12T11:57:28.408331+08:00",
-  "retrieval": "web.run search_query only; no retry of previously denied target bodies",
-  "queries": [
-    {
-      "q": "\"Empirical Economics\" \"submission guidelines\" \"abstract\"",
-      "domains": [
-        "link.springer.com"
-      ],
-      "observed_result": "No results found"
-    },
-    {
-      "q": "Empirical Economics journal 181 submission guidelines",
-      "domains": [
-        "link.springer.com",
-        "springer.com"
-      ],
-      "observed_result": "Journal articles, impact-information and other-journal author guides; no complete target-journal submission guidelines obtained"
-    }
-  ],
+  "recorded_after_actual_tool": "2026-10-12T12:16:24.576420+08:00",
+  "retrieval": "hermes_tools.web_search invoked through execute_code",
+  "query": "site:link.springer.com/journal/181 \"Empirical Economics\" \"submission guidelines\"",
+  "limit": 3,
+  "actual_tool_result": {
+    "success": false,
+    "error": "openai-native declares OpenAI's server-side web_search tool; it cannot run as a client-side search and requires the Codex Responses transport (provider openai-codex). For client-side search use firecrawl (default) or another backend. (keyless rescue also failed: Keyless Parallel search failed: request failed: HTTPSConnectionPool(host='search.parallel.ai', port=443): Max retries exceeded with url: /mcp (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)'))). Set PARALLEL_API_KEY (https://parallel.ai) or another web backend via `hermes tools` for reliable service.)"
+  },
   "full_current_guidelines_verified": false,
   "submission_system_requirements_verified": false,
   "new_fee_or_rank_claims": false,
-  "draft_scope_correction": "An uncommitted draft quality note had prematurely described the search scope before these calls. It has been replaced by this post-retrieval account. That earlier draft is not access evidence."
+  "retraction": "The previous version of this receipt attributed two searches and result categories to web.run without grounded visible tool output. Those attributions and claimed result categories are withdrawn, not retroactively certified. The actual search above failed at provider/transport setup and yielded no usable sources. Prior full-guideline/access gaps remain unresolved."
 }

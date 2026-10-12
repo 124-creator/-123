@@ -127,8 +127,8 @@
     },
     {
       "path": "QUALITY_CHECK_ZH.md",
-      "bytes": 3218,
-      "sha256": "889aa194531f967e284f24e16c0800b6d0b4e9cab05ad385567179bb3d1006dd"
+      "bytes": 3270,
+      "sha256": "d1b6b695da40967138e0ab504dcf46564132a331f54eca7dfe167c3cabafae36"
     },
     {
       "path": "requirements_editorial.txt",
@@ -187,8 +187,8 @@
     },
     {
       "path": "support/OFFICIAL_SEARCH_SCOPE.json",
-      "bytes": 1034,
-      "sha256": "51ba89a79b3eb31413fefe632f79ebeb68b1fb05a2d2f6eca95c1ba47a54dead"
+      "bytes": 1482,
+      "sha256": "56604bae77b272089557539ad576ef8ea8200cbbdbeb06828af1ae3678342669"
     },
     {
       "path": "support/PRICE_DESCRIPTIVES.json",
