@@ -1,0 +1,80 @@
+{
+  "report_kind": "parent_readback_of_second_fix_agent_receipt",
+  "delegation_id": "deleg_a0444f18",
+  "modified_file": "research/aprime_gate3_20261007/eligibility/test_eligibility.py",
+  "bytes": 23251,
+  "sha256": "8d3fb318eec3d1a98585432eeeac44ab4f597e90b7bb0447a061fd78b0d87497",
+  "initial_bytes": 23241,
+  "initial_sha256": "0de234c97b86de90321105be8e44f43b4ad94b4af74045808c485ce24d167d40",
+  "change": {
+    "before": "self.directory = Path(temporary.name)",
+    "after": "self.directory = Path(temporary.name).resolve()",
+    "assertions_changed": false,
+    "production_files_changed": false
+  },
+  "test_command_count": 4,
+  "alias_resolution_verified_by_parent": true,
+  "tests": [
+    {
+      "stage": "RED_8dot3_original",
+      "tests_run": 1,
+      "passed": 0,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0,
+      "returncode": 1,
+      "skips": []
+    },
+    {
+      "stage": "GREEN_8dot3_regression_normal",
+      "tests_run": 1,
+      "passed": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "returncode": 0,
+      "skips": []
+    },
+    {
+      "stage": "GREEN_8dot3_module_normal",
+      "tests_run": 20,
+      "passed": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "returncode": 0,
+      "skips": [
+        {
+          "test": "test_eligibility.SyntheticInputTests.test_required_input_symlink_cannot_escape_the_local_root",
+          "reason": "Symlink privilege unavailable; real escaped-path rejection is tested separately"
+        }
+      ]
+    },
+    {
+      "stage": "GREEN_8dot3_module_optimized",
+      "tests_run": 20,
+      "passed": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "returncode": 0,
+      "skips": [
+        {
+          "test": "test_eligibility.SyntheticInputTests.test_required_input_symlink_cannot_escape_the_local_root",
+          "reason": "Symlink privilege unavailable; real escaped-path rejection is tested separately"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Symlink privilege unavailable; real escaped-path rejection is tested separately"
+  ],
+  "parent_diff_check": [
+    {
+      "line": 144,
+      "before": "        self.directory = Path(temporary.name)",
+      "after": "        self.directory = Path(temporary.name).resolve()"
+    }
+  ],
+  "scope": "Fixture-only correction; no production fixes for independent S1/L1/L2."
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "snapshot_date": "2026-10-07",
-  "listed_files": 80,
+  "listed_files": 102,
   "manifest_itself_excluded_to_avoid_recursive_hash": true,
   "legacy_experiment_results_published": false,
   "model_training_ran": false,
@@ -35,8 +35,8 @@
     },
     {
       "path": "START_HERE_6PRO.md",
-      "bytes": 3240,
-      "sha256": "09d93a5f7a821456ee3df45c005b314fed5349fdca1b6120e763d0e55c811a67"
+      "bytes": 4127,
+      "sha256": "63505a973e10c15db1b3e1fa7e4bfadcff380ab21838992d3e6b7b934fed7a55"
     },
     {
       "path": "data/parsed/author_wang_eu_futures.csv",
@@ -334,6 +334,116 @@
       "sha256": "158a943acc22327db68817d5e77fb06b379ef204ac0e933b3100c5d6f0600f25"
     },
     {
+      "path": "research/aprime_gate3_20261007/CLAIM_CONTRACT.md",
+      "bytes": 3085,
+      "sha256": "17d952571fe269551e2ea5321eabcdc4e41fd00a8b5745960d8b8e508126835b"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/FEASIBILITY_GATE.md",
+      "bytes": 2838,
+      "sha256": "aed810a83b4a554dd92e7bb593012d295ed660581f8f719246f5c82f3edd0663"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/PROMPT_FOR_PRO_REVIEW.txt",
+      "bytes": 8265,
+      "sha256": "6bfe326fa9d879c7e876365387a83db87ae64f1672cfccfe271f611c797b05d1"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/SCOPE.md",
+      "bytes": 1151,
+      "sha256": "8ef3b1017825bba779463647e5b6d08d37083f3ab82779f5a88dd0b93a0a1c12"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/START_HERE.md",
+      "bytes": 3347,
+      "sha256": "4ee484ba295c4345a6beef361189a00eb16fccfdc14d6909cd8e4376f8fbdd3f"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+      "bytes": 12680,
+      "sha256": "85850123bbf847bf9fc385cfb3a1fc72c3438176ff3543773c62420c64725da5"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/eligibility_core.py",
+      "bytes": 5838,
+      "sha256": "7096cf3b6ecd8432b92d9fed8bc163ad91b46945ff73d4a981816a39eccd0b86"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/results/origin_eligibility.csv",
+      "bytes": 228553,
+      "sha256": "d58c6700e7b06e67c56077250f17d6b8473c3150c3b8e0c361b1d917e23c011d"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/results/summary.json",
+      "bytes": 6660,
+      "sha256": "e342498e5d1f5919a182fc66d3e7c517769120d2b62e2f65facf99ab81770379"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/test_eligibility.py",
+      "bytes": 23241,
+      "sha256": "0de234c97b86de90321105be8e44f43b4ad94b4af74045808c485ce24d167d40"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/institution/CALENDAR_GATE.json",
+      "bytes": 20767,
+      "sha256": "157e6dc2f724668c473eb7f28d5ab9af653fac1740a222259cd562420e0aecac"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/institution/CALENDAR_RULE_TIMING_NOTE.md",
+      "bytes": 4553,
+      "sha256": "c1bc02d17c6aec8ee6b9724011fc02935db6b36c146bcfbb8a8dfded8b165799"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/institution/FIELD_TIME_CONTRACT.md",
+      "bytes": 2418,
+      "sha256": "41682e07bf133fd869957657ca16b634ba8ab2d4f61dbe0fbad84cf5bab51736"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/institution/INDEX_DISCOVERY_LOG.json",
+      "bytes": 7337,
+      "sha256": "c1e572c8d7d586eca798e8b4cebdbdbf1bd277e068093252d07b6ccc571fa82a"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/institution/RULE_TIMING_LEDGER.csv",
+      "bytes": 10977,
+      "sha256": "75cf50024c270e8beb29c794bec57ecaa089a12e1568087c795c561d7d54cffd"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/literature/DIRECT_NEIGHBOR_MATRIX.json",
+      "bytes": 37768,
+      "sha256": "78ea4ca5381cb99151e0956e7a04a71d2c5f661e5e88474c0307842164584fb1"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/literature/DIRECT_NEIGHBOR_MATRIX.md",
+      "bytes": 20303,
+      "sha256": "6ee669f2ddde96bb5ec8b11bfdecdf2696f11157c8c639888cc7d9375a092f0e"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/protocol/PROTOCOL.md",
+      "bytes": 5100,
+      "sha256": "9822f73ed9fbcf3dd45ebb5c255e13602938125bda84cc3afead85082fa16fb0"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/protocol/analysis_contract.json",
+      "bytes": 2098,
+      "sha256": "2b2bf7b3f03558915657cf9296b1c3b57dc934c8d8e0c0ed6cf137f366e27f1e"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/protocol/config.json",
+      "bytes": 4335,
+      "sha256": "dcebc3b774e977b9abafb1df30382ad8a469914c1e5d566137fee651653baf64"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/verification/EVIDENCE_SCOPE_CHECKS.json",
+      "bytes": 2386,
+      "sha256": "2120104c41354bee3b2831d659c20307bf738d733ab44f25700110f2ac3dd0d8"
+    },
+    {
+      "path": "research/aprime_gate3_20261007/verification/STATIC_SCAN.json",
+      "bytes": 924,
+      "sha256": "5741516a2cfa5666afe294f06ccb8a3b578bb928de9625cfb1f79502681ec31b"
+    },
+    {
       "path": "research/author_quote_checks.json",
       "bytes": 1864,
       "sha256": "f01ef27bce66c5fc7f1510914220e90f8879ac2ac2b264b00aad4439cb281a92"
@@ -415,5 +525,9 @@
   "assistant_invoked_sixpro": false,
   "user_supplied_first_pro_review": true,
   "automatic_aprime_literature_citation_validation": "blocked_not_authorized",
-  "all_research_gates_passed": false
+  "all_research_gates_passed": false,
+  "prepared_utc": "2026-10-08T00:27:43.437479+00:00",
+  "latest_research_entry": "research/aprime_gate3_20261007/START_HERE.md",
+  "software_repair_and_checks_date": "2026-10-08",
+  "current_research_gate": "pause_for_evidence_and_Pro_judgment"
 }

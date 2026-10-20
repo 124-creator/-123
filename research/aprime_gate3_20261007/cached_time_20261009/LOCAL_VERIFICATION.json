@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-10-09T12:48:17.739226+08:00",
+  "local_artifact_checks_passed": true,
+  "scope": "Offline cached-document audit reproducibility and unchanged protected bytes; no security, novelty, data-origin or training PASS",
+  "audit_count_checks": {
+    "metadata_receipts_checked": 71,
+    "cached_documents_checked": 5,
+    "literal_clauses_checked": 8,
+    "deduplicated_notice_identities": 7
+  },
+  "all_protected_files_unchanged": true,
+  "all_selected_cached_documents_unchanged": true,
+  "head_unchanged": true,
+  "staged_diff_unchanged": true,
+  "code_working_and_index_unchanged": true,
+  "protocol_numerical_files_unchanged": true,
+  "head": "cfce35a4d2ddab44df85c0b0e427333810a192bd",
+  "production_security_passed": false,
+  "official_calendar_certified": false,
+  "training_performed": false,
+  "commit_or_push_performed": false,
+  "global_publication_manifest_finalized": false,
+  "execution_scope_note": "An earlier execute_code wrapper failed at result-unpacking before producing artifacts; its auto-created kernel path used system Temp. This script ran with TMPDIR/TEMP/TMP set to allowed Hermes scratch; no retrospective correction of that earlier runtime deviation.",
+  "python_version": "3.11.15",
+  "optimization_level": 1,
+  "temp_variables_verified": true,
+  "global_publication_check": {
+    "exit_code": 1,
+    "result": {
+      "files_checked": 102,
+      "passed": false,
+      "errors": [
+        {
+          "file": "START_HERE_6PRO.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/CLAIM_CONTRACT.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/FEASIBILITY_GATE.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/PROMPT_FOR_PRO_REVIEW.txt",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/SCOPE.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/START_HERE.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/results/origin_eligibility.csv",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/results/summary.json",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/test_eligibility.py",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/literature/DIRECT_NEIGHBOR_MATRIX.md",
+          "error_type": "ValueError"
+        }
+      ]
+    },
+    "error_count": 11,
+    "meaning": "The stale non-final publication manifest remains an independent failing gate; no repair or publication attempted."
+  }
+}

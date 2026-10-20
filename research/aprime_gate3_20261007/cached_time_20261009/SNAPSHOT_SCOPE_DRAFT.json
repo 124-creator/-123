@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "status": "proposal_not_active_protocol",
+  "draft_date": "2026-10-09",
+  "evidence_freeze_cutoff": "2026-10-07",
+  "proposal_id": "CEA22-Q-frozen-snapshot-scope-draft",
+  "active_numerical_protocol_unchanged": "CEA22-Q-H1-candidate-v1",
+  "school_recognition_required": false,
+  "model_training_authorized": false,
+  "production_repair_authorized": false,
+  "target": "CEA22 historical published listing-channel closing quote",
+  "research_claim_proposed": "Conditional exploratory retrospective comparison on the frozen final snapshot: whether the numerical history of a fixed weighted aggregate Q of other positively weighted vintage quotes adds information beyond target history and shared quote-state indicators.",
+  "not_claimed": [
+    "Vintage-resolved real-time executable forecasts",
+    "Untouched historical holdout or preregistration before data inspection",
+    "Certified historical first versions or intraday availability",
+    "Complete official daily session axis from quote rows or annual counts",
+    "All other vintage information absent from Own",
+    "A complete vector of other annual quotes from scalar Q",
+    "Causal policy effects or genuine procurement savings",
+    "Novelty, journal acceptance, statistical power or security certification"
+  ],
+  "official_calendar_requirement_retained": true,
+  "horizon_official_sessions_required": 5,
+  "observed_quote_positions_substituted_for_sessions": false,
+  "calendar_gate_currently_passed": false,
+  "historical_first_version_gap": {
+    "status": "unresolved_not_certified",
+    "proposed_treatment": "If explicitly accepted after review, historical first-vintage availability becomes a disclosed limitation of a frozen-snapshot retrospective estimand rather than evidence of real-time implementability.",
+    "accepted_or_activated": false,
+    "one_session_delay_certifies_first_versions": false
+  },
+  "retained_requirements": [
+    "Official session axis and applicable normal/holiday/temporary closure versions",
+    "Defensible product, field, pricing-channel and initial-reference-price interpretation",
+    "Common origins and matured supervision; future target movement does not select origins",
+    "Train-only preprocessing; common information and declared full-pipeline search budget",
+    "S1 production reader contract or separately authorized and reviewed alternative architecture",
+    "Same-design OLS/ridge negative controls and training implementation tests",
+    "Bounded direct-neighbor contribution review",
+    "Explicit new user authorization before model training"
+  ],
+  "H1_scope": {
+    "main_comparison": "GBT_full versus GBT_own, with target-matched RW guardrail",
+    "Own_already_includes_Q_state_information": true,
+    "increment_tested": "Additional numerical Q levels and changes conditional on the shared state information",
+    "Q_is_not_complete_other_vintage_vector": true,
+    "H2_is_secondary_and_cannot_rescue_failed_H1": true
+  },
+  "availability_assumptions_for_review": [
+    "Date ordering uses the frozen version, not independently reconstructed historical releases.",
+    "Ex-post effective-regime coding cannot be called historically available policy news.",
+    "Any proposed one-session input-delay sensitivity must delay all compared information and the matched latest-known-price baseline consistently, and recheck label/reconstruction timing.",
+    "Such delay sensitivity cannot remove historical revisions or certify actual availability."
+  ],
+  "selection_and_inference_scope": "Exploratory retrospective intervals conditional on selected target and protocol; no correction for target/protocol selection and no exact finite-sample coverage guarantee.",
+  "configuration_changes_applied": false,
+  "formal_training_or_predictions_performed": false,
+  "commit_or_push_performed": false,
+  "older_protocol_school_clause": "The unchanged PROTOCOL.md still contains a legacy school-CAS phrase; it is superseded by the user's 2026-10-09 scope removal and is not a live blocker. Numeric protocol files remain unchanged in this step.",
+  "evidence_files": [
+    "OFFLINE_CACHE_AUDIT.json",
+    "EVIDENCE_AND_SCOPE.md"
+  ]
+}

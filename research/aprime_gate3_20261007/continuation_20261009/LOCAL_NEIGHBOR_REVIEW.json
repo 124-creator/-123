@@ -1,0 +1,677 @@
+{
+  "schema_version": "1.0",
+  "recorded_at": "2026-10-09T11:43:06.813453+08:00",
+  "research_freeze_cutoff": "2026-10-07",
+  "reading_date": "2026-10-09",
+  "access_scope": "only_existing_lawfully_held_local_XML_no_new_network_fulltext",
+  "child_receipt": {
+    "bytes": 59813,
+    "sha256": "4dfa75df9b1d72bc53fa2724d47583618ff865c6e632f3de1466914b9354814a"
+  },
+  "child_reading_scope": "子代理报告两篇主文逐节、所有XML表和图注阅读；不是父代理逐字通读或图像/作者数据审计。",
+  "parent_scope": "完整读回1238行收据；核两XML字节/DOI/全部节表图结构、49条原文定位和14项七维记录；语义回读目标/信息消融/无成交报价保留/事后门限/训练损失关键段。",
+  "sources": [
+    {
+      "paper_id": "su",
+      "doi": "10.3390/su18178967",
+      "cache_filename": "sustainability_requests.xml",
+      "bytes": 318872,
+      "sha256": "2e7d07885a8e4216b6425d314941018f18569a0280f19b8e283123aae114c35d",
+      "body_section_nodes": 36,
+      "table_wrap_nodes": 20,
+      "figure_nodes": 15,
+      "structure_matches_child_scope": true,
+      "full_parent_word_for_word_read": false
+    },
+    {
+      "paper_id": "sy",
+      "doi": "10.3390/systems14070734",
+      "cache_filename": "systems_requests.xml",
+      "bytes": 379235,
+      "sha256": "1c8635f76732a9b0e069d4e7a4d648ca590dd805726f669b0d04b88050bde6cd",
+      "body_section_nodes": 53,
+      "table_wrap_nodes": 20,
+      "figure_nodes": 5,
+      "structure_matches_child_scope": true,
+      "full_parent_word_for_word_read": false
+    }
+  ],
+  "literal_locators_verified": 49,
+  "comparison_count": 14,
+  "comparisons": [
+    {
+      "paper_id": "su",
+      "dimension": "target_field",
+      "bounded_finding": "同全国CEA日频语境；一日对数收益再还原报价，不是CEA22五会话报价MSE；年度和渠道代码未认证。",
+      "locators": [
+        {
+          "evidence_id": "SU_TARGET",
+          "section": "§3.1",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec3dot1-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_RETURN",
+          "section": "§4.2",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot2-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_RECONSTRUCTION",
+          "section": "§4.2",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot2-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_WITHHELD_CODES",
+          "section": "§3.1",
+          "paragraph": 3,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec3dot1-sustainability-18-08967/p3"
+        }
+      ]
+    },
+    {
+      "paper_id": "su",
+      "dimension": "information_set",
+      "bounded_finding": "全变量/technical-only/家族消融已有；披露特征未列单独年度原生序列，不排除通用CEA隐含年度信息。",
+      "locators": [
+        {
+          "evidence_id": "SU_FEATURES",
+          "section": "§3.2",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec3dot2-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_PILOT_NOT_VINTAGE",
+          "section": null,
+          "paragraph": null,
+          "table_id": "sustainability-18-08967-t002",
+          "row_1based": 5,
+          "cell_1based": 2,
+          "locator": null
+        },
+        {
+          "evidence_id": "SU_ABLATION",
+          "section": "§4.4",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot4-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_COMMON_ORIGINS",
+          "section": "§4.1",
+          "paragraph": 4,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot1-sustainability-18-08967/p4"
+        }
+      ]
+    },
+    {
+      "paper_id": "su",
+      "dimension": "quote_trade_state",
+      "bounded_finding": "平价和宏观更新诊断已有；active按事后非零收益定义，不是发行时成交状态。",
+      "locators": [
+        {
+          "evidence_id": "SU_ACTIVE",
+          "section": "§4.3",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot3-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_FLAT_RELEASE",
+          "section": "§5.7",
+          "paragraph": 3,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec5dot7-sustainability-18-08967/p3"
+        },
+        {
+          "evidence_id": "SU_ZERO_VENDOR",
+          "section": "§3.1",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec3dot1-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_MICRO_UNKNOWN",
+          "section": "§6.1",
+          "paragraph": 2,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec6dot1-sustainability-18-08967/p2"
+        }
+      ]
+    },
+    {
+      "paper_id": "su",
+      "dimension": "training_and_scoring_loss",
+      "bounded_finding": "收益监督与报价评分需分开；逐学习器训练/内窗损失仍未完整披露，作者成绩不采信。",
+      "locators": [
+        {
+          "evidence_id": "SU_RETURN",
+          "section": "§4.2",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot2-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_SCORE",
+          "section": "§4.3",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot3-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_RW_LOSSES",
+          "section": "§4.3",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot3-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_INNER_LOSS",
+          "section": "§4.2",
+          "paragraph": 3,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot2-sustainability-18-08967/p3"
+        },
+        {
+          "evidence_id": "SU_RW_RESULT_REPORTED",
+          "section": "§5.2",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec5dot2-sustainability-18-08967/p1"
+        }
+      ]
+    },
+    {
+      "paper_id": "su",
+      "dimension": "capacity_and_tuning_budget",
+      "bounded_finding": "小网格和共同扩展窗已有；不能替本候选认证信息对照与直接/分项总容量等价。",
+      "locators": [
+        {
+          "evidence_id": "SU_250",
+          "section": "§4.2",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot2-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_RF_GRID",
+          "section": null,
+          "paragraph": null,
+          "table_id": "sustainability-18-08967-t004",
+          "row_1based": 7,
+          "cell_1based": 2,
+          "locator": null
+        },
+        {
+          "evidence_id": "SU_GB_GRID",
+          "section": null,
+          "paragraph": null,
+          "table_id": "sustainability-18-08967-t004",
+          "row_1based": 8,
+          "cell_1based": 2,
+          "locator": null
+        },
+        {
+          "evidence_id": "SU_MLP_GRID",
+          "section": null,
+          "paragraph": null,
+          "table_id": "sustainability-18-08967-t004",
+          "row_1based": 9,
+          "cell_1based": 2,
+          "locator": null
+        },
+        {
+          "evidence_id": "SU_CLIP",
+          "section": "§4.2",
+          "paragraph": 2,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot2-sustainability-18-08967/p2"
+        }
+      ]
+    },
+    {
+      "paper_id": "su",
+      "dimension": "timeline_and_label_maturity",
+      "bounded_finding": "收盘后信息、扩展窗及内选参已有；首次版本和候选官方五会话仍未认证。",
+      "locators": [
+        {
+          "evidence_id": "SU_250",
+          "section": "§4.2",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot2-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_REFIT",
+          "section": "§4.2",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot2-sustainability-18-08967/p1"
+        },
+        {
+          "evidence_id": "SU_NOT_REVISION_ARCHIVE",
+          "section": "§4.1",
+          "paragraph": 2,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot1-sustainability-18-08967/p2"
+        },
+        {
+          "evidence_id": "SU_TERMINAL_LABEL",
+          "section": "§3.3",
+          "paragraph": 2,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec3dot3-sustainability-18-08967/p2"
+        }
+      ]
+    },
+    {
+      "paper_id": "su",
+      "dimension": "supervised_pair_eligibility",
+      "bounded_finding": "共同评分期源已有；作者样本数不能移植到CEA22及原生Q的共同成熟监督资格。",
+      "locators": [
+        {
+          "evidence_id": "SU_TERMINAL_LABEL",
+          "section": "§3.3",
+          "paragraph": 2,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec3dot3-sustainability-18-08967/p2"
+        },
+        {
+          "evidence_id": "SU_COMMON_ORIGINS",
+          "section": "§4.1",
+          "paragraph": 4,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec4dot1-sustainability-18-08967/p4"
+        },
+        {
+          "evidence_id": "SU_ZERO_VENDOR",
+          "section": "§3.1",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec3dot1-sustainability-18-08967/p1"
+        }
+      ]
+    },
+    {
+      "paper_id": "sy",
+      "dimension": "target_field",
+      "bounded_finding": "全国CEA h1/5/10损失尾部分位/VaR/CVaR，不是CEA22报价点预测MSE；具体年度渠道未知。",
+      "locators": [
+        {
+          "evidence_id": "SY_RISK_NOT_POINT",
+          "section": "§2.1",
+          "paragraph": 2,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot1-systems-14-00734/p2"
+        },
+        {
+          "evidence_id": "SY_LOSS_TARGET",
+          "section": "§2.5",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot5-systems-14-00734/p1"
+        },
+        {
+          "evidence_id": "SY_20",
+          "section": "§2.4",
+          "paragraph": 7,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot4-systems-14-00734/p7"
+        }
+      ]
+    },
+    {
+      "paper_id": "sy",
+      "dimension": "information_set",
+      "bounded_finding": "自价量额和流动性消融已有；变量门控不是年度编制权重，披露未列Q不等于数据不含年度信息。",
+      "locators": [
+        {
+          "evidence_id": "SY_RAW_FIELDS",
+          "section": "§2.4",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot4-systems-14-00734/p1"
+        },
+        {
+          "evidence_id": "SY_GATE",
+          "section": "§2.6.3",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot6dot3-systems-14-00734/p1"
+        },
+        {
+          "evidence_id": "SY_ABLATION",
+          "section": "§2.12",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot12-systems-14-00734/p1"
+        }
+      ]
+    },
+    {
+      "paper_id": "sy",
+      "dimension": "quote_trade_state",
+      "bounded_finding": "明确保留无官方成交但有公布收盘；评价期波动中位数分组是回顾诊断，不能作发行时门限。",
+      "locators": [
+        {
+          "evidence_id": "SY_RETAIN_NO_TRADE",
+          "section": "§2.4",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot4-systems-14-00734/p1"
+        },
+        {
+          "evidence_id": "SY_RETRO_MEDIAN",
+          "section": "§2.16",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot16-systems-14-00734/p1"
+        },
+        {
+          "evidence_id": "SY_POLICY_WINDOW",
+          "section": "§2.15",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot15-systems-14-00734/p1"
+        }
+      ]
+    },
+    {
+      "paper_id": "sy",
+      "dimension": "training_and_scoring_loss",
+      "bounded_finding": "多期限多分位pinball加L2；风险评分不证明报价MSE增量，货币化缩放也不是实际利润。",
+      "locators": [
+        {
+          "evidence_id": "SY_PINBALL_TRAIN",
+          "section": "§2.7",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot7-systems-14-00734/p1"
+        },
+        {
+          "evidence_id": "SY_SCORE95",
+          "section": "§2.10.1",
+          "paragraph": 2,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot10dot1-systems-14-00734/p2"
+        },
+        {
+          "evidence_id": "SY_CVAR_SUBSET",
+          "section": "§2.10.3",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot10dot3-systems-14-00734/p1"
+        },
+        {
+          "evidence_id": "SY_NOT_PROFIT",
+          "section": "§3.3",
+          "paragraph": 3,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec3dot3-systems-14-00734/p3"
+        },
+        {
+          "evidence_id": "SY_H5_ER_T7",
+          "section": null,
+          "paragraph": null,
+          "table_id": "systems-14-00734-t007",
+          "row_1based": 21,
+          "cell_1based": 3,
+          "locator": null
+        },
+        {
+          "evidence_id": "SY_H5_ER_T15",
+          "section": null,
+          "paragraph": null,
+          "table_id": "systems-14-00734-t015",
+          "row_1based": 3,
+          "cell_1based": 6,
+          "locator": null
+        },
+        {
+          "evidence_id": "SY_H5_AUPRC_T9",
+          "section": null,
+          "paragraph": null,
+          "table_id": "systems-14-00734-t009",
+          "row_1based": 21,
+          "cell_1based": 8,
+          "locator": null
+        },
+        {
+          "evidence_id": "SY_H5_AUPRC_T15",
+          "section": null,
+          "paragraph": null,
+          "table_id": "systems-14-00734-t015",
+          "row_1based": 3,
+          "cell_1based": 7,
+          "locator": null
+        }
+      ]
+    },
+    {
+      "paper_id": "sy",
+      "dimension": "capacity_and_tuning_budget",
+      "bounded_finding": "TCN模块与信息消融已有；同时间分区不等于同总参数或搜索预算，不能认证本候选容量。",
+      "locators": [
+        {
+          "evidence_id": "SY_TCN",
+          "section": "§2.6.4",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot6dot4-systems-14-00734/p1"
+        },
+        {
+          "evidence_id": "SY_EPOCHS",
+          "section": "§2.7",
+          "paragraph": 4,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot7-systems-14-00734/p4"
+        },
+        {
+          "evidence_id": "SY_ENCODER_CONTROL",
+          "section": "§2.9",
+          "paragraph": 2,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot9-systems-14-00734/p2"
+        },
+        {
+          "evidence_id": "SY_VALIDATION",
+          "section": "§2.7",
+          "paragraph": 5,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot7-systems-14-00734/p5"
+        }
+      ]
+    },
+    {
+      "paper_id": "sy",
+      "dimension": "timeline_and_label_maturity",
+      "bounded_finding": "20步历史、训练标准化、完整期限标签及验证选模已有；各期限共同成熟行细节未知。",
+      "locators": [
+        {
+          "evidence_id": "SY_LABEL_MATURITY",
+          "section": "§2.7",
+          "paragraph": 3,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot7-systems-14-00734/p3"
+        },
+        {
+          "evidence_id": "SY_20",
+          "section": "§2.4",
+          "paragraph": 7,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot4-systems-14-00734/p7"
+        },
+        {
+          "evidence_id": "SY_VALIDATION",
+          "section": "§2.7",
+          "paragraph": 5,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot7-systems-14-00734/p5"
+        },
+        {
+          "evidence_id": "SY_CALENDAR",
+          "section": "§2.4",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot4-systems-14-00734/p1"
+        }
+      ]
+    },
+    {
+      "paper_id": "sy",
+      "dimension": "supervised_pair_eligibility",
+      "bounded_finding": "各期限评分数不同；报价保留规则不认证零成交样本数，也不认证CEA22/Q共同资格。",
+      "locators": [
+        {
+          "evidence_id": "SY_RETAIN_NO_TRADE",
+          "section": "§2.4",
+          "paragraph": 1,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot4-systems-14-00734/p1"
+        },
+        {
+          "evidence_id": "SY_LABEL_MATURITY",
+          "section": "§2.7",
+          "paragraph": 3,
+          "table_id": null,
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "sec2dot7-systems-14-00734/p3"
+        },
+        {
+          "evidence_id": "SY_N",
+          "section": null,
+          "paragraph": null,
+          "table_id": "systems-14-00734-t007",
+          "row_1based": null,
+          "cell_1based": null,
+          "locator": "systems-14-00734-t007/table-wrap-foot"
+        }
+      ]
+    }
+  ],
+  "scope_correction": "Systems.additional_scope误复制Sustainability附录措辞，已经从当前接受范围排除；原子代理收据保留不改写。",
+  "metrics_caveat": "Systems表7/9和表15基准数值存在未解释口径差异；仅定位复核，不判造假，不认证成绩。",
+  "bounded_verdict": {
+    "already_covered": [
+      "无成交公布报价保留",
+      "平价/状态诊断",
+      "信息家族或流动性消融",
+      "时间顺序与RW对照"
+    ],
+    "H1": "保留为待证窄问题；两篇披露结构未证明完整覆盖CEA22/固定Q/共同起点状态/h5/MSE比较，不认证首次或增量。",
+    "H2": "同信息分项监督只作辅助，不创造新信息，不挽救H1失败。",
+    "remaining_unknown": [
+      "通用CEA与CEA22及挂牌渠道映射",
+      "隐含年度综合信息",
+      "完整近邻排除",
+      "本候选共同成熟标签和总预算",
+      "官方会话及首次报价版本"
+    ]
+  },
+  "literature_or_research_or_security_passed": false,
+  "authors_data_or_performance_certified": false,
+  "third_party_fulltext_or_long_quotes_included": false,
+  "new_network_or_training_or_push_performed": false
+}

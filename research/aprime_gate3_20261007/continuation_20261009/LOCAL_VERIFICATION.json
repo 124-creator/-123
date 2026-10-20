@@ -1,0 +1,149 @@
+{
+  "recorded_at": "2026-10-09T11:45:26.085663+08:00",
+  "scope": "current_scope_documents_actual_failures_and_protected_code_only",
+  "document_metadata_checks_passed": true,
+  "school_recognition_required": false,
+  "new_online_source_bodies_obtained": 0,
+  "refused_new_extracts": 5,
+  "failed_new_searches": 3,
+  "four_production_working_and_index_unchanged": [
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+      "working_and_index_unchanged": true
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/test_eligibility.py",
+      "working_and_index_unchanged": true
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/secure_snapshot_reader.py",
+      "working_and_index_unchanged": true
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/test_secure_snapshot_reader.py",
+      "working_and_index_unchanged": true
+    }
+  ],
+  "head_unchanged": true,
+  "staged_diff_unchanged": true,
+  "repository_global_verifier": {
+    "command": "python -B scripts/verify_repository.py",
+    "checked_at": "2026-10-09T11:45:26.085663+08:00",
+    "exit_code": 1,
+    "result": {
+      "files_checked": 102,
+      "passed": false,
+      "errors": [
+        {
+          "file": "START_HERE_6PRO.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/CLAIM_CONTRACT.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/FEASIBILITY_GATE.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/PROMPT_FOR_PRO_REVIEW.txt",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/SCOPE.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/START_HERE.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/results/origin_eligibility.csv",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/results/summary.json",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/test_eligibility.py",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/literature/DIRECT_NEIGHBOR_MATRIX.md",
+          "error_type": "ValueError"
+        }
+      ]
+    },
+    "meaning": "old non-final publication manifest mismatches current local WIP; not source tampering or a published package"
+  },
+  "literature_child_received_and_parent_accepted": true,
+  "official_calendar_certified": false,
+  "software_passed": false,
+  "training_performed": false,
+  "commit_or_push_performed": false,
+  "previous_global_verifier": {
+    "command": "python -B scripts/verify_repository.py",
+    "exit_code": 1,
+    "result": {
+      "files_checked": 102,
+      "passed": false,
+      "errors": [
+        {
+          "file": "START_HERE_6PRO.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/CLAIM_CONTRACT.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/FEASIBILITY_GATE.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/PROMPT_FOR_PRO_REVIEW.txt",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/SCOPE.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/START_HERE.md",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/results/origin_eligibility.csv",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/results/summary.json",
+          "error_type": "ValueError"
+        },
+        {
+          "file": "research/aprime_gate3_20261007/eligibility/test_eligibility.py",
+          "error_type": "ValueError"
+        }
+      ]
+    },
+    "meaning": "global stale non-final publication manifest fails; not a new publication PASS"
+  },
+  "acceptance_scope": "only_local_XML_byte_identity_49_literal_locators_14_bounded_comparisons_and_scope_correction_not_authors_data_or_novelty",
+  "child_receipt_sha256": "4dfa75df9b1d72bc53fa2724d47583618ff865c6e632f3de1466914b9354814a",
+  "parent_acceptance_receipt_sha256": "0481072fe97c71daae60a2e1761a6ca29df9f51e89dc57cb42dac749f2b92927",
+  "literal_locators_verified": 49,
+  "comparisons_verified": 14,
+  "final_scope_checked_at": "2026-10-09T11:46:58.112840+08:00",
+  "final_four_code_and_two_xml_unchanged": true,
+  "final_scope_and_bounded_review_structure_valid": true
+}

@@ -1,0 +1,43 @@
+{
+  "report_kind": "parent_preserved_first_fix_agent_self_report",
+  "received_date": "2026-10-08",
+  "delegation_id": "deleg_93356403",
+  "completion_status": "completed_but_truncated_at_iteration_cap",
+  "api_calls": 50,
+  "original_fix_receipt_delivered": false,
+  "original_receipt_path": "",
+  "claimed_changed_files": [
+    "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+    "research/aprime_gate3_20261007/eligibility/test_eligibility.py"
+  ],
+  "claimed_module_test_results": [
+    {"mode": "normal", "total": 20, "passed": 19, "skipped": 1, "failures": 0, "errors": 0, "exit_code": 0},
+    {"mode": "optimized", "total": 20, "passed": 19, "skipped": 1, "failures": 0, "errors": 0, "exit_code": 0}
+  ],
+  "self_reported_TDD_cases": [
+    "Trusted parser loaded from the audited repository rather than fixture-root source",
+    "Explicit rejection of empty sources",
+    "Explicit coverage of all seven required original.FILES inputs",
+    "Parsing verified byte buffers with Decimal and missing-value semantics",
+    "Explicit rejection of invalid payload, dates, cutoff, duplicates and row width",
+    "Validated byte-buffer parsing unaffected by transient path-content substitution",
+    "Resolved directory boundary rechecked before post-run input reads",
+    "Empty candidate period rejected before creating partial output"
+  ],
+  "agent_claimed_fifteen_read_only_files_unchanged": "Self-report only: eleven originals plus core, trusted parser, source manifest and rules. No complete saved fix receipt was delivered.",
+  "reported_limitations": [
+    "Iteration cap reached before writing fix_receipt.json",
+    "Physical symlink test skipped because current Windows privileges do not permit creating the link",
+    "Whole-worktree difference check found START_HERE_6PRO.md modified by the parent, outside the fix-agent edit scope",
+    "Verified-buffer parsing is not an operating-system directory lock or atomic open guarantee",
+    "No model training, forecasts, dependency installation, commit or push"
+  ],
+  "parent_authority_limits": [
+    "This file preserves the received self-report; it is not the missing agent fix_receipt.json and does not invent its contents or hashes.",
+    "The parent's later integrated normal-mode test run had a real failure in the path-boundary test when fixture paths used Windows8.3 spelling. The earlier module-only green claims do not close that regression.",
+    "The later second fixer is restricted to the test fixture path-identity issue; its result and final independent review must be evaluated separately.",
+    "The parent's REAL_INPUT_RECHECK.json supports its explicitly recorded current real-input runs only, not every agent-reported TDD event or historical execution scope.",
+    "Original prices, official trading-calendar certification, first-public availability, novelty, school CAS eligibility and training permission are not certified by this report."
+  ],
+  "overall_acceptance": "not_granted_by_this_self_report"
+}

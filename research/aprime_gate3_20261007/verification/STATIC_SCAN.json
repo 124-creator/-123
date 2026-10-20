@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-10-08T00:24:27.727538+00:00",
+  "scope": "Added third-round code only; all three files are newly added relative to baseline. Regex categories and Python syntax checked, not a security proof.",
+  "baseline_commit": "cfce35a4d2ddab44df85c0b0e427333810a192bd",
+  "findings": [],
+  "files": [
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/eligibility_core.py",
+      "sha256": "7096cf3b6ecd8432b92d9fed8bc163ad91b46945ff73d4a981816a39eccd0b86",
+      "bytes": 5838
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+      "sha256": "85850123bbf847bf9fc385cfb3a1fc72c3438176ff3543773c62420c64725da5",
+      "bytes": 12680
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/test_eligibility.py",
+      "sha256": "0de234c97b86de90321105be8e44f43b4ad94b4af74045808c485ce24d167d40",
+      "bytes": 23241
+    }
+  ]
+}

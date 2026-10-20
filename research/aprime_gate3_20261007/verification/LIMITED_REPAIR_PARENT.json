@@ -1,0 +1,284 @@
+{
+  "executed_utc": "2026-10-08T02:34:38.249539+00:00",
+  "scope": "Parent verification of the incomplete one-cycle delivery; not the child final receipt or an independent PASS",
+  "software_passed": false,
+  "publication_approved": false,
+  "research_certified": false,
+  "child_iteration_cap": true,
+  "child_complete_receipt_exists": false,
+  "code_versions": {
+    "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py": {
+      "bytes": 14723,
+      "sha256": "eaabdd895458839ba306ff5c8a4efc2b8c95fd6717d97af7cb6120a4bfd4d872"
+    },
+    "research/aprime_gate3_20261007/eligibility/test_eligibility.py": {
+      "bytes": 30308,
+      "sha256": "92fbd0e512369f4e8cbe5d0ccd2a3c6ed8bc3dc89e6cfecd5e5dabdc97c92f0c"
+    },
+    "research/aprime_gate3_20261007/eligibility/secure_snapshot_reader.py": {
+      "bytes": 8988,
+      "sha256": "c4d619701a3830a05f3f3590edaf4d7b5b11958bc91d2185b60d6d7dd367c403"
+    },
+    "research/aprime_gate3_20261007/eligibility/test_secure_snapshot_reader.py": {
+      "bytes": 6489,
+      "sha256": "2927089a66cd22dea93b7ba549162ba711f772beef271cc44eea83207b821617"
+    }
+  },
+  "code_unchanged_during_parent_tests": true,
+  "protected_baseline_count": 122,
+  "protected_changes_since_child_baseline": [
+    {
+      "path": "research/aprime_gate3_20261007/verification/INPUT_READ_DESIGN.md",
+      "baseline": {
+        "bytes": 6052,
+        "sha256": "94a96f1ab9d09797949da3ee4eac2908ff563eb34cf7de4e02e78e06479c3f80"
+      },
+      "current": {
+        "bytes": 6740,
+        "sha256": "36334d0b1ab42b3b885ef00deb59aaa03ebeb17204b33cd703860d0a098c127b"
+      }
+    }
+  ],
+  "protected_changes_during_parent_tests": [],
+  "child_log_count": 19,
+  "child_log_digest_checks": [
+    {
+      "tag": "L2_cutoff_RED",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "L2_cutoff_GREEN",
+      "digest_matches": true,
+      "exit_code": 0,
+      "test_count": 1
+    },
+    {
+      "tag": "L2_rules_RED",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "L2_rules_GREEN",
+      "digest_matches": true,
+      "exit_code": 0,
+      "test_count": 1
+    },
+    {
+      "tag": "S1_initial_junction_RED",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "S1_initial_junction_RED_verified",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "S1_initial_junction_GREEN",
+      "digest_matches": true,
+      "exit_code": 0,
+      "test_count": 4
+    },
+    {
+      "tag": "S1_retained_chain_RED",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "S1_retained_chain_RED_verified",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "S1_retained_chain_GREEN",
+      "digest_matches": true,
+      "exit_code": 0,
+      "test_count": 1
+    },
+    {
+      "tag": "S1_final_path_RED",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "S1_final_path_RED_verified",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "S1_final_path_GREEN",
+      "digest_matches": true,
+      "exit_code": 0,
+      "test_count": 3
+    },
+    {
+      "tag": "S1_relative_open_RED",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "L1_buffer_binding_RED",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "L1_buffer_binding_GREEN",
+      "digest_matches": true,
+      "exit_code": 0,
+      "test_count": 1
+    },
+    {
+      "tag": "L1_persistent_metadata_RED",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "L1_persistent_metadata_RED_verified",
+      "digest_matches": true,
+      "exit_code": 1,
+      "test_count": 1
+    },
+    {
+      "tag": "L1_persistent_metadata_GREEN",
+      "digest_matches": true,
+      "exit_code": 0,
+      "test_count": 1
+    }
+  ],
+  "harness_correction": "Only scratch runner: put repository root on sys.path before collecting. First run had four import-related failures/errors; preserve that actual run. No project source or test assertion was edited.",
+  "production_code_unchanged_after_harness_correction": true,
+  "remaining_blockers": [
+    "S1: held-parent-relative-open contract is not implemented and acceptance test remains failed in both modes",
+    "Current-byte independent review failed; security and logic lists remain nonempty for the same root cause",
+    "Publication not approved; final whitelist/manifest/remote validation deliberately not performed after failed bounded cycle"
+  ],
+  "denied_access": "Child reported private/internal security refusals for NtCreateFile/structure docs; no retry or alternate retrieval authorized/performed by parent",
+  "forecasts_produced": 0,
+  "model_training_ran": false,
+  "parent_runs": [
+    {
+      "mode": "normal",
+      "tests_run": 75,
+      "passed": 73,
+      "failures": [
+        "test_secure_snapshot_reader.SecureReaderTests.test_children_are_opened_relative_to_held_parents_without_full_path_reopens"
+      ],
+      "errors": [],
+      "skips": [
+        {
+          "test": "test_eligibility.SyntheticInputTests.test_required_input_symlink_cannot_escape_the_local_root",
+          "reason": "Symlink privilege unavailable; real escaped-path rejection is tested separately"
+        }
+      ],
+      "exit_code": 1,
+      "log_sha256": "1468a426edf4033b3f428a5d8229f101ce99131140f360abeebeef3c89a42a8f"
+    },
+    {
+      "mode": "optimized",
+      "tests_run": 75,
+      "passed": 73,
+      "failures": [
+        "test_secure_snapshot_reader.SecureReaderTests.test_children_are_opened_relative_to_held_parents_without_full_path_reopens"
+      ],
+      "errors": [],
+      "skips": [
+        {
+          "test": "test_eligibility.SyntheticInputTests.test_required_input_symlink_cannot_escape_the_local_root",
+          "reason": "Symlink privilege unavailable; real escaped-path rejection is tested separately"
+        }
+      ],
+      "exit_code": 1,
+      "log_sha256": "bd95dfe9adb12b1875b1bf7ff2f8fce149897fc5e99e99a17f5f070d3e45654f"
+    }
+  ],
+  "review_status": "completed_failed_parent_verified",
+  "staged_byte_checks": {
+    "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py": {
+      "staged": {
+        "sha256": "eaabdd895458839ba306ff5c8a4efc2b8c95fd6717d97af7cb6120a4bfd4d872",
+        "bytes": 14723
+      },
+      "working_matches_staged": true
+    },
+    "research/aprime_gate3_20261007/eligibility/test_eligibility.py": {
+      "staged": {
+        "sha256": "92fbd0e512369f4e8cbe5d0ccd2a3c6ed8bc3dc89e6cfecd5e5dabdc97c92f0c",
+        "bytes": 30308
+      },
+      "working_matches_staged": true
+    },
+    "research/aprime_gate3_20261007/eligibility/secure_snapshot_reader.py": {
+      "staged": {
+        "sha256": "c4d619701a3830a05f3f3590edaf4d7b5b11958bc91d2185b60d6d7dd367c403",
+        "bytes": 8988
+      },
+      "working_matches_staged": true
+    },
+    "research/aprime_gate3_20261007/eligibility/test_secure_snapshot_reader.py": {
+      "staged": {
+        "sha256": "2927089a66cd22dea93b7ba549162ba711f772beef271cc44eea83207b821617",
+        "bytes": 6489
+      },
+      "working_matches_staged": true
+    }
+  },
+  "local_frozen_originals": {
+    "count": 11,
+    "all_local_directory_files_in_protected_baseline": 13,
+    "auxiliary_local_file_count": 2,
+    "auxiliary_local_files": [
+      "data/local_only/refresh_upload_check/cea_composite_live.json",
+      "data/local_only/refresh_upload_check/fetch_receipt.json"
+    ],
+    "unchanged_against_child_baseline": true,
+    "matches_frozen_manifest": true,
+    "source_manifest_version": {
+      "bytes": 4514,
+      "sha256": "17e84ef45ce92575f2e45e9807b49541cc8bb2e420ccae6f2b5c733834368c21"
+    },
+    "scope": "Manifest-listed frozen originals only; two refresh_upload_check artifacts are excluded. Byte identity, not quote semantics or boundary security."
+  },
+  "real_input_command_test": {
+    "executed_in_parent_normal_and_optimized_suites": true,
+    "result": "passed_no_price_or_forecast_columns",
+    "independent_qualification_recount_receipt_this_cycle": false,
+    "security_certification": false
+  },
+  "initial_harness_run": {
+    "tests_each_mode": 75,
+    "passed_each_mode": 69,
+    "failure_count_each_mode": 3,
+    "error_count_each_mode": 2,
+    "skip_count_each_mode": 1,
+    "disposition": "Four import-related results came from missing repository sys.path in the scratch runner. Preserve original logs, not project regressions. One S1 acceptance failure remains after correcting runner."
+  },
+  "implementation_delegation": "deleg_d1161b63",
+  "review_delegation": "deleg_0db8f699",
+  "counts_checked_utc": "2026-10-08T02:40:56.984790+00:00",
+  "projection_count_correction": "The first draft counted all 13 protected local-directory files as originals. The manifest identifies 11 frozen originals plus 2 refresh_upload_check artifacts; the preliminary README/license explanation was unsupported and is withdrawn. Corrected before publication; no source bytes were changed.",
+  "independent_review_file": "LIMITED_CODE_REVIEW.json",
+  "independent_review_passed": false,
+  "parent_review_readback": {
+    "checked_utc": "2026-10-08T02:50:59.030897+00:00",
+    "original_receipt_version": {
+      "bytes": 42026,
+      "sha256": "6e72006eb7be2352e49441e08e8de1096548c2e9e638c7dcc9baa27a01e60b1c"
+    },
+    "current_code_matches_review_and_index": true,
+    "reviewed_file_count": 4,
+    "test_records_count_checked": true
+  },
+  "automatic_repair_stopped": true
+}

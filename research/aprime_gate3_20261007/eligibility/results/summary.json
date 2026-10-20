@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-07",
+  "executed_utc": "2026-10-08T00:36:15.342472+00:00",
+  "python_version": "3.13.13 (main, May 10 2026, 19:31:06) [MSC v.1944 64 bit (AMD64)]",
+  "model_training_ran": false,
+  "old_scores_used": false,
+  "actual_forecasts_produced": 0,
+  "national_files_parsed": 7,
+  "frozen_files_verified": 11,
+  "source_receipts": [
+    {
+      "filename": "cea_composite_live.json",
+      "sha256": "42806966ff22ba1601e055d086027696946b2a523bc441669ed676d0a919a4b2",
+      "bytes": 69240,
+      "verified_before": true,
+      "verified_after": true
+    },
+    {
+      "filename": "cea_19_20_live.json",
+      "sha256": "4fe62285a1358e88f3637f2d1b5adbfd593e48230858a37077b911c9d5e6c2cf",
+      "bytes": 65969,
+      "verified_before": true,
+      "verified_after": true
+    },
+    {
+      "filename": "cea_vintage_CEA21.json",
+      "sha256": "56259e781c426ab12d4cec25340f9189c0ae0f2daafdb318ca46f70dd8fe24ad",
+      "bytes": 38405,
+      "verified_before": true,
+      "verified_after": true
+    },
+    {
+      "filename": "cea_vintage_CEA22.json",
+      "sha256": "8836482d1b6b25e7578d8accd26e80d1eb55e6f60e134320ad070f275bf4736b",
+      "bytes": 39425,
+      "verified_before": true,
+      "verified_after": true
+    },
+    {
+      "filename": "cea_vintage_CEA23.json",
+      "sha256": "07c28efd3d97c23fba1cc67681647306787e38a9f4ebd392907ca351d274139f",
+      "bytes": 24800,
+      "verified_before": true,
+      "verified_after": true
+    },
+    {
+      "filename": "cea_vintage_CEA24.json",
+      "sha256": "129a7bc3db7e28a92530b8f4a2bd562abac14f1b4d78c28e1a3495a50797a8e5",
+      "bytes": 18220,
+      "verified_before": true,
+      "verified_after": true
+    },
+    {
+      "filename": "cea_vintage_CEA25.json",
+      "sha256": "ae198ae94a240b5366f06a79c41de8e54135850db097c671ac308d3a90f98eb4",
+      "bytes": 9965,
+      "verified_before": true,
+      "verified_after": true
+    },
+    {
+      "filename": "gdea_api_page1.json",
+      "sha256": "c2c2a5fc37687702a35f9d2c851db4b792d37f49577eaba96594a1715e368d30",
+      "bytes": 396080,
+      "verified_before": true,
+      "verified_after": true
+    },
+    {
+      "filename": "gdea_api_page2.json",
+      "sha256": "a9248b65fcb40de8c4b8bd6e99b8f66182c96e26f3c6ca98799ec82079ba5c09",
+      "bytes": 390154,
+      "verified_before": true,
+      "verified_after": true
+    },
+    {
+      "filename": "gdea_api_page3.json",
+      "sha256": "b66be4d28dbf3b7c7b9c2702a1399659fa4c68ba2a30a3049adb84266ae9ba40",
+      "bytes": 325272,
+      "verified_before": true,
+      "verified_after": true
+    },
+    {
+      "filename": "hbea_same_day_snapshot_reused.zip",
+      "sha256": "ad5a96a0839b86df748562e7beb30f1f28800c90a7d869f9c4461a23f76135e7",
+      "bytes": 1646150,
+      "verified_before": true,
+      "verified_after": true
+    }
+  ],
+  "source_manifest_sha256": "17e84ef45ce92575f2e45e9807b49541cc8bb2e420ccae6f2b5c733834368c21",
+  "compilation_rules_sha256": "dee3323e7782cffa0b3c709441c8c61c94f28365eb8ccf5a5e10e1bc7d45e372",
+  "axis_type": "observed_quote_date_union_uncertified",
+  "axis_date_count": 1264,
+  "official_calendar_certified": false,
+  "first_public_versions_certified": false,
+  "session_quote_publication_times_certified": false,
+  "historical_target_selection_used_full_snapshot": true,
+  "research_gate": "pause_for_official_calendar_and_nearest_neighbor_judgment",
+  "protocol_execution_approved": false,
+  "parameters": {
+    "h_axis_steps": 5,
+    "lookback_axis_steps": 20,
+    "minimum_mature_supervised_pairs": 250,
+    "sequential_validation_origins": 80
+  },
+  "training_label_rule": "Common P and C endpoint availability for matched direct/split supervision",
+  "validation_scoring_rule": "P endpoint only; no future C or Q required",
+  "issuance_rule": "Past-complete P/C/Q input, matured shared labels, sequential phase; no future variation/trade filter",
+  "quantity_missing_rule": "Quantity is not an eligibility filter; future training needs explicit missing indicators",
+  "provisional_day_availability_assumption": "A frozen quote is treated as known after its dated session; actual timestamps unverified",
+  "origin_metadata_rows": 1138,
+  "targets": [
+    {
+      "target": "CEA22",
+      "candidate_period_metadata_rows": 569,
+      "phase_counts": {
+        "evaluation": 208,
+        "missing_past_features": 23,
+        "training_warmup": 254,
+        "validation": 80,
+        "wait_validation_labels": 4
+      },
+      "validation_origin_count": 80,
+      "validation_targets_available": true,
+      "first_validation_origin": "2024-10-24",
+      "last_validation_origin": "2025-02-21",
+      "parameter_selection_not_before_date_on_axis": "2025-02-28",
+      "evaluation_issue_eligible_count": 208,
+      "evaluation_scorable_count": 203,
+      "evaluation_unscorable_reasons": {
+        "endpoint_outside_candidate_period": 5
+      },
+      "first_scorable_evaluation_origin": "2025-02-28",
+      "last_scorable_evaluation_origin": "2025-12-24",
+      "scorable_cross_regime_count": 5,
+      "scorable_by_origin_state": {
+        "target_flat_Q_flat_stable_weights": 5,
+        "target_flat_Q_updated_stable_weights": 103,
+        "target_updated_stable_weights": 94,
+        "weight_change_at_origin": 1
+      },
+      "scorable_by_origin_regime": {
+        "2024-10-28": 41,
+        "2025-04-29": 162
+      }
+    },
+    {
+      "target": "CEA21",
+      "candidate_period_metadata_rows": 569,
+      "phase_counts": {
+        "evaluation": 208,
+        "missing_past_features": 23,
+        "training_warmup": 254,
+        "validation": 80,
+        "wait_validation_labels": 4
+      },
+      "validation_origin_count": 80,
+      "validation_targets_available": true,
+      "first_validation_origin": "2024-10-24",
+      "last_validation_origin": "2025-02-21",
+      "parameter_selection_not_before_date_on_axis": "2025-02-28",
+      "evaluation_issue_eligible_count": 208,
+      "evaluation_scorable_count": 203,
+      "evaluation_unscorable_reasons": {
+        "endpoint_outside_candidate_period": 5
+      },
+      "first_scorable_evaluation_origin": "2025-02-28",
+      "last_scorable_evaluation_origin": "2025-12-24",
+      "scorable_cross_regime_count": 5,
+      "scorable_by_origin_state": {
+        "target_flat_Q_flat_stable_weights": 5,
+        "target_flat_Q_updated_stable_weights": 150,
+        "target_updated_stable_weights": 47,
+        "weight_change_at_origin": 1
+      },
+      "scorable_by_origin_regime": {
+        "2024-10-28": 41,
+        "2025-04-29": 162
+      }
+    }
+  ],
+  "public_payload": "Date/qualification/state metadata only; no price, quantity, forecasts or forecast errors"
+}

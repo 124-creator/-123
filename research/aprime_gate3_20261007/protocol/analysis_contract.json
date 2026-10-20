@@ -1,0 +1,46 @@
+{
+  "status": "candidate_not_execution",
+  "primary_comparisons": [
+    {
+      "id": "H1_info",
+      "gain": "1-MSE(GBT_full)/MSE(GBT_own)"
+    },
+    {
+      "id": "RW_guardrail",
+      "gain": "1-MSE(GBT_full)/MSE(RW_P)"
+    }
+  ],
+  "minimum_important_gain_proposal": 0.05,
+  "importance_is_not_economic_savings_or_CAS_rule": true,
+  "familywise_confidence_proposal": 0.95,
+  "per_comparison_two_sided_confidence_bonferroni": 0.975,
+  "bootstrap": {
+    "paired": true,
+    "calendar_contiguous_blocks_not_compressed_origin_rows": true,
+    "main_block_length_sessions": 20,
+    "sensitivity_block_lengths": [
+      10,
+      40
+    ],
+    "replications": 2000,
+    "seed": 20261007,
+    "recompute_MSE_ratio_each_resample": true,
+    "formal_finite_sample_coverage_guaranteed": false
+  },
+  "support_predeclared_important_advantage": "Both adjusted interval lower bounds exceed 0.05 and declared sensitivity does not reverse; still not novelty or publication proof",
+  "exclude_important_H1": "H1_info interval upper bound below 0.05, limited to this protocol",
+  "insufficient_evidence": "Interval spans zero and/or 0.05, sparse groups or dependence sensitivity changes conclusion",
+  "zero_denominator": "Gain undefined; no invented finite gain; report absolute paired loss, do not pass the relative-gain gate",
+  "H2_and_other_models": "Secondary/exploratory; cannot replace primary H1 or choose winners from test errors",
+  "report_all_origin_states": true,
+  "Q_flat_is_not_all_constituents_flat": true,
+  "cross_regime_horizons_retained": true,
+  "monthly_and_cumulative_paired_loss": true,
+  "all_five_nonoverlap_offsets_descriptive_not_independent_replications": true,
+  "CEA21_auxiliary_not_independent_market": true,
+  "no_expanding_models_after_failed_primary": true,
+  "untouched_holdout_claim_allowed": false,
+  "selection_used_full_snapshot_descriptive_information": true,
+  "selective_inference_adjusted": false,
+  "inference_scope": "Conditional exploratory retrospective comparison; intervals do not correct target/protocol selection or certify untouched real-time holdout"
+}

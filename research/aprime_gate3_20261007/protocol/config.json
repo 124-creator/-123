@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "protocol_id": "CEA22-Q-H1-candidate-v1",
+  "status": "fixed_candidate_for_Pro_not_training_approved",
+  "frozen_evidence_date": "2026-10-07",
+  "model_training_authorized": false,
+  "target": "CEA22",
+  "auxiliary_target": "CEA21",
+  "period_start": "2023-08-28",
+  "period_end_exclusive": "2026-01-05",
+  "horizon_official_sessions_required": 5,
+  "current_eligibility_axis": "observed_quote_date_union_uncertified",
+  "lookback_steps": 20,
+  "history_observations_including_origin": 21,
+  "minimum_mature_training_pairs": 250,
+  "sequential_validation_origins": 80,
+  "parameter_selection_after_all_validation_targets_mature": true,
+  "origin_filter": "past_current_only_never_future_price_or_trade",
+  "common_training_endpoint_labels": [
+    "P",
+    "C"
+  ],
+  "primary_scoring_endpoint_required": [
+    "P"
+  ],
+  "label": "P_endpoint-P_origin",
+  "training_loss": "squared_error_common_target_scale",
+  "primary_scoring": "price_level_MSE",
+  "secondary_scoring": [
+    "RMSE_CNY_per_tonne",
+    "MAE_CNY_per_tonne"
+  ],
+  "information_sets": {
+    "Own": [
+      "P_origin and P changes at all 1..20 lags",
+      "common target/Q quote-update flags and capped flat ages",
+      "same effective weights and calendar variables",
+      "target reported quantity with train-only missing handling"
+    ],
+    "Full_extra": [
+      "Q_origin and Q changes at all 1..20 lags"
+    ]
+  },
+  "Q_definition": "Non-target native quotes with current positive compilation weights, normalized; not the complete constituent vector",
+  "quantity_required_for_issuance": false,
+  "refit_frequency_eligible_origins": 20,
+  "evaluation_hyperparameter_updates": false,
+  "seeds": {
+    "primary": 20261007,
+    "sensitivity": [
+      20261008,
+      20261009
+    ],
+    "best_seed_selection": false
+  },
+  "ridge_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "gbdt_grid": {
+    "depth": [
+      1,
+      2,
+      3
+    ],
+    "learning_rate": [
+      0.03,
+      0.1
+    ],
+    "minimum_leaf": [
+      10,
+      25
+    ]
+  },
+  "gbdt_total_trees_direct": 200,
+  "gbdt_trees_each_split_component": 100,
+  "gru_grid": {
+    "hidden_units": [
+      8,
+      16
+    ],
+    "learning_rate": [
+      0.001,
+      0.0003
+    ]
+  },
+  "gru_fixed": {
+    "layers": 1,
+    "epochs": 50,
+    "batch_size": 16,
+    "dropout": 0,
+    "future_validation_early_stopping": false
+  },
+  "pipeline_ids": [
+    "RW_P",
+    "Ridge_own",
+    "Ridge_full",
+    "GBT_own",
+    "GBT_full",
+    "Split_GBT_full",
+    "GRU_own",
+    "GRU_full"
+  ],
+  "primary_H1_comparison": [
+    "GBT_full",
+    "GBT_own"
+  ],
+  "required_RW_guardrail": [
+    "GBT_full",
+    "RW_P"
+  ],
+  "secondary_H2_comparison": [
+    "Split_GBT_full",
+    "GBT_full"
+  ],
+  "negative_control": "Same design/rows/preprocessing/intercept/fixed ridge penalty for direct and C+B; same common target scale, no separate selection",
+  "capacity_claim": "Total tree/leaf bounds and full-pipeline search budget matched; no claim of exact effective capacity or equal fitting procedures",
+  "split_parameter_selection": "Joint candidate selected once by reconstructed total P validation MSE, never separate best C/B",
+  "GRU_role": "Undecomposed robustness comparator required by local three-family baseline convention, not novelty. Pro may recommend removal before any fit; removal needs new registered version.",
+  "finalization_gate": [
+    "Official session axis accepted",
+    "Defensible field and availability scope",
+    "Near-neighbor contribution judgment",
+    "Implementation negative controls",
+    "User explicit new-training authorization"
+  ],
+  "library_versions_locked": false,
+  "proposed_design_not_verified_power": true,
+  "pipeline_grid_counts": {
+    "RW_P": 1,
+    "Ridge_own": 7,
+    "Ridge_full": 7,
+    "GBT_own": 12,
+    "GBT_full": 12,
+    "Split_GBT_full": 12,
+    "GRU_own": 4,
+    "GRU_full": 4
+  },
+  "total_candidate_configurations": 59,
+  "strong_own_reference": {
+    "candidates": [
+      "Ridge_own",
+      "GBT_own",
+      "GRU_own"
+    ],
+    "selection": "Smallest common validation MSE after all labels mature; ties in listed order; freeze before evaluation",
+    "claim_limit_if_not_outperformed": "No general advantage over reasonable own-history predictors; only same-family conditional comparison"
+  }
+}

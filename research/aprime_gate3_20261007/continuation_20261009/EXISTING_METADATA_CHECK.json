@@ -1,0 +1,16 @@
+{
+  "scope": "machine_parse_existing_public_eligibility_metadata_not_raw_prices_not_predictions",
+  "input_path": "research/aprime_gate3_20261007/eligibility/results/origin_eligibility.csv",
+  "bytes": 229692,
+  "sha256": "ed7dc9281b7bff175ac37bd041ec7f501824fd287094c6e2c5323562c3ab32a7",
+  "rows": 1138,
+  "distinct_origin_dates": 569,
+  "distinct_origin_dates_per_year": {
+    "2023": 84,
+    "2024": 242,
+    "2025": 243
+  },
+  "official_calendar_certified": false,
+  "eligibility_recomputed": false,
+  "training_performed": false
+}

@@ -1,0 +1,167 @@
+{
+  "preserved_review_date": "2026-10-08",
+  "delegation_id": "deleg_34e1d579",
+  "passed": false,
+  "original_review": {
+    "passed": false,
+    "security_concerns": [
+      {
+        "id": "S1",
+        "severity": "medium",
+        "location": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py:65-70,164-168; research/aprime_20261007/data/audit_target_feasibility.py:30-34",
+        "finding": "路径边界检查与实际打开文件之间仍有TOCTOU窗口。resolve/is_relative_to之后，verify_frozen_file通过新的Path.read_bytes打开文件，未绑定已检查的文件句柄。",
+        "impact": "若输入目录在运行期间可被并发修改，可在resolve后、read_bytes前把文件或父目录换为指向data/local_only外的symlink/junction，读取外部同校验字节后恢复；前后校验与最终边界复查仍可能通过。SHA256约束内容，不证明实际读取位置始终在授权目录内。",
+        "recommendation": "将边界验证、实际打开和字节校验绑定到同一文件句柄，并限制父目录重解析；Windows应核验实际句柄的最终路径。若采用不可变目录前提，应明确并验证该前提，而非宣称无条件边界保证。",
+        "verification": "static；未执行并发重解析攻击。现有实体symlink测试因权限不足跳过，不能据此认证此条件。"
+      }
+    ],
+    "logic_errors": [
+      {
+        "id": "L1",
+        "severity": "medium",
+        "location": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py:55-58,177-178",
+        "finding": "来源清单及编制规则的报告SHA256没有绑定实际解析的字节：先read_text解析，完成资格计算后另行read_bytes生成摘要。",
+        "impact": "运行中若任一元数据文件改变，报告可以将旧清单/旧权重计算结果与新文件SHA256组合，且未拒绝；收据不能可靠标识本次采用的清单和规则版本。",
+        "recommendation": "一次读取清单和规则的bytes，从同一缓冲区解码解析并计算SHA256；若还要求运行前后不变，再单独复核并在变化时拒绝输出。",
+        "verification": "static；未执行元数据替换场景，现有测试未覆盖该问题。"
+      },
+      {
+        "id": "L2",
+        "severity": "medium",
+        "location": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py:31-44,76-77,171",
+        "finding": "snapshot_date/cutoff未验证为规范ISO日期，却直接用字符串比较执行冻结截止规则，并原样报告为snapshot_date。",
+        "impact": "例如非规范截止值2025-1-2可以按字典序放过2025-09-30的规范观察日期，破坏“不得晚于冻结截止日”的语义；规范校验目前只针对每行观察日期。",
+        "recommendation": "在解析任何报价前，验证cutoff为字符串且date.fromisoformat(cutoff).isoformat()==cutoff，再进行日期比较；补充非规范、无效及非字符串截止值拒绝测试。",
+        "verification": "static；未执行该畸形截止值场景，现有测试只覆盖观察日期而非截止日期的畸形输入。"
+      }
+    ],
+    "suggestions": [
+      {
+        "type": "executed_tests",
+        "blocking": false,
+        "interpreter": "[allowed-scratch Python interpreter]",
+        "working_directory": "./research/aprime_gate3_20261007/eligibility",
+        "commands": [
+          "TMPDIR='[allowed-scratch]' PYTHONDONTWRITEBYTECODE=1 '[allowed-scratch Python interpreter]' -B -m unittest -v test_eligibility.QualificationTests test_eligibility.SyntheticInputTests",
+          "TMPDIR='[allowed-scratch]' PYTHONDONTWRITEBYTECODE=1 '[allowed-scratch Python interpreter]' -O -B -m unittest -v test_eligibility.QualificationTests test_eligibility.SyntheticInputTests"
+        ],
+        "results": "两次均exit_code=0，Ran 19 tests，OK(skipped=1)。跳过的是test_required_input_symlink_cannot_escape_the_local_root；实体symlink权限不足，不计为通过。"
+      },
+      {
+        "type": "limitations",
+        "blocking": false,
+        "details": "未运行RealInputCommandTests、训练、预测、真实原始行情读取、实体junction或并发symlink替换场景；未读取staged结果CSV/JSON、实际来源清单及市场规则文件。可信引用模块只逐行审阅1-76，完整文件仅用于SHA256/bytes计算，合成测试按现有实现导入该可信模块。当前结论不认证真实数据、官方交易轴、发布时间、既有统计结果或未审阅的引用模块其余代码。"
+      },
+      {
+        "type": "nonblocking_test_coverage",
+        "blocking": false,
+        "details": "建议补充验证目标缺失时整段evaluation阻断、validation_count不足、验证终点出候选区间、h大于快照长度以及重复来源清单的明确测试。成熟标签计数、历史窗口、顺序验证和发行/事后评分分离已完整静态审阅；不把未覆盖分支称作执行通过。"
+      },
+      {
+        "type": "tool_execution_note",
+        "blocking": false,
+        "details": "首个独立扫描命令因审查辅助代码引号错误返回SyntaxError，随后用同一工具修正并成功完成。无工具拒绝，无换工具绕过。"
+      }
+    ],
+    "summary": "独立完整读取三文件staged新增diff，确认相对cfce35a4d2ddab44df85c0b0e427333810a192bd均新增且工作树字节与index一致。自行AST及五类新增行安全正则扫描均无命中，但静态发现路径打开竞态、元数据摘要与解析字节脱钩、截止日期未规范校验，故passed=false。来源必需覆盖、报价校验bytes直接解析、空候选期写前拒绝、成熟标签/顺序验证/发行与评分分离及认证false声明在已读范围成立；两个限定测试命令返回成功但各有实体symlink跳过。仅创建scratch审查JSON，未修改仓库、未联网、未读取真实行情、未push。",
+    "reading_scope": [
+      {
+        "path": "research/aprime_gate3_20261007/eligibility/eligibility_core.py",
+        "repo_root": ".",
+        "line_range": [
+          1,
+          124
+        ],
+        "sha256": "7096cf3b6ecd8432b92d9fed8bc163ad91b46945ff73d4a981816a39eccd0b86",
+        "bytes": 5838,
+        "working_matches_staged": true,
+        "staged_sha256": "7096cf3b6ecd8432b92d9fed8bc163ad91b46945ff73d4a981816a39eccd0b86",
+        "staged_bytes": 5838,
+        "method": "git diff --cached --该路径，完整新增行静态审阅及独立AST/正则扫描"
+      },
+      {
+        "path": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+        "line_range": [
+          1,
+          225
+        ],
+        "sha256": "85850123bbf847bf9fc385cfb3a1fc72c3438176ff3543773c62420c64725da5",
+        "bytes": 12680,
+        "working_matches_staged": true,
+        "staged_sha256": "85850123bbf847bf9fc385cfb3a1fc72c3438176ff3543773c62420c64725da5",
+        "staged_bytes": 12680,
+        "method": "git diff --cached --该路径，完整新增行静态审阅及独立AST/正则扫描；另核读30-89、163-205"
+      },
+      {
+        "path": "research/aprime_gate3_20261007/eligibility/test_eligibility.py",
+        "line_range": [
+          1,
+          430
+        ],
+        "sha256": "0de234c97b86de90321105be8e44f43b4ad94b4af74045808c485ce24d167d40",
+        "bytes": 23241,
+        "working_matches_staged": true,
+        "staged_sha256": "0de234c97b86de90321105be8e44f43b4ad94b4af74045808c485ce24d167d40",
+        "staged_bytes": 23241,
+        "method": "git diff --cached --该路径，完整新增行静态审阅及独立AST/正则扫描；仅执行QualificationTests和SyntheticInputTests"
+      },
+      {
+        "path": "research/aprime_20261007/data/audit_target_feasibility.py",
+        "line_range": [
+          1,
+          76
+        ],
+        "sha256": "2cceb8c899560b5d01fccd143c6b57320964179e931f951349f6a5ce887ff2e1",
+        "bytes": 15746,
+        "method": "仅逐行读取1-76；完整文件bytes只作SHA256/长度计算，未将77-315视为已审阅"
+      }
+    ],
+    "receipt_path": "[local-only original review receipt]"
+  },
+  "current_scope_checks": [
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/eligibility_core.py",
+      "bytes": 5838,
+      "current_sha256": "7096cf3b6ecd8432b92d9fed8bc163ad91b46945ff73d4a981816a39eccd0b86",
+      "reviewed_sha256": "7096cf3b6ecd8432b92d9fed8bc163ad91b46945ff73d4a981816a39eccd0b86",
+      "current_matches_reviewed": true
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+      "bytes": 12680,
+      "current_sha256": "85850123bbf847bf9fc385cfb3a1fc72c3438176ff3543773c62420c64725da5",
+      "reviewed_sha256": "85850123bbf847bf9fc385cfb3a1fc72c3438176ff3543773c62420c64725da5",
+      "current_matches_reviewed": true
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/test_eligibility.py",
+      "bytes": 23251,
+      "current_sha256": "8d3fb318eec3d1a98585432eeeac44ab4f597e90b7bb0447a061fd78b0d87497",
+      "reviewed_sha256": "0de234c97b86de90321105be8e44f43b4ad94b4af74045808c485ce24d167d40",
+      "current_matches_reviewed": false
+    },
+    {
+      "path": "research/aprime_20261007/data/audit_target_feasibility.py",
+      "bytes": 15746,
+      "current_sha256": "2cceb8c899560b5d01fccd143c6b57320964179e931f951349f6a5ce887ff2e1",
+      "reviewed_sha256": "2cceb8c899560b5d01fccd143c6b57320964179e931f951349f6a5ce887ff2e1",
+      "current_matches_reviewed": true
+    }
+  ],
+  "parent_disposition": {
+    "accepted_as_pass": false,
+    "unresolved_blocker_ids": [
+      "S1",
+      "L1",
+      "L2"
+    ],
+    "production_core_cli_and_trusted_parser_still_match_failed_review": true,
+    "test_file_changed_by_separate_fixture_fix": true,
+    "current_test_review_status": "Not certified by this older reviewed test hash",
+    "second_fixture_fix_does_not_repair_production_blockers": true,
+    "missed_steer": "The reviewer finished before receiving the parent integrated-test regression notice. Its scoped nineteen-test runs do not close the later parent regression.",
+    "publication_gate": "blocked; no third-round commit or push accepted",
+    "research_gate": "pause",
+    "independent_review_is_not_data_calendar_or_novelty_certification": true
+  }
+}

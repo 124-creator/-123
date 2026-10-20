@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-09T12:48:17.741225+08:00",
+  "scope": "These local documentation artifacts only; not the global publication manifest",
+  "file_count": 5,
+  "files": [
+    {
+      "name": "EVIDENCE_AND_SCOPE.md",
+      "sha256": "98409bd5384e3cd539b3822d76d7ce8c4b8ab9f74ec2e2187fc5c767f2c12006",
+      "bytes": 6288
+    },
+    {
+      "name": "OFFLINE_CACHE_AUDIT.json",
+      "sha256": "b04837dc0747146c63985dcb390275541c5c057bf484be19555f3c8472f4a04d",
+      "bytes": 26098
+    },
+    {
+      "name": "REVIEW_QUESTIONS.txt",
+      "sha256": "0609c24b1eab8fa73cddc9b496547aa475d2881860d6703170daa348396773a3",
+      "bytes": 2217
+    },
+    {
+      "name": "SNAPSHOT_SCOPE_DRAFT.json",
+      "sha256": "0f7a60330b4a1291c07ba07d9940fc38c6724e59f5e60e4aa1e2cbdacbbd199a",
+      "bytes": 4182
+    },
+    {
+      "name": "LOCAL_VERIFICATION.json",
+      "sha256": "466ec041c4636043331f92fbe3ead68456ce038293ef7681a29037dfca97feb7",
+      "bytes": 3077
+    }
+  ]
+}

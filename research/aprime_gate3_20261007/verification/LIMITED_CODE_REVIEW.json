@@ -1,0 +1,393 @@
+{
+  "passed": false,
+  "status": "completed_failed_parent_verified",
+  "review_delegation": "deleg_0db8f699",
+  "review_started_utc": "2026-10-08T02:39:48.023110+00:00",
+  "review_completed_utc": "2026-10-08T02:43:46.706400+00:00",
+  "parent_checked_utc": "2026-10-08T02:50:59.030897+00:00",
+  "original_private_receipt_version": {
+    "bytes": 42026,
+    "sha256": "6e72006eb7be2352e49441e08e8de1096548c2e9e638c7dcc9baa27a01e60b1c"
+  },
+  "publication_approved": false,
+  "research_certified": false,
+  "automatic_repair_stopped": true,
+  "scope": "Four named current staged code files. Remaining staged package material is not certified. Parent verifies source/index bytes, declared complete line coverage, independently stored test result records/counts, and the retained failed verdict.",
+  "security_concerns": [
+    {
+      "id": "S1-RELATIVE-OPEN",
+      "severity": "blocker",
+      "classification": "contract_not_implemented; independently reproduced API-call boundary test failure in ordinary and -O",
+      "file": "research/aprime_gate3_20261007/eligibility/secure_snapshot_reader.py",
+      "lines": [
+        [
+          78,
+          84
+        ],
+        [
+          148,
+          166
+        ]
+      ],
+      "summary": "子节点仍以CreateFileW完整路径打开，不是相对已有父目录句柄逐组件打开；已检查祖先并持锁不能替代授权合同要求的对象相对绑定。",
+      "limits": "This is an implementation/contract mismatch, not evidence that an OS exploit, original tampering or actual path escape occurred."
+    }
+  ],
+  "logic_errors": [
+    {
+      "id": "TEST-RELATIVE-OPEN",
+      "severity": "blocker",
+      "classification": "actually_measured_test_failure",
+      "file": "research/aprime_gate3_20261007/eligibility/test_secure_snapshot_reader.py",
+      "lines": [
+        [
+          60,
+          72
+        ]
+      ],
+      "test_id": "test_secure_snapshot_reader.SecureReaderTests.test_children_are_opened_relative_to_held_parents_without_full_path_reopens",
+      "summary": "普通和-O均存在1个实际失败，不能通过发布门；与S1-RELATIVE-OPEN同一根因。",
+      "limits": "Controlled API boundary assertion on production code; not a successful OS path-escape exploit or stress test."
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "TEST-METADATA-ATTR-SCOPE",
+      "summary": "如未来获得新授权，应补充普通文件系统进程改变属性/EA的明确范围测试，并检查逐组件相对打开实际使用的父对象；本次不继续修复、不访问已拒绝API页面。",
+      "blocking": false
+    }
+  ],
+  "reviewed_files": [
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+      "bytes": 14723,
+      "sha256": "eaabdd895458839ba306ff5c8a4efc2b8c95fd6717d97af7cb6120a4bfd4d872",
+      "working_matches_staged": true,
+      "matches_review": true,
+      "source_scope_complete": true,
+      "diff_scope_complete": true,
+      "declared_source_read_line_ranges": [
+        [
+          1,
+          150
+        ],
+        [
+          151,
+          273
+        ]
+      ],
+      "declared_diff_read_line_ranges": [
+        [
+          1,
+          150
+        ],
+        [
+          151,
+          279
+        ]
+      ]
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/test_eligibility.py",
+      "bytes": 30308,
+      "sha256": "92fbd0e512369f4e8cbe5d0ccd2a3c6ed8bc3dc89e6cfecd5e5dabdc97c92f0c",
+      "working_matches_staged": true,
+      "matches_review": true,
+      "source_scope_complete": true,
+      "diff_scope_complete": true,
+      "declared_source_read_line_ranges": [
+        [
+          1,
+          190
+        ],
+        [
+          191,
+          380
+        ],
+        [
+          381,
+          563
+        ]
+      ],
+      "declared_diff_read_line_ranges": [
+        [
+          1,
+          190
+        ],
+        [
+          191,
+          380
+        ],
+        [
+          381,
+          569
+        ]
+      ]
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/secure_snapshot_reader.py",
+      "bytes": 8988,
+      "sha256": "c4d619701a3830a05f3f3590edaf4d7b5b11958bc91d2185b60d6d7dd367c403",
+      "working_matches_staged": true,
+      "matches_review": true,
+      "source_scope_complete": true,
+      "diff_scope_complete": true,
+      "declared_source_read_line_ranges": [
+        [
+          1,
+          193
+        ]
+      ],
+      "declared_diff_read_line_ranges": [
+        [
+          1,
+          199
+        ]
+      ]
+    },
+    {
+      "path": "research/aprime_gate3_20261007/eligibility/test_secure_snapshot_reader.py",
+      "bytes": 6489,
+      "sha256": "2927089a66cd22dea93b7ba549162ba711f772beef271cc44eea83207b821617",
+      "working_matches_staged": true,
+      "matches_review": true,
+      "source_scope_complete": true,
+      "diff_scope_complete": true,
+      "declared_source_read_line_ranges": [
+        [
+          1,
+          153
+        ]
+      ],
+      "declared_diff_read_line_ranges": [
+        [
+          1,
+          159
+        ]
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "mode": "ordinary",
+      "tests_run": 28,
+      "counts": {
+        "pass": 26,
+        "fail": 1,
+        "error": 0,
+        "skip": 1,
+        "running": 0
+      },
+      "exit_code": 1,
+      "failed_tests": [
+        "test_secure_snapshot_reader.SecureReaderTests.test_children_are_opened_relative_to_held_parents_without_full_path_reopens"
+      ],
+      "skipped_tests": [
+        "test_eligibility.SyntheticInputTests.test_required_input_symlink_cannot_escape_the_local_root"
+      ],
+      "standalone_result_matches": true,
+      "artifact_versions": {
+        "ordinary_tests.json": {
+          "bytes": 9052,
+          "sha256": "f51658ca6a513cf160f3ad0b1e246831fafea35f070f89ee984a85196776f1f4"
+        },
+        "ordinary.stdout.txt": {
+          "bytes": 196,
+          "sha256": "321135d121fd76d3743f2c8d2886461ac758776652c586a74369788adb92d5ab"
+        },
+        "ordinary.stderr.txt": {
+          "bytes": 6556,
+          "sha256": "685f67d9d95c8a9b5a54a57cf59a396186a3a42f9e4cb4a51441265d4666761d"
+        }
+      }
+    },
+    {
+      "mode": "optimized",
+      "tests_run": 28,
+      "counts": {
+        "pass": 26,
+        "fail": 1,
+        "error": 0,
+        "skip": 1,
+        "running": 0
+      },
+      "exit_code": 1,
+      "failed_tests": [
+        "test_secure_snapshot_reader.SecureReaderTests.test_children_are_opened_relative_to_held_parents_without_full_path_reopens"
+      ],
+      "skipped_tests": [
+        "test_eligibility.SyntheticInputTests.test_required_input_symlink_cannot_escape_the_local_root"
+      ],
+      "standalone_result_matches": true,
+      "artifact_versions": {
+        "optimized_tests.json": {
+          "bytes": 9064,
+          "sha256": "d2e9fa581d7d5bc205d722db6b8d2a0b323e411e3195c169020668a0e317fa28"
+        },
+        "optimized.stdout.txt": {
+          "bytes": 196,
+          "sha256": "321135d121fd76d3743f2c8d2886461ac758776652c586a74369788adb92d5ab"
+        },
+        "optimized.stderr.txt": {
+          "bytes": 6556,
+          "sha256": "42f33afb959948eeb8982a947d9e738dfbf998247ac6084a476edcc8e1d97aca"
+        }
+      }
+    }
+  ],
+  "module_test_summary": {
+    "ordinary": {
+      "test_eligibility": {
+        "tests_run": 25,
+        "pass": 24,
+        "fail": 0,
+        "error": 0,
+        "skip": 1
+      },
+      "test_secure_snapshot_reader": {
+        "tests_run": 3,
+        "pass": 2,
+        "fail": 1,
+        "error": 0,
+        "skip": 0
+      }
+    },
+    "optimized": {
+      "test_eligibility": {
+        "tests_run": 25,
+        "pass": 24,
+        "fail": 0,
+        "error": 0,
+        "skip": 1
+      },
+      "test_secure_snapshot_reader": {
+        "tests_run": 3,
+        "pass": 2,
+        "fail": 1,
+        "error": 0,
+        "skip": 0
+      }
+    }
+  },
+  "contract_assessment": {
+    "S1": {
+      "status": "fail",
+      "conforming_observations": [
+        "Runtime Windows/local-fixed-drive/NTFS and same-handle type, reparse, identity, final-path checks implemented.",
+        "ReadFile consumes the inspected leaf handle; no Path read fallback.",
+        "Held ancestor/leaf handles disallow write/delete sharing; the specified scratch rename/replace/write attempts were denied in both modes.",
+        "Initial matching-bytes local-root junction is rejected by the CLI in both modes."
+      ],
+      "blocker": "Child objects still reopened through complete mutable paths, not relative to the held parent object.",
+      "limits": [
+        "Final-handle mismatch test is an API seam, not a performed OS exploit.",
+        "Sharing excludes observed rename/replacement/write attempts only; no complete attributes/EA immutability proof and no kernel/admin resistance certification."
+      ]
+    },
+    "L1": {
+      "status": "verified_in_read_scope_and_existing_tests",
+      "lines": [
+        [
+          88,
+          100
+        ],
+        [
+          208,
+          226
+        ]
+      ],
+      "file": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+      "observations": [
+        "Manifest/rules parse and hash initial identical bytes, including byte length.",
+        "Original quotes parse the same checksum-verified bytes.",
+        "Permanent metadata/source byte changes reject before output; postchecks safely reread and compare.",
+        "Buffer binding and metadata post-change tests passed in ordinary and -O."
+      ],
+      "limits": [
+        "Returned-buffer mocks and deterministic scheduler/parser interleavings are not race-stress or exploit certification.",
+        "Used snapshot bytes are certified only relative to stated source receipts, not original truth or official publication timing."
+      ]
+    },
+    "L2": {
+      "status": "verified_in_read_scope_and_existing_tests",
+      "file": "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py",
+      "lines": [
+        [
+          32,
+          42
+        ],
+        [
+          45,
+          59
+        ],
+        [
+          94,
+          102
+        ]
+      ],
+      "observations": [
+        "cutoff and effective_from/effective_to require exact str valid canonical ISO tokens before comparisons.",
+        "None is accepted only for the declared effective_to open boundary; effective_from and cutoff None rejected.",
+        "Date fields are not repaired or coerced; malformed cutoff and regime-boundary tests passed in both modes."
+      ]
+    }
+  },
+  "static_scan": {
+    "research/aprime_gate3_20261007/eligibility/audit_supervised_eligibility.py": {
+      "added_lines_scanned": 273,
+      "matches": {
+        "hardcoded_secrets": [],
+        "shell_injection": [],
+        "eval_exec": [],
+        "unsafe_deserialization": [],
+        "sql_formatting": []
+      },
+      "ast_parsed": true,
+      "scope": "independently fetched current staged diff against HEAD; new-file full body"
+    },
+    "research/aprime_gate3_20261007/eligibility/test_eligibility.py": {
+      "added_lines_scanned": 563,
+      "matches": {
+        "hardcoded_secrets": [],
+        "shell_injection": [],
+        "eval_exec": [],
+        "unsafe_deserialization": [],
+        "sql_formatting": []
+      },
+      "ast_parsed": true,
+      "scope": "independently fetched current staged diff against HEAD; new-file full body"
+    },
+    "research/aprime_gate3_20261007/eligibility/secure_snapshot_reader.py": {
+      "added_lines_scanned": 193,
+      "matches": {
+        "hardcoded_secrets": [],
+        "shell_injection": [],
+        "eval_exec": [],
+        "unsafe_deserialization": [],
+        "sql_formatting": []
+      },
+      "ast_parsed": true,
+      "scope": "independently fetched current staged diff against HEAD; new-file full body"
+    },
+    "research/aprime_gate3_20261007/eligibility/test_secure_snapshot_reader.py": {
+      "added_lines_scanned": 153,
+      "matches": {
+        "hardcoded_secrets": [],
+        "shell_injection": [],
+        "eval_exec": [],
+        "unsafe_deserialization": [],
+        "sql_formatting": []
+      },
+      "ast_parsed": true,
+      "scope": "independently fetched current staged diff against HEAD; new-file full body"
+    }
+  },
+  "limitations": [
+    "S1 is a demonstrated contract mismatch and failing API-boundary assertion, not a proved real-world path escape or original tampering.",
+    "L1/L2 conform only within this complete read scope and existing tests; that does not clear S1.",
+    "RealInputCommandTests executed and passed in both modes, but does not certify reading boundaries, official calendar, first-public versions, novelty or school journal eligibility.",
+    "Physical symlink privilege skip is not a pass. OS rename/replace/write attempts are deterministic scratch tests; final-path mismatch is a controlled API seam, not an OS exploit or stress certification.",
+    "No external access by the reviewer; no retry of denied targets, package installation, privilege escalation, production repair, commit or push.",
+    "All non-reviewed staged material, historical access-process claims and old standalone parser entry points remain outside this review."
+  ]
+}

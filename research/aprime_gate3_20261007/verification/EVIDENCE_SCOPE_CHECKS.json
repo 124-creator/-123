@@ -1,0 +1,76 @@
+{
+  "checked_utc": "2026-10-08T00:18:35.370837+00:00",
+  "evidence_freeze_date": "2026-10-07",
+  "scope": "Public artifacts read completely; semantic limits and internal counts checked only. Not new primary-source retrieval or raw price authentication.",
+  "neighbor_records": 8,
+  "unique_identifiers": 8,
+  "comparison_axes_per_record": 7,
+  "author_scores_accepted": false,
+  "neighbor_read_scope_counts": {
+    "local_primary_targeted_recheck": 2,
+    "frozen_record_only": 4,
+    "frozen_identity_plus_new_publisher_search_index_only": 1,
+    "parent_supplied_publisher_index_lead_not_retrieved_this_round": 1
+  },
+  "current_cover_to_cover_reads": 0,
+  "qualification_metadata_rows": 1138,
+  "qualification_summary_crosschecks": [
+    {
+      "target": "CEA22",
+      "rows": 569,
+      "phases": {
+        "missing_past_features": 23,
+        "training_warmup": 254,
+        "validation": 80,
+        "wait_validation_labels": 4,
+        "evaluation": 208
+      },
+      "evaluation": 208,
+      "scorable": 203,
+      "unscorable": {
+        "endpoint_outside_candidate_period": 5
+      },
+      "cross_regime": 5,
+      "origin_states": {
+        "target_flat_Q_updated_stable_weights": 103,
+        "target_updated_stable_weights": 94,
+        "target_flat_Q_flat_stable_weights": 5,
+        "weight_change_at_origin": 1
+      }
+    },
+    {
+      "target": "CEA21",
+      "rows": 569,
+      "phases": {
+        "missing_past_features": 23,
+        "training_warmup": 254,
+        "validation": 80,
+        "wait_validation_labels": 4,
+        "evaluation": 208
+      },
+      "evaluation": 208,
+      "scorable": 203,
+      "unscorable": {
+        "endpoint_outside_candidate_period": 5
+      },
+      "cross_regime": 5,
+      "origin_states": {
+        "target_flat_Q_updated_stable_weights": 150,
+        "target_flat_Q_flat_stable_weights": 5,
+        "target_updated_stable_weights": 47,
+        "weight_change_at_origin": 1
+      }
+    }
+  ],
+  "protocol_pipelines": 8,
+  "protocol_candidate_configurations": 59,
+  "calendar_ledger_rows": 15,
+  "calendar_missing_items": 10,
+  "school_material_classes": 6,
+  "source_citation_gate": "blocked_not_authorized_not_retried",
+  "official_calendar_certified": false,
+  "school_CAS_Q3_certified": false,
+  "novelty_certified": false,
+  "actual_forecasts_produced": 0,
+  "research_gate": "pause_for_evidence_and_Pro_judgment"
+}

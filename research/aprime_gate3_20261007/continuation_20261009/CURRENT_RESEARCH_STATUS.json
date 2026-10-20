@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-09T11:45:26.085663+08:00",
+  "research_freeze_cutoff": "2026-10-07",
+  "user_scope_change": {
+    "school_recognition_required": false,
+    "historical_school_records_kept": true,
+    "school_eligibility_certified": false,
+    "school_materials_requested": false
+  },
+  "decision": "continue_evidence_not_training",
+  "official_calendar_certified": false,
+  "calendar_evidence": {
+    "2023_in_sample_holiday_clause": "not_obtained_new_body_denied",
+    "2024_annual_holiday_clauses": "historical_index_fragments_only_new_body_denied",
+    "2025_annual_holiday_clauses": "not_obtained",
+    "2026_newyear_boundary": "not_obtained_new_body_denied",
+    "temporary_closure_completeness": "unknown",
+    "normal_weekday_session_rule_certified": false
+  },
+  "historical_quote_first_versions_certified": false,
+  "real_time_forecast_claim_allowed": false,
+  "frozen_snapshot_retrospective_claim": "candidate_requires_explicit_review_not_automatically_accepted",
+  "production_security_gate": {
+    "passed": false,
+    "remaining": "S1-RELATIVE-OPEN",
+    "L1_L2": "within_final_limited_review_scope_compliant",
+    "new_repair_authorized_or_attempted": false
+  },
+  "literature": {
+    "new_online_scope": "no_new_online_content_received_five_security_denials_three_search_failures",
+    "local_two_xml_review": "accepted_for_limited_source_locators_and_bounded_comparison_with_scope_correction",
+    "all_eight_full_read": false,
+    "novelty_certified": false,
+    "parent_literal_locator_count": 49,
+    "parent_comparison_count": 14,
+    "public_detail_file": "LOCAL_NEIGHBOR_REVIEW.json",
+    "other_six_full_read": false
+  },
+  "training_performed": false,
+  "forecasts_produced": false,
+  "commit_or_push_performed": false,
+  "publication_manifest_finalized": false,
+  "unsupported_access_claims_withdrawn": true
+}

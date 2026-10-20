@@ -1,0 +1,708 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-10-09T12:41:16.112076+08:00",
+  "evidence_freeze_cutoff": "2026-10-07",
+  "scope": "Five offline official-document caches; selected literal clauses and index identities only",
+  "metadata_receipts_checked": 71,
+  "distinct_recorded_urls": 70,
+  "all_metadata_records": [
+    {
+      "source_key": "source_01",
+      "url": "https://overview.cneeex.com/c/2023-08-25/494452.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_02",
+      "url": "https://overview.cneeex.com/c/2024-10-25/495718.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_03",
+      "url": "https://overview.cneeex.com/c/2025-04-28/496173.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_04",
+      "url": "https://overview.cneeex.com/c/2025-12-29/496985.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_05",
+      "url": "https://overview.cneeex.com/c/2021-06-22/491198.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "selected_cached_document"
+    },
+    {
+      "source_key": "source_06",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/t20241021_1089750.html",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_07",
+      "url": "https://www.mee.gov.cn/ywdt/zbft/202410/t20241021_1089827.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_08",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202410/W020241021392230468687.pdf",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_09",
+      "url": "https://onlinelibrary.wiley.com/page/journal/1099131x/homepage/productinformation.html",
+      "http_status_reported": 403,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_10",
+      "url": "https://onlinelibrary.wiley.com/page/journal/1099131x/homepage/forauthors.html",
+      "http_status_reported": 403,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_11",
+      "url": "https://link.springer.com/journal/10614",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_12",
+      "url": "https://link.springer.com/journal/10614/how-to-publish-with-us",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_13",
+      "url": "https://www.tandfonline.com/journals/raec20/about-this-journal",
+      "http_status_reported": 403,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_14",
+      "url": "https://www.tandfonline.com/action/journalInformation?journalCode=raec20&show=editorialBoard",
+      "http_status_reported": 403,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_15",
+      "url": "https://overview.cneeex.com/c/2023-12-29/494963.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "selected_cached_document"
+    },
+    {
+      "source_key": "source_16",
+      "url": "https://overview.cneeex.com/c/2026-01-04/497013.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_17",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202609/t20260903_1165029.html",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_18",
+      "url": "https://www.mee.gov.cn/ywdt/zbft/202511/t20251119_1134197.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_19",
+      "url": "https://www.cneeex.com/",
+      "http_status_reported": 403,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_20",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202609/W020260903551498752549.pdf",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_21",
+      "url": "https://overview.cneeex.com/",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_22",
+      "url": "https://overview.cneeex.com/qgtpfqjy/",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_23",
+      "url": "https://overview.cneeex.com/qgtpfqjy/jysj/",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_24",
+      "url": "https://www.fenqubiao.com/",
+      "http_status_reported": null,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_25",
+      "url": "https://authorservices.taylorandfrancis.com/choose-open/publishing-open-access/open-select/",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_26",
+      "url": "https://overview.cneeex.com/js/EchartTest.js?v=250618",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_27",
+      "url": "https://overview.cneeex.com/qgtpfqjy/jycpjs/",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_28",
+      "url": "https://overview.cneeex.com/qgtpfqjy/gztg/",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "selected_cached_document"
+    },
+    {
+      "source_key": "source_29",
+      "url": "https://overview.cneeex.com/qgtpfqjy/mrgk/",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_30",
+      "url": "https://overview.cneeex.com/c/2026-02-09/497375.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_31",
+      "url": "https://overview.cneeex.com/c/2023-08-25/494451.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_32",
+      "url": "https://overview.cneeex.com/c/2023-08-25/494454.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "selected_cached_document"
+    },
+    {
+      "source_key": "source_33",
+      "url": "https://overview.cneeex.com/qgtpfqjy/jycpjs/",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_34",
+      "url": "https://overview.cneeex.com/qgtpfqjy/jycpjs/index.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_35",
+      "url": "https://overview.cneeex.com/qgtpfqjy/mrgk/2026n/",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_36",
+      "url": "https://overview.cneeex.com/qgtpfqjy/jysj/tjjysj/",
+      "http_status_reported": 404,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_37",
+      "url": "https://overview.cneeex.com/jysj/",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_38",
+      "url": "https://overview.cneeex.com/c/2026-09-30/499065.shtml",
+      "http_status_reported": 404,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_39",
+      "url": "https://overview.cneeex.com/c/2022-06-29/491306.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_40",
+      "url": "https://overview.cneeex.com/qgtpfqjy/gztg/index_2.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "selected_cached_document"
+    },
+    {
+      "source_key": "source_41",
+      "url": "https://www.cneeex.com/sshqt/quotshow.html",
+      "http_status_reported": 403,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_42",
+      "url": "https://overview.cneeex.com/sshqt/quotshow.html",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_43",
+      "url": "https://overview.cneeex.com/c/2026-08-07/498119.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_44",
+      "url": "https://shyx.cneeex.com/",
+      "http_status_reported": 403,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_45",
+      "url": "https://overview.cneeex.com/zhhq/js/kdatatool.min.js?v=1.0.4",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_46",
+      "url": "https://overview.cneeex.com/zhhq/js/klinepage.min.js?v=1.0.5",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_47",
+      "url": "https://overview.cneeex.com/sshqt/jsonData/subject.json",
+      "http_status_reported": 404,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_48",
+      "url": "https://overview.cneeex.com/sshqt/jsonData/hiskline.json",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_49",
+      "url": "https://overview.cneeex.com/sshqt/jsonData/hiskline-CEA25.json",
+      "http_status_reported": 404,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_50",
+      "url": "https://overview.cneeex.com/zhhq/",
+      "http_status_reported": 403,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_51",
+      "url": "https://overview.cneeex.com/zhhq/quotshown.html",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_52",
+      "url": "https://overview.cneeex.com/zhhq/jsonData/subject.json",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_53",
+      "url": "https://overview.cneeex.com/zhhq/jsonData/hiskline.json",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_54",
+      "url": "https://overview.cneeex.com/zhhq/jsonData/hiskline-CEA.json",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_55",
+      "url": "https://overview.cneeex.com/zhhq/jsonData/hiskline-CEA25.json",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_56",
+      "url": "https://overview.cneeex.com/zhhq/js/kdatatool.min.js?v=1.0.6",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_57",
+      "url": "https://overview.cneeex.com/zhhq/js/eklinepage.min.js?v=1.0.8",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_58",
+      "url": "https://overview.cneeex.com/zhhq/jsonData/hiskline-CEA21.json",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_59",
+      "url": "https://overview.cneeex.com/zhhq/jsonData/hiskline-CEA22.json",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_60",
+      "url": "https://overview.cneeex.com/zhhq/jsonData/hiskline-CEA23.json",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_61",
+      "url": "https://overview.cneeex.com/zhhq/jsonData/hiskline-CEA24.json",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_62",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202511/W020251118634892868994.pdf",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_63",
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202402/t20240205_1065850.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_64",
+      "url": "https://shyx.cneeex.com/qdata.html?1786087641134",
+      "http_status_reported": 403,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_65",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk06/202602/t20260209_1143900.html",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_66",
+      "url": "https://overview.cneeex.com/qgtpfqjy/mrgk/2026n/index_9.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_67",
+      "url": "https://overview.cneeex.com/qgtpfqjy/mrgk/2026n/index_8.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_68",
+      "url": "https://overview.cneeex.com/c/2026-02-13/497385.shtml",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_69",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202511/t20251118_1134175.html",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_70",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202303/t20230315_1019707.html",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    },
+    {
+      "source_key": "source_71",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk13/202311/t20231106_1055186.html",
+      "http_status_reported": 200,
+      "body_scope_in_this_audit": "not_selected_metadata_only"
+    }
+  ],
+  "cached_documents_checked": 5,
+  "documents": [
+    {
+      "source_key": "source_05",
+      "existing_source_id": 5,
+      "url": "https://overview.cneeex.com/c/2021-06-22/491198.shtml",
+      "title": "关于全国碳排放权交易相关事项的公告-上海环境能源交易所",
+      "raw_cache_name": "source_05.html",
+      "sha256": "64eb1fdd2450890dd1c15f7c0571775f8fcc1431f36376e6abbfa5d2746293a9",
+      "bytes": 36834,
+      "matches_recorded_bytes": true,
+      "retrieved_at_reported_in_legacy_receipt": "2026-10-07T14:50:45.932992+08:00",
+      "legacy_retrieval_route_and_timestamp_newly_certified": false,
+      "new_network_request_made": false,
+      "full_body_redistributed": false
+    },
+    {
+      "source_key": "source_15",
+      "existing_source_id": 15,
+      "url": "https://overview.cneeex.com/c/2023-12-29/494963.shtml",
+      "title": "2023全国碳市场运行情况一览-上海环境能源交易所",
+      "raw_cache_name": "source_15.html",
+      "sha256": "5a090b7b78a15e0f1c63e1e46fd0e2550492fce37b401811b828366f66ec95b9",
+      "bytes": 33108,
+      "matches_recorded_bytes": true,
+      "retrieved_at_reported_in_legacy_receipt": "2026-10-07T14:51:34.400033+08:00",
+      "legacy_retrieval_route_and_timestamp_newly_certified": false,
+      "new_network_request_made": false,
+      "full_body_redistributed": false
+    },
+    {
+      "source_key": "source_28",
+      "existing_source_id": 28,
+      "url": "https://overview.cneeex.com/qgtpfqjy/gztg/",
+      "title": "规则通告-上海环境能源交易所",
+      "raw_cache_name": "source_28.html",
+      "sha256": "ed74e01d831a96781cd29178da10054b0d2c7ac43ef4a5f0e0f84534fe532017",
+      "bytes": 33272,
+      "matches_recorded_bytes": true,
+      "retrieved_at_reported_in_legacy_receipt": "2026-10-07T14:52:50.687419+08:00",
+      "legacy_retrieval_route_and_timestamp_newly_certified": false,
+      "new_network_request_made": false,
+      "full_body_redistributed": false
+    },
+    {
+      "source_key": "source_32",
+      "existing_source_id": 32,
+      "url": "https://overview.cneeex.com/c/2023-08-25/494454.shtml",
+      "title": "关于全国碳排放权交易信息发布的公告-上海环境能源交易所",
+      "raw_cache_name": "source_32.html",
+      "sha256": "ab83677b98caff72ea2a58af7140c2a0440a86df0dbbf0f87b7a597cbe458863",
+      "bytes": 31934,
+      "matches_recorded_bytes": true,
+      "retrieved_at_reported_in_legacy_receipt": "2026-10-07T14:53:09.631672+08:00",
+      "legacy_retrieval_route_and_timestamp_newly_certified": false,
+      "new_network_request_made": false,
+      "full_body_redistributed": false
+    },
+    {
+      "source_key": "source_40",
+      "existing_source_id": 39,
+      "url": "https://overview.cneeex.com/qgtpfqjy/gztg/index_2.shtml",
+      "title": "规则通告-上海环境能源交易所",
+      "raw_cache_name": "source_40.html",
+      "sha256": "73d14d9621d2ee7970551d4b9b11d7860e380d6d3eb517f389d9e8d01dd861d5",
+      "bytes": 29141,
+      "matches_recorded_bytes": true,
+      "retrieved_at_reported_in_legacy_receipt": "2026-10-07T14:53:39.314766+08:00",
+      "legacy_retrieval_route_and_timestamp_newly_certified": false,
+      "new_network_request_made": false,
+      "full_body_redistributed": false
+    }
+  ],
+  "literal_clauses_checked": 8,
+  "clauses": [
+    {
+      "id": "normal_hours",
+      "source_key": "source_05",
+      "literal": "每周一至周五上午9:30-11:30、下午13:00至15:00",
+      "locator": "三、交易时段",
+      "literal_found_in_raw_HTML_text": true,
+      "scope_limit": "C01_partial_content_only"
+    },
+    {
+      "id": "holiday_exceptions",
+      "source_key": "source_05",
+      "literal": "除法定节假日及交易机构公告的休市日外",
+      "locator": "三、交易时段",
+      "literal_found_in_raw_HTML_text": true,
+      "scope_limit": "C01_partial_content_only"
+    },
+    {
+      "id": "listing_close",
+      "source_key": "source_05",
+      "literal": "收盘价为当日挂牌协议交易所有成交的加权平均价。",
+      "locator": "二（一）挂牌协议交易",
+      "literal_found_in_raw_HTML_text": true,
+      "scope_limit": "pricing_channel_scope_only"
+    },
+    {
+      "id": "carry_close",
+      "source_key": "source_05",
+      "literal": "当日无成交的，以上一个交易日的收盘价为当日收盘价。",
+      "locator": "二（一）挂牌协议交易",
+      "literal_found_in_raw_HTML_text": true,
+      "scope_limit": "not_daily_trade_authentication"
+    },
+    {
+      "id": "daily_publication",
+      "source_key": "source_32",
+      "literal": "交易机构在每个交易日通过官方网站（www.cneeex.com）",
+      "locator": "二",
+      "literal_found_in_raw_HTML_text": true,
+      "scope_limit": "no_historical_intraday_time_or_versions"
+    },
+    {
+      "id": "composite_fields",
+      "source_key": "source_32",
+      "literal": "全国碳市场综合价格行情包括：开盘价、最新价、收盘价等综合价格行情相关信息。",
+      "locator": "二",
+      "literal_found_in_raw_HTML_text": true,
+      "scope_limit": "does_not_specify_historical_vintage_close_availability"
+    },
+    {
+      "id": "annual_transaction_fields",
+      "source_key": "source_32",
+      "literal": "成交数量、成交金额等各年度碳排放配额交易相关信息。",
+      "locator": "二",
+      "literal_found_in_raw_HTML_text": true,
+      "scope_limit": "transactions_not_individual_vintage_close_timestamps"
+    },
+    {
+      "id": "annual_2023_count",
+      "source_key": "source_15",
+      "literal": "全国碳市场共运行242个交易日。",
+      "locator": "2023年度市场总体情况",
+      "literal_found_in_raw_HTML_text": true,
+      "scope_limit": "annual_total_not_daily_axis"
+    }
+  ],
+  "deduplicated_notice_identities": 7,
+  "index_notices": [
+    {
+      "url": "https://overview.cneeex.com/c/2025-12-24/496961.shtml",
+      "title": "关于全国碳排放权交易市场2026年全年休市安排的通知",
+      "index_listing_date": "2025-12-24",
+      "index_listing_dates_observed": [
+        "2025-12-24"
+      ],
+      "index_source_key": "source_28",
+      "index_raw_html_lines": [
+        501,
+        502
+      ],
+      "notice_body_received_in_this_step": false,
+      "historical_first_public_timestamp": null
+    },
+    {
+      "url": "https://overview.cneeex.com/c/2024-12-30/495869.shtml",
+      "title": "关于全国碳排放权交易市场2025年全年休市安排的通知",
+      "index_listing_date": "2024-12-30",
+      "index_listing_dates_observed": [
+        "2024-12-30"
+      ],
+      "index_source_key": "source_28",
+      "index_raw_html_lines": [
+        513,
+        514
+      ],
+      "notice_body_received_in_this_step": false,
+      "historical_first_public_timestamp": null
+    },
+    {
+      "url": "https://overview.cneeex.com/c/2024-06-06/495321.shtml",
+      "title": "关于全国碳排放权交易市场2024年端午节休市安排的公告",
+      "index_listing_date": "2024-06-07",
+      "index_listing_dates_observed": [
+        "2024-06-07"
+      ],
+      "index_source_key": "source_28",
+      "index_raw_html_lines": [
+        519,
+        520
+      ],
+      "notice_body_received_in_this_step": false,
+      "historical_first_public_timestamp": null
+    },
+    {
+      "url": "https://overview.cneeex.com/c/2023-12-28/494959.shtml",
+      "title": "关于全国碳排放权交易市场2024年全年休市安排的通知",
+      "index_listing_date": "2024-01-03",
+      "index_listing_dates_observed": [
+        "2024-01-03"
+      ],
+      "index_source_key": "source_28",
+      "index_raw_html_lines": [
+        522,
+        523
+      ],
+      "notice_body_received_in_this_step": false,
+      "historical_first_public_timestamp": null
+    },
+    {
+      "url": "https://overview.cneeex.com/c/2023-04-03/493920.shtml",
+      "title": "关于全国碳排放权交易市场2023年清明节休市安排的公告",
+      "index_listing_date": "2023-04-03",
+      "index_listing_dates_observed": [
+        "2023-04-03"
+      ],
+      "index_source_key": "source_28",
+      "index_raw_html_lines": [
+        534,
+        535
+      ],
+      "notice_body_received_in_this_step": false,
+      "historical_first_public_timestamp": null
+    },
+    {
+      "url": "https://overview.cneeex.com/c/2022-12-20/493562.shtml",
+      "title": "关于全国碳排放权交易市场2023年全年休市安排的通知",
+      "index_listing_date": "2022-12-20",
+      "index_listing_dates_observed": [
+        "2022-12-20"
+      ],
+      "index_source_key": "source_40",
+      "index_raw_html_lines": [
+        492,
+        493
+      ],
+      "notice_body_received_in_this_step": false,
+      "historical_first_public_timestamp": null
+    },
+    {
+      "url": "https://overview.cneeex.com/c/2021-12-24/491785.shtml",
+      "title": "关于全国碳排放权交易市场2022年全年休市安排的通知",
+      "index_listing_date": "2021-12-24",
+      "index_listing_dates_observed": [
+        "2021-12-24"
+      ],
+      "index_source_key": "source_40",
+      "index_raw_html_lines": [
+        501,
+        502
+      ],
+      "notice_body_received_in_this_step": false,
+      "historical_first_public_timestamp": null
+    }
+  ],
+  "scope_gates": {
+    "C01_existing_normal_rule_body_located": true,
+    "C01_continuous_sample_applicability_verified": false,
+    "C04_2025_notice_identity_found": true,
+    "C04_2025_notice_body_obtained": false,
+    "official_calendar_certified": false,
+    "historical_first_versions_certified": false,
+    "initial_new_vintage_price_rule_certified": false,
+    "daily_channel_trade_states_certified": false,
+    "real_time_forecast_claim_allowed": false,
+    "production_security_passed": false,
+    "model_training_authorized": false,
+    "new_network_requests": 0
+  },
+  "not_certified": [
+    "Legacy source-access route, original acquisition timestamp and first historical version",
+    "No missing temporary or revised closure notices",
+    "Daily session membership from annual totals or index titles",
+    "Intraday historical vintage-quote release times from publication frequency",
+    "Source authenticity from SHA256 alone",
+    "Production snapshot-reader security"
+  ],
+  "market_price_panels_opened": false,
+  "author_or_old_experiment_code_run": false
+}
